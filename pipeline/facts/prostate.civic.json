@@ -1,0 +1,700 @@
+{
+  "source": "CIViC (Clinical Interpretation of Variants in Cancer)",
+  "api": "https://civicdb.org/api/graphql",
+  "licence": "CC0",
+  "disease": "Prostate Cancer",
+  "total_reported": 89,
+  "n_fetched": 89,
+  "status_rule": "best_level and best_predictive_level count ACCEPTED items only; *_submitted names a higher level held only by items still pending editor review",
+  "level_key": {
+    "A": "validated association (practice / guidelines)",
+    "B": "clinical evidence (trial or primary patient data)",
+    "C": "case study",
+    "D": "preclinical",
+    "E": "inferential"
+  },
+  "genes": {
+    "AR": {
+      "n_evidence_items": 23,
+      "n_accepted": 9,
+      "best_level": "B",
+      "best_predictive_level": "B",
+      "levels": {
+        "B": 18,
+        "D": 4,
+        "E": 1
+      },
+      "evidence_types": {
+        "ONCOGENIC": 4,
+        "PREDICTIVE": 17,
+        "PROGNOSTIC": 2
+      },
+      "top_therapies": [
+        "Enzalutamide",
+        "Abiraterone",
+        "Bicalutamide",
+        "Flutamide",
+        "Cyproterone Acetate",
+        "Nilutamide"
+      ],
+      "pmids": [
+        "26000489",
+        "28473535",
+        "30865549",
+        "26188394",
+        "28384066",
+        "24882673",
+        "31289619",
+        "26181238",
+        "31180178",
+        "30209161",
+        "30301829",
+        "31932493"
+      ]
+    },
+    "BRCA2": {
+      "n_evidence_items": 11,
+      "n_accepted": 3,
+      "best_level": "B",
+      "best_predictive_level": "B",
+      "best_level_submitted": "A",
+      "best_predictive_level_submitted": "A",
+      "levels": {
+        "A": 2,
+        "B": 5,
+        "D": 4
+      },
+      "evidence_types": {
+        "PREDICTIVE": 10,
+        "PROGNOSTIC": 1
+      },
+      "top_therapies": [
+        "Olaparib",
+        "Dasatinib",
+        "Talazoparib",
+        "Cisplatin",
+        "Bosutinib"
+      ],
+      "pmids": [
+        "37963304",
+        "26510020",
+        "23569316",
+        "30797618",
+        "36753688",
+        "33334906"
+      ]
+    },
+    "BRCA1": {
+      "n_evidence_items": 8,
+      "n_accepted": 3,
+      "best_level": "B",
+      "best_predictive_level": "B",
+      "best_level_submitted": "A",
+      "best_predictive_level_submitted": "A",
+      "levels": {
+        "A": 2,
+        "B": 4,
+        "C": 2
+      },
+      "evidence_types": {
+        "PREDICTIVE": 6,
+        "PREDISPOSING": 1,
+        "PROGNOSTIC": 1
+      },
+      "top_therapies": [
+        "Olaparib"
+      ],
+      "pmids": [
+        "37963304",
+        "23569316",
+        "30797618",
+        "36753688",
+        "22516946",
+        "26510020"
+      ]
+    },
+    "PTEN": {
+      "n_evidence_items": 5,
+      "n_accepted": 3,
+      "best_level": "B",
+      "best_predictive_level": "B",
+      "levels": {
+        "B": 4,
+        "D": 1
+      },
+      "evidence_types": {
+        "PREDICTIVE": 4,
+        "PROGNOSTIC": 1
+      },
+      "top_therapies": [
+        "Ipatasertib",
+        "Everolimus",
+        "Temsirolimus"
+      ],
+      "pmids": [
+        "27470558",
+        "30037818",
+        "34246347",
+        "23582881",
+        "11504908"
+      ]
+    },
+    "ATM": {
+      "n_evidence_items": 5,
+      "n_accepted": 3,
+      "best_level": "C",
+      "best_predictive_level": "C",
+      "best_level_submitted": "B",
+      "best_predictive_level_submitted": "B",
+      "levels": {
+        "B": 2,
+        "C": 3
+      },
+      "evidence_types": {
+        "PREDICTIVE": 5
+      },
+      "top_therapies": [
+        "Olaparib"
+      ],
+      "pmids": [
+        "30797618",
+        "26510020"
+      ]
+    },
+    "CHEK2": {
+      "n_evidence_items": 3,
+      "n_accepted": 3,
+      "best_level": "B",
+      "best_predictive_level": null,
+      "levels": {
+        "B": 3
+      },
+      "evidence_types": {
+        "PREDISPOSING": 3
+      },
+      "top_therapies": [],
+      "pmids": [
+        "26629066"
+      ]
+    },
+    "IGF2": {
+      "n_evidence_items": 3,
+      "n_accepted": 2,
+      "best_level": "D",
+      "best_predictive_level": "D",
+      "levels": {
+        "D": 3
+      },
+      "evidence_types": {
+        "PREDICTIVE": 3
+      },
+      "top_therapies": [
+        "Linsitinib",
+        "Cabazitaxel",
+        "Docetaxel"
+      ],
+      "pmids": [
+        "25670080"
+      ]
+    },
+    "HOXB13": {
+      "n_evidence_items": 2,
+      "n_accepted": 2,
+      "best_level": "B",
+      "best_predictive_level": null,
+      "levels": {
+        "B": 2
+      },
+      "evidence_types": {
+        "PREDISPOSING": 2
+      },
+      "top_therapies": [],
+      "pmids": [
+        "26108461",
+        "27626483"
+      ]
+    },
+    "TSPYL1": {
+      "n_evidence_items": 2,
+      "n_accepted": 0,
+      "best_level": null,
+      "best_predictive_level": null,
+      "best_level_submitted": "B",
+      "best_predictive_level_submitted": "B",
+      "levels": {
+        "B": 1,
+        "D": 1
+      },
+      "evidence_types": {
+        "PREDICTIVE": 2
+      },
+      "top_therapies": [
+        "Abiraterone",
+        "Prednisone"
+      ],
+      "pmids": [
+        "29027195"
+      ]
+    },
+    "SMAD4": {
+      "n_evidence_items": 2,
+      "n_accepted": 0,
+      "best_level": null,
+      "best_predictive_level": null,
+      "best_level_submitted": "B",
+      "levels": {
+        "B": 2
+      },
+      "evidence_types": {
+        "PROGNOSTIC": 2
+      },
+      "top_therapies": [],
+      "pmids": [
+        "29329157",
+        "24272204"
+      ]
+    },
+    "CDK12": {
+      "n_evidence_items": 2,
+      "n_accepted": 0,
+      "best_level": null,
+      "best_predictive_level": null,
+      "best_level_submitted": "B",
+      "best_predictive_level_submitted": "B",
+      "levels": {
+        "B": 1,
+        "D": 1
+      },
+      "evidence_types": {
+        "PREDICTIVE": 2
+      },
+      "top_therapies": [
+        "Olaparib",
+        "Rucaparib",
+        "Talazoparib",
+        "Veliparib"
+      ],
+      "pmids": [
+        "39321214"
+      ]
+    },
+    "EPHB2": {
+      "n_evidence_items": 2,
+      "n_accepted": 0,
+      "best_level": null,
+      "best_predictive_level": null,
+      "best_level_submitted": "B",
+      "levels": {
+        "B": 2
+      },
+      "evidence_types": {
+        "DIAGNOSTIC": 2
+      },
+      "top_therapies": [],
+      "pmids": [
+        "21603658",
+        "15300251"
+      ]
+    },
+    "PALB2": {
+      "n_evidence_items": 2,
+      "n_accepted": 1,
+      "best_level": "C",
+      "best_predictive_level": "C",
+      "best_level_submitted": "B",
+      "best_predictive_level_submitted": "B",
+      "levels": {
+        "B": 1,
+        "C": 1
+      },
+      "evidence_types": {
+        "PREDICTIVE": 2
+      },
+      "top_therapies": [
+        "Olaparib"
+      ],
+      "pmids": [
+        "26510020"
+      ]
+    },
+    "FGF13": {
+      "n_evidence_items": 1,
+      "n_accepted": 1,
+      "best_level": "B",
+      "best_predictive_level": null,
+      "levels": {
+        "B": 1
+      },
+      "evidence_types": {
+        "PROGNOSTIC": 1
+      },
+      "top_therapies": [],
+      "pmids": [
+        "26891277"
+      ]
+    },
+    "MKI67": {
+      "n_evidence_items": 1,
+      "n_accepted": 1,
+      "best_level": "B",
+      "best_predictive_level": null,
+      "levels": {
+        "B": 1
+      },
+      "evidence_types": {
+        "PROGNOSTIC": 1
+      },
+      "top_therapies": [],
+      "pmids": [
+        "23329234"
+      ]
+    },
+    "ETV4": {
+      "n_evidence_items": 1,
+      "n_accepted": 1,
+      "best_level": "B",
+      "best_predictive_level": null,
+      "levels": {
+        "B": 1
+      },
+      "evidence_types": {
+        "PROGNOSTIC": 1
+      },
+      "top_therapies": [],
+      "pmids": [
+        "25544710"
+      ]
+    },
+    "TGFBR3": {
+      "n_evidence_items": 1,
+      "n_accepted": 0,
+      "best_level": null,
+      "best_predictive_level": null,
+      "best_level_submitted": "B",
+      "levels": {
+        "B": 1
+      },
+      "evidence_types": {
+        "DIAGNOSTIC": 1
+      },
+      "top_therapies": [],
+      "pmids": [
+        "23265383"
+      ]
+    },
+    "TACSTD2": {
+      "n_evidence_items": 1,
+      "n_accepted": 0,
+      "best_level": null,
+      "best_predictive_level": null,
+      "best_level_submitted": "B",
+      "levels": {
+        "B": 1
+      },
+      "evidence_types": {
+        "PROGNOSTIC": 1
+      },
+      "top_therapies": [],
+      "pmids": [
+        "31932422"
+      ]
+    },
+    "ESR2": {
+      "n_evidence_items": 1,
+      "n_accepted": 0,
+      "best_level": null,
+      "best_predictive_level": null,
+      "best_level_submitted": "B",
+      "levels": {
+        "B": 1
+      },
+      "evidence_types": {
+        "PROGNOSTIC": 1
+      },
+      "top_therapies": [],
+      "pmids": [
+        "20501637"
+      ]
+    },
+    "DEFA1": {
+      "n_evidence_items": 1,
+      "n_accepted": 1,
+      "best_level": "B",
+      "best_predictive_level": "B",
+      "levels": {
+        "B": 1
+      },
+      "evidence_types": {
+        "PREDICTIVE": 1
+      },
+      "top_therapies": [
+        "Docetaxel"
+      ],
+      "pmids": [
+        "26261420"
+      ]
+    },
+    "MRE11": {
+      "n_evidence_items": 1,
+      "n_accepted": 1,
+      "best_level": "B",
+      "best_predictive_level": "B",
+      "levels": {
+        "B": 1
+      },
+      "evidence_types": {
+        "PREDICTIVE": 1
+      },
+      "top_therapies": [
+        "Olaparib"
+      ],
+      "pmids": [
+        "26510020"
+      ]
+    },
+    "FANCA": {
+      "n_evidence_items": 1,
+      "n_accepted": 0,
+      "best_level": null,
+      "best_predictive_level": null,
+      "best_level_submitted": "C",
+      "best_predictive_level_submitted": "C",
+      "levels": {
+        "C": 1
+      },
+      "evidence_types": {
+        "PREDICTIVE": 1
+      },
+      "top_therapies": [
+        "Cisplatin"
+      ],
+      "pmids": [
+        "26181256"
+      ]
+    },
+    "TMPRSS2": {
+      "n_evidence_items": 1,
+      "n_accepted": 0,
+      "best_level": null,
+      "best_predictive_level": null,
+      "best_level_submitted": "C",
+      "levels": {
+        "C": 1
+      },
+      "evidence_types": {
+        "DIAGNOSTIC": 1
+      },
+      "top_therapies": [],
+      "pmids": [
+        "16254181"
+      ]
+    },
+    "ETV1": {
+      "n_evidence_items": 1,
+      "n_accepted": 0,
+      "best_level": null,
+      "best_predictive_level": null,
+      "best_level_submitted": "C",
+      "levels": {
+        "C": 1
+      },
+      "evidence_types": {
+        "DIAGNOSTIC": 1
+      },
+      "top_therapies": [],
+      "pmids": [
+        "16254181"
+      ]
+    },
+    "AKT2": {
+      "n_evidence_items": 1,
+      "n_accepted": 0,
+      "best_level": null,
+      "best_predictive_level": null,
+      "best_level_submitted": "C",
+      "best_predictive_level_submitted": "C",
+      "levels": {
+        "C": 1
+      },
+      "evidence_types": {
+        "PREDICTIVE": 1
+      },
+      "top_therapies": [
+        "Capivasertib"
+      ],
+      "pmids": [
+        "35440569"
+      ]
+    },
+    "TYMS": {
+      "n_evidence_items": 1,
+      "n_accepted": 1,
+      "best_level": "C",
+      "best_predictive_level": "C",
+      "levels": {
+        "C": 1
+      },
+      "evidence_types": {
+        "PREDICTIVE": 1
+      },
+      "top_therapies": [
+        "Pemetrexed"
+      ],
+      "pmids": [
+        "24782778"
+      ]
+    },
+    "IRS2": {
+      "n_evidence_items": 1,
+      "n_accepted": 0,
+      "best_level": null,
+      "best_predictive_level": null,
+      "best_level_submitted": "C",
+      "best_predictive_level_submitted": "C",
+      "levels": {
+        "C": 1
+      },
+      "evidence_types": {
+        "PREDICTIVE": 1
+      },
+      "top_therapies": [
+        "Capivasertib"
+      ],
+      "pmids": [
+        "35440569"
+      ]
+    },
+    "CFLAR": {
+      "n_evidence_items": 1,
+      "n_accepted": 1,
+      "best_level": "D",
+      "best_predictive_level": "D",
+      "levels": {
+        "D": 1
+      },
+      "evidence_types": {
+        "PREDICTIVE": 1
+      },
+      "top_therapies": [
+        "Bicalutamide"
+      ],
+      "pmids": [
+        "22623731"
+      ]
+    },
+    "GAS6": {
+      "n_evidence_items": 1,
+      "n_accepted": 1,
+      "best_level": "D",
+      "best_predictive_level": "D",
+      "levels": {
+        "D": 1
+      },
+      "evidence_types": {
+        "PREDICTIVE": 1
+      },
+      "top_therapies": [
+        "Docetaxel"
+      ],
+      "pmids": [
+        "27153245"
+      ]
+    },
+    "CD44": {
+      "n_evidence_items": 1,
+      "n_accepted": 0,
+      "best_level": null,
+      "best_predictive_level": null,
+      "best_level_submitted": "D",
+      "best_predictive_level_submitted": "D",
+      "levels": {
+        "D": 1
+      },
+      "evidence_types": {
+        "PREDICTIVE": 1
+      },
+      "top_therapies": [
+        "Docetaxel"
+      ],
+      "pmids": [
+        "32642575"
+      ]
+    },
+    "KDM5D": {
+      "n_evidence_items": 1,
+      "n_accepted": 0,
+      "best_level": null,
+      "best_predictive_level": null,
+      "best_level_submitted": "D",
+      "best_predictive_level_submitted": "D",
+      "levels": {
+        "D": 1
+      },
+      "evidence_types": {
+        "PREDICTIVE": 1
+      },
+      "top_therapies": [
+        "Berzosertib"
+      ],
+      "pmids": [
+        "29863497"
+      ]
+    },
+    "STK11": {
+      "n_evidence_items": 1,
+      "n_accepted": 1,
+      "best_level": "D",
+      "best_predictive_level": "D",
+      "levels": {
+        "D": 1
+      },
+      "evidence_types": {
+        "PREDICTIVE": 1
+      },
+      "top_therapies": [
+        "SB202190"
+      ],
+      "pmids": [
+        "26391455"
+      ]
+    },
+    "KRT18": {
+      "n_evidence_items": 1,
+      "n_accepted": 1,
+      "best_level": "D",
+      "best_predictive_level": null,
+      "levels": {
+        "D": 1
+      },
+      "evidence_types": {
+        "PROGNOSTIC": 1
+      },
+      "top_therapies": [],
+      "pmids": [
+        "26892177"
+      ]
+    },
+    "KMT2D": {
+      "n_evidence_items": 1,
+      "n_accepted": 0,
+      "best_level": null,
+      "best_predictive_level": null,
+      "best_level_submitted": "D",
+      "best_predictive_level_submitted": "D",
+      "levels": {
+        "D": 1
+      },
+      "evidence_types": {
+        "PREDICTIVE": 1
+      },
+      "top_therapies": [
+        "Doxorubicin",
+        "Olaparib",
+        "Carboplatin"
+      ],
+      "pmids": [
+        "31232159"
+      ]
+    }
+  }
+}

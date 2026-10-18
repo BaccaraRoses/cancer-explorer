@@ -1,0 +1,117 @@
+<html>
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=11">
+<title>cancer-explorer validator</title>
+<HTA:APPLICATION ID="validateApp" APPLICATIONNAME="cxvalidate" SHOWINTASKBAR="no" WINDOWSTATE="minimize" />
+</head>
+<body>
+<!--
+  tools/validate.hta -- the in-browser validator, run without a browser or Node.
+
+    set CX_VALIDATE_OUT=C:\...\out.json
+    mshta.exe C:\...\tools\validate.hta
+
+  The output path travels in an environment variable because IE11 document
+  mode hides the HTA element's commandLine (it reads as undefined).
+
+  Loads js/glossary.js, js/validate.js, js/facts.js and every data/*.js that
+  index.html loads, in index.html's order, then does what explorer.js boot does
+  before validating: merge the facts overlay, attach the targets and literature
+  overlays, run Validate.dataset(). Writes one JSON object (UTF-8, with a BOM)
+  to CX_VALIDATE_OUT; mshta has no stdout.
+
+  tools/verify.py runs this; call it directly only to debug. Keep every string
+  literal in this file ASCII: the page has no charset, so a non-ASCII literal
+  decodes differently from the UTF-8 sources it evals.
+
+  No error may reach a modal dialog -- nobody is there to dismiss it, and the
+  process would hang until the caller kills it. window.onerror swallows, and
+  every stage is wrapped.
+-->
+<script type="text/javascript">
+var RESULT = { ok: false, root: null, loaded: [], load_errors: [], datasets: [], harness_error: null };
+var OUTFILE = null;
+
+window.onerror = function (msg, url, line) {
+  RESULT.load_errors.push("uncaught: " + msg + " (line " + line + ")");
+  return true;
+};
+
+function readFile(p) {
+  var st = new ActiveXObject("ADODB.Stream");
+  st.Type = 2; st.Charset = "utf-8"; st.Open(); st.LoadFromFile(p);
+  var t = st.ReadText(); st.Close(); return t;
+}
+function writeFile(p, s) {
+  var st = new ActiveXObject("ADODB.Stream");
+  st.Type = 2; st.Charset = "utf-8"; st.Open(); st.WriteText(s); st.SaveToFile(p, 2); st.Close();
+}
+function finish() {
+  try { if (OUTFILE) writeFile(OUTFILE, JSON.stringify(RESULT)); } catch (e) { }
+  window.close();
+}
+
+var SOURCES = [];
+try {
+  OUTFILE = new ActiveXObject("WScript.Shell").ExpandEnvironmentStrings("%CX_VALIDATE_OUT%");
+  if (OUTFILE === "%CX_VALIDATE_OUT%") OUTFILE = null;
+  var here = decodeURIComponent(window.location.pathname).replace(/^\/+/, "").replace(/\//g, "\\");
+  RESULT.root = here.substring(0, here.lastIndexOf("\\tools\\") + 1);
+  var html = readFile(RESULT.root + "index.html");
+  var re = /<script\s+src="([^"]+)"/g, m;
+  while ((m = re.exec(html))) {
+    var src = m[1];
+    /* layouts, render and explorer need a DOM; this harness stubs the registry
+       explorer.js would install. */
+    if (/^js\/(glossary|validate|facts)\.js$/.test(src) || /^data\/[^\/]+\.js$/.test(src)) SOURCES.push(src);
+  }
+  if (!OUTFILE) RESULT.harness_error = "CX_VALIDATE_OUT is not set";
+} catch (e) {
+  RESULT.harness_error = "setup: " + e.message;
+}
+
+var REGISTERED = [];
+window.CancerExplorer = { register: function (d) { REGISTERED.push(d); } };
+</script>
+<script type="text/javascript">
+/* Global scope on purpose: eval inside a function breaks each file's IIFE `this`. */
+for (var si = 0; si < SOURCES.length && !RESULT.harness_error; si++) {
+  try {
+    eval(readFile(RESULT.root + SOURCES[si].replace(/\//g, "\\")));
+    RESULT.loaded.push(SOURCES[si]);
+  } catch (e) {
+    RESULT.load_errors.push(SOURCES[si] + ": " + e.message);
+  }
+}
+</script>
+<script type="text/javascript">
+(function () {
+  try {
+    if (RESULT.harness_error) return;
+    if (typeof Validate === "undefined") { RESULT.harness_error = "js/validate.js did not define Validate"; return; }
+    for (var i = 0; i < REGISTERED.length; i++) {
+      var ds = REGISTERED[i];
+      if (typeof Facts !== "undefined") Facts.apply(ds);
+      var tt = (window.CancerExplorerTargets || {})[ds.id];
+      if (tt) ds.targetData = tt;
+      var lt = (window.CancerExplorerLiterature || {})[ds.id];
+      if (lt) ds.literatureData = lt;
+      var r = Validate.dataset(ds);
+      RESULT.datasets.push({
+        id: ds.id,
+        errors: r.errors,
+        warnings: r.warnings,
+        checkable: (r.stats || {}).checkable || null,
+        counts: { nodes: (r.stats || {}).nodes, drivers: (r.stats || {}).drivers },
+        overlays: { targets: !!tt, literature: !!lt }
+      });
+    }
+    RESULT.ok = true;
+  } catch (e) {
+    RESULT.harness_error = "validate: " + e.message;
+  }
+})();
+finish();
+</script>
+</body>
+</html>

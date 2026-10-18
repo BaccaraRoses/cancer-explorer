@@ -1,0 +1,993 @@
+{
+  "cancer": "breast",
+  "cohort": {
+    "id": "brca_tcga_pub",
+    "name": "Breast Invasive Carcinoma (TCGA, Nature 2012)",
+    "citation": "TCGA, Nature 2012",
+    "pmid": "23000897",
+    "n_samples": 825,
+    "n_patients": 825
+  },
+  "hand_counts": {
+    "nodes": 46,
+    "drivers": 116
+  },
+  "comparisons": [
+    {
+      "node": "her2-enriched",
+      "gene": "APOBEC",
+      "metric": "mutation",
+      "hand": 40.0,
+      "computed": null,
+      "n": null,
+      "of": null,
+      "alt": null,
+      "delta": null,
+      "verdict": "NOT COMPUTED",
+      "note": "a mutational signature, not a gene \u2014 no per-gene frequency exists"
+    },
+    {
+      "node": "normal-like",
+      "gene": "TP53",
+      "metric": "mutation",
+      "hand": 15.0,
+      "computed": 50.0,
+      "n": 4,
+      "of": 8,
+      "alt": null,
+      "delta": -35.0,
+      "verdict": "LOW N",
+      "note": "denominator 8 < 20; computed % is not meaningful"
+    },
+    {
+      "node": "basal-like",
+      "gene": "MYC",
+      "metric": "amplification",
+      "hand": 40.0,
+      "computed": 31.5,
+      "n": 29,
+      "of": 92,
+      "alt": null,
+      "delta": 8.5,
+      "verdict": "CLOSE",
+      "note": ""
+    },
+    {
+      "node": "luminal-a",
+      "gene": "CDH1",
+      "metric": "mutation",
+      "hand": 12.0,
+      "computed": 10.3,
+      "n": 23,
+      "of": 224,
+      "alt": null,
+      "delta": 1.7,
+      "verdict": "MATCH",
+      "note": ""
+    },
+    {
+      "node": "basal-like",
+      "gene": "PIK3CA",
+      "metric": "mutation",
+      "hand": 7.0,
+      "computed": 8.6,
+      "n": 8,
+      "of": 93,
+      "alt": null,
+      "delta": -1.6,
+      "verdict": "MATCH",
+      "note": ""
+    },
+    {
+      "node": "her2-enriched",
+      "gene": "PIK3CA",
+      "metric": "mutation",
+      "hand": 42.0,
+      "computed": 40.4,
+      "n": 23,
+      "of": 57,
+      "alt": null,
+      "delta": 1.6,
+      "verdict": "MATCH",
+      "note": ""
+    },
+    {
+      "node": "luminal-a",
+      "gene": "PIK3CA",
+      "metric": "mutation",
+      "hand": 45.0,
+      "computed": 46.4,
+      "n": 104,
+      "of": 224,
+      "alt": null,
+      "delta": -1.4,
+      "verdict": "MATCH",
+      "note": ""
+    },
+    {
+      "node": "basal-like",
+      "gene": "TP53",
+      "metric": "mutation",
+      "hand": 84.0,
+      "computed": 82.8,
+      "n": 77,
+      "of": 93,
+      "alt": null,
+      "delta": 1.2,
+      "verdict": "MATCH",
+      "note": ""
+    },
+    {
+      "node": "her2-enriched",
+      "gene": "PIK3R1",
+      "metric": "mutation",
+      "hand": 8.0,
+      "computed": 7.0,
+      "n": 4,
+      "of": 57,
+      "alt": null,
+      "delta": 1.0,
+      "verdict": "MATCH",
+      "note": ""
+    },
+    {
+      "node": "luminal-b",
+      "gene": "MDM2",
+      "metric": "amplification",
+      "hand": 10.0,
+      "computed": 9.0,
+      "n": 11,
+      "of": 122,
+      "alt": null,
+      "delta": 1.0,
+      "verdict": "MATCH",
+      "note": ""
+    },
+    {
+      "node": "luminal-a",
+      "gene": "MAP2K4",
+      "metric": "mutation",
+      "hand": 8.0,
+      "computed": 7.1,
+      "n": 16,
+      "of": 224,
+      "alt": null,
+      "delta": 0.9,
+      "verdict": "MATCH",
+      "note": ""
+    },
+    {
+      "node": "basal-like",
+      "gene": "INPP4B",
+      "metric": "any_loss",
+      "hand": 30.0,
+      "computed": 29.3,
+      "n": 27,
+      "of": 92,
+      "alt": "deep-deletion-only 0.0%",
+      "delta": 0.7,
+      "verdict": "MATCH",
+      "note": ""
+    },
+    {
+      "node": "luminal-a",
+      "gene": "MAP3K1",
+      "metric": "mutation",
+      "hand": 14.0,
+      "computed": 13.4,
+      "n": 30,
+      "of": 224,
+      "alt": null,
+      "delta": 0.6,
+      "verdict": "MATCH",
+      "note": ""
+    },
+    {
+      "node": "luminal-b",
+      "gene": "TP53",
+      "metric": "mutation",
+      "hand": 32.0,
+      "computed": 31.5,
+      "n": 39,
+      "of": 124,
+      "alt": null,
+      "delta": 0.5,
+      "verdict": "MATCH",
+      "note": ""
+    },
+    {
+      "node": "luminal-b",
+      "gene": "PIK3CA",
+      "metric": "mutation",
+      "hand": 32.0,
+      "computed": 31.5,
+      "n": 39,
+      "of": 124,
+      "alt": null,
+      "delta": 0.5,
+      "verdict": "MATCH",
+      "note": ""
+    },
+    {
+      "node": "basal-like",
+      "gene": "BRCA1/2",
+      "metric": "mutation",
+      "hand": 20.0,
+      "computed": 20.4,
+      "n": 19,
+      "of": 93,
+      "alt": null,
+      "delta": -0.4,
+      "verdict": "MATCH",
+      "note": "hand value counts germline+somatic; cBioPortal mutation calls are somatic only"
+    },
+    {
+      "node": "her2-enriched",
+      "gene": "TP53",
+      "metric": "mutation",
+      "hand": 75.0,
+      "computed": 75.4,
+      "n": 43,
+      "of": 57,
+      "alt": null,
+      "delta": -0.4,
+      "verdict": "MATCH",
+      "note": ""
+    },
+    {
+      "node": "luminal-a",
+      "gene": "GATA3",
+      "metric": "mutation",
+      "hand": 14.0,
+      "computed": 14.3,
+      "n": 32,
+      "of": 224,
+      "alt": null,
+      "delta": -0.3,
+      "verdict": "MATCH",
+      "note": ""
+    },
+    {
+      "node": "luminal-b",
+      "gene": "GATA3",
+      "metric": "mutation",
+      "hand": 15.0,
+      "computed": 15.3,
+      "n": 19,
+      "of": 124,
+      "alt": null,
+      "delta": -0.3,
+      "verdict": "MATCH",
+      "note": ""
+    },
+    {
+      "node": "basal-like",
+      "gene": "PTEN",
+      "metric": "any_loss",
+      "hand": 35.0,
+      "computed": 34.8,
+      "n": 32,
+      "of": 92,
+      "alt": "deep-deletion-only 5.4%",
+      "delta": 0.2,
+      "verdict": "MATCH",
+      "note": ""
+    },
+    {
+      "node": "her2-enriched",
+      "gene": "ERBB2",
+      "metric": "amplification",
+      "hand": 71.0,
+      "computed": 70.9,
+      "n": 39,
+      "of": 55,
+      "alt": null,
+      "delta": 0.1,
+      "verdict": "MATCH",
+      "note": ""
+    },
+    {
+      "node": "luminal-a",
+      "gene": "TP53",
+      "metric": "mutation",
+      "hand": 12.0,
+      "computed": 12.1,
+      "n": 27,
+      "of": 224,
+      "alt": null,
+      "delta": -0.1,
+      "verdict": "MATCH",
+      "note": ""
+    },
+    {
+      "node": "basal-like",
+      "gene": "RB1",
+      "metric": "deep_deletion",
+      "hand": 6.5,
+      "computed": 6.5,
+      "n": 6,
+      "of": 92,
+      "alt": "incl. hemizygous 43.5%",
+      "delta": 0.0,
+      "verdict": "MATCH",
+      "note": ""
+    },
+    {
+      "node": "state-early",
+      "gene": "TP53",
+      "metric": "mutation",
+      "hand": 37.5,
+      "computed": 37.5,
+      "n": 190,
+      "of": 507,
+      "alt": null,
+      "delta": 0.0,
+      "verdict": "MATCH",
+      "note": ""
+    },
+    {
+      "node": "state-early",
+      "gene": "PIK3CA",
+      "metric": "mutation",
+      "hand": 35.3,
+      "computed": 35.3,
+      "n": 179,
+      "of": 507,
+      "alt": null,
+      "delta": 0.0,
+      "verdict": "MATCH",
+      "note": ""
+    },
+    {
+      "node": "state-early",
+      "gene": "ESR1",
+      "metric": "mutation",
+      "hand": 0.4,
+      "computed": 0.4,
+      "n": 2,
+      "of": 507,
+      "alt": null,
+      "delta": 0.0,
+      "verdict": "MATCH",
+      "note": ""
+    },
+    {
+      "node": "state-early",
+      "gene": "ERBB2",
+      "metric": "mutation",
+      "hand": 1.4,
+      "computed": 1.4,
+      "n": 7,
+      "of": 507,
+      "alt": null,
+      "delta": 0.0,
+      "verdict": "MATCH",
+      "note": ""
+    },
+    {
+      "node": "state-metastatic",
+      "gene": "ESR1",
+      "metric": "mutation",
+      "hand": 13.0,
+      "computed": 13.0,
+      "n": 118,
+      "of": 905,
+      "alt": null,
+      "delta": 0.0,
+      "verdict": "MATCH",
+      "note": ""
+    },
+    {
+      "node": "state-metastatic",
+      "gene": "TP53",
+      "metric": "mutation",
+      "hand": 39.0,
+      "computed": 39.0,
+      "n": 353,
+      "of": 905,
+      "alt": null,
+      "delta": 0.0,
+      "verdict": "MATCH",
+      "note": ""
+    },
+    {
+      "node": "state-metastatic",
+      "gene": "PIK3CA",
+      "metric": "mutation",
+      "hand": 35.9,
+      "computed": 35.9,
+      "n": 325,
+      "of": 905,
+      "alt": null,
+      "delta": 0.0,
+      "verdict": "MATCH",
+      "note": ""
+    },
+    {
+      "node": "state-metastatic",
+      "gene": "ERBB2",
+      "metric": "mutation",
+      "hand": 5.4,
+      "computed": 5.4,
+      "n": 49,
+      "of": 905,
+      "alt": null,
+      "delta": 0.0,
+      "verdict": "MATCH",
+      "note": ""
+    }
+  ],
+  "quoted_counts": [
+    {
+      "node": "state-metastatic",
+      "quoted": "16.7% (112 of 672)",
+      "pct": 16.7,
+      "n": 112,
+      "of": 672,
+      "computed": 16.7,
+      "matched": "contrast: HR+ metastases \u00b7 ESR1 mutation",
+      "verdict": "MATCH"
+    },
+    {
+      "node": "state-metastatic",
+      "quoted": "2.4% (19 of 777)",
+      "pct": 2.4,
+      "n": 19,
+      "of": 777,
+      "computed": 2.4,
+      "matched": "contrast: Same study, HR+ primary tumours \u00b7 ESR1 mutation",
+      "verdict": "MATCH"
+    },
+    {
+      "node": "state-metastatic",
+      "quoted": "2.0% of women whose sample was taken before any treatment (3 of 147)",
+      "pct": 2.0,
+      "n": 3,
+      "of": 147,
+      "computed": 2.0,
+      "matched": "contrast: MBCproject, sampled before any treatment \u00b7 ESR1 mutation",
+      "verdict": "MATCH"
+    },
+    {
+      "node": "state-metastatic",
+      "quoted": "16.8% of women whose sample was taken after it (20 of 119)",
+      "pct": 16.8,
+      "n": 20,
+      "of": 119,
+      "computed": 16.8,
+      "matched": "contrast: MBCproject, sampled after treatment \u00b7 ESR1 mutation",
+      "verdict": "MATCH"
+    }
+  ],
+  "prevalence": [
+    {
+      "node": "hr-pos-her2-neg",
+      "seer_label": "HR+/HER2-",
+      "hand": 70.1,
+      "seer": 70.1,
+      "delta": 0.0,
+      "verdict": "MATCH",
+      "note": ""
+    },
+    {
+      "node": "tnbc",
+      "seer_label": "HR-/HER2-",
+      "hand": 10.8,
+      "seer": 10.8,
+      "delta": 0.0,
+      "verdict": "MATCH",
+      "note": ""
+    },
+    {
+      "node": "triple-positive",
+      "seer_label": "HR+/HER2+",
+      "hand": 9.3,
+      "seer": 9.3,
+      "delta": 0.0,
+      "verdict": "MATCH",
+      "note": ""
+    },
+    {
+      "node": "her2-pos-hr-neg",
+      "seer_label": "HR-/HER2+",
+      "hand": 4.0,
+      "seer": 4.0,
+      "delta": 0.0,
+      "verdict": "MATCH",
+      "note": ""
+    }
+  ],
+  "druggability": [
+    {
+      "gene": "CD274 (PD-L1)",
+      "resolved_as": "CD274",
+      "marked_druggable": true,
+      "civic_best_level": "B",
+      "civic_best_predictive_level": null,
+      "civic_pending_predictive_level": "B",
+      "civic_predictive": false,
+      "civic_items": 4,
+      "verdict": "UNSUPPORTED",
+      "note": "matched CIViC as CD274; no accepted predictive evidence in CIViC for breast cancer \u2014 may be druggable in principle rather than in practice; pending CIViC items, not yet accepted by an editor, reach level B"
+    },
+    {
+      "gene": "EGFR",
+      "resolved_as": "EGFR",
+      "marked_druggable": true,
+      "civic_best_level": null,
+      "civic_best_predictive_level": null,
+      "civic_pending_predictive_level": "C",
+      "civic_predictive": false,
+      "civic_items": 2,
+      "verdict": "UNSUPPORTED",
+      "note": "no accepted predictive evidence in CIViC for breast cancer \u2014 may be druggable in principle rather than in practice; pending CIViC items, not yet accepted by an editor, reach level C"
+    },
+    {
+      "gene": "MET",
+      "resolved_as": "MET",
+      "marked_druggable": true,
+      "civic_best_level": null,
+      "civic_best_predictive_level": null,
+      "civic_pending_predictive_level": null,
+      "civic_predictive": false,
+      "civic_items": 0,
+      "verdict": "UNSUPPORTED",
+      "note": "no accepted predictive evidence in CIViC for breast cancer \u2014 may be druggable in principle rather than in practice"
+    },
+    {
+      "gene": "TACSTD2 (TROP2)",
+      "resolved_as": "TACSTD2",
+      "marked_druggable": true,
+      "civic_best_level": null,
+      "civic_best_predictive_level": null,
+      "civic_pending_predictive_level": "B",
+      "civic_predictive": false,
+      "civic_items": 1,
+      "verdict": "UNSUPPORTED",
+      "note": "matched CIViC as TACSTD2; no accepted predictive evidence in CIViC for breast cancer \u2014 may be druggable in principle rather than in practice; pending CIViC items, not yet accepted by an editor, reach level B"
+    },
+    {
+      "gene": "CCND1",
+      "resolved_as": "CCND1",
+      "marked_druggable": false,
+      "civic_best_level": "B",
+      "civic_best_predictive_level": "B",
+      "civic_pending_predictive_level": null,
+      "civic_predictive": true,
+      "civic_items": 5,
+      "verdict": "REVIEWED",
+      "note": "both level-B items are about tamoxifen rather than about hitting cyclin D1: CCND1 overexpression predicting RESISTANCE to tamoxifen (EID 856; PMID 15138475 says so in its title, and reports that the 46 strongly ER-positive, cyclin-D1-overexpressing tumours of 167 showed no survival difference between tamoxifen and no treatment) and CCND1 amplification failing to predict it in MA.12 (EID 858, DOES_NOT_SUPPORT; PMID 24367492, \"no statistically significant interaction with treatment was observed\", CCND1 copy number measured in 442 patients). The only item about a CDK4/6 inhibitor is level D, in cell lines (EID 1562; PMID 19874578, a panel of 47 breast cancer cell lines treated with palbociclib). The page keeps CCND1 as an unflagged oncogene, and the Targets lens already shows it under 'Reached only through a partner', via CDK4 and CDK6"
+    },
+    {
+      "gene": "RB1",
+      "resolved_as": "RB1",
+      "marked_druggable": false,
+      "civic_best_level": "B",
+      "civic_best_predictive_level": "B",
+      "civic_pending_predictive_level": null,
+      "civic_predictive": true,
+      "civic_items": 9,
+      "verdict": "REVIEWED",
+      "note": "both level-B items predict RESISTANCE -- RB1 phosphorylation with alpelisib (EID 1609; PMID 25002028, which calls the drug BYL719 and reports that responding tumours suppressed phospho-Rb while non-responders sustained it), and RB1 mutation among the alterations selected on palbociclib plus fulvestrant in PALOMA-3 (EID 12045; PMID 30206110, \"RB1 mutations emerged only in the palbociclib plus fulvestrant arm ... 6/127, 4.7%\") -- as does the level-C item, RB1 mutations emerging after CDK4/6 inhibition (EID 6097, SUBMITTED; PMID 29236940, three patients). That is what the page already says: the CDK4 target card calls RB1 a negative biomarker rather than a target, and the Targets lens lists it under 'Altered often, nothing against it'"
+    },
+    {
+      "gene": "TP53",
+      "resolved_as": "TP53",
+      "marked_druggable": false,
+      "civic_best_level": "B",
+      "civic_best_predictive_level": "B",
+      "civic_pending_predictive_level": null,
+      "civic_predictive": true,
+      "civic_items": 19,
+      "verdict": "REVIEWED",
+      "note": "each of the three level-B items selects an older drug on TP53 status, and two of the three are the paper's own: DNA-binding-domain (EID 2783) and L3-domain (EID 3036, SUBMITTED) mutations predicting RESISTANCE to tamoxifen, PMID 10786679 reporting that tumours mutated in codons that directly contact DNA, or in the zinc-binding L3 loop, had the lowest response to tamoxifen (18% and 15%, against 66% for wild type). The third, R249 predicting response to doxorubicin, is **the item's and not the paper's** (EID 399, \"more responsive to doxorubicin than breast tumors with wild type TP53\"): PMID 9569050 names no therapy in its abstract, which reports relapse-free and overall survival only, and Europe PMC's PMC2150115 record is flagged is-scanned, its body served as page images with no text layer, so the 9,641 characters it returns are front matter and that same abstract -- 0 hits for doxorubicin, chemotherap or tamoxifen. The article body cannot be read at all. Attribute it to EID 399 (INV-19). None of the three is a drug aimed at TP53, which is what the glossary line and the 'Altered often, nothing against it' list say"
+    },
+    {
+      "gene": "AR",
+      "resolved_as": "AR",
+      "marked_druggable": true,
+      "civic_best_level": "D",
+      "civic_best_predictive_level": "D",
+      "civic_pending_predictive_level": null,
+      "civic_predictive": true,
+      "civic_items": 1,
+      "verdict": "SUPPORTED",
+      "note": ""
+    },
+    {
+      "gene": "BRCA1",
+      "resolved_as": "BRCA1",
+      "marked_druggable": true,
+      "civic_best_level": "A",
+      "civic_best_predictive_level": "A",
+      "civic_pending_predictive_level": null,
+      "civic_predictive": true,
+      "civic_items": 12,
+      "verdict": "SUPPORTED",
+      "note": ""
+    },
+    {
+      "gene": "BRCA1/2",
+      "resolved_as": "BRCA1/2 \u2192 BRCA1",
+      "marked_druggable": true,
+      "civic_best_level": "A",
+      "civic_best_predictive_level": "A",
+      "civic_pending_predictive_level": null,
+      "civic_predictive": true,
+      "civic_items": 12,
+      "verdict": "SUPPORTED",
+      "note": "matched CIViC as BRCA1/2 \u2192 BRCA1"
+    },
+    {
+      "gene": "BRCA2",
+      "resolved_as": "BRCA2",
+      "marked_druggable": true,
+      "civic_best_level": "A",
+      "civic_best_predictive_level": "A",
+      "civic_pending_predictive_level": null,
+      "civic_predictive": true,
+      "civic_items": 11,
+      "verdict": "SUPPORTED",
+      "note": ""
+    },
+    {
+      "gene": "ERBB2",
+      "resolved_as": "ERBB2",
+      "marked_druggable": true,
+      "civic_best_level": "A",
+      "civic_best_predictive_level": "A",
+      "civic_pending_predictive_level": null,
+      "civic_predictive": true,
+      "civic_items": 91,
+      "verdict": "SUPPORTED",
+      "note": ""
+    },
+    {
+      "gene": "ESR1",
+      "resolved_as": "ESR1",
+      "marked_druggable": true,
+      "civic_best_level": "A",
+      "civic_best_predictive_level": "A",
+      "civic_pending_predictive_level": null,
+      "civic_predictive": true,
+      "civic_items": 48,
+      "verdict": "SUPPORTED",
+      "note": ""
+    },
+    {
+      "gene": "PIK3CA",
+      "resolved_as": "PIK3CA",
+      "marked_druggable": true,
+      "civic_best_level": "A",
+      "civic_best_predictive_level": "A",
+      "civic_pending_predictive_level": null,
+      "civic_predictive": true,
+      "civic_items": 129,
+      "verdict": "SUPPORTED",
+      "note": ""
+    },
+    {
+      "gene": "PTEN",
+      "resolved_as": "PTEN",
+      "marked_druggable": true,
+      "civic_best_level": "A",
+      "civic_best_predictive_level": "A",
+      "civic_pending_predictive_level": null,
+      "civic_predictive": true,
+      "civic_items": 30,
+      "verdict": "SUPPORTED",
+      "note": ""
+    },
+    {
+      "gene": "APOBEC",
+      "resolved_as": "APOBEC",
+      "marked_druggable": false,
+      "civic_best_level": null,
+      "civic_best_predictive_level": null,
+      "civic_pending_predictive_level": null,
+      "civic_predictive": false,
+      "civic_items": 0,
+      "verdict": "AGREED",
+      "note": ""
+    },
+    {
+      "gene": "CDH1",
+      "resolved_as": "CDH1",
+      "marked_druggable": false,
+      "civic_best_level": null,
+      "civic_best_predictive_level": null,
+      "civic_pending_predictive_level": "D",
+      "civic_predictive": false,
+      "civic_items": 1,
+      "verdict": "AGREED",
+      "note": "pending CIViC items, not yet accepted by an editor, reach level D"
+    },
+    {
+      "gene": "FOXA1",
+      "resolved_as": "FOXA1",
+      "marked_druggable": false,
+      "civic_best_level": null,
+      "civic_best_predictive_level": null,
+      "civic_pending_predictive_level": "B",
+      "civic_predictive": false,
+      "civic_items": 1,
+      "verdict": "AGREED",
+      "note": "pending CIViC items, not yet accepted by an editor, reach level B"
+    },
+    {
+      "gene": "GATA3",
+      "resolved_as": "GATA3",
+      "marked_druggable": false,
+      "civic_best_level": null,
+      "civic_best_predictive_level": null,
+      "civic_pending_predictive_level": null,
+      "civic_predictive": false,
+      "civic_items": 0,
+      "verdict": "AGREED",
+      "note": ""
+    },
+    {
+      "gene": "INPP4B",
+      "resolved_as": "INPP4B",
+      "marked_druggable": false,
+      "civic_best_level": null,
+      "civic_best_predictive_level": null,
+      "civic_pending_predictive_level": null,
+      "civic_predictive": false,
+      "civic_items": 0,
+      "verdict": "AGREED",
+      "note": ""
+    },
+    {
+      "gene": "MAP2K4",
+      "resolved_as": "MAP2K4",
+      "marked_druggable": false,
+      "civic_best_level": null,
+      "civic_best_predictive_level": null,
+      "civic_pending_predictive_level": null,
+      "civic_predictive": false,
+      "civic_items": 0,
+      "verdict": "AGREED",
+      "note": ""
+    },
+    {
+      "gene": "MAP3K1",
+      "resolved_as": "MAP3K1",
+      "marked_druggable": false,
+      "civic_best_level": null,
+      "civic_best_predictive_level": null,
+      "civic_pending_predictive_level": null,
+      "civic_predictive": false,
+      "civic_items": 0,
+      "verdict": "AGREED",
+      "note": ""
+    },
+    {
+      "gene": "MDM2",
+      "resolved_as": "MDM2",
+      "marked_druggable": false,
+      "civic_best_level": null,
+      "civic_best_predictive_level": null,
+      "civic_pending_predictive_level": null,
+      "civic_predictive": false,
+      "civic_items": 0,
+      "verdict": "AGREED",
+      "note": ""
+    },
+    {
+      "gene": "MKI67",
+      "resolved_as": "MKI67",
+      "marked_druggable": false,
+      "civic_best_level": "B",
+      "civic_best_predictive_level": null,
+      "civic_pending_predictive_level": null,
+      "civic_predictive": false,
+      "civic_items": 1,
+      "verdict": "AGREED",
+      "note": ""
+    },
+    {
+      "gene": "MYC",
+      "resolved_as": "MYC",
+      "marked_druggable": false,
+      "civic_best_level": null,
+      "civic_best_predictive_level": null,
+      "civic_pending_predictive_level": null,
+      "civic_predictive": false,
+      "civic_items": 0,
+      "verdict": "AGREED",
+      "note": ""
+    },
+    {
+      "gene": "PIK3R1",
+      "resolved_as": "PIK3R1",
+      "marked_druggable": false,
+      "civic_best_level": "D",
+      "civic_best_predictive_level": "D",
+      "civic_pending_predictive_level": null,
+      "civic_predictive": true,
+      "civic_items": 1,
+      "verdict": "AGREED",
+      "note": ""
+    },
+    {
+      "gene": "TERT",
+      "resolved_as": "TERT",
+      "marked_druggable": false,
+      "civic_best_level": null,
+      "civic_best_predictive_level": null,
+      "civic_pending_predictive_level": null,
+      "civic_predictive": false,
+      "civic_items": 0,
+      "verdict": "AGREED",
+      "note": ""
+    }
+  ],
+  "overview": [
+    {
+      "what": "baseline.lifetimeRisk",
+      "hand": 13.0,
+      "seer": 13.0,
+      "delta": 0.0,
+      "verdict": "MATCH",
+      "note": "the denominator every risk-factor conversion uses"
+    },
+    {
+      "what": "stage Localised (share)",
+      "hand": 64.0,
+      "seer": 64.0,
+      "delta": 0.0,
+      "verdict": "MATCH",
+      "note": ""
+    },
+    {
+      "what": "stage Localised (5-year)",
+      "hand": 100.0,
+      "seer": 100.0,
+      "delta": 0.0,
+      "verdict": "MATCH",
+      "note": ""
+    },
+    {
+      "what": "stage Regional (share)",
+      "hand": 27.0,
+      "seer": 27.0,
+      "delta": 0.0,
+      "verdict": "MATCH",
+      "note": ""
+    },
+    {
+      "what": "stage Regional (5-year)",
+      "hand": 87.5,
+      "seer": 87.5,
+      "delta": 0.0,
+      "verdict": "MATCH",
+      "note": ""
+    },
+    {
+      "what": "stage Distant (share)",
+      "hand": 6.0,
+      "seer": 6.0,
+      "delta": 0.0,
+      "verdict": "MATCH",
+      "note": ""
+    },
+    {
+      "what": "stage Distant (5-year)",
+      "hand": 33.8,
+      "seer": 33.8,
+      "delta": 0.0,
+      "verdict": "MATCH",
+      "note": ""
+    },
+    {
+      "what": "stage Unstaged (share)",
+      "hand": 2.0,
+      "seer": 2.0,
+      "delta": 0.0,
+      "verdict": "MATCH",
+      "note": ""
+    },
+    {
+      "what": "stage Unstaged (5-year)",
+      "hand": 70.6,
+      "seer": 70.6,
+      "delta": 0.0,
+      "verdict": "MATCH",
+      "note": ""
+    }
+  ],
+  "source_coverage": {
+    "references_declared": 35,
+    "factors": {
+      "cited": 22,
+      "total": 22
+    },
+    "triggers": {
+      "cited": 43,
+      "total": 57
+    },
+    "therapies": {
+      "cited": 27,
+      "total": 31
+    },
+    "nodes_with_sources": 12,
+    "dangling_reference_ids": []
+  },
+  "concordance": {
+    "available": true,
+    "n_classified": 496,
+    "row_label": "Intrinsic subtype (PAM50)",
+    "col_label": "Receptor status (IHC)",
+    "matrix": {
+      "Luminal A": {
+        "HR+/HER2-": 203,
+        "Triple positive": 14,
+        "TNBC": 4
+      },
+      "Basal-like": {
+        "TNBC": 76,
+        "HR+/HER2-": 14,
+        "Triple positive": 2
+      },
+      "Luminal B": {
+        "Triple positive": 20,
+        "HR+/HER2-": 101,
+        "TNBC": 1
+      },
+      "HER2-enriched": {
+        "HER2+/HR-": 19,
+        "Triple positive": 18,
+        "HR+/HER2-": 11,
+        "TNBC": 5
+      },
+      "Normal-like": {
+        "HR+/HER2-": 6,
+        "TNBC": 2
+      }
+    },
+    "headline": {
+      "basal_like_that_is_TNBC": {
+        "n": 76,
+        "of": 92,
+        "pct": 82.6,
+        "label": "Basal-like tumours that are TNBC",
+        "claim": "\"~80% overlap\""
+      },
+      "TNBC_that_is_basal_like": {
+        "n": 76,
+        "of": 88,
+        "pct": 86.4,
+        "label": "TNBC tumours that are basal-like",
+        "claim": "\"~80% overlap\""
+      },
+      "HER2enriched_that_is_HER2pos_HRneg": {
+        "n": 19,
+        "of": 53,
+        "pct": 35.8,
+        "label": "HER2-enriched that is HER2+/HR\u2212",
+        "claim": "\"strong but imperfect\""
+      },
+      "HER2pos_HRneg_that_is_HER2enriched": {
+        "n": 19,
+        "of": 19,
+        "pct": 100.0,
+        "label": "HER2+/HR\u2212 that is HER2-enriched",
+        "claim": "\"strong but imperfect\""
+      }
+    },
+    "row_order": [
+      "Luminal A",
+      "Luminal B",
+      "HER2-enriched",
+      "Basal-like",
+      "Normal-like"
+    ],
+    "col_order": [
+      "HR+/HER2-",
+      "Triple positive",
+      "HER2+/HR-",
+      "TNBC"
+    ]
+  }
+}

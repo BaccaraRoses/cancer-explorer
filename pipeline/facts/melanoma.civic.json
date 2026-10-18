@@ -1,0 +1,1981 @@
+{
+  "source": "CIViC (Clinical Interpretation of Variants in Cancer)",
+  "api": "https://civicdb.org/api/graphql",
+  "licence": "CC0",
+  "disease": "Melanoma",
+  "total_reported": 404,
+  "n_fetched": 404,
+  "status_rule": "best_level and best_predictive_level count ACCEPTED items only; *_submitted names a higher level held only by items still pending editor review",
+  "level_key": {
+    "A": "validated association (practice / guidelines)",
+    "B": "clinical evidence (trial or primary patient data)",
+    "C": "case study",
+    "D": "preclinical",
+    "E": "inferential"
+  },
+  "genes": {
+    "BRAF": {
+      "n_evidence_items": 182,
+      "n_accepted": 97,
+      "best_level": "A",
+      "best_predictive_level": "A",
+      "levels": {
+        "A": 8,
+        "B": 72,
+        "C": 40,
+        "D": 59,
+        "E": 3
+      },
+      "evidence_types": {
+        "DIAGNOSTIC": 1,
+        "ONCOGENIC": 11,
+        "PREDICTIVE": 168,
+        "PROGNOSTIC": 2
+      },
+      "top_therapies": [
+        "Vemurafenib",
+        "Dabrafenib",
+        "Trametinib",
+        "BRAF Inhibitor",
+        "Mitogen-Activated Protein Kinase Kinase Inhibitor",
+        "Cobimetinib"
+      ],
+      "pmids": [
+        "21639808",
+        "25399551",
+        "27480103",
+        "29573941",
+        "32534646",
+        "22735384",
+        "35131452",
+        "36460017",
+        "21343559",
+        "21107323",
+        "23463675",
+        "24583796"
+      ]
+    },
+    "NRAS": {
+      "n_evidence_items": 49,
+      "n_accepted": 30,
+      "best_level": "B",
+      "best_predictive_level": "B",
+      "levels": {
+        "B": 15,
+        "C": 19,
+        "D": 15
+      },
+      "evidence_types": {
+        "DIAGNOSTIC": 1,
+        "PREDICTIVE": 43,
+        "PREDISPOSING": 2,
+        "PROGNOSTIC": 3
+      },
+      "top_therapies": [
+        "Vemurafenib",
+        "Belvarafenib",
+        "Binimetinib",
+        "Trametinib",
+        "Dabrafenib",
+        "Temozolomide"
+      ],
+      "pmids": [
+        "28284557",
+        "23569304",
+        "26095797",
+        "25452114",
+        "29245078",
+        "23861977",
+        "22180178",
+        "26987942",
+        "25542057",
+        "23414587",
+        "22805292",
+        "24265155"
+      ]
+    },
+    "KIT": {
+      "n_evidence_items": 20,
+      "n_accepted": 13,
+      "best_level": "B",
+      "best_predictive_level": "B",
+      "levels": {
+        "B": 6,
+        "C": 9,
+        "D": 5
+      },
+      "evidence_types": {
+        "DIAGNOSTIC": 1,
+        "PREDICTIVE": 18,
+        "PROGNOSTIC": 1
+      },
+      "top_therapies": [
+        "Imatinib",
+        "Dasatinib",
+        "Nilotinib",
+        "Sunitinib",
+        "Sorafenib"
+      ],
+      "pmids": [
+        "23775962",
+        "21119596",
+        "21690468",
+        "26424760",
+        "21523734",
+        "18421059",
+        "22261812",
+        "21642685",
+        "25317746",
+        "20088873",
+        "18510589",
+        "17372901"
+      ]
+    },
+    "MAP2K1": {
+      "n_evidence_items": 13,
+      "n_accepted": 3,
+      "best_level": "C",
+      "best_predictive_level": "C",
+      "levels": {
+        "C": 11,
+        "D": 2
+      },
+      "evidence_types": {
+        "PREDICTIVE": 13
+      },
+      "top_therapies": [
+        "Vemurafenib",
+        "Dabrafenib",
+        "Selumetinib"
+      ],
+      "pmids": [
+        "23569304",
+        "21383288",
+        "24265153",
+        "23444215",
+        "19915144"
+      ]
+    },
+    "NF1": {
+      "n_evidence_items": 9,
+      "n_accepted": 5,
+      "best_level": "C",
+      "best_predictive_level": "C",
+      "levels": {
+        "C": 2,
+        "D": 7
+      },
+      "evidence_types": {
+        "PREDICTIVE": 9
+      },
+      "top_therapies": [
+        "Vemurafenib",
+        "Pan-RAF/MEK Molecular Glue NST-628",
+        "Mirdametinib",
+        "Sirolimus",
+        "Dabrafenib",
+        "Cetuximab"
+      ],
+      "pmids": [
+        "23288408",
+        "38588399",
+        "24576830",
+        "23171796",
+        "40494652"
+      ]
+    },
+    "GNAQ": {
+      "n_evidence_items": 8,
+      "n_accepted": 8,
+      "best_level": "B",
+      "best_predictive_level": "B",
+      "levels": {
+        "B": 3,
+        "C": 2,
+        "D": 3
+      },
+      "evidence_types": {
+        "PREDICTIVE": 8
+      },
+      "top_therapies": [
+        "Selumetinib",
+        "Trametinib",
+        "Cabozantinib",
+        "Refametinib",
+        "Vemurafenib",
+        "Sotrastaurin Acetate"
+      ],
+      "pmids": [
+        "24938562",
+        "22805292",
+        "28103611",
+        "23434733",
+        "24504448",
+        "24141786",
+        "26397223"
+      ]
+    },
+    "RAF1": {
+      "n_evidence_items": 8,
+      "n_accepted": 7,
+      "best_level": "B",
+      "best_predictive_level": "B",
+      "levels": {
+        "B": 1,
+        "C": 6,
+        "D": 1
+      },
+      "evidence_types": {
+        "PREDICTIVE": 8
+      },
+      "top_therapies": [
+        "Binimetinib",
+        "Trametinib",
+        "Carboplatin",
+        "Paclitaxel",
+        "Sorafenib",
+        "Cobimetinib"
+      ],
+      "pmids": [
+        "26307133",
+        "30835257",
+        "35135096",
+        "39504576",
+        "38470950",
+        "35871080",
+        "27273450"
+      ]
+    },
+    "AKT1": {
+      "n_evidence_items": 7,
+      "n_accepted": 6,
+      "best_level": "C",
+      "best_predictive_level": "C",
+      "levels": {
+        "C": 1,
+        "D": 6
+      },
+      "evidence_types": {
+        "PREDICTIVE": 7
+      },
+      "top_therapies": [
+        "Vemurafenib",
+        "Dabrafenib",
+        "Uprosertib"
+      ],
+      "pmids": [
+        "24265155",
+        "24265152",
+        "24735930"
+      ]
+    },
+    "CDKN2A": {
+      "n_evidence_items": 6,
+      "n_accepted": 3,
+      "best_level": "C",
+      "best_predictive_level": "D",
+      "best_level_submitted": "B",
+      "best_predictive_level_submitted": "B",
+      "levels": {
+        "B": 1,
+        "C": 1,
+        "D": 4
+      },
+      "evidence_types": {
+        "PREDICTIVE": 5,
+        "PREDISPOSING": 1
+      },
+      "top_therapies": [
+        "Palbociclib",
+        "Vemurafenib",
+        "Dabrafenib",
+        "Alvocidib"
+      ],
+      "pmids": [
+        "24265155",
+        "11433531",
+        "24495407",
+        "12777976"
+      ]
+    },
+    "MAP2K2": {
+      "n_evidence_items": 6,
+      "n_accepted": 3,
+      "best_level": "D",
+      "best_predictive_level": "D",
+      "best_level_submitted": "C",
+      "best_predictive_level_submitted": "C",
+      "levels": {
+        "C": 3,
+        "D": 3
+      },
+      "evidence_types": {
+        "PREDICTIVE": 6
+      },
+      "top_therapies": [
+        "Vemurafenib",
+        "Dabrafenib",
+        "Trametinib"
+      ],
+      "pmids": [
+        "24463458",
+        "25452114",
+        "24265153"
+      ]
+    },
+    "PDGFRA": {
+      "n_evidence_items": 6,
+      "n_accepted": 4,
+      "best_level": "D",
+      "best_predictive_level": "D",
+      "levels": {
+        "D": 6
+      },
+      "evidence_types": {
+        "PREDICTIVE": 6
+      },
+      "top_therapies": [
+        "Crenolanib",
+        "Imatinib"
+      ],
+      "pmids": [
+        "24132921"
+      ]
+    },
+    "MET": {
+      "n_evidence_items": 5,
+      "n_accepted": 4,
+      "best_level": "B",
+      "best_predictive_level": "B",
+      "levels": {
+        "B": 2,
+        "D": 3
+      },
+      "evidence_types": {
+        "PREDICTIVE": 5
+      },
+      "top_therapies": [
+        "Vemurafenib",
+        "Mitogen-Activated Protein Kinase Kinase Inhibitor",
+        "C-Met Inhibitor",
+        "ERBB3 Inhibitor",
+        "Trametinib",
+        "Selumetinib"
+      ],
+      "pmids": [
+        "26359985",
+        "23802768",
+        "25952648",
+        "24140933"
+      ]
+    },
+    "GNA11": {
+      "n_evidence_items": 5,
+      "n_accepted": 5,
+      "best_level": "B",
+      "best_predictive_level": "B",
+      "levels": {
+        "B": 2,
+        "C": 1,
+        "D": 2
+      },
+      "evidence_types": {
+        "PREDICTIVE": 5
+      },
+      "top_therapies": [
+        "Selumetinib",
+        "Cabozantinib",
+        "Trametinib",
+        "Sotrastaurin Acetate",
+        "Mirdametinib",
+        "JQ1"
+      ],
+      "pmids": [
+        "24938562",
+        "28103611",
+        "22805292",
+        "24141786",
+        "26397223"
+      ]
+    },
+    "NTRK1": {
+      "n_evidence_items": 5,
+      "n_accepted": 5,
+      "best_level": "C",
+      "best_predictive_level": "E",
+      "levels": {
+        "C": 1,
+        "D": 1,
+        "E": 3
+      },
+      "evidence_types": {
+        "DIAGNOSTIC": 1,
+        "ONCOGENIC": 1,
+        "PREDICTIVE": 3
+      },
+      "top_therapies": [
+        "Larotrectinib"
+      ],
+      "pmids": [
+        "24445538",
+        "29683819"
+      ]
+    },
+    "KRAS": {
+      "n_evidence_items": 4,
+      "n_accepted": 4,
+      "best_level": "B",
+      "best_predictive_level": "B",
+      "levels": {
+        "B": 2,
+        "D": 2
+      },
+      "evidence_types": {
+        "PREDICTIVE": 4
+      },
+      "top_therapies": [
+        "Vemurafenib",
+        "Sorafenib",
+        "Carboplatin",
+        "Docetaxel",
+        "Dabrafenib"
+      ],
+      "pmids": [
+        "26307133",
+        "24265155"
+      ]
+    },
+    "PTEN": {
+      "n_evidence_items": 4,
+      "n_accepted": 3,
+      "best_level": "D",
+      "best_predictive_level": "D",
+      "levels": {
+        "D": 4
+      },
+      "evidence_types": {
+        "PREDICTIVE": 4
+      },
+      "top_therapies": [
+        "Uprosertib",
+        "Vemurafenib",
+        "Akt Inhibitor MK2206",
+        "MEK Inhibitor CI-1040",
+        "Dabrafenib"
+      ],
+      "pmids": [
+        "24265155",
+        "24504448",
+        "24735930"
+      ]
+    },
+    "PIK3CA": {
+      "n_evidence_items": 4,
+      "n_accepted": 4,
+      "best_level": "D",
+      "best_predictive_level": "D",
+      "levels": {
+        "D": 4
+      },
+      "evidence_types": {
+        "PREDICTIVE": 4
+      },
+      "top_therapies": [
+        "Vemurafenib"
+      ],
+      "pmids": [
+        "24265155"
+      ]
+    },
+    "CD274": {
+      "n_evidence_items": 3,
+      "n_accepted": 2,
+      "best_level": "B",
+      "best_predictive_level": "B",
+      "levels": {
+        "B": 3
+      },
+      "evidence_types": {
+        "PREDICTIVE": 3
+      },
+      "top_therapies": [
+        "Nivolumab",
+        "Pembrolizumab",
+        "Ipilimumab"
+      ],
+      "pmids": [
+        "26086854",
+        "23724867",
+        "27491654"
+      ]
+    },
+    "FN1": {
+      "n_evidence_items": 3,
+      "n_accepted": 0,
+      "best_level": null,
+      "best_predictive_level": null,
+      "best_level_submitted": "B",
+      "best_predictive_level_submitted": "B",
+      "levels": {
+        "B": 3
+      },
+      "evidence_types": {
+        "PREDICTIVE": 3
+      },
+      "top_therapies": [
+        "L19IL2",
+        "Daromun",
+        "Dacarbazine"
+      ],
+      "pmids": [
+        "25971540",
+        "31482307",
+        "24906352"
+      ]
+    },
+    "MTOR": {
+      "n_evidence_items": 3,
+      "n_accepted": 3,
+      "best_level": "B",
+      "best_predictive_level": "D",
+      "levels": {
+        "B": 1,
+        "D": 2
+      },
+      "evidence_types": {
+        "PREDICTIVE": 2,
+        "PROGNOSTIC": 1
+      },
+      "top_therapies": [
+        "PI3K/BET Inhibitor LY294002",
+        "Capivasertib"
+      ],
+      "pmids": [
+        "26490311"
+      ]
+    },
+    "RAC1": {
+      "n_evidence_items": 3,
+      "n_accepted": 1,
+      "best_level": "D",
+      "best_predictive_level": "D",
+      "best_level_submitted": "B",
+      "best_predictive_level_submitted": "B",
+      "levels": {
+        "B": 1,
+        "D": 2
+      },
+      "evidence_types": {
+        "PREDICTIVE": 3
+      },
+      "top_therapies": [
+        "Vemurafenib",
+        "Dabrafenib",
+        "PLX4720"
+      ],
+      "pmids": [
+        "24265153",
+        "25056119",
+        "31257073"
+      ]
+    },
+    "ALK": {
+      "n_evidence_items": 3,
+      "n_accepted": 2,
+      "best_level": "C",
+      "best_predictive_level": "C",
+      "levels": {
+        "C": 2,
+        "D": 1
+      },
+      "evidence_types": {
+        "PREDICTIVE": 3
+      },
+      "top_therapies": [
+        "Crizotinib",
+        "Entrectinib",
+        "Ceritinib",
+        "ALK Inhibitor ASP3026",
+        "Alectinib"
+      ],
+      "pmids": [
+        "26444240",
+        "29054983"
+      ]
+    },
+    "AGK": {
+      "n_evidence_items": 3,
+      "n_accepted": 3,
+      "best_level": "C",
+      "best_predictive_level": "C",
+      "levels": {
+        "C": 2,
+        "D": 1
+      },
+      "evidence_types": {
+        "PREDICTIVE": 3
+      },
+      "top_therapies": [
+        "Belvarafenib",
+        "Sorafenib",
+        "Vemurafenib"
+      ],
+      "pmids": [
+        "38470950",
+        "23890088"
+      ]
+    },
+    "EZH2": {
+      "n_evidence_items": 3,
+      "n_accepted": 2,
+      "best_level": "D",
+      "best_predictive_level": "D",
+      "levels": {
+        "D": 3
+      },
+      "evidence_types": {
+        "PREDICTIVE": 2,
+        "PROGNOSTIC": 1
+      },
+      "top_therapies": [
+        "JQEZ5",
+        "GSK126"
+      ],
+      "pmids": [
+        "27135738",
+        "26304929"
+      ]
+    },
+    "BAP1": {
+      "n_evidence_items": 2,
+      "n_accepted": 2,
+      "best_level": "B",
+      "best_predictive_level": "D",
+      "levels": {
+        "B": 1,
+        "D": 1
+      },
+      "evidence_types": {
+        "PREDICTIVE": 1,
+        "PROGNOSTIC": 1
+      },
+      "top_therapies": [
+        "Valproic Acid",
+        "Panobinostat",
+        "Vorinostat",
+        "Trichostatin A"
+      ],
+      "pmids": [
+        "25147369",
+        "22038994"
+      ]
+    },
+    "TERT": {
+      "n_evidence_items": 2,
+      "n_accepted": 2,
+      "best_level": "B",
+      "best_predictive_level": null,
+      "levels": {
+        "B": 2
+      },
+      "evidence_types": {
+        "PROGNOSTIC": 2
+      },
+      "top_therapies": [],
+      "pmids": [
+        "25219713",
+        "25217772"
+      ]
+    },
+    "GOLGA4": {
+      "n_evidence_items": 2,
+      "n_accepted": 2,
+      "best_level": "C",
+      "best_predictive_level": "C",
+      "levels": {
+        "C": 2
+      },
+      "evidence_types": {
+        "PREDICTIVE": 2
+      },
+      "top_therapies": [
+        "Trametinib",
+        "Cobimetinib",
+        "Binimetinib"
+      ],
+      "pmids": [
+        "30835257",
+        "39504576"
+      ]
+    },
+    "JAK1": {
+      "n_evidence_items": 2,
+      "n_accepted": 1,
+      "best_level": "C",
+      "best_predictive_level": "C",
+      "levels": {
+        "C": 2
+      },
+      "evidence_types": {
+        "PREDICTIVE": 2
+      },
+      "top_therapies": [
+        "Pembrolizumab"
+      ],
+      "pmids": [
+        "27433843",
+        "27903500"
+      ]
+    },
+    "JAK2": {
+      "n_evidence_items": 2,
+      "n_accepted": 2,
+      "best_level": "C",
+      "best_predictive_level": "C",
+      "levels": {
+        "C": 2
+      },
+      "evidence_types": {
+        "PREDICTIVE": 2
+      },
+      "top_therapies": [
+        "Pembrolizumab"
+      ],
+      "pmids": [
+        "27433843"
+      ]
+    },
+    "MITF": {
+      "n_evidence_items": 2,
+      "n_accepted": 0,
+      "best_level": null,
+      "best_predictive_level": null,
+      "best_level_submitted": "C",
+      "best_predictive_level_submitted": "C",
+      "levels": {
+        "C": 1,
+        "D": 1
+      },
+      "evidence_types": {
+        "PREDICTIVE": 2
+      },
+      "top_therapies": [
+        "Vemurafenib",
+        "Dabrafenib",
+        "PLX4720",
+        "Selumetinib"
+      ],
+      "pmids": [
+        "24265153",
+        "24185007"
+      ]
+    },
+    "B2M": {
+      "n_evidence_items": 2,
+      "n_accepted": 1,
+      "best_level": "C",
+      "best_predictive_level": "C",
+      "levels": {
+        "C": 1,
+        "D": 1
+      },
+      "evidence_types": {
+        "PREDICTIVE": 2
+      },
+      "top_therapies": [
+        "Pembrolizumab",
+        "Immune Checkpoint Inhibitor"
+      ],
+      "pmids": [
+        "27433843",
+        "29070816"
+      ]
+    },
+    "LMNA": {
+      "n_evidence_items": 2,
+      "n_accepted": 2,
+      "best_level": "C",
+      "best_predictive_level": null,
+      "levels": {
+        "C": 1,
+        "D": 1
+      },
+      "evidence_types": {
+        "DIAGNOSTIC": 1,
+        "ONCOGENIC": 1
+      },
+      "top_therapies": [],
+      "pmids": [
+        "24445538"
+      ]
+    },
+    "NTRK3": {
+      "n_evidence_items": 2,
+      "n_accepted": 2,
+      "best_level": "C",
+      "best_predictive_level": "C",
+      "levels": {
+        "C": 2
+      },
+      "evidence_types": {
+        "ONCOGENIC": 1,
+        "PREDICTIVE": 1
+      },
+      "top_therapies": [
+        "Entrectinib"
+      ],
+      "pmids": [
+        "35395680",
+        "33846089"
+      ]
+    },
+    "ERBB3": {
+      "n_evidence_items": 2,
+      "n_accepted": 0,
+      "best_level": null,
+      "best_predictive_level": null,
+      "best_level_submitted": "D",
+      "best_predictive_level_submitted": "D",
+      "levels": {
+        "D": 2
+      },
+      "evidence_types": {
+        "PREDICTIVE": 2
+      },
+      "top_therapies": [
+        "Trametinib",
+        "Selumetinib",
+        "Pertuzumab"
+      ],
+      "pmids": [
+        "25952648",
+        "26206558"
+      ]
+    },
+    "PAPSS1": {
+      "n_evidence_items": 2,
+      "n_accepted": 2,
+      "best_level": "D",
+      "best_predictive_level": "D",
+      "levels": {
+        "D": 2
+      },
+      "evidence_types": {
+        "PREDICTIVE": 2
+      },
+      "top_therapies": [
+        "Vemurafenib",
+        "Trametinib"
+      ],
+      "pmids": [
+        "24345920"
+      ]
+    },
+    "TRIM24": {
+      "n_evidence_items": 2,
+      "n_accepted": 2,
+      "best_level": "D",
+      "best_predictive_level": "D",
+      "levels": {
+        "D": 2
+      },
+      "evidence_types": {
+        "PREDICTIVE": 2
+      },
+      "top_therapies": [
+        "Trametinib",
+        "Vemurafenib"
+      ],
+      "pmids": [
+        "24345920"
+      ]
+    },
+    "AKT3": {
+      "n_evidence_items": 2,
+      "n_accepted": 2,
+      "best_level": "D",
+      "best_predictive_level": "D",
+      "levels": {
+        "D": 2
+      },
+      "evidence_types": {
+        "PREDICTIVE": 2
+      },
+      "top_therapies": [
+        "Vemurafenib"
+      ],
+      "pmids": [
+        "24265155"
+      ]
+    },
+    "PIK3R2": {
+      "n_evidence_items": 2,
+      "n_accepted": 2,
+      "best_level": "D",
+      "best_predictive_level": "D",
+      "levels": {
+        "D": 2
+      },
+      "evidence_types": {
+        "PREDICTIVE": 2
+      },
+      "top_therapies": [
+        "Vemurafenib"
+      ],
+      "pmids": [
+        "24265155"
+      ]
+    },
+    "CIC": {
+      "n_evidence_items": 2,
+      "n_accepted": 0,
+      "best_level": null,
+      "best_predictive_level": null,
+      "best_level_submitted": "D",
+      "best_predictive_level_submitted": "D",
+      "levels": {
+        "D": 2
+      },
+      "evidence_types": {
+        "PREDICTIVE": 2
+      },
+      "top_therapies": [
+        "Trametinib",
+        "Vemurafenib"
+      ],
+      "pmids": [
+        "28178529"
+      ]
+    },
+    "STAT5B": {
+      "n_evidence_items": 1,
+      "n_accepted": 0,
+      "best_level": null,
+      "best_predictive_level": null,
+      "best_level_submitted": "A",
+      "best_predictive_level_submitted": "A",
+      "levels": {
+        "A": 1
+      },
+      "evidence_types": {
+        "PREDICTIVE": 1
+      },
+      "top_therapies": [
+        "Multi-subtype Natural Human Leukocyte Interferon Alpha"
+      ],
+      "pmids": [
+        "16169484"
+      ]
+    },
+    "GNAS": {
+      "n_evidence_items": 1,
+      "n_accepted": 1,
+      "best_level": "B",
+      "best_predictive_level": null,
+      "levels": {
+        "B": 1
+      },
+      "evidence_types": {
+        "PROGNOSTIC": 1
+      },
+      "top_therapies": [],
+      "pmids": [
+        "21156401"
+      ]
+    },
+    "CD44": {
+      "n_evidence_items": 1,
+      "n_accepted": 0,
+      "best_level": null,
+      "best_predictive_level": null,
+      "best_level_submitted": "B",
+      "levels": {
+        "B": 1
+      },
+      "evidence_types": {
+        "PROGNOSTIC": 1
+      },
+      "top_therapies": [],
+      "pmids": [
+        "25169209"
+      ]
+    },
+    "HLA-DRA": {
+      "n_evidence_items": 1,
+      "n_accepted": 1,
+      "best_level": "B",
+      "best_predictive_level": "B",
+      "levels": {
+        "B": 1
+      },
+      "evidence_types": {
+        "PREDICTIVE": 1
+      },
+      "top_therapies": [
+        "Nivolumab",
+        "Pembrolizumab",
+        "Atezolizumab"
+      ],
+      "pmids": [
+        "26822383"
+      ]
+    },
+    "ATXN1L": {
+      "n_evidence_items": 1,
+      "n_accepted": 0,
+      "best_level": null,
+      "best_predictive_level": null,
+      "best_level_submitted": "B",
+      "best_predictive_level_submitted": "B",
+      "levels": {
+        "B": 1
+      },
+      "evidence_types": {
+        "PREDICTIVE": 1
+      },
+      "top_therapies": [
+        "Dabrafenib",
+        "Vemurafenib"
+      ],
+      "pmids": [
+        "28178529"
+      ]
+    },
+    "STAT1": {
+      "n_evidence_items": 1,
+      "n_accepted": 0,
+      "best_level": null,
+      "best_predictive_level": null,
+      "best_level_submitted": "B",
+      "levels": {
+        "B": 1
+      },
+      "evidence_types": {
+        "PROGNOSTIC": 1
+      },
+      "top_therapies": [],
+      "pmids": [
+        "15668815"
+      ]
+    },
+    "ERCC2": {
+      "n_evidence_items": 1,
+      "n_accepted": 0,
+      "best_level": null,
+      "best_predictive_level": null,
+      "best_level_submitted": "B",
+      "best_predictive_level_submitted": "B",
+      "levels": {
+        "B": 1
+      },
+      "evidence_types": {
+        "PREDICTIVE": 1
+      },
+      "top_therapies": [
+        "Immune Checkpoint Inhibitor"
+      ],
+      "pmids": [
+        "37626083"
+      ]
+    },
+    "ERCC3": {
+      "n_evidence_items": 1,
+      "n_accepted": 0,
+      "best_level": null,
+      "best_predictive_level": null,
+      "best_level_submitted": "B",
+      "best_predictive_level_submitted": "B",
+      "levels": {
+        "B": 1
+      },
+      "evidence_types": {
+        "PREDICTIVE": 1
+      },
+      "top_therapies": [
+        "Immune Checkpoint Inhibitor"
+      ],
+      "pmids": [
+        "37626083"
+      ]
+    },
+    "ERCC4": {
+      "n_evidence_items": 1,
+      "n_accepted": 0,
+      "best_level": null,
+      "best_predictive_level": null,
+      "best_level_submitted": "B",
+      "best_predictive_level_submitted": "B",
+      "levels": {
+        "B": 1
+      },
+      "evidence_types": {
+        "PREDICTIVE": 1
+      },
+      "top_therapies": [
+        "Immune Checkpoint Inhibitor"
+      ],
+      "pmids": [
+        "37626083"
+      ]
+    },
+    "ERCC5": {
+      "n_evidence_items": 1,
+      "n_accepted": 0,
+      "best_level": null,
+      "best_predictive_level": null,
+      "best_level_submitted": "B",
+      "best_predictive_level_submitted": "B",
+      "levels": {
+        "B": 1
+      },
+      "evidence_types": {
+        "PREDICTIVE": 1
+      },
+      "top_therapies": [
+        "Immune Checkpoint Inhibitor"
+      ],
+      "pmids": [
+        "37626083"
+      ]
+    },
+    "CCND1": {
+      "n_evidence_items": 1,
+      "n_accepted": 1,
+      "best_level": "B",
+      "best_predictive_level": "B",
+      "levels": {
+        "B": 1
+      },
+      "evidence_types": {
+        "PREDICTIVE": 1
+      },
+      "top_therapies": [
+        "Carboplatin",
+        "Paclitaxel",
+        "Sorafenib"
+      ],
+      "pmids": [
+        "26307133"
+      ]
+    },
+    "KMT2C": {
+      "n_evidence_items": 1,
+      "n_accepted": 0,
+      "best_level": null,
+      "best_predictive_level": null,
+      "best_level_submitted": "B",
+      "best_predictive_level_submitted": "B",
+      "levels": {
+        "B": 1
+      },
+      "evidence_types": {
+        "PREDICTIVE": 1
+      },
+      "top_therapies": [
+        "Immune Checkpoint Inhibitor"
+      ],
+      "pmids": [
+        "33653367"
+      ]
+    },
+    "KMT2D": {
+      "n_evidence_items": 1,
+      "n_accepted": 0,
+      "best_level": null,
+      "best_predictive_level": null,
+      "best_level_submitted": "B",
+      "best_predictive_level_submitted": "B",
+      "levels": {
+        "B": 1
+      },
+      "evidence_types": {
+        "PREDICTIVE": 1
+      },
+      "top_therapies": [
+        "Immune Checkpoint Inhibitor"
+      ],
+      "pmids": [
+        "33653367"
+      ]
+    },
+    "KMT2A": {
+      "n_evidence_items": 1,
+      "n_accepted": 0,
+      "best_level": null,
+      "best_predictive_level": null,
+      "best_level_submitted": "B",
+      "best_predictive_level_submitted": "B",
+      "levels": {
+        "B": 1
+      },
+      "evidence_types": {
+        "PREDICTIVE": 1
+      },
+      "top_therapies": [
+        "Immune Checkpoint Inhibitor"
+      ],
+      "pmids": [
+        "33653367"
+      ]
+    },
+    "KMT2B": {
+      "n_evidence_items": 1,
+      "n_accepted": 0,
+      "best_level": null,
+      "best_predictive_level": null,
+      "best_level_submitted": "B",
+      "best_predictive_level_submitted": "B",
+      "levels": {
+        "B": 1
+      },
+      "evidence_types": {
+        "PREDICTIVE": 1
+      },
+      "top_therapies": [
+        "Immune Checkpoint Inhibitor"
+      ],
+      "pmids": [
+        "33653367"
+      ]
+    },
+    "PRKDC": {
+      "n_evidence_items": 1,
+      "n_accepted": 1,
+      "best_level": "B",
+      "best_predictive_level": "B",
+      "levels": {
+        "B": 1
+      },
+      "evidence_types": {
+        "PREDICTIVE": 1
+      },
+      "top_therapies": [
+        "Anti-CTLA-4 Monoclonal Antibody"
+      ],
+      "pmids": [
+        "32502294"
+      ]
+    },
+    "EIF1AX": {
+      "n_evidence_items": 1,
+      "n_accepted": 1,
+      "best_level": "C",
+      "best_predictive_level": null,
+      "levels": {
+        "C": 1
+      },
+      "evidence_types": {
+        "PROGNOSTIC": 1
+      },
+      "top_therapies": [],
+      "pmids": [
+        "23793026"
+      ]
+    },
+    "MBD4": {
+      "n_evidence_items": 1,
+      "n_accepted": 0,
+      "best_level": null,
+      "best_predictive_level": null,
+      "best_level_submitted": "C",
+      "best_predictive_level_submitted": "C",
+      "levels": {
+        "C": 1
+      },
+      "evidence_types": {
+        "PREDICTIVE": 1
+      },
+      "top_therapies": [
+        "PD1 Inhibitor"
+      ],
+      "pmids": [
+        "29760383"
+      ]
+    },
+    "ANO10": {
+      "n_evidence_items": 1,
+      "n_accepted": 1,
+      "best_level": "C",
+      "best_predictive_level": "C",
+      "levels": {
+        "C": 1
+      },
+      "evidence_types": {
+        "PREDICTIVE": 1
+      },
+      "top_therapies": [
+        "Trametinib"
+      ],
+      "pmids": [
+        "35135096"
+      ]
+    },
+    "GOPC": {
+      "n_evidence_items": 1,
+      "n_accepted": 1,
+      "best_level": "C",
+      "best_predictive_level": "C",
+      "levels": {
+        "C": 1
+      },
+      "evidence_types": {
+        "PREDICTIVE": 1
+      },
+      "top_therapies": [
+        "Entrectinib"
+      ],
+      "pmids": [
+        "28183697"
+      ]
+    },
+    "ROS1": {
+      "n_evidence_items": 1,
+      "n_accepted": 1,
+      "best_level": "C",
+      "best_predictive_level": "C",
+      "levels": {
+        "C": 1
+      },
+      "evidence_types": {
+        "PREDICTIVE": 1
+      },
+      "top_therapies": [
+        "Entrectinib"
+      ],
+      "pmids": [
+        "28183697"
+      ]
+    },
+    "ZKSCAN1": {
+      "n_evidence_items": 1,
+      "n_accepted": 1,
+      "best_level": "C",
+      "best_predictive_level": "C",
+      "levels": {
+        "C": 1
+      },
+      "evidence_types": {
+        "PREDICTIVE": 1
+      },
+      "top_therapies": [
+        "Trametinib"
+      ],
+      "pmids": [
+        "26314551"
+      ]
+    },
+    "ETV6": {
+      "n_evidence_items": 1,
+      "n_accepted": 1,
+      "best_level": "C",
+      "best_predictive_level": "C",
+      "levels": {
+        "C": 1
+      },
+      "evidence_types": {
+        "PREDICTIVE": 1
+      },
+      "top_therapies": [
+        "Entrectinib"
+      ],
+      "pmids": [
+        "35395680"
+      ]
+    },
+    "GCC2": {
+      "n_evidence_items": 1,
+      "n_accepted": 1,
+      "best_level": "C",
+      "best_predictive_level": "C",
+      "levels": {
+        "C": 1
+      },
+      "evidence_types": {
+        "PREDICTIVE": 1
+      },
+      "top_therapies": [
+        "Binimetinib"
+      ],
+      "pmids": [
+        "39504576"
+      ]
+    },
+    "MIPOL1": {
+      "n_evidence_items": 1,
+      "n_accepted": 1,
+      "best_level": "C",
+      "best_predictive_level": "C",
+      "levels": {
+        "C": 1
+      },
+      "evidence_types": {
+        "PREDICTIVE": 1
+      },
+      "top_therapies": [
+        "Belvarafenib"
+      ],
+      "pmids": [
+        "38470950"
+      ]
+    },
+    "PPFIBP2": {
+      "n_evidence_items": 1,
+      "n_accepted": 1,
+      "best_level": "C",
+      "best_predictive_level": "C",
+      "levels": {
+        "C": 1
+      },
+      "evidence_types": {
+        "PREDICTIVE": 1
+      },
+      "top_therapies": [
+        "Trametinib"
+      ],
+      "pmids": [
+        "26072686"
+      ]
+    },
+    "PREX2": {
+      "n_evidence_items": 1,
+      "n_accepted": 1,
+      "best_level": "C",
+      "best_predictive_level": "C",
+      "levels": {
+        "C": 1
+      },
+      "evidence_types": {
+        "PREDICTIVE": 1
+      },
+      "top_therapies": [
+        "Vemurafenib"
+      ],
+      "pmids": [
+        "24265155"
+      ]
+    },
+    "HOXD8": {
+      "n_evidence_items": 1,
+      "n_accepted": 0,
+      "best_level": null,
+      "best_predictive_level": null,
+      "best_level_submitted": "C",
+      "best_predictive_level_submitted": "C",
+      "levels": {
+        "C": 1
+      },
+      "evidence_types": {
+        "PREDICTIVE": 1
+      },
+      "top_therapies": [
+        "Vemurafenib",
+        "Dabrafenib"
+      ],
+      "pmids": [
+        "24265153"
+      ]
+    },
+    "EMSY": {
+      "n_evidence_items": 1,
+      "n_accepted": 0,
+      "best_level": null,
+      "best_predictive_level": null,
+      "best_level_submitted": "C",
+      "best_predictive_level_submitted": "C",
+      "levels": {
+        "C": 1
+      },
+      "evidence_types": {
+        "PREDICTIVE": 1
+      },
+      "top_therapies": [
+        "Talazoparib"
+      ],
+      "pmids": [
+        "38778889"
+      ]
+    },
+    "DPP10": {
+      "n_evidence_items": 1,
+      "n_accepted": 1,
+      "best_level": "C",
+      "best_predictive_level": null,
+      "levels": {
+        "C": 1
+      },
+      "evidence_types": {
+        "ONCOGENIC": 1
+      },
+      "top_therapies": [],
+      "pmids": [
+        "33846089"
+      ]
+    },
+    "RUFY1": {
+      "n_evidence_items": 1,
+      "n_accepted": 1,
+      "best_level": "C",
+      "best_predictive_level": "C",
+      "levels": {
+        "C": 1
+      },
+      "evidence_types": {
+        "PREDICTIVE": 1
+      },
+      "top_therapies": [
+        "Binimetinib"
+      ],
+      "pmids": [
+        "35871080"
+      ]
+    },
+    "AGAP3": {
+      "n_evidence_items": 1,
+      "n_accepted": 1,
+      "best_level": "C",
+      "best_predictive_level": "C",
+      "levels": {
+        "C": 1
+      },
+      "evidence_types": {
+        "PREDICTIVE": 1
+      },
+      "top_therapies": [
+        "Trametinib"
+      ],
+      "pmids": [
+        "35871080"
+      ]
+    },
+    "KIAA1549": {
+      "n_evidence_items": 1,
+      "n_accepted": 1,
+      "best_level": "C",
+      "best_predictive_level": "C",
+      "levels": {
+        "C": 1
+      },
+      "evidence_types": {
+        "PREDICTIVE": 1
+      },
+      "top_therapies": [
+        "Trametinib"
+      ],
+      "pmids": [
+        "26072686"
+      ]
+    },
+    "FGFR3": {
+      "n_evidence_items": 1,
+      "n_accepted": 0,
+      "best_level": null,
+      "best_predictive_level": null,
+      "best_level_submitted": "D",
+      "best_predictive_level_submitted": "D",
+      "levels": {
+        "D": 1
+      },
+      "evidence_types": {
+        "PREDICTIVE": 1
+      },
+      "top_therapies": [
+        "Vemurafenib"
+      ],
+      "pmids": [
+        "21107323"
+      ]
+    },
+    "CDK5": {
+      "n_evidence_items": 1,
+      "n_accepted": 0,
+      "best_level": null,
+      "best_predictive_level": null,
+      "best_level_submitted": "D",
+      "levels": {
+        "D": 1
+      },
+      "evidence_types": {
+        "PROGNOSTIC": 1
+      },
+      "top_therapies": [],
+      "pmids": [
+        "32193336"
+      ]
+    },
+    "ERBB4": {
+      "n_evidence_items": 1,
+      "n_accepted": 1,
+      "best_level": "D",
+      "best_predictive_level": "D",
+      "levels": {
+        "D": 1
+      },
+      "evidence_types": {
+        "PREDICTIVE": 1
+      },
+      "top_therapies": [
+        "Lapatinib"
+      ],
+      "pmids": [
+        "19718025"
+      ]
+    },
+    "DDX43": {
+      "n_evidence_items": 1,
+      "n_accepted": 1,
+      "best_level": "D",
+      "best_predictive_level": "D",
+      "levels": {
+        "D": 1
+      },
+      "evidence_types": {
+        "PREDICTIVE": 1
+      },
+      "top_therapies": [
+        "Mirdametinib",
+        "Trametinib",
+        "Selumetinib"
+      ],
+      "pmids": [
+        "24899684"
+      ]
+    },
+    "STAG2": {
+      "n_evidence_items": 1,
+      "n_accepted": 1,
+      "best_level": "D",
+      "best_predictive_level": "D",
+      "levels": {
+        "D": 1
+      },
+      "evidence_types": {
+        "PREDICTIVE": 1
+      },
+      "top_therapies": [
+        "Vemurafenib"
+      ],
+      "pmids": [
+        "27500726"
+      ]
+    },
+    "STAG3": {
+      "n_evidence_items": 1,
+      "n_accepted": 1,
+      "best_level": "D",
+      "best_predictive_level": "D",
+      "levels": {
+        "D": 1
+      },
+      "evidence_types": {
+        "PREDICTIVE": 1
+      },
+      "top_therapies": [
+        "Vemurafenib"
+      ],
+      "pmids": [
+        "27500726"
+      ]
+    },
+    "SOX10": {
+      "n_evidence_items": 1,
+      "n_accepted": 1,
+      "best_level": "D",
+      "best_predictive_level": "D",
+      "levels": {
+        "D": 1
+      },
+      "evidence_types": {
+        "PREDICTIVE": 1
+      },
+      "top_therapies": [
+        "Vemurafenib"
+      ],
+      "pmids": [
+        "24670642"
+      ]
+    },
+    "CTNNB1": {
+      "n_evidence_items": 1,
+      "n_accepted": 1,
+      "best_level": "D",
+      "best_predictive_level": "D",
+      "levels": {
+        "D": 1
+      },
+      "evidence_types": {
+        "PREDICTIVE": 1
+      },
+      "top_therapies": [
+        "Anti-CTLA-4 Monoclonal Antibody",
+        "Anti-PD-L1 Monoclonal Antibody"
+      ],
+      "pmids": [
+        "25970248"
+      ]
+    },
+    "SETDB1": {
+      "n_evidence_items": 1,
+      "n_accepted": 0,
+      "best_level": null,
+      "best_predictive_level": null,
+      "best_level_submitted": "D",
+      "best_predictive_level_submitted": "D",
+      "levels": {
+        "D": 1
+      },
+      "evidence_types": {
+        "PREDICTIVE": 1
+      },
+      "top_therapies": [
+        "Anti-PD1 Monoclonal Antibody"
+      ],
+      "pmids": [
+        "33953401"
+      ]
+    },
+    "ATM": {
+      "n_evidence_items": 1,
+      "n_accepted": 1,
+      "best_level": "D",
+      "best_predictive_level": "D",
+      "levels": {
+        "D": 1
+      },
+      "evidence_types": {
+        "PREDICTIVE": 1
+      },
+      "top_therapies": [
+        "Temozolomide"
+      ],
+      "pmids": [
+        "23960094"
+      ]
+    },
+    "MERTK": {
+      "n_evidence_items": 1,
+      "n_accepted": 1,
+      "best_level": "D",
+      "best_predictive_level": "D",
+      "levels": {
+        "D": 1
+      },
+      "evidence_types": {
+        "PREDICTIVE": 1
+      },
+      "top_therapies": [
+        "UNC1062"
+      ],
+      "pmids": [
+        "23585477"
+      ]
+    },
+    "TF": {
+      "n_evidence_items": 1,
+      "n_accepted": 0,
+      "best_level": null,
+      "best_predictive_level": null,
+      "best_level_submitted": "D",
+      "best_predictive_level_submitted": "D",
+      "levels": {
+        "D": 1
+      },
+      "evidence_types": {
+        "PREDICTIVE": 1
+      },
+      "top_therapies": [
+        "Vemurafenib"
+      ],
+      "pmids": [
+        "24265155"
+      ]
+    },
+    "BRD4": {
+      "n_evidence_items": 1,
+      "n_accepted": 0,
+      "best_level": null,
+      "best_predictive_level": null,
+      "best_level_submitted": "D",
+      "best_predictive_level_submitted": "D",
+      "levels": {
+        "D": 1
+      },
+      "evidence_types": {
+        "PREDICTIVE": 1
+      },
+      "top_therapies": [],
+      "pmids": [
+        "29650805"
+      ]
+    },
+    "TBK1": {
+      "n_evidence_items": 1,
+      "n_accepted": 1,
+      "best_level": "D",
+      "best_predictive_level": "D",
+      "levels": {
+        "D": 1
+      },
+      "evidence_types": {
+        "PREDICTIVE": 1
+      },
+      "top_therapies": [
+        "AZ909",
+        "Selumetinib"
+      ],
+      "pmids": [
+        "24962318"
+      ]
+    },
+    "AEBP1": {
+      "n_evidence_items": 1,
+      "n_accepted": 0,
+      "best_level": null,
+      "best_predictive_level": null,
+      "best_level_submitted": "D",
+      "best_predictive_level_submitted": "D",
+      "levels": {
+        "D": 1
+      },
+      "evidence_types": {
+        "PREDICTIVE": 1
+      },
+      "top_therapies": [
+        "Vemurafenib"
+      ],
+      "pmids": [
+        "24201813"
+      ]
+    },
+    "TPT1": {
+      "n_evidence_items": 1,
+      "n_accepted": 0,
+      "best_level": null,
+      "best_predictive_level": null,
+      "best_level_submitted": "D",
+      "best_predictive_level_submitted": "D",
+      "levels": {
+        "D": 1
+      },
+      "evidence_types": {
+        "PREDICTIVE": 1
+      },
+      "top_therapies": [
+        "Sertraline"
+      ],
+      "pmids": [
+        "28751755"
+      ]
+    },
+    "TCF19": {
+      "n_evidence_items": 1,
+      "n_accepted": 0,
+      "best_level": null,
+      "best_predictive_level": null,
+      "best_level_submitted": "D",
+      "best_predictive_level_submitted": "D",
+      "levels": {
+        "D": 1
+      },
+      "evidence_types": {
+        "PREDICTIVE": 1
+      },
+      "top_therapies": [
+        "Birabresib",
+        "Mirdametinib"
+      ],
+      "pmids": [
+        "29650805"
+      ]
+    },
+    "IFNGR1": {
+      "n_evidence_items": 1,
+      "n_accepted": 1,
+      "best_level": "D",
+      "best_predictive_level": "D",
+      "levels": {
+        "D": 1
+      },
+      "evidence_types": {
+        "PREDICTIVE": 1
+      },
+      "top_therapies": [
+        "Ipilimumab"
+      ],
+      "pmids": [
+        "27667683"
+      ]
+    },
+    "CDK4": {
+      "n_evidence_items": 1,
+      "n_accepted": 1,
+      "best_level": "D",
+      "best_predictive_level": "D",
+      "levels": {
+        "D": 1
+      },
+      "evidence_types": {
+        "PREDICTIVE": 1
+      },
+      "top_therapies": [
+        "Palbociclib"
+      ],
+      "pmids": [
+        "24495407"
+      ]
+    },
+    "TRIM63": {
+      "n_evidence_items": 1,
+      "n_accepted": 1,
+      "best_level": "E",
+      "best_predictive_level": "E",
+      "levels": {
+        "E": 1
+      },
+      "evidence_types": {
+        "PREDICTIVE": 1
+      },
+      "top_therapies": [
+        "Larotrectinib"
+      ],
+      "pmids": [
+        "29683819"
+      ]
+    },
+    "DDR2": {
+      "n_evidence_items": 1,
+      "n_accepted": 1,
+      "best_level": "E",
+      "best_predictive_level": "E",
+      "levels": {
+        "E": 1
+      },
+      "evidence_types": {
+        "PREDICTIVE": 1
+      },
+      "top_therapies": [
+        "Larotrectinib"
+      ],
+      "pmids": [
+        "29683819"
+      ]
+    },
+    "GON4L": {
+      "n_evidence_items": 1,
+      "n_accepted": 1,
+      "best_level": "E",
+      "best_predictive_level": "E",
+      "levels": {
+        "E": 1
+      },
+      "evidence_types": {
+        "PREDICTIVE": 1
+      },
+      "top_therapies": [
+        "Larotrectinib"
+      ],
+      "pmids": [
+        "29683819"
+      ]
+    }
+  }
+}

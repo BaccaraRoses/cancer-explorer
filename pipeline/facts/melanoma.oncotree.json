@@ -1,0 +1,876 @@
+{
+  "source": "OncoTree (Memorial Sloan Kettering)",
+  "api": "https://oncotree.mskcc.org/api/tumorTypes",
+  "cancer": "melanoma",
+  "tissue": [
+    "Skin",
+    "Eye",
+    "Bowel",
+    "Vulva/Vagina",
+    "Head and Neck",
+    "Esophagus/Stomach",
+    "Bladder/Urinary Tract"
+  ],
+  "n_total_types": 897,
+  "n_tissue_types": 155,
+  "missing_expected_codes": [],
+  "nodes": {
+    "path-skin": {
+      "code": "SKCM",
+      "name": "Cutaneous Melanoma",
+      "parent": "MEL",
+      "main_type": "Melanoma",
+      "level": 3,
+      "nci": [
+        "C3510"
+      ],
+      "umls": [
+        "C0151779"
+      ],
+      "match": "ok"
+    },
+    "path-acral": {
+      "code": "ACRM",
+      "name": "Acral Melanoma",
+      "parent": "MEL",
+      "main_type": "Melanoma",
+      "level": 3,
+      "nci": [
+        "C4022"
+      ],
+      "umls": [
+        "C0346037"
+      ],
+      "match": "ok"
+    },
+    "path-ocular": {
+      "code": "OM",
+      "name": "Ocular Melanoma",
+      "parent": "EYE",
+      "main_type": "Melanoma",
+      "level": 2,
+      "nci": [
+        "C8562"
+      ],
+      "umls": [
+        "C0558356"
+      ],
+      "match": "ok"
+    },
+    "path-uveal": {
+      "code": "UM",
+      "name": "Uveal Melanoma",
+      "parent": "OM",
+      "main_type": "Melanoma",
+      "level": 3,
+      "nci": [
+        "C7712"
+      ],
+      "umls": [
+        "C0220633"
+      ],
+      "match": "ok"
+    },
+    "path-unknown": {
+      "code": "MUP",
+      "name": "Melanoma of Unknown Primary",
+      "parent": "MEL",
+      "main_type": "Melanoma",
+      "level": 3,
+      "nci": null,
+      "umls": null,
+      "match": "ok"
+    },
+    "drv-root": {
+      "code": "MEL",
+      "name": "Melanoma",
+      "parent": "SKIN",
+      "main_type": "Melanoma",
+      "level": 2,
+      "nci": [
+        "C3224"
+      ],
+      "umls": [
+        "C0025202"
+      ],
+      "match": "ok"
+    }
+  },
+  "catalogue": [
+    {
+      "code": "ACCC",
+      "name": "Acinic Cell Carcinoma",
+      "parent": "SACA"
+    },
+    {
+      "code": "ACLG",
+      "name": "Adenoid Cystic Carcinoma of the Lacrimal Gland",
+      "parent": "LGT"
+    },
+    {
+      "code": "ACRM",
+      "name": "Acral Melanoma",
+      "parent": "MEL"
+    },
+    {
+      "code": "ACYC",
+      "name": "Adenoid Cystic Carcinoma",
+      "parent": "SACA"
+    },
+    {
+      "code": "ADPA",
+      "name": "Aggressive Digital Papillary Adenocarcinoma",
+      "parent": "SKIN"
+    },
+    {
+      "code": "AECA",
+      "name": "Sweat Gland Carcinoma/Apocrine Eccrine Carcinoma",
+      "parent": "SKIN"
+    },
+    {
+      "code": "AFX",
+      "name": "Atypical Fibroxanthoma",
+      "parent": "SKIN"
+    },
+    {
+      "code": "AGA",
+      "name": "Anal Gland Adenocarcinoma",
+      "parent": "BOWEL"
+    },
+    {
+      "code": "AN",
+      "name": "Atypical Nevus",
+      "parent": "SKIN"
+    },
+    {
+      "code": "ANSC",
+      "name": "Anal Squamous Cell Carcinoma",
+      "parent": "BOWEL"
+    },
+    {
+      "code": "APAD",
+      "name": "Appendiceal Adenocarcinoma",
+      "parent": "BOWEL"
+    },
+    {
+      "code": "ARMM",
+      "name": "Anorectal Mucosal Melanoma",
+      "parent": "BOWEL"
+    },
+    {
+      "code": "ASCT",
+      "name": "Adenosquamous Carcinoma of the Tongue",
+      "parent": "OHNCA"
+    },
+    {
+      "code": "AWDNET",
+      "name": "Well-Differentiated Neuroendocrine Tumor of the Appendix",
+      "parent": "GINET"
+    },
+    {
+      "code": "BCAC",
+      "name": "Basal Cell Adenocarcinoma",
+      "parent": "SACA"
+    },
+    {
+      "code": "BCC",
+      "name": "Basal Cell Carcinoma",
+      "parent": "SKIN"
+    },
+    {
+      "code": "BLAD",
+      "name": "Bladder Adenocarcinoma",
+      "parent": "BLADDER"
+    },
+    {
+      "code": "BLADDER",
+      "name": "Bladder/Urinary Tract",
+      "parent": "TISSUE"
+    },
+    {
+      "code": "BLCA",
+      "name": "Bladder Urothelial Carcinoma",
+      "parent": "BLADDER"
+    },
+    {
+      "code": "BLSC",
+      "name": "Bladder Squamous Cell Carcinoma",
+      "parent": "BLADDER"
+    },
+    {
+      "code": "BOWEL",
+      "name": "Bowel",
+      "parent": "TISSUE"
+    },
+    {
+      "code": "CAEXPA",
+      "name": "Carcinoma ex Pleomorphic Adenoma",
+      "parent": "SACA"
+    },
+    {
+      "code": "CAIS",
+      "name": "Colon Adenocarcinoma In Situ",
+      "parent": "COADREAD"
+    },
+    {
+      "code": "CCOC",
+      "name": "Clear Cell Odontogenic Carcinoma",
+      "parent": "ODGC"
+    },
+    {
+      "code": "CM",
+      "name": "Conjunctival Melanoma",
+      "parent": "OM"
+    },
+    {
+      "code": "CMC",
+      "name": "Medullary Carcinoma of the Colon",
+      "parent": "BOWEL"
+    },
+    {
+      "code": "COAD",
+      "name": "Colon Adenocarcinoma",
+      "parent": "COADREAD"
+    },
+    {
+      "code": "COADREAD",
+      "name": "Colorectal Adenocarcinoma",
+      "parent": "BOWEL"
+    },
+    {
+      "code": "CSCC",
+      "name": "Cutaneous Squamous Cell Carcinoma",
+      "parent": "SKIN"
+    },
+    {
+      "code": "CTAAP",
+      "name": "Colonic Type Adenocarcinoma of the Appendix",
+      "parent": "APAD"
+    },
+    {
+      "code": "DA",
+      "name": "Duodenal Adenocarcinoma",
+      "parent": "SBC"
+    },
+    {
+      "code": "DESM",
+      "name": "Desmoplastic Melanoma",
+      "parent": "MEL"
+    },
+    {
+      "code": "DF",
+      "name": "Dermatofibroma",
+      "parent": "SKIN"
+    },
+    {
+      "code": "DFSP",
+      "name": "Dermatofibrosarcoma Protuberans",
+      "parent": "SKIN"
+    },
+    {
+      "code": "DSTAD",
+      "name": "Diffuse Type Stomach Adenocarcinoma",
+      "parent": "STAD"
+    },
+    {
+      "code": "DTE",
+      "name": "Desmoplastic Trichoepithelioma",
+      "parent": "SKIN"
+    },
+    {
+      "code": "EGC",
+      "name": "Esophagogastric Adenocarcinoma",
+      "parent": "STOMACH"
+    },
+    {
+      "code": "EMPD",
+      "name": "Extramammary Paget Disease",
+      "parent": "SKIN"
+    },
+    {
+      "code": "EMPSGC",
+      "name": "Endocrine Mucin Producing Sweat Gland Carcinoma",
+      "parent": "SKIN"
+    },
+    {
+      "code": "EMYOCA",
+      "name": "Epithelial-Myoepithelial Carcinoma",
+      "parent": "OHNCA"
+    },
+    {
+      "code": "EPDCA",
+      "name": "Esophageal Poorly Differentiated Carcinoma",
+      "parent": "STOMACH"
+    },
+    {
+      "code": "ESCA",
+      "name": "Esophageal Adenocarcinoma",
+      "parent": "EGC"
+    },
+    {
+      "code": "ESCC",
+      "name": "Esophageal Squamous Cell Carcinoma",
+      "parent": "STOMACH"
+    },
+    {
+      "code": "ESMM",
+      "name": "Mucosal Melanoma of the Esophagus",
+      "parent": "STOMACH"
+    },
+    {
+      "code": "EYE",
+      "name": "Eye",
+      "parent": "TISSUE"
+    },
+    {
+      "code": "GCCAP",
+      "name": "Goblet Cell Adenocarcinoma of the Appendix",
+      "parent": "APAD"
+    },
+    {
+      "code": "GEJ",
+      "name": "Adenocarcinoma of the Gastroesophageal Junction",
+      "parent": "EGC"
+    },
+    {
+      "code": "GINET",
+      "name": "Gastrointestinal Neuroendocrine Tumors",
+      "parent": "BOWEL"
+    },
+    {
+      "code": "GINETES",
+      "name": "Gastrointestinal Neuroendocrine Tumors of the Esophagus/Stomach",
+      "parent": "STOMACH"
+    },
+    {
+      "code": "GRC",
+      "name": "Gastric Remnant Adenocarcinoma",
+      "parent": "EGC"
+    },
+    {
+      "code": "HEAD_NECK",
+      "name": "Head and Neck",
+      "parent": "TISSUE"
+    },
+    {
+      "code": "HGNEC",
+      "name": "High-Grade Neuroendocrine Carcinoma of the Colon and Rectum",
+      "parent": "GINET"
+    },
+    {
+      "code": "HGNEE",
+      "name": "High-Grade Neuroendocrine Carcinoma of the Esophagus",
+      "parent": "GINETES"
+    },
+    {
+      "code": "HGNES",
+      "name": "High-Grade Neuroendocrine Carcinoma of the Stomach",
+      "parent": "GINETES"
+    },
+    {
+      "code": "HNMASC",
+      "name": "Mammary Analogue Secretory Carcinoma of Salivary Gland Origin",
+      "parent": "SACA"
+    },
+    {
+      "code": "HNMUCM",
+      "name": "Head and Neck Mucosal Melanoma",
+      "parent": "HEAD_NECK"
+    },
+    {
+      "code": "HNNE",
+      "name": "Head and Neck Neuroendocrine Carcinoma",
+      "parent": "OHNCA"
+    },
+    {
+      "code": "HNSC",
+      "name": "Head and Neck Squamous Cell Carcinoma",
+      "parent": "HEAD_NECK"
+    },
+    {
+      "code": "HNSCUP",
+      "name": "Head and Neck Squamous Cell Carcinoma of Unknown Primary",
+      "parent": "HNSC"
+    },
+    {
+      "code": "HPHSC",
+      "name": "Hypopharynx Squamous Cell Carcinoma",
+      "parent": "HNSC"
+    },
+    {
+      "code": "IMTB",
+      "name": "Inflammatory Myofibroblastic Bladder Tumor",
+      "parent": "BLADDER"
+    },
+    {
+      "code": "ISTAD",
+      "name": "Intestinal Type Stomach Adenocarcinoma",
+      "parent": "STAD"
+    },
+    {
+      "code": "IUP",
+      "name": "Inverted Urothelial Papilloma",
+      "parent": "BLADDER"
+    },
+    {
+      "code": "LAMN",
+      "name": "Low-grade Appendiceal Mucinous Neoplasm",
+      "parent": "BOWEL"
+    },
+    {
+      "code": "LGT",
+      "name": "Lacrimal Gland Tumor",
+      "parent": "EYE"
+    },
+    {
+      "code": "LXSC",
+      "name": "Larynx Squamous Cell Carcinoma",
+      "parent": "HNSC"
+    },
+    {
+      "code": "MAAP",
+      "name": "Mucinous Adenocarcinoma of the Appendix",
+      "parent": "APAD"
+    },
+    {
+      "code": "MAC",
+      "name": "Microcystic Adnexal Carcinoma",
+      "parent": "SKIN"
+    },
+    {
+      "code": "MACR",
+      "name": "Mucinous Adenocarcinoma of the Colon and Rectum",
+      "parent": "COADREAD"
+    },
+    {
+      "code": "MCC",
+      "name": "Merkel Cell Carcinoma",
+      "parent": "SKIN"
+    },
+    {
+      "code": "MEL",
+      "name": "Melanoma",
+      "parent": "SKIN"
+    },
+    {
+      "code": "MSTAD",
+      "name": "Mucinous Stomach Adenocarcinoma",
+      "parent": "STAD"
+    },
+    {
+      "code": "MUCC",
+      "name": "Mucoepidermoid Carcinoma",
+      "parent": "SACA"
+    },
+    {
+      "code": "MUP",
+      "name": "Melanoma of Unknown Primary",
+      "parent": "MEL"
+    },
+    {
+      "code": "MYEC",
+      "name": "Myoepithelial Carcinoma",
+      "parent": "SACA"
+    },
+    {
+      "code": "NMCHN",
+      "name": "NUT Midline Carcinoma of the Head and Neck",
+      "parent": "OHNCA"
+    },
+    {
+      "code": "NPC",
+      "name": "Nasopharyngeal Carcinoma",
+      "parent": "HEAD_NECK"
+    },
+    {
+      "code": "OCSC",
+      "name": "Oral Cavity Squamous Cell Carcinoma",
+      "parent": "HNSC"
+    },
+    {
+      "code": "ODGC",
+      "name": "Odontogenic Carcinoma",
+      "parent": "OHNCA"
+    },
+    {
+      "code": "OHNCA",
+      "name": "Head and Neck Carcinoma, Other",
+      "parent": "HEAD_NECK"
+    },
+    {
+      "code": "OM",
+      "name": "Ocular Melanoma",
+      "parent": "EYE"
+    },
+    {
+      "code": "OPHSC",
+      "name": "Oropharynx Squamous Cell Carcinoma",
+      "parent": "HNSC"
+    },
+    {
+      "code": "OSACA",
+      "name": "Salivary Carcinoma, Other",
+      "parent": "SACA"
+    },
+    {
+      "code": "PAC",
+      "name": "Polymorphous Adenocarcinoma",
+      "parent": "SACA"
+    },
+    {
+      "code": "PADA",
+      "name": "Pleomorphic Adenoma",
+      "parent": "SACA"
+    },
+    {
+      "code": "POCA",
+      "name": "Porocarcinoma/Spiroadenocarcinoma",
+      "parent": "SKIN"
+    },
+    {
+      "code": "PORO",
+      "name": "Poroma/Acrospiroma",
+      "parent": "SKIN"
+    },
+    {
+      "code": "PPCT",
+      "name": "Proliferating Pilar Cystic Tumor",
+      "parent": "SKIN"
+    },
+    {
+      "code": "PSTAD",
+      "name": "Papillary Stomach Adenocarcinoma",
+      "parent": "STAD"
+    },
+    {
+      "code": "PTH",
+      "name": "Parathyroid Cancer",
+      "parent": "HEAD_NECK"
+    },
+    {
+      "code": "PTHC",
+      "name": "Parathyroid Carcinoma",
+      "parent": "PTH"
+    },
+    {
+      "code": "RBL",
+      "name": "Retinoblastoma",
+      "parent": "EYE"
+    },
+    {
+      "code": "READ",
+      "name": "Rectal Adenocarcinoma",
+      "parent": "COADREAD"
+    },
+    {
+      "code": "RWDNET",
+      "name": "Well-Differentiated Neuroendocrine Tumor of the Rectum",
+      "parent": "GINET"
+    },
+    {
+      "code": "SAAD",
+      "name": "Salivary Adenocarcinoma",
+      "parent": "SACA"
+    },
+    {
+      "code": "SACA",
+      "name": "Salivary Carcinoma",
+      "parent": "HEAD_NECK"
+    },
+    {
+      "code": "SBC",
+      "name": "Small Bowel Cancer",
+      "parent": "BOWEL"
+    },
+    {
+      "code": "SBL",
+      "name": "Sialoblastoma",
+      "parent": "HEAD_NECK"
+    },
+    {
+      "code": "SBWDNET",
+      "name": "Small Bowel Well-Differentiated Neuroendocrine Tumor",
+      "parent": "GINET"
+    },
+    {
+      "code": "SCB",
+      "name": "Sarcomatoid Carcinoma of the Urinary Bladder",
+      "parent": "BLADDER"
+    },
+    {
+      "code": "SCBC",
+      "name": "Small Cell Bladder Cancer",
+      "parent": "BLADDER"
+    },
+    {
+      "code": "SCLG",
+      "name": "Squamous Cell Carcinoma of the Lacrimal Gland",
+      "parent": "LGT"
+    },
+    {
+      "code": "SDCA",
+      "name": "Salivary Duct Carcinoma",
+      "parent": "SACA"
+    },
+    {
+      "code": "SEBA",
+      "name": "Sebaceous Carcinoma",
+      "parent": "SKIN"
+    },
+    {
+      "code": "SGAD",
+      "name": "Sweat Gland Adenocarcinoma",
+      "parent": "SKIN"
+    },
+    {
+      "code": "SGO",
+      "name": "Salivary Gland Oncocytoma",
+      "parent": "SACA"
+    },
+    {
+      "code": "SIC",
+      "name": "Small Intestinal Carcinoma",
+      "parent": "BOWEL"
+    },
+    {
+      "code": "SKAC",
+      "name": "Skin Adnexal Carcinoma",
+      "parent": "SKIN"
+    },
+    {
+      "code": "SKCM",
+      "name": "Cutaneous Melanoma",
+      "parent": "MEL"
+    },
+    {
+      "code": "SKCN",
+      "name": "Congenital Nevus",
+      "parent": "MEL"
+    },
+    {
+      "code": "SKIN",
+      "name": "Skin",
+      "parent": "TISSUE"
+    },
+    {
+      "code": "SKLMM",
+      "name": "Lentigo Maligna Melanoma",
+      "parent": "MEL"
+    },
+    {
+      "code": "SMN",
+      "name": "Smooth Muscle Neoplasm, NOS",
+      "parent": "STOMACH"
+    },
+    {
+      "code": "SNA",
+      "name": "Sinonasal Adenocarcinoma",
+      "parent": "OHNCA"
+    },
+    {
+      "code": "SNSC",
+      "name": "Sinonasal Squamous Cell Carcinoma",
+      "parent": "HNSC"
+    },
+    {
+      "code": "SNUC",
+      "name": "Sinonasal Undifferentiated Carcinoma",
+      "parent": "OHNCA"
+    },
+    {
+      "code": "SPDAC",
+      "name": "Poorly Differentiated Carcinoma of the Stomach",
+      "parent": "USTAD"
+    },
+    {
+      "code": "SPIR",
+      "name": "Spiroma/Spiradenoma",
+      "parent": "SKIN"
+    },
+    {
+      "code": "SPZM",
+      "name": "Spitzoid Melanoma",
+      "parent": "MEL"
+    },
+    {
+      "code": "SRAP",
+      "name": "Signet Ring Cell Type of the Appendix",
+      "parent": "APAD"
+    },
+    {
+      "code": "SRCBC",
+      "name": "Plasmacytoid/Signet Ring Cell Bladder Carcinoma",
+      "parent": "BLADDER"
+    },
+    {
+      "code": "SRCCR",
+      "name": "Signet Ring Cell Adenocarcinoma of the Colon and Rectum",
+      "parent": "COADREAD"
+    },
+    {
+      "code": "SSRCC",
+      "name": "Signet Ring Cell Carcinoma of the Stomach",
+      "parent": "USTAD"
+    },
+    {
+      "code": "STAD",
+      "name": "Stomach Adenocarcinoma",
+      "parent": "EGC"
+    },
+    {
+      "code": "STAS",
+      "name": "Adenosquamous Carcinoma of the Stomach",
+      "parent": "EGC"
+    },
+    {
+      "code": "STOMACH",
+      "name": "Esophagus/Stomach",
+      "parent": "TISSUE"
+    },
+    {
+      "code": "STSC",
+      "name": "Small Cell Carcinoma of the Stomach",
+      "parent": "EGC"
+    },
+    {
+      "code": "SWDNET",
+      "name": "Well-Differentiated Neuroendocrine Tumors of the Stomach",
+      "parent": "GINETES"
+    },
+    {
+      "code": "TAC",
+      "name": "Tubular Adenoma of the Colon",
+      "parent": "BOWEL"
+    },
+    {
+      "code": "TSTAD",
+      "name": "Tubular Stomach Adenocarcinoma",
+      "parent": "STAD"
+    },
+    {
+      "code": "UA",
+      "name": "Urachal Adenocarcinoma",
+      "parent": "URCA"
+    },
+    {
+      "code": "UAD",
+      "name": "Urethral Adenocarcinoma",
+      "parent": "UCA"
+    },
+    {
+      "code": "UCA",
+      "name": "Urethral Cancer",
+      "parent": "BLADDER"
+    },
+    {
+      "code": "UCU",
+      "name": "Urethral Urothelial Carcinoma",
+      "parent": "UCA"
+    },
+    {
+      "code": "UM",
+      "name": "Uveal Melanoma",
+      "parent": "OM"
+    },
+    {
+      "code": "UPA",
+      "name": "Urothelial Papilloma",
+      "parent": "BLADDER"
+    },
+    {
+      "code": "URCA",
+      "name": "Urachal Carcinoma",
+      "parent": "BLADDER"
+    },
+    {
+      "code": "URMM",
+      "name": "Mucosal Melanoma of the Urethra",
+      "parent": "BLADDER"
+    },
+    {
+      "code": "USCC",
+      "name": "Urethral Squamous Cell Carcinoma",
+      "parent": "UCA"
+    },
+    {
+      "code": "USTAD",
+      "name": "Undifferentiated Stomach Adenocarcinoma",
+      "parent": "EGC"
+    },
+    {
+      "code": "UTUC",
+      "name": "Upper Tract Urothelial Carcinoma",
+      "parent": "BLADDER"
+    },
+    {
+      "code": "VA",
+      "name": "Vaginal Adenocarcinoma",
+      "parent": "VULVA"
+    },
+    {
+      "code": "VDYS",
+      "name": "Dysgerminoma",
+      "parent": "VGCT"
+    },
+    {
+      "code": "VGCT",
+      "name": "Germ Cell Tumor of the Vulva",
+      "parent": "VULVA"
+    },
+    {
+      "code": "VIMT",
+      "name": "Immature Teratoma",
+      "parent": "VGCT"
+    },
+    {
+      "code": "VMA",
+      "name": "Mucinous Adenocarcinoma of the Vulva/Vagina",
+      "parent": "VULVA"
+    },
+    {
+      "code": "VMGCT",
+      "name": "Mixed Germ Cell Tumor",
+      "parent": "VGCT"
+    },
+    {
+      "code": "VMM",
+      "name": "Mucosal Melanoma of the Vulva/Vagina",
+      "parent": "VULVA"
+    },
+    {
+      "code": "VMT",
+      "name": "Mature Teratoma",
+      "parent": "VGCT"
+    },
+    {
+      "code": "VOEC",
+      "name": "Embryonal Carcinoma",
+      "parent": "VGCT"
+    },
+    {
+      "code": "VPDC",
+      "name": "Poorly Differentiated Vaginal Carcinoma",
+      "parent": "VULVA"
+    },
+    {
+      "code": "VPE",
+      "name": "Polyembryoma",
+      "parent": "VGCT"
+    },
+    {
+      "code": "VSC",
+      "name": "Squamous Cell Carcinoma of the Vulva/Vagina",
+      "parent": "VULVA"
+    },
+    {
+      "code": "VULVA",
+      "name": "Vulva/Vagina",
+      "parent": "TISSUE"
+    },
+    {
+      "code": "VYST",
+      "name": "Yolk Sac Tumor",
+      "parent": "VGCT"
+    }
+  ]
+}

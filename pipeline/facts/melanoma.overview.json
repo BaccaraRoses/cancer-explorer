@@ -1,0 +1,120 @@
+{
+  "source": "SEER Cancer Stat Facts: Melanoma of the Skin",
+  "url": "https://seer.cancer.gov/statfacts/html/melan.html",
+  "population": "United States",
+  "population_sex": "men and women",
+  "estimate_year": 2026,
+  "at_a_glance": {
+    "estimated_new_cases": 112000.0,
+    "pct_of_all_new_cancers": 5.3,
+    "estimated_deaths": 8510.0,
+    "pct_of_all_cancer_deaths": 1.4,
+    "five_year_relative_survival": 94.7
+  },
+  "rates_per_100k": {
+    "new_cases": 22.3,
+    "deaths": 2.0,
+    "basis": "age-adjusted, US men and women, per year"
+  },
+  "lifetime_risk_pct": 2.2,
+  "median_age": {
+    "diagnosis": 67.0,
+    "death": 73.0
+  },
+  "age_distribution": {
+    "new_cases": [
+      {
+        "range": "<20",
+        "percent": 0.3
+      },
+      {
+        "range": "20-34",
+        "percent": 3.8
+      },
+      {
+        "range": "35-44",
+        "percent": 6.9
+      },
+      {
+        "range": "45-54",
+        "percent": 11.3
+      },
+      {
+        "range": "55-64",
+        "percent": 21.0
+      },
+      {
+        "range": "65-74",
+        "percent": 27.8
+      },
+      {
+        "range": "75-84",
+        "percent": 20.5
+      },
+      {
+        "range": ">84",
+        "percent": 8.5
+      }
+    ],
+    "deaths": [
+      {
+        "range": "<20",
+        "percent": 0.1
+      },
+      {
+        "range": "20-34",
+        "percent": 1.4
+      },
+      {
+        "range": "35-44",
+        "percent": 3.7
+      },
+      {
+        "range": "45-54",
+        "percent": 7.1
+      },
+      {
+        "range": "55-64",
+        "percent": 16.5
+      },
+      {
+        "range": "65-74",
+        "percent": 26.5
+      },
+      {
+        "range": "75-84",
+        "percent": 26.7
+      },
+      {
+        "range": ">84",
+        "percent": 18.1
+      }
+    ]
+  },
+  "stage": [
+    {
+      "stage": "Localized",
+      "definition": "Confined to Primary Site",
+      "percent_of_cases": 77.0,
+      "five_year_relative_survival": 100.0
+    },
+    {
+      "stage": "Regional",
+      "definition": "Spread to Regional Lymph Nodes",
+      "percent_of_cases": 10.0,
+      "five_year_relative_survival": 76.0
+    },
+    {
+      "stage": "Distant",
+      "definition": "Cancer Has Metastasized",
+      "percent_of_cases": 5.0,
+      "five_year_relative_survival": 34.0
+    },
+    {
+      "stage": "Unknown",
+      "definition": "Unstaged",
+      "percent_of_cases": 9.0,
+      "five_year_relative_survival": 95.4
+    }
+  ]
+}

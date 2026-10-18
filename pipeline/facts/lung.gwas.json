@@ -1,0 +1,931 @@
+{
+  "source": "GWAS Catalog (EMBL-EBI)",
+  "api": "https://www.ebi.ac.uk/gwas/rest/api/v2",
+  "trait": {
+    "name": "lung carcinoma",
+    "short_form": "MONDO_0005138",
+    "uri": "http://purl.obolibrary.org/obo/MONDO_0005138"
+  },
+  "interpretation": "Association study results, odds ratio per risk allele. 143 of the 154 genome-wide significant associations that report an odds ratio (93%) sit at OR 1.0-1.5 (common variants, small effects). Because top_loci is ranked by effect size it deliberately surfaces the tail: rarer variants with larger ORs. Even those are NOT equivalent to the monogenic penetrance figures in `triggers` (a rare inherited variant's lifetime risk) \u2014 an odds ratio is a relative shift in population risk, not an individual's lifetime probability. Do not present the two in the same list.",
+  "p_threshold": 5e-08,
+  "n_associations_fetched": 630,
+  "n_with_effect_size": 562,
+  "n_genome_wide_significant": 208,
+  "or_range": [
+    1.2,
+    2.4191742
+  ],
+  "top_loci": [
+    {
+      "association_id": 64719873,
+      "risk_allele": "rs75932146-?",
+      "reported_genes": [],
+      "mapped_genes": [
+        "POT1"
+      ],
+      "odds_ratio": 2.4191742,
+      "beta": null,
+      "beta_unit": null,
+      "pvalue": 2e-11,
+      "pvalue_description": null,
+      "risk_allele_frequency": "NR",
+      "study": "GCST90013703",
+      "pubmed_id": "32514122"
+    },
+    {
+      "association_id": 64721023,
+      "risk_allele": "rs75932146-G",
+      "reported_genes": [],
+      "mapped_genes": [
+        "POT1"
+      ],
+      "odds_ratio": 2.2854435,
+      "beta": null,
+      "beta_unit": null,
+      "pvalue": 2e-08,
+      "pvalue_description": null,
+      "risk_allele_frequency": "0.028748516",
+      "study": "GCST90013777",
+      "pubmed_id": "32514122"
+    },
+    {
+      "association_id": 43352,
+      "risk_allele": "rs11571833-T",
+      "reported_genes": [
+        "BRCA2",
+        "FRY"
+      ],
+      "mapped_genes": [
+        "BRCA2"
+      ],
+      "odds_ratio": 1.83,
+      "beta": null,
+      "beta_unit": null,
+      "pvalue": 2e-19,
+      "pvalue_description": null,
+      "risk_allele_frequency": "0.011",
+      "study": "GCST002466",
+      "pubmed_id": "24880342"
+    },
+    {
+      "association_id": 43353,
+      "risk_allele": "rs17879961-A",
+      "reported_genes": [
+        "CHEK2"
+      ],
+      "mapped_genes": [
+        "CHEK2"
+      ],
+      "odds_ratio": 1.67,
+      "beta": null,
+      "beta_unit": null,
+      "pvalue": 3e-11,
+      "pvalue_description": null,
+      "risk_allele_frequency": "0.9975",
+      "study": "GCST002466",
+      "pubmed_id": "24880342"
+    },
+    {
+      "association_id": 22003175,
+      "risk_allele": "rs11571833-T",
+      "reported_genes": [
+        "BRCA2"
+      ],
+      "mapped_genes": [
+        "BRCA2"
+      ],
+      "odds_ratio": 1.6034979,
+      "beta": null,
+      "beta_unit": null,
+      "pvalue": 6e-16,
+      "pvalue_description": null,
+      "risk_allele_frequency": "0.010904125",
+      "study": "GCST004748",
+      "pubmed_id": "28604730"
+    },
+    {
+      "association_id": 17377013,
+      "risk_allele": "rs11571833-T",
+      "reported_genes": [
+        "BRCA2"
+      ],
+      "mapped_genes": [
+        "BRCA2"
+      ],
+      "odds_ratio": 1.6,
+      "beta": null,
+      "beta_unit": null,
+      "pvalue": 8e-12,
+      "pvalue_description": null,
+      "risk_allele_frequency": "NR",
+      "study": "GCST003587",
+      "pubmed_id": "27197191"
+    },
+    {
+      "association_id": 22003180,
+      "risk_allele": "rs185038874-G",
+      "reported_genes": [
+        "PDS5B"
+      ],
+      "mapped_genes": [
+        "PDS5B"
+      ],
+      "odds_ratio": 1.4931829,
+      "beta": null,
+      "beta_unit": null,
+      "pvalue": 2e-10,
+      "pvalue_description": null,
+      "risk_allele_frequency": "0.010740227",
+      "study": "GCST004748",
+      "pubmed_id": "28604730"
+    },
+    {
+      "association_id": 118800882,
+      "risk_allele": "rs7726159-A",
+      "reported_genes": [],
+      "mapped_genes": [
+        "TERT"
+      ],
+      "odds_ratio": 1.42,
+      "beta": null,
+      "beta_unit": null,
+      "pvalue": 1e-46,
+      "pvalue_description": null,
+      "risk_allele_frequency": "0.38",
+      "study": "GCST90277434",
+      "pubmed_id": "37846649"
+    },
+    {
+      "association_id": 11853,
+      "risk_allele": "rs8034191-G",
+      "reported_genes": [
+        "CHRNA5",
+        "PSMA4",
+        "CHRNA3",
+        "LOC123688",
+        "CHRNB4"
+      ],
+      "mapped_genes": [
+        "HYKK"
+      ],
+      "odds_ratio": 1.38,
+      "beta": null,
+      "beta_unit": null,
+      "pvalue": 1e-08,
+      "pvalue_description": null,
+      "risk_allele_frequency": "NR",
+      "study": "GCST000233",
+      "pubmed_id": "18780872"
+    },
+    {
+      "association_id": 25885,
+      "risk_allele": "rs2736100-G",
+      "reported_genes": [
+        "TERT",
+        "hTERT"
+      ],
+      "mapped_genes": [
+        "TERT"
+      ],
+      "odds_ratio": 1.38,
+      "beta": null,
+      "beta_unit": null,
+      "pvalue": 4e-27,
+      "pvalue_description": null,
+      "risk_allele_frequency": "0.40",
+      "study": "GCST001740",
+      "pubmed_id": "23143601"
+    },
+    {
+      "association_id": 192905710,
+      "risk_allele": "rs17486278-C",
+      "reported_genes": [],
+      "mapped_genes": [
+        "CHRNA5"
+      ],
+      "odds_ratio": 1.38,
+      "beta": null,
+      "beta_unit": null,
+      "pvalue": 4e-12,
+      "pvalue_description": null,
+      "risk_allele_frequency": "NR",
+      "study": "GCST90624805",
+      "pubmed_id": "40829600"
+    },
+    {
+      "association_id": 192905716,
+      "risk_allele": "rs147144681-T",
+      "reported_genes": [],
+      "mapped_genes": [
+        "CHRNA3"
+      ],
+      "odds_ratio": 1.37,
+      "beta": null,
+      "beta_unit": null,
+      "pvalue": 1e-08,
+      "pvalue_description": null,
+      "risk_allele_frequency": "NR",
+      "study": "GCST90624805",
+      "pubmed_id": "40829600"
+    },
+    {
+      "association_id": 192905722,
+      "risk_allele": "rs55676755-G",
+      "reported_genes": [],
+      "mapped_genes": [
+        "CHRNA3"
+      ],
+      "odds_ratio": 1.37,
+      "beta": null,
+      "beta_unit": null,
+      "pvalue": 2e-08,
+      "pvalue_description": null,
+      "risk_allele_frequency": "NR",
+      "study": "GCST90624805",
+      "pubmed_id": "40829600"
+    },
+    {
+      "association_id": 12008,
+      "risk_allele": "rs1051730-A",
+      "reported_genes": [
+        "intergenic"
+      ],
+      "mapped_genes": [
+        "CHRNA3"
+      ],
+      "odds_ratio": 1.35,
+      "beta": null,
+      "beta_unit": null,
+      "pvalue": 1e-15,
+      "pvalue_description": null,
+      "risk_allele_frequency": "NR",
+      "study": "GCST000256",
+      "pubmed_id": "18978790"
+    },
+    {
+      "association_id": 192905728,
+      "risk_allele": "rs56077333-A",
+      "reported_genes": [],
+      "mapped_genes": [
+        "CHRNA3"
+      ],
+      "odds_ratio": 1.35,
+      "beta": null,
+      "beta_unit": null,
+      "pvalue": 3.0000000000000004e-08,
+      "pvalue_description": null,
+      "risk_allele_frequency": "NR",
+      "study": "GCST90624805",
+      "pubmed_id": "40829600"
+    },
+    {
+      "association_id": 192905734,
+      "risk_allele": "rs113931022-T",
+      "reported_genes": [],
+      "mapped_genes": [
+        "CHRNA3"
+      ],
+      "odds_ratio": 1.35,
+      "beta": null,
+      "beta_unit": null,
+      "pvalue": 4e-08,
+      "pvalue_description": null,
+      "risk_allele_frequency": "NR",
+      "study": "GCST90624805",
+      "pubmed_id": "40829600"
+    },
+    {
+      "association_id": 35043412,
+      "risk_allele": "rs1051730-T",
+      "reported_genes": [
+        "CHRNA3"
+      ],
+      "mapped_genes": [
+        "CHRNA3"
+      ],
+      "odds_ratio": 1.3369,
+      "beta": null,
+      "beta_unit": null,
+      "pvalue": 3e-52,
+      "pvalue_description": null,
+      "risk_allele_frequency": "NR",
+      "study": "GCST006400",
+      "pubmed_id": "30104567"
+    },
+    {
+      "association_id": 22005660,
+      "risk_allele": "rs55781567-G",
+      "reported_genes": [
+        "CHRNA5"
+      ],
+      "mapped_genes": [
+        "CHRNA5"
+      ],
+      "odds_ratio": 1.3320138,
+      "beta": null,
+      "beta_unit": null,
+      "pvalue": 2e-78,
+      "pvalue_description": null,
+      "risk_allele_frequency": "0.386053854",
+      "study": "GCST004749",
+      "pubmed_id": "28604730"
+    },
+    {
+      "association_id": 31704338,
+      "risk_allele": "rs8040868-C",
+      "reported_genes": [
+        "CHRNA3"
+      ],
+      "mapped_genes": [
+        "CHRNA3"
+      ],
+      "odds_ratio": 1.33,
+      "beta": null,
+      "beta_unit": null,
+      "pvalue": 4e-13,
+      "pvalue_description": null,
+      "risk_allele_frequency": "0.42",
+      "study": "GCST006086",
+      "pubmed_id": "29924316"
+    },
+    {
+      "association_id": 35755325,
+      "risk_allele": "rs16832404-G",
+      "risk_alleles": [
+        "rs16832404-G",
+        "rs2562796-T"
+      ],
+      "reported_genes": [
+        "PMS1",
+        "STAT1",
+        "HIBCH",
+        "INPP1"
+      ],
+      "mapped_genes": [
+        "C2orf88",
+        "HIBCH"
+      ],
+      "odds_ratio": 1.33,
+      "beta": null,
+      "beta_unit": null,
+      "pvalue": 1e-13,
+      "pvalue_description": null,
+      "risk_allele_frequency": "NR",
+      "study": "GCST006866",
+      "pubmed_id": "24325914"
+    },
+    {
+      "association_id": 17346054,
+      "risk_allele": "rs55781567-?",
+      "reported_genes": [
+        "PSMA4",
+        "CHRNA5"
+      ],
+      "mapped_genes": [
+        "CHRNA5"
+      ],
+      "odds_ratio": 1.3169,
+      "beta": null,
+      "beta_unit": null,
+      "pvalue": 1e-09,
+      "pvalue_description": null,
+      "risk_allele_frequency": "NR",
+      "study": "GCST003775",
+      "pubmed_id": "27393504"
+    },
+    {
+      "association_id": 5861,
+      "risk_allele": "rs8034191-G",
+      "reported_genes": [
+        "CHRNA5",
+        "CHRNA3",
+        "PSMA4",
+        "LOC123688"
+      ],
+      "mapped_genes": [
+        "HYKK"
+      ],
+      "odds_ratio": 1.3,
+      "beta": null,
+      "beta_unit": null,
+      "pvalue": 3.0000000000000002e-18,
+      "pvalue_description": null,
+      "risk_allele_frequency": "NR",
+      "study": "GCST000172",
+      "pubmed_id": "18385676"
+    },
+    {
+      "association_id": 5864,
+      "risk_allele": "rs8034191-C",
+      "reported_genes": [
+        "CHRNA5",
+        "CHRNA3",
+        "PSMA4",
+        "LOC123688",
+        "CHRNB4"
+      ],
+      "mapped_genes": [
+        "HYKK"
+      ],
+      "odds_ratio": 1.3,
+      "beta": null,
+      "beta_unit": null,
+      "pvalue": 5e-20,
+      "pvalue_description": null,
+      "risk_allele_frequency": "0.34",
+      "study": "GCST000170",
+      "pubmed_id": "18385738"
+    },
+    {
+      "association_id": 13294020,
+      "risk_allele": "rs72658409-?",
+      "reported_genes": [
+        "Intergenic"
+      ],
+      "mapped_genes": [
+        "CDKN2B-AS1"
+      ],
+      "odds_ratio": 1.2987013,
+      "beta": null,
+      "beta_unit": null,
+      "pvalue": 1e-10,
+      "pvalue_description": null,
+      "risk_allele_frequency": "0.927",
+      "study": "GCST003325",
+      "pubmed_id": "26732429"
+    },
+    {
+      "association_id": 47469229,
+      "risk_allele": "rs380286-A",
+      "reported_genes": [
+        "CLPTM1L",
+        "TERT"
+      ],
+      "mapped_genes": [
+        "CLPTM1L"
+      ],
+      "odds_ratio": 1.2987013,
+      "beta": null,
+      "beta_unit": null,
+      "pvalue": 4e-16,
+      "pvalue_description": null,
+      "risk_allele_frequency": "0.5831",
+      "study": "GCST008376",
+      "pubmed_id": "31009812"
+    },
+    {
+      "association_id": 22003219,
+      "risk_allele": "rs55781567-G",
+      "reported_genes": [
+        "CHRNA5"
+      ],
+      "mapped_genes": [
+        "CHRNA5"
+      ],
+      "odds_ratio": 1.2974213,
+      "beta": null,
+      "beta_unit": null,
+      "pvalue": 3e-103,
+      "pvalue_description": null,
+      "risk_allele_frequency": "0.366673898",
+      "study": "GCST004748",
+      "pubmed_id": "28604730"
+    },
+    {
+      "association_id": 13690,
+      "risk_allele": "rs8034191-?",
+      "reported_genes": [
+        "CHRNA3"
+      ],
+      "mapped_genes": [
+        "HYKK"
+      ],
+      "odds_ratio": 1.29,
+      "beta": null,
+      "beta_unit": null,
+      "pvalue": 3e-26,
+      "pvalue_description": null,
+      "risk_allele_frequency": "NR",
+      "study": "GCST000459",
+      "pubmed_id": "19654303"
+    },
+    {
+      "association_id": 18596,
+      "risk_allele": "rs36600-A",
+      "reported_genes": [
+        "MTMR3"
+      ],
+      "mapped_genes": [
+        "MTMR3"
+      ],
+      "odds_ratio": 1.29,
+      "beta": null,
+      "beta_unit": null,
+      "pvalue": 6.000000000000001e-13,
+      "pvalue_description": null,
+      "risk_allele_frequency": "0.09",
+      "study": "GCST001140",
+      "pubmed_id": "21725308"
+    },
+    {
+      "association_id": 80656617,
+      "risk_allele": "rs577626090-D",
+      "reported_genes": [
+        "CHRNA5"
+      ],
+      "mapped_genes": [
+        "CHRNA5"
+      ],
+      "odds_ratio": 1.29,
+      "beta": null,
+      "beta_unit": null,
+      "pvalue": 1e-63,
+      "pvalue_description": null,
+      "risk_allele_frequency": "0.37",
+      "study": "GCST011656",
+      "pubmed_id": "31577861"
+    },
+    {
+      "association_id": 17346082,
+      "risk_allele": "rs2853677-C",
+      "reported_genes": [
+        "TERT"
+      ],
+      "mapped_genes": [
+        "TERT"
+      ],
+      "odds_ratio": 1.2818,
+      "beta": null,
+      "beta_unit": null,
+      "pvalue": 3.0000000000000004e-09,
+      "pvalue_description": null,
+      "risk_allele_frequency": "0.273",
+      "study": "GCST003775",
+      "pubmed_id": "27393504"
+    },
+    {
+      "association_id": 25888,
+      "risk_allele": "rs7086803-A",
+      "reported_genes": [
+        "VTI1A"
+      ],
+      "mapped_genes": [
+        "VTI1A"
+      ],
+      "odds_ratio": 1.28,
+      "beta": null,
+      "beta_unit": null,
+      "pvalue": 4e-18,
+      "pvalue_description": null,
+      "risk_allele_frequency": "0.27",
+      "study": "GCST001740",
+      "pubmed_id": "23143601"
+    },
+    {
+      "association_id": 18594,
+      "risk_allele": "rs2736100-C",
+      "reported_genes": [
+        "TERT"
+      ],
+      "mapped_genes": [
+        "TERT"
+      ],
+      "odds_ratio": 1.27,
+      "beta": null,
+      "beta_unit": null,
+      "pvalue": 1e-27,
+      "pvalue_description": null,
+      "risk_allele_frequency": "0.41",
+      "study": "GCST001140",
+      "pubmed_id": "21725308"
+    },
+    {
+      "association_id": 35043386,
+      "risk_allele": "rs1051730-T",
+      "reported_genes": [
+        "CHRNA3"
+      ],
+      "mapped_genes": [
+        "CHRNA3"
+      ],
+      "odds_ratio": 1.27,
+      "beta": null,
+      "beta_unit": null,
+      "pvalue": 2.9999999999999996e-49,
+      "pvalue_description": null,
+      "risk_allele_frequency": "NR",
+      "study": "GCST006399",
+      "pubmed_id": "30104567"
+    },
+    {
+      "association_id": 118800910,
+      "risk_allele": "rs11196063-C",
+      "reported_genes": [],
+      "mapped_genes": [
+        "VTI1A"
+      ],
+      "odds_ratio": 1.27,
+      "beta": null,
+      "beta_unit": null,
+      "pvalue": 2e-21,
+      "pvalue_description": null,
+      "risk_allele_frequency": "0.28",
+      "study": "GCST90277434",
+      "pubmed_id": "37846649"
+    },
+    {
+      "association_id": 117768038,
+      "risk_allele": "rs2856678-A",
+      "reported_genes": [],
+      "mapped_genes": [
+        "HLA-DQB1",
+        "MTCO3P1"
+      ],
+      "odds_ratio": 1.266,
+      "beta": null,
+      "beta_unit": null,
+      "pvalue": 8e-09,
+      "pvalue_description": null,
+      "risk_allele_frequency": "0.36212",
+      "study": "GCST90246027",
+      "pubmed_id": "37601966"
+    },
+    {
+      "association_id": 18593,
+      "risk_allele": "rs4488809-C",
+      "reported_genes": [
+        "TP63"
+      ],
+      "mapped_genes": [
+        "TP63"
+      ],
+      "odds_ratio": 1.26,
+      "beta": null,
+      "beta_unit": null,
+      "pvalue": 7.000000000000001e-26,
+      "pvalue_description": null,
+      "risk_allele_frequency": "0.47",
+      "study": "GCST001140",
+      "pubmed_id": "21725308"
+    },
+    {
+      "association_id": 11904,
+      "risk_allele": "rs3117582-C",
+      "reported_genes": [
+        "BAT3",
+        "MSH5"
+      ],
+      "mapped_genes": [
+        "APOM",
+        "BAG6"
+      ],
+      "odds_ratio": 1.24,
+      "beta": null,
+      "beta_unit": null,
+      "pvalue": 5e-10,
+      "pvalue_description": null,
+      "risk_allele_frequency": "NR",
+      "study": "GCST000257",
+      "pubmed_id": "18978787"
+    },
+    {
+      "association_id": 13692,
+      "risk_allele": "rs3117582-?",
+      "reported_genes": [
+        "BAT3"
+      ],
+      "mapped_genes": [
+        "APOM",
+        "BAG6"
+      ],
+      "odds_ratio": 1.24,
+      "beta": null,
+      "beta_unit": null,
+      "pvalue": 4e-10,
+      "pvalue_description": null,
+      "risk_allele_frequency": "NR",
+      "study": "GCST000459",
+      "pubmed_id": "19654303"
+    },
+    {
+      "association_id": 22002908,
+      "risk_allele": "rs147680653-G",
+      "reported_genes": [
+        "IFITM4P",
+        "HCG4"
+      ],
+      "mapped_genes": [
+        "HLA-F-AS1"
+      ],
+      "odds_ratio": 1.2189428,
+      "beta": null,
+      "beta_unit": null,
+      "pvalue": 6.999999999999999e-19,
+      "pvalue_description": null,
+      "risk_allele_frequency": "0.083102808",
+      "study": "GCST004748",
+      "pubmed_id": "28604730"
+    },
+    {
+      "association_id": 118800876,
+      "risk_allele": "rs11928222-G",
+      "reported_genes": [],
+      "mapped_genes": [
+        "TP63"
+      ],
+      "odds_ratio": 1.21,
+      "beta": null,
+      "beta_unit": null,
+      "pvalue": 3e-16,
+      "pvalue_description": null,
+      "risk_allele_frequency": "0.43",
+      "study": "GCST90277434",
+      "pubmed_id": "37846649"
+    },
+    {
+      "association_id": 22005448,
+      "risk_allele": "rs2596500-C",
+      "reported_genes": [
+        "HLA-B"
+      ],
+      "mapped_genes": [
+        "HLA-B",
+        "LINC02571"
+      ],
+      "odds_ratio": 1.2094321,
+      "beta": null,
+      "beta_unit": null,
+      "pvalue": 2e-15,
+      "pvalue_description": null,
+      "risk_allele_frequency": "0.110809826",
+      "study": "GCST004749",
+      "pubmed_id": "28604730"
+    },
+    {
+      "association_id": 22005665,
+      "risk_allele": "rs11639372-T",
+      "reported_genes": [
+        "CHRNB4",
+        "LOC646938"
+      ],
+      "mapped_genes": [
+        "CHRNB4"
+      ],
+      "odds_ratio": 1.2087405,
+      "beta": null,
+      "beta_unit": null,
+      "pvalue": 5.0000000000000005e-37,
+      "pvalue_description": null,
+      "risk_allele_frequency": "0.423901062",
+      "study": "GCST004749",
+      "pubmed_id": "28604730"
+    },
+    {
+      "association_id": 22005454,
+      "risk_allele": "rs114002231-C",
+      "reported_genes": [
+        "MICA",
+        "HCP5"
+      ],
+      "mapped_genes": [
+        "HCP5",
+        "LINC01149"
+      ],
+      "odds_ratio": 1.2080983,
+      "beta": null,
+      "beta_unit": null,
+      "pvalue": 8e-15,
+      "pvalue_description": null,
+      "risk_allele_frequency": "0.131480802",
+      "study": "GCST004749",
+      "pubmed_id": "28604730"
+    },
+    {
+      "association_id": 22005422,
+      "risk_allele": "rs116418332-A",
+      "reported_genes": [
+        "TRIM26"
+      ],
+      "mapped_genes": [
+        "TRIM26"
+      ],
+      "odds_ratio": 1.2073652,
+      "beta": null,
+      "beta_unit": null,
+      "pvalue": 2e-12,
+      "pvalue_description": null,
+      "risk_allele_frequency": "0.095504424",
+      "study": "GCST004749",
+      "pubmed_id": "28604730"
+    },
+    {
+      "association_id": 22005464,
+      "risk_allele": "rs501942-T",
+      "reported_genes": [
+        "SLC44A4"
+      ],
+      "mapped_genes": [
+        "SLC44A4"
+      ],
+      "odds_ratio": 1.2034894,
+      "beta": null,
+      "beta_unit": null,
+      "pvalue": 3e-14,
+      "pvalue_description": null,
+      "risk_allele_frequency": "0.101035865",
+      "study": "GCST004749",
+      "pubmed_id": "28604730"
+    },
+    {
+      "association_id": 22005433,
+      "risk_allele": "rs116260619-C",
+      "reported_genes": [
+        "TRIM39-RPP21",
+        "HLA-E"
+      ],
+      "mapped_genes": [
+        "RANP1",
+        "SUCLA2P1"
+      ],
+      "odds_ratio": 1.2033279,
+      "beta": null,
+      "beta_unit": null,
+      "pvalue": 1e-12,
+      "pvalue_description": null,
+      "risk_allele_frequency": "0.102789982",
+      "study": "GCST004749",
+      "pubmed_id": "28604730"
+    },
+    {
+      "association_id": 22005438,
+      "risk_allele": "rs116551911-T",
+      "reported_genes": [
+        "DDR1"
+      ],
+      "mapped_genes": [
+        "DDR1"
+      ],
+      "odds_ratio": 1.2025579,
+      "beta": null,
+      "beta_unit": null,
+      "pvalue": 2e-13,
+      "pvalue_description": null,
+      "risk_allele_frequency": "0.10976196",
+      "study": "GCST004749",
+      "pubmed_id": "28604730"
+    },
+    {
+      "association_id": 22005459,
+      "risk_allele": "rs139789464-G",
+      "reported_genes": [
+        "APOM"
+      ],
+      "mapped_genes": [
+        "APOM"
+      ],
+      "odds_ratio": 1.2005847,
+      "beta": null,
+      "beta_unit": null,
+      "pvalue": 4e-14,
+      "pvalue_description": null,
+      "risk_allele_frequency": "0.101900939",
+      "study": "GCST004749",
+      "pubmed_id": "28604730"
+    },
+    {
+      "association_id": 22005469,
+      "risk_allele": "rs144433536-T",
+      "reported_genes": [
+        "TNXB"
+      ],
+      "mapped_genes": [
+        "TNXB"
+      ],
+      "odds_ratio": 1.2000709,
+      "beta": null,
+      "beta_unit": null,
+      "pvalue": 7e-14,
+      "pvalue_description": null,
+      "risk_allele_frequency": "0.100804734",
+      "study": "GCST004749",
+      "pubmed_id": "28604730"
+    },
+    {
+      "association_id": 118800889,
+      "risk_allele": "rs9275164-C",
+      "reported_genes": [],
+      "mapped_genes": [
+        "HLA-DQB1",
+        "MTCO3P1"
+      ],
+      "odds_ratio": 1.2,
+      "beta": null,
+      "beta_unit": null,
+      "pvalue": 8e-13,
+      "pvalue_description": null,
+      "risk_allele_frequency": "0.34",
+      "study": "GCST90277434",
+      "pubmed_id": "37846649"
+    }
+  ]
+}

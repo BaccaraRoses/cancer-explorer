@@ -1,0 +1,120 @@
+{
+  "source": "SEER Cancer Stat Facts: Colorectal Cancer",
+  "url": "https://seer.cancer.gov/statfacts/html/colorect.html",
+  "population": "United States",
+  "population_sex": "men and women",
+  "estimate_year": 2026,
+  "at_a_glance": {
+    "estimated_new_cases": 158850.0,
+    "pct_of_all_new_cancers": 7.5,
+    "estimated_deaths": 55230.0,
+    "pct_of_all_cancer_deaths": 8.8,
+    "five_year_relative_survival": 65.4
+  },
+  "rates_per_100k": {
+    "new_cases": 37.6,
+    "deaths": 12.7,
+    "basis": "age-adjusted, US men and women, per year"
+  },
+  "lifetime_risk_pct": 3.9,
+  "median_age": {
+    "diagnosis": 66.0,
+    "death": 72.0
+  },
+  "age_distribution": {
+    "new_cases": [
+      {
+        "range": "<20",
+        "percent": 0.3
+      },
+      {
+        "range": "20-34",
+        "percent": 2.1
+      },
+      {
+        "range": "35-44",
+        "percent": 5.3
+      },
+      {
+        "range": "45-54",
+        "percent": 15.9
+      },
+      {
+        "range": "55-64",
+        "percent": 22.3
+      },
+      {
+        "range": "65-74",
+        "percent": 25.9
+      },
+      {
+        "range": "75-84",
+        "percent": 18.6
+      },
+      {
+        "range": ">84",
+        "percent": 9.6
+      }
+    ],
+    "deaths": [
+      {
+        "range": "<20",
+        "percent": 0.0
+      },
+      {
+        "range": "20-34",
+        "percent": 0.7
+      },
+      {
+        "range": "35-44",
+        "percent": 3.0
+      },
+      {
+        "range": "45-54",
+        "percent": 9.1
+      },
+      {
+        "range": "55-64",
+        "percent": 19.1
+      },
+      {
+        "range": "65-74",
+        "percent": 25.6
+      },
+      {
+        "range": "75-84",
+        "percent": 23.7
+      },
+      {
+        "range": ">84",
+        "percent": 18.7
+      }
+    ]
+  },
+  "stage": [
+    {
+      "stage": "Localized",
+      "definition": "Confined to Primary Site",
+      "percent_of_cases": 34.0,
+      "five_year_relative_survival": 91.3
+    },
+    {
+      "stage": "Regional",
+      "definition": "Spread to Regional Lymph Nodes",
+      "percent_of_cases": 37.0,
+      "five_year_relative_survival": 75.2
+    },
+    {
+      "stage": "Distant",
+      "definition": "Cancer Has Metastasized",
+      "percent_of_cases": 23.0,
+      "five_year_relative_survival": 16.9
+    },
+    {
+      "stage": "Unknown",
+      "definition": "Unstaged",
+      "percent_of_cases": 6.0,
+      "five_year_relative_survival": 49.7
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "source": "OncoTree (Memorial Sloan Kettering)",
+  "api": "https://oncotree.mskcc.org/api/tumorTypes",
+  "cancer": "prostate",
+  "tissue": "Prostate",
+  "n_total_types": 897,
+  "n_tissue_types": 6,
+  "missing_expected_codes": [],
+  "nodes": {},
+  "catalogue": [
+    {
+      "code": "BCCP",
+      "name": "Basal Cell Carcinoma of Prostate",
+      "parent": "PROSTATE"
+    },
+    {
+      "code": "PRAD",
+      "name": "Prostate Adenocarcinoma",
+      "parent": "PROSTATE"
+    },
+    {
+      "code": "PRNE",
+      "name": "Prostate Neuroendocrine Carcinoma",
+      "parent": "PROSTATE"
+    },
+    {
+      "code": "PROSTATE",
+      "name": "Prostate",
+      "parent": "TISSUE"
+    },
+    {
+      "code": "PRSC",
+      "name": "Prostate Squamous Cell Carcinoma",
+      "parent": "PROSTATE"
+    },
+    {
+      "code": "PRSCC",
+      "name": "Prostate Small Cell Carcinoma",
+      "parent": "PROSTATE"
+    }
+  ]
+}

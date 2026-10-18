@@ -1,0 +1,15749 @@
+/* GENERATED FILE - DO NOT EDIT BY HAND.
+ *
+ * Produced by pipeline/run.py targets on 2026-10-18 04:56 UTC
+ * Targets: 24   Drugs: 47 (47 matched to ClinicalTrials.gov)
+ * Alteration cohort: lung_msk_2017 (Non-Small Cell Cancer (MSK, Cancer Discov 2017), n=915)
+ *
+ * Protein length and domains: UniProt (reviewed human entries).
+ * Structure images: RCSB PDB, public domain. Static deposited renders,
+ * not pocket views and not rotatable — the RCSB link is the real viewer.
+ * Drugs: curated lung drug pipeline, joined to ClinicalTrials.gov by NCT id.
+ *
+ * The `gaps` block is arithmetic over these sources, not advice. The
+ * repositioning list in particular is a list of questions to ask, and
+ * mixes two classification axes on purpose — see its axis_note.
+ */
+window.CancerExplorerTargets = window.CancerExplorerTargets || {};
+window.CancerExplorerTargets['lung'] = {
+  "cancer": "lung",
+  "cohort": {
+    "id": "lung_msk_2017",
+    "name": "Non-Small Cell Cancer (MSK, Cancer Discov 2017)",
+    "citation": "Jordan et al. Cancer Discov 2017",
+    "pmid": "28336552",
+    "n_samples": 915,
+    "n_patients": 860
+  },
+  "sources": {
+    "protein": "UniProt (Swiss-Prot, reviewed human entries)",
+    "structure": "RCSB PDB",
+    "structure_note": "Static deposited-structure renders. Not pocket views, and not rotatable — follow the RCSB link for an interactive viewer.",
+    "alterations": "cBioPortal",
+    "drugs": "curated lung drug pipeline",
+    "trials": "ClinicalTrials.gov registry records, joined by NCT id",
+    "evidence": "CIViC (Clinical Interpretation of Variants in Cancer)"
+  },
+  "n_targets": 24,
+  "genes": {
+    "EGFR": {
+      "gene": "EGFR",
+      "basis": "genomic",
+      "biomarker_gene": null,
+      "why": "Sensitising mutations select an EGFR inhibitor; exon 20 insertions select different drugs.",
+      "uniprot": {
+        "gene": "EGFR",
+        "accession": "P00533",
+        "entry_name": "EGFR_HUMAN",
+        "protein": "Epidermal growth factor receptor",
+        "length": 1210,
+        "domains": [
+          {
+            "kind": "Repeat",
+            "name": "Approximate",
+            "start": 75,
+            "end": 300
+          },
+          {
+            "kind": "Repeat",
+            "name": "Approximate",
+            "start": 390,
+            "end": 600
+          },
+          {
+            "kind": "Region",
+            "name": "Important for dimerization, phosphorylation and activation",
+            "start": 688,
+            "end": 704
+          },
+          {
+            "kind": "Domain",
+            "name": "Protein kinase",
+            "start": 712,
+            "end": 979
+          },
+          {
+            "kind": "Region",
+            "name": "Disordered",
+            "start": 1097,
+            "end": 1137
+          }
+        ],
+        "pdb_count": 385,
+        "pdb_ids": [
+          "1IVO",
+          "1M14",
+          "1M17",
+          "1MOX",
+          "1NQL",
+          "1XKK",
+          "1YY9",
+          "1Z9I",
+          "2EB2",
+          "2EB3",
+          "2GS2",
+          "2GS6",
+          "2GS7",
+          "2ITN",
+          "2ITO",
+          "2ITP",
+          "2ITQ",
+          "2ITT",
+          "2ITU",
+          "2ITV",
+          "2ITW",
+          "2ITX",
+          "2ITY",
+          "2ITZ",
+          "2J5E",
+          "2J5F",
+          "2J6M",
+          "2JIT",
+          "2JIU",
+          "2JIV",
+          "2KS1",
+          "2M0B",
+          "2M20",
+          "2N5S",
+          "2RF9",
+          "2RFD",
+          "2RFE",
+          "2RGP",
+          "3B2U",
+          "3B2V"
+        ],
+        "url": "https://www.uniprot.org/uniprotkb/P00533",
+        "alphafold": "https://alphafold.ebi.ac.uk/entry/P00533"
+      },
+      "structure": {
+        "pdb": "4ZAU",
+        "title": "AZD9291 complex with wild type EGFR",
+        "method": "X-RAY DIFFRACTION",
+        "resolution": 2.8,
+        "ligands": [],
+        "deposited": "2015-11-11",
+        "url": "https://www.rcsb.org/structure/4ZAU",
+        "image": "img/4zau.jpg",
+        "image_bytes": 64387
+      },
+      "hotspots": [
+        {
+          "change": "E746_A750del",
+          "pos": 746,
+          "type": "In_Frame_Del",
+          "n": 74,
+          "of": 860,
+          "pct": 8.6
+        },
+        {
+          "change": "L858R",
+          "pos": 858,
+          "type": "Missense_Mutation",
+          "n": 69,
+          "of": 860,
+          "pct": 8.0
+        },
+        {
+          "change": "T790M",
+          "pos": 790,
+          "type": "Missense_Mutation",
+          "n": 39,
+          "of": 860,
+          "pct": 4.5
+        },
+        {
+          "change": "L747_P753delinsS",
+          "pos": 747,
+          "type": "In_Frame_Del",
+          "n": 8,
+          "of": 860,
+          "pct": 0.9
+        },
+        {
+          "change": "L861Q",
+          "pos": 861,
+          "type": "Missense_Mutation",
+          "n": 8,
+          "of": 860,
+          "pct": 0.9
+        },
+        {
+          "change": "E709K",
+          "pos": 709,
+          "type": "Missense_Mutation",
+          "n": 7,
+          "of": 860,
+          "pct": 0.8
+        },
+        {
+          "change": "G719A",
+          "pos": 719,
+          "type": "Missense_Mutation",
+          "n": 7,
+          "of": 860,
+          "pct": 0.8
+        },
+        {
+          "change": "E746_S752delinsV",
+          "pos": 746,
+          "type": "In_Frame_Del",
+          "n": 7,
+          "of": 860,
+          "pct": 0.8
+        },
+        {
+          "change": "L747_A750delinsP",
+          "pos": 747,
+          "type": "In_Frame_Del",
+          "n": 7,
+          "of": 860,
+          "pct": 0.8
+        },
+        {
+          "change": "E709_T710delinsD",
+          "pos": 709,
+          "type": "In_Frame_Del",
+          "n": 6,
+          "of": 860,
+          "pct": 0.7
+        },
+        {
+          "change": "S768I",
+          "pos": 768,
+          "type": "Missense_Mutation",
+          "n": 5,
+          "of": 860,
+          "pct": 0.6
+        },
+        {
+          "change": "G719S",
+          "pos": 719,
+          "type": "Missense_Mutation",
+          "n": 4,
+          "of": 860,
+          "pct": 0.5
+        },
+        {
+          "change": "L747_T751del",
+          "pos": 746,
+          "type": "In_Frame_Del",
+          "n": 4,
+          "of": 860,
+          "pct": 0.5
+        },
+        {
+          "change": "A767_V769dup",
+          "pos": 767,
+          "type": "In_Frame_Ins",
+          "n": 4,
+          "of": 860,
+          "pct": 0.5
+        },
+        {
+          "change": "L747P",
+          "pos": 747,
+          "type": "Missense_Mutation",
+          "n": 3,
+          "of": 860,
+          "pct": 0.3
+        },
+        {
+          "change": "N771_H773dup",
+          "pos": 771,
+          "type": "In_Frame_Ins",
+          "n": 3,
+          "of": 860,
+          "pct": 0.3
+        },
+        {
+          "change": "G221V",
+          "pos": 221,
+          "type": "Missense_Mutation",
+          "n": 2,
+          "of": 860,
+          "pct": 0.2
+        },
+        {
+          "change": "G719C",
+          "pos": 719,
+          "type": "Missense_Mutation",
+          "n": 2,
+          "of": 860,
+          "pct": 0.2
+        },
+        {
+          "change": "E746_T751delinsA",
+          "pos": 746,
+          "type": "In_Frame_Del",
+          "n": 2,
+          "of": 860,
+          "pct": 0.2
+        },
+        {
+          "change": "S752_I759del",
+          "pos": 751,
+          "type": "In_Frame_Del",
+          "n": 2,
+          "of": 860,
+          "pct": 0.2
+        },
+        {
+          "change": "A755G",
+          "pos": 755,
+          "type": "Missense_Mutation",
+          "n": 2,
+          "of": 860,
+          "pct": 0.2
+        },
+        {
+          "change": "H773dup",
+          "pos": 772,
+          "type": "In_Frame_Ins",
+          "n": 2,
+          "of": 860,
+          "pct": 0.2
+        }
+      ],
+      "n_mutated_samples": 243,
+      "n_distinct_changes": 73,
+      "sequenced_of": 860,
+      "frequency": {
+        "by_node": {
+          "drv-alk": {
+            "mutation": {
+              "n": 0,
+              "of": 32,
+              "pct": 0.0
+            },
+            "amplification": {
+              "n": 0,
+              "of": 32,
+              "pct": 0.0
+            },
+            "deep_deletion": {
+              "n": 0,
+              "of": 32,
+              "pct": 0.0
+            },
+            "any_loss": {
+              "n": 0,
+              "of": 32,
+              "pct": 0.0
+            },
+            "fusion": {
+              "n": 0,
+              "of": 32,
+              "pct": 0.0
+            }
+          },
+          "drv-braf": {
+            "mutation": {
+              "n": 0,
+              "of": 18,
+              "pct": 0.0
+            },
+            "amplification": {
+              "n": 0,
+              "of": 18,
+              "pct": 0.0
+            },
+            "deep_deletion": {
+              "n": 0,
+              "of": 18,
+              "pct": 0.0
+            },
+            "any_loss": {
+              "n": 0,
+              "of": 18,
+              "pct": 0.0
+            },
+            "fusion": {
+              "n": 0,
+              "of": 18,
+              "pct": 0.0
+            }
+          },
+          "drv-egfr": {
+            "mutation": {
+              "n": 211,
+              "of": 213,
+              "pct": 99.1
+            },
+            "amplification": {
+              "n": 56,
+              "of": 213,
+              "pct": 26.3
+            },
+            "deep_deletion": {
+              "n": 0,
+              "of": 213,
+              "pct": 0.0
+            },
+            "any_loss": {
+              "n": 0,
+              "of": 213,
+              "pct": 0.0
+            },
+            "fusion": {
+              "n": 2,
+              "of": 213,
+              "pct": 0.9
+            }
+          },
+          "drv-egfr-ex20": {
+            "mutation": {
+              "n": 17,
+              "of": 18,
+              "pct": 94.4
+            },
+            "amplification": {
+              "n": 8,
+              "of": 18,
+              "pct": 44.4
+            },
+            "deep_deletion": {
+              "n": 0,
+              "of": 18,
+              "pct": 0.0
+            },
+            "any_loss": {
+              "n": 0,
+              "of": 18,
+              "pct": 0.0
+            },
+            "fusion": {
+              "n": 0,
+              "of": 18,
+              "pct": 0.0
+            }
+          },
+          "drv-erbb2": {
+            "mutation": {
+              "n": 0,
+              "of": 24,
+              "pct": 0.0
+            },
+            "amplification": {
+              "n": 0,
+              "of": 24,
+              "pct": 0.0
+            },
+            "deep_deletion": {
+              "n": 0,
+              "of": 24,
+              "pct": 0.0
+            },
+            "any_loss": {
+              "n": 0,
+              "of": 24,
+              "pct": 0.0
+            },
+            "fusion": {
+              "n": 0,
+              "of": 24,
+              "pct": 0.0
+            }
+          },
+          "drv-kras": {
+            "mutation": {
+              "n": 5,
+              "of": 215,
+              "pct": 2.3
+            },
+            "amplification": {
+              "n": 0,
+              "of": 215,
+              "pct": 0.0
+            },
+            "deep_deletion": {
+              "n": 0,
+              "of": 215,
+              "pct": 0.0
+            },
+            "any_loss": {
+              "n": 0,
+              "of": 215,
+              "pct": 0.0
+            },
+            "fusion": {
+              "n": 0,
+              "of": 215,
+              "pct": 0.0
+            }
+          },
+          "drv-met": {
+            "mutation": {
+              "n": 0,
+              "of": 26,
+              "pct": 0.0
+            },
+            "amplification": {
+              "n": 0,
+              "of": 26,
+              "pct": 0.0
+            },
+            "deep_deletion": {
+              "n": 0,
+              "of": 26,
+              "pct": 0.0
+            },
+            "any_loss": {
+              "n": 0,
+              "of": 26,
+              "pct": 0.0
+            },
+            "fusion": {
+              "n": 0,
+              "of": 26,
+              "pct": 0.0
+            }
+          },
+          "drv-none": {
+            "mutation": {
+              "n": 5,
+              "of": 119,
+              "pct": 4.2
+            },
+            "amplification": {
+              "n": 0,
+              "of": 119,
+              "pct": 0.0
+            },
+            "deep_deletion": {
+              "n": 0,
+              "of": 119,
+              "pct": 0.0
+            },
+            "any_loss": {
+              "n": 0,
+              "of": 119,
+              "pct": 0.0
+            },
+            "fusion": {
+              "n": 0,
+              "of": 119,
+              "pct": 0.0
+            }
+          },
+          "drv-other": {
+            "mutation": {
+              "n": 5,
+              "of": 158,
+              "pct": 3.2
+            },
+            "amplification": {
+              "n": 10,
+              "of": 158,
+              "pct": 6.3
+            },
+            "deep_deletion": {
+              "n": 0,
+              "of": 158,
+              "pct": 0.0
+            },
+            "any_loss": {
+              "n": 0,
+              "of": 158,
+              "pct": 0.0
+            },
+            "fusion": {
+              "n": 1,
+              "of": 158,
+              "pct": 0.6
+            }
+          },
+          "drv-ret": {
+            "mutation": {
+              "n": 0,
+              "of": 14,
+              "pct": 0.0
+            },
+            "amplification": {
+              "n": 0,
+              "of": 14,
+              "pct": 0.0
+            },
+            "deep_deletion": {
+              "n": 0,
+              "of": 14,
+              "pct": 0.0
+            },
+            "any_loss": {
+              "n": 0,
+              "of": 14,
+              "pct": 0.0
+            },
+            "fusion": {
+              "n": 0,
+              "of": 14,
+              "pct": 0.0
+            }
+          },
+          "drv-ros1": {
+            "mutation": {
+              "n": 0,
+              "of": 23,
+              "pct": 0.0
+            },
+            "amplification": {
+              "n": 0,
+              "of": 23,
+              "pct": 0.0
+            },
+            "deep_deletion": {
+              "n": 0,
+              "of": 23,
+              "pct": 0.0
+            },
+            "any_loss": {
+              "n": 0,
+              "of": 23,
+              "pct": 0.0
+            },
+            "fusion": {
+              "n": 0,
+              "of": 23,
+              "pct": 0.0
+            }
+          }
+        },
+        "max_pct": 99.1,
+        "max_node": "drv-egfr",
+        "max_metric": "mutation"
+      },
+      "drugs": [
+        "drug-0",
+        "drug-1",
+        "drug-2",
+        "drug-3",
+        "drug-4",
+        "drug-5",
+        "drug-6",
+        "drug-7",
+        "drug-8",
+        "drug-9",
+        "drug-10"
+      ],
+      "n_programs": 11,
+      "best_phase": "approved",
+      "best_phase_rank": 7,
+      "civic": {
+        "n_evidence_items": 457,
+        "n_accepted": 216,
+        "best_level": "A",
+        "levels": {
+          "A": 32,
+          "B": 101,
+          "C": 203,
+          "D": 119,
+          "E": 2
+        },
+        "evidence_types": {
+          "ONCOGENIC": 19,
+          "PREDICTIVE": 431,
+          "PROGNOSTIC": 7
+        },
+        "top_therapies": [
+          "Erlotinib",
+          "Gefitinib",
+          "Afatinib",
+          "Osimertinib",
+          "Dacomitinib",
+          "Sunvozertinib"
+        ]
+      },
+      "selected_on": null
+    },
+    "KRAS": {
+      "gene": "KRAS",
+      "basis": "genomic",
+      "biomarker_gene": null,
+      "why": "Only the G12C allele is drugged. The rest of KRAS is still open.",
+      "uniprot": {
+        "gene": "KRAS",
+        "accession": "P01116",
+        "entry_name": "RASK_HUMAN",
+        "protein": "GTPase KRas",
+        "length": 189,
+        "domains": [
+          {
+            "kind": "Region",
+            "name": "Hypervariable region",
+            "start": 166,
+            "end": 185
+          }
+        ],
+        "pdb_count": 488,
+        "pdb_ids": [
+          "10JT",
+          "10NU",
+          "10NV",
+          "11QE",
+          "1D8D",
+          "1D8E",
+          "1KZO",
+          "1KZP",
+          "1N4P",
+          "1N4Q",
+          "1N4R",
+          "1N4S",
+          "2MSC",
+          "2MSD",
+          "2MSE",
+          "3GFT",
+          "4DSN",
+          "4DSO",
+          "4EPR",
+          "4EPT",
+          "4EPV",
+          "4EPW",
+          "4EPX",
+          "4EPY",
+          "4L8G",
+          "4LDJ",
+          "4LPK",
+          "4LRW",
+          "4LUC",
+          "4LV6",
+          "4LYF",
+          "4LYH",
+          "4LYJ",
+          "4M1O",
+          "4M1S",
+          "4M1T",
+          "4M1W",
+          "4M1Y",
+          "4M21",
+          "4M22"
+        ],
+        "url": "https://www.uniprot.org/uniprotkb/P01116",
+        "alphafold": "https://alphafold.ebi.ac.uk/entry/P01116"
+      },
+      "structure": {
+        "pdb": "6OIM",
+        "title": "Crystal Structure of human KRAS G12C covalently bound to AMG 510",
+        "method": "X-RAY DIFFRACTION",
+        "resolution": 1.65,
+        "ligands": [
+          "GDP",
+          "MG",
+          "MOV"
+        ],
+        "deposited": "2019-11-06",
+        "url": "https://www.rcsb.org/structure/6OIM",
+        "image": "img/6oim.jpg",
+        "image_bytes": 55103
+      },
+      "hotspots": [
+        {
+          "change": "G12C",
+          "pos": 12,
+          "type": "Missense_Mutation",
+          "n": 100,
+          "of": 860,
+          "pct": 11.6
+        },
+        {
+          "change": "G12V",
+          "pos": 12,
+          "type": "Missense_Mutation",
+          "n": 37,
+          "of": 860,
+          "pct": 4.3
+        },
+        {
+          "change": "G12D",
+          "pos": 12,
+          "type": "Missense_Mutation",
+          "n": 35,
+          "of": 860,
+          "pct": 4.1
+        },
+        {
+          "change": "G12A",
+          "pos": 12,
+          "type": "Missense_Mutation",
+          "n": 18,
+          "of": 860,
+          "pct": 2.1
+        },
+        {
+          "change": "G13D",
+          "pos": 13,
+          "type": "Missense_Mutation",
+          "n": 12,
+          "of": 860,
+          "pct": 1.4
+        },
+        {
+          "change": "Q61H",
+          "pos": 61,
+          "type": "Missense_Mutation",
+          "n": 10,
+          "of": 860,
+          "pct": 1.2
+        },
+        {
+          "change": "G12S",
+          "pos": 12,
+          "type": "Missense_Mutation",
+          "n": 4,
+          "of": 860,
+          "pct": 0.5
+        },
+        {
+          "change": "G13C",
+          "pos": 13,
+          "type": "Missense_Mutation",
+          "n": 4,
+          "of": 860,
+          "pct": 0.5
+        },
+        {
+          "change": "G12F",
+          "pos": 12,
+          "type": "Missense_Mutation",
+          "n": 2,
+          "of": 860,
+          "pct": 0.2
+        },
+        {
+          "change": "G12R",
+          "pos": 12,
+          "type": "Missense_Mutation",
+          "n": 2,
+          "of": 860,
+          "pct": 0.2
+        },
+        {
+          "change": "G13E",
+          "pos": 13,
+          "type": "Missense_Mutation",
+          "n": 2,
+          "of": 860,
+          "pct": 0.2
+        }
+      ],
+      "n_mutated_samples": 233,
+      "n_distinct_changes": 21,
+      "sequenced_of": 860,
+      "frequency": {
+        "by_node": {
+          "drv-alk": {
+            "mutation": {
+              "n": 0,
+              "of": 32,
+              "pct": 0.0
+            },
+            "amplification": {
+              "n": 0,
+              "of": 32,
+              "pct": 0.0
+            },
+            "deep_deletion": {
+              "n": 0,
+              "of": 32,
+              "pct": 0.0
+            },
+            "any_loss": {
+              "n": 0,
+              "of": 32,
+              "pct": 0.0
+            },
+            "fusion": {
+              "n": 0,
+              "of": 32,
+              "pct": 0.0
+            }
+          },
+          "drv-braf": {
+            "mutation": {
+              "n": 0,
+              "of": 18,
+              "pct": 0.0
+            },
+            "amplification": {
+              "n": 0,
+              "of": 18,
+              "pct": 0.0
+            },
+            "deep_deletion": {
+              "n": 0,
+              "of": 18,
+              "pct": 0.0
+            },
+            "any_loss": {
+              "n": 0,
+              "of": 18,
+              "pct": 0.0
+            },
+            "fusion": {
+              "n": 0,
+              "of": 18,
+              "pct": 0.0
+            }
+          },
+          "drv-egfr": {
+            "mutation": {
+              "n": 2,
+              "of": 213,
+              "pct": 0.9
+            },
+            "amplification": {
+              "n": 0,
+              "of": 213,
+              "pct": 0.0
+            },
+            "deep_deletion": {
+              "n": 0,
+              "of": 213,
+              "pct": 0.0
+            },
+            "any_loss": {
+              "n": 0,
+              "of": 213,
+              "pct": 0.0
+            },
+            "fusion": {
+              "n": 0,
+              "of": 213,
+              "pct": 0.0
+            }
+          },
+          "drv-egfr-ex20": {
+            "mutation": {
+              "n": 0,
+              "of": 18,
+              "pct": 0.0
+            },
+            "amplification": {
+              "n": 0,
+              "of": 18,
+              "pct": 0.0
+            },
+            "deep_deletion": {
+              "n": 0,
+              "of": 18,
+              "pct": 0.0
+            },
+            "any_loss": {
+              "n": 0,
+              "of": 18,
+              "pct": 0.0
+            },
+            "fusion": {
+              "n": 0,
+              "of": 18,
+              "pct": 0.0
+            }
+          },
+          "drv-erbb2": {
+            "mutation": {
+              "n": 0,
+              "of": 24,
+              "pct": 0.0
+            },
+            "amplification": {
+              "n": 0,
+              "of": 24,
+              "pct": 0.0
+            },
+            "deep_deletion": {
+              "n": 0,
+              "of": 24,
+              "pct": 0.0
+            },
+            "any_loss": {
+              "n": 0,
+              "of": 24,
+              "pct": 0.0
+            },
+            "fusion": {
+              "n": 0,
+              "of": 24,
+              "pct": 0.0
+            }
+          },
+          "drv-kras": {
+            "mutation": {
+              "n": 213,
+              "of": 215,
+              "pct": 99.1
+            },
+            "amplification": {
+              "n": 7,
+              "of": 215,
+              "pct": 3.3
+            },
+            "deep_deletion": {
+              "n": 0,
+              "of": 215,
+              "pct": 0.0
+            },
+            "any_loss": {
+              "n": 0,
+              "of": 215,
+              "pct": 0.0
+            },
+            "fusion": {
+              "n": 0,
+              "of": 215,
+              "pct": 0.0
+            }
+          },
+          "drv-met": {
+            "mutation": {
+              "n": 0,
+              "of": 26,
+              "pct": 0.0
+            },
+            "amplification": {
+              "n": 1,
+              "of": 26,
+              "pct": 3.8
+            },
+            "deep_deletion": {
+              "n": 0,
+              "of": 26,
+              "pct": 0.0
+            },
+            "any_loss": {
+              "n": 0,
+              "of": 26,
+              "pct": 0.0
+            },
+            "fusion": {
+              "n": 0,
+              "of": 26,
+              "pct": 0.0
+            }
+          },
+          "drv-none": {
+            "mutation": {
+              "n": 0,
+              "of": 119,
+              "pct": 0.0
+            },
+            "amplification": {
+              "n": 3,
+              "of": 119,
+              "pct": 2.5
+            },
+            "deep_deletion": {
+              "n": 0,
+              "of": 119,
+              "pct": 0.0
+            },
+            "any_loss": {
+              "n": 0,
+              "of": 119,
+              "pct": 0.0
+            },
+            "fusion": {
+              "n": 0,
+              "of": 119,
+              "pct": 0.0
+            }
+          },
+          "drv-other": {
+            "mutation": {
+              "n": 18,
+              "of": 158,
+              "pct": 11.4
+            },
+            "amplification": {
+              "n": 4,
+              "of": 158,
+              "pct": 2.5
+            },
+            "deep_deletion": {
+              "n": 2,
+              "of": 158,
+              "pct": 1.3
+            },
+            "any_loss": {
+              "n": 2,
+              "of": 158,
+              "pct": 1.3
+            },
+            "fusion": {
+              "n": 0,
+              "of": 158,
+              "pct": 0.0
+            }
+          },
+          "drv-ret": {
+            "mutation": {
+              "n": 0,
+              "of": 14,
+              "pct": 0.0
+            },
+            "amplification": {
+              "n": 0,
+              "of": 14,
+              "pct": 0.0
+            },
+            "deep_deletion": {
+              "n": 0,
+              "of": 14,
+              "pct": 0.0
+            },
+            "any_loss": {
+              "n": 0,
+              "of": 14,
+              "pct": 0.0
+            },
+            "fusion": {
+              "n": 0,
+              "of": 14,
+              "pct": 0.0
+            }
+          },
+          "drv-ros1": {
+            "mutation": {
+              "n": 0,
+              "of": 23,
+              "pct": 0.0
+            },
+            "amplification": {
+              "n": 0,
+              "of": 23,
+              "pct": 0.0
+            },
+            "deep_deletion": {
+              "n": 0,
+              "of": 23,
+              "pct": 0.0
+            },
+            "any_loss": {
+              "n": 0,
+              "of": 23,
+              "pct": 0.0
+            },
+            "fusion": {
+              "n": 0,
+              "of": 23,
+              "pct": 0.0
+            }
+          }
+        },
+        "max_pct": 99.1,
+        "max_node": "drv-kras",
+        "max_metric": "mutation"
+      },
+      "drugs": [
+        "drug-26",
+        "drug-27"
+      ],
+      "n_programs": 2,
+      "best_phase": "approved",
+      "best_phase_rank": 7,
+      "civic": {
+        "n_evidence_items": 102,
+        "n_accepted": 44,
+        "best_level": "A",
+        "levels": {
+          "A": 2,
+          "B": 49,
+          "C": 26,
+          "D": 24,
+          "E": 1
+        },
+        "evidence_types": {
+          "DIAGNOSTIC": 3,
+          "PREDICTIVE": 92,
+          "PROGNOSTIC": 7
+        },
+        "top_therapies": [
+          "Erlotinib",
+          "Sotorasib",
+          "Gefitinib",
+          "Selumetinib",
+          "Docetaxel",
+          "Trametinib"
+        ]
+      },
+      "selected_on": "allele"
+    },
+    "ALK": {
+      "gene": "ALK",
+      "basis": "genomic",
+      "biomarker_gene": null,
+      "why": "A fusion selects an ALK inhibitor. Mutation calls cannot see it.",
+      "uniprot": {
+        "gene": "ALK",
+        "accession": "Q9UM73",
+        "entry_name": "ALK_HUMAN",
+        "protein": "ALK tyrosine kinase receptor",
+        "length": 1620,
+        "domains": [
+          {
+            "kind": "Region",
+            "name": "Heparin-binding region",
+            "start": 48,
+            "end": 70
+          },
+          {
+            "kind": "Domain",
+            "name": "MAM 1",
+            "start": 264,
+            "end": 427
+          },
+          {
+            "kind": "Domain",
+            "name": "LDL-receptor class A",
+            "start": 437,
+            "end": 473
+          },
+          {
+            "kind": "Domain",
+            "name": "MAM 2",
+            "start": 478,
+            "end": 636
+          },
+          {
+            "kind": "Region",
+            "name": "Disordered",
+            "start": 650,
+            "end": 674
+          },
+          {
+            "kind": "Region",
+            "name": "EGF-like",
+            "start": 987,
+            "end": 1025
+          },
+          {
+            "kind": "Domain",
+            "name": "Protein kinase",
+            "start": 1116,
+            "end": 1392
+          },
+          {
+            "kind": "Region",
+            "name": "Disordered",
+            "start": 1408,
+            "end": 1463
+          },
+          {
+            "kind": "Region",
+            "name": "Disordered",
+            "start": 1514,
+            "end": 1540
+          }
+        ],
+        "pdb_count": 79,
+        "pdb_ids": [
+          "2KUP",
+          "2KUQ",
+          "2XB7",
+          "2XBA",
+          "2XP2",
+          "2YFX",
+          "2YHV",
+          "2YJR",
+          "2YJS",
+          "2YS5",
+          "2YT2",
+          "3AOX",
+          "3L9P",
+          "3LCS",
+          "3LCT",
+          "4ANL",
+          "4ANQ",
+          "4ANS",
+          "4CCB",
+          "4CCU",
+          "4CD0",
+          "4CLI",
+          "4CLJ",
+          "4CMO",
+          "4CMT",
+          "4CMU",
+          "4CNH",
+          "4CTB",
+          "4CTC",
+          "4DCE",
+          "4FNW",
+          "4FNX",
+          "4FNY",
+          "4FNZ",
+          "4FOB",
+          "4FOC",
+          "4FOD",
+          "4JOA",
+          "4MKC",
+          "4TT7"
+        ],
+        "url": "https://www.uniprot.org/uniprotkb/Q9UM73",
+        "alphafold": "https://alphafold.ebi.ac.uk/entry/Q9UM73"
+      },
+      "structure": {
+        "pdb": "2XP2",
+        "title": "Structure of the Human Anaplastic Lymphoma Kinase in Complex with Crizotinib (PF-02341066)",
+        "method": "X-RAY DIFFRACTION",
+        "resolution": 1.9,
+        "ligands": [],
+        "deposited": "2010-09-15",
+        "url": "https://www.rcsb.org/structure/2XP2",
+        "image": "img/2xp2.jpg",
+        "image_bytes": 60399
+      },
+      "hotspots": [
+        {
+          "change": "S62L",
+          "pos": 62,
+          "type": "Missense_Mutation",
+          "n": 2,
+          "of": 860,
+          "pct": 0.2
+        }
+      ],
+      "n_mutated_samples": 38,
+      "n_distinct_changes": 41,
+      "sequenced_of": 860,
+      "frequency": {
+        "by_node": {
+          "drv-alk": {
+            "mutation": {
+              "n": 4,
+              "of": 32,
+              "pct": 12.5
+            },
+            "amplification": {
+              "n": 0,
+              "of": 32,
+              "pct": 0.0
+            },
+            "deep_deletion": {
+              "n": 0,
+              "of": 32,
+              "pct": 0.0
+            },
+            "any_loss": {
+              "n": 0,
+              "of": 32,
+              "pct": 0.0
+            },
+            "fusion": {
+              "n": 30,
+              "of": 32,
+              "pct": 93.8
+            }
+          },
+          "drv-braf": {
+            "mutation": {
+              "n": 0,
+              "of": 18,
+              "pct": 0.0
+            },
+            "amplification": {
+              "n": 0,
+              "of": 18,
+              "pct": 0.0
+            },
+            "deep_deletion": {
+              "n": 0,
+              "of": 18,
+              "pct": 0.0
+            },
+            "any_loss": {
+              "n": 0,
+              "of": 18,
+              "pct": 0.0
+            },
+            "fusion": {
+              "n": 0,
+              "of": 18,
+              "pct": 0.0
+            }
+          },
+          "drv-egfr": {
+            "mutation": {
+              "n": 0,
+              "of": 213,
+              "pct": 0.0
+            },
+            "amplification": {
+              "n": 0,
+              "of": 213,
+              "pct": 0.0
+            },
+            "deep_deletion": {
+              "n": 0,
+              "of": 213,
+              "pct": 0.0
+            },
+            "any_loss": {
+              "n": 0,
+              "of": 213,
+              "pct": 0.0
+            },
+            "fusion": {
+              "n": 0,
+              "of": 213,
+              "pct": 0.0
+            }
+          },
+          "drv-egfr-ex20": {
+            "mutation": {
+              "n": 1,
+              "of": 18,
+              "pct": 5.6
+            },
+            "amplification": {
+              "n": 0,
+              "of": 18,
+              "pct": 0.0
+            },
+            "deep_deletion": {
+              "n": 0,
+              "of": 18,
+              "pct": 0.0
+            },
+            "any_loss": {
+              "n": 0,
+              "of": 18,
+              "pct": 0.0
+            },
+            "fusion": {
+              "n": 0,
+              "of": 18,
+              "pct": 0.0
+            }
+          },
+          "drv-erbb2": {
+            "mutation": {
+              "n": 1,
+              "of": 24,
+              "pct": 4.2
+            },
+            "amplification": {
+              "n": 0,
+              "of": 24,
+              "pct": 0.0
+            },
+            "deep_deletion": {
+              "n": 0,
+              "of": 24,
+              "pct": 0.0
+            },
+            "any_loss": {
+              "n": 0,
+              "of": 24,
+              "pct": 0.0
+            },
+            "fusion": {
+              "n": 0,
+              "of": 24,
+              "pct": 0.0
+            }
+          },
+          "drv-kras": {
+            "mutation": {
+              "n": 9,
+              "of": 215,
+              "pct": 4.2
+            },
+            "amplification": {
+              "n": 0,
+              "of": 215,
+              "pct": 0.0
+            },
+            "deep_deletion": {
+              "n": 0,
+              "of": 215,
+              "pct": 0.0
+            },
+            "any_loss": {
+              "n": 0,
+              "of": 215,
+              "pct": 0.0
+            },
+            "fusion": {
+              "n": 0,
+              "of": 215,
+              "pct": 0.0
+            }
+          },
+          "drv-met": {
+            "mutation": {
+              "n": 0,
+              "of": 26,
+              "pct": 0.0
+            },
+            "amplification": {
+              "n": 0,
+              "of": 26,
+              "pct": 0.0
+            },
+            "deep_deletion": {
+              "n": 0,
+              "of": 26,
+              "pct": 0.0
+            },
+            "any_loss": {
+              "n": 0,
+              "of": 26,
+              "pct": 0.0
+            },
+            "fusion": {
+              "n": 0,
+              "of": 26,
+              "pct": 0.0
+            }
+          },
+          "drv-none": {
+            "mutation": {
+              "n": 4,
+              "of": 119,
+              "pct": 3.4
+            },
+            "amplification": {
+              "n": 0,
+              "of": 119,
+              "pct": 0.0
+            },
+            "deep_deletion": {
+              "n": 0,
+              "of": 119,
+              "pct": 0.0
+            },
+            "any_loss": {
+              "n": 0,
+              "of": 119,
+              "pct": 0.0
+            },
+            "fusion": {
+              "n": 0,
+              "of": 119,
+              "pct": 0.0
+            }
+          },
+          "drv-other": {
+            "mutation": {
+              "n": 19,
+              "of": 158,
+              "pct": 12.0
+            },
+            "amplification": {
+              "n": 0,
+              "of": 158,
+              "pct": 0.0
+            },
+            "deep_deletion": {
+              "n": 0,
+              "of": 158,
+              "pct": 0.0
+            },
+            "any_loss": {
+              "n": 0,
+              "of": 158,
+              "pct": 0.0
+            },
+            "fusion": {
+              "n": 0,
+              "of": 158,
+              "pct": 0.0
+            }
+          },
+          "drv-ret": {
+            "mutation": {
+              "n": 0,
+              "of": 14,
+              "pct": 0.0
+            },
+            "amplification": {
+              "n": 0,
+              "of": 14,
+              "pct": 0.0
+            },
+            "deep_deletion": {
+              "n": 0,
+              "of": 14,
+              "pct": 0.0
+            },
+            "any_loss": {
+              "n": 0,
+              "of": 14,
+              "pct": 0.0
+            },
+            "fusion": {
+              "n": 0,
+              "of": 14,
+              "pct": 0.0
+            }
+          },
+          "drv-ros1": {
+            "mutation": {
+              "n": 0,
+              "of": 23,
+              "pct": 0.0
+            },
+            "amplification": {
+              "n": 0,
+              "of": 23,
+              "pct": 0.0
+            },
+            "deep_deletion": {
+              "n": 0,
+              "of": 23,
+              "pct": 0.0
+            },
+            "any_loss": {
+              "n": 0,
+              "of": 23,
+              "pct": 0.0
+            },
+            "fusion": {
+              "n": 0,
+              "of": 23,
+              "pct": 0.0
+            }
+          }
+        },
+        "max_pct": 93.8,
+        "max_node": "drv-alk",
+        "max_metric": "fusion"
+      },
+      "drugs": [
+        "drug-12",
+        "drug-13",
+        "drug-14",
+        "drug-15",
+        "drug-16",
+        "drug-17"
+      ],
+      "n_programs": 6,
+      "best_phase": "approved",
+      "best_phase_rank": 7,
+      "civic": {
+        "n_evidence_items": 143,
+        "n_accepted": 90,
+        "best_level": "A",
+        "levels": {
+          "A": 15,
+          "B": 20,
+          "C": 51,
+          "D": 56,
+          "E": 1
+        },
+        "evidence_types": {
+          "ONCOGENIC": 2,
+          "PREDICTIVE": 141
+        },
+        "top_therapies": [
+          "Crizotinib",
+          "Ceritinib",
+          "Alectinib",
+          "Lorlatinib",
+          "ALK Inhibitor TAE684",
+          "Brigatinib"
+        ]
+      },
+      "selected_on": null
+    },
+    "ROS1": {
+      "gene": "ROS1",
+      "basis": "genomic",
+      "biomarker_gene": null,
+      "why": "A fusion selects a ROS1 inhibitor; several also act on ALK or TRK.",
+      "uniprot": {
+        "gene": "ROS1",
+        "accession": "P08922",
+        "entry_name": "ROS1_HUMAN",
+        "protein": "Proto-oncogene tyrosine-protein kinase ROS",
+        "length": 2347,
+        "domains": [
+          {
+            "kind": "Domain",
+            "name": "Fibronectin type-III 1",
+            "start": 101,
+            "end": 196
+          },
+          {
+            "kind": "Domain",
+            "name": "Fibronectin type-III 2",
+            "start": 197,
+            "end": 285
+          },
+          {
+            "kind": "Domain",
+            "name": "Fibronectin type-III 3",
+            "start": 557,
+            "end": 671
+          },
+          {
+            "kind": "Domain",
+            "name": "Fibronectin type-III 4",
+            "start": 947,
+            "end": 1042
+          },
+          {
+            "kind": "Domain",
+            "name": "Fibronectin type-III 5",
+            "start": 1043,
+            "end": 1150
+          },
+          {
+            "kind": "Domain",
+            "name": "Fibronectin type-III 6",
+            "start": 1450,
+            "end": 1556
+          },
+          {
+            "kind": "Domain",
+            "name": "Fibronectin type-III 7",
+            "start": 1557,
+            "end": 1656
+          },
+          {
+            "kind": "Domain",
+            "name": "Fibronectin type-III 8",
+            "start": 1658,
+            "end": 1751
+          },
+          {
+            "kind": "Domain",
+            "name": "Fibronectin type-III 9",
+            "start": 1752,
+            "end": 1854
+          },
+          {
+            "kind": "Domain",
+            "name": "Protein kinase",
+            "start": 1945,
+            "end": 2222
+          },
+          {
+            "kind": "Region",
+            "name": "Disordered",
+            "start": 2284,
+            "end": 2311
+          }
+        ],
+        "pdb_count": 5,
+        "pdb_ids": [
+          "3ZBF",
+          "4UXL",
+          "7Z5W",
+          "7Z5X",
+          "9QEK"
+        ],
+        "url": "https://www.uniprot.org/uniprotkb/P08922",
+        "alphafold": "https://alphafold.ebi.ac.uk/entry/P08922"
+      },
+      "structure": {
+        "pdb": "3ZBF",
+        "title": "Structure of Human ROS1 Kinase Domain in Complex with Crizotinib",
+        "method": "X-RAY DIFFRACTION",
+        "resolution": 2.2,
+        "ligands": [],
+        "deposited": "2013-06-12",
+        "url": "https://www.rcsb.org/structure/3ZBF",
+        "image": "img/3zbf.jpg",
+        "image_bytes": 54648
+      },
+      "hotspots": [],
+      "n_mutated_samples": 17,
+      "n_distinct_changes": 17,
+      "sequenced_of": 860,
+      "frequency": {
+        "by_node": {
+          "drv-alk": {
+            "mutation": {
+              "n": 0,
+              "of": 32,
+              "pct": 0.0
+            },
+            "amplification": {
+              "n": 0,
+              "of": 32,
+              "pct": 0.0
+            },
+            "deep_deletion": {
+              "n": 0,
+              "of": 32,
+              "pct": 0.0
+            },
+            "any_loss": {
+              "n": 0,
+              "of": 32,
+              "pct": 0.0
+            },
+            "fusion": {
+              "n": 0,
+              "of": 32,
+              "pct": 0.0
+            }
+          },
+          "drv-braf": {
+            "mutation": {
+              "n": 0,
+              "of": 18,
+              "pct": 0.0
+            },
+            "amplification": {
+              "n": 0,
+              "of": 18,
+              "pct": 0.0
+            },
+            "deep_deletion": {
+              "n": 0,
+              "of": 18,
+              "pct": 0.0
+            },
+            "any_loss": {
+              "n": 0,
+              "of": 18,
+              "pct": 0.0
+            },
+            "fusion": {
+              "n": 0,
+              "of": 18,
+              "pct": 0.0
+            }
+          },
+          "drv-egfr": {
+            "mutation": {
+              "n": 4,
+              "of": 213,
+              "pct": 1.9
+            },
+            "amplification": {
+              "n": 0,
+              "of": 213,
+              "pct": 0.0
+            },
+            "deep_deletion": {
+              "n": 0,
+              "of": 213,
+              "pct": 0.0
+            },
+            "any_loss": {
+              "n": 0,
+              "of": 213,
+              "pct": 0.0
+            },
+            "fusion": {
+              "n": 0,
+              "of": 213,
+              "pct": 0.0
+            }
+          },
+          "drv-egfr-ex20": {
+            "mutation": {
+              "n": 0,
+              "of": 18,
+              "pct": 0.0
+            },
+            "amplification": {
+              "n": 0,
+              "of": 18,
+              "pct": 0.0
+            },
+            "deep_deletion": {
+              "n": 0,
+              "of": 18,
+              "pct": 0.0
+            },
+            "any_loss": {
+              "n": 0,
+              "of": 18,
+              "pct": 0.0
+            },
+            "fusion": {
+              "n": 0,
+              "of": 18,
+              "pct": 0.0
+            }
+          },
+          "drv-erbb2": {
+            "mutation": {
+              "n": 0,
+              "of": 24,
+              "pct": 0.0
+            },
+            "amplification": {
+              "n": 0,
+              "of": 24,
+              "pct": 0.0
+            },
+            "deep_deletion": {
+              "n": 0,
+              "of": 24,
+              "pct": 0.0
+            },
+            "any_loss": {
+              "n": 0,
+              "of": 24,
+              "pct": 0.0
+            },
+            "fusion": {
+              "n": 0,
+              "of": 24,
+              "pct": 0.0
+            }
+          },
+          "drv-kras": {
+            "mutation": {
+              "n": 2,
+              "of": 215,
+              "pct": 0.9
+            },
+            "amplification": {
+              "n": 0,
+              "of": 215,
+              "pct": 0.0
+            },
+            "deep_deletion": {
+              "n": 1,
+              "of": 215,
+              "pct": 0.5
+            },
+            "any_loss": {
+              "n": 1,
+              "of": 215,
+              "pct": 0.5
+            },
+            "fusion": {
+              "n": 0,
+              "of": 215,
+              "pct": 0.0
+            }
+          },
+          "drv-met": {
+            "mutation": {
+              "n": 0,
+              "of": 26,
+              "pct": 0.0
+            },
+            "amplification": {
+              "n": 0,
+              "of": 26,
+              "pct": 0.0
+            },
+            "deep_deletion": {
+              "n": 0,
+              "of": 26,
+              "pct": 0.0
+            },
+            "any_loss": {
+              "n": 0,
+              "of": 26,
+              "pct": 0.0
+            },
+            "fusion": {
+              "n": 0,
+              "of": 26,
+              "pct": 0.0
+            }
+          },
+          "drv-none": {
+            "mutation": {
+              "n": 3,
+              "of": 119,
+              "pct": 2.5
+            },
+            "amplification": {
+              "n": 0,
+              "of": 119,
+              "pct": 0.0
+            },
+            "deep_deletion": {
+              "n": 0,
+              "of": 119,
+              "pct": 0.0
+            },
+            "any_loss": {
+              "n": 0,
+              "of": 119,
+              "pct": 0.0
+            },
+            "fusion": {
+              "n": 0,
+              "of": 119,
+              "pct": 0.0
+            }
+          },
+          "drv-other": {
+            "mutation": {
+              "n": 7,
+              "of": 158,
+              "pct": 4.4
+            },
+            "amplification": {
+              "n": 0,
+              "of": 158,
+              "pct": 0.0
+            },
+            "deep_deletion": {
+              "n": 1,
+              "of": 158,
+              "pct": 0.6
+            },
+            "any_loss": {
+              "n": 1,
+              "of": 158,
+              "pct": 0.6
+            },
+            "fusion": {
+              "n": 0,
+              "of": 158,
+              "pct": 0.0
+            }
+          },
+          "drv-ret": {
+            "mutation": {
+              "n": 0,
+              "of": 14,
+              "pct": 0.0
+            },
+            "amplification": {
+              "n": 0,
+              "of": 14,
+              "pct": 0.0
+            },
+            "deep_deletion": {
+              "n": 0,
+              "of": 14,
+              "pct": 0.0
+            },
+            "any_loss": {
+              "n": 0,
+              "of": 14,
+              "pct": 0.0
+            },
+            "fusion": {
+              "n": 0,
+              "of": 14,
+              "pct": 0.0
+            }
+          },
+          "drv-ros1": {
+            "mutation": {
+              "n": 1,
+              "of": 23,
+              "pct": 4.3
+            },
+            "amplification": {
+              "n": 0,
+              "of": 23,
+              "pct": 0.0
+            },
+            "deep_deletion": {
+              "n": 1,
+              "of": 23,
+              "pct": 4.3
+            },
+            "any_loss": {
+              "n": 1,
+              "of": 23,
+              "pct": 4.3
+            },
+            "fusion": {
+              "n": 22,
+              "of": 23,
+              "pct": 95.7
+            }
+          }
+        },
+        "max_pct": 95.7,
+        "max_node": "drv-ros1",
+        "max_metric": "fusion"
+      },
+      "drugs": [
+        "drug-15",
+        "drug-17",
+        "drug-18",
+        "drug-19",
+        "drug-20"
+      ],
+      "n_programs": 5,
+      "best_phase": "approved",
+      "best_phase_rank": 7,
+      "civic": {
+        "n_evidence_items": 45,
+        "n_accepted": 24,
+        "best_level": "A",
+        "levels": {
+          "A": 8,
+          "B": 7,
+          "C": 12,
+          "D": 18
+        },
+        "evidence_types": {
+          "PREDICTIVE": 45
+        },
+        "top_therapies": [
+          "Crizotinib",
+          "Foretinib",
+          "Lorlatinib",
+          "Repotrectinib",
+          "Ceritinib",
+          "Cabozantinib"
+        ]
+      },
+      "selected_on": null
+    },
+    "MET": {
+      "gene": "MET",
+      "basis": "genomic",
+      "biomarker_gene": null,
+      "why": "Exon 14 skipping selects a MET inhibitor; amplification is also a route of resistance to EGFR drugs.",
+      "uniprot": {
+        "gene": "MET",
+        "accession": "P08581",
+        "entry_name": "MET_HUMAN",
+        "protein": "Hepatocyte growth factor receptor",
+        "length": 1390,
+        "domains": [
+          {
+            "kind": "Domain",
+            "name": "Sema",
+            "start": 27,
+            "end": 515
+          },
+          {
+            "kind": "Domain",
+            "name": "IPT/TIG 1",
+            "start": 563,
+            "end": 655
+          },
+          {
+            "kind": "Domain",
+            "name": "IPT/TIG 2",
+            "start": 657,
+            "end": 739
+          },
+          {
+            "kind": "Domain",
+            "name": "IPT/TIG 3",
+            "start": 742,
+            "end": 836
+          },
+          {
+            "kind": "Domain",
+            "name": "Protein kinase",
+            "start": 1078,
+            "end": 1345
+          },
+          {
+            "kind": "Region",
+            "name": "Interaction with RANBP9",
+            "start": 1212,
+            "end": 1390
+          },
+          {
+            "kind": "Region",
+            "name": "Interaction with MUC20",
+            "start": 1320,
+            "end": 1359
+          }
+        ],
+        "pdb_count": 129,
+        "pdb_ids": [
+          "1FYR",
+          "1R0P",
+          "1R1W",
+          "1SHY",
+          "1SSL",
+          "2G15",
+          "2RFN",
+          "2RFS",
+          "2UZX",
+          "2UZY",
+          "2WD1",
+          "2WGJ",
+          "2WKM",
+          "3A4P",
+          "3BUX",
+          "3C1X",
+          "3CCN",
+          "3CD8",
+          "3CE3",
+          "3CTH",
+          "3CTJ",
+          "3DKC",
+          "3DKF",
+          "3DKG",
+          "3EFJ",
+          "3EFK",
+          "3F66",
+          "3F82",
+          "3I5N",
+          "3L8V",
+          "3LQ8",
+          "3Q6U",
+          "3Q6W",
+          "3QTI",
+          "3R7O",
+          "3RHK",
+          "3U6H",
+          "3U6I",
+          "3VW8",
+          "3ZBX"
+        ],
+        "url": "https://www.uniprot.org/uniprotkb/P08581",
+        "alphafold": "https://alphafold.ebi.ac.uk/entry/P08581"
+      },
+      "structure": {
+        "pdb": "2WGJ",
+        "title": "X-ray Structure of PF-02341066 bound to the kinase domain of c-Met",
+        "method": "X-RAY DIFFRACTION",
+        "resolution": 2.0,
+        "ligands": [],
+        "deposited": "2009-06-02",
+        "url": "https://www.rcsb.org/structure/2WGJ",
+        "image": "img/2wgj.jpg",
+        "image_bytes": 62894
+      },
+      "hotspots": [
+        {
+          "change": "X1010_splice",
+          "pos": 1010,
+          "type": "Splice_Site",
+          "n": 8,
+          "of": 860,
+          "pct": 0.9
+        },
+        {
+          "change": "D1010H",
+          "pos": 1010,
+          "type": "Missense_Mutation",
+          "n": 6,
+          "of": 860,
+          "pct": 0.7
+        },
+        {
+          "change": "X963_splice",
+          "pos": 963,
+          "type": "Splice_Site",
+          "n": 4,
+          "of": 860,
+          "pct": 0.5
+        }
+      ],
+      "n_mutated_samples": 33,
+      "n_distinct_changes": 24,
+      "sequenced_of": 860,
+      "frequency": {
+        "by_node": {
+          "drv-alk": {
+            "mutation": {
+              "n": 0,
+              "of": 32,
+              "pct": 0.0
+            },
+            "amplification": {
+              "n": 0,
+              "of": 32,
+              "pct": 0.0
+            },
+            "deep_deletion": {
+              "n": 0,
+              "of": 32,
+              "pct": 0.0
+            },
+            "any_loss": {
+              "n": 0,
+              "of": 32,
+              "pct": 0.0
+            },
+            "fusion": {
+              "n": 0,
+              "of": 32,
+              "pct": 0.0
+            }
+          },
+          "drv-braf": {
+            "mutation": {
+              "n": 0,
+              "of": 18,
+              "pct": 0.0
+            },
+            "amplification": {
+              "n": 0,
+              "of": 18,
+              "pct": 0.0
+            },
+            "deep_deletion": {
+              "n": 0,
+              "of": 18,
+              "pct": 0.0
+            },
+            "any_loss": {
+              "n": 0,
+              "of": 18,
+              "pct": 0.0
+            },
+            "fusion": {
+              "n": 0,
+              "of": 18,
+              "pct": 0.0
+            }
+          },
+          "drv-egfr": {
+            "mutation": {
+              "n": 1,
+              "of": 213,
+              "pct": 0.5
+            },
+            "amplification": {
+              "n": 7,
+              "of": 213,
+              "pct": 3.3
+            },
+            "deep_deletion": {
+              "n": 0,
+              "of": 213,
+              "pct": 0.0
+            },
+            "any_loss": {
+              "n": 0,
+              "of": 213,
+              "pct": 0.0
+            },
+            "fusion": {
+              "n": 0,
+              "of": 213,
+              "pct": 0.0
+            }
+          },
+          "drv-egfr-ex20": {
+            "mutation": {
+              "n": 0,
+              "of": 18,
+              "pct": 0.0
+            },
+            "amplification": {
+              "n": 0,
+              "of": 18,
+              "pct": 0.0
+            },
+            "deep_deletion": {
+              "n": 0,
+              "of": 18,
+              "pct": 0.0
+            },
+            "any_loss": {
+              "n": 0,
+              "of": 18,
+              "pct": 0.0
+            },
+            "fusion": {
+              "n": 0,
+              "of": 18,
+              "pct": 0.0
+            }
+          },
+          "drv-erbb2": {
+            "mutation": {
+              "n": 0,
+              "of": 24,
+              "pct": 0.0
+            },
+            "amplification": {
+              "n": 0,
+              "of": 24,
+              "pct": 0.0
+            },
+            "deep_deletion": {
+              "n": 0,
+              "of": 24,
+              "pct": 0.0
+            },
+            "any_loss": {
+              "n": 0,
+              "of": 24,
+              "pct": 0.0
+            },
+            "fusion": {
+              "n": 0,
+              "of": 24,
+              "pct": 0.0
+            }
+          },
+          "drv-kras": {
+            "mutation": {
+              "n": 3,
+              "of": 215,
+              "pct": 1.4
+            },
+            "amplification": {
+              "n": 0,
+              "of": 215,
+              "pct": 0.0
+            },
+            "deep_deletion": {
+              "n": 0,
+              "of": 215,
+              "pct": 0.0
+            },
+            "any_loss": {
+              "n": 0,
+              "of": 215,
+              "pct": 0.0
+            },
+            "fusion": {
+              "n": 0,
+              "of": 215,
+              "pct": 0.0
+            }
+          },
+          "drv-met": {
+            "mutation": {
+              "n": 24,
+              "of": 26,
+              "pct": 92.3
+            },
+            "amplification": {
+              "n": 3,
+              "of": 26,
+              "pct": 11.5
+            },
+            "deep_deletion": {
+              "n": 0,
+              "of": 26,
+              "pct": 0.0
+            },
+            "any_loss": {
+              "n": 0,
+              "of": 26,
+              "pct": 0.0
+            },
+            "fusion": {
+              "n": 0,
+              "of": 26,
+              "pct": 0.0
+            }
+          },
+          "drv-none": {
+            "mutation": {
+              "n": 4,
+              "of": 119,
+              "pct": 3.4
+            },
+            "amplification": {
+              "n": 1,
+              "of": 119,
+              "pct": 0.8
+            },
+            "deep_deletion": {
+              "n": 0,
+              "of": 119,
+              "pct": 0.0
+            },
+            "any_loss": {
+              "n": 0,
+              "of": 119,
+              "pct": 0.0
+            },
+            "fusion": {
+              "n": 1,
+              "of": 119,
+              "pct": 0.8
+            }
+          },
+          "drv-other": {
+            "mutation": {
+              "n": 1,
+              "of": 158,
+              "pct": 0.6
+            },
+            "amplification": {
+              "n": 13,
+              "of": 158,
+              "pct": 8.2
+            },
+            "deep_deletion": {
+              "n": 0,
+              "of": 158,
+              "pct": 0.0
+            },
+            "any_loss": {
+              "n": 0,
+              "of": 158,
+              "pct": 0.0
+            },
+            "fusion": {
+              "n": 0,
+              "of": 158,
+              "pct": 0.0
+            }
+          },
+          "drv-ret": {
+            "mutation": {
+              "n": 0,
+              "of": 14,
+              "pct": 0.0
+            },
+            "amplification": {
+              "n": 1,
+              "of": 14,
+              "pct": 7.1
+            },
+            "deep_deletion": {
+              "n": 0,
+              "of": 14,
+              "pct": 0.0
+            },
+            "any_loss": {
+              "n": 0,
+              "of": 14,
+              "pct": 0.0
+            },
+            "fusion": {
+              "n": 0,
+              "of": 14,
+              "pct": 0.0
+            }
+          },
+          "drv-ros1": {
+            "mutation": {
+              "n": 0,
+              "of": 23,
+              "pct": 0.0
+            },
+            "amplification": {
+              "n": 0,
+              "of": 23,
+              "pct": 0.0
+            },
+            "deep_deletion": {
+              "n": 0,
+              "of": 23,
+              "pct": 0.0
+            },
+            "any_loss": {
+              "n": 0,
+              "of": 23,
+              "pct": 0.0
+            },
+            "fusion": {
+              "n": 0,
+              "of": 23,
+              "pct": 0.0
+            }
+          }
+        },
+        "max_pct": 92.3,
+        "max_node": "drv-met",
+        "max_metric": "mutation"
+      },
+      "drugs": [
+        "drug-4",
+        "drug-5",
+        "drug-6",
+        "drug-23",
+        "drug-24"
+      ],
+      "n_programs": 5,
+      "best_phase": "approved",
+      "best_phase_rank": 7,
+      "civic": {
+        "n_evidence_items": 106,
+        "n_accepted": 22,
+        "best_level": "A",
+        "levels": {
+          "A": 3,
+          "B": 18,
+          "C": 77,
+          "D": 8
+        },
+        "evidence_types": {
+          "DIAGNOSTIC": 3,
+          "ONCOGENIC": 2,
+          "PREDICTIVE": 99,
+          "PROGNOSTIC": 2
+        },
+        "top_therapies": [
+          "Crizotinib",
+          "Capmatinib",
+          "Tepotinib",
+          "Pembrolizumab",
+          "Gefitinib",
+          "Cabozantinib"
+        ]
+      },
+      "selected_on": null
+    },
+    "RET": {
+      "gene": "RET",
+      "basis": "genomic",
+      "biomarker_gene": null,
+      "why": "A fusion selects a selective RET inhibitor.",
+      "uniprot": {
+        "gene": "RET",
+        "accession": "P07949",
+        "entry_name": "RET_HUMAN",
+        "protein": "Proto-oncogene tyrosine-protein kinase receptor Ret",
+        "length": 1114,
+        "domains": [
+          {
+            "kind": "Region",
+            "name": "Cadherin-like region 1 (CLD1)",
+            "start": 29,
+            "end": 153
+          },
+          {
+            "kind": "Domain",
+            "name": "Cadherin",
+            "start": 168,
+            "end": 272
+          },
+          {
+            "kind": "Region",
+            "name": "Cadherin-like region 3 (CLD3)",
+            "start": 265,
+            "end": 379
+          },
+          {
+            "kind": "Region",
+            "name": "Cadherin-like region 4 (CLD4)",
+            "start": 405,
+            "end": 506
+          },
+          {
+            "kind": "Domain",
+            "name": "Protein kinase",
+            "start": 724,
+            "end": 1016
+          }
+        ],
+        "pdb_count": 34,
+        "pdb_ids": [
+          "2IVS",
+          "2IVT",
+          "2IVU",
+          "2IVV",
+          "2X2K",
+          "2X2L",
+          "2X2M",
+          "2X2U",
+          "4CKI",
+          "4CKJ",
+          "4UX8",
+          "5AMN",
+          "5FM2",
+          "5FM3",
+          "6FEK",
+          "6GL7",
+          "6I82",
+          "6I83",
+          "6NE7",
+          "6NEC",
+          "6NJA",
+          "6Q2J",
+          "6Q2N",
+          "6Q2O",
+          "6Q2R",
+          "6Q2S",
+          "6VHG",
+          "7DU8",
+          "7DU9",
+          "7DUA",
+          "7JU5",
+          "7JU6",
+          "7NZN",
+          "7RUN"
+        ],
+        "url": "https://www.uniprot.org/uniprotkb/P07949",
+        "alphafold": "https://alphafold.ebi.ac.uk/entry/P07949"
+      },
+      "structure": {
+        "pdb": "7JU6",
+        "title": "Structure of RET protein tyrosine kinase in complex with selpercatinib",
+        "method": "X-RAY DIFFRACTION",
+        "resolution": 2.06,
+        "ligands": [
+          "FMT"
+        ],
+        "deposited": "2020-11-11",
+        "url": "https://www.rcsb.org/structure/7JU6",
+        "image": "img/7ju6.jpg",
+        "image_bytes": 71009
+      },
+      "hotspots": [],
+      "n_mutated_samples": 22,
+      "n_distinct_changes": 25,
+      "sequenced_of": 860,
+      "frequency": {
+        "by_node": {
+          "drv-alk": {
+            "mutation": {
+              "n": 0,
+              "of": 32,
+              "pct": 0.0
+            },
+            "amplification": {
+              "n": 0,
+              "of": 32,
+              "pct": 0.0
+            },
+            "deep_deletion": {
+              "n": 0,
+              "of": 32,
+              "pct": 0.0
+            },
+            "any_loss": {
+              "n": 0,
+              "of": 32,
+              "pct": 0.0
+            },
+            "fusion": {
+              "n": 0,
+              "of": 32,
+              "pct": 0.0
+            }
+          },
+          "drv-braf": {
+            "mutation": {
+              "n": 0,
+              "of": 18,
+              "pct": 0.0
+            },
+            "amplification": {
+              "n": 0,
+              "of": 18,
+              "pct": 0.0
+            },
+            "deep_deletion": {
+              "n": 0,
+              "of": 18,
+              "pct": 0.0
+            },
+            "any_loss": {
+              "n": 0,
+              "of": 18,
+              "pct": 0.0
+            },
+            "fusion": {
+              "n": 0,
+              "of": 18,
+              "pct": 0.0
+            }
+          },
+          "drv-egfr": {
+            "mutation": {
+              "n": 1,
+              "of": 213,
+              "pct": 0.5
+            },
+            "amplification": {
+              "n": 0,
+              "of": 213,
+              "pct": 0.0
+            },
+            "deep_deletion": {
+              "n": 0,
+              "of": 213,
+              "pct": 0.0
+            },
+            "any_loss": {
+              "n": 0,
+              "of": 213,
+              "pct": 0.0
+            },
+            "fusion": {
+              "n": 0,
+              "of": 213,
+              "pct": 0.0
+            }
+          },
+          "drv-egfr-ex20": {
+            "mutation": {
+              "n": 0,
+              "of": 18,
+              "pct": 0.0
+            },
+            "amplification": {
+              "n": 0,
+              "of": 18,
+              "pct": 0.0
+            },
+            "deep_deletion": {
+              "n": 0,
+              "of": 18,
+              "pct": 0.0
+            },
+            "any_loss": {
+              "n": 0,
+              "of": 18,
+              "pct": 0.0
+            },
+            "fusion": {
+              "n": 0,
+              "of": 18,
+              "pct": 0.0
+            }
+          },
+          "drv-erbb2": {
+            "mutation": {
+              "n": 0,
+              "of": 24,
+              "pct": 0.0
+            },
+            "amplification": {
+              "n": 0,
+              "of": 24,
+              "pct": 0.0
+            },
+            "deep_deletion": {
+              "n": 0,
+              "of": 24,
+              "pct": 0.0
+            },
+            "any_loss": {
+              "n": 0,
+              "of": 24,
+              "pct": 0.0
+            },
+            "fusion": {
+              "n": 0,
+              "of": 24,
+              "pct": 0.0
+            }
+          },
+          "drv-kras": {
+            "mutation": {
+              "n": 5,
+              "of": 215,
+              "pct": 2.3
+            },
+            "amplification": {
+              "n": 0,
+              "of": 215,
+              "pct": 0.0
+            },
+            "deep_deletion": {
+              "n": 0,
+              "of": 215,
+              "pct": 0.0
+            },
+            "any_loss": {
+              "n": 0,
+              "of": 215,
+              "pct": 0.0
+            },
+            "fusion": {
+              "n": 0,
+              "of": 215,
+              "pct": 0.0
+            }
+          },
+          "drv-met": {
+            "mutation": {
+              "n": 1,
+              "of": 26,
+              "pct": 3.8
+            },
+            "amplification": {
+              "n": 0,
+              "of": 26,
+              "pct": 0.0
+            },
+            "deep_deletion": {
+              "n": 0,
+              "of": 26,
+              "pct": 0.0
+            },
+            "any_loss": {
+              "n": 0,
+              "of": 26,
+              "pct": 0.0
+            },
+            "fusion": {
+              "n": 0,
+              "of": 26,
+              "pct": 0.0
+            }
+          },
+          "drv-none": {
+            "mutation": {
+              "n": 4,
+              "of": 119,
+              "pct": 3.4
+            },
+            "amplification": {
+              "n": 0,
+              "of": 119,
+              "pct": 0.0
+            },
+            "deep_deletion": {
+              "n": 0,
+              "of": 119,
+              "pct": 0.0
+            },
+            "any_loss": {
+              "n": 0,
+              "of": 119,
+              "pct": 0.0
+            },
+            "fusion": {
+              "n": 0,
+              "of": 119,
+              "pct": 0.0
+            }
+          },
+          "drv-other": {
+            "mutation": {
+              "n": 11,
+              "of": 158,
+              "pct": 7.0
+            },
+            "amplification": {
+              "n": 0,
+              "of": 158,
+              "pct": 0.0
+            },
+            "deep_deletion": {
+              "n": 0,
+              "of": 158,
+              "pct": 0.0
+            },
+            "any_loss": {
+              "n": 0,
+              "of": 158,
+              "pct": 0.0
+            },
+            "fusion": {
+              "n": 0,
+              "of": 158,
+              "pct": 0.0
+            }
+          },
+          "drv-ret": {
+            "mutation": {
+              "n": 0,
+              "of": 14,
+              "pct": 0.0
+            },
+            "amplification": {
+              "n": 0,
+              "of": 14,
+              "pct": 0.0
+            },
+            "deep_deletion": {
+              "n": 0,
+              "of": 14,
+              "pct": 0.0
+            },
+            "any_loss": {
+              "n": 0,
+              "of": 14,
+              "pct": 0.0
+            },
+            "fusion": {
+              "n": 13,
+              "of": 14,
+              "pct": 92.9
+            }
+          },
+          "drv-ros1": {
+            "mutation": {
+              "n": 0,
+              "of": 23,
+              "pct": 0.0
+            },
+            "amplification": {
+              "n": 0,
+              "of": 23,
+              "pct": 0.0
+            },
+            "deep_deletion": {
+              "n": 0,
+              "of": 23,
+              "pct": 0.0
+            },
+            "any_loss": {
+              "n": 0,
+              "of": 23,
+              "pct": 0.0
+            },
+            "fusion": {
+              "n": 0,
+              "of": 23,
+              "pct": 0.0
+            }
+          }
+        },
+        "max_pct": 0.0,
+        "max_node": "drv-alk",
+        "max_metric": "fusion"
+      },
+      "drugs": [
+        "drug-21",
+        "drug-22"
+      ],
+      "n_programs": 2,
+      "best_phase": "approved",
+      "best_phase_rank": 7,
+      "civic": {
+        "n_evidence_items": 20,
+        "n_accepted": 12,
+        "best_level": "A",
+        "levels": {
+          "A": 2,
+          "B": 8,
+          "C": 7,
+          "D": 3
+        },
+        "evidence_types": {
+          "PREDICTIVE": 19,
+          "PROGNOSTIC": 1
+        },
+        "top_therapies": [
+          "Selpercatinib",
+          "Vandetanib",
+          "Cabozantinib",
+          "Pralsetinib",
+          "Alectinib",
+          "Nintedanib"
+        ]
+      },
+      "selected_on": "fusion"
+    },
+    "BRAF": {
+      "gene": "BRAF",
+      "basis": "genomic",
+      "biomarker_gene": null,
+      "why": "V600E selects combined BRAF and MEK inhibition.",
+      "uniprot": {
+        "gene": "BRAF",
+        "accession": "P15056",
+        "entry_name": "BRAF_HUMAN",
+        "protein": "Serine/threonine-protein kinase B-raf",
+        "length": 766,
+        "domains": [
+          {
+            "kind": "Region",
+            "name": "Disordered",
+            "start": 1,
+            "end": 38
+          },
+          {
+            "kind": "Domain",
+            "name": "RBD",
+            "start": 155,
+            "end": 227
+          },
+          {
+            "kind": "Zinc finger",
+            "name": "Phorbol-ester/DAG-type",
+            "start": 234,
+            "end": 280
+          },
+          {
+            "kind": "Region",
+            "name": "Disordered",
+            "start": 308,
+            "end": 454
+          },
+          {
+            "kind": "Domain",
+            "name": "Protein kinase",
+            "start": 457,
+            "end": 717
+          }
+        ],
+        "pdb_count": 131,
+        "pdb_ids": [
+          "1UWH",
+          "1UWJ",
+          "2FB8",
+          "2L05",
+          "3C4C",
+          "3D4Q",
+          "3IDP",
+          "3II5",
+          "3NY5",
+          "3OG7",
+          "3PPJ",
+          "3PPK",
+          "3PRF",
+          "3PRI",
+          "3PSB",
+          "3PSD",
+          "3Q4C",
+          "3Q96",
+          "3SKC",
+          "3TV4",
+          "3TV6",
+          "4CQE",
+          "4DBN",
+          "4E26",
+          "4E4X",
+          "4EHE",
+          "4EHG",
+          "4FC0",
+          "4FK3",
+          "4G9C",
+          "4G9R",
+          "4H58",
+          "4JVG",
+          "4KSP",
+          "4KSQ",
+          "4MBJ",
+          "4MNE",
+          "4MNF",
+          "4PP7",
+          "4R5Y"
+        ],
+        "url": "https://www.uniprot.org/uniprotkb/P15056",
+        "alphafold": "https://alphafold.ebi.ac.uk/entry/P15056"
+      },
+      "structure": {
+        "pdb": "4XV2",
+        "title": "B-Raf Kinase V600E oncogenic mutant in complex with Dabrafenib",
+        "method": "X-RAY DIFFRACTION",
+        "resolution": 2.5,
+        "ligands": [],
+        "deposited": "2015-10-28",
+        "url": "https://www.rcsb.org/structure/4XV2",
+        "image": "img/4xv2.jpg",
+        "image_bytes": 56623
+      },
+      "hotspots": [
+        {
+          "change": "V600E",
+          "pos": 600,
+          "type": "Missense_Mutation",
+          "n": 18,
+          "of": 860,
+          "pct": 2.1
+        },
+        {
+          "change": "G469A",
+          "pos": 469,
+          "type": "Missense_Mutation",
+          "n": 4,
+          "of": 860,
+          "pct": 0.5
+        },
+        {
+          "change": "G466A",
+          "pos": 466,
+          "type": "Missense_Mutation",
+          "n": 2,
+          "of": 860,
+          "pct": 0.2
+        },
+        {
+          "change": "D594N",
+          "pos": 594,
+          "type": "Missense_Mutation",
+          "n": 2,
+          "of": 860,
+          "pct": 0.2
+        },
+        {
+          "change": "D594G",
+          "pos": 594,
+          "type": "Missense_Mutation",
+          "n": 2,
+          "of": 860,
+          "pct": 0.2
+        },
+        {
+          "change": "K601E",
+          "pos": 601,
+          "type": "Missense_Mutation",
+          "n": 2,
+          "of": 860,
+          "pct": 0.2
+        }
+      ],
+      "n_mutated_samples": 49,
+      "n_distinct_changes": 25,
+      "sequenced_of": 860,
+      "frequency": {
+        "by_node": {
+          "drv-alk": {
+            "mutation": {
+              "n": 0,
+              "of": 32,
+              "pct": 0.0
+            },
+            "amplification": {
+              "n": 0,
+              "of": 32,
+              "pct": 0.0
+            },
+            "deep_deletion": {
+              "n": 0,
+              "of": 32,
+              "pct": 0.0
+            },
+            "any_loss": {
+              "n": 0,
+              "of": 32,
+              "pct": 0.0
+            },
+            "fusion": {
+              "n": 0,
+              "of": 32,
+              "pct": 0.0
+            }
+          },
+          "drv-braf": {
+            "mutation": {
+              "n": 18,
+              "of": 18,
+              "pct": 100.0
+            },
+            "amplification": {
+              "n": 0,
+              "of": 18,
+              "pct": 0.0
+            },
+            "deep_deletion": {
+              "n": 0,
+              "of": 18,
+              "pct": 0.0
+            },
+            "any_loss": {
+              "n": 0,
+              "of": 18,
+              "pct": 0.0
+            },
+            "fusion": {
+              "n": 0,
+              "of": 18,
+              "pct": 0.0
+            }
+          },
+          "drv-egfr": {
+            "mutation": {
+              "n": 2,
+              "of": 213,
+              "pct": 0.9
+            },
+            "amplification": {
+              "n": 3,
+              "of": 213,
+              "pct": 1.4
+            },
+            "deep_deletion": {
+              "n": 0,
+              "of": 213,
+              "pct": 0.0
+            },
+            "any_loss": {
+              "n": 0,
+              "of": 213,
+              "pct": 0.0
+            },
+            "fusion": {
+              "n": 2,
+              "of": 213,
+              "pct": 0.9
+            }
+          },
+          "drv-egfr-ex20": {
+            "mutation": {
+              "n": 1,
+              "of": 18,
+              "pct": 5.6
+            },
+            "amplification": {
+              "n": 0,
+              "of": 18,
+              "pct": 0.0
+            },
+            "deep_deletion": {
+              "n": 0,
+              "of": 18,
+              "pct": 0.0
+            },
+            "any_loss": {
+              "n": 0,
+              "of": 18,
+              "pct": 0.0
+            },
+            "fusion": {
+              "n": 0,
+              "of": 18,
+              "pct": 0.0
+            }
+          },
+          "drv-erbb2": {
+            "mutation": {
+              "n": 1,
+              "of": 24,
+              "pct": 4.2
+            },
+            "amplification": {
+              "n": 0,
+              "of": 24,
+              "pct": 0.0
+            },
+            "deep_deletion": {
+              "n": 0,
+              "of": 24,
+              "pct": 0.0
+            },
+            "any_loss": {
+              "n": 0,
+              "of": 24,
+              "pct": 0.0
+            },
+            "fusion": {
+              "n": 0,
+              "of": 24,
+              "pct": 0.0
+            }
+          },
+          "drv-kras": {
+            "mutation": {
+              "n": 7,
+              "of": 215,
+              "pct": 3.3
+            },
+            "amplification": {
+              "n": 0,
+              "of": 215,
+              "pct": 0.0
+            },
+            "deep_deletion": {
+              "n": 0,
+              "of": 215,
+              "pct": 0.0
+            },
+            "any_loss": {
+              "n": 0,
+              "of": 215,
+              "pct": 0.0
+            },
+            "fusion": {
+              "n": 0,
+              "of": 215,
+              "pct": 0.0
+            }
+          },
+          "drv-met": {
+            "mutation": {
+              "n": 0,
+              "of": 26,
+              "pct": 0.0
+            },
+            "amplification": {
+              "n": 0,
+              "of": 26,
+              "pct": 0.0
+            },
+            "deep_deletion": {
+              "n": 0,
+              "of": 26,
+              "pct": 0.0
+            },
+            "any_loss": {
+              "n": 0,
+              "of": 26,
+              "pct": 0.0
+            },
+            "fusion": {
+              "n": 0,
+              "of": 26,
+              "pct": 0.0
+            }
+          },
+          "drv-none": {
+            "mutation": {
+              "n": 3,
+              "of": 119,
+              "pct": 2.5
+            },
+            "amplification": {
+              "n": 0,
+              "of": 119,
+              "pct": 0.0
+            },
+            "deep_deletion": {
+              "n": 0,
+              "of": 119,
+              "pct": 0.0
+            },
+            "any_loss": {
+              "n": 0,
+              "of": 119,
+              "pct": 0.0
+            },
+            "fusion": {
+              "n": 0,
+              "of": 119,
+              "pct": 0.0
+            }
+          },
+          "drv-other": {
+            "mutation": {
+              "n": 17,
+              "of": 158,
+              "pct": 10.8
+            },
+            "amplification": {
+              "n": 0,
+              "of": 158,
+              "pct": 0.0
+            },
+            "deep_deletion": {
+              "n": 0,
+              "of": 158,
+              "pct": 0.0
+            },
+            "any_loss": {
+              "n": 0,
+              "of": 158,
+              "pct": 0.0
+            },
+            "fusion": {
+              "n": 2,
+              "of": 158,
+              "pct": 1.3
+            }
+          },
+          "drv-ret": {
+            "mutation": {
+              "n": 0,
+              "of": 14,
+              "pct": 0.0
+            },
+            "amplification": {
+              "n": 0,
+              "of": 14,
+              "pct": 0.0
+            },
+            "deep_deletion": {
+              "n": 0,
+              "of": 14,
+              "pct": 0.0
+            },
+            "any_loss": {
+              "n": 0,
+              "of": 14,
+              "pct": 0.0
+            },
+            "fusion": {
+              "n": 0,
+              "of": 14,
+              "pct": 0.0
+            }
+          },
+          "drv-ros1": {
+            "mutation": {
+              "n": 0,
+              "of": 23,
+              "pct": 0.0
+            },
+            "amplification": {
+              "n": 0,
+              "of": 23,
+              "pct": 0.0
+            },
+            "deep_deletion": {
+              "n": 0,
+              "of": 23,
+              "pct": 0.0
+            },
+            "any_loss": {
+              "n": 0,
+              "of": 23,
+              "pct": 0.0
+            },
+            "fusion": {
+              "n": 0,
+              "of": 23,
+              "pct": 0.0
+            }
+          }
+        },
+        "max_pct": 10.8,
+        "max_node": "drv-other",
+        "max_metric": "mutation"
+      },
+      "drugs": [
+        "drug-25"
+      ],
+      "n_programs": 1,
+      "best_phase": "approved",
+      "best_phase_rank": 7,
+      "civic": {
+        "n_evidence_items": 22,
+        "n_accepted": 4,
+        "best_level": "A",
+        "levels": {
+          "A": 1,
+          "B": 5,
+          "C": 7,
+          "D": 9
+        },
+        "evidence_types": {
+          "ONCOGENIC": 1,
+          "PREDICTIVE": 21
+        },
+        "top_therapies": [
+          "Vemurafenib",
+          "Dabrafenib",
+          "Trametinib",
+          "Sorafenib",
+          "Cetuximab",
+          "Mirdametinib"
+        ]
+      },
+      "selected_on": "allele"
+    },
+    "ERBB2": {
+      "gene": "ERBB2",
+      "basis": "genomic",
+      "biomarker_gene": null,
+      "why": "In lung it is HER2 mutation, not amplification, that the recent approvals select on.",
+      "uniprot": {
+        "gene": "ERBB2",
+        "accession": "P04626",
+        "entry_name": "ERBB2_HUMAN",
+        "protein": "Receptor tyrosine-protein kinase erbB-2",
+        "length": 1255,
+        "domains": [
+          {
+            "kind": "Region",
+            "name": "Required for interaction with KPNB1 and EEA1",
+            "start": 676,
+            "end": 689
+          },
+          {
+            "kind": "Domain",
+            "name": "Protein kinase",
+            "start": 720,
+            "end": 987
+          },
+          {
+            "kind": "Region",
+            "name": "Disordered",
+            "start": 1035,
+            "end": 1179
+          },
+          {
+            "kind": "Region",
+            "name": "Interaction with PIK3C2B",
+            "start": 1195,
+            "end": 1197
+          },
+          {
+            "kind": "Region",
+            "name": "Disordered",
+            "start": 1196,
+            "end": 1255
+          }
+        ],
+        "pdb_count": 63,
+        "pdb_ids": [
+          "1MFG",
+          "1MFL",
+          "1MW4",
+          "1N8Z",
+          "1QR1",
+          "1S78",
+          "2A91",
+          "2JWA",
+          "2KS1",
+          "2L4K",
+          "2N2A",
+          "3BE1",
+          "3H3B",
+          "3MZW",
+          "3N85",
+          "3PP0",
+          "3RCD",
+          "3WLW",
+          "3WSQ",
+          "4GFU",
+          "4HRL",
+          "4HRM",
+          "4HRN",
+          "4NND",
+          "5K33",
+          "5KWG",
+          "5MY6",
+          "5O4G",
+          "5OB4",
+          "5TQS",
+          "6ATT",
+          "6BGT",
+          "6J71",
+          "6LBX",
+          "6OGE",
+          "7JXH",
+          "7MN5",
+          "7MN6",
+          "7MN8",
+          "7PCD"
+        ],
+        "url": "https://www.uniprot.org/uniprotkb/P04626",
+        "alphafold": "https://alphafold.ebi.ac.uk/entry/P04626"
+      },
+      "structure": {
+        "pdb": "3PP0",
+        "title": "Crystal Structure of the Kinase domain of Human HER2 (erbB2).",
+        "method": "X-RAY DIFFRACTION",
+        "resolution": 2.25,
+        "ligands": [],
+        "deposited": "2011-03-30",
+        "url": "https://www.rcsb.org/structure/3PP0",
+        "image": "img/3pp0.jpg",
+        "image_bytes": 57730
+      },
+      "hotspots": [
+        {
+          "change": "Y772_A775dup",
+          "pos": 770,
+          "type": "In_Frame_Ins",
+          "n": 12,
+          "of": 860,
+          "pct": 1.4
+        },
+        {
+          "change": "S310F",
+          "pos": 310,
+          "type": "Missense_Mutation",
+          "n": 3,
+          "of": 860,
+          "pct": 0.3
+        },
+        {
+          "change": "G778_P780dup",
+          "pos": 778,
+          "type": "In_Frame_Ins",
+          "n": 3,
+          "of": 860,
+          "pct": 0.3
+        },
+        {
+          "change": "V659E",
+          "pos": 659,
+          "type": "Missense_Mutation",
+          "n": 2,
+          "of": 860,
+          "pct": 0.2
+        }
+      ],
+      "n_mutated_samples": 34,
+      "n_distinct_changes": 20,
+      "sequenced_of": 860,
+      "frequency": {
+        "by_node": {
+          "drv-alk": {
+            "mutation": {
+              "n": 0,
+              "of": 32,
+              "pct": 0.0
+            },
+            "amplification": {
+              "n": 0,
+              "of": 32,
+              "pct": 0.0
+            },
+            "deep_deletion": {
+              "n": 0,
+              "of": 32,
+              "pct": 0.0
+            },
+            "any_loss": {
+              "n": 0,
+              "of": 32,
+              "pct": 0.0
+            },
+            "fusion": {
+              "n": 0,
+              "of": 32,
+              "pct": 0.0
+            }
+          },
+          "drv-braf": {
+            "mutation": {
+              "n": 0,
+              "of": 18,
+              "pct": 0.0
+            },
+            "amplification": {
+              "n": 0,
+              "of": 18,
+              "pct": 0.0
+            },
+            "deep_deletion": {
+              "n": 0,
+              "of": 18,
+              "pct": 0.0
+            },
+            "any_loss": {
+              "n": 0,
+              "of": 18,
+              "pct": 0.0
+            },
+            "fusion": {
+              "n": 0,
+              "of": 18,
+              "pct": 0.0
+            }
+          },
+          "drv-egfr": {
+            "mutation": {
+              "n": 1,
+              "of": 213,
+              "pct": 0.5
+            },
+            "amplification": {
+              "n": 11,
+              "of": 213,
+              "pct": 5.2
+            },
+            "deep_deletion": {
+              "n": 0,
+              "of": 213,
+              "pct": 0.0
+            },
+            "any_loss": {
+              "n": 0,
+              "of": 213,
+              "pct": 0.0
+            },
+            "fusion": {
+              "n": 0,
+              "of": 213,
+              "pct": 0.0
+            }
+          },
+          "drv-egfr-ex20": {
+            "mutation": {
+              "n": 0,
+              "of": 18,
+              "pct": 0.0
+            },
+            "amplification": {
+              "n": 0,
+              "of": 18,
+              "pct": 0.0
+            },
+            "deep_deletion": {
+              "n": 0,
+              "of": 18,
+              "pct": 0.0
+            },
+            "any_loss": {
+              "n": 0,
+              "of": 18,
+              "pct": 0.0
+            },
+            "fusion": {
+              "n": 0,
+              "of": 18,
+              "pct": 0.0
+            }
+          },
+          "drv-erbb2": {
+            "mutation": {
+              "n": 24,
+              "of": 24,
+              "pct": 100.0
+            },
+            "amplification": {
+              "n": 5,
+              "of": 24,
+              "pct": 20.8
+            },
+            "deep_deletion": {
+              "n": 0,
+              "of": 24,
+              "pct": 0.0
+            },
+            "any_loss": {
+              "n": 0,
+              "of": 24,
+              "pct": 0.0
+            },
+            "fusion": {
+              "n": 0,
+              "of": 24,
+              "pct": 0.0
+            }
+          },
+          "drv-kras": {
+            "mutation": {
+              "n": 2,
+              "of": 215,
+              "pct": 0.9
+            },
+            "amplification": {
+              "n": 0,
+              "of": 215,
+              "pct": 0.0
+            },
+            "deep_deletion": {
+              "n": 0,
+              "of": 215,
+              "pct": 0.0
+            },
+            "any_loss": {
+              "n": 0,
+              "of": 215,
+              "pct": 0.0
+            },
+            "fusion": {
+              "n": 0,
+              "of": 215,
+              "pct": 0.0
+            }
+          },
+          "drv-met": {
+            "mutation": {
+              "n": 0,
+              "of": 26,
+              "pct": 0.0
+            },
+            "amplification": {
+              "n": 0,
+              "of": 26,
+              "pct": 0.0
+            },
+            "deep_deletion": {
+              "n": 0,
+              "of": 26,
+              "pct": 0.0
+            },
+            "any_loss": {
+              "n": 0,
+              "of": 26,
+              "pct": 0.0
+            },
+            "fusion": {
+              "n": 0,
+              "of": 26,
+              "pct": 0.0
+            }
+          },
+          "drv-none": {
+            "mutation": {
+              "n": 2,
+              "of": 119,
+              "pct": 1.7
+            },
+            "amplification": {
+              "n": 0,
+              "of": 119,
+              "pct": 0.0
+            },
+            "deep_deletion": {
+              "n": 0,
+              "of": 119,
+              "pct": 0.0
+            },
+            "any_loss": {
+              "n": 0,
+              "of": 119,
+              "pct": 0.0
+            },
+            "fusion": {
+              "n": 0,
+              "of": 119,
+              "pct": 0.0
+            }
+          },
+          "drv-other": {
+            "mutation": {
+              "n": 4,
+              "of": 158,
+              "pct": 2.5
+            },
+            "amplification": {
+              "n": 10,
+              "of": 158,
+              "pct": 6.3
+            },
+            "deep_deletion": {
+              "n": 0,
+              "of": 158,
+              "pct": 0.0
+            },
+            "any_loss": {
+              "n": 0,
+              "of": 158,
+              "pct": 0.0
+            },
+            "fusion": {
+              "n": 1,
+              "of": 158,
+              "pct": 0.6
+            }
+          },
+          "drv-ret": {
+            "mutation": {
+              "n": 0,
+              "of": 14,
+              "pct": 0.0
+            },
+            "amplification": {
+              "n": 0,
+              "of": 14,
+              "pct": 0.0
+            },
+            "deep_deletion": {
+              "n": 0,
+              "of": 14,
+              "pct": 0.0
+            },
+            "any_loss": {
+              "n": 0,
+              "of": 14,
+              "pct": 0.0
+            },
+            "fusion": {
+              "n": 0,
+              "of": 14,
+              "pct": 0.0
+            }
+          },
+          "drv-ros1": {
+            "mutation": {
+              "n": 1,
+              "of": 23,
+              "pct": 4.3
+            },
+            "amplification": {
+              "n": 0,
+              "of": 23,
+              "pct": 0.0
+            },
+            "deep_deletion": {
+              "n": 0,
+              "of": 23,
+              "pct": 0.0
+            },
+            "any_loss": {
+              "n": 0,
+              "of": 23,
+              "pct": 0.0
+            },
+            "fusion": {
+              "n": 0,
+              "of": 23,
+              "pct": 0.0
+            }
+          }
+        },
+        "max_pct": 100.0,
+        "max_node": "drv-erbb2",
+        "max_metric": "mutation"
+      },
+      "drugs": [
+        "drug-28",
+        "drug-29",
+        "drug-30"
+      ],
+      "n_programs": 3,
+      "best_phase": "approved",
+      "best_phase_rank": 7,
+      "civic": {
+        "n_evidence_items": 61,
+        "n_accepted": 42,
+        "best_level": "A",
+        "levels": {
+          "A": 23,
+          "B": 14,
+          "C": 16,
+          "D": 8
+        },
+        "evidence_types": {
+          "DIAGNOSTIC": 1,
+          "ONCOGENIC": 2,
+          "PREDICTIVE": 58
+        },
+        "top_therapies": [
+          "Trastuzumab Deruxtecan",
+          "Afatinib",
+          "Trastuzumab",
+          "Dacomitinib",
+          "Zongertinib",
+          "Trastuzumab Emtansine"
+        ]
+      },
+      "selected_on": null
+    },
+    "NTRK1": {
+      "gene": "NTRK1",
+      "basis": "genomic",
+      "biomarker_gene": null,
+      "why": "A fusion selects a TRK inhibitor, whatever the tumour type.",
+      "uniprot": {
+        "gene": "NTRK1",
+        "accession": "P04629",
+        "entry_name": "NTRK1_HUMAN",
+        "protein": "High affinity nerve growth factor receptor",
+        "length": 796,
+        "domains": [
+          {
+            "kind": "Repeat",
+            "name": "LRR 1",
+            "start": 90,
+            "end": 113
+          },
+          {
+            "kind": "Repeat",
+            "name": "LRR 2",
+            "start": 116,
+            "end": 137
+          },
+          {
+            "kind": "Domain",
+            "name": "LRRCT",
+            "start": 148,
+            "end": 193
+          },
+          {
+            "kind": "Domain",
+            "name": "Ig-like C2-type 1",
+            "start": 194,
+            "end": 283
+          },
+          {
+            "kind": "Domain",
+            "name": "Ig-like C2-type 2",
+            "start": 299,
+            "end": 365
+          },
+          {
+            "kind": "Region",
+            "name": "Interaction with SQSTM1",
+            "start": 469,
+            "end": 490
+          },
+          {
+            "kind": "Domain",
+            "name": "Protein kinase",
+            "start": 510,
+            "end": 781
+          }
+        ],
+        "pdb_count": 65,
+        "pdb_ids": [
+          "1HE7",
+          "1SHC",
+          "1WWA",
+          "1WWW",
+          "2IFG",
+          "2N90",
+          "4AOJ",
+          "4CRP",
+          "4F0I",
+          "4GT5",
+          "4PMM",
+          "4PMP",
+          "4PMS",
+          "4PMT",
+          "4YNE",
+          "4YPS",
+          "5H3Q",
+          "5I8A",
+          "5JFS",
+          "5JFV",
+          "5JFW",
+          "5JFX",
+          "5KMI",
+          "5KMJ",
+          "5KMK",
+          "5KML",
+          "5KMM",
+          "5KMN",
+          "5KMO",
+          "5KVT",
+          "5WR7",
+          "6D1Y",
+          "6D1Z",
+          "6D20",
+          "6D22",
+          "6DKB",
+          "6DKG",
+          "6DKI",
+          "6DKW",
+          "6IQN"
+        ],
+        "url": "https://www.uniprot.org/uniprotkb/P04629",
+        "alphafold": "https://alphafold.ebi.ac.uk/entry/P04629"
+      },
+      "structure": {
+        "pdb": "4AOJ",
+        "title": "Human TrkA in complex with the inhibitor AZ-23",
+        "method": "X-RAY DIFFRACTION",
+        "resolution": 2.75,
+        "ligands": [
+          "ZN"
+        ],
+        "deposited": "2012-08-15",
+        "url": "https://www.rcsb.org/structure/4AOJ",
+        "image": "img/4aoj.jpg",
+        "image_bytes": 97824
+      },
+      "hotspots": [],
+      "n_mutated_samples": 19,
+      "n_distinct_changes": 19,
+      "sequenced_of": 860,
+      "frequency": {
+        "by_node": {
+          "drv-alk": {
+            "mutation": {
+              "n": 0,
+              "of": 32,
+              "pct": 0.0
+            },
+            "amplification": {
+              "n": 0,
+              "of": 32,
+              "pct": 0.0
+            },
+            "deep_deletion": {
+              "n": 0,
+              "of": 32,
+              "pct": 0.0
+            },
+            "any_loss": {
+              "n": 0,
+              "of": 32,
+              "pct": 0.0
+            },
+            "fusion": {
+              "n": 0,
+              "of": 32,
+              "pct": 0.0
+            }
+          },
+          "drv-braf": {
+            "mutation": {
+              "n": 1,
+              "of": 18,
+              "pct": 5.6
+            },
+            "amplification": {
+              "n": 0,
+              "of": 18,
+              "pct": 0.0
+            },
+            "deep_deletion": {
+              "n": 0,
+              "of": 18,
+              "pct": 0.0
+            },
+            "any_loss": {
+              "n": 0,
+              "of": 18,
+              "pct": 0.0
+            },
+            "fusion": {
+              "n": 0,
+              "of": 18,
+              "pct": 0.0
+            }
+          },
+          "drv-egfr": {
+            "mutation": {
+              "n": 2,
+              "of": 213,
+              "pct": 0.9
+            },
+            "amplification": {
+              "n": 2,
+              "of": 213,
+              "pct": 0.9
+            },
+            "deep_deletion": {
+              "n": 0,
+              "of": 213,
+              "pct": 0.0
+            },
+            "any_loss": {
+              "n": 0,
+              "of": 213,
+              "pct": 0.0
+            },
+            "fusion": {
+              "n": 0,
+              "of": 213,
+              "pct": 0.0
+            }
+          },
+          "drv-egfr-ex20": {
+            "mutation": {
+              "n": 0,
+              "of": 18,
+              "pct": 0.0
+            },
+            "amplification": {
+              "n": 0,
+              "of": 18,
+              "pct": 0.0
+            },
+            "deep_deletion": {
+              "n": 0,
+              "of": 18,
+              "pct": 0.0
+            },
+            "any_loss": {
+              "n": 0,
+              "of": 18,
+              "pct": 0.0
+            },
+            "fusion": {
+              "n": 0,
+              "of": 18,
+              "pct": 0.0
+            }
+          },
+          "drv-erbb2": {
+            "mutation": {
+              "n": 0,
+              "of": 24,
+              "pct": 0.0
+            },
+            "amplification": {
+              "n": 0,
+              "of": 24,
+              "pct": 0.0
+            },
+            "deep_deletion": {
+              "n": 0,
+              "of": 24,
+              "pct": 0.0
+            },
+            "any_loss": {
+              "n": 0,
+              "of": 24,
+              "pct": 0.0
+            },
+            "fusion": {
+              "n": 0,
+              "of": 24,
+              "pct": 0.0
+            }
+          },
+          "drv-kras": {
+            "mutation": {
+              "n": 6,
+              "of": 215,
+              "pct": 2.8
+            },
+            "amplification": {
+              "n": 1,
+              "of": 215,
+              "pct": 0.5
+            },
+            "deep_deletion": {
+              "n": 0,
+              "of": 215,
+              "pct": 0.0
+            },
+            "any_loss": {
+              "n": 0,
+              "of": 215,
+              "pct": 0.0
+            },
+            "fusion": {
+              "n": 0,
+              "of": 215,
+              "pct": 0.0
+            }
+          },
+          "drv-met": {
+            "mutation": {
+              "n": 0,
+              "of": 26,
+              "pct": 0.0
+            },
+            "amplification": {
+              "n": 0,
+              "of": 26,
+              "pct": 0.0
+            },
+            "deep_deletion": {
+              "n": 0,
+              "of": 26,
+              "pct": 0.0
+            },
+            "any_loss": {
+              "n": 0,
+              "of": 26,
+              "pct": 0.0
+            },
+            "fusion": {
+              "n": 0,
+              "of": 26,
+              "pct": 0.0
+            }
+          },
+          "drv-none": {
+            "mutation": {
+              "n": 2,
+              "of": 119,
+              "pct": 1.7
+            },
+            "amplification": {
+              "n": 1,
+              "of": 119,
+              "pct": 0.8
+            },
+            "deep_deletion": {
+              "n": 0,
+              "of": 119,
+              "pct": 0.0
+            },
+            "any_loss": {
+              "n": 0,
+              "of": 119,
+              "pct": 0.0
+            },
+            "fusion": {
+              "n": 0,
+              "of": 119,
+              "pct": 0.0
+            }
+          },
+          "drv-other": {
+            "mutation": {
+              "n": 8,
+              "of": 158,
+              "pct": 5.1
+            },
+            "amplification": {
+              "n": 3,
+              "of": 158,
+              "pct": 1.9
+            },
+            "deep_deletion": {
+              "n": 0,
+              "of": 158,
+              "pct": 0.0
+            },
+            "any_loss": {
+              "n": 0,
+              "of": 158,
+              "pct": 0.0
+            },
+            "fusion": {
+              "n": 0,
+              "of": 158,
+              "pct": 0.0
+            }
+          },
+          "drv-ret": {
+            "mutation": {
+              "n": 0,
+              "of": 14,
+              "pct": 0.0
+            },
+            "amplification": {
+              "n": 0,
+              "of": 14,
+              "pct": 0.0
+            },
+            "deep_deletion": {
+              "n": 0,
+              "of": 14,
+              "pct": 0.0
+            },
+            "any_loss": {
+              "n": 0,
+              "of": 14,
+              "pct": 0.0
+            },
+            "fusion": {
+              "n": 0,
+              "of": 14,
+              "pct": 0.0
+            }
+          },
+          "drv-ros1": {
+            "mutation": {
+              "n": 0,
+              "of": 23,
+              "pct": 0.0
+            },
+            "amplification": {
+              "n": 0,
+              "of": 23,
+              "pct": 0.0
+            },
+            "deep_deletion": {
+              "n": 0,
+              "of": 23,
+              "pct": 0.0
+            },
+            "any_loss": {
+              "n": 0,
+              "of": 23,
+              "pct": 0.0
+            },
+            "fusion": {
+              "n": 0,
+              "of": 23,
+              "pct": 0.0
+            }
+          }
+        },
+        "max_pct": 0.0,
+        "max_node": "drv-alk",
+        "max_metric": "fusion"
+      },
+      "drugs": [
+        "drug-18",
+        "drug-19",
+        "drug-31"
+      ],
+      "n_programs": 3,
+      "best_phase": "approved",
+      "best_phase_rank": 7,
+      "civic": {
+        "n_evidence_items": 9,
+        "n_accepted": 7,
+        "best_level": "C",
+        "levels": {
+          "C": 8,
+          "D": 1
+        },
+        "evidence_types": {
+          "ONCOGENIC": 2,
+          "PREDICTIVE": 7
+        },
+        "top_therapies": [
+          "Larotrectinib",
+          "Entrectinib",
+          "Lestaurtinib",
+          "Crizotinib"
+        ]
+      },
+      "selected_on": "fusion"
+    },
+    "NRG1": {
+      "gene": "NRG1",
+      "basis": "genomic",
+      "biomarker_gene": null,
+      "why": "Fusions signal through HER3. Not on the panels behind the cohort here, so the track is empty by construction.",
+      "uniprot": {
+        "gene": "NRG1",
+        "accession": "Q02297",
+        "entry_name": "NRG1_HUMAN",
+        "protein": "Pro-neuregulin-1, membrane-bound isoform",
+        "length": 640,
+        "domains": [
+          {
+            "kind": "Region",
+            "name": "Disordered",
+            "start": 1,
+            "end": 53
+          },
+          {
+            "kind": "Domain",
+            "name": "Ig-like C2-type",
+            "start": 37,
+            "end": 128
+          },
+          {
+            "kind": "Domain",
+            "name": "EGF-like",
+            "start": 178,
+            "end": 222
+          },
+          {
+            "kind": "Region",
+            "name": "Disordered",
+            "start": 334,
+            "end": 360
+          },
+          {
+            "kind": "Region",
+            "name": "Disordered",
+            "start": 375,
+            "end": 399
+          },
+          {
+            "kind": "Region",
+            "name": "Disordered",
+            "start": 433,
+            "end": 461
+          },
+          {
+            "kind": "Region",
+            "name": "Disordered",
+            "start": 524,
+            "end": 588
+          }
+        ],
+        "pdb_count": 11,
+        "pdb_ids": [
+          "1HAE",
+          "1HAF",
+          "1HRE",
+          "1HRF",
+          "3U7U",
+          "7MN5",
+          "7MN6",
+          "7MN8",
+          "7SJL",
+          "8U4I",
+          "8U4L"
+        ],
+        "url": "https://www.uniprot.org/uniprotkb/Q02297",
+        "alphafold": "https://alphafold.ebi.ac.uk/entry/Q02297"
+      },
+      "structure": {
+        "pdb": "1HAE",
+        "title": "HEREGULIN-ALPHA EPIDERMAL GROWTH FACTOR-LIKE DOMAIN, NMR, 20 STRUCTURES",
+        "method": "SOLUTION NMR",
+        "resolution": null,
+        "ligands": [],
+        "deposited": "1996-07-11",
+        "url": "https://www.rcsb.org/structure/1HAE",
+        "image": "img/1hae.jpg",
+        "image_bytes": 24262
+      },
+      "hotspots": [],
+      "n_mutated_samples": 0,
+      "n_distinct_changes": 0,
+      "sequenced_of": 860,
+      "frequency": {
+        "by_node": {},
+        "max_pct": 0.0,
+        "max_node": null,
+        "max_metric": null
+      },
+      "drugs": [],
+      "n_programs": 0,
+      "best_phase": null,
+      "best_phase_rank": null,
+      "civic": {
+        "n_evidence_items": 10,
+        "n_accepted": 6,
+        "best_level": "A",
+        "levels": {
+          "A": 1,
+          "B": 2,
+          "C": 6,
+          "D": 1
+        },
+        "evidence_types": {
+          "PREDICTIVE": 9,
+          "PROGNOSTIC": 1
+        },
+        "top_therapies": [
+          "Afatinib",
+          "Zenocutuzumab-zbco",
+          "Patritumab",
+          "Gefitinib",
+          "Erlotinib",
+          "Carboplatin"
+        ]
+      },
+      "selected_on": null
+    },
+    "TACSTD2": {
+      "gene": "TACSTD2",
+      "basis": "expression",
+      "biomarker_gene": null,
+      "why": "An antibody-drug conjugate's address, not a driver.",
+      "uniprot": {
+        "gene": "TACSTD2",
+        "accession": "P09758",
+        "entry_name": "TACD2_HUMAN",
+        "protein": "Tumor-associated calcium signal transducer 2",
+        "length": 323,
+        "domains": [
+          {
+            "kind": "Domain",
+            "name": "Thyroglobulin type-1",
+            "start": 70,
+            "end": 145
+          }
+        ],
+        "pdb_count": 7,
+        "pdb_ids": [
+          "2MAE",
+          "2MVK",
+          "2MVL",
+          "7E5M",
+          "7E5N",
+          "7PEE",
+          "9PI9"
+        ],
+        "url": "https://www.uniprot.org/uniprotkb/P09758",
+        "alphafold": "https://alphafold.ebi.ac.uk/entry/P09758"
+      },
+      "structure": {
+        "pdb": "7PEE",
+        "title": "Crystal structure of extracellular part of human Trop2",
+        "method": "X-RAY DIFFRACTION",
+        "resolution": 2.81,
+        "ligands": [
+          "NAG"
+        ],
+        "deposited": "2021-10-13",
+        "url": "https://www.rcsb.org/structure/7PEE",
+        "image": "img/7pee.jpg",
+        "image_bytes": 65621
+      },
+      "hotspots": [],
+      "n_mutated_samples": 0,
+      "n_distinct_changes": 0,
+      "sequenced_of": 860,
+      "frequency": {
+        "by_node": {},
+        "max_pct": 0.0,
+        "max_node": null,
+        "max_metric": null
+      },
+      "drugs": [
+        "drug-11"
+      ],
+      "n_programs": 1,
+      "best_phase": "approved",
+      "best_phase_rank": 7,
+      "civic": null,
+      "selected_on": null
+    },
+    "CD274": {
+      "gene": "CD274",
+      "basis": "expression",
+      "biomarker_gene": null,
+      "why": "PD-L1 by IHC (tumour proportion score) guides checkpoint blockade.",
+      "uniprot": {
+        "gene": "CD274",
+        "accession": "Q9NZQ7",
+        "entry_name": "PD1L1_HUMAN",
+        "protein": "Programmed cell death 1 ligand 1",
+        "length": 290,
+        "domains": [
+          {
+            "kind": "Domain",
+            "name": "Ig-like V-type",
+            "start": 19,
+            "end": 127
+          },
+          {
+            "kind": "Domain",
+            "name": "Ig-like C2-type",
+            "start": 133,
+            "end": 225
+          }
+        ],
+        "pdb_count": 74,
+        "pdb_ids": [
+          "3BIK",
+          "3BIS",
+          "3FN3",
+          "3SBW",
+          "4Z18",
+          "4ZQK",
+          "5C3T",
+          "5GGT",
+          "5GRJ",
+          "5IUS",
+          "5J89",
+          "5J8O",
+          "5JDR",
+          "5JDS",
+          "5N2D",
+          "5N2F",
+          "5NIU",
+          "5O45",
+          "5O4Y",
+          "5X8L",
+          "5X8M",
+          "5XJ4",
+          "5XXY",
+          "6L8R",
+          "6NM7",
+          "6NM8",
+          "6NNV",
+          "6NOJ",
+          "6NOS",
+          "6NP9",
+          "6PV9",
+          "6R3K",
+          "6RPG",
+          "6VQN",
+          "6YCR",
+          "7BEA",
+          "7C88",
+          "7CZD",
+          "7DCV",
+          "7DY7"
+        ],
+        "url": "https://www.uniprot.org/uniprotkb/Q9NZQ7",
+        "alphafold": "https://alphafold.ebi.ac.uk/entry/Q9NZQ7"
+      },
+      "structure": {
+        "pdb": "5X8L",
+        "title": "PD-L1 in complex with atezolizumab",
+        "method": "X-RAY DIFFRACTION",
+        "resolution": 3.1,
+        "ligands": [],
+        "deposited": "2017-08-16",
+        "url": "https://www.rcsb.org/structure/5X8L",
+        "image": "img/5x8l.jpg",
+        "image_bytes": 50875
+      },
+      "hotspots": [],
+      "n_mutated_samples": 1,
+      "n_distinct_changes": 1,
+      "sequenced_of": 860,
+      "frequency": {
+        "by_node": {
+          "drv-alk": {
+            "mutation": {
+              "n": 0,
+              "of": 32,
+              "pct": 0.0
+            },
+            "amplification": {
+              "n": 0,
+              "of": 32,
+              "pct": 0.0
+            },
+            "deep_deletion": {
+              "n": 0,
+              "of": 32,
+              "pct": 0.0
+            },
+            "any_loss": {
+              "n": 0,
+              "of": 32,
+              "pct": 0.0
+            },
+            "fusion": {
+              "n": 0,
+              "of": 32,
+              "pct": 0.0
+            }
+          },
+          "drv-braf": {
+            "mutation": {
+              "n": 0,
+              "of": 18,
+              "pct": 0.0
+            },
+            "amplification": {
+              "n": 0,
+              "of": 18,
+              "pct": 0.0
+            },
+            "deep_deletion": {
+              "n": 0,
+              "of": 18,
+              "pct": 0.0
+            },
+            "any_loss": {
+              "n": 0,
+              "of": 18,
+              "pct": 0.0
+            },
+            "fusion": {
+              "n": 0,
+              "of": 18,
+              "pct": 0.0
+            }
+          },
+          "drv-egfr": {
+            "mutation": {
+              "n": 0,
+              "of": 213,
+              "pct": 0.0
+            },
+            "amplification": {
+              "n": 1,
+              "of": 213,
+              "pct": 0.5
+            },
+            "deep_deletion": {
+              "n": 1,
+              "of": 213,
+              "pct": 0.5
+            },
+            "any_loss": {
+              "n": 1,
+              "of": 213,
+              "pct": 0.5
+            },
+            "fusion": {
+              "n": 0,
+              "of": 213,
+              "pct": 0.0
+            }
+          },
+          "drv-egfr-ex20": {
+            "mutation": {
+              "n": 0,
+              "of": 18,
+              "pct": 0.0
+            },
+            "amplification": {
+              "n": 0,
+              "of": 18,
+              "pct": 0.0
+            },
+            "deep_deletion": {
+              "n": 0,
+              "of": 18,
+              "pct": 0.0
+            },
+            "any_loss": {
+              "n": 0,
+              "of": 18,
+              "pct": 0.0
+            },
+            "fusion": {
+              "n": 0,
+              "of": 18,
+              "pct": 0.0
+            }
+          },
+          "drv-erbb2": {
+            "mutation": {
+              "n": 0,
+              "of": 24,
+              "pct": 0.0
+            },
+            "amplification": {
+              "n": 0,
+              "of": 24,
+              "pct": 0.0
+            },
+            "deep_deletion": {
+              "n": 0,
+              "of": 24,
+              "pct": 0.0
+            },
+            "any_loss": {
+              "n": 0,
+              "of": 24,
+              "pct": 0.0
+            },
+            "fusion": {
+              "n": 0,
+              "of": 24,
+              "pct": 0.0
+            }
+          },
+          "drv-kras": {
+            "mutation": {
+              "n": 0,
+              "of": 215,
+              "pct": 0.0
+            },
+            "amplification": {
+              "n": 1,
+              "of": 215,
+              "pct": 0.5
+            },
+            "deep_deletion": {
+              "n": 1,
+              "of": 215,
+              "pct": 0.5
+            },
+            "any_loss": {
+              "n": 1,
+              "of": 215,
+              "pct": 0.5
+            },
+            "fusion": {
+              "n": 0,
+              "of": 215,
+              "pct": 0.0
+            }
+          },
+          "drv-met": {
+            "mutation": {
+              "n": 0,
+              "of": 26,
+              "pct": 0.0
+            },
+            "amplification": {
+              "n": 0,
+              "of": 26,
+              "pct": 0.0
+            },
+            "deep_deletion": {
+              "n": 0,
+              "of": 26,
+              "pct": 0.0
+            },
+            "any_loss": {
+              "n": 0,
+              "of": 26,
+              "pct": 0.0
+            },
+            "fusion": {
+              "n": 0,
+              "of": 26,
+              "pct": 0.0
+            }
+          },
+          "drv-none": {
+            "mutation": {
+              "n": 0,
+              "of": 119,
+              "pct": 0.0
+            },
+            "amplification": {
+              "n": 0,
+              "of": 119,
+              "pct": 0.0
+            },
+            "deep_deletion": {
+              "n": 1,
+              "of": 119,
+              "pct": 0.8
+            },
+            "any_loss": {
+              "n": 1,
+              "of": 119,
+              "pct": 0.8
+            },
+            "fusion": {
+              "n": 0,
+              "of": 119,
+              "pct": 0.0
+            }
+          },
+          "drv-other": {
+            "mutation": {
+              "n": 1,
+              "of": 158,
+              "pct": 0.6
+            },
+            "amplification": {
+              "n": 0,
+              "of": 158,
+              "pct": 0.0
+            },
+            "deep_deletion": {
+              "n": 2,
+              "of": 158,
+              "pct": 1.3
+            },
+            "any_loss": {
+              "n": 2,
+              "of": 158,
+              "pct": 1.3
+            },
+            "fusion": {
+              "n": 0,
+              "of": 158,
+              "pct": 0.0
+            }
+          },
+          "drv-ret": {
+            "mutation": {
+              "n": 0,
+              "of": 14,
+              "pct": 0.0
+            },
+            "amplification": {
+              "n": 0,
+              "of": 14,
+              "pct": 0.0
+            },
+            "deep_deletion": {
+              "n": 0,
+              "of": 14,
+              "pct": 0.0
+            },
+            "any_loss": {
+              "n": 0,
+              "of": 14,
+              "pct": 0.0
+            },
+            "fusion": {
+              "n": 0,
+              "of": 14,
+              "pct": 0.0
+            }
+          },
+          "drv-ros1": {
+            "mutation": {
+              "n": 0,
+              "of": 23,
+              "pct": 0.0
+            },
+            "amplification": {
+              "n": 0,
+              "of": 23,
+              "pct": 0.0
+            },
+            "deep_deletion": {
+              "n": 0,
+              "of": 23,
+              "pct": 0.0
+            },
+            "any_loss": {
+              "n": 0,
+              "of": 23,
+              "pct": 0.0
+            },
+            "fusion": {
+              "n": 0,
+              "of": 23,
+              "pct": 0.0
+            }
+          }
+        },
+        "max_pct": 1.3,
+        "max_node": "drv-other",
+        "max_metric": "deep_deletion"
+      },
+      "drugs": [
+        "drug-36",
+        "drug-39",
+        "drug-42",
+        "drug-43",
+        "drug-44"
+      ],
+      "n_programs": 5,
+      "best_phase": "approved",
+      "best_phase_rank": 7,
+      "civic": {
+        "n_evidence_items": 20,
+        "n_accepted": 9,
+        "best_level": "B",
+        "best_level_submitted": "A",
+        "levels": {
+          "A": 1,
+          "B": 11,
+          "C": 7,
+          "E": 1
+        },
+        "evidence_types": {
+          "PREDICTIVE": 17,
+          "PROGNOSTIC": 3
+        },
+        "top_therapies": [
+          "Pembrolizumab",
+          "Atezolizumab",
+          "Nivolumab",
+          "Avelumab",
+          "Tepotinib",
+          "Durvalumab"
+        ]
+      },
+      "selected_on": null
+    },
+    "PDCD1": {
+      "gene": "PDCD1",
+      "basis": "expression",
+      "biomarker_gene": null,
+      "why": "The target is on the T cell, not the tumour.",
+      "uniprot": {
+        "gene": "PDCD1",
+        "accession": "Q15116",
+        "entry_name": "PDCD1_HUMAN",
+        "protein": "Programmed cell death protein 1",
+        "length": 288,
+        "domains": [
+          {
+            "kind": "Region",
+            "name": "Nivolumab binding",
+            "start": 25,
+            "end": 34
+          },
+          {
+            "kind": "Domain",
+            "name": "Ig-like V-type",
+            "start": 35,
+            "end": 145
+          },
+          {
+            "kind": "Region",
+            "name": "Interaction with CD274/PDCD1L1",
+            "start": 70,
+            "end": 77
+          },
+          {
+            "kind": "Region",
+            "name": "Pembrolizumab binding",
+            "start": 74,
+            "end": 99
+          },
+          {
+            "kind": "Region",
+            "name": "Disordered",
+            "start": 254,
+            "end": 288
+          }
+        ],
+        "pdb_count": 37,
+        "pdb_ids": [
+          "2M2D",
+          "3RRQ",
+          "4ZQK",
+          "5B8C",
+          "5GGR",
+          "5GGS",
+          "5IUS",
+          "5JXE",
+          "5WT9",
+          "6HIG",
+          "6J14",
+          "6J15",
+          "6JBT",
+          "6JJP",
+          "6K0Y",
+          "6R5G",
+          "6ROY",
+          "6ROZ",
+          "6UMT",
+          "6UMU",
+          "6UMV",
+          "6XKR",
+          "7BXA",
+          "7CGW",
+          "7CU5",
+          "7E9B",
+          "7VUX",
+          "7WSL",
+          "7WVM",
+          "8AS0",
+          "8EQ6",
+          "8GY5",
+          "8U31",
+          "8U32",
+          "9EHT",
+          "9HK1",
+          "9Q8L"
+        ],
+        "url": "https://www.uniprot.org/uniprotkb/Q15116",
+        "alphafold": "https://alphafold.ebi.ac.uk/entry/Q15116"
+      },
+      "structure": {
+        "pdb": "5GGS",
+        "title": "PD-1 in complex with pembrolizumab Fab",
+        "method": "X-RAY DIFFRACTION",
+        "resolution": 1.997,
+        "ligands": [],
+        "deposited": "2016-11-09",
+        "url": "https://www.rcsb.org/structure/5GGS",
+        "image": "img/5ggs.jpg",
+        "image_bytes": 58536
+      },
+      "hotspots": [],
+      "n_mutated_samples": 17,
+      "n_distinct_changes": 17,
+      "sequenced_of": 860,
+      "frequency": {
+        "by_node": {
+          "drv-alk": {
+            "mutation": {
+              "n": 1,
+              "of": 32,
+              "pct": 3.1
+            },
+            "amplification": {
+              "n": 0,
+              "of": 32,
+              "pct": 0.0
+            },
+            "deep_deletion": {
+              "n": 0,
+              "of": 32,
+              "pct": 0.0
+            },
+            "any_loss": {
+              "n": 0,
+              "of": 32,
+              "pct": 0.0
+            },
+            "fusion": {
+              "n": 0,
+              "of": 32,
+              "pct": 0.0
+            }
+          },
+          "drv-braf": {
+            "mutation": {
+              "n": 0,
+              "of": 18,
+              "pct": 0.0
+            },
+            "amplification": {
+              "n": 0,
+              "of": 18,
+              "pct": 0.0
+            },
+            "deep_deletion": {
+              "n": 0,
+              "of": 18,
+              "pct": 0.0
+            },
+            "any_loss": {
+              "n": 0,
+              "of": 18,
+              "pct": 0.0
+            },
+            "fusion": {
+              "n": 0,
+              "of": 18,
+              "pct": 0.0
+            }
+          },
+          "drv-egfr": {
+            "mutation": {
+              "n": 1,
+              "of": 213,
+              "pct": 0.5
+            },
+            "amplification": {
+              "n": 0,
+              "of": 213,
+              "pct": 0.0
+            },
+            "deep_deletion": {
+              "n": 1,
+              "of": 213,
+              "pct": 0.5
+            },
+            "any_loss": {
+              "n": 1,
+              "of": 213,
+              "pct": 0.5
+            },
+            "fusion": {
+              "n": 0,
+              "of": 213,
+              "pct": 0.0
+            }
+          },
+          "drv-egfr-ex20": {
+            "mutation": {
+              "n": 0,
+              "of": 18,
+              "pct": 0.0
+            },
+            "amplification": {
+              "n": 0,
+              "of": 18,
+              "pct": 0.0
+            },
+            "deep_deletion": {
+              "n": 0,
+              "of": 18,
+              "pct": 0.0
+            },
+            "any_loss": {
+              "n": 0,
+              "of": 18,
+              "pct": 0.0
+            },
+            "fusion": {
+              "n": 0,
+              "of": 18,
+              "pct": 0.0
+            }
+          },
+          "drv-erbb2": {
+            "mutation": {
+              "n": 1,
+              "of": 24,
+              "pct": 4.2
+            },
+            "amplification": {
+              "n": 0,
+              "of": 24,
+              "pct": 0.0
+            },
+            "deep_deletion": {
+              "n": 0,
+              "of": 24,
+              "pct": 0.0
+            },
+            "any_loss": {
+              "n": 0,
+              "of": 24,
+              "pct": 0.0
+            },
+            "fusion": {
+              "n": 0,
+              "of": 24,
+              "pct": 0.0
+            }
+          },
+          "drv-kras": {
+            "mutation": {
+              "n": 5,
+              "of": 215,
+              "pct": 2.3
+            },
+            "amplification": {
+              "n": 0,
+              "of": 215,
+              "pct": 0.0
+            },
+            "deep_deletion": {
+              "n": 0,
+              "of": 215,
+              "pct": 0.0
+            },
+            "any_loss": {
+              "n": 0,
+              "of": 215,
+              "pct": 0.0
+            },
+            "fusion": {
+              "n": 0,
+              "of": 215,
+              "pct": 0.0
+            }
+          },
+          "drv-met": {
+            "mutation": {
+              "n": 0,
+              "of": 26,
+              "pct": 0.0
+            },
+            "amplification": {
+              "n": 0,
+              "of": 26,
+              "pct": 0.0
+            },
+            "deep_deletion": {
+              "n": 0,
+              "of": 26,
+              "pct": 0.0
+            },
+            "any_loss": {
+              "n": 0,
+              "of": 26,
+              "pct": 0.0
+            },
+            "fusion": {
+              "n": 0,
+              "of": 26,
+              "pct": 0.0
+            }
+          },
+          "drv-none": {
+            "mutation": {
+              "n": 4,
+              "of": 119,
+              "pct": 3.4
+            },
+            "amplification": {
+              "n": 0,
+              "of": 119,
+              "pct": 0.0
+            },
+            "deep_deletion": {
+              "n": 0,
+              "of": 119,
+              "pct": 0.0
+            },
+            "any_loss": {
+              "n": 0,
+              "of": 119,
+              "pct": 0.0
+            },
+            "fusion": {
+              "n": 0,
+              "of": 119,
+              "pct": 0.0
+            }
+          },
+          "drv-other": {
+            "mutation": {
+              "n": 5,
+              "of": 158,
+              "pct": 3.2
+            },
+            "amplification": {
+              "n": 0,
+              "of": 158,
+              "pct": 0.0
+            },
+            "deep_deletion": {
+              "n": 0,
+              "of": 158,
+              "pct": 0.0
+            },
+            "any_loss": {
+              "n": 0,
+              "of": 158,
+              "pct": 0.0
+            },
+            "fusion": {
+              "n": 0,
+              "of": 158,
+              "pct": 0.0
+            }
+          },
+          "drv-ret": {
+            "mutation": {
+              "n": 0,
+              "of": 14,
+              "pct": 0.0
+            },
+            "amplification": {
+              "n": 0,
+              "of": 14,
+              "pct": 0.0
+            },
+            "deep_deletion": {
+              "n": 0,
+              "of": 14,
+              "pct": 0.0
+            },
+            "any_loss": {
+              "n": 0,
+              "of": 14,
+              "pct": 0.0
+            },
+            "fusion": {
+              "n": 0,
+              "of": 14,
+              "pct": 0.0
+            }
+          },
+          "drv-ros1": {
+            "mutation": {
+              "n": 0,
+              "of": 23,
+              "pct": 0.0
+            },
+            "amplification": {
+              "n": 0,
+              "of": 23,
+              "pct": 0.0
+            },
+            "deep_deletion": {
+              "n": 0,
+              "of": 23,
+              "pct": 0.0
+            },
+            "any_loss": {
+              "n": 0,
+              "of": 23,
+              "pct": 0.0
+            },
+            "fusion": {
+              "n": 0,
+              "of": 23,
+              "pct": 0.0
+            }
+          }
+        },
+        "max_pct": 4.2,
+        "max_node": "drv-erbb2",
+        "max_metric": "mutation"
+      },
+      "drugs": [
+        "drug-32",
+        "drug-33",
+        "drug-34",
+        "drug-35",
+        "drug-37",
+        "drug-38",
+        "drug-40"
+      ],
+      "n_programs": 7,
+      "best_phase": "approved",
+      "best_phase_rank": 7,
+      "civic": null,
+      "selected_on": null
+    },
+    "DLL3": {
+      "gene": "DLL3",
+      "basis": "expression",
+      "biomarker_gene": null,
+      "why": "A surface antigen on small cell lung cancer, used as a T-cell engager's address.",
+      "uniprot": {
+        "gene": "DLL3",
+        "accession": "Q9NYJ7",
+        "entry_name": "DLL3_HUMAN",
+        "protein": "Delta-like protein 3",
+        "length": 618,
+        "domains": [
+          {
+            "kind": "Domain",
+            "name": "DSL",
+            "start": 176,
+            "end": 215
+          },
+          {
+            "kind": "Domain",
+            "name": "EGF-like 1",
+            "start": 216,
+            "end": 249
+          },
+          {
+            "kind": "Domain",
+            "name": "EGF-like 2",
+            "start": 274,
+            "end": 310
+          },
+          {
+            "kind": "Domain",
+            "name": "EGF-like 3",
+            "start": 312,
+            "end": 351
+          },
+          {
+            "kind": "Domain",
+            "name": "EGF-like 4",
+            "start": 353,
+            "end": 389
+          },
+          {
+            "kind": "Domain",
+            "name": "EGF-like 5",
+            "start": 391,
+            "end": 427
+          },
+          {
+            "kind": "Domain",
+            "name": "EGF-like 6",
+            "start": 429,
+            "end": 465
+          },
+          {
+            "kind": "Region",
+            "name": "Disordered",
+            "start": 546,
+            "end": 566
+          }
+        ],
+        "pdb_count": 0,
+        "pdb_ids": [],
+        "url": "https://www.uniprot.org/uniprotkb/Q9NYJ7",
+        "alphafold": "https://alphafold.ebi.ac.uk/entry/Q9NYJ7"
+      },
+      "structure": null,
+      "hotspots": [],
+      "n_mutated_samples": 0,
+      "n_distinct_changes": 0,
+      "sequenced_of": 860,
+      "frequency": {
+        "by_node": {},
+        "max_pct": 0.0,
+        "max_node": null,
+        "max_metric": null
+      },
+      "drugs": [
+        "drug-45"
+      ],
+      "n_programs": 1,
+      "best_phase": "approved",
+      "best_phase_rank": 7,
+      "civic": {
+        "n_evidence_items": 2,
+        "n_accepted": 0,
+        "best_level": null,
+        "best_level_submitted": "B",
+        "levels": {
+          "B": 2
+        },
+        "evidence_types": {
+          "PREDICTIVE": 2
+        },
+        "top_therapies": [
+          "Rovalpituzumab Tesirine"
+        ]
+      },
+      "selected_on": null
+    },
+    "TP53": {
+      "gene": "TP53",
+      "basis": "genomic",
+      "biomarker_gene": null,
+      "why": "The most altered gene in lung cancer and still undrugged.",
+      "uniprot": {
+        "gene": "TP53",
+        "accession": "P04637",
+        "entry_name": "P53_HUMAN",
+        "protein": "Cellular tumor antigen p53",
+        "length": 393,
+        "domains": [
+          {
+            "kind": "Region",
+            "name": "Interaction with CCAR2",
+            "start": 1,
+            "end": 320
+          },
+          {
+            "kind": "Region",
+            "name": "Interaction with HRMT1L2",
+            "start": 1,
+            "end": 83
+          },
+          {
+            "kind": "Region",
+            "name": "Transcription activation (acidic)",
+            "start": 1,
+            "end": 44
+          },
+          {
+            "kind": "Region",
+            "name": "Disordered",
+            "start": 50,
+            "end": 96
+          },
+          {
+            "kind": "Region",
+            "name": "Interaction with WWOX",
+            "start": 66,
+            "end": 110
+          },
+          {
+            "kind": "Region",
+            "name": "Interaction with HIPK1",
+            "start": 100,
+            "end": 370
+          },
+          {
+            "kind": "Region",
+            "name": "Required for interaction with ZNF385A",
+            "start": 100,
+            "end": 300
+          },
+          {
+            "kind": "DNA binding",
+            "name": "DNA binding",
+            "start": 102,
+            "end": 292
+          },
+          {
+            "kind": "Region",
+            "name": "Required for interaction with FBXO42",
+            "start": 113,
+            "end": 236
+          },
+          {
+            "kind": "Region",
+            "name": "Interaction with AXIN1",
+            "start": 116,
+            "end": 292
+          },
+          {
+            "kind": "Region",
+            "name": "Interaction with the 53BP2 SH3 domain",
+            "start": 241,
+            "end": 248
+          },
+          {
+            "kind": "Region",
+            "name": "Interaction with E4F1",
+            "start": 256,
+            "end": 294
+          },
+          {
+            "kind": "Region",
+            "name": "Interaction with DNA",
+            "start": 273,
+            "end": 280
+          },
+          {
+            "kind": "Region",
+            "name": "Disordered",
+            "start": 282,
+            "end": 325
+          },
+          {
+            "kind": "Region",
+            "name": "Interaction with CARM1",
+            "start": 300,
+            "end": 393
+          },
+          {
+            "kind": "Region",
+            "name": "Interaction with HIPK2",
+            "start": 319,
+            "end": 360
+          },
+          {
+            "kind": "Region",
+            "name": "Oligomerization",
+            "start": 325,
+            "end": 356
+          },
+          {
+            "kind": "Region",
+            "name": "Disordered",
+            "start": 351,
+            "end": 393
+          },
+          {
+            "kind": "Region",
+            "name": "Interaction with USP7",
+            "start": 359,
+            "end": 363
+          },
+          {
+            "kind": "Region",
+            "name": "Basic (repression of DNA-binding)",
+            "start": 368,
+            "end": 387
+          },
+          {
+            "kind": "Region",
+            "name": "Interaction with MORN3",
+            "start": 374,
+            "end": 393
+          }
+        ],
+        "pdb_count": 311,
+        "pdb_ids": [
+          "1A1U",
+          "1AIE",
+          "1C26",
+          "1DT7",
+          "1GZH",
+          "1H26",
+          "1HS5",
+          "1JSP",
+          "1KZY",
+          "1MA3",
+          "1OLG",
+          "1OLH",
+          "1PES",
+          "1PET",
+          "1SAE",
+          "1SAF",
+          "1SAK",
+          "1SAL",
+          "1TSR",
+          "1TUP",
+          "1UOL",
+          "1XQH",
+          "1YC5",
+          "1YCQ",
+          "1YCR",
+          "1YCS",
+          "2AC0",
+          "2ADY",
+          "2AHI",
+          "2ATA",
+          "2B3G",
+          "2BIM",
+          "2BIN",
+          "2BIO",
+          "2BIP",
+          "2BIQ",
+          "2F1X",
+          "2FEJ",
+          "2FOJ",
+          "2FOO"
+        ],
+        "url": "https://www.uniprot.org/uniprotkb/P04637",
+        "alphafold": "https://alphafold.ebi.ac.uk/entry/P04637"
+      },
+      "structure": {
+        "pdb": "1TUP",
+        "title": "TUMOR SUPPRESSOR P53 COMPLEXED WITH DNA",
+        "method": "X-RAY DIFFRACTION",
+        "resolution": 2.2,
+        "ligands": [
+          "ZN"
+        ],
+        "deposited": "1995-07-11",
+        "url": "https://www.rcsb.org/structure/1TUP",
+        "image": "img/1tup.jpg",
+        "image_bytes": 63554
+      },
+      "hotspots": [
+        {
+          "change": "V157F",
+          "pos": 157,
+          "type": "Missense_Mutation",
+          "n": 9,
+          "of": 860,
+          "pct": 1.0
+        },
+        {
+          "change": "R175H",
+          "pos": 175,
+          "type": "Missense_Mutation",
+          "n": 9,
+          "of": 860,
+          "pct": 1.0
+        },
+        {
+          "change": "R158L",
+          "pos": 158,
+          "type": "Missense_Mutation",
+          "n": 6,
+          "of": 860,
+          "pct": 0.7
+        },
+        {
+          "change": "R248Q",
+          "pos": 248,
+          "type": "Missense_Mutation",
+          "n": 6,
+          "of": 860,
+          "pct": 0.7
+        },
+        {
+          "change": "R248W",
+          "pos": 248,
+          "type": "Missense_Mutation",
+          "n": 6,
+          "of": 860,
+          "pct": 0.7
+        },
+        {
+          "change": "X307_splice",
+          "pos": 307,
+          "type": "Splice_Site",
+          "n": 6,
+          "of": 860,
+          "pct": 0.7
+        },
+        {
+          "change": "Y163C",
+          "pos": 163,
+          "type": "Missense_Mutation",
+          "n": 5,
+          "of": 860,
+          "pct": 0.6
+        },
+        {
+          "change": "R213*",
+          "pos": 213,
+          "type": "Nonsense_Mutation",
+          "n": 5,
+          "of": 860,
+          "pct": 0.6
+        },
+        {
+          "change": "X224_splice",
+          "pos": 224,
+          "type": "Splice_Site",
+          "n": 5,
+          "of": 860,
+          "pct": 0.6
+        },
+        {
+          "change": "V272L",
+          "pos": 272,
+          "type": "Missense_Mutation",
+          "n": 5,
+          "of": 860,
+          "pct": 0.6
+        },
+        {
+          "change": "R273C",
+          "pos": 273,
+          "type": "Missense_Mutation",
+          "n": 5,
+          "of": 860,
+          "pct": 0.6
+        },
+        {
+          "change": "C277F",
+          "pos": 277,
+          "type": "Missense_Mutation",
+          "n": 5,
+          "of": 860,
+          "pct": 0.6
+        },
+        {
+          "change": "N131I",
+          "pos": 131,
+          "type": "Missense_Mutation",
+          "n": 4,
+          "of": 860,
+          "pct": 0.5
+        },
+        {
+          "change": "F134L",
+          "pos": 134,
+          "type": "Missense_Mutation",
+          "n": 4,
+          "of": 860,
+          "pct": 0.5
+        },
+        {
+          "change": "G154V",
+          "pos": 154,
+          "type": "Missense_Mutation",
+          "n": 4,
+          "of": 860,
+          "pct": 0.5
+        },
+        {
+          "change": "C176F",
+          "pos": 176,
+          "type": "Missense_Mutation",
+          "n": 4,
+          "of": 860,
+          "pct": 0.5
+        },
+        {
+          "change": "Y236C",
+          "pos": 236,
+          "type": "Missense_Mutation",
+          "n": 4,
+          "of": 860,
+          "pct": 0.5
+        },
+        {
+          "change": "M237I",
+          "pos": 237,
+          "type": "Missense_Mutation",
+          "n": 4,
+          "of": 860,
+          "pct": 0.5
+        },
+        {
+          "change": "S241F",
+          "pos": 241,
+          "type": "Missense_Mutation",
+          "n": 4,
+          "of": 860,
+          "pct": 0.5
+        },
+        {
+          "change": "G245D",
+          "pos": 245,
+          "type": "Missense_Mutation",
+          "n": 4,
+          "of": 860,
+          "pct": 0.5
+        },
+        {
+          "change": "G245C",
+          "pos": 245,
+          "type": "Missense_Mutation",
+          "n": 4,
+          "of": 860,
+          "pct": 0.5
+        },
+        {
+          "change": "X261_splice",
+          "pos": 261,
+          "type": "Splice_Site",
+          "n": 4,
+          "of": 860,
+          "pct": 0.5
+        },
+        {
+          "change": "R273H",
+          "pos": 273,
+          "type": "Missense_Mutation",
+          "n": 4,
+          "of": 860,
+          "pct": 0.5
+        },
+        {
+          "change": "R273L",
+          "pos": 273,
+          "type": "Missense_Mutation",
+          "n": 4,
+          "of": 860,
+          "pct": 0.5
+        },
+        {
+          "change": "V274F",
+          "pos": 274,
+          "type": "Missense_Mutation",
+          "n": 4,
+          "of": 860,
+          "pct": 0.5
+        },
+        {
+          "change": "E298*",
+          "pos": 298,
+          "type": "Nonsense_Mutation",
+          "n": 4,
+          "of": 860,
+          "pct": 0.5
+        },
+        {
+          "change": "G105C",
+          "pos": 105,
+          "type": "Missense_Mutation",
+          "n": 3,
+          "of": 860,
+          "pct": 0.3
+        },
+        {
+          "change": "X125_splice",
+          "pos": 125,
+          "type": "Splice_Site",
+          "n": 3,
+          "of": 860,
+          "pct": 0.3
+        },
+        {
+          "change": "S127F",
+          "pos": 127,
+          "type": "Missense_Mutation",
+          "n": 3,
+          "of": 860,
+          "pct": 0.3
+        },
+        {
+          "change": "A138V",
+          "pos": 138,
+          "type": "Missense_Mutation",
+          "n": 3,
+          "of": 860,
+          "pct": 0.3
+        },
+        {
+          "change": "X187_splice",
+          "pos": 187,
+          "type": "Splice_Site",
+          "n": 3,
+          "of": 860,
+          "pct": 0.3
+        },
+        {
+          "change": "R196*",
+          "pos": 196,
+          "type": "Nonsense_Mutation",
+          "n": 3,
+          "of": 860,
+          "pct": 0.3
+        },
+        {
+          "change": "E198*",
+          "pos": 198,
+          "type": "Nonsense_Mutation",
+          "n": 3,
+          "of": 860,
+          "pct": 0.3
+        },
+        {
+          "change": "G199E",
+          "pos": 199,
+          "type": "Missense_Mutation",
+          "n": 3,
+          "of": 860,
+          "pct": 0.3
+        },
+        {
+          "change": "H214R",
+          "pos": 214,
+          "type": "Missense_Mutation",
+          "n": 3,
+          "of": 860,
+          "pct": 0.3
+        },
+        {
+          "change": "C238F",
+          "pos": 238,
+          "type": "Missense_Mutation",
+          "n": 3,
+          "of": 860,
+          "pct": 0.3
+        },
+        {
+          "change": "G244C",
+          "pos": 244,
+          "type": "Missense_Mutation",
+          "n": 3,
+          "of": 860,
+          "pct": 0.3
+        },
+        {
+          "change": "G245S",
+          "pos": 245,
+          "type": "Missense_Mutation",
+          "n": 3,
+          "of": 860,
+          "pct": 0.3
+        },
+        {
+          "change": "G266*",
+          "pos": 266,
+          "type": "Nonsense_Mutation",
+          "n": 3,
+          "of": 860,
+          "pct": 0.3
+        },
+        {
+          "change": "F270V",
+          "pos": 270,
+          "type": "Missense_Mutation",
+          "n": 3,
+          "of": 860,
+          "pct": 0.3
+        },
+        {
+          "change": "E271*",
+          "pos": 271,
+          "type": "Nonsense_Mutation",
+          "n": 3,
+          "of": 860,
+          "pct": 0.3
+        },
+        {
+          "change": "R280T",
+          "pos": 280,
+          "type": "Missense_Mutation",
+          "n": 3,
+          "of": 860,
+          "pct": 0.3
+        },
+        {
+          "change": "R282W",
+          "pos": 282,
+          "type": "Missense_Mutation",
+          "n": 3,
+          "of": 860,
+          "pct": 0.3
+        },
+        {
+          "change": "E287*",
+          "pos": 287,
+          "type": "Nonsense_Mutation",
+          "n": 3,
+          "of": 860,
+          "pct": 0.3
+        },
+        {
+          "change": "X332_splice",
+          "pos": 332,
+          "type": "Splice_Site",
+          "n": 3,
+          "of": 860,
+          "pct": 0.3
+        },
+        {
+          "change": "R342*",
+          "pos": 342,
+          "type": "Nonsense_Mutation",
+          "n": 3,
+          "of": 860,
+          "pct": 0.3
+        },
+        {
+          "change": "Q100*",
+          "pos": 100,
+          "type": "Nonsense_Mutation",
+          "n": 2,
+          "of": 860,
+          "pct": 0.2
+        },
+        {
+          "change": "Q104*",
+          "pos": 104,
+          "type": "Nonsense_Mutation",
+          "n": 2,
+          "of": 860,
+          "pct": 0.2
+        },
+        {
+          "change": "S106R",
+          "pos": 106,
+          "type": "Missense_Mutation",
+          "n": 2,
+          "of": 860,
+          "pct": 0.2
+        },
+        {
+          "change": "R110L",
+          "pos": 110,
+          "type": "Missense_Mutation",
+          "n": 2,
+          "of": 860,
+          "pct": 0.2
+        },
+        {
+          "change": "T125K",
+          "pos": 125,
+          "type": "Missense_Mutation",
+          "n": 2,
+          "of": 860,
+          "pct": 0.2
+        },
+        {
+          "change": "K132R",
+          "pos": 132,
+          "type": "Missense_Mutation",
+          "n": 2,
+          "of": 860,
+          "pct": 0.2
+        },
+        {
+          "change": "C135F",
+          "pos": 135,
+          "type": "Missense_Mutation",
+          "n": 2,
+          "of": 860,
+          "pct": 0.2
+        },
+        {
+          "change": "V143M",
+          "pos": 143,
+          "type": "Missense_Mutation",
+          "n": 2,
+          "of": 860,
+          "pct": 0.2
+        },
+        {
+          "change": "P152L",
+          "pos": 152,
+          "type": "Missense_Mutation",
+          "n": 2,
+          "of": 860,
+          "pct": 0.2
+        },
+        {
+          "change": "R158P",
+          "pos": 158,
+          "type": "Missense_Mutation",
+          "n": 2,
+          "of": 860,
+          "pct": 0.2
+        },
+        {
+          "change": "A159V",
+          "pos": 159,
+          "type": "Missense_Mutation",
+          "n": 2,
+          "of": 860,
+          "pct": 0.2
+        },
+        {
+          "change": "A159P",
+          "pos": 159,
+          "type": "Missense_Mutation",
+          "n": 2,
+          "of": 860,
+          "pct": 0.2
+        },
+        {
+          "change": "Y163H",
+          "pos": 163,
+          "type": "Missense_Mutation",
+          "n": 2,
+          "of": 860,
+          "pct": 0.2
+        },
+        {
+          "change": "Q165*",
+          "pos": 165,
+          "type": "Nonsense_Mutation",
+          "n": 2,
+          "of": 860,
+          "pct": 0.2
+        },
+        {
+          "change": "S166*",
+          "pos": 166,
+          "type": "Nonsense_Mutation",
+          "n": 2,
+          "of": 860,
+          "pct": 0.2
+        },
+        {
+          "change": "E171*",
+          "pos": 171,
+          "type": "Nonsense_Mutation",
+          "n": 2,
+          "of": 860,
+          "pct": 0.2
+        },
+        {
+          "change": "V173L",
+          "pos": 173,
+          "type": "Missense_Mutation",
+          "n": 2,
+          "of": 860,
+          "pct": 0.2
+        },
+        {
+          "change": "C176S",
+          "pos": 176,
+          "type": "Missense_Mutation",
+          "n": 2,
+          "of": 860,
+          "pct": 0.2
+        },
+        {
+          "change": "H178Tfs*69",
+          "pos": 178,
+          "type": "Frame_Shift_Del",
+          "n": 2,
+          "of": 860,
+          "pct": 0.2
+        },
+        {
+          "change": "H179R",
+          "pos": 179,
+          "type": "Missense_Mutation",
+          "n": 2,
+          "of": 860,
+          "pct": 0.2
+        },
+        {
+          "change": "E180K",
+          "pos": 180,
+          "type": "Missense_Mutation",
+          "n": 2,
+          "of": 860,
+          "pct": 0.2
+        },
+        {
+          "change": "S183*",
+          "pos": 183,
+          "type": "Nonsense_Mutation",
+          "n": 2,
+          "of": 860,
+          "pct": 0.2
+        },
+        {
+          "change": "Q192*",
+          "pos": 192,
+          "type": "Nonsense_Mutation",
+          "n": 2,
+          "of": 860,
+          "pct": 0.2
+        },
+        {
+          "change": "H193R",
+          "pos": 193,
+          "type": "Missense_Mutation",
+          "n": 2,
+          "of": 860,
+          "pct": 0.2
+        },
+        {
+          "change": "L194F",
+          "pos": 194,
+          "type": "Missense_Mutation",
+          "n": 2,
+          "of": 860,
+          "pct": 0.2
+        },
+        {
+          "change": "L194R",
+          "pos": 194,
+          "type": "Missense_Mutation",
+          "n": 2,
+          "of": 860,
+          "pct": 0.2
+        },
+        {
+          "change": "I195T",
+          "pos": 195,
+          "type": "Missense_Mutation",
+          "n": 2,
+          "of": 860,
+          "pct": 0.2
+        },
+        {
+          "change": "E204*",
+          "pos": 204,
+          "type": "Nonsense_Mutation",
+          "n": 2,
+          "of": 860,
+          "pct": 0.2
+        },
+        {
+          "change": "R209Kfs*6",
+          "pos": 209,
+          "type": "Frame_Shift_Del",
+          "n": 2,
+          "of": 860,
+          "pct": 0.2
+        },
+        {
+          "change": "R213Q",
+          "pos": 213,
+          "type": "Missense_Mutation",
+          "n": 2,
+          "of": 860,
+          "pct": 0.2
+        },
+        {
+          "change": "R213L",
+          "pos": 213,
+          "type": "Missense_Mutation",
+          "n": 2,
+          "of": 860,
+          "pct": 0.2
+        },
+        {
+          "change": "S215I",
+          "pos": 215,
+          "type": "Missense_Mutation",
+          "n": 2,
+          "of": 860,
+          "pct": 0.2
+        },
+        {
+          "change": "V216M",
+          "pos": 216,
+          "type": "Missense_Mutation",
+          "n": 2,
+          "of": 860,
+          "pct": 0.2
+        },
+        {
+          "change": "E224D",
+          "pos": 224,
+          "type": "Missense_Mutation",
+          "n": 2,
+          "of": 860,
+          "pct": 0.2
+        },
+        {
+          "change": "X225_splice",
+          "pos": 225,
+          "type": "Splice_Site",
+          "n": 2,
+          "of": 860,
+          "pct": 0.2
+        },
+        {
+          "change": "Y234C",
+          "pos": 234,
+          "type": "Missense_Mutation",
+          "n": 2,
+          "of": 860,
+          "pct": 0.2
+        },
+        {
+          "change": "G244D",
+          "pos": 244,
+          "type": "Missense_Mutation",
+          "n": 2,
+          "of": 860,
+          "pct": 0.2
+        },
+        {
+          "change": "M246V",
+          "pos": 246,
+          "type": "Missense_Mutation",
+          "n": 2,
+          "of": 860,
+          "pct": 0.2
+        },
+        {
+          "change": "R248L",
+          "pos": 248,
+          "type": "Missense_Mutation",
+          "n": 2,
+          "of": 860,
+          "pct": 0.2
+        },
+        {
+          "change": "R248P",
+          "pos": 248,
+          "type": "Missense_Mutation",
+          "n": 2,
+          "of": 860,
+          "pct": 0.2
+        },
+        {
+          "change": "R248G",
+          "pos": 248,
+          "type": "Missense_Mutation",
+          "n": 2,
+          "of": 860,
+          "pct": 0.2
+        },
+        {
+          "change": "R249M",
+          "pos": 249,
+          "type": "Missense_Mutation",
+          "n": 2,
+          "of": 860,
+          "pct": 0.2
+        },
+        {
+          "change": "E258K",
+          "pos": 258,
+          "type": "Missense_Mutation",
+          "n": 2,
+          "of": 860,
+          "pct": 0.2
+        },
+        {
+          "change": "R267W",
+          "pos": 267,
+          "type": "Missense_Mutation",
+          "n": 2,
+          "of": 860,
+          "pct": 0.2
+        },
+        {
+          "change": "R273G",
+          "pos": 273,
+          "type": "Missense_Mutation",
+          "n": 2,
+          "of": 860,
+          "pct": 0.2
+        },
+        {
+          "change": "R273S",
+          "pos": 273,
+          "type": "Missense_Mutation",
+          "n": 2,
+          "of": 860,
+          "pct": 0.2
+        },
+        {
+          "change": "P278S",
+          "pos": 278,
+          "type": "Missense_Mutation",
+          "n": 2,
+          "of": 860,
+          "pct": 0.2
+        },
+        {
+          "change": "P278A",
+          "pos": 278,
+          "type": "Missense_Mutation",
+          "n": 2,
+          "of": 860,
+          "pct": 0.2
+        },
+        {
+          "change": "R280I",
+          "pos": 280,
+          "type": "Missense_Mutation",
+          "n": 2,
+          "of": 860,
+          "pct": 0.2
+        },
+        {
+          "change": "E285V",
+          "pos": 285,
+          "type": "Missense_Mutation",
+          "n": 2,
+          "of": 860,
+          "pct": 0.2
+        },
+        {
+          "change": "E285K",
+          "pos": 285,
+          "type": "Missense_Mutation",
+          "n": 2,
+          "of": 860,
+          "pct": 0.2
+        },
+        {
+          "change": "G302Rfs*4",
+          "pos": 301,
+          "type": "Frame_Shift_Ins",
+          "n": 2,
+          "of": 860,
+          "pct": 0.2
+        },
+        {
+          "change": "Q317*",
+          "pos": 317,
+          "type": "Nonsense_Mutation",
+          "n": 2,
+          "of": 860,
+          "pct": 0.2
+        },
+        {
+          "change": "F328Sfs*17",
+          "pos": 328,
+          "type": "Frame_Shift_Del",
+          "n": 2,
+          "of": 860,
+          "pct": 0.2
+        },
+        {
+          "change": "Q331*",
+          "pos": 331,
+          "type": "Nonsense_Mutation",
+          "n": 2,
+          "of": 860,
+          "pct": 0.2
+        },
+        {
+          "change": "X331_splice",
+          "pos": 331,
+          "type": "Splice_Site",
+          "n": 2,
+          "of": 860,
+          "pct": 0.2
+        },
+        {
+          "change": "E349*",
+          "pos": 349,
+          "type": "Nonsense_Mutation",
+          "n": 2,
+          "of": 860,
+          "pct": 0.2
+        }
+      ],
+      "n_mutated_samples": 454,
+      "n_distinct_changes": 290,
+      "sequenced_of": 860,
+      "frequency": {
+        "by_node": {
+          "drv-alk": {
+            "mutation": {
+              "n": 6,
+              "of": 32,
+              "pct": 18.8
+            },
+            "amplification": {
+              "n": 0,
+              "of": 32,
+              "pct": 0.0
+            },
+            "deep_deletion": {
+              "n": 0,
+              "of": 32,
+              "pct": 0.0
+            },
+            "any_loss": {
+              "n": 0,
+              "of": 32,
+              "pct": 0.0
+            },
+            "fusion": {
+              "n": 0,
+              "of": 32,
+              "pct": 0.0
+            }
+          },
+          "drv-braf": {
+            "mutation": {
+              "n": 8,
+              "of": 18,
+              "pct": 44.4
+            },
+            "amplification": {
+              "n": 0,
+              "of": 18,
+              "pct": 0.0
+            },
+            "deep_deletion": {
+              "n": 0,
+              "of": 18,
+              "pct": 0.0
+            },
+            "any_loss": {
+              "n": 0,
+              "of": 18,
+              "pct": 0.0
+            },
+            "fusion": {
+              "n": 0,
+              "of": 18,
+              "pct": 0.0
+            }
+          },
+          "drv-egfr": {
+            "mutation": {
+              "n": 132,
+              "of": 213,
+              "pct": 62.0
+            },
+            "amplification": {
+              "n": 0,
+              "of": 213,
+              "pct": 0.0
+            },
+            "deep_deletion": {
+              "n": 1,
+              "of": 213,
+              "pct": 0.5
+            },
+            "any_loss": {
+              "n": 1,
+              "of": 213,
+              "pct": 0.5
+            },
+            "fusion": {
+              "n": 0,
+              "of": 213,
+              "pct": 0.0
+            }
+          },
+          "drv-egfr-ex20": {
+            "mutation": {
+              "n": 13,
+              "of": 18,
+              "pct": 72.2
+            },
+            "amplification": {
+              "n": 0,
+              "of": 18,
+              "pct": 0.0
+            },
+            "deep_deletion": {
+              "n": 0,
+              "of": 18,
+              "pct": 0.0
+            },
+            "any_loss": {
+              "n": 0,
+              "of": 18,
+              "pct": 0.0
+            },
+            "fusion": {
+              "n": 0,
+              "of": 18,
+              "pct": 0.0
+            }
+          },
+          "drv-erbb2": {
+            "mutation": {
+              "n": 15,
+              "of": 24,
+              "pct": 62.5
+            },
+            "amplification": {
+              "n": 0,
+              "of": 24,
+              "pct": 0.0
+            },
+            "deep_deletion": {
+              "n": 0,
+              "of": 24,
+              "pct": 0.0
+            },
+            "any_loss": {
+              "n": 0,
+              "of": 24,
+              "pct": 0.0
+            },
+            "fusion": {
+              "n": 0,
+              "of": 24,
+              "pct": 0.0
+            }
+          },
+          "drv-kras": {
+            "mutation": {
+              "n": 77,
+              "of": 215,
+              "pct": 35.8
+            },
+            "amplification": {
+              "n": 0,
+              "of": 215,
+              "pct": 0.0
+            },
+            "deep_deletion": {
+              "n": 0,
+              "of": 215,
+              "pct": 0.0
+            },
+            "any_loss": {
+              "n": 0,
+              "of": 215,
+              "pct": 0.0
+            },
+            "fusion": {
+              "n": 1,
+              "of": 215,
+              "pct": 0.5
+            }
+          },
+          "drv-met": {
+            "mutation": {
+              "n": 9,
+              "of": 26,
+              "pct": 34.6
+            },
+            "amplification": {
+              "n": 0,
+              "of": 26,
+              "pct": 0.0
+            },
+            "deep_deletion": {
+              "n": 0,
+              "of": 26,
+              "pct": 0.0
+            },
+            "any_loss": {
+              "n": 0,
+              "of": 26,
+              "pct": 0.0
+            },
+            "fusion": {
+              "n": 0,
+              "of": 26,
+              "pct": 0.0
+            }
+          },
+          "drv-none": {
+            "mutation": {
+              "n": 71,
+              "of": 119,
+              "pct": 59.7
+            },
+            "amplification": {
+              "n": 0,
+              "of": 119,
+              "pct": 0.0
+            },
+            "deep_deletion": {
+              "n": 0,
+              "of": 119,
+              "pct": 0.0
+            },
+            "any_loss": {
+              "n": 0,
+              "of": 119,
+              "pct": 0.0
+            },
+            "fusion": {
+              "n": 0,
+              "of": 119,
+              "pct": 0.0
+            }
+          },
+          "drv-other": {
+            "mutation": {
+              "n": 108,
+              "of": 158,
+              "pct": 68.4
+            },
+            "amplification": {
+              "n": 0,
+              "of": 158,
+              "pct": 0.0
+            },
+            "deep_deletion": {
+              "n": 1,
+              "of": 158,
+              "pct": 0.6
+            },
+            "any_loss": {
+              "n": 1,
+              "of": 158,
+              "pct": 0.6
+            },
+            "fusion": {
+              "n": 0,
+              "of": 158,
+              "pct": 0.0
+            }
+          },
+          "drv-ret": {
+            "mutation": {
+              "n": 5,
+              "of": 14,
+              "pct": 35.7
+            },
+            "amplification": {
+              "n": 0,
+              "of": 14,
+              "pct": 0.0
+            },
+            "deep_deletion": {
+              "n": 0,
+              "of": 14,
+              "pct": 0.0
+            },
+            "any_loss": {
+              "n": 0,
+              "of": 14,
+              "pct": 0.0
+            },
+            "fusion": {
+              "n": 0,
+              "of": 14,
+              "pct": 0.0
+            }
+          },
+          "drv-ros1": {
+            "mutation": {
+              "n": 10,
+              "of": 23,
+              "pct": 43.5
+            },
+            "amplification": {
+              "n": 0,
+              "of": 23,
+              "pct": 0.0
+            },
+            "deep_deletion": {
+              "n": 1,
+              "of": 23,
+              "pct": 4.3
+            },
+            "any_loss": {
+              "n": 1,
+              "of": 23,
+              "pct": 4.3
+            },
+            "fusion": {
+              "n": 0,
+              "of": 23,
+              "pct": 0.0
+            }
+          }
+        },
+        "max_pct": 68.4,
+        "max_node": "drv-other",
+        "max_metric": "mutation"
+      },
+      "drugs": [],
+      "n_programs": 0,
+      "best_phase": null,
+      "best_phase_rank": null,
+      "civic": {
+        "n_evidence_items": 10,
+        "n_accepted": 7,
+        "best_level": "B",
+        "levels": {
+          "B": 7,
+          "D": 3
+        },
+        "evidence_types": {
+          "ONCOGENIC": 1,
+          "PREDICTIVE": 4,
+          "PROGNOSTIC": 5
+        },
+        "top_therapies": [
+          "Adjuvant Chemotherapy",
+          "Docetaxel",
+          "Selumetinib"
+        ]
+      },
+      "selected_on": null
+    },
+    "STK11": {
+      "gene": "STK11",
+      "basis": "genomic",
+      "biomarker_gene": null,
+      "why": "Loss is studied as a marker of poorer response to checkpoint blockade; not itself a target.",
+      "uniprot": {
+        "gene": "STK11",
+        "accession": "Q15831",
+        "entry_name": "STK11_HUMAN",
+        "protein": "Serine/threonine-protein kinase STK11",
+        "length": 433,
+        "domains": [
+          {
+            "kind": "Region",
+            "name": "Sufficient for interaction with SIRT1",
+            "start": 45,
+            "end": 90
+          },
+          {
+            "kind": "Domain",
+            "name": "Protein kinase",
+            "start": 49,
+            "end": 309
+          },
+          {
+            "kind": "Region",
+            "name": "Disordered",
+            "start": 312,
+            "end": 331
+          },
+          {
+            "kind": "Region",
+            "name": "Disordered",
+            "start": 397,
+            "end": 433
+          }
+        ],
+        "pdb_count": 4,
+        "pdb_ids": [
+          "2WTK",
+          "4ZDR",
+          "5WXN",
+          "8VSU"
+        ],
+        "url": "https://www.uniprot.org/uniprotkb/Q15831",
+        "alphafold": "https://alphafold.ebi.ac.uk/entry/Q15831"
+      },
+      "structure": {
+        "pdb": "2WTK",
+        "title": "Structure of the heterotrimeric LKB1-STRADalpha-MO25alpha complex",
+        "method": "X-RAY DIFFRACTION",
+        "resolution": 2.65,
+        "ligands": [],
+        "deposited": "2009-12-15",
+        "url": "https://www.rcsb.org/structure/2WTK",
+        "image": "img/2wtk.jpg",
+        "image_bytes": 79898
+      },
+      "hotspots": [
+        {
+          "change": "X155_splice",
+          "pos": 155,
+          "type": "Splice_Site",
+          "n": 8,
+          "of": 860,
+          "pct": 0.9
+        },
+        {
+          "change": "E223*",
+          "pos": 223,
+          "type": "Nonsense_Mutation",
+          "n": 7,
+          "of": 860,
+          "pct": 0.8
+        },
+        {
+          "change": "X245_splice",
+          "pos": 245,
+          "type": "Splice_Site",
+          "n": 5,
+          "of": 860,
+          "pct": 0.6
+        },
+        {
+          "change": "X307_splice",
+          "pos": 307,
+          "type": "Splice_Site",
+          "n": 5,
+          "of": 860,
+          "pct": 0.6
+        },
+        {
+          "change": "Q37*",
+          "pos": 37,
+          "type": "Nonsense_Mutation",
+          "n": 3,
+          "of": 860,
+          "pct": 0.3
+        },
+        {
+          "change": "D53Tfs*11",
+          "pos": 51,
+          "type": "Frame_Shift_Del",
+          "n": 3,
+          "of": 860,
+          "pct": 0.3
+        },
+        {
+          "change": "Q159*",
+          "pos": 159,
+          "type": "Nonsense_Mutation",
+          "n": 3,
+          "of": 860,
+          "pct": 0.3
+        },
+        {
+          "change": "E165*",
+          "pos": 165,
+          "type": "Nonsense_Mutation",
+          "n": 3,
+          "of": 860,
+          "pct": 0.3
+        },
+        {
+          "change": "S216F",
+          "pos": 216,
+          "type": "Missense_Mutation",
+          "n": 3,
+          "of": 860,
+          "pct": 0.3
+        },
+        {
+          "change": "W308L",
+          "pos": 308,
+          "type": "Missense_Mutation",
+          "n": 3,
+          "of": 860,
+          "pct": 0.3
+        },
+        {
+          "change": "D53Gfs*110",
+          "pos": 51,
+          "type": "Frame_Shift_Ins",
+          "n": 2,
+          "of": 860,
+          "pct": 0.2
+        },
+        {
+          "change": "S69*",
+          "pos": 69,
+          "type": "Nonsense_Mutation",
+          "n": 2,
+          "of": 860,
+          "pct": 0.2
+        },
+        {
+          "change": "X97_splice",
+          "pos": 97,
+          "type": "Splice_Site",
+          "n": 2,
+          "of": 860,
+          "pct": 0.2
+        },
+        {
+          "change": "E130*",
+          "pos": 130,
+          "type": "Nonsense_Mutation",
+          "n": 2,
+          "of": 860,
+          "pct": 0.2
+        },
+        {
+          "change": "D194Y",
+          "pos": 194,
+          "type": "Missense_Mutation",
+          "n": 2,
+          "of": 860,
+          "pct": 0.2
+        },
+        {
+          "change": "X200_splice",
+          "pos": 200,
+          "type": "Splice_Site",
+          "n": 2,
+          "of": 860,
+          "pct": 0.2
+        },
+        {
+          "change": "Q220*",
+          "pos": 220,
+          "type": "Nonsense_Mutation",
+          "n": 2,
+          "of": 860,
+          "pct": 0.2
+        },
+        {
+          "change": "D237Y",
+          "pos": 237,
+          "type": "Missense_Mutation",
+          "n": 2,
+          "of": 860,
+          "pct": 0.2
+        },
+        {
+          "change": "G242V",
+          "pos": 242,
+          "type": "Missense_Mutation",
+          "n": 2,
+          "of": 860,
+          "pct": 0.2
+        },
+        {
+          "change": "L245F",
+          "pos": 245,
+          "type": "Missense_Mutation",
+          "n": 2,
+          "of": 860,
+          "pct": 0.2
+        },
+        {
+          "change": "P281Rfs*6",
+          "pos": 279,
+          "type": "Frame_Shift_Del",
+          "n": 2,
+          "of": 860,
+          "pct": 0.2
+        },
+        {
+          "change": "L282Sfs*5",
+          "pos": 281,
+          "type": "Frame_Shift_Del",
+          "n": 2,
+          "of": 860,
+          "pct": 0.2
+        },
+        {
+          "change": "X288_splice",
+          "pos": 288,
+          "type": "Splice_Site",
+          "n": 2,
+          "of": 860,
+          "pct": 0.2
+        }
+      ],
+      "n_mutated_samples": 148,
+      "n_distinct_changes": 107,
+      "sequenced_of": 860,
+      "frequency": {
+        "by_node": {
+          "drv-alk": {
+            "mutation": {
+              "n": 0,
+              "of": 32,
+              "pct": 0.0
+            },
+            "amplification": {
+              "n": 0,
+              "of": 32,
+              "pct": 0.0
+            },
+            "deep_deletion": {
+              "n": 0,
+              "of": 32,
+              "pct": 0.0
+            },
+            "any_loss": {
+              "n": 0,
+              "of": 32,
+              "pct": 0.0
+            },
+            "fusion": {
+              "n": 0,
+              "of": 32,
+              "pct": 0.0
+            }
+          },
+          "drv-braf": {
+            "mutation": {
+              "n": 0,
+              "of": 18,
+              "pct": 0.0
+            },
+            "amplification": {
+              "n": 0,
+              "of": 18,
+              "pct": 0.0
+            },
+            "deep_deletion": {
+              "n": 0,
+              "of": 18,
+              "pct": 0.0
+            },
+            "any_loss": {
+              "n": 0,
+              "of": 18,
+              "pct": 0.0
+            },
+            "fusion": {
+              "n": 0,
+              "of": 18,
+              "pct": 0.0
+            }
+          },
+          "drv-egfr": {
+            "mutation": {
+              "n": 5,
+              "of": 213,
+              "pct": 2.3
+            },
+            "amplification": {
+              "n": 0,
+              "of": 213,
+              "pct": 0.0
+            },
+            "deep_deletion": {
+              "n": 1,
+              "of": 213,
+              "pct": 0.5
+            },
+            "any_loss": {
+              "n": 1,
+              "of": 213,
+              "pct": 0.5
+            },
+            "fusion": {
+              "n": 0,
+              "of": 213,
+              "pct": 0.0
+            }
+          },
+          "drv-egfr-ex20": {
+            "mutation": {
+              "n": 0,
+              "of": 18,
+              "pct": 0.0
+            },
+            "amplification": {
+              "n": 0,
+              "of": 18,
+              "pct": 0.0
+            },
+            "deep_deletion": {
+              "n": 0,
+              "of": 18,
+              "pct": 0.0
+            },
+            "any_loss": {
+              "n": 0,
+              "of": 18,
+              "pct": 0.0
+            },
+            "fusion": {
+              "n": 0,
+              "of": 18,
+              "pct": 0.0
+            }
+          },
+          "drv-erbb2": {
+            "mutation": {
+              "n": 2,
+              "of": 24,
+              "pct": 8.3
+            },
+            "amplification": {
+              "n": 0,
+              "of": 24,
+              "pct": 0.0
+            },
+            "deep_deletion": {
+              "n": 0,
+              "of": 24,
+              "pct": 0.0
+            },
+            "any_loss": {
+              "n": 0,
+              "of": 24,
+              "pct": 0.0
+            },
+            "fusion": {
+              "n": 0,
+              "of": 24,
+              "pct": 0.0
+            }
+          },
+          "drv-kras": {
+            "mutation": {
+              "n": 70,
+              "of": 215,
+              "pct": 32.6
+            },
+            "amplification": {
+              "n": 0,
+              "of": 215,
+              "pct": 0.0
+            },
+            "deep_deletion": {
+              "n": 0,
+              "of": 215,
+              "pct": 0.0
+            },
+            "any_loss": {
+              "n": 0,
+              "of": 215,
+              "pct": 0.0
+            },
+            "fusion": {
+              "n": 1,
+              "of": 215,
+              "pct": 0.5
+            }
+          },
+          "drv-met": {
+            "mutation": {
+              "n": 0,
+              "of": 26,
+              "pct": 0.0
+            },
+            "amplification": {
+              "n": 0,
+              "of": 26,
+              "pct": 0.0
+            },
+            "deep_deletion": {
+              "n": 0,
+              "of": 26,
+              "pct": 0.0
+            },
+            "any_loss": {
+              "n": 0,
+              "of": 26,
+              "pct": 0.0
+            },
+            "fusion": {
+              "n": 0,
+              "of": 26,
+              "pct": 0.0
+            }
+          },
+          "drv-none": {
+            "mutation": {
+              "n": 34,
+              "of": 119,
+              "pct": 28.6
+            },
+            "amplification": {
+              "n": 0,
+              "of": 119,
+              "pct": 0.0
+            },
+            "deep_deletion": {
+              "n": 0,
+              "of": 119,
+              "pct": 0.0
+            },
+            "any_loss": {
+              "n": 0,
+              "of": 119,
+              "pct": 0.0
+            },
+            "fusion": {
+              "n": 2,
+              "of": 119,
+              "pct": 1.7
+            }
+          },
+          "drv-other": {
+            "mutation": {
+              "n": 37,
+              "of": 158,
+              "pct": 23.4
+            },
+            "amplification": {
+              "n": 0,
+              "of": 158,
+              "pct": 0.0
+            },
+            "deep_deletion": {
+              "n": 2,
+              "of": 158,
+              "pct": 1.3
+            },
+            "any_loss": {
+              "n": 2,
+              "of": 158,
+              "pct": 1.3
+            },
+            "fusion": {
+              "n": 1,
+              "of": 158,
+              "pct": 0.6
+            }
+          },
+          "drv-ret": {
+            "mutation": {
+              "n": 0,
+              "of": 14,
+              "pct": 0.0
+            },
+            "amplification": {
+              "n": 0,
+              "of": 14,
+              "pct": 0.0
+            },
+            "deep_deletion": {
+              "n": 0,
+              "of": 14,
+              "pct": 0.0
+            },
+            "any_loss": {
+              "n": 0,
+              "of": 14,
+              "pct": 0.0
+            },
+            "fusion": {
+              "n": 0,
+              "of": 14,
+              "pct": 0.0
+            }
+          },
+          "drv-ros1": {
+            "mutation": {
+              "n": 0,
+              "of": 23,
+              "pct": 0.0
+            },
+            "amplification": {
+              "n": 0,
+              "of": 23,
+              "pct": 0.0
+            },
+            "deep_deletion": {
+              "n": 0,
+              "of": 23,
+              "pct": 0.0
+            },
+            "any_loss": {
+              "n": 0,
+              "of": 23,
+              "pct": 0.0
+            },
+            "fusion": {
+              "n": 0,
+              "of": 23,
+              "pct": 0.0
+            }
+          }
+        },
+        "max_pct": 32.6,
+        "max_node": "drv-kras",
+        "max_metric": "mutation"
+      },
+      "drugs": [],
+      "n_programs": 0,
+      "best_phase": null,
+      "best_phase_rank": null,
+      "civic": {
+        "n_evidence_items": 18,
+        "n_accepted": 5,
+        "best_level": "B",
+        "levels": {
+          "B": 12,
+          "C": 1,
+          "D": 5
+        },
+        "evidence_types": {
+          "PREDICTIVE": 16,
+          "PROGNOSTIC": 2
+        },
+        "top_therapies": [
+          "Sirolimus",
+          "Radiation Therapy",
+          "Cisplatin/Pembrolizumab/Pemetrexed Regimen",
+          "Chemoradiotherapy",
+          "Vistusertib",
+          "Chemoimmunotherapy"
+        ]
+      },
+      "selected_on": null
+    },
+    "KEAP1": {
+      "gene": "KEAP1",
+      "basis": "genomic",
+      "biomarker_gene": null,
+      "why": "Loss switches on NRF2 signalling; a marker, not a target.",
+      "uniprot": {
+        "gene": "KEAP1",
+        "accession": "Q14145",
+        "entry_name": "KEAP1_HUMAN",
+        "protein": "Kelch-like ECH-associated protein 1",
+        "length": 624,
+        "domains": [
+          {
+            "kind": "Domain",
+            "name": "BTB",
+            "start": 77,
+            "end": 149
+          },
+          {
+            "kind": "Domain",
+            "name": "BACK",
+            "start": 184,
+            "end": 286
+          },
+          {
+            "kind": "Repeat",
+            "name": "Kelch 1",
+            "start": 327,
+            "end": 372
+          },
+          {
+            "kind": "Repeat",
+            "name": "Kelch 2",
+            "start": 373,
+            "end": 423
+          },
+          {
+            "kind": "Repeat",
+            "name": "Kelch 3",
+            "start": 424,
+            "end": 470
+          },
+          {
+            "kind": "Repeat",
+            "name": "Kelch 4",
+            "start": 471,
+            "end": 517
+          },
+          {
+            "kind": "Repeat",
+            "name": "Kelch 5",
+            "start": 518,
+            "end": 564
+          },
+          {
+            "kind": "Repeat",
+            "name": "Kelch 6",
+            "start": 565,
+            "end": 611
+          }
+        ],
+        "pdb_count": 122,
+        "pdb_ids": [
+          "1U6D",
+          "1ZGK",
+          "2FLU",
+          "3VNG",
+          "3VNH",
+          "3ZGC",
+          "3ZGD",
+          "4CXI",
+          "4CXJ",
+          "4CXT",
+          "4IFJ",
+          "4IFL",
+          "4IFN",
+          "4IN4",
+          "4IQK",
+          "4L7B",
+          "4L7C",
+          "4L7D",
+          "4N1B",
+          "4XMB",
+          "5DAD",
+          "5DAF",
+          "5F72",
+          "5GIT",
+          "5NLB",
+          "5WFL",
+          "5WFV",
+          "5WG1",
+          "5WHL",
+          "5WHO",
+          "5WIY",
+          "5X54",
+          "6FFM",
+          "6FMP",
+          "6FMQ",
+          "6HWS",
+          "6LRZ",
+          "6ROG",
+          "6SP1",
+          "6SP4"
+        ],
+        "url": "https://www.uniprot.org/uniprotkb/Q14145",
+        "alphafold": "https://alphafold.ebi.ac.uk/entry/Q14145"
+      },
+      "structure": {
+        "pdb": "1U6D",
+        "title": "Crystal structure of the Kelch domain of human Keap1",
+        "method": "X-RAY DIFFRACTION",
+        "resolution": 1.85,
+        "ligands": [],
+        "deposited": "2004-10-12",
+        "url": "https://www.rcsb.org/structure/1U6D",
+        "image": "img/1u6d.jpg",
+        "image_bytes": 59390
+      },
+      "hotspots": [
+        {
+          "change": "E192K",
+          "pos": 192,
+          "type": "Missense_Mutation",
+          "n": 3,
+          "of": 860,
+          "pct": 0.3
+        },
+        {
+          "change": "G332C",
+          "pos": 332,
+          "type": "Missense_Mutation",
+          "n": 3,
+          "of": 860,
+          "pct": 0.3
+        },
+        {
+          "change": "G333C",
+          "pos": 333,
+          "type": "Missense_Mutation",
+          "n": 3,
+          "of": 860,
+          "pct": 0.3
+        },
+        {
+          "change": "G364C",
+          "pos": 364,
+          "type": "Missense_Mutation",
+          "n": 3,
+          "of": 860,
+          "pct": 0.3
+        },
+        {
+          "change": "G430C",
+          "pos": 430,
+          "type": "Missense_Mutation",
+          "n": 3,
+          "of": 860,
+          "pct": 0.3
+        },
+        {
+          "change": "M110I",
+          "pos": 110,
+          "type": "Missense_Mutation",
+          "n": 2,
+          "of": 860,
+          "pct": 0.2
+        },
+        {
+          "change": "M110V",
+          "pos": 110,
+          "type": "Missense_Mutation",
+          "n": 2,
+          "of": 860,
+          "pct": 0.2
+        },
+        {
+          "change": "V155F",
+          "pos": 155,
+          "type": "Missense_Mutation",
+          "n": 2,
+          "of": 860,
+          "pct": 0.2
+        },
+        {
+          "change": "G186C",
+          "pos": 186,
+          "type": "Missense_Mutation",
+          "n": 2,
+          "of": 860,
+          "pct": 0.2
+        },
+        {
+          "change": "W252L",
+          "pos": 252,
+          "type": "Missense_Mutation",
+          "n": 2,
+          "of": 860,
+          "pct": 0.2
+        },
+        {
+          "change": "E258*",
+          "pos": 258,
+          "type": "Nonsense_Mutation",
+          "n": 2,
+          "of": 860,
+          "pct": 0.2
+        },
+        {
+          "change": "P361L",
+          "pos": 361,
+          "type": "Missense_Mutation",
+          "n": 2,
+          "of": 860,
+          "pct": 0.2
+        },
+        {
+          "change": "W403C",
+          "pos": 403,
+          "type": "Missense_Mutation",
+          "n": 2,
+          "of": 860,
+          "pct": 0.2
+        },
+        {
+          "change": "R413L",
+          "pos": 413,
+          "type": "Missense_Mutation",
+          "n": 2,
+          "of": 860,
+          "pct": 0.2
+        },
+        {
+          "change": "G480W",
+          "pos": 480,
+          "type": "Missense_Mutation",
+          "n": 2,
+          "of": 860,
+          "pct": 0.2
+        },
+        {
+          "change": "X511_splice",
+          "pos": 511,
+          "type": "Splice_Site",
+          "n": 2,
+          "of": 860,
+          "pct": 0.2
+        },
+        {
+          "change": "G558R",
+          "pos": 558,
+          "type": "Missense_Mutation",
+          "n": 2,
+          "of": 860,
+          "pct": 0.2
+        },
+        {
+          "change": "G570*",
+          "pos": 570,
+          "type": "Nonsense_Mutation",
+          "n": 2,
+          "of": 860,
+          "pct": 0.2
+        },
+        {
+          "change": "R601L",
+          "pos": 601,
+          "type": "Missense_Mutation",
+          "n": 2,
+          "of": 860,
+          "pct": 0.2
+        }
+      ],
+      "n_mutated_samples": 147,
+      "n_distinct_changes": 129,
+      "sequenced_of": 860,
+      "frequency": {
+        "by_node": {
+          "drv-alk": {
+            "mutation": {
+              "n": 1,
+              "of": 32,
+              "pct": 3.1
+            },
+            "amplification": {
+              "n": 0,
+              "of": 32,
+              "pct": 0.0
+            },
+            "deep_deletion": {
+              "n": 0,
+              "of": 32,
+              "pct": 0.0
+            },
+            "any_loss": {
+              "n": 0,
+              "of": 32,
+              "pct": 0.0
+            },
+            "fusion": {
+              "n": 0,
+              "of": 32,
+              "pct": 0.0
+            }
+          },
+          "drv-braf": {
+            "mutation": {
+              "n": 0,
+              "of": 18,
+              "pct": 0.0
+            },
+            "amplification": {
+              "n": 0,
+              "of": 18,
+              "pct": 0.0
+            },
+            "deep_deletion": {
+              "n": 0,
+              "of": 18,
+              "pct": 0.0
+            },
+            "any_loss": {
+              "n": 0,
+              "of": 18,
+              "pct": 0.0
+            },
+            "fusion": {
+              "n": 0,
+              "of": 18,
+              "pct": 0.0
+            }
+          },
+          "drv-egfr": {
+            "mutation": {
+              "n": 0,
+              "of": 213,
+              "pct": 0.0
+            },
+            "amplification": {
+              "n": 0,
+              "of": 213,
+              "pct": 0.0
+            },
+            "deep_deletion": {
+              "n": 1,
+              "of": 213,
+              "pct": 0.5
+            },
+            "any_loss": {
+              "n": 1,
+              "of": 213,
+              "pct": 0.5
+            },
+            "fusion": {
+              "n": 0,
+              "of": 213,
+              "pct": 0.0
+            }
+          },
+          "drv-egfr-ex20": {
+            "mutation": {
+              "n": 0,
+              "of": 18,
+              "pct": 0.0
+            },
+            "amplification": {
+              "n": 0,
+              "of": 18,
+              "pct": 0.0
+            },
+            "deep_deletion": {
+              "n": 0,
+              "of": 18,
+              "pct": 0.0
+            },
+            "any_loss": {
+              "n": 0,
+              "of": 18,
+              "pct": 0.0
+            },
+            "fusion": {
+              "n": 0,
+              "of": 18,
+              "pct": 0.0
+            }
+          },
+          "drv-erbb2": {
+            "mutation": {
+              "n": 1,
+              "of": 24,
+              "pct": 4.2
+            },
+            "amplification": {
+              "n": 0,
+              "of": 24,
+              "pct": 0.0
+            },
+            "deep_deletion": {
+              "n": 0,
+              "of": 24,
+              "pct": 0.0
+            },
+            "any_loss": {
+              "n": 0,
+              "of": 24,
+              "pct": 0.0
+            },
+            "fusion": {
+              "n": 0,
+              "of": 24,
+              "pct": 0.0
+            }
+          },
+          "drv-kras": {
+            "mutation": {
+              "n": 60,
+              "of": 215,
+              "pct": 27.9
+            },
+            "amplification": {
+              "n": 0,
+              "of": 215,
+              "pct": 0.0
+            },
+            "deep_deletion": {
+              "n": 1,
+              "of": 215,
+              "pct": 0.5
+            },
+            "any_loss": {
+              "n": 1,
+              "of": 215,
+              "pct": 0.5
+            },
+            "fusion": {
+              "n": 0,
+              "of": 215,
+              "pct": 0.0
+            }
+          },
+          "drv-met": {
+            "mutation": {
+              "n": 0,
+              "of": 26,
+              "pct": 0.0
+            },
+            "amplification": {
+              "n": 0,
+              "of": 26,
+              "pct": 0.0
+            },
+            "deep_deletion": {
+              "n": 0,
+              "of": 26,
+              "pct": 0.0
+            },
+            "any_loss": {
+              "n": 0,
+              "of": 26,
+              "pct": 0.0
+            },
+            "fusion": {
+              "n": 0,
+              "of": 26,
+              "pct": 0.0
+            }
+          },
+          "drv-none": {
+            "mutation": {
+              "n": 34,
+              "of": 119,
+              "pct": 28.6
+            },
+            "amplification": {
+              "n": 0,
+              "of": 119,
+              "pct": 0.0
+            },
+            "deep_deletion": {
+              "n": 0,
+              "of": 119,
+              "pct": 0.0
+            },
+            "any_loss": {
+              "n": 0,
+              "of": 119,
+              "pct": 0.0
+            },
+            "fusion": {
+              "n": 0,
+              "of": 119,
+              "pct": 0.0
+            }
+          },
+          "drv-other": {
+            "mutation": {
+              "n": 51,
+              "of": 158,
+              "pct": 32.3
+            },
+            "amplification": {
+              "n": 0,
+              "of": 158,
+              "pct": 0.0
+            },
+            "deep_deletion": {
+              "n": 0,
+              "of": 158,
+              "pct": 0.0
+            },
+            "any_loss": {
+              "n": 0,
+              "of": 158,
+              "pct": 0.0
+            },
+            "fusion": {
+              "n": 1,
+              "of": 158,
+              "pct": 0.6
+            }
+          },
+          "drv-ret": {
+            "mutation": {
+              "n": 0,
+              "of": 14,
+              "pct": 0.0
+            },
+            "amplification": {
+              "n": 0,
+              "of": 14,
+              "pct": 0.0
+            },
+            "deep_deletion": {
+              "n": 0,
+              "of": 14,
+              "pct": 0.0
+            },
+            "any_loss": {
+              "n": 0,
+              "of": 14,
+              "pct": 0.0
+            },
+            "fusion": {
+              "n": 0,
+              "of": 14,
+              "pct": 0.0
+            }
+          },
+          "drv-ros1": {
+            "mutation": {
+              "n": 0,
+              "of": 23,
+              "pct": 0.0
+            },
+            "amplification": {
+              "n": 0,
+              "of": 23,
+              "pct": 0.0
+            },
+            "deep_deletion": {
+              "n": 0,
+              "of": 23,
+              "pct": 0.0
+            },
+            "any_loss": {
+              "n": 0,
+              "of": 23,
+              "pct": 0.0
+            },
+            "fusion": {
+              "n": 0,
+              "of": 23,
+              "pct": 0.0
+            }
+          }
+        },
+        "max_pct": 32.3,
+        "max_node": "drv-other",
+        "max_metric": "mutation"
+      },
+      "drugs": [],
+      "n_programs": 0,
+      "best_phase": null,
+      "best_phase_rank": null,
+      "civic": {
+        "n_evidence_items": 7,
+        "n_accepted": 2,
+        "best_level": "B",
+        "best_level_submitted": "A",
+        "levels": {
+          "A": 1,
+          "B": 4,
+          "C": 1,
+          "D": 1
+        },
+        "evidence_types": {
+          "PREDICTIVE": 6,
+          "PROGNOSTIC": 1
+        },
+        "top_therapies": [
+          "Cisplatin/Pembrolizumab/Pemetrexed Regimen",
+          "Chemotherapy",
+          "Tremelimumab",
+          "Durvalumab Regimen",
+          "Platinum Doublet",
+          "Chemoimmunotherapy"
+        ]
+      },
+      "selected_on": null
+    },
+    "SMARCA4": {
+      "gene": "SMARCA4",
+      "basis": "genomic",
+      "biomarker_gene": null,
+      "why": "A chromatin-remodelling loss with nothing aimed at it.",
+      "uniprot": {
+        "gene": "SMARCA4",
+        "accession": "P51532",
+        "entry_name": "SMCA4_HUMAN",
+        "protein": "SWI/SNF-related matrix-associated actin-dependent regulator of chromatin subfamily A member 4",
+        "length": 1647,
+        "domains": [
+          {
+            "kind": "Region",
+            "name": "Necessary for interaction with SS18L1/CREST",
+            "start": 1,
+            "end": 282
+          },
+          {
+            "kind": "Region",
+            "name": "Disordered",
+            "start": 1,
+            "end": 177
+          },
+          {
+            "kind": "Domain",
+            "name": "QLQ",
+            "start": 171,
+            "end": 206
+          },
+          {
+            "kind": "Region",
+            "name": "Disordered",
+            "start": 198,
+            "end": 352
+          },
+          {
+            "kind": "Domain",
+            "name": "HSA",
+            "start": 460,
+            "end": 532
+          },
+          {
+            "kind": "Region",
+            "name": "RNA-binding region which is sufficient for binding to lncRNA Evf2",
+            "start": 462,
+            "end": 728
+          },
+          {
+            "kind": "Region",
+            "name": "Disordered",
+            "start": 577,
+            "end": 610
+          },
+          {
+            "kind": "Region",
+            "name": "Disordered",
+            "start": 647,
+            "end": 699
+          },
+          {
+            "kind": "Domain",
+            "name": "Helicase ATP-binding",
+            "start": 766,
+            "end": 931
+          },
+          {
+            "kind": "Region",
+            "name": "Sufficient for interaction with DLX1",
+            "start": 837,
+            "end": 916
+          },
+          {
+            "kind": "Domain",
+            "name": "Helicase C-terminal",
+            "start": 1084,
+            "end": 1246
+          },
+          {
+            "kind": "Region",
+            "name": "Sufficient for interaction with DLX1",
+            "start": 1247,
+            "end": 1446
+          },
+          {
+            "kind": "Region",
+            "name": "Disordered",
+            "start": 1254,
+            "end": 1299
+          },
+          {
+            "kind": "Region",
+            "name": "Disordered",
+            "start": 1400,
+            "end": 1460
+          },
+          {
+            "kind": "Domain",
+            "name": "Bromo",
+            "start": 1453,
+            "end": 1564
+          },
+          {
+            "kind": "Region",
+            "name": "Disordered",
+            "start": 1564,
+            "end": 1647
+          }
+        ],
+        "pdb_count": 28,
+        "pdb_ids": [
+          "2GRC",
+          "2H60",
+          "3UVD",
+          "5DKD",
+          "5EA1",
+          "6BGH",
+          "6HR2",
+          "6LTH",
+          "6LTJ",
+          "6SY2",
+          "6ZS2",
+          "7TAB",
+          "7TD9",
+          "7VDT",
+          "7VDV",
+          "7VRB",
+          "7Y8R",
+          "8EB1",
+          "8G1Q",
+          "8QJR",
+          "9DTX",
+          "9RL4",
+          "9RMC",
+          "9RN1",
+          "9RN2",
+          "9UX9",
+          "9WBZ",
+          "9WC1"
+        ],
+        "url": "https://www.uniprot.org/uniprotkb/P51532",
+        "alphafold": "https://alphafold.ebi.ac.uk/entry/P51532"
+      },
+      "structure": {
+        "pdb": "2GRC",
+        "title": "1.5 A structure of bromodomain from human BRG1 protein, a central ATPase of SWI/SNF remodeling complex",
+        "method": "X-RAY DIFFRACTION",
+        "resolution": 1.5,
+        "ligands": [],
+        "deposited": "2007-05-08",
+        "url": "https://www.rcsb.org/structure/2GRC",
+        "image": "img/2grc.jpg",
+        "image_bytes": 43047
+      },
+      "hotspots": [
+        {
+          "change": "A791V",
+          "pos": 791,
+          "type": "Missense_Mutation",
+          "n": 2,
+          "of": 860,
+          "pct": 0.2
+        },
+        {
+          "change": "X873_splice",
+          "pos": 873,
+          "type": "Splice_Site",
+          "n": 2,
+          "of": 860,
+          "pct": 0.2
+        },
+        {
+          "change": "X1545_splice",
+          "pos": 1545,
+          "type": "Splice_Site",
+          "n": 2,
+          "of": 860,
+          "pct": 0.2
+        }
+      ],
+      "n_mutated_samples": 85,
+      "n_distinct_changes": 86,
+      "sequenced_of": 860,
+      "frequency": {
+        "by_node": {
+          "drv-alk": {
+            "mutation": {
+              "n": 0,
+              "of": 32,
+              "pct": 0.0
+            },
+            "amplification": {
+              "n": 0,
+              "of": 32,
+              "pct": 0.0
+            },
+            "deep_deletion": {
+              "n": 0,
+              "of": 32,
+              "pct": 0.0
+            },
+            "any_loss": {
+              "n": 0,
+              "of": 32,
+              "pct": 0.0
+            },
+            "fusion": {
+              "n": 1,
+              "of": 32,
+              "pct": 3.1
+            }
+          },
+          "drv-braf": {
+            "mutation": {
+              "n": 0,
+              "of": 18,
+              "pct": 0.0
+            },
+            "amplification": {
+              "n": 0,
+              "of": 18,
+              "pct": 0.0
+            },
+            "deep_deletion": {
+              "n": 0,
+              "of": 18,
+              "pct": 0.0
+            },
+            "any_loss": {
+              "n": 0,
+              "of": 18,
+              "pct": 0.0
+            },
+            "fusion": {
+              "n": 0,
+              "of": 18,
+              "pct": 0.0
+            }
+          },
+          "drv-egfr": {
+            "mutation": {
+              "n": 10,
+              "of": 213,
+              "pct": 4.7
+            },
+            "amplification": {
+              "n": 0,
+              "of": 213,
+              "pct": 0.0
+            },
+            "deep_deletion": {
+              "n": 1,
+              "of": 213,
+              "pct": 0.5
+            },
+            "any_loss": {
+              "n": 1,
+              "of": 213,
+              "pct": 0.5
+            },
+            "fusion": {
+              "n": 0,
+              "of": 213,
+              "pct": 0.0
+            }
+          },
+          "drv-egfr-ex20": {
+            "mutation": {
+              "n": 1,
+              "of": 18,
+              "pct": 5.6
+            },
+            "amplification": {
+              "n": 0,
+              "of": 18,
+              "pct": 0.0
+            },
+            "deep_deletion": {
+              "n": 0,
+              "of": 18,
+              "pct": 0.0
+            },
+            "any_loss": {
+              "n": 0,
+              "of": 18,
+              "pct": 0.0
+            },
+            "fusion": {
+              "n": 0,
+              "of": 18,
+              "pct": 0.0
+            }
+          },
+          "drv-erbb2": {
+            "mutation": {
+              "n": 2,
+              "of": 24,
+              "pct": 8.3
+            },
+            "amplification": {
+              "n": 0,
+              "of": 24,
+              "pct": 0.0
+            },
+            "deep_deletion": {
+              "n": 0,
+              "of": 24,
+              "pct": 0.0
+            },
+            "any_loss": {
+              "n": 0,
+              "of": 24,
+              "pct": 0.0
+            },
+            "fusion": {
+              "n": 0,
+              "of": 24,
+              "pct": 0.0
+            }
+          },
+          "drv-kras": {
+            "mutation": {
+              "n": 29,
+              "of": 215,
+              "pct": 13.5
+            },
+            "amplification": {
+              "n": 0,
+              "of": 215,
+              "pct": 0.0
+            },
+            "deep_deletion": {
+              "n": 2,
+              "of": 215,
+              "pct": 0.9
+            },
+            "any_loss": {
+              "n": 2,
+              "of": 215,
+              "pct": 0.9
+            },
+            "fusion": {
+              "n": 0,
+              "of": 215,
+              "pct": 0.0
+            }
+          },
+          "drv-met": {
+            "mutation": {
+              "n": 0,
+              "of": 26,
+              "pct": 0.0
+            },
+            "amplification": {
+              "n": 0,
+              "of": 26,
+              "pct": 0.0
+            },
+            "deep_deletion": {
+              "n": 0,
+              "of": 26,
+              "pct": 0.0
+            },
+            "any_loss": {
+              "n": 0,
+              "of": 26,
+              "pct": 0.0
+            },
+            "fusion": {
+              "n": 0,
+              "of": 26,
+              "pct": 0.0
+            }
+          },
+          "drv-none": {
+            "mutation": {
+              "n": 18,
+              "of": 119,
+              "pct": 15.1
+            },
+            "amplification": {
+              "n": 0,
+              "of": 119,
+              "pct": 0.0
+            },
+            "deep_deletion": {
+              "n": 0,
+              "of": 119,
+              "pct": 0.0
+            },
+            "any_loss": {
+              "n": 0,
+              "of": 119,
+              "pct": 0.0
+            },
+            "fusion": {
+              "n": 0,
+              "of": 119,
+              "pct": 0.0
+            }
+          },
+          "drv-other": {
+            "mutation": {
+              "n": 25,
+              "of": 158,
+              "pct": 15.8
+            },
+            "amplification": {
+              "n": 0,
+              "of": 158,
+              "pct": 0.0
+            },
+            "deep_deletion": {
+              "n": 2,
+              "of": 158,
+              "pct": 1.3
+            },
+            "any_loss": {
+              "n": 2,
+              "of": 158,
+              "pct": 1.3
+            },
+            "fusion": {
+              "n": 0,
+              "of": 158,
+              "pct": 0.0
+            }
+          },
+          "drv-ret": {
+            "mutation": {
+              "n": 0,
+              "of": 14,
+              "pct": 0.0
+            },
+            "amplification": {
+              "n": 0,
+              "of": 14,
+              "pct": 0.0
+            },
+            "deep_deletion": {
+              "n": 0,
+              "of": 14,
+              "pct": 0.0
+            },
+            "any_loss": {
+              "n": 0,
+              "of": 14,
+              "pct": 0.0
+            },
+            "fusion": {
+              "n": 0,
+              "of": 14,
+              "pct": 0.0
+            }
+          },
+          "drv-ros1": {
+            "mutation": {
+              "n": 0,
+              "of": 23,
+              "pct": 0.0
+            },
+            "amplification": {
+              "n": 0,
+              "of": 23,
+              "pct": 0.0
+            },
+            "deep_deletion": {
+              "n": 0,
+              "of": 23,
+              "pct": 0.0
+            },
+            "any_loss": {
+              "n": 0,
+              "of": 23,
+              "pct": 0.0
+            },
+            "fusion": {
+              "n": 0,
+              "of": 23,
+              "pct": 0.0
+            }
+          }
+        },
+        "max_pct": 15.8,
+        "max_node": "drv-other",
+        "max_metric": "mutation"
+      },
+      "drugs": [],
+      "n_programs": 0,
+      "best_phase": null,
+      "best_phase_rank": null,
+      "civic": {
+        "n_evidence_items": 5,
+        "n_accepted": 4,
+        "best_level": "B",
+        "levels": {
+          "B": 3,
+          "D": 2
+        },
+        "evidence_types": {
+          "PREDICTIVE": 3,
+          "PROGNOSTIC": 2
+        },
+        "top_therapies": [
+          "Vinorelbine",
+          "Cisplatin",
+          "Palbociclib",
+          "Abemaciclib",
+          "Tozasertib"
+        ]
+      },
+      "selected_on": null
+    },
+    "CDKN2A": {
+      "gene": "CDKN2A",
+      "basis": "genomic",
+      "biomarker_gene": null,
+      "why": "Deleted often, in squamous disease especially.",
+      "uniprot": {
+        "gene": "CDKN2A",
+        "accession": "P42771",
+        "entry_name": "CDN2A_HUMAN",
+        "protein": "Cyclin-dependent kinase inhibitor 2A",
+        "length": 156,
+        "domains": [
+          {
+            "kind": "Repeat",
+            "name": "ANK 1",
+            "start": 11,
+            "end": 40
+          },
+          {
+            "kind": "Repeat",
+            "name": "ANK 2",
+            "start": 44,
+            "end": 72
+          },
+          {
+            "kind": "Repeat",
+            "name": "ANK 3",
+            "start": 77,
+            "end": 106
+          },
+          {
+            "kind": "Repeat",
+            "name": "ANK 4",
+            "start": 110,
+            "end": 139
+          }
+        ],
+        "pdb_count": 5,
+        "pdb_ids": [
+          "1A5E",
+          "1BI7",
+          "1DC2",
+          "2A5E",
+          "7OZT"
+        ],
+        "url": "https://www.uniprot.org/uniprotkb/P42771",
+        "alphafold": "https://alphafold.ebi.ac.uk/entry/P42771"
+      },
+      "structure": {
+        "pdb": "1BI7",
+        "title": "MECHANISM OF G1 CYCLIN DEPENDENT KINASE INHIBITION FROM THE STRUCTURE OF THE CDK6-P16INK4A TUMOR SUPPRESSOR COMPLEX",
+        "method": "X-RAY DIFFRACTION",
+        "resolution": 3.4,
+        "ligands": [],
+        "deposited": "1999-01-13",
+        "url": "https://www.rcsb.org/structure/1BI7",
+        "image": "img/1bi7.jpg",
+        "image_bytes": 75783
+      },
+      "hotspots": [
+        {
+          "change": "R80*",
+          "pos": 80,
+          "type": "Nonsense_Mutation",
+          "n": 4,
+          "of": 860,
+          "pct": 0.5
+        },
+        {
+          "change": "H83Y",
+          "pos": 83,
+          "type": "Missense_Mutation",
+          "n": 3,
+          "of": 860,
+          "pct": 0.3
+        },
+        {
+          "change": "D74Y",
+          "pos": 74,
+          "type": "Missense_Mutation",
+          "n": 2,
+          "of": 860,
+          "pct": 0.2
+        },
+        {
+          "change": "E120*",
+          "pos": 120,
+          "type": "Nonsense_Mutation",
+          "n": 2,
+          "of": 860,
+          "pct": 0.2
+        },
+        {
+          "change": "E149*",
+          "pos": 149,
+          "type": "Nonsense_Mutation",
+          "n": 2,
+          "of": 860,
+          "pct": 0.2
+        }
+      ],
+      "n_mutated_samples": 48,
+      "n_distinct_changes": 43,
+      "sequenced_of": 860,
+      "frequency": {
+        "by_node": {
+          "drv-alk": {
+            "mutation": {
+              "n": 2,
+              "of": 32,
+              "pct": 6.2
+            },
+            "amplification": {
+              "n": 0,
+              "of": 32,
+              "pct": 0.0
+            },
+            "deep_deletion": {
+              "n": 6,
+              "of": 32,
+              "pct": 18.8
+            },
+            "any_loss": {
+              "n": 6,
+              "of": 32,
+              "pct": 18.8
+            },
+            "fusion": {
+              "n": 0,
+              "of": 32,
+              "pct": 0.0
+            }
+          },
+          "drv-braf": {
+            "mutation": {
+              "n": 1,
+              "of": 18,
+              "pct": 5.6
+            },
+            "amplification": {
+              "n": 0,
+              "of": 18,
+              "pct": 0.0
+            },
+            "deep_deletion": {
+              "n": 0,
+              "of": 18,
+              "pct": 0.0
+            },
+            "any_loss": {
+              "n": 0,
+              "of": 18,
+              "pct": 0.0
+            },
+            "fusion": {
+              "n": 0,
+              "of": 18,
+              "pct": 0.0
+            }
+          },
+          "drv-egfr": {
+            "mutation": {
+              "n": 7,
+              "of": 213,
+              "pct": 3.3
+            },
+            "amplification": {
+              "n": 0,
+              "of": 213,
+              "pct": 0.0
+            },
+            "deep_deletion": {
+              "n": 31,
+              "of": 213,
+              "pct": 14.6
+            },
+            "any_loss": {
+              "n": 31,
+              "of": 213,
+              "pct": 14.6
+            },
+            "fusion": {
+              "n": 0,
+              "of": 213,
+              "pct": 0.0
+            }
+          },
+          "drv-egfr-ex20": {
+            "mutation": {
+              "n": 1,
+              "of": 18,
+              "pct": 5.6
+            },
+            "amplification": {
+              "n": 0,
+              "of": 18,
+              "pct": 0.0
+            },
+            "deep_deletion": {
+              "n": 2,
+              "of": 18,
+              "pct": 11.1
+            },
+            "any_loss": {
+              "n": 2,
+              "of": 18,
+              "pct": 11.1
+            },
+            "fusion": {
+              "n": 0,
+              "of": 18,
+              "pct": 0.0
+            }
+          },
+          "drv-erbb2": {
+            "mutation": {
+              "n": 1,
+              "of": 24,
+              "pct": 4.2
+            },
+            "amplification": {
+              "n": 0,
+              "of": 24,
+              "pct": 0.0
+            },
+            "deep_deletion": {
+              "n": 3,
+              "of": 24,
+              "pct": 12.5
+            },
+            "any_loss": {
+              "n": 3,
+              "of": 24,
+              "pct": 12.5
+            },
+            "fusion": {
+              "n": 0,
+              "of": 24,
+              "pct": 0.0
+            }
+          },
+          "drv-kras": {
+            "mutation": {
+              "n": 10,
+              "of": 215,
+              "pct": 4.7
+            },
+            "amplification": {
+              "n": 0,
+              "of": 215,
+              "pct": 0.0
+            },
+            "deep_deletion": {
+              "n": 13,
+              "of": 215,
+              "pct": 6.0
+            },
+            "any_loss": {
+              "n": 13,
+              "of": 215,
+              "pct": 6.0
+            },
+            "fusion": {
+              "n": 0,
+              "of": 215,
+              "pct": 0.0
+            }
+          },
+          "drv-met": {
+            "mutation": {
+              "n": 1,
+              "of": 26,
+              "pct": 3.8
+            },
+            "amplification": {
+              "n": 0,
+              "of": 26,
+              "pct": 0.0
+            },
+            "deep_deletion": {
+              "n": 2,
+              "of": 26,
+              "pct": 7.7
+            },
+            "any_loss": {
+              "n": 2,
+              "of": 26,
+              "pct": 7.7
+            },
+            "fusion": {
+              "n": 0,
+              "of": 26,
+              "pct": 0.0
+            }
+          },
+          "drv-none": {
+            "mutation": {
+              "n": 3,
+              "of": 119,
+              "pct": 2.5
+            },
+            "amplification": {
+              "n": 0,
+              "of": 119,
+              "pct": 0.0
+            },
+            "deep_deletion": {
+              "n": 0,
+              "of": 119,
+              "pct": 0.0
+            },
+            "any_loss": {
+              "n": 0,
+              "of": 119,
+              "pct": 0.0
+            },
+            "fusion": {
+              "n": 0,
+              "of": 119,
+              "pct": 0.0
+            }
+          },
+          "drv-other": {
+            "mutation": {
+              "n": 21,
+              "of": 158,
+              "pct": 13.3
+            },
+            "amplification": {
+              "n": 0,
+              "of": 158,
+              "pct": 0.0
+            },
+            "deep_deletion": {
+              "n": 18,
+              "of": 158,
+              "pct": 11.4
+            },
+            "any_loss": {
+              "n": 18,
+              "of": 158,
+              "pct": 11.4
+            },
+            "fusion": {
+              "n": 2,
+              "of": 158,
+              "pct": 1.3
+            }
+          },
+          "drv-ret": {
+            "mutation": {
+              "n": 0,
+              "of": 14,
+              "pct": 0.0
+            },
+            "amplification": {
+              "n": 0,
+              "of": 14,
+              "pct": 0.0
+            },
+            "deep_deletion": {
+              "n": 2,
+              "of": 14,
+              "pct": 14.3
+            },
+            "any_loss": {
+              "n": 2,
+              "of": 14,
+              "pct": 14.3
+            },
+            "fusion": {
+              "n": 0,
+              "of": 14,
+              "pct": 0.0
+            }
+          },
+          "drv-ros1": {
+            "mutation": {
+              "n": 1,
+              "of": 23,
+              "pct": 4.3
+            },
+            "amplification": {
+              "n": 0,
+              "of": 23,
+              "pct": 0.0
+            },
+            "deep_deletion": {
+              "n": 0,
+              "of": 23,
+              "pct": 0.0
+            },
+            "any_loss": {
+              "n": 0,
+              "of": 23,
+              "pct": 0.0
+            },
+            "fusion": {
+              "n": 0,
+              "of": 23,
+              "pct": 0.0
+            }
+          }
+        },
+        "max_pct": 18.8,
+        "max_node": "drv-alk",
+        "max_metric": "deep_deletion"
+      },
+      "drugs": [],
+      "n_programs": 0,
+      "best_phase": null,
+      "best_phase_rank": null,
+      "civic": {
+        "n_evidence_items": 6,
+        "n_accepted": 5,
+        "best_level": "B",
+        "levels": {
+          "B": 6
+        },
+        "evidence_types": {
+          "PREDICTIVE": 3,
+          "PROGNOSTIC": 3
+        },
+        "top_therapies": [
+          "Palbociclib",
+          "Pemetrexed"
+        ]
+      },
+      "selected_on": null
+    },
+    "RB1": {
+      "gene": "RB1",
+      "basis": "genomic",
+      "biomarker_gene": null,
+      "why": "Lost in nearly all small cell lung cancer; in EGFR-mutant disease, a warning of lineage change.",
+      "uniprot": {
+        "gene": "RB1",
+        "accession": "P06400",
+        "entry_name": "RB_HUMAN",
+        "protein": "Retinoblastoma-associated protein",
+        "length": 928,
+        "domains": [
+          {
+            "kind": "Region",
+            "name": "Disordered",
+            "start": 1,
+            "end": 42
+          },
+          {
+            "kind": "Region",
+            "name": "Pocket; binds T and E1A",
+            "start": 373,
+            "end": 771
+          },
+          {
+            "kind": "Region",
+            "name": "Domain A",
+            "start": 373,
+            "end": 579
+          },
+          {
+            "kind": "Region",
+            "name": "Spacer",
+            "start": 580,
+            "end": 639
+          },
+          {
+            "kind": "Region",
+            "name": "Disordered",
+            "start": 610,
+            "end": 632
+          },
+          {
+            "kind": "Region",
+            "name": "Domain B",
+            "start": 640,
+            "end": 771
+          },
+          {
+            "kind": "Region",
+            "name": "Interaction with LIMD1",
+            "start": 763,
+            "end": 928
+          },
+          {
+            "kind": "Region",
+            "name": "Domain C; mediates interaction with E4F1",
+            "start": 771,
+            "end": 928
+          },
+          {
+            "kind": "Region",
+            "name": "Disordered",
+            "start": 860,
+            "end": 928
+          }
+        ],
+        "pdb_count": 19,
+        "pdb_ids": [
+          "1AD6",
+          "1GH6",
+          "1GUX",
+          "1H25",
+          "1N4M",
+          "1O9K",
+          "1PJM",
+          "2AZE",
+          "2QDJ",
+          "2R7G",
+          "3N5U",
+          "3POM",
+          "4CRI",
+          "4ELJ",
+          "4ELL",
+          "9DGK",
+          "9DHC",
+          "9DHF",
+          "9DHU"
+        ],
+        "url": "https://www.uniprot.org/uniprotkb/P06400",
+        "alphafold": "https://alphafold.ebi.ac.uk/entry/P06400"
+      },
+      "structure": {
+        "pdb": "1GUX",
+        "title": "RB POCKET BOUND TO E7 LXCXE MOTIF",
+        "method": "X-RAY DIFFRACTION",
+        "resolution": 1.85,
+        "ligands": [],
+        "deposited": "1998-12-02",
+        "url": "https://www.rcsb.org/structure/1GUX",
+        "image": "img/1gux.jpg",
+        "image_bytes": 53210
+      },
+      "hotspots": [
+        {
+          "change": "X46_splice",
+          "pos": 46,
+          "type": "Splice_Site",
+          "n": 2,
+          "of": 860,
+          "pct": 0.2
+        },
+        {
+          "change": "X314_splice",
+          "pos": 314,
+          "type": "Splice_Site",
+          "n": 2,
+          "of": 860,
+          "pct": 0.2
+        },
+        {
+          "change": "V654L",
+          "pos": 654,
+          "type": "Missense_Mutation",
+          "n": 2,
+          "of": 860,
+          "pct": 0.2
+        }
+      ],
+      "n_mutated_samples": 47,
+      "n_distinct_changes": 45,
+      "sequenced_of": 860,
+      "frequency": {
+        "by_node": {
+          "drv-alk": {
+            "mutation": {
+              "n": 0,
+              "of": 32,
+              "pct": 0.0
+            },
+            "amplification": {
+              "n": 0,
+              "of": 32,
+              "pct": 0.0
+            },
+            "deep_deletion": {
+              "n": 1,
+              "of": 32,
+              "pct": 3.1
+            },
+            "any_loss": {
+              "n": 1,
+              "of": 32,
+              "pct": 3.1
+            },
+            "fusion": {
+              "n": 0,
+              "of": 32,
+              "pct": 0.0
+            }
+          },
+          "drv-braf": {
+            "mutation": {
+              "n": 0,
+              "of": 18,
+              "pct": 0.0
+            },
+            "amplification": {
+              "n": 0,
+              "of": 18,
+              "pct": 0.0
+            },
+            "deep_deletion": {
+              "n": 0,
+              "of": 18,
+              "pct": 0.0
+            },
+            "any_loss": {
+              "n": 0,
+              "of": 18,
+              "pct": 0.0
+            },
+            "fusion": {
+              "n": 0,
+              "of": 18,
+              "pct": 0.0
+            }
+          },
+          "drv-egfr": {
+            "mutation": {
+              "n": 21,
+              "of": 213,
+              "pct": 9.9
+            },
+            "amplification": {
+              "n": 0,
+              "of": 213,
+              "pct": 0.0
+            },
+            "deep_deletion": {
+              "n": 6,
+              "of": 213,
+              "pct": 2.8
+            },
+            "any_loss": {
+              "n": 6,
+              "of": 213,
+              "pct": 2.8
+            },
+            "fusion": {
+              "n": 0,
+              "of": 213,
+              "pct": 0.0
+            }
+          },
+          "drv-egfr-ex20": {
+            "mutation": {
+              "n": 1,
+              "of": 18,
+              "pct": 5.6
+            },
+            "amplification": {
+              "n": 0,
+              "of": 18,
+              "pct": 0.0
+            },
+            "deep_deletion": {
+              "n": 1,
+              "of": 18,
+              "pct": 5.6
+            },
+            "any_loss": {
+              "n": 1,
+              "of": 18,
+              "pct": 5.6
+            },
+            "fusion": {
+              "n": 0,
+              "of": 18,
+              "pct": 0.0
+            }
+          },
+          "drv-erbb2": {
+            "mutation": {
+              "n": 0,
+              "of": 24,
+              "pct": 0.0
+            },
+            "amplification": {
+              "n": 0,
+              "of": 24,
+              "pct": 0.0
+            },
+            "deep_deletion": {
+              "n": 1,
+              "of": 24,
+              "pct": 4.2
+            },
+            "any_loss": {
+              "n": 1,
+              "of": 24,
+              "pct": 4.2
+            },
+            "fusion": {
+              "n": 0,
+              "of": 24,
+              "pct": 0.0
+            }
+          },
+          "drv-kras": {
+            "mutation": {
+              "n": 6,
+              "of": 215,
+              "pct": 2.8
+            },
+            "amplification": {
+              "n": 0,
+              "of": 215,
+              "pct": 0.0
+            },
+            "deep_deletion": {
+              "n": 1,
+              "of": 215,
+              "pct": 0.5
+            },
+            "any_loss": {
+              "n": 1,
+              "of": 215,
+              "pct": 0.5
+            },
+            "fusion": {
+              "n": 1,
+              "of": 215,
+              "pct": 0.5
+            }
+          },
+          "drv-met": {
+            "mutation": {
+              "n": 2,
+              "of": 26,
+              "pct": 7.7
+            },
+            "amplification": {
+              "n": 0,
+              "of": 26,
+              "pct": 0.0
+            },
+            "deep_deletion": {
+              "n": 2,
+              "of": 26,
+              "pct": 7.7
+            },
+            "any_loss": {
+              "n": 2,
+              "of": 26,
+              "pct": 7.7
+            },
+            "fusion": {
+              "n": 0,
+              "of": 26,
+              "pct": 0.0
+            }
+          },
+          "drv-none": {
+            "mutation": {
+              "n": 5,
+              "of": 119,
+              "pct": 4.2
+            },
+            "amplification": {
+              "n": 0,
+              "of": 119,
+              "pct": 0.0
+            },
+            "deep_deletion": {
+              "n": 0,
+              "of": 119,
+              "pct": 0.0
+            },
+            "any_loss": {
+              "n": 0,
+              "of": 119,
+              "pct": 0.0
+            },
+            "fusion": {
+              "n": 0,
+              "of": 119,
+              "pct": 0.0
+            }
+          },
+          "drv-other": {
+            "mutation": {
+              "n": 12,
+              "of": 158,
+              "pct": 7.6
+            },
+            "amplification": {
+              "n": 0,
+              "of": 158,
+              "pct": 0.0
+            },
+            "deep_deletion": {
+              "n": 0,
+              "of": 158,
+              "pct": 0.0
+            },
+            "any_loss": {
+              "n": 0,
+              "of": 158,
+              "pct": 0.0
+            },
+            "fusion": {
+              "n": 1,
+              "of": 158,
+              "pct": 0.6
+            }
+          },
+          "drv-ret": {
+            "mutation": {
+              "n": 0,
+              "of": 14,
+              "pct": 0.0
+            },
+            "amplification": {
+              "n": 0,
+              "of": 14,
+              "pct": 0.0
+            },
+            "deep_deletion": {
+              "n": 0,
+              "of": 14,
+              "pct": 0.0
+            },
+            "any_loss": {
+              "n": 0,
+              "of": 14,
+              "pct": 0.0
+            },
+            "fusion": {
+              "n": 0,
+              "of": 14,
+              "pct": 0.0
+            }
+          },
+          "drv-ros1": {
+            "mutation": {
+              "n": 0,
+              "of": 23,
+              "pct": 0.0
+            },
+            "amplification": {
+              "n": 0,
+              "of": 23,
+              "pct": 0.0
+            },
+            "deep_deletion": {
+              "n": 0,
+              "of": 23,
+              "pct": 0.0
+            },
+            "any_loss": {
+              "n": 0,
+              "of": 23,
+              "pct": 0.0
+            },
+            "fusion": {
+              "n": 0,
+              "of": 23,
+              "pct": 0.0
+            }
+          }
+        },
+        "max_pct": 9.9,
+        "max_node": "drv-egfr",
+        "max_metric": "mutation"
+      },
+      "drugs": [],
+      "n_programs": 0,
+      "best_phase": null,
+      "best_phase_rank": null,
+      "civic": {
+        "n_evidence_items": 3,
+        "n_accepted": 3,
+        "best_level": "B",
+        "levels": {
+          "B": 3
+        },
+        "evidence_types": {
+          "PREDICTIVE": 2,
+          "PROGNOSTIC": 1
+        },
+        "top_therapies": [
+          "Palbociclib",
+          "Chemotherapy"
+        ]
+      },
+      "selected_on": null
+    },
+    "NFE2L2": {
+      "gene": "NFE2L2",
+      "basis": "genomic",
+      "biomarker_gene": null,
+      "why": "The transcription factor KEAP1 holds back, activated by mutation in squamous disease — which the adenocarcinoma cohort here does not contain.",
+      "uniprot": {
+        "gene": "NFE2L2",
+        "accession": "Q16236",
+        "entry_name": "NF2L2_HUMAN",
+        "protein": "Nuclear factor erythroid 2-related factor 2",
+        "length": 605,
+        "domains": [
+          {
+            "kind": "Region",
+            "name": "Disordered",
+            "start": 334,
+            "end": 449
+          },
+          {
+            "kind": "Domain",
+            "name": "bZIP",
+            "start": 497,
+            "end": 560
+          },
+          {
+            "kind": "Region",
+            "name": "Basic motif",
+            "start": 499,
+            "end": 518
+          },
+          {
+            "kind": "Region",
+            "name": "Leucine-zipper",
+            "start": 522,
+            "end": 529
+          },
+          {
+            "kind": "Region",
+            "name": "Disordered",
+            "start": 571,
+            "end": 605
+          },
+          {
+            "kind": "Region",
+            "name": "Mediates interaction with CHD6 and is necessary to activate transcription",
+            "start": 591,
+            "end": 596
+          }
+        ],
+        "pdb_count": 23,
+        "pdb_ids": [
+          "2FLU",
+          "2LZ1",
+          "3ZGC",
+          "4IFL",
+          "5WFV",
+          "6T7V",
+          "7K28",
+          "7K29",
+          "7K2A",
+          "7K2B",
+          "7K2C",
+          "7K2D",
+          "7K2E",
+          "7K2K",
+          "7O7B",
+          "7X5E",
+          "7X5F",
+          "7X5G",
+          "8EJR",
+          "8EJS",
+          "8HZ8",
+          "9T8Y",
+          "9T95"
+        ],
+        "url": "https://www.uniprot.org/uniprotkb/Q16236",
+        "alphafold": "https://alphafold.ebi.ac.uk/entry/Q16236"
+      },
+      "structure": {
+        "pdb": "2FLU",
+        "title": "Crystal Structure of the Kelch-Neh2 Complex",
+        "method": "X-RAY DIFFRACTION",
+        "resolution": 1.5,
+        "ligands": [],
+        "deposited": "2006-08-15",
+        "url": "https://www.rcsb.org/structure/2FLU",
+        "image": "img/2flu.jpg",
+        "image_bytes": 45669
+      },
+      "hotspots": [
+        {
+          "change": "G31A",
+          "pos": 31,
+          "type": "Missense_Mutation",
+          "n": 2,
+          "of": 860,
+          "pct": 0.2
+        },
+        {
+          "change": "G81S",
+          "pos": 81,
+          "type": "Missense_Mutation",
+          "n": 2,
+          "of": 860,
+          "pct": 0.2
+        }
+      ],
+      "n_mutated_samples": 15,
+      "n_distinct_changes": 13,
+      "sequenced_of": 860,
+      "frequency": {
+        "by_node": {
+          "drv-alk": {
+            "mutation": {
+              "n": 0,
+              "of": 32,
+              "pct": 0.0
+            },
+            "amplification": {
+              "n": 0,
+              "of": 32,
+              "pct": 0.0
+            },
+            "deep_deletion": {
+              "n": 0,
+              "of": 32,
+              "pct": 0.0
+            },
+            "any_loss": {
+              "n": 0,
+              "of": 32,
+              "pct": 0.0
+            },
+            "fusion": {
+              "n": 0,
+              "of": 32,
+              "pct": 0.0
+            }
+          },
+          "drv-braf": {
+            "mutation": {
+              "n": 0,
+              "of": 18,
+              "pct": 0.0
+            },
+            "amplification": {
+              "n": 0,
+              "of": 18,
+              "pct": 0.0
+            },
+            "deep_deletion": {
+              "n": 0,
+              "of": 18,
+              "pct": 0.0
+            },
+            "any_loss": {
+              "n": 0,
+              "of": 18,
+              "pct": 0.0
+            },
+            "fusion": {
+              "n": 0,
+              "of": 18,
+              "pct": 0.0
+            }
+          },
+          "drv-egfr": {
+            "mutation": {
+              "n": 1,
+              "of": 213,
+              "pct": 0.5
+            },
+            "amplification": {
+              "n": 0,
+              "of": 213,
+              "pct": 0.0
+            },
+            "deep_deletion": {
+              "n": 0,
+              "of": 213,
+              "pct": 0.0
+            },
+            "any_loss": {
+              "n": 0,
+              "of": 213,
+              "pct": 0.0
+            },
+            "fusion": {
+              "n": 0,
+              "of": 213,
+              "pct": 0.0
+            }
+          },
+          "drv-egfr-ex20": {
+            "mutation": {
+              "n": 0,
+              "of": 18,
+              "pct": 0.0
+            },
+            "amplification": {
+              "n": 0,
+              "of": 18,
+              "pct": 0.0
+            },
+            "deep_deletion": {
+              "n": 0,
+              "of": 18,
+              "pct": 0.0
+            },
+            "any_loss": {
+              "n": 0,
+              "of": 18,
+              "pct": 0.0
+            },
+            "fusion": {
+              "n": 0,
+              "of": 18,
+              "pct": 0.0
+            }
+          },
+          "drv-erbb2": {
+            "mutation": {
+              "n": 0,
+              "of": 24,
+              "pct": 0.0
+            },
+            "amplification": {
+              "n": 1,
+              "of": 24,
+              "pct": 4.2
+            },
+            "deep_deletion": {
+              "n": 0,
+              "of": 24,
+              "pct": 0.0
+            },
+            "any_loss": {
+              "n": 0,
+              "of": 24,
+              "pct": 0.0
+            },
+            "fusion": {
+              "n": 0,
+              "of": 24,
+              "pct": 0.0
+            }
+          },
+          "drv-kras": {
+            "mutation": {
+              "n": 3,
+              "of": 215,
+              "pct": 1.4
+            },
+            "amplification": {
+              "n": 0,
+              "of": 215,
+              "pct": 0.0
+            },
+            "deep_deletion": {
+              "n": 1,
+              "of": 215,
+              "pct": 0.5
+            },
+            "any_loss": {
+              "n": 1,
+              "of": 215,
+              "pct": 0.5
+            },
+            "fusion": {
+              "n": 0,
+              "of": 215,
+              "pct": 0.0
+            }
+          },
+          "drv-met": {
+            "mutation": {
+              "n": 0,
+              "of": 26,
+              "pct": 0.0
+            },
+            "amplification": {
+              "n": 0,
+              "of": 26,
+              "pct": 0.0
+            },
+            "deep_deletion": {
+              "n": 0,
+              "of": 26,
+              "pct": 0.0
+            },
+            "any_loss": {
+              "n": 0,
+              "of": 26,
+              "pct": 0.0
+            },
+            "fusion": {
+              "n": 0,
+              "of": 26,
+              "pct": 0.0
+            }
+          },
+          "drv-none": {
+            "mutation": {
+              "n": 2,
+              "of": 119,
+              "pct": 1.7
+            },
+            "amplification": {
+              "n": 0,
+              "of": 119,
+              "pct": 0.0
+            },
+            "deep_deletion": {
+              "n": 0,
+              "of": 119,
+              "pct": 0.0
+            },
+            "any_loss": {
+              "n": 0,
+              "of": 119,
+              "pct": 0.0
+            },
+            "fusion": {
+              "n": 1,
+              "of": 119,
+              "pct": 0.8
+            }
+          },
+          "drv-other": {
+            "mutation": {
+              "n": 9,
+              "of": 158,
+              "pct": 5.7
+            },
+            "amplification": {
+              "n": 1,
+              "of": 158,
+              "pct": 0.6
+            },
+            "deep_deletion": {
+              "n": 0,
+              "of": 158,
+              "pct": 0.0
+            },
+            "any_loss": {
+              "n": 0,
+              "of": 158,
+              "pct": 0.0
+            },
+            "fusion": {
+              "n": 0,
+              "of": 158,
+              "pct": 0.0
+            }
+          },
+          "drv-ret": {
+            "mutation": {
+              "n": 0,
+              "of": 14,
+              "pct": 0.0
+            },
+            "amplification": {
+              "n": 0,
+              "of": 14,
+              "pct": 0.0
+            },
+            "deep_deletion": {
+              "n": 0,
+              "of": 14,
+              "pct": 0.0
+            },
+            "any_loss": {
+              "n": 0,
+              "of": 14,
+              "pct": 0.0
+            },
+            "fusion": {
+              "n": 0,
+              "of": 14,
+              "pct": 0.0
+            }
+          },
+          "drv-ros1": {
+            "mutation": {
+              "n": 0,
+              "of": 23,
+              "pct": 0.0
+            },
+            "amplification": {
+              "n": 0,
+              "of": 23,
+              "pct": 0.0
+            },
+            "deep_deletion": {
+              "n": 0,
+              "of": 23,
+              "pct": 0.0
+            },
+            "any_loss": {
+              "n": 0,
+              "of": 23,
+              "pct": 0.0
+            },
+            "fusion": {
+              "n": 0,
+              "of": 23,
+              "pct": 0.0
+            }
+          }
+        },
+        "max_pct": 5.7,
+        "max_node": "drv-other",
+        "max_metric": "mutation"
+      },
+      "drugs": [],
+      "n_programs": 0,
+      "best_phase": null,
+      "best_phase_rank": null,
+      "civic": {
+        "n_evidence_items": 3,
+        "n_accepted": 2,
+        "best_level": "B",
+        "levels": {
+          "B": 3
+        },
+        "evidence_types": {
+          "PREDICTIVE": 3
+        },
+        "top_therapies": [
+          "Sapanisertib",
+          "Platinum Doublet"
+        ]
+      },
+      "selected_on": null
+    },
+    "SOX2": {
+      "gene": "SOX2",
+      "basis": "genomic",
+      "biomarker_gene": null,
+      "why": "Amplified in squamous cell carcinoma, which the adenocarcinoma cohort here does not contain; a transcription factor with no pocket.",
+      "uniprot": {
+        "gene": "SOX2",
+        "accession": "P48431",
+        "entry_name": "SOX2_HUMAN",
+        "protein": "Transcription factor SOX-2",
+        "length": 317,
+        "domains": [
+          {
+            "kind": "Region",
+            "name": "Disordered",
+            "start": 1,
+            "end": 43
+          },
+          {
+            "kind": "DNA binding",
+            "name": "HMG box",
+            "start": 41,
+            "end": 109
+          },
+          {
+            "kind": "Region",
+            "name": "Disordered",
+            "start": 243,
+            "end": 266
+          },
+          {
+            "kind": "Region",
+            "name": "Disordered",
+            "start": 297,
+            "end": 317
+          }
+        ],
+        "pdb_count": 13,
+        "pdb_ids": [
+          "1O4X",
+          "2LE4",
+          "6T7B",
+          "6T90",
+          "6WX7",
+          "6WX8",
+          "6WX9",
+          "6YOV",
+          "9QPF",
+          "9RL4",
+          "9RMC",
+          "9RN1",
+          "9RN2"
+        ],
+        "url": "https://www.uniprot.org/uniprotkb/P48431",
+        "alphafold": "https://alphafold.ebi.ac.uk/entry/P48431"
+      },
+      "structure": {
+        "pdb": "1GT0",
+        "title": "Crystal structure of a POU/HMG/DNA ternary complex",
+        "method": "X-RAY DIFFRACTION",
+        "resolution": 2.6,
+        "ligands": [],
+        "deposited": "2003-01-30",
+        "url": "https://www.rcsb.org/structure/1GT0",
+        "image": "img/1gt0.jpg",
+        "image_bytes": 51073
+      },
+      "hotspots": [],
+      "n_mutated_samples": 3,
+      "n_distinct_changes": 3,
+      "sequenced_of": 860,
+      "frequency": {
+        "by_node": {
+          "drv-alk": {
+            "mutation": {
+              "n": 0,
+              "of": 32,
+              "pct": 0.0
+            },
+            "amplification": {
+              "n": 0,
+              "of": 32,
+              "pct": 0.0
+            },
+            "deep_deletion": {
+              "n": 0,
+              "of": 32,
+              "pct": 0.0
+            },
+            "any_loss": {
+              "n": 0,
+              "of": 32,
+              "pct": 0.0
+            },
+            "fusion": {
+              "n": 0,
+              "of": 32,
+              "pct": 0.0
+            }
+          },
+          "drv-braf": {
+            "mutation": {
+              "n": 0,
+              "of": 18,
+              "pct": 0.0
+            },
+            "amplification": {
+              "n": 0,
+              "of": 18,
+              "pct": 0.0
+            },
+            "deep_deletion": {
+              "n": 0,
+              "of": 18,
+              "pct": 0.0
+            },
+            "any_loss": {
+              "n": 0,
+              "of": 18,
+              "pct": 0.0
+            },
+            "fusion": {
+              "n": 0,
+              "of": 18,
+              "pct": 0.0
+            }
+          },
+          "drv-egfr": {
+            "mutation": {
+              "n": 0,
+              "of": 213,
+              "pct": 0.0
+            },
+            "amplification": {
+              "n": 1,
+              "of": 213,
+              "pct": 0.5
+            },
+            "deep_deletion": {
+              "n": 0,
+              "of": 213,
+              "pct": 0.0
+            },
+            "any_loss": {
+              "n": 0,
+              "of": 213,
+              "pct": 0.0
+            },
+            "fusion": {
+              "n": 0,
+              "of": 213,
+              "pct": 0.0
+            }
+          },
+          "drv-egfr-ex20": {
+            "mutation": {
+              "n": 0,
+              "of": 18,
+              "pct": 0.0
+            },
+            "amplification": {
+              "n": 0,
+              "of": 18,
+              "pct": 0.0
+            },
+            "deep_deletion": {
+              "n": 0,
+              "of": 18,
+              "pct": 0.0
+            },
+            "any_loss": {
+              "n": 0,
+              "of": 18,
+              "pct": 0.0
+            },
+            "fusion": {
+              "n": 0,
+              "of": 18,
+              "pct": 0.0
+            }
+          },
+          "drv-erbb2": {
+            "mutation": {
+              "n": 0,
+              "of": 24,
+              "pct": 0.0
+            },
+            "amplification": {
+              "n": 0,
+              "of": 24,
+              "pct": 0.0
+            },
+            "deep_deletion": {
+              "n": 0,
+              "of": 24,
+              "pct": 0.0
+            },
+            "any_loss": {
+              "n": 0,
+              "of": 24,
+              "pct": 0.0
+            },
+            "fusion": {
+              "n": 0,
+              "of": 24,
+              "pct": 0.0
+            }
+          },
+          "drv-kras": {
+            "mutation": {
+              "n": 0,
+              "of": 215,
+              "pct": 0.0
+            },
+            "amplification": {
+              "n": 0,
+              "of": 215,
+              "pct": 0.0
+            },
+            "deep_deletion": {
+              "n": 0,
+              "of": 215,
+              "pct": 0.0
+            },
+            "any_loss": {
+              "n": 0,
+              "of": 215,
+              "pct": 0.0
+            },
+            "fusion": {
+              "n": 0,
+              "of": 215,
+              "pct": 0.0
+            }
+          },
+          "drv-met": {
+            "mutation": {
+              "n": 0,
+              "of": 26,
+              "pct": 0.0
+            },
+            "amplification": {
+              "n": 0,
+              "of": 26,
+              "pct": 0.0
+            },
+            "deep_deletion": {
+              "n": 0,
+              "of": 26,
+              "pct": 0.0
+            },
+            "any_loss": {
+              "n": 0,
+              "of": 26,
+              "pct": 0.0
+            },
+            "fusion": {
+              "n": 0,
+              "of": 26,
+              "pct": 0.0
+            }
+          },
+          "drv-none": {
+            "mutation": {
+              "n": 1,
+              "of": 119,
+              "pct": 0.8
+            },
+            "amplification": {
+              "n": 1,
+              "of": 119,
+              "pct": 0.8
+            },
+            "deep_deletion": {
+              "n": 0,
+              "of": 119,
+              "pct": 0.0
+            },
+            "any_loss": {
+              "n": 0,
+              "of": 119,
+              "pct": 0.0
+            },
+            "fusion": {
+              "n": 0,
+              "of": 119,
+              "pct": 0.0
+            }
+          },
+          "drv-other": {
+            "mutation": {
+              "n": 2,
+              "of": 158,
+              "pct": 1.3
+            },
+            "amplification": {
+              "n": 1,
+              "of": 158,
+              "pct": 0.6
+            },
+            "deep_deletion": {
+              "n": 0,
+              "of": 158,
+              "pct": 0.0
+            },
+            "any_loss": {
+              "n": 0,
+              "of": 158,
+              "pct": 0.0
+            },
+            "fusion": {
+              "n": 0,
+              "of": 158,
+              "pct": 0.0
+            }
+          },
+          "drv-ret": {
+            "mutation": {
+              "n": 0,
+              "of": 14,
+              "pct": 0.0
+            },
+            "amplification": {
+              "n": 0,
+              "of": 14,
+              "pct": 0.0
+            },
+            "deep_deletion": {
+              "n": 0,
+              "of": 14,
+              "pct": 0.0
+            },
+            "any_loss": {
+              "n": 0,
+              "of": 14,
+              "pct": 0.0
+            },
+            "fusion": {
+              "n": 0,
+              "of": 14,
+              "pct": 0.0
+            }
+          },
+          "drv-ros1": {
+            "mutation": {
+              "n": 0,
+              "of": 23,
+              "pct": 0.0
+            },
+            "amplification": {
+              "n": 0,
+              "of": 23,
+              "pct": 0.0
+            },
+            "deep_deletion": {
+              "n": 0,
+              "of": 23,
+              "pct": 0.0
+            },
+            "any_loss": {
+              "n": 0,
+              "of": 23,
+              "pct": 0.0
+            },
+            "fusion": {
+              "n": 0,
+              "of": 23,
+              "pct": 0.0
+            }
+          }
+        },
+        "max_pct": 1.3,
+        "max_node": "drv-other",
+        "max_metric": "mutation"
+      },
+      "drugs": [],
+      "n_programs": 0,
+      "best_phase": null,
+      "best_phase_rank": null,
+      "civic": null,
+      "selected_on": null
+    },
+    "FGFR1": {
+      "gene": "FGFR1",
+      "basis": "genomic",
+      "biomarker_gene": null,
+      "why": "Amplified in squamous cell carcinoma, which the adenocarcinoma cohort here does not contain.",
+      "uniprot": {
+        "gene": "FGFR1",
+        "accession": "P11362",
+        "entry_name": "FGFR1_HUMAN",
+        "protein": "Fibroblast growth factor receptor 1",
+        "length": 822,
+        "domains": [
+          {
+            "kind": "Domain",
+            "name": "Ig-like C2-type 1",
+            "start": 25,
+            "end": 119
+          },
+          {
+            "kind": "Region",
+            "name": "Disordered",
+            "start": 120,
+            "end": 154
+          },
+          {
+            "kind": "Domain",
+            "name": "Ig-like C2-type 2",
+            "start": 158,
+            "end": 246
+          },
+          {
+            "kind": "Region",
+            "name": "Heparin-binding",
+            "start": 160,
+            "end": 177
+          },
+          {
+            "kind": "Domain",
+            "name": "Ig-like C2-type 3",
+            "start": 255,
+            "end": 357
+          },
+          {
+            "kind": "Domain",
+            "name": "Protein kinase",
+            "start": 478,
+            "end": 767
+          },
+          {
+            "kind": "Region",
+            "name": "Disordered",
+            "start": 778,
+            "end": 822
+          }
+        ],
+        "pdb_count": 83,
+        "pdb_ids": [
+          "1AGW",
+          "1CVS",
+          "1EVT",
+          "1FGI",
+          "1FGK",
+          "1FQ9",
+          "1XR0",
+          "2CR3",
+          "2FGI",
+          "3C4F",
+          "3DPK",
+          "3GQI",
+          "3GQL",
+          "3JS2",
+          "3KRJ",
+          "3KRL",
+          "3KXX",
+          "3KY2",
+          "3OJV",
+          "3RHX",
+          "3TT0",
+          "4F63",
+          "4F64",
+          "4F65",
+          "4NK9",
+          "4NKA",
+          "4NKS",
+          "4RWI",
+          "4RWJ",
+          "4RWK",
+          "4RWL",
+          "4UWB",
+          "4UWC",
+          "4UWY",
+          "4V01",
+          "4V04",
+          "4V05",
+          "4WUN",
+          "4ZSA",
+          "5A46"
+        ],
+        "url": "https://www.uniprot.org/uniprotkb/P11362",
+        "alphafold": "https://alphafold.ebi.ac.uk/entry/P11362"
+      },
+      "structure": {
+        "pdb": "4V05",
+        "title": "FGFR1 in complex with AZD4547.",
+        "method": "X-RAY DIFFRACTION",
+        "resolution": 2.57,
+        "ligands": [],
+        "deposited": "2014-12-10",
+        "url": "https://www.rcsb.org/structure/4V05",
+        "image": "img/4v05.jpg",
+        "image_bytes": 61095
+      },
+      "hotspots": [],
+      "n_mutated_samples": 16,
+      "n_distinct_changes": 16,
+      "sequenced_of": 860,
+      "frequency": {
+        "by_node": {
+          "drv-alk": {
+            "mutation": {
+              "n": 0,
+              "of": 32,
+              "pct": 0.0
+            },
+            "amplification": {
+              "n": 0,
+              "of": 32,
+              "pct": 0.0
+            },
+            "deep_deletion": {
+              "n": 0,
+              "of": 32,
+              "pct": 0.0
+            },
+            "any_loss": {
+              "n": 0,
+              "of": 32,
+              "pct": 0.0
+            },
+            "fusion": {
+              "n": 0,
+              "of": 32,
+              "pct": 0.0
+            }
+          },
+          "drv-braf": {
+            "mutation": {
+              "n": 0,
+              "of": 18,
+              "pct": 0.0
+            },
+            "amplification": {
+              "n": 0,
+              "of": 18,
+              "pct": 0.0
+            },
+            "deep_deletion": {
+              "n": 0,
+              "of": 18,
+              "pct": 0.0
+            },
+            "any_loss": {
+              "n": 0,
+              "of": 18,
+              "pct": 0.0
+            },
+            "fusion": {
+              "n": 0,
+              "of": 18,
+              "pct": 0.0
+            }
+          },
+          "drv-egfr": {
+            "mutation": {
+              "n": 1,
+              "of": 213,
+              "pct": 0.5
+            },
+            "amplification": {
+              "n": 1,
+              "of": 213,
+              "pct": 0.5
+            },
+            "deep_deletion": {
+              "n": 2,
+              "of": 213,
+              "pct": 0.9
+            },
+            "any_loss": {
+              "n": 2,
+              "of": 213,
+              "pct": 0.9
+            },
+            "fusion": {
+              "n": 0,
+              "of": 213,
+              "pct": 0.0
+            }
+          },
+          "drv-egfr-ex20": {
+            "mutation": {
+              "n": 0,
+              "of": 18,
+              "pct": 0.0
+            },
+            "amplification": {
+              "n": 0,
+              "of": 18,
+              "pct": 0.0
+            },
+            "deep_deletion": {
+              "n": 0,
+              "of": 18,
+              "pct": 0.0
+            },
+            "any_loss": {
+              "n": 0,
+              "of": 18,
+              "pct": 0.0
+            },
+            "fusion": {
+              "n": 0,
+              "of": 18,
+              "pct": 0.0
+            }
+          },
+          "drv-erbb2": {
+            "mutation": {
+              "n": 0,
+              "of": 24,
+              "pct": 0.0
+            },
+            "amplification": {
+              "n": 0,
+              "of": 24,
+              "pct": 0.0
+            },
+            "deep_deletion": {
+              "n": 0,
+              "of": 24,
+              "pct": 0.0
+            },
+            "any_loss": {
+              "n": 0,
+              "of": 24,
+              "pct": 0.0
+            },
+            "fusion": {
+              "n": 0,
+              "of": 24,
+              "pct": 0.0
+            }
+          },
+          "drv-kras": {
+            "mutation": {
+              "n": 2,
+              "of": 215,
+              "pct": 0.9
+            },
+            "amplification": {
+              "n": 1,
+              "of": 215,
+              "pct": 0.5
+            },
+            "deep_deletion": {
+              "n": 1,
+              "of": 215,
+              "pct": 0.5
+            },
+            "any_loss": {
+              "n": 1,
+              "of": 215,
+              "pct": 0.5
+            },
+            "fusion": {
+              "n": 0,
+              "of": 215,
+              "pct": 0.0
+            }
+          },
+          "drv-met": {
+            "mutation": {
+              "n": 0,
+              "of": 26,
+              "pct": 0.0
+            },
+            "amplification": {
+              "n": 0,
+              "of": 26,
+              "pct": 0.0
+            },
+            "deep_deletion": {
+              "n": 0,
+              "of": 26,
+              "pct": 0.0
+            },
+            "any_loss": {
+              "n": 0,
+              "of": 26,
+              "pct": 0.0
+            },
+            "fusion": {
+              "n": 0,
+              "of": 26,
+              "pct": 0.0
+            }
+          },
+          "drv-none": {
+            "mutation": {
+              "n": 5,
+              "of": 119,
+              "pct": 4.2
+            },
+            "amplification": {
+              "n": 0,
+              "of": 119,
+              "pct": 0.0
+            },
+            "deep_deletion": {
+              "n": 0,
+              "of": 119,
+              "pct": 0.0
+            },
+            "any_loss": {
+              "n": 0,
+              "of": 119,
+              "pct": 0.0
+            },
+            "fusion": {
+              "n": 0,
+              "of": 119,
+              "pct": 0.0
+            }
+          },
+          "drv-other": {
+            "mutation": {
+              "n": 7,
+              "of": 158,
+              "pct": 4.4
+            },
+            "amplification": {
+              "n": 4,
+              "of": 158,
+              "pct": 2.5
+            },
+            "deep_deletion": {
+              "n": 1,
+              "of": 158,
+              "pct": 0.6
+            },
+            "any_loss": {
+              "n": 1,
+              "of": 158,
+              "pct": 0.6
+            },
+            "fusion": {
+              "n": 1,
+              "of": 158,
+              "pct": 0.6
+            }
+          },
+          "drv-ret": {
+            "mutation": {
+              "n": 0,
+              "of": 14,
+              "pct": 0.0
+            },
+            "amplification": {
+              "n": 0,
+              "of": 14,
+              "pct": 0.0
+            },
+            "deep_deletion": {
+              "n": 0,
+              "of": 14,
+              "pct": 0.0
+            },
+            "any_loss": {
+              "n": 0,
+              "of": 14,
+              "pct": 0.0
+            },
+            "fusion": {
+              "n": 0,
+              "of": 14,
+              "pct": 0.0
+            }
+          },
+          "drv-ros1": {
+            "mutation": {
+              "n": 1,
+              "of": 23,
+              "pct": 4.3
+            },
+            "amplification": {
+              "n": 0,
+              "of": 23,
+              "pct": 0.0
+            },
+            "deep_deletion": {
+              "n": 0,
+              "of": 23,
+              "pct": 0.0
+            },
+            "any_loss": {
+              "n": 0,
+              "of": 23,
+              "pct": 0.0
+            },
+            "fusion": {
+              "n": 0,
+              "of": 23,
+              "pct": 0.0
+            }
+          }
+        },
+        "max_pct": 4.4,
+        "max_node": "drv-other",
+        "max_metric": "mutation"
+      },
+      "drugs": [],
+      "n_programs": 0,
+      "best_phase": null,
+      "best_phase_rank": null,
+      "civic": {
+        "n_evidence_items": 14,
+        "n_accepted": 10,
+        "best_level": "B",
+        "levels": {
+          "B": 6,
+          "C": 2,
+          "D": 6
+        },
+        "evidence_types": {
+          "PREDICTIVE": 9,
+          "PROGNOSTIC": 5
+        },
+        "top_therapies": [
+          "PD173074",
+          "Dovitinib",
+          "Fexagratinib",
+          "Infigratinib",
+          "Pazopanib",
+          "Ponatinib"
+        ]
+      },
+      "selected_on": null
+    },
+    "PIK3CA": {
+      "gene": "PIK3CA",
+      "basis": "genomic",
+      "biomarker_gene": null,
+      "why": "Amplified in squamous disease and mutated in a minority of adenocarcinomas.",
+      "uniprot": {
+        "gene": "PIK3CA",
+        "accession": "P42336",
+        "entry_name": "PK3CA_HUMAN",
+        "protein": "Phosphatidylinositol 4,5-bisphosphate 3-kinase catalytic subunit alpha isoform",
+        "length": 1068,
+        "domains": [
+          {
+            "kind": "Domain",
+            "name": "PI3K-ABD",
+            "start": 16,
+            "end": 105
+          },
+          {
+            "kind": "Domain",
+            "name": "PI3K-RBD",
+            "start": 187,
+            "end": 289
+          },
+          {
+            "kind": "Domain",
+            "name": "C2 PI3K-type",
+            "start": 330,
+            "end": 487
+          },
+          {
+            "kind": "Domain",
+            "name": "PIK helical",
+            "start": 517,
+            "end": 694
+          },
+          {
+            "kind": "Domain",
+            "name": "PI3K/PI4K catalytic",
+            "start": 765,
+            "end": 1051
+          },
+          {
+            "kind": "Region",
+            "name": "G-loop",
+            "start": 771,
+            "end": 777
+          },
+          {
+            "kind": "Region",
+            "name": "Catalytic loop",
+            "start": 912,
+            "end": 920
+          },
+          {
+            "kind": "Region",
+            "name": "Activation loop",
+            "start": 931,
+            "end": 957
+          }
+        ],
+        "pdb_count": 125,
+        "pdb_ids": [
+          "2ENQ",
+          "2RD0",
+          "3HHM",
+          "3HIZ",
+          "3ZIM",
+          "4JPS",
+          "4L1B",
+          "4L23",
+          "4L2Y",
+          "4OVU",
+          "4OVV",
+          "4TUU",
+          "4TV3",
+          "4WAF",
+          "4YKN",
+          "4ZOP",
+          "5DXH",
+          "5DXT",
+          "5FI4",
+          "5ITD",
+          "5SW8",
+          "5SWG",
+          "5SWO",
+          "5SWP",
+          "5SWR",
+          "5SWT",
+          "5SX8",
+          "5SX9",
+          "5SXA",
+          "5SXB",
+          "5SXC",
+          "5SXD",
+          "5SXE",
+          "5SXF",
+          "5SXI",
+          "5SXJ",
+          "5SXK",
+          "5UBR",
+          "5UK8",
+          "5UKJ"
+        ],
+        "url": "https://www.uniprot.org/uniprotkb/P42336",
+        "alphafold": "https://alphafold.ebi.ac.uk/entry/P42336"
+      },
+      "structure": {
+        "pdb": "4JPS",
+        "title": "Co-crystal Structures of the Lipid Kinase PI3K alpha with Pan and Isoform Selective Inhibitors",
+        "method": "X-RAY DIFFRACTION",
+        "resolution": 2.2,
+        "ligands": [],
+        "deposited": "2014-04-02",
+        "url": "https://www.rcsb.org/structure/4JPS",
+        "image": "img/4jps.jpg",
+        "image_bytes": 64817
+      },
+      "hotspots": [
+        {
+          "change": "E545K",
+          "pos": 545,
+          "type": "Missense_Mutation",
+          "n": 16,
+          "of": 860,
+          "pct": 1.9
+        },
+        {
+          "change": "E542K",
+          "pos": 542,
+          "type": "Missense_Mutation",
+          "n": 10,
+          "of": 860,
+          "pct": 1.2
+        },
+        {
+          "change": "H1047R",
+          "pos": 1047,
+          "type": "Missense_Mutation",
+          "n": 6,
+          "of": 860,
+          "pct": 0.7
+        },
+        {
+          "change": "N345K",
+          "pos": 345,
+          "type": "Missense_Mutation",
+          "n": 2,
+          "of": 860,
+          "pct": 0.2
+        },
+        {
+          "change": "N345Y",
+          "pos": 345,
+          "type": "Missense_Mutation",
+          "n": 2,
+          "of": 860,
+          "pct": 0.2
+        },
+        {
+          "change": "C420R",
+          "pos": 420,
+          "type": "Missense_Mutation",
+          "n": 2,
+          "of": 860,
+          "pct": 0.2
+        },
+        {
+          "change": "M1043I",
+          "pos": 1043,
+          "type": "Missense_Mutation",
+          "n": 2,
+          "of": 860,
+          "pct": 0.2
+        }
+      ],
+      "n_mutated_samples": 61,
+      "n_distinct_changes": 29,
+      "sequenced_of": 860,
+      "frequency": {
+        "by_node": {
+          "drv-alk": {
+            "mutation": {
+              "n": 0,
+              "of": 32,
+              "pct": 0.0
+            },
+            "amplification": {
+              "n": 0,
+              "of": 32,
+              "pct": 0.0
+            },
+            "deep_deletion": {
+              "n": 0,
+              "of": 32,
+              "pct": 0.0
+            },
+            "any_loss": {
+              "n": 0,
+              "of": 32,
+              "pct": 0.0
+            },
+            "fusion": {
+              "n": 0,
+              "of": 32,
+              "pct": 0.0
+            }
+          },
+          "drv-braf": {
+            "mutation": {
+              "n": 0,
+              "of": 18,
+              "pct": 0.0
+            },
+            "amplification": {
+              "n": 0,
+              "of": 18,
+              "pct": 0.0
+            },
+            "deep_deletion": {
+              "n": 0,
+              "of": 18,
+              "pct": 0.0
+            },
+            "any_loss": {
+              "n": 0,
+              "of": 18,
+              "pct": 0.0
+            },
+            "fusion": {
+              "n": 0,
+              "of": 18,
+              "pct": 0.0
+            }
+          },
+          "drv-egfr": {
+            "mutation": {
+              "n": 26,
+              "of": 213,
+              "pct": 12.2
+            },
+            "amplification": {
+              "n": 2,
+              "of": 213,
+              "pct": 0.9
+            },
+            "deep_deletion": {
+              "n": 0,
+              "of": 213,
+              "pct": 0.0
+            },
+            "any_loss": {
+              "n": 0,
+              "of": 213,
+              "pct": 0.0
+            },
+            "fusion": {
+              "n": 1,
+              "of": 213,
+              "pct": 0.5
+            }
+          },
+          "drv-egfr-ex20": {
+            "mutation": {
+              "n": 1,
+              "of": 18,
+              "pct": 5.6
+            },
+            "amplification": {
+              "n": 0,
+              "of": 18,
+              "pct": 0.0
+            },
+            "deep_deletion": {
+              "n": 0,
+              "of": 18,
+              "pct": 0.0
+            },
+            "any_loss": {
+              "n": 0,
+              "of": 18,
+              "pct": 0.0
+            },
+            "fusion": {
+              "n": 0,
+              "of": 18,
+              "pct": 0.0
+            }
+          },
+          "drv-erbb2": {
+            "mutation": {
+              "n": 1,
+              "of": 24,
+              "pct": 4.2
+            },
+            "amplification": {
+              "n": 0,
+              "of": 24,
+              "pct": 0.0
+            },
+            "deep_deletion": {
+              "n": 0,
+              "of": 24,
+              "pct": 0.0
+            },
+            "any_loss": {
+              "n": 0,
+              "of": 24,
+              "pct": 0.0
+            },
+            "fusion": {
+              "n": 0,
+              "of": 24,
+              "pct": 0.0
+            }
+          },
+          "drv-kras": {
+            "mutation": {
+              "n": 5,
+              "of": 215,
+              "pct": 2.3
+            },
+            "amplification": {
+              "n": 0,
+              "of": 215,
+              "pct": 0.0
+            },
+            "deep_deletion": {
+              "n": 0,
+              "of": 215,
+              "pct": 0.0
+            },
+            "any_loss": {
+              "n": 0,
+              "of": 215,
+              "pct": 0.0
+            },
+            "fusion": {
+              "n": 0,
+              "of": 215,
+              "pct": 0.0
+            }
+          },
+          "drv-met": {
+            "mutation": {
+              "n": 2,
+              "of": 26,
+              "pct": 7.7
+            },
+            "amplification": {
+              "n": 0,
+              "of": 26,
+              "pct": 0.0
+            },
+            "deep_deletion": {
+              "n": 0,
+              "of": 26,
+              "pct": 0.0
+            },
+            "any_loss": {
+              "n": 0,
+              "of": 26,
+              "pct": 0.0
+            },
+            "fusion": {
+              "n": 0,
+              "of": 26,
+              "pct": 0.0
+            }
+          },
+          "drv-none": {
+            "mutation": {
+              "n": 1,
+              "of": 119,
+              "pct": 0.8
+            },
+            "amplification": {
+              "n": 1,
+              "of": 119,
+              "pct": 0.8
+            },
+            "deep_deletion": {
+              "n": 0,
+              "of": 119,
+              "pct": 0.0
+            },
+            "any_loss": {
+              "n": 0,
+              "of": 119,
+              "pct": 0.0
+            },
+            "fusion": {
+              "n": 0,
+              "of": 119,
+              "pct": 0.0
+            }
+          },
+          "drv-other": {
+            "mutation": {
+              "n": 25,
+              "of": 158,
+              "pct": 15.8
+            },
+            "amplification": {
+              "n": 1,
+              "of": 158,
+              "pct": 0.6
+            },
+            "deep_deletion": {
+              "n": 0,
+              "of": 158,
+              "pct": 0.0
+            },
+            "any_loss": {
+              "n": 0,
+              "of": 158,
+              "pct": 0.0
+            },
+            "fusion": {
+              "n": 0,
+              "of": 158,
+              "pct": 0.0
+            }
+          },
+          "drv-ret": {
+            "mutation": {
+              "n": 0,
+              "of": 14,
+              "pct": 0.0
+            },
+            "amplification": {
+              "n": 0,
+              "of": 14,
+              "pct": 0.0
+            },
+            "deep_deletion": {
+              "n": 0,
+              "of": 14,
+              "pct": 0.0
+            },
+            "any_loss": {
+              "n": 0,
+              "of": 14,
+              "pct": 0.0
+            },
+            "fusion": {
+              "n": 0,
+              "of": 14,
+              "pct": 0.0
+            }
+          },
+          "drv-ros1": {
+            "mutation": {
+              "n": 0,
+              "of": 23,
+              "pct": 0.0
+            },
+            "amplification": {
+              "n": 0,
+              "of": 23,
+              "pct": 0.0
+            },
+            "deep_deletion": {
+              "n": 0,
+              "of": 23,
+              "pct": 0.0
+            },
+            "any_loss": {
+              "n": 0,
+              "of": 23,
+              "pct": 0.0
+            },
+            "fusion": {
+              "n": 0,
+              "of": 23,
+              "pct": 0.0
+            }
+          }
+        },
+        "max_pct": 15.8,
+        "max_node": "drv-other",
+        "max_metric": "mutation"
+      },
+      "drugs": [],
+      "n_programs": 0,
+      "best_phase": null,
+      "best_phase_rank": null,
+      "civic": {
+        "n_evidence_items": 20,
+        "n_accepted": 5,
+        "best_level": "B",
+        "levels": {
+          "B": 2,
+          "C": 1,
+          "D": 17
+        },
+        "evidence_types": {
+          "PREDICTIVE": 20
+        },
+        "top_therapies": [
+          "PI103",
+          "Gefitinib",
+          "Erlotinib",
+          "Taselisib",
+          "Dactolisib",
+          "Crizotinib"
+        ]
+      },
+      "selected_on": null
+    }
+  },
+  "drugs": [
+    {
+      "id": "drug-0",
+      "name": "Osimertinib (Tagrisso)",
+      "code": "AZD9291",
+      "target": "EGFR",
+      "genes": [
+        "EGFR"
+      ],
+      "modality": "small molecule",
+      "company": "AstraZeneca",
+      "partner": "",
+      "phase": "approved",
+      "phase_rank": 7,
+      "trial_name": "FLAURA",
+      "nct_id": "NCT02296125",
+      "line": "1L metastatic",
+      "status": "approved",
+      "readout": "Osimertinib versus gefitinib or erlotinib, first line",
+      "readout_date": "",
+      "subtype_label": "EGFR-mutant",
+      "nodes": [
+        "drv-egfr"
+      ],
+      "receptor_context": "exon 19 deletion or L858R",
+      "source_url": "https://clinicaltrials.gov/study/NCT02296125",
+      "registry": {
+        "title": "AZD9291 Versus Gefitinib or Erlotinib in Patients With Locally Advanced or Metastatic Non-small Cell Lung Cancer",
+        "overall_status": "COMPLETED",
+        "phase": "Phase 3",
+        "sponsor": "AstraZeneca",
+        "enrollment": 674,
+        "start_date": "2014-12-03",
+        "primary_completion_date": "2017-06-19",
+        "last_update_posted": "2026-04-21",
+        "url": "https://clinicaltrials.gov/study/NCT02296125"
+      },
+      "label": {
+        "matched_brand": "TAGRISSO",
+        "matched_generic": "osimertinib",
+        "manufacturer": null,
+        "effective_time": "20240925",
+        "spl_id": "d703b5ed-4b1c-44fe-8005-ebe3d8f563e6",
+        "boxed": null,
+        "warnings": [
+          "Interstitial Lung Disease (ILD)/Pneumonitis",
+          "QTc Interval Prolongation",
+          "Cardiomyopathy",
+          "Keratitis",
+          "Syndrome, and Toxic Epidermal Necrolysis",
+          "Cutaneous Vasculitis",
+          "Aplastic Anemia",
+          "Embryo-Fetal Toxicity"
+        ],
+        "common": {
+          "text": "• TAGRISSO monotherapy: leukopenia, lymphopenia, thrombocytopenia, anemia, diarrhea, rash, musculoskeletal pain, neutropenia, nail toxicity, dry skin, stomatitis, and fatigue",
+          "has_frequencies": false
+        },
+        "url": "https://nctr-crs.fda.gov/fdalabel/services/spl/set-ids/5e81b4a7-b971-45e1-9c31-29cea8c87ce7/spl-doc",
+        "openfda_url": "https://api.fda.gov/drug/label.json?search=spl_product_data_elements:\"Tagrisso\"",
+        "harmonised": false
+      }
+    },
+    {
+      "id": "drug-1",
+      "name": "Osimertinib + chemotherapy",
+      "code": "AZD9291",
+      "target": "EGFR",
+      "genes": [
+        "EGFR"
+      ],
+      "modality": "small molecule",
+      "company": "AstraZeneca",
+      "partner": "",
+      "phase": "approved",
+      "phase_rank": 7,
+      "trial_name": "FLAURA2",
+      "nct_id": "NCT04035486",
+      "line": "1L metastatic",
+      "status": "approved",
+      "readout": "Osimertinib with or without chemotherapy, first line",
+      "readout_date": "",
+      "subtype_label": "EGFR-mutant",
+      "nodes": [
+        "drv-egfr"
+      ],
+      "receptor_context": "exon 19 deletion or L858R; with platinum-pemetrexed",
+      "source_url": "https://clinicaltrials.gov/study/NCT04035486",
+      "registry": {
+        "title": "A Study of Osimertinib With or Without Chemotherapy as 1st Line Treatment in Patients With Mutated Epidermal Growth Factor Receptor Non-Small Cell Lung Cancer (FLAURA2)",
+        "overall_status": "ACTIVE_NOT_RECRUITING",
+        "phase": "Phase 3",
+        "sponsor": "AstraZeneca",
+        "enrollment": 587,
+        "start_date": "2019-07-02",
+        "primary_completion_date": "2023-04-03",
+        "last_update_posted": "2026-09-03",
+        "url": "https://clinicaltrials.gov/study/NCT04035486"
+      },
+      "label": {
+        "matched_brand": "TAGRISSO",
+        "matched_generic": "osimertinib",
+        "manufacturer": null,
+        "effective_time": "20240925",
+        "spl_id": "d703b5ed-4b1c-44fe-8005-ebe3d8f563e6",
+        "boxed": null,
+        "warnings": [
+          "Interstitial Lung Disease (ILD)/Pneumonitis",
+          "QTc Interval Prolongation",
+          "Cardiomyopathy",
+          "Keratitis",
+          "Syndrome, and Toxic Epidermal Necrolysis",
+          "Cutaneous Vasculitis",
+          "Aplastic Anemia",
+          "Embryo-Fetal Toxicity"
+        ],
+        "common": {
+          "text": "• TAGRISSO monotherapy: leukopenia, lymphopenia, thrombocytopenia, anemia, diarrhea, rash, musculoskeletal pain, neutropenia, nail toxicity, dry skin, stomatitis, and fatigue",
+          "has_frequencies": false
+        },
+        "url": "https://nctr-crs.fda.gov/fdalabel/services/spl/set-ids/5e81b4a7-b971-45e1-9c31-29cea8c87ce7/spl-doc",
+        "openfda_url": "https://api.fda.gov/drug/label.json?search=spl_product_data_elements:\"Osimertinib\"",
+        "harmonised": false
+      }
+    },
+    {
+      "id": "drug-2",
+      "name": "Osimertinib (Tagrisso)",
+      "code": "AZD9291",
+      "target": "EGFR",
+      "genes": [
+        "EGFR"
+      ],
+      "modality": "small molecule",
+      "company": "AstraZeneca",
+      "partner": "",
+      "phase": "approved",
+      "phase_rank": 7,
+      "trial_name": "ADAURA",
+      "nct_id": "NCT02511106",
+      "line": "adjuvant",
+      "status": "approved",
+      "readout": "Osimertinib versus placebo after complete resection",
+      "readout_date": "",
+      "subtype_label": "EGFR-mutant, resected",
+      "nodes": [
+        "drv-egfr"
+      ],
+      "receptor_context": "stage IB-IIIA after complete resection",
+      "source_url": "https://clinicaltrials.gov/study/NCT02511106",
+      "registry": {
+        "title": "AZD9291 Versus Placebo in Patients With Stage IB-IIIA Non-small Cell Lung Carcinoma, Following Complete Tumour Resection With or Without Adjuvant Chemotherapy.",
+        "overall_status": "ACTIVE_NOT_RECRUITING",
+        "phase": "Phase 3",
+        "sponsor": "AstraZeneca",
+        "enrollment": 682,
+        "start_date": "2015-10-21",
+        "primary_completion_date": "2022-04-11",
+        "last_update_posted": "2026-09-11",
+        "url": "https://clinicaltrials.gov/study/NCT02511106"
+      },
+      "label": {
+        "matched_brand": "TAGRISSO",
+        "matched_generic": "osimertinib",
+        "manufacturer": null,
+        "effective_time": "20240925",
+        "spl_id": "d703b5ed-4b1c-44fe-8005-ebe3d8f563e6",
+        "boxed": null,
+        "warnings": [
+          "Interstitial Lung Disease (ILD)/Pneumonitis",
+          "QTc Interval Prolongation",
+          "Cardiomyopathy",
+          "Keratitis",
+          "Syndrome, and Toxic Epidermal Necrolysis",
+          "Cutaneous Vasculitis",
+          "Aplastic Anemia",
+          "Embryo-Fetal Toxicity"
+        ],
+        "common": {
+          "text": "• TAGRISSO monotherapy: leukopenia, lymphopenia, thrombocytopenia, anemia, diarrhea, rash, musculoskeletal pain, neutropenia, nail toxicity, dry skin, stomatitis, and fatigue",
+          "has_frequencies": false
+        },
+        "url": "https://nctr-crs.fda.gov/fdalabel/services/spl/set-ids/5e81b4a7-b971-45e1-9c31-29cea8c87ce7/spl-doc",
+        "openfda_url": "https://api.fda.gov/drug/label.json?search=spl_product_data_elements:\"Tagrisso\"",
+        "harmonised": false
+      }
+    },
+    {
+      "id": "drug-3",
+      "name": "Osimertinib (Tagrisso)",
+      "code": "AZD9291",
+      "target": "EGFR",
+      "genes": [
+        "EGFR"
+      ],
+      "modality": "small molecule",
+      "company": "AstraZeneca",
+      "partner": "",
+      "phase": "approved",
+      "phase_rank": 7,
+      "trial_name": "LAURA",
+      "nct_id": "NCT03521154",
+      "line": "after chemoradiation, stage III",
+      "status": "approved",
+      "readout": "Osimertinib following chemoradiation in unresectable stage III disease",
+      "readout_date": "",
+      "subtype_label": "EGFR-mutant",
+      "nodes": [
+        "drv-egfr"
+      ],
+      "receptor_context": "unresectable stage III after chemoradiation",
+      "source_url": "https://clinicaltrials.gov/study/NCT03521154",
+      "registry": {
+        "title": "A Global Study to Assess the Effects of Osimertinib Following Chemoradiation in Patients With Stage III Unresectable Non-small Cell Lung Cancer (LAURA)",
+        "overall_status": "ACTIVE_NOT_RECRUITING",
+        "phase": "Phase 3",
+        "sponsor": "AstraZeneca",
+        "enrollment": 216,
+        "start_date": "2018-07-19",
+        "primary_completion_date": "2024-01-05",
+        "last_update_posted": "2026-08-04",
+        "url": "https://clinicaltrials.gov/study/NCT03521154"
+      },
+      "label": {
+        "matched_brand": "TAGRISSO",
+        "matched_generic": "osimertinib",
+        "manufacturer": null,
+        "effective_time": "20240925",
+        "spl_id": "d703b5ed-4b1c-44fe-8005-ebe3d8f563e6",
+        "boxed": null,
+        "warnings": [
+          "Interstitial Lung Disease (ILD)/Pneumonitis",
+          "QTc Interval Prolongation",
+          "Cardiomyopathy",
+          "Keratitis",
+          "Syndrome, and Toxic Epidermal Necrolysis",
+          "Cutaneous Vasculitis",
+          "Aplastic Anemia",
+          "Embryo-Fetal Toxicity"
+        ],
+        "common": {
+          "text": "• TAGRISSO monotherapy: leukopenia, lymphopenia, thrombocytopenia, anemia, diarrhea, rash, musculoskeletal pain, neutropenia, nail toxicity, dry skin, stomatitis, and fatigue",
+          "has_frequencies": false
+        },
+        "url": "https://nctr-crs.fda.gov/fdalabel/services/spl/set-ids/5e81b4a7-b971-45e1-9c31-29cea8c87ce7/spl-doc",
+        "openfda_url": "https://api.fda.gov/drug/label.json?search=spl_product_data_elements:\"Tagrisso\"",
+        "harmonised": false
+      }
+    },
+    {
+      "id": "drug-4",
+      "name": "Amivantamab + lazertinib (Rybrevant + Lazcluze)",
+      "code": "",
+      "target": "EGFR + MET",
+      "genes": [
+        "EGFR",
+        "MET"
+      ],
+      "modality": "bispecific antibody",
+      "company": "Janssen Research & Development",
+      "partner": "",
+      "phase": "approved",
+      "phase_rank": 7,
+      "trial_name": "MARIPOSA",
+      "nct_id": "NCT04487080",
+      "line": "1L metastatic",
+      "status": "approved",
+      "readout": "Amivantamab and lazertinib versus osimertinib, first line",
+      "readout_date": "",
+      "subtype_label": "EGFR-mutant",
+      "nodes": [
+        "drv-egfr"
+      ],
+      "receptor_context": "exon 19 deletion or L858R",
+      "source_url": "https://clinicaltrials.gov/study/NCT04487080",
+      "registry": {
+        "title": "A Study of Amivantamab and Lazertinib Combination Therapy Versus Osimertinib in Locally Advanced or Metastatic Non-Small Cell Lung Cancer",
+        "overall_status": "ACTIVE_NOT_RECRUITING",
+        "phase": "Phase 3",
+        "sponsor": "Janssen Research & Development, LLC",
+        "enrollment": 1074,
+        "start_date": "2020-09-30",
+        "primary_completion_date": "2023-08-11",
+        "last_update_posted": "2026-09-28",
+        "url": "https://clinicaltrials.gov/study/NCT04487080"
+      },
+      "label": {
+        "matched_brand": "Rybrevant",
+        "matched_generic": "AMIVANTAMAB-VMJW",
+        "manufacturer": "Janssen Biotech, Inc.",
+        "effective_time": "20251111",
+        "spl_id": "ce70b7e6-860b-49b8-8d74-c2a0f8c88c21",
+        "boxed": null,
+        "warnings": [
+          "Infusion-Related Reactions (IRR)",
+          "Interstitial Lung Disease (ILD)/Pneumonitis",
+          "Dermatologic Adverse Reactions",
+          "Ocular Toxicity",
+          "Embryo-Fetal Toxicity"
+        ],
+        "common": {
+          "text": "rash, nail toxicity, infusion-related reaction, musculoskeletal pain, stomatitis, edema, VTE, paresthesia, fatigue, diarrhea, constipation, COVID-19, hemorrhage, dry skin, decreased appetite, pruritus, and nausea",
+          "has_frequencies": false
+        },
+        "url": "https://nctr-crs.fda.gov/fdalabel/services/spl/set-ids/1466c070-9f97-4fa4-a955-6a6b59981fb8/spl-doc",
+        "openfda_url": "https://api.fda.gov/drug/label.json?search=openfda.generic_name:\"Amivantamab\""
+      }
+    },
+    {
+      "id": "drug-5",
+      "name": "Amivantamab + chemotherapy (Rybrevant)",
+      "code": "",
+      "target": "EGFR + MET",
+      "genes": [
+        "EGFR",
+        "MET"
+      ],
+      "modality": "bispecific antibody",
+      "company": "Janssen Research & Development",
+      "partner": "",
+      "phase": "approved",
+      "phase_rank": 7,
+      "trial_name": "MARIPOSA-2",
+      "nct_id": "NCT04988295",
+      "line": "after osimertinib",
+      "status": "approved",
+      "readout": "Amivantamab with platinum chemotherapy versus chemotherapy alone",
+      "readout_date": "",
+      "subtype_label": "EGFR-mutant, after EGFR TKI",
+      "nodes": [
+        "res-treated"
+      ],
+      "receptor_context": "progressed on or after osimertinib",
+      "source_url": "https://clinicaltrials.gov/study/NCT04988295",
+      "registry": {
+        "title": "A Study of Amivantamab and Lazertinib in Combination With Platinum-Based Chemotherapy Compared With Platinum-Based Chemotherapy in Patients With Epidermal Growth Factor Receptor (EGFR)-Mutated Locally Advanced or Metastatic Non- Small Cell Lung Cancer After Osimertinib Failure",
+        "overall_status": "ACTIVE_NOT_RECRUITING",
+        "phase": "Phase 3",
+        "sponsor": "Janssen Research & Development, LLC",
+        "enrollment": 776,
+        "start_date": "2021-11-17",
+        "primary_completion_date": "2023-07-10",
+        "last_update_posted": "2026-09-28",
+        "url": "https://clinicaltrials.gov/study/NCT04988295"
+      },
+      "label": {
+        "matched_brand": "Rybrevant",
+        "matched_generic": "AMIVANTAMAB-VMJW",
+        "manufacturer": "Janssen Biotech, Inc.",
+        "effective_time": "20251111",
+        "spl_id": "ce70b7e6-860b-49b8-8d74-c2a0f8c88c21",
+        "boxed": null,
+        "warnings": [
+          "Infusion-Related Reactions (IRR)",
+          "Interstitial Lung Disease (ILD)/Pneumonitis",
+          "Dermatologic Adverse Reactions",
+          "Ocular Toxicity",
+          "Embryo-Fetal Toxicity"
+        ],
+        "common": {
+          "text": "rash, nail toxicity, infusion-related reaction, musculoskeletal pain, stomatitis, edema, VTE, paresthesia, fatigue, diarrhea, constipation, COVID-19, hemorrhage, dry skin, decreased appetite, pruritus, and nausea",
+          "has_frequencies": false
+        },
+        "url": "https://nctr-crs.fda.gov/fdalabel/services/spl/set-ids/1466c070-9f97-4fa4-a955-6a6b59981fb8/spl-doc",
+        "openfda_url": "https://api.fda.gov/drug/label.json?search=openfda.brand_name:\"Rybrevant\""
+      }
+    },
+    {
+      "id": "drug-6",
+      "name": "Amivantamab (Rybrevant)",
+      "code": "",
+      "target": "EGFR + MET",
+      "genes": [
+        "EGFR",
+        "MET"
+      ],
+      "modality": "bispecific antibody",
+      "company": "Janssen Research & Development",
+      "partner": "",
+      "phase": "approved",
+      "phase_rank": 7,
+      "trial_name": "PAPILLON",
+      "nct_id": "NCT04538664",
+      "line": "1L metastatic",
+      "status": "approved",
+      "readout": "Amivantamab with carboplatin-pemetrexed versus carboplatin-pemetrexed",
+      "readout_date": "",
+      "subtype_label": "EGFR exon 20 insertion",
+      "nodes": [
+        "drv-egfr-ex20"
+      ],
+      "receptor_context": "exon 20 insertion",
+      "source_url": "https://clinicaltrials.gov/study/NCT04538664",
+      "registry": {
+        "title": "A Study of Combination Amivantamab and Carboplatin-Pemetrexed Therapy, Compared With Carboplatin-Pemetrexed, in Participants With Advanced or Metastatic Non-Small Cell Lung Cancer Characterized by Epidermal Growth Factor Receptor (EGFR) Exon 20 Insertions",
+        "overall_status": "ACTIVE_NOT_RECRUITING",
+        "phase": "Phase 3",
+        "sponsor": "Janssen Research & Development, LLC",
+        "enrollment": 308,
+        "start_date": "2020-10-13",
+        "primary_completion_date": "2023-05-03",
+        "last_update_posted": "2026-08-31",
+        "url": "https://clinicaltrials.gov/study/NCT04538664"
+      },
+      "label": {
+        "matched_brand": "Rybrevant",
+        "matched_generic": "AMIVANTAMAB-VMJW",
+        "manufacturer": "Janssen Biotech, Inc.",
+        "effective_time": "20251111",
+        "spl_id": "ce70b7e6-860b-49b8-8d74-c2a0f8c88c21",
+        "boxed": null,
+        "warnings": [
+          "Infusion-Related Reactions (IRR)",
+          "Interstitial Lung Disease (ILD)/Pneumonitis",
+          "Dermatologic Adverse Reactions",
+          "Ocular Toxicity",
+          "Embryo-Fetal Toxicity"
+        ],
+        "common": {
+          "text": "rash, nail toxicity, infusion-related reaction, musculoskeletal pain, stomatitis, edema, VTE, paresthesia, fatigue, diarrhea, constipation, COVID-19, hemorrhage, dry skin, decreased appetite, pruritus, and nausea",
+          "has_frequencies": false
+        },
+        "url": "https://nctr-crs.fda.gov/fdalabel/services/spl/set-ids/1466c070-9f97-4fa4-a955-6a6b59981fb8/spl-doc",
+        "openfda_url": "https://api.fda.gov/drug/label.json?search=openfda.brand_name:\"Rybrevant\""
+      }
+    },
+    {
+      "id": "drug-7",
+      "name": "Dacomitinib (Vizimpro)",
+      "code": "",
+      "target": "EGFR",
+      "genes": [
+        "EGFR"
+      ],
+      "modality": "small molecule",
+      "company": "Pfizer",
+      "partner": "",
+      "phase": "approved",
+      "phase_rank": 7,
+      "trial_name": "ARCHER 1050",
+      "nct_id": "NCT01774721",
+      "line": "1L metastatic",
+      "status": "approved",
+      "readout": "Dacomitinib versus gefitinib, first line",
+      "readout_date": "",
+      "subtype_label": "EGFR-mutant",
+      "nodes": [
+        "drv-egfr"
+      ],
+      "receptor_context": "exon 19 deletion or L858R",
+      "source_url": "https://clinicaltrials.gov/study/NCT01774721",
+      "registry": {
+        "title": "ARCHER1050: A Study of Dacomitinib vs. Gefitinib in 1st-Line Treatment Of Advanced NSCLC.",
+        "overall_status": "COMPLETED",
+        "phase": "Phase 3",
+        "sponsor": "Pfizer",
+        "enrollment": 452,
+        "start_date": "2013-05-09",
+        "primary_completion_date": "2016-07-29",
+        "last_update_posted": "2023-11-14",
+        "url": "https://clinicaltrials.gov/study/NCT01774721"
+      },
+      "label": {
+        "matched_brand": "Vizimpro",
+        "matched_generic": "DACOMITINIB",
+        "manufacturer": "Pfizer Laboratories Div Pfizer Inc",
+        "effective_time": "20260623",
+        "spl_id": "3ffd0da1-5601-4ecc-a8fb-f484693cb4c5",
+        "boxed": null,
+        "warnings": [
+          "Interstitial Lung Disease (ILD)",
+          "Diarrhea",
+          "Dermatologic Adverse Reactions",
+          "Embryo-Fetal Toxicity"
+        ],
+        "common": {
+          "text": "diarrhea, rash, paronychia, stomatitis, decreased appetite, dry skin, decreased weight, alopecia, cough, and pruritus",
+          "has_frequencies": false
+        },
+        "url": "https://nctr-crs.fda.gov/fdalabel/services/spl/set-ids/4ab27d2f-e385-4e9c-b324-fa69c10b855a/spl-doc",
+        "openfda_url": "https://api.fda.gov/drug/label.json?search=openfda.brand_name:\"Vizimpro\""
+      }
+    },
+    {
+      "id": "drug-8",
+      "name": "Afatinib (Gilotrif)",
+      "code": "BIBW 2992",
+      "target": "EGFR",
+      "genes": [
+        "EGFR"
+      ],
+      "modality": "small molecule",
+      "company": "Boehringer Ingelheim",
+      "partner": "",
+      "phase": "approved",
+      "phase_rank": 7,
+      "trial_name": "LUX-Lung 3",
+      "nct_id": "NCT00949650",
+      "line": "1L metastatic",
+      "status": "approved",
+      "readout": "Afatinib versus chemotherapy, first line",
+      "readout_date": "",
+      "subtype_label": "EGFR-mutant",
+      "nodes": [
+        "drv-egfr"
+      ],
+      "receptor_context": "EGFR mutation",
+      "source_url": "https://clinicaltrials.gov/study/NCT00949650",
+      "registry": {
+        "title": "BIBW 2992 (Afatinib) Versus Chemotherapy as First Line Treatment in NSCLC With EGFR Mutation",
+        "overall_status": "COMPLETED",
+        "phase": "Phase 3",
+        "sponsor": "Boehringer Ingelheim",
+        "enrollment": 345,
+        "start_date": "2009-08-14",
+        "primary_completion_date": "2012-02-09",
+        "last_update_posted": "2018-04-06",
+        "url": "https://clinicaltrials.gov/study/NCT00949650"
+      },
+      "label": {
+        "matched_brand": "Gilotrif",
+        "matched_generic": "AFATINIB",
+        "manufacturer": "Boehringer Ingelheim Pharmaceuticals, Inc.",
+        "effective_time": "20251113",
+        "spl_id": "3a365319-7ba8-4454-8239-7b0e7ff8a18e",
+        "boxed": null,
+        "warnings": [
+          "Diarrhea",
+          "Bullous and exfoliative skin disorders",
+          "Interstitial lung disease (ILD)",
+          "Hepatic toxicity",
+          "Gastrointestinal perforation",
+          "Keratitis",
+          "Embryo-fetal toxicity"
+        ],
+        "common": {
+          "text": "diarrhea, rash/acneiform dermatitis, stomatitis, paronychia, dry skin, decreased appetite, nausea, vomiting, pruritus ( 6.1 )",
+          "has_frequencies": false
+        },
+        "url": "https://nctr-crs.fda.gov/fdalabel/services/spl/set-ids/fd638e5e-8032-e7ca-0179-95e96ab5d387/spl-doc",
+        "openfda_url": "https://api.fda.gov/drug/label.json?search=openfda.brand_name:\"Gilotrif\""
+      }
+    },
+    {
+      "id": "drug-9",
+      "name": "Gefitinib (Iressa)",
+      "code": "",
+      "target": "EGFR",
+      "genes": [
+        "EGFR"
+      ],
+      "modality": "small molecule",
+      "company": "AstraZeneca",
+      "partner": "",
+      "phase": "approved",
+      "phase_rank": 7,
+      "trial_name": "IPASS",
+      "nct_id": "NCT00322452",
+      "line": "1L metastatic",
+      "status": "approved",
+      "readout": "Gefitinib versus carboplatin-paclitaxel, first line, in Asia",
+      "readout_date": "",
+      "subtype_label": "EGFR-mutant",
+      "nodes": [
+        "drv-egfr"
+      ],
+      "receptor_context": "EGFR mutation",
+      "source_url": "https://clinicaltrials.gov/study/NCT00322452",
+      "registry": {
+        "title": "First Line IRESSA™ Versus Carboplatin/Paclitaxel in Asia",
+        "overall_status": "COMPLETED",
+        "phase": "Phase 3",
+        "sponsor": "AstraZeneca",
+        "enrollment": 1329,
+        "start_date": "2006-03",
+        "primary_completion_date": "2008-04",
+        "last_update_posted": "2013-11-07",
+        "url": "https://clinicaltrials.gov/study/NCT00322452"
+      },
+      "label": {
+        "matched_brand": "IRESSA",
+        "matched_generic": "GEFITINIB",
+        "manufacturer": "AstraZeneca Pharmaceuticals LP",
+        "effective_time": "20230228",
+        "spl_id": "508019dd-61d5-4459-9476-3f5897143f0c",
+        "boxed": null,
+        "warnings": [
+          "Interstitial lung disease (ILD)",
+          "Hepatotoxicity",
+          "Gastrointestinal perforation",
+          "Diarrhea",
+          "Ocular Disorders including Keratitis",
+          "Bullous and Exfoliative Skin Disorders",
+          "Embryo-fetal Toxicity"
+        ],
+        "common": null,
+        "url": "https://nctr-crs.fda.gov/fdalabel/services/spl/set-ids/827d60e8-7e07-41b7-c28b-49ef1c4a5a41/spl-doc",
+        "openfda_url": "https://api.fda.gov/drug/label.json?search=openfda.brand_name:\"Iressa\""
+      }
+    },
+    {
+      "id": "drug-10",
+      "name": "Erlotinib (Tarceva)",
+      "code": "",
+      "target": "EGFR",
+      "genes": [
+        "EGFR"
+      ],
+      "modality": "small molecule",
+      "company": "Spanish Lung Cancer Group",
+      "partner": "",
+      "phase": "approved",
+      "phase_rank": 7,
+      "trial_name": "EURTAC",
+      "nct_id": "NCT00446225",
+      "line": "1L metastatic",
+      "status": "approved",
+      "readout": "Erlotinib versus chemotherapy in EGFR-mutant disease",
+      "readout_date": "",
+      "subtype_label": "EGFR-mutant",
+      "nodes": [
+        "drv-egfr"
+      ],
+      "receptor_context": "EGFR mutation",
+      "source_url": "https://clinicaltrials.gov/study/NCT00446225",
+      "registry": {
+        "title": "Phase III Study (Tarceva®) vs Chemotherapy to Treat Advanced Non-Small Cell Lung Cancer in Patients With Mutations in the TK Domain of EGFR",
+        "overall_status": "COMPLETED",
+        "phase": "Phase 3",
+        "sponsor": "Spanish Lung Cancer Group",
+        "enrollment": 174,
+        "start_date": "2007-02-15",
+        "primary_completion_date": "2012-04-11",
+        "last_update_posted": "2025-03-05",
+        "url": "https://clinicaltrials.gov/study/NCT00446225"
+      },
+      "label": {
+        "matched_brand": "Erlotinib",
+        "matched_generic": "ERLOTINIB",
+        "manufacturer": "Aurobindo Pharma Limited",
+        "effective_time": "20220606",
+        "spl_id": "3ecafc1e-979a-4aff-a276-18fc0b110491",
+        "boxed": null,
+        "warnings": [
+          "Interstitial lung disease (ILD)",
+          "Renal failure",
+          "Hepatotoxicity",
+          "Gastrointestinal perforations",
+          "Bullous and exfoliative skin disorders",
+          "Cerebrovascular accident (CVA)",
+          "Microangiopathic hemolytic anemia (MAHA)",
+          "Ocular disorders",
+          "Hemorrhage in patients taking warfarin",
+          "Embryo-fetal toxicity"
+        ],
+        "common": {
+          "text": "rash and diarrhea usually with onset during the first month of treatment",
+          "has_frequencies": false
+        },
+        "url": "https://nctr-crs.fda.gov/fdalabel/services/spl/set-ids/3ecafc1e-979a-4aff-a276-18fc0b110491/spl-doc",
+        "openfda_url": "https://api.fda.gov/drug/label.json?search=openfda.generic_name:\"Erlotinib\""
+      }
+    },
+    {
+      "id": "drug-11",
+      "name": "Datopotamab deruxtecan (Datroway)",
+      "code": "DS-1062a",
+      "target": "TROP2",
+      "genes": [
+        "TACSTD2"
+      ],
+      "modality": "ADC",
+      "company": "Daiichi Sankyo",
+      "partner": "",
+      "phase": "approved",
+      "phase_rank": 7,
+      "trial_name": "TROPION-Lung05",
+      "nct_id": "NCT04484142",
+      "line": "after EGFR therapy and platinum",
+      "status": "approved",
+      "readout": "Datopotamab deruxtecan in NSCLC with actionable genomic alterations",
+      "readout_date": "",
+      "subtype_label": "EGFR-mutant, after EGFR TKI",
+      "nodes": [
+        "res-treated"
+      ],
+      "receptor_context": "after EGFR-directed therapy and platinum",
+      "source_url": "https://clinicaltrials.gov/study/NCT04484142",
+      "registry": {
+        "title": "Study of DS-1062a in Advanced or Metastatic Non-small Cell Lung Cancer With Actionable Genomic Alterations (TROPION-Lung05)",
+        "overall_status": "COMPLETED",
+        "phase": "Phase 2",
+        "sponsor": "Daiichi Sankyo",
+        "enrollment": 137,
+        "start_date": "2021-03-30",
+        "primary_completion_date": "2023-03-10",
+        "last_update_posted": "2026-03-24",
+        "url": "https://clinicaltrials.gov/study/NCT04484142"
+      },
+      "label": {
+        "matched_brand": "DATROWAY",
+        "matched_generic": "DATOPOTAMAB DERUXTECAN",
+        "manufacturer": "Daiichi Sankyo Inc.",
+        "effective_time": "20260527",
+        "spl_id": "c5c6cd04-1bea-4809-a830-b1fb1ba94e97",
+        "boxed": null,
+        "warnings": [
+          "Lung Disease (ILD) and Pneumonitis",
+          "Ocular Adverse Reactions",
+          "Stomatitis/Oral Mucositis",
+          "Embryo-Fetal Toxicity"
+        ],
+        "common": {
+          "text": "stomatitis, nausea, alopecia, fatigue, decreased hemoglobin, decreased lymphocytes, constipation, increased calcium, increased AST, decreased white blood cell count, increased lactate dehydrogenase, musculoskeletal pain, decreased appetite, increased ALT, and rash",
+          "has_frequencies": false
+        },
+        "url": "https://nctr-crs.fda.gov/fdalabel/services/spl/set-ids/2950227c-6230-4ca4-a135-46e44d9424a0/spl-doc",
+        "openfda_url": "https://api.fda.gov/drug/label.json?search=openfda.brand_name:\"Datroway\""
+      }
+    },
+    {
+      "id": "drug-12",
+      "name": "Alectinib (Alecensa)",
+      "code": "",
+      "target": "ALK",
+      "genes": [
+        "ALK"
+      ],
+      "modality": "small molecule",
+      "company": "Hoffmann-La Roche",
+      "partner": "",
+      "phase": "approved",
+      "phase_rank": 7,
+      "trial_name": "ALEX",
+      "nct_id": "NCT02075840",
+      "line": "1L metastatic",
+      "status": "approved",
+      "readout": "Alectinib versus crizotinib, treatment-naive",
+      "readout_date": "",
+      "subtype_label": "ALK-positive",
+      "nodes": [
+        "drv-alk"
+      ],
+      "receptor_context": "ALK rearrangement",
+      "source_url": "https://clinicaltrials.gov/study/NCT02075840",
+      "registry": {
+        "title": "A Study Comparing Alectinib With Crizotinib in Treatment-Naive Anaplastic Lymphoma Kinase-Positive Advanced Non-Small Cell Lung Cancer Participants",
+        "overall_status": "COMPLETED",
+        "phase": "Phase 3",
+        "sponsor": "Hoffmann-La Roche",
+        "enrollment": 303,
+        "start_date": "2014-08-19",
+        "primary_completion_date": "2017-02-09",
+        "last_update_posted": "2026-05-29",
+        "url": "https://clinicaltrials.gov/study/NCT02075840"
+      },
+      "label": {
+        "matched_brand": "ALECENSA",
+        "matched_generic": "ALECTINIB HYDROCHLORIDE",
+        "manufacturer": "Genentech, Inc.",
+        "effective_time": "20260821",
+        "spl_id": "3159555e-f227-4168-9e96-96f5b705fad2",
+        "boxed": null,
+        "warnings": [
+          "Hepatotoxicity",
+          "Interstitial Lung Disease (ILD)/Pneumonitis",
+          "Renal Impairment",
+          "Bradycardia",
+          "Creatine Phosphokinase (CPK) Elevation",
+          "Hemolytic Anemia",
+          "Hypertriglyceridemia Leading to Pancreatitis",
+          "Embryo-Fetal Toxicity"
+        ],
+        "common": {
+          "text": "hepatotoxicity, constipation, fatigue, myalgia, edema, rash and cough",
+          "has_frequencies": false
+        },
+        "url": "https://nctr-crs.fda.gov/fdalabel/services/spl/set-ids/42c49deb-713b-427a-9670-08af08adcffb/spl-doc",
+        "openfda_url": "https://api.fda.gov/drug/label.json?search=openfda.brand_name:\"Alecensa\""
+      }
+    },
+    {
+      "id": "drug-13",
+      "name": "Lorlatinib (Lorbrena)",
+      "code": "",
+      "target": "ALK",
+      "genes": [
+        "ALK"
+      ],
+      "modality": "small molecule",
+      "company": "Pfizer",
+      "partner": "",
+      "phase": "approved",
+      "phase_rank": 7,
+      "trial_name": "CROWN",
+      "nct_id": "NCT03052608",
+      "line": "1L metastatic",
+      "status": "approved",
+      "readout": "Lorlatinib versus crizotinib, first line",
+      "readout_date": "",
+      "subtype_label": "ALK-positive",
+      "nodes": [
+        "drv-alk"
+      ],
+      "receptor_context": "ALK rearrangement",
+      "source_url": "https://clinicaltrials.gov/study/NCT03052608",
+      "registry": {
+        "title": "A Study Of Lorlatinib Versus Crizotinib In First Line Treatment Of Patients With ALK-Positive NSCLC",
+        "overall_status": "ACTIVE_NOT_RECRUITING",
+        "phase": "Phase 3",
+        "sponsor": "Pfizer",
+        "enrollment": 296,
+        "start_date": "2017-04-27",
+        "primary_completion_date": "2020-03-20",
+        "last_update_posted": "2025-11-25",
+        "url": "https://clinicaltrials.gov/study/NCT03052608"
+      },
+      "label": {
+        "matched_brand": "Lorbrena",
+        "matched_generic": "LORLATINIB",
+        "manufacturer": "U.S. Pharmaceuticals",
+        "effective_time": "20260213",
+        "spl_id": "810ce789-bff1-42b9-aef7-1f92f0dde727",
+        "boxed": null,
+        "warnings": [
+          "Concomitant Use of Strong CYP3A Inducers",
+          "Central Nervous System (CNS) Effects",
+          "Hyperlipidemia",
+          "Atrioventricular Block",
+          "Interstitial Lung Disease/Pneumonitis",
+          "Hypertension",
+          "Hyperglycemia",
+          "Embryo-Fetal Toxicity"
+        ],
+        "common": {
+          "text": "edema, peripheral neuropathy, weight gain, cognitive effects, fatigue, dyspnea, arthralgia, diarrhea, mood effects, hypercholesterolemia, hypertriglyceridemia, and cough",
+          "has_frequencies": false
+        },
+        "url": "https://nctr-crs.fda.gov/fdalabel/services/spl/set-ids/004f93d7-a1cd-4b67-9207-31cdcb5c5976/spl-doc",
+        "openfda_url": "https://api.fda.gov/drug/label.json?search=openfda.brand_name:\"Lorbrena\""
+      }
+    },
+    {
+      "id": "drug-14",
+      "name": "Brigatinib (Alunbrig)",
+      "code": "",
+      "target": "ALK",
+      "genes": [
+        "ALK"
+      ],
+      "modality": "small molecule",
+      "company": "Ariad Pharmaceuticals",
+      "partner": "",
+      "phase": "approved",
+      "phase_rank": 7,
+      "trial_name": "ALTA-1L",
+      "nct_id": "NCT02737501",
+      "line": "1L metastatic",
+      "status": "approved",
+      "readout": "Brigatinib versus crizotinib",
+      "readout_date": "",
+      "subtype_label": "ALK-positive",
+      "nodes": [
+        "drv-alk"
+      ],
+      "receptor_context": "ALK rearrangement",
+      "source_url": "https://clinicaltrials.gov/study/NCT02737501",
+      "registry": {
+        "title": "ALTA-1L Study: A Study of Brigatinib Versus Crizotinib in Anaplastic Lymphoma Kinase Positive (ALK+) Advanced Non-small Cell Lung Cancer (NSCLC) Participants",
+        "overall_status": "COMPLETED",
+        "phase": "Phase 3",
+        "sponsor": "Ariad Pharmaceuticals",
+        "enrollment": 275,
+        "start_date": "2016-05-26",
+        "primary_completion_date": "2020-07-28",
+        "last_update_posted": "2021-08-20",
+        "url": "https://clinicaltrials.gov/study/NCT02737501"
+      },
+      "label": {
+        "matched_brand": "Alunbrig",
+        "matched_generic": "BRIGATINIB",
+        "manufacturer": "Takeda Pharmaceuticals America, Inc.",
+        "effective_time": "20260112",
+        "spl_id": "176eb255-05c0-4cfc-874f-1fb57136d34d",
+        "boxed": null,
+        "warnings": [
+          "Interstitial Lung Disease (ILD)/Pneumonitis",
+          "Hypertension",
+          "Bradycardia",
+          "Visual Disturbance",
+          "Creatine Phosphokinase (CPK) Elevation",
+          "Pancreatic Enzymes Elevation",
+          "Hepatotoxicity",
+          "Hyperglycemia",
+          "Photosensitivity",
+          "Embryo-Fetal Toxicity"
+        ],
+        "common": {
+          "text": "diarrhea, fatigue, nausea, rash, cough, myalgia, headache, hypertension, vomiting, and dyspnea",
+          "has_frequencies": false
+        },
+        "url": "https://nctr-crs.fda.gov/fdalabel/services/spl/set-ids/0fe9ff20-d402-41f3-bc1e-7002ea7007db/spl-doc",
+        "openfda_url": "https://api.fda.gov/drug/label.json?search=openfda.brand_name:\"Alunbrig\""
+      }
+    },
+    {
+      "id": "drug-15",
+      "name": "Crizotinib (Xalkori)",
+      "code": "PF-02341066",
+      "target": "ALK + ROS1",
+      "genes": [
+        "ALK",
+        "ROS1"
+      ],
+      "modality": "small molecule",
+      "company": "Pfizer",
+      "partner": "",
+      "phase": "approved",
+      "phase_rank": 7,
+      "trial_name": "PROFILE 1014",
+      "nct_id": "NCT01154140",
+      "line": "1L metastatic",
+      "status": "approved",
+      "readout": "Crizotinib versus pemetrexed plus platinum",
+      "readout_date": "",
+      "subtype_label": "ALK-positive",
+      "nodes": [
+        "drv-alk"
+      ],
+      "receptor_context": "ALK rearrangement",
+      "source_url": "https://clinicaltrials.gov/study/NCT01154140",
+      "registry": {
+        "title": "A Clinical Trial Testing The Efficacy Of Crizotinib Versus Standard Chemotherapy Pemetrexed Plus Cisplatin Or Carboplatin In Patients With ALK Positive Non Squamous Cancer Of The Lung",
+        "overall_status": "COMPLETED",
+        "phase": "Phase 3",
+        "sponsor": "Pfizer",
+        "enrollment": 343,
+        "start_date": "2011-01-13",
+        "primary_completion_date": "2013-11-30",
+        "last_update_posted": "2017-11-06",
+        "url": "https://clinicaltrials.gov/study/NCT01154140"
+      },
+      "label": {
+        "matched_brand": "Xalkori",
+        "matched_generic": "CRIZOTINIB",
+        "manufacturer": "Pfizer Laboratories Div Pfizer Inc",
+        "effective_time": "20250722",
+        "spl_id": "f5e01d3a-43fc-4fa6-b5dd-a07330b49328",
+        "boxed": null,
+        "warnings": [
+          "Hepatotoxicity",
+          "Interstitial Lung Disease (ILD)/Pneumonitis",
+          "QT Interval Prolongation",
+          "Bradycardia",
+          "Severe Visual Loss",
+          "ALCL or Pediatric Patients with IMT",
+          "Embryo-Fetal Toxicity"
+        ],
+        "common": {
+          "text": "vision disorders, nausea, diarrhea, vomiting, edema, constipation, elevated transaminases, fatigue, decreased appetite, upper respiratory infection, dizziness, and neuropathy",
+          "has_frequencies": false
+        },
+        "url": "https://nctr-crs.fda.gov/fdalabel/services/spl/set-ids/2a51b0de-47d6-455e-a94c-d2c737b04ff7/spl-doc",
+        "openfda_url": "https://api.fda.gov/drug/label.json?search=openfda.brand_name:\"Xalkori\""
+      }
+    },
+    {
+      "id": "drug-16",
+      "name": "Alectinib (Alecensa)",
+      "code": "",
+      "target": "ALK",
+      "genes": [
+        "ALK"
+      ],
+      "modality": "small molecule",
+      "company": "Hoffmann-La Roche",
+      "partner": "",
+      "phase": "approved",
+      "phase_rank": 7,
+      "trial_name": "ALINA",
+      "nct_id": "NCT03456076",
+      "line": "adjuvant",
+      "status": "approved",
+      "readout": "Adjuvant alectinib versus platinum chemotherapy",
+      "readout_date": "",
+      "subtype_label": "ALK-positive, resected",
+      "nodes": [
+        "drv-alk"
+      ],
+      "receptor_context": "after complete resection",
+      "source_url": "https://clinicaltrials.gov/study/NCT03456076",
+      "registry": {
+        "title": "A Study Comparing Adjuvant Alectinib Versus Adjuvant Platinum-Based Chemotherapy in Patients With ALK Positive Non-Small Cell Lung Cancer",
+        "overall_status": "ACTIVE_NOT_RECRUITING",
+        "phase": "Phase 3",
+        "sponsor": "Hoffmann-La Roche",
+        "enrollment": 257,
+        "start_date": "2018-08-16",
+        "primary_completion_date": "2023-06-26",
+        "last_update_posted": "2026-10-14",
+        "url": "https://clinicaltrials.gov/study/NCT03456076"
+      },
+      "label": {
+        "matched_brand": "ALECENSA",
+        "matched_generic": "ALECTINIB HYDROCHLORIDE",
+        "manufacturer": "Genentech, Inc.",
+        "effective_time": "20260821",
+        "spl_id": "3159555e-f227-4168-9e96-96f5b705fad2",
+        "boxed": null,
+        "warnings": [
+          "Hepatotoxicity",
+          "Interstitial Lung Disease (ILD)/Pneumonitis",
+          "Renal Impairment",
+          "Bradycardia",
+          "Creatine Phosphokinase (CPK) Elevation",
+          "Hemolytic Anemia",
+          "Hypertriglyceridemia Leading to Pancreatitis",
+          "Embryo-Fetal Toxicity"
+        ],
+        "common": {
+          "text": "hepatotoxicity, constipation, fatigue, myalgia, edema, rash and cough",
+          "has_frequencies": false
+        },
+        "url": "https://nctr-crs.fda.gov/fdalabel/services/spl/set-ids/42c49deb-713b-427a-9670-08af08adcffb/spl-doc",
+        "openfda_url": "https://api.fda.gov/drug/label.json?search=openfda.brand_name:\"Alecensa\""
+      }
+    },
+    {
+      "id": "drug-17",
+      "name": "Crizotinib (Xalkori)",
+      "code": "PF-02341066",
+      "target": "ALK + ROS1",
+      "genes": [
+        "ALK",
+        "ROS1"
+      ],
+      "modality": "small molecule",
+      "company": "Pfizer",
+      "partner": "",
+      "phase": "approved",
+      "phase_rank": 7,
+      "trial_name": "PROFILE 1001",
+      "nct_id": "NCT00585195",
+      "line": "metastatic",
+      "status": "approved",
+      "readout": "First-in-human study of crizotinib in advanced cancers",
+      "readout_date": "",
+      "subtype_label": "ROS1-positive",
+      "nodes": [
+        "drv-ros1"
+      ],
+      "receptor_context": "ROS1 rearrangement",
+      "source_url": "https://clinicaltrials.gov/study/NCT00585195",
+      "registry": {
+        "title": "A Study Of Oral PF-02341066, A C-Met/Hepatocyte Growth Factor Tyrosine Kinase Inhibitor, In Patients With Advanced Cancer",
+        "overall_status": "COMPLETED",
+        "phase": "Phase 1",
+        "sponsor": "Pfizer",
+        "enrollment": 596,
+        "start_date": "2006-04-19",
+        "primary_completion_date": "2020-07-30",
+        "last_update_posted": "2023-02-08",
+        "url": "https://clinicaltrials.gov/study/NCT00585195"
+      },
+      "label": {
+        "matched_brand": "Xalkori",
+        "matched_generic": "CRIZOTINIB",
+        "manufacturer": "Pfizer Laboratories Div Pfizer Inc",
+        "effective_time": "20250722",
+        "spl_id": "f5e01d3a-43fc-4fa6-b5dd-a07330b49328",
+        "boxed": null,
+        "warnings": [
+          "Hepatotoxicity",
+          "Interstitial Lung Disease (ILD)/Pneumonitis",
+          "QT Interval Prolongation",
+          "Bradycardia",
+          "Severe Visual Loss",
+          "ALCL or Pediatric Patients with IMT",
+          "Embryo-Fetal Toxicity"
+        ],
+        "common": {
+          "text": "vision disorders, nausea, diarrhea, vomiting, edema, constipation, elevated transaminases, fatigue, decreased appetite, upper respiratory infection, dizziness, and neuropathy",
+          "has_frequencies": false
+        },
+        "url": "https://nctr-crs.fda.gov/fdalabel/services/spl/set-ids/2a51b0de-47d6-455e-a94c-d2c737b04ff7/spl-doc",
+        "openfda_url": "https://api.fda.gov/drug/label.json?search=openfda.brand_name:\"Xalkori\""
+      }
+    },
+    {
+      "id": "drug-18",
+      "name": "Repotrectinib (Augtyro)",
+      "code": "TPX-0005",
+      "target": "ROS1 + TRK",
+      "genes": [
+        "ROS1",
+        "NTRK1"
+      ],
+      "modality": "small molecule",
+      "company": "Turning Point Therapeutics",
+      "partner": "",
+      "phase": "approved",
+      "phase_rank": 7,
+      "trial_name": "TRIDENT-1",
+      "nct_id": "NCT03093116",
+      "line": "metastatic",
+      "status": "approved",
+      "readout": "Repotrectinib in tumours with ALK, ROS1 or NTRK1-3 rearrangements",
+      "readout_date": "",
+      "subtype_label": "ROS1-positive",
+      "nodes": [
+        "drv-ros1"
+      ],
+      "receptor_context": "ROS1 rearrangement",
+      "source_url": "https://clinicaltrials.gov/study/NCT03093116",
+      "registry": {
+        "title": "A Study of Repotrectinib (TPX-0005) in Patients With Advanced Solid Tumors Harboring ALK, ROS1, or NTRK1-3 Rearrangements",
+        "overall_status": "RECRUITING",
+        "phase": "Phase 1/Phase 2",
+        "sponsor": "Turning Point Therapeutics, Inc.",
+        "enrollment": 500,
+        "start_date": "2017-03-07",
+        "primary_completion_date": "2028-02-29",
+        "last_update_posted": "2026-05-27",
+        "url": "https://clinicaltrials.gov/study/NCT03093116"
+      },
+      "label": {
+        "matched_brand": "Augtyro",
+        "matched_generic": "REPOTRECTINIB",
+        "manufacturer": "E.R. Squibb & Sons, L.L.C.",
+        "effective_time": "20240613",
+        "spl_id": "9fa5a47f-24bf-464a-aed7-54ad81abf121",
+        "boxed": null,
+        "warnings": [
+          "Central Nervous System (CNS) Effects",
+          "Interstitial Lung Disease (ILD)/Pneumonitis",
+          "Hepatotoxicity",
+          "Creatine Phosphokinase (CPK) Elevation",
+          "Hyperuricemia",
+          "Skeletal Fractures",
+          "Embryo-Fetal Toxicity"
+        ],
+        "common": {
+          "text": "dizziness, dysgeusia, peripheral neuropathy, constipation, dyspnea, fatigue, ataxia, cognitive impairment, muscular weakness, and nausea",
+          "has_frequencies": false
+        },
+        "url": "https://nctr-crs.fda.gov/fdalabel/services/spl/set-ids/fb526827-40ba-4462-94cf-179ae3b0cb8a/spl-doc",
+        "openfda_url": "https://api.fda.gov/drug/label.json?search=openfda.brand_name:\"Augtyro\""
+      }
+    },
+    {
+      "id": "drug-19",
+      "name": "Entrectinib (Rozlytrek)",
+      "code": "RXDX-101",
+      "target": "ROS1 + TRK",
+      "genes": [
+        "ROS1",
+        "NTRK1"
+      ],
+      "modality": "small molecule",
+      "company": "Hoffmann-La Roche",
+      "partner": "",
+      "phase": "approved",
+      "phase_rank": 7,
+      "trial_name": "STARTRK-2",
+      "nct_id": "NCT02568267",
+      "line": "metastatic",
+      "status": "approved",
+      "readout": "Basket study in tumours with NTRK1/2/3, ROS1 or ALK rearrangements",
+      "readout_date": "",
+      "subtype_label": "ROS1-positive",
+      "nodes": [
+        "drv-ros1"
+      ],
+      "receptor_context": "ROS1 rearrangement",
+      "source_url": "https://clinicaltrials.gov/study/NCT02568267",
+      "registry": {
+        "title": "Basket Study of Entrectinib (RXDX-101) for the Treatment of Patients With Solid Tumors Harboring NTRK 1/2/3 (Trk A/B/C), ROS1, or ALK Gene Rearrangements (Fusions)",
+        "overall_status": "ACTIVE_NOT_RECRUITING",
+        "phase": "Phase 2",
+        "sponsor": "Hoffmann-La Roche",
+        "enrollment": 534,
+        "start_date": "2015-11-19",
+        "primary_completion_date": "2027-06-30",
+        "last_update_posted": "2026-08-25",
+        "url": "https://clinicaltrials.gov/study/NCT02568267"
+      },
+      "label": {
+        "matched_brand": "Rozlytrek",
+        "matched_generic": "ENTRECTINIB",
+        "manufacturer": null,
+        "effective_time": "20251204",
+        "spl_id": "b93e1fc0-614a-4e49-a91d-a409fb2db9f0",
+        "boxed": null,
+        "warnings": [
+          "Congestive Heart Failure (CHF)",
+          "Central Nervous System (CNS) Effects",
+          "Skeletal Fractures",
+          "Hepatotoxicity",
+          "Hyperuricemia",
+          "QT Interval Prolongation",
+          "Vision Disorders",
+          "Embryo-Fetal Toxicity"
+        ],
+        "common": {
+          "text": "fatigue, constipation, dysgeusia, edema, dizziness, diarrhea, nausea, dysesthesia, dyspnea, myalgia, cognitive impairment, increased weight, cough, vomiting, pyrexia, arthralgia, and vision disorders",
+          "has_frequencies": false
+        },
+        "url": "https://nctr-crs.fda.gov/fdalabel/services/spl/set-ids/c7c71b0c-2549-4495-86b6-c2807fa54908/spl-doc",
+        "openfda_url": "https://api.fda.gov/drug/label.json?search=spl_product_data_elements:\"Rozlytrek\"",
+        "harmonised": false
+      }
+    },
+    {
+      "id": "drug-20",
+      "name": "Zidesamtinib (Jideytro)",
+      "code": "NVL-520",
+      "target": "ROS1",
+      "genes": [
+        "ROS1"
+      ],
+      "modality": "small molecule",
+      "company": "Nuvalent Inc.",
+      "partner": "",
+      "phase": "approved",
+      "phase_rank": 7,
+      "trial_name": "ARROS-1",
+      "nct_id": "NCT05118789",
+      "line": "after a prior ROS1 TKI",
+      "status": "approved",
+      "readout": "ORR 44% (n=117)",
+      "readout_date": "2026-07-22",
+      "subtype_label": "ROS1-positive",
+      "nodes": [
+        "drv-ros1"
+      ],
+      "receptor_context": "after a prior ROS1 inhibitor",
+      "source_url": "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-zidesamtinib-ros1-positive-non-small-cell-lung-cancer",
+      "registry": {
+        "title": "A Study of Zidesamtinib (NVL-520) in Patients With Advanced NSCLC and Other Solid Tumors Harboring ROS1 Rearrangement (ARROS-1)",
+        "overall_status": "RECRUITING",
+        "phase": "Phase 1/Phase 2",
+        "sponsor": "Nuvalent Inc.",
+        "enrollment": 359,
+        "start_date": "2022-01-04",
+        "primary_completion_date": "2027-12-31",
+        "last_update_posted": "2026-09-24",
+        "url": "https://clinicaltrials.gov/study/NCT05118789"
+      },
+      "label": {
+        "matched_brand": "JIDEYTRO",
+        "matched_generic": "ZIDESAMTINIB",
+        "manufacturer": "Nuvalent, Inc.",
+        "effective_time": "20260722",
+        "spl_id": "6c672099-2978-474e-b783-973fe94efcfb",
+        "boxed": null,
+        "warnings": [
+          "Nervous System (CNS) Adverse Reactions (AR)",
+          "QTc Interval Prolongation",
+          "Interstitial Lung Disease (ILD)/pneumonitis",
+          "Skeletal Fractures",
+          "Creatine Phosphokinase (CPK) Elevation",
+          "Pancreatic Toxicity",
+          "Embryo-Fetal Toxicity"
+        ],
+        "common": {
+          "text": "edema, peripheral neuropathy, constipation, fatigue, and dyspnea",
+          "has_frequencies": false
+        },
+        "url": "https://nctr-crs.fda.gov/fdalabel/services/spl/set-ids/3760e421-b523-4d9b-e063-6394a90ab94b/spl-doc",
+        "openfda_url": "https://api.fda.gov/drug/label.json?search=openfda.brand_name:\"Jideytro\""
+      }
+    },
+    {
+      "id": "drug-21",
+      "name": "Selpercatinib (Retevmo)",
+      "code": "LOXO-292",
+      "target": "RET",
+      "genes": [
+        "RET"
+      ],
+      "modality": "small molecule",
+      "company": "Eli Lilly and Company",
+      "partner": "",
+      "phase": "approved",
+      "phase_rank": 7,
+      "trial_name": "LIBRETTO-001",
+      "nct_id": "NCT03157128",
+      "line": "metastatic",
+      "status": "approved",
+      "readout": "Selpercatinib in RET-altered solid tumours",
+      "readout_date": "",
+      "subtype_label": "RET fusion",
+      "nodes": [
+        "drv-ret"
+      ],
+      "receptor_context": "RET fusion",
+      "source_url": "https://clinicaltrials.gov/study/NCT03157128",
+      "registry": {
+        "title": "A Study of Selpercatinib (LOXO-292) in Participants With Advanced Solid Tumors, RET Fusion-Positive Solid Tumors, and Medullary Thyroid Cancer (LIBRETTO-001)",
+        "overall_status": "ACTIVE_NOT_RECRUITING",
+        "phase": "Phase 1/Phase 2",
+        "sponsor": "Eli Lilly and Company",
+        "enrollment": 857,
+        "start_date": "2017-05-02",
+        "primary_completion_date": "2025-02-14",
+        "last_update_posted": "2026-04-16",
+        "url": "https://clinicaltrials.gov/study/NCT03157128"
+      },
+      "label": {
+        "matched_brand": "RETEVMO",
+        "matched_generic": "selpercatinib",
+        "manufacturer": null,
+        "effective_time": "20260714",
+        "spl_id": "8aaf7f3e-9dc1-4e71-af62-4943f4284e81",
+        "boxed": null,
+        "warnings": [
+          "Hepatotoxicity",
+          "Interstitial Lung Disease (ILD)/Pneumonitis",
+          "Hypertension",
+          "QT Interval Prolongation",
+          "Hemorrhagic Events",
+          "Hypersensitivity",
+          "Tumor Lysis Syndrome",
+          "Risk of Impaired Wound Healing",
+          "Hypothyroidism",
+          "Embryo-Fetal Toxicity",
+          "Epiphysis (SCFE/SUFE) in Pediatric Patients"
+        ],
+        "common": {
+          "text": "Adult patients with solid tumors: musculoskeletal pain, edema, diarrhea, fatigue, dry mouth, hypertension, abdominal pain, rash, nausea, constipation, cough, headache, vomiting, dyspnea, and hemorrhage",
+          "has_frequencies": false
+        },
+        "url": "https://nctr-crs.fda.gov/fdalabel/services/spl/set-ids/7fa848ba-a59c-4144-9f52-64d090f4d828/spl-doc",
+        "openfda_url": "https://api.fda.gov/drug/label.json?search=spl_product_data_elements:\"Retevmo\"",
+        "harmonised": false
+      }
+    },
+    {
+      "id": "drug-22",
+      "name": "Pralsetinib (Gavreto)",
+      "code": "BLU-667",
+      "target": "RET",
+      "genes": [
+        "RET"
+      ],
+      "modality": "small molecule",
+      "company": "Hoffmann-La Roche",
+      "partner": "",
+      "phase": "approved",
+      "phase_rank": 7,
+      "trial_name": "ARROW",
+      "nct_id": "NCT03037385",
+      "line": "metastatic",
+      "status": "approved",
+      "readout": "Pralsetinib in RET-altered NSCLC, thyroid and other tumours",
+      "readout_date": "",
+      "subtype_label": "RET fusion",
+      "nodes": [
+        "drv-ret"
+      ],
+      "receptor_context": "RET fusion",
+      "source_url": "https://clinicaltrials.gov/study/NCT03037385",
+      "registry": {
+        "title": "Phase 1/2 Study of the Highly-selective RET Inhibitor, Pralsetinib (BLU-667), in Participants With Thyroid Cancer, Non-Small Cell Lung Cancer, and Other Advanced Solid Tumors",
+        "overall_status": "COMPLETED",
+        "phase": "Phase 1/Phase 2",
+        "sponsor": "Hoffmann-La Roche",
+        "enrollment": 590,
+        "start_date": "2017-03-17",
+        "primary_completion_date": "2024-03-21",
+        "last_update_posted": "2025-05-31",
+        "url": "https://clinicaltrials.gov/study/NCT03037385"
+      },
+      "label": {
+        "matched_brand": "Gavreto",
+        "matched_generic": "PRALSETINIB",
+        "manufacturer": "Rigel Pharmaceuticals, Inc.",
+        "effective_time": "20251230",
+        "spl_id": "af2c2115-cb7d-4679-935a-c2200487b965",
+        "boxed": {
+          "headline": "WARNING: SERIOUS INFECTIONS, INCLUDING OPPORTUNISTIC INFECTIONS GAVRETO may increase the risk for serious infe",
+          "text": "WARNING: SERIOUS INFECTIONS, INCLUDING OPPORTUNISTIC INFECTIONS GAVRETO may increase the risk for serious infections, including bacterial, fungal, viral and opportunistic infections, which can lead to hospitalization or death. Withhold, reduce the dose or permanently discontinue GAVRETO based on severity [see Dosage and Administration (2.3) , Warnings and Precautions (5.1) ] . WARNING: SERIOUS INFECTIONS, INCLUDING OPPORTUNISTIC INFECTIONS See full prescribing information for complete boxed warning. GAVRETO may increase the risk for serious infections, including bacterial, fungal, viral and op…"
+        },
+        "warnings": [
+          "Infections, Including Opportunistic Infections",
+          "Interstitial Lung Disease (ILD)/Pneumonitis",
+          "Hypertension",
+          "Hepatotoxicity",
+          "Hemorrhagic Events",
+          "Tumor Lysis Syndrome",
+          "Risk of Impaired Wound Healing",
+          "Embryo-Fetal Toxicity"
+        ],
+        "common": {
+          "text": "musculoskeletal pain, constipation, hypertension, diarrhea, fatigue, edema, pyrexia and cough",
+          "has_frequencies": false
+        },
+        "url": "https://nctr-crs.fda.gov/fdalabel/services/spl/set-ids/16edd46e-28b8-f06d-e063-6394a90ae31b/spl-doc",
+        "openfda_url": "https://api.fda.gov/drug/label.json?search=openfda.brand_name:\"Gavreto\""
+      }
+    },
+    {
+      "id": "drug-23",
+      "name": "Capmatinib (Tabrecta)",
+      "code": "INC280",
+      "target": "MET",
+      "genes": [
+        "MET"
+      ],
+      "modality": "small molecule",
+      "company": "Novartis Pharmaceuticals",
+      "partner": "",
+      "phase": "approved",
+      "phase_rank": 7,
+      "trial_name": "GEOMETRY mono-1",
+      "nct_id": "NCT02414139",
+      "line": "metastatic",
+      "status": "approved",
+      "readout": "Capmatinib in EGFR wild-type NSCLC with MET alterations",
+      "readout_date": "",
+      "subtype_label": "MET exon 14",
+      "nodes": [
+        "drv-met"
+      ],
+      "receptor_context": "MET exon 14 skipping",
+      "source_url": "https://clinicaltrials.gov/study/NCT02414139",
+      "registry": {
+        "title": "Study of Oral cMET Inhibitor INC280 in Patients With EGFR Wild-type (wt), Advanced Non-small Cell Lung Cancer (NSCLC) (Geometry Mono-1)",
+        "overall_status": "COMPLETED",
+        "phase": "Phase 2",
+        "sponsor": "Novartis Pharmaceuticals",
+        "enrollment": 373,
+        "start_date": "2015-06-11",
+        "primary_completion_date": "2023-04-12",
+        "last_update_posted": "2024-03-20",
+        "url": "https://clinicaltrials.gov/study/NCT02414139"
+      },
+      "label": {
+        "matched_brand": "TABRECTA",
+        "matched_generic": "CAPMATINIB",
+        "manufacturer": "Novartis Pharmaceuticals Corporation",
+        "effective_time": "20251215",
+        "spl_id": "0df064bb-358d-4c21-8525-9b8b9a5845a1",
+        "boxed": null,
+        "warnings": [
+          "Interstitial Lung Disease (ILD)/Pneumonitis",
+          "Hepatotoxicity",
+          "Pancreatic Toxicity",
+          "Hypersensitivity Reactions",
+          "Risk of Photosensitivity",
+          "Embryo-Fetal Toxicity"
+        ],
+        "common": {
+          "text": "edema, nausea, musculoskeletal pain, fatigue, vomiting, dyspnea, cough, and decreased appetite",
+          "has_frequencies": false
+        },
+        "url": "https://nctr-crs.fda.gov/fdalabel/services/spl/set-ids/455892c3-d144-4ba8-9ab4-79cabff9876d/spl-doc",
+        "openfda_url": "https://api.fda.gov/drug/label.json?search=openfda.brand_name:\"Tabrecta\""
+      }
+    },
+    {
+      "id": "drug-24",
+      "name": "Tepotinib (Tepmetko)",
+      "code": "",
+      "target": "MET",
+      "genes": [
+        "MET"
+      ],
+      "modality": "small molecule",
+      "company": "EMD Serono Research & Development Institute",
+      "partner": "",
+      "phase": "approved",
+      "phase_rank": 7,
+      "trial_name": "VISION",
+      "nct_id": "NCT02864992",
+      "line": "metastatic",
+      "status": "approved",
+      "readout": "Tepotinib in NSCLC harbouring MET alterations",
+      "readout_date": "",
+      "subtype_label": "MET exon 14",
+      "nodes": [
+        "drv-met"
+      ],
+      "receptor_context": "MET exon 14 skipping",
+      "source_url": "https://clinicaltrials.gov/study/NCT02864992",
+      "registry": {
+        "title": "Tepotinib Phase II in NSCLC Harboring MET Alterations (VISION)",
+        "overall_status": "ACTIVE_NOT_RECRUITING",
+        "phase": "Phase 2",
+        "sponsor": "EMD Serono Research & Development Institute, Inc.",
+        "enrollment": 337,
+        "start_date": "2016-09-13",
+        "primary_completion_date": "2022-05-16",
+        "last_update_posted": "2026-07-14",
+        "url": "https://clinicaltrials.gov/study/NCT02864992"
+      },
+      "label": {
+        "matched_brand": "TEPMETKO",
+        "matched_generic": "TEPOTINIB HYDROCHLORIDE",
+        "manufacturer": "EMD Serono, Inc.",
+        "effective_time": "20250417",
+        "spl_id": "d922de79-b0f0-4ed2-b551-c7a86ed72d7d",
+        "boxed": null,
+        "warnings": [
+          "Interstitial Lung Disease (ILD)/Pneumonitis",
+          "Hepatotoxicity",
+          "Pancreatic Toxicity",
+          "Embryo-fetal toxicity"
+        ],
+        "common": {
+          "text": "edema, nausea, fatigue, musculoskeletal pain, diarrhea, dyspnea, decreased appetite, and rash",
+          "has_frequencies": false
+        },
+        "url": "https://nctr-crs.fda.gov/fdalabel/services/spl/set-ids/80a0f1b9-071a-47f5-9e67-32d638a669dc/spl-doc",
+        "openfda_url": "https://api.fda.gov/drug/label.json?search=openfda.brand_name:\"Tepmetko\""
+      }
+    },
+    {
+      "id": "drug-25",
+      "name": "Dabrafenib + trametinib (Tafinlar + Mekinist)",
+      "code": "",
+      "target": "BRAF + MEK",
+      "genes": [
+        "BRAF",
+        "MAP2K1"
+      ],
+      "modality": "small molecule",
+      "company": "Novartis Pharmaceuticals",
+      "partner": "",
+      "phase": "approved",
+      "phase_rank": 7,
+      "trial_name": "BRF113928",
+      "nct_id": "NCT01336634",
+      "line": "metastatic",
+      "status": "approved",
+      "readout": "Dabrafenib alone and with trametinib in BRAF V600E NSCLC",
+      "readout_date": "",
+      "subtype_label": "BRAF V600E",
+      "nodes": [
+        "drv-braf"
+      ],
+      "receptor_context": "BRAF V600E",
+      "source_url": "https://clinicaltrials.gov/study/NCT01336634",
+      "registry": {
+        "title": "Study of Selective BRAF Kinase Inhibitor Dabrafenib Monotherapy Twice Daily and in Combination With Dabrafenib Twice Daily and Trametinib Once Daily in Combination Therapy in Subjects With BRAF V600E Mutation Positive Metastatic (Stage IV) Non-small Cell Lung Cancer.",
+        "overall_status": "COMPLETED",
+        "phase": "Phase 2",
+        "sponsor": "Novartis Pharmaceuticals",
+        "enrollment": 177,
+        "start_date": "2011-08-05",
+        "primary_completion_date": "2015-10-01",
+        "last_update_posted": "2022-04-04",
+        "url": "https://clinicaltrials.gov/study/NCT01336634"
+      },
+      "label": {
+        "matched_brand": "Tafinlar",
+        "matched_generic": "DABRAFENIB",
+        "manufacturer": "Novartis Pharmaceuticals Corporation",
+        "effective_time": "20260520",
+        "spl_id": "6c546993-1f7f-409b-b108-60f22e9b948a",
+        "boxed": null,
+        "warnings": [
+          "Malignancies, Cutaneous and Non-Cutaneous",
+          "Tumor Promotion in BRAF Wild-type Tumors",
+          "Hemorrhage",
+          "Cardiomyopathy",
+          "Uveitis",
+          "Serious Febrile Reactions",
+          "Serious Skin Toxicities",
+          "Hyperglycemia",
+          "Dehydrogenase Deficiency (G6PD)",
+          "Hemophagocytic Lymphohistiocytosis (HLH)",
+          "Embryo-Fetal Toxicity",
+          "Malignancies TAFINLAR Monotherapy (Adult)"
+        ],
+        "common": {
+          "text": "hyperkeratosis, headache, pyrexia, arthralgia, papilloma, alopecia, and palmar-plantar erythrodysesthesia syndrome",
+          "has_frequencies": false
+        },
+        "url": "https://nctr-crs.fda.gov/fdalabel/services/spl/set-ids/fee1e6b1-e1a5-4254-9f2e-a70e0f8dbdea/spl-doc",
+        "openfda_url": "https://api.fda.gov/drug/label.json?search=openfda.generic_name:\"Dabrafenib\""
+      }
+    },
+    {
+      "id": "drug-26",
+      "name": "Sotorasib (Lumakras)",
+      "code": "AMG 510",
+      "target": "KRAS G12C",
+      "genes": [
+        "KRAS"
+      ],
+      "modality": "small molecule",
+      "company": "Amgen",
+      "partner": "",
+      "phase": "approved",
+      "phase_rank": 7,
+      "trial_name": "CodeBreaK 100",
+      "nct_id": "NCT03600883",
+      "line": "after prior therapy",
+      "status": "approved",
+      "readout": "Sotorasib in KRAS G12C-mutated solid tumours",
+      "readout_date": "",
+      "subtype_label": "KRAS G12C",
+      "nodes": [
+        "drv-kras"
+      ],
+      "receptor_context": "after prior systemic therapy",
+      "source_url": "https://clinicaltrials.gov/study/NCT03600883",
+      "registry": {
+        "title": "A Phase 1/2, Study Evaluating the Safety, Tolerability, PK, and Efficacy of Sotorasib (AMG 510) in Subjects With Solid Tumors With a Specific KRAS Mutation (CodeBreaK 100)",
+        "overall_status": "COMPLETED",
+        "phase": "Phase 1/Phase 2",
+        "sponsor": "Amgen",
+        "enrollment": 713,
+        "start_date": "2018-08-27",
+        "primary_completion_date": "2026-05-29",
+        "last_update_posted": "2026-06-30",
+        "url": "https://clinicaltrials.gov/study/NCT03600883"
+      },
+      "label": {
+        "matched_brand": "LUMAKRAS",
+        "matched_generic": "SOTORASIB",
+        "manufacturer": "Amgen Inc",
+        "effective_time": "20250122",
+        "spl_id": "8f611e67-8c58-4413-8b81-a200fa7f30e8",
+        "boxed": null,
+        "warnings": [
+          "Hepatotoxicity",
+          "Interstitial Lung Disease (ILD)/Pneumonitis"
+        ],
+        "common": {
+          "text": "diarrhea, musculoskeletal pain, nausea, fatigue, hepatotoxicity, and cough",
+          "has_frequencies": false
+        },
+        "url": "https://nctr-crs.fda.gov/fdalabel/services/spl/set-ids/c80a362c-7ac3-4894-a076-0691e68ef8c1/spl-doc",
+        "openfda_url": "https://api.fda.gov/drug/label.json?search=openfda.brand_name:\"Lumakras\""
+      }
+    },
+    {
+      "id": "drug-27",
+      "name": "Adagrasib (Krazati)",
+      "code": "MRTX849",
+      "target": "KRAS G12C",
+      "genes": [
+        "KRAS"
+      ],
+      "modality": "small molecule",
+      "company": "Mirati Therapeutics Inc.",
+      "partner": "",
+      "phase": "approved",
+      "phase_rank": 7,
+      "trial_name": "KRYSTAL-1",
+      "nct_id": "NCT03785249",
+      "line": "after prior therapy",
+      "status": "approved",
+      "readout": "Adagrasib in cancers with a KRAS G12C mutation",
+      "readout_date": "",
+      "subtype_label": "KRAS G12C",
+      "nodes": [
+        "drv-kras"
+      ],
+      "receptor_context": "after prior systemic therapy",
+      "source_url": "https://clinicaltrials.gov/study/NCT03785249",
+      "registry": {
+        "title": "Phase 1/2 Study of MRTX849 in Patients With Cancer Having a KRAS G12C Mutation KRYSTAL-1",
+        "overall_status": "ACTIVE_NOT_RECRUITING",
+        "phase": "Phase 1/Phase 2",
+        "sponsor": "Mirati Therapeutics Inc.",
+        "enrollment": 731,
+        "start_date": "2019-01-15",
+        "primary_completion_date": "2026-06-23",
+        "last_update_posted": "2026-07-29",
+        "url": "https://clinicaltrials.gov/study/NCT03785249"
+      },
+      "label": {
+        "matched_brand": "KRAZATI",
+        "matched_generic": "ADAGRASIB",
+        "manufacturer": "Mirati Therapeutics, Inc",
+        "effective_time": "20260325",
+        "spl_id": "65724d4c-78ab-4d85-83b5-73b9da5c2cc3",
+        "boxed": null,
+        "warnings": [
+          "Gastrointestinal Adverse Reactions",
+          "QTc Interval Prolongation",
+          "Hepatotoxicity",
+          "Interstitial Lung Disease (ILD) / Pneumonitis"
+        ],
+        "common": {
+          "text": "nausea, diarrhea, vomiting, fatigue, musculoskeletal pain, hepatotoxicity, renal impairment, edema, dyspnea, and decreased appetite",
+          "has_frequencies": false
+        },
+        "url": "https://nctr-crs.fda.gov/fdalabel/services/spl/set-ids/0b8bf078-34c2-4f45-9012-38a8ac082b01/spl-doc",
+        "openfda_url": "https://api.fda.gov/drug/label.json?search=openfda.brand_name:\"Krazati\""
+      }
+    },
+    {
+      "id": "drug-28",
+      "name": "Trastuzumab deruxtecan (Enhertu)",
+      "code": "DS-8201a",
+      "target": "HER2",
+      "genes": [
+        "ERBB2"
+      ],
+      "modality": "ADC",
+      "company": "Daiichi Sankyo",
+      "partner": "",
+      "phase": "approved",
+      "phase_rank": 7,
+      "trial_name": "DESTINY-Lung02",
+      "nct_id": "NCT04644237",
+      "line": "after prior therapy",
+      "status": "approved",
+      "readout": "Trastuzumab deruxtecan in HER2-mutated metastatic NSCLC",
+      "readout_date": "",
+      "subtype_label": "HER2-mutant",
+      "nodes": [
+        "drv-erbb2"
+      ],
+      "receptor_context": "activating HER2 mutation, after prior therapy",
+      "source_url": "https://clinicaltrials.gov/study/NCT04644237",
+      "registry": {
+        "title": "Trastuzumab Deruxtecan in Participants With HER2-mutated Metastatic Non-small Cell Lung Cancer (NSCLC)",
+        "overall_status": "COMPLETED",
+        "phase": "Phase 2",
+        "sponsor": "Daiichi Sankyo",
+        "enrollment": 152,
+        "start_date": "2021-03-19",
+        "primary_completion_date": "2022-12-23",
+        "last_update_posted": "2025-11-21",
+        "url": "https://clinicaltrials.gov/study/NCT04644237"
+      },
+      "label": {
+        "matched_brand": "Enhertu",
+        "matched_generic": "FAM-TRASTUZUMAB DERUXTECAN-NXKI",
+        "manufacturer": "Daiichi Sankyo Inc.",
+        "effective_time": "20260515",
+        "spl_id": "a4106ba4-f398-4663-980c-2b7195283edd",
+        "boxed": {
+          "headline": "WARNING: INTERSTITIAL LUNG DISEASE and EMBRYO-FETAL TOXICITY Interstitial Lung Disease (ILD) and pneumonitis",
+          "text": "WARNING: INTERSTITIAL LUNG DISEASE and EMBRYO-FETAL TOXICITY Interstitial Lung Disease (ILD) and pneumonitis, including severe, life-threatening, and fatal cases, have been reported with ENHERTU. Monitor for and promptly investigate signs and symptoms including cough, dyspnea, fever, and other new or worsening respiratory symptoms. Permanently discontinue ENHERTU in all patients with Grade 2 or higher ILD/pneumonitis. Advise patients of the risk and the need to immediately report symptoms [see Dosage and Administration (2.3) , Warnings and Precautions (5.1) ] . Embryo-Fetal Toxicity: Exposure …"
+        },
+        "warnings": [
+          "Neutropenia",
+          "Left Ventricular Dysfunction (LVD)"
+        ],
+        "common": {
+          "text": "decreased white blood cell count (73%), nausea (72%), decreased hemoglobin (67%), decreased neutrophil count (65%), decreased lymphocyte count (60%), fatigue (55%), decreased platelet count (48%), increased aspartate aminotransferase (46%), increased alanine aminotransferase (43%), increased blood alkaline phosphatase (39%), vomiting (38%), alopecia (37%), constipation (32%), decreased blood potassium (32%), decreased appetite (31%), diarrhea (30%), and musculoskeletal pain (24%)",
+          "has_frequencies": true
+        },
+        "url": "https://nctr-crs.fda.gov/fdalabel/services/spl/set-ids/7e67e73e-ddf4-4e4d-8b50-09d7514910b6/spl-doc",
+        "openfda_url": "https://api.fda.gov/drug/label.json?search=openfda.brand_name:\"Enhertu\""
+      }
+    },
+    {
+      "id": "drug-29",
+      "name": "Zongertinib (Hernexeos)",
+      "code": "",
+      "target": "HER2 (TKI)",
+      "genes": [
+        "ERBB2"
+      ],
+      "modality": "small molecule",
+      "company": "Boehringer Ingelheim",
+      "partner": "",
+      "phase": "approved",
+      "phase_rank": 7,
+      "trial_name": "Beamion LUNG-1",
+      "nct_id": "NCT04886804",
+      "line": "1L metastatic (accelerated)",
+      "status": "approved",
+      "readout": "ORR 76% (n=72)",
+      "readout_date": "2026-02-26",
+      "subtype_label": "HER2-mutant",
+      "nodes": [
+        "drv-erbb2"
+      ],
+      "receptor_context": "HER2 TKD mutation, non-squamous",
+      "source_url": "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-grants-accelerated-approval-zongertinib-unresectable-or-metastatic-non-squamous-non-small-cell",
+      "registry": {
+        "title": "Beamion LUNG-1: A Study to Test Different Doses of Zongertinib in People With Different Types of Advanced Cancer (Solid Tumours With Changes in the HER2 Gene)",
+        "overall_status": "ACTIVE_NOT_RECRUITING",
+        "phase": "Phase 1",
+        "sponsor": "Boehringer Ingelheim",
+        "enrollment": 554,
+        "start_date": "2021-07-02",
+        "primary_completion_date": "2026-12-30",
+        "last_update_posted": "2026-10-05",
+        "url": "https://clinicaltrials.gov/study/NCT04886804"
+      },
+      "label": {
+        "matched_brand": "HERNEXEOS",
+        "matched_generic": "ZONGERTINIB",
+        "manufacturer": "Boehringer Ingelheim Pharmaceuticals, Inc.",
+        "effective_time": "20260813",
+        "spl_id": "0fd3e81b-38c9-4d19-b075-9256049a9d41",
+        "boxed": null,
+        "warnings": [
+          "Hepatotoxicity",
+          "Left Ventricular Dysfunction",
+          "Interstitial Lung Disease/Pneumonitis",
+          "Embryo-Fetal Toxicity"
+        ],
+        "common": {
+          "text": "diarrhea, rash, hepatotoxicity, fatigue, nausea, musculoskeletal pain, and upper respiratory tract infection",
+          "has_frequencies": false
+        },
+        "url": "https://nctr-crs.fda.gov/fdalabel/services/spl/set-ids/d3fabf12-354e-4e5c-b5de-20fdb579b783/spl-doc",
+        "openfda_url": "https://api.fda.gov/drug/label.json?search=openfda.brand_name:\"Hernexeos\""
+      }
+    },
+    {
+      "id": "drug-30",
+      "name": "Sevabertinib (Hyrnuo)",
+      "code": "BAY2927088",
+      "target": "HER2 (TKI)",
+      "genes": [
+        "ERBB2"
+      ],
+      "modality": "small molecule",
+      "company": "Bayer",
+      "partner": "",
+      "phase": "approved",
+      "phase_rank": 7,
+      "trial_name": "SOHO-01",
+      "nct_id": "NCT05099172",
+      "line": "1L metastatic (accelerated)",
+      "status": "approved",
+      "readout": "ORR 75% (n=69)",
+      "readout_date": "2026-09-09",
+      "subtype_label": "HER2-mutant",
+      "nodes": [
+        "drv-erbb2"
+      ],
+      "receptor_context": "HER2 TKD mutation, non-squamous",
+      "source_url": "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-grants-accelerated-approval-sevabertinib-locally-advanced-or-metastatic-non-squamous-non-small",
+      "registry": {
+        "title": "First in Human Study of BAY2927088 in Participants Who Have Advanced Non-small Cell Lung Cancer (NSCLC) With Mutations in the Genes of Epidermal Growth Factor Receptor (EGFR) and/or Human Epidermal Growth Factor Receptor 2 (HER2)",
+        "overall_status": "RECRUITING",
+        "phase": "Phase 1/Phase 2",
+        "sponsor": "Bayer",
+        "enrollment": 430,
+        "start_date": "2021-10-25",
+        "primary_completion_date": "2026-03-16",
+        "last_update_posted": "2026-10-13",
+        "url": "https://clinicaltrials.gov/study/NCT05099172"
+      },
+      "label": {
+        "matched_brand": "HYRNUO",
+        "matched_generic": "SEVABERTINIB",
+        "manufacturer": null,
+        "effective_time": "20260304",
+        "spl_id": "654f8e2c-0b86-4320-b392-81f42fa8cadd",
+        "boxed": null,
+        "warnings": [
+          "Diarrhea",
+          "Hepatotoxicity",
+          "Interstitial Lung Disease (ILD)/Pneumonitis",
+          "Ocular Toxicity",
+          "Pancreatic Enzyme Elevation",
+          "Embryo-fetal toxicity"
+        ],
+        "common": {
+          "text": "diarrhea, rash, stomatitis, and paronychia",
+          "has_frequencies": false
+        },
+        "url": "https://nctr-crs.fda.gov/fdalabel/services/spl/set-ids/d7a11334-6e7a-445b-9a16-bdcd9acbe61f/spl-doc",
+        "openfda_url": "https://api.fda.gov/drug/label.json?search=spl_product_data_elements:\"Hyrnuo\"",
+        "harmonised": false
+      }
+    },
+    {
+      "id": "drug-31",
+      "name": "Larotrectinib (Vitrakvi)",
+      "code": "",
+      "target": "TRK",
+      "genes": [
+        "NTRK1"
+      ],
+      "modality": "small molecule",
+      "company": "Bayer",
+      "partner": "",
+      "phase": "approved",
+      "phase_rank": 7,
+      "trial_name": "NAVIGATE",
+      "nct_id": "NCT02576431",
+      "line": "tissue-agnostic",
+      "status": "approved",
+      "readout": "Larotrectinib in NTRK fusion-positive solid tumours",
+      "readout_date": "",
+      "subtype_label": "NTRK fusion",
+      "nodes": [
+        "drv-other"
+      ],
+      "receptor_context": "tissue-agnostic",
+      "source_url": "https://clinicaltrials.gov/study/NCT02576431",
+      "registry": {
+        "title": "A Study to Test the Effect of the Drug Larotrectinib in Adults and Children With NTRK-fusion Positive Solid Tumors",
+        "overall_status": "COMPLETED",
+        "phase": "Phase 2",
+        "sponsor": "Bayer",
+        "enrollment": 215,
+        "start_date": "2015-09-30",
+        "primary_completion_date": "2025-09-29",
+        "last_update_posted": "2026-07-01",
+        "url": "https://clinicaltrials.gov/study/NCT02576431"
+      },
+      "label": {
+        "matched_brand": "VITRAKVI",
+        "matched_generic": "LAROTRECTINIB",
+        "manufacturer": "Bayer HealthCare Pharmaceuticals Inc.",
+        "effective_time": "20260522",
+        "spl_id": "0e3ba6e7-af8d-4840-9409-a537a09e1263",
+        "boxed": null,
+        "warnings": [
+          "Central Nervous System (CNS) Effects",
+          "Skeletal Fractures",
+          "Hepatotoxicity",
+          "Embryo-Fetal Toxicity"
+        ],
+        "common": {
+          "text": "increased AST, increased ALT, anemia, hypoalbuminemia, musculoskeletal pain, increased alkaline phosphatase, leukopenia, lymphopenia, neutropenia, hypocalcemia, fatigue, vomiting, cough, constipation, pyrexia, diarrhea, nausea, abdominal pain, dizziness, and rash ( 6 )",
+          "has_frequencies": false
+        },
+        "url": "https://nctr-crs.fda.gov/fdalabel/services/spl/set-ids/0c8ca614-58b2-4aa4-83d3-0387a8f782fd/spl-doc",
+        "openfda_url": "https://api.fda.gov/drug/label.json?search=openfda.brand_name:\"Vitrakvi\""
+      }
+    },
+    {
+      "id": "drug-32",
+      "name": "Pembrolizumab (Keytruda)",
+      "code": "MK-3475",
+      "target": "PD-1",
+      "genes": [
+        "PDCD1"
+      ],
+      "modality": "antibody",
+      "company": "Merck Sharp & Dohme LLC",
+      "partner": "",
+      "phase": "approved",
+      "phase_rank": 7,
+      "trial_name": "KEYNOTE-024",
+      "nct_id": "NCT02142738",
+      "line": "1L metastatic",
+      "status": "approved",
+      "readout": "Pembrolizumab versus platinum chemotherapy, PD-L1 strong",
+      "readout_date": "",
+      "subtype_label": "NSCLC, PD-L1 high",
+      "nodes": [
+        "pdl1-high"
+      ],
+      "receptor_context": "PD-L1 strong expression",
+      "source_url": "https://clinicaltrials.gov/study/NCT02142738",
+      "registry": {
+        "title": "Study of Pembrolizumab (MK-3475) Compared to Platinum-Based Chemotherapies in Participants With Metastatic Non-Small Cell Lung Cancer (MK-3475-024/KEYNOTE-024)",
+        "overall_status": "COMPLETED",
+        "phase": "Phase 3",
+        "sponsor": "Merck Sharp & Dohme LLC",
+        "enrollment": 305,
+        "start_date": "2014-08-25",
+        "primary_completion_date": "2016-05-09",
+        "last_update_posted": "2022-06-13",
+        "url": "https://clinicaltrials.gov/study/NCT02142738"
+      },
+      "label": {
+        "matched_brand": "KEYTRUDA",
+        "matched_generic": "PEMBROLIZUMAB",
+        "manufacturer": "Merck Sharp & Dohme LLC",
+        "effective_time": "20260710",
+        "spl_id": "228e1e3f-d207-481f-8e14-9fdcbd0470e9",
+        "boxed": null,
+        "warnings": [
+          "Infusion-related reactions",
+          "Complications of allogeneic HSCT",
+          "Embryo-Fetal toxicity",
+          "Cardiac/Vascular",
+          "Nervous System",
+          "Ocular",
+          "Gastrointestinal",
+          "Musculoskeletal and Connective Tissue",
+          "Endocrine",
+          "Hypoparathyroidism Hematologic/Immune",
+          "Other"
+        ],
+        "common": {
+          "text": "KEYTRUDA as a single agent: fatigue, musculoskeletal pain, rash, diarrhea, pyrexia, cough, decreased appetite, pruritus, dyspnea, constipation, pain, abdominal pain, nausea, and hypothyroidism",
+          "has_frequencies": false
+        },
+        "url": "https://nctr-crs.fda.gov/fdalabel/services/spl/set-ids/9333c79b-d487-4538-a9f0-71b91a02b287/spl-doc",
+        "openfda_url": "https://api.fda.gov/drug/label.json?search=openfda.brand_name:\"Keytruda\""
+      }
+    },
+    {
+      "id": "drug-33",
+      "name": "Pembrolizumab + pemetrexed-platinum (Keytruda)",
+      "code": "MK-3475",
+      "target": "PD-1",
+      "genes": [
+        "PDCD1"
+      ],
+      "modality": "antibody",
+      "company": "Merck Sharp & Dohme LLC",
+      "partner": "",
+      "phase": "approved",
+      "phase_rank": 7,
+      "trial_name": "KEYNOTE-189",
+      "nct_id": "NCT02578680",
+      "line": "1L metastatic",
+      "status": "approved",
+      "readout": "Pemetrexed and platinum with or without pembrolizumab",
+      "readout_date": "",
+      "subtype_label": "Non-squamous NSCLC",
+      "nodes": [
+        "hist-adeno",
+        "hist-nsclc-other",
+        "hist-large"
+      ],
+      "receptor_context": "no EGFR or ALK aberration",
+      "source_url": "https://clinicaltrials.gov/study/NCT02578680",
+      "registry": {
+        "title": "Study of Pemetrexed+Platinum Chemotherapy With or Without Pembrolizumab (MK-3475) in Participants With First Line Metastatic Nonsquamous Non-small Cell Lung Cancer (MK-3475-189/KEYNOTE-189)",
+        "overall_status": "COMPLETED",
+        "phase": "Phase 3",
+        "sponsor": "Merck Sharp & Dohme LLC",
+        "enrollment": 616,
+        "start_date": "2016-01-15",
+        "primary_completion_date": "2017-11-08",
+        "last_update_posted": "2024-09-20",
+        "url": "https://clinicaltrials.gov/study/NCT02578680"
+      },
+      "label": {
+        "matched_brand": "KEYTRUDA",
+        "matched_generic": "PEMBROLIZUMAB",
+        "manufacturer": "Merck Sharp & Dohme LLC",
+        "effective_time": "20260710",
+        "spl_id": "228e1e3f-d207-481f-8e14-9fdcbd0470e9",
+        "boxed": null,
+        "warnings": [
+          "Infusion-related reactions",
+          "Complications of allogeneic HSCT",
+          "Embryo-Fetal toxicity",
+          "Cardiac/Vascular",
+          "Nervous System",
+          "Ocular",
+          "Gastrointestinal",
+          "Musculoskeletal and Connective Tissue",
+          "Endocrine",
+          "Hypoparathyroidism Hematologic/Immune",
+          "Other"
+        ],
+        "common": {
+          "text": "KEYTRUDA as a single agent: fatigue, musculoskeletal pain, rash, diarrhea, pyrexia, cough, decreased appetite, pruritus, dyspnea, constipation, pain, abdominal pain, nausea, and hypothyroidism",
+          "has_frequencies": false
+        },
+        "url": "https://nctr-crs.fda.gov/fdalabel/services/spl/set-ids/9333c79b-d487-4538-a9f0-71b91a02b287/spl-doc",
+        "openfda_url": "https://api.fda.gov/drug/label.json?search=openfda.brand_name:\"Keytruda\""
+      }
+    },
+    {
+      "id": "drug-34",
+      "name": "Pembrolizumab + carboplatin-paclitaxel (Keytruda)",
+      "code": "MK-3475",
+      "target": "PD-1",
+      "genes": [
+        "PDCD1"
+      ],
+      "modality": "antibody",
+      "company": "Merck Sharp & Dohme LLC",
+      "partner": "",
+      "phase": "approved",
+      "phase_rank": 7,
+      "trial_name": "KEYNOTE-407",
+      "nct_id": "NCT02775435",
+      "line": "1L metastatic",
+      "status": "approved",
+      "readout": "Carboplatin-paclitaxel or nab-paclitaxel with or without pembrolizumab",
+      "readout_date": "",
+      "subtype_label": "Squamous NSCLC",
+      "nodes": [
+        "hist-squamous"
+      ],
+      "receptor_context": "squamous histology",
+      "source_url": "https://clinicaltrials.gov/study/NCT02775435",
+      "registry": {
+        "title": "A Study of Carboplatin-Paclitaxel/Nab-Paclitaxel Chemotherapy With or Without Pembrolizumab (MK-3475) in Adults With First Line Metastatic Squamous Non-small Cell Lung Cancer (MK-3475-407/KEYNOTE-407)",
+        "overall_status": "COMPLETED",
+        "phase": "Phase 3",
+        "sponsor": "Merck Sharp & Dohme LLC",
+        "enrollment": 559,
+        "start_date": "2016-06-09",
+        "primary_completion_date": "2018-04-03",
+        "last_update_posted": "2024-10-08",
+        "url": "https://clinicaltrials.gov/study/NCT02775435"
+      },
+      "label": {
+        "matched_brand": "KEYTRUDA",
+        "matched_generic": "PEMBROLIZUMAB",
+        "manufacturer": "Merck Sharp & Dohme LLC",
+        "effective_time": "20260710",
+        "spl_id": "228e1e3f-d207-481f-8e14-9fdcbd0470e9",
+        "boxed": null,
+        "warnings": [
+          "Infusion-related reactions",
+          "Complications of allogeneic HSCT",
+          "Embryo-Fetal toxicity",
+          "Cardiac/Vascular",
+          "Nervous System",
+          "Ocular",
+          "Gastrointestinal",
+          "Musculoskeletal and Connective Tissue",
+          "Endocrine",
+          "Hypoparathyroidism Hematologic/Immune",
+          "Other"
+        ],
+        "common": {
+          "text": "KEYTRUDA as a single agent: fatigue, musculoskeletal pain, rash, diarrhea, pyrexia, cough, decreased appetite, pruritus, dyspnea, constipation, pain, abdominal pain, nausea, and hypothyroidism",
+          "has_frequencies": false
+        },
+        "url": "https://nctr-crs.fda.gov/fdalabel/services/spl/set-ids/9333c79b-d487-4538-a9f0-71b91a02b287/spl-doc",
+        "openfda_url": "https://api.fda.gov/drug/label.json?search=openfda.brand_name:\"Keytruda\""
+      }
+    },
+    {
+      "id": "drug-35",
+      "name": "Pembrolizumab (Keytruda)",
+      "code": "MK-3475",
+      "target": "PD-1",
+      "genes": [
+        "PDCD1"
+      ],
+      "modality": "antibody",
+      "company": "Merck Sharp & Dohme LLC",
+      "partner": "",
+      "phase": "approved",
+      "phase_rank": 7,
+      "trial_name": "KEYNOTE-671",
+      "nct_id": "NCT03425643",
+      "line": "perioperative",
+      "status": "approved",
+      "readout": "Pembrolizumab with platinum doublet as neoadjuvant then adjuvant therapy",
+      "readout_date": "",
+      "subtype_label": "NSCLC, resectable or stage III",
+      "nodes": [
+        "hist-nsclc"
+      ],
+      "receptor_context": "resectable",
+      "source_url": "https://clinicaltrials.gov/study/NCT03425643",
+      "registry": {
+        "title": "Efficacy and Safety of Pembrolizumab (MK-3475) With Platinum Doublet Chemotherapy as Neoadjuvant/Adjuvant Therapy for Participants With Resectable Stage II, IIIA, and Resectable IIIB (T3-4N2) Non-small Cell Lung Cancer (MK-3475-671/KEYNOTE-671)",
+        "overall_status": "ACTIVE_NOT_RECRUITING",
+        "phase": "Phase 3",
+        "sponsor": "Merck Sharp & Dohme LLC",
+        "enrollment": 797,
+        "start_date": "2018-04-24",
+        "primary_completion_date": "2023-07-10",
+        "last_update_posted": "2026-07-29",
+        "url": "https://clinicaltrials.gov/study/NCT03425643"
+      },
+      "label": {
+        "matched_brand": "KEYTRUDA",
+        "matched_generic": "PEMBROLIZUMAB",
+        "manufacturer": "Merck Sharp & Dohme LLC",
+        "effective_time": "20260710",
+        "spl_id": "228e1e3f-d207-481f-8e14-9fdcbd0470e9",
+        "boxed": null,
+        "warnings": [
+          "Infusion-related reactions",
+          "Complications of allogeneic HSCT",
+          "Embryo-Fetal toxicity",
+          "Cardiac/Vascular",
+          "Nervous System",
+          "Ocular",
+          "Gastrointestinal",
+          "Musculoskeletal and Connective Tissue",
+          "Endocrine",
+          "Hypoparathyroidism Hematologic/Immune",
+          "Other"
+        ],
+        "common": {
+          "text": "KEYTRUDA as a single agent: fatigue, musculoskeletal pain, rash, diarrhea, pyrexia, cough, decreased appetite, pruritus, dyspnea, constipation, pain, abdominal pain, nausea, and hypothyroidism",
+          "has_frequencies": false
+        },
+        "url": "https://nctr-crs.fda.gov/fdalabel/services/spl/set-ids/9333c79b-d487-4538-a9f0-71b91a02b287/spl-doc",
+        "openfda_url": "https://api.fda.gov/drug/label.json?search=openfda.brand_name:\"Keytruda\""
+      }
+    },
+    {
+      "id": "drug-36",
+      "name": "Atezolizumab (Tecentriq)",
+      "code": "MPDL3280A",
+      "target": "PD-L1",
+      "genes": [
+        "CD274"
+      ],
+      "modality": "antibody",
+      "company": "Hoffmann-La Roche",
+      "partner": "",
+      "phase": "approved",
+      "phase_rank": 7,
+      "trial_name": "IMpower110",
+      "nct_id": "NCT02409342",
+      "line": "1L metastatic",
+      "status": "approved",
+      "readout": "Atezolizumab versus platinum chemotherapy, first line",
+      "readout_date": "",
+      "subtype_label": "NSCLC, PD-L1 high",
+      "nodes": [
+        "pdl1-high"
+      ],
+      "receptor_context": "PD-L1 high",
+      "source_url": "https://clinicaltrials.gov/study/NCT02409342",
+      "registry": {
+        "title": "A Study of Atezolizumab (MPDL3280A) Compared With a Platinum Agent (Cisplatin or Carboplatin) + (Pemetrexed or Gemcitabine) in Participants With Stage IV Non-Squamous or Squamous Non-Small Cell Lung Cancer (NSCLC) [IMpower110]",
+        "overall_status": "COMPLETED",
+        "phase": "Phase 3",
+        "sponsor": "Hoffmann-La Roche",
+        "enrollment": 572,
+        "start_date": "2015-07-20",
+        "primary_completion_date": "2020-02-04",
+        "last_update_posted": "2023-03-15",
+        "url": "https://clinicaltrials.gov/study/NCT02409342"
+      },
+      "label": {
+        "matched_brand": "TECENTRIQ",
+        "matched_generic": "atezolizumab",
+        "manufacturer": null,
+        "effective_time": "20260520",
+        "spl_id": "4b922b35-c401-4189-a8b2-9f9a820878db",
+        "boxed": null,
+        "warnings": [
+          "Infusion-Related Reactions",
+          "Complications of Allogeneic HSCT",
+          "Embryo-Fetal Toxicity",
+          "TECENTRIQ as a Single Agent",
+          "Combination with Cobimetinib and Vemurafenib",
+          "Thyroiditis",
+          "Hyperthyroidism",
+          "Hypothyroidism",
+          "Combination with Platinum-based Chemotherapy",
+          "Cardiac/Vascular",
+          "Nervous System",
+          "Ocular"
+        ],
+        "common": {
+          "text": "fatigue/asthenia, decreased appetite, nausea, cough, and dyspnea",
+          "has_frequencies": false
+        },
+        "url": "https://nctr-crs.fda.gov/fdalabel/services/spl/set-ids/6fa682c9-a312-4932-9831-f286908660ee/spl-doc",
+        "openfda_url": "https://api.fda.gov/drug/label.json?search=spl_product_data_elements:\"Tecentriq\"",
+        "harmonised": false
+      }
+    },
+    {
+      "id": "drug-37",
+      "name": "Nivolumab + ipilimumab (Opdivo + Yervoy)",
+      "code": "",
+      "target": "PD-1 + CTLA-4",
+      "genes": [
+        "PDCD1",
+        "CTLA4"
+      ],
+      "modality": "antibody",
+      "company": "Bristol-Myers Squibb",
+      "partner": "",
+      "phase": "approved",
+      "phase_rank": 7,
+      "trial_name": "CheckMate 227",
+      "nct_id": "NCT02477826",
+      "line": "1L metastatic",
+      "status": "approved",
+      "readout": "Nivolumab, or nivolumab plus ipilimumab, versus platinum chemotherapy",
+      "readout_date": "",
+      "subtype_label": "NSCLC, PD-L1 1% or more",
+      "nodes": [
+        "pdl1-low",
+        "pdl1-high"
+      ],
+      "receptor_context": "no EGFR or ALK aberration",
+      "source_url": "https://clinicaltrials.gov/study/NCT02477826",
+      "registry": {
+        "title": "An Investigational Immuno-therapy Trial of Nivolumab, or Nivolumab Plus Ipilimumab, or Nivolumab Plus Platinum-doublet Chemotherapy, Compared to Platinum Doublet Chemotherapy in Patients With Stage IV Non-Small Cell Lung Cancer (NSCLC)",
+        "overall_status": "COMPLETED",
+        "phase": "Phase 3",
+        "sponsor": "Bristol-Myers Squibb",
+        "enrollment": 2747,
+        "start_date": "2015-08-05",
+        "primary_completion_date": "2024-10-25",
+        "last_update_posted": "2025-10-30",
+        "url": "https://clinicaltrials.gov/study/NCT02477826"
+      },
+      "label": {
+        "matched_brand": "OPDIVO",
+        "matched_generic": "NIVOLUMAB",
+        "manufacturer": "E.R. Squibb & Sons, L.L.C.",
+        "effective_time": "20260812",
+        "spl_id": "1fce9e6a-6a7c-4fc0-a3a4-a0099f7bd2ce",
+        "boxed": null,
+        "warnings": [
+          "Immune-Mediated Adverse Reactions",
+          "Infusion-related reactions",
+          "Complications of allogeneic HSCT",
+          "Embryo-Fetal toxicity",
+          "OPDIVO 3 mg/kg with Ipilimumab 1 mg/kg",
+          "OPDIVO 1 mg/kg with Ipilimumab 3 mg/kg",
+          "Cardiac/Vascular",
+          "Nervous System",
+          "Ocular",
+          "Gastrointestinal",
+          "Musculoskeletal and Connective Tissue",
+          "Endocrine"
+        ],
+        "common": {
+          "text": "• As a single agent: fatigue, rash, musculoskeletal pain, pruritus, diarrhea, nausea, asthenia, cough, dyspnea, constipation, decreased appetite, back pain, arthralgia, upper respiratory tract infection, pyrexia, headache, abdominal pain, vomiting, and urinary tract infection",
+          "has_frequencies": false
+        },
+        "url": "https://nctr-crs.fda.gov/fdalabel/services/spl/set-ids/f570b9c4-6846-4de2-abfa-4d0a4ae4e394/spl-doc",
+        "openfda_url": "https://api.fda.gov/drug/label.json?search=openfda.generic_name:\"Nivolumab\""
+      }
+    },
+    {
+      "id": "drug-38",
+      "name": "Cemiplimab (Libtayo)",
+      "code": "REGN 2810",
+      "target": "PD-1",
+      "genes": [
+        "PDCD1"
+      ],
+      "modality": "antibody",
+      "company": "Regeneron Pharmaceuticals",
+      "partner": "",
+      "phase": "approved",
+      "phase_rank": 7,
+      "trial_name": "EMPOWER-Lung 1",
+      "nct_id": "NCT03088540",
+      "line": "1L metastatic",
+      "status": "approved",
+      "readout": "Cemiplimab versus platinum chemotherapy",
+      "readout_date": "",
+      "subtype_label": "NSCLC, PD-L1 high",
+      "nodes": [
+        "pdl1-high"
+      ],
+      "receptor_context": "PD-L1 high",
+      "source_url": "https://clinicaltrials.gov/study/NCT03088540",
+      "registry": {
+        "title": "Study of REGN 2810 Compared to Platinum-Based Chemotherapies in Participants With Metastatic Non-Small Cell Lung Cancer (NSCLC)",
+        "overall_status": "COMPLETED",
+        "phase": "Phase 3",
+        "sponsor": "Regeneron Pharmaceuticals",
+        "enrollment": 712,
+        "start_date": "2017-05-29",
+        "primary_completion_date": "2025-04-18",
+        "last_update_posted": "2026-06-25",
+        "url": "https://clinicaltrials.gov/study/NCT03088540"
+      },
+      "label": {
+        "matched_brand": "LIBTAYO",
+        "matched_generic": "CEMIPLIMAB-RWLC",
+        "manufacturer": "Regeneron Pharmaceuticals, Inc.",
+        "effective_time": "20260831",
+        "spl_id": "024fbfcd-06aa-44d2-ae90-1aa59f65425c",
+        "boxed": null,
+        "warnings": [
+          "Infusion-Related Reactions",
+          "Hematopoietic Stem Cell Transplantation (HSCT)",
+          "Embryo-Fetal Toxicity",
+          "Thyroiditis",
+          "Hyperthyroidism",
+          "Hypothyroidism",
+          "Cardiac/Vascular",
+          "Nervous System",
+          "Ocular",
+          "Gastrointestinal",
+          "Musculoskeletal and Connective Tissue",
+          "Endocrine"
+        ],
+        "common": {
+          "text": "fatigue, musculoskeletal pain, rash, diarrhea, and anemia",
+          "has_frequencies": false
+        },
+        "url": "https://nctr-crs.fda.gov/fdalabel/services/spl/set-ids/4347ae1f-d397-4f18-8b70-03897e1c054a/spl-doc",
+        "openfda_url": "https://api.fda.gov/drug/label.json?search=openfda.brand_name:\"Libtayo\""
+      }
+    },
+    {
+      "id": "drug-39",
+      "name": "Durvalumab (Imfinzi)",
+      "code": "MEDI4736",
+      "target": "PD-L1",
+      "genes": [
+        "CD274"
+      ],
+      "modality": "antibody",
+      "company": "AstraZeneca",
+      "partner": "",
+      "phase": "approved",
+      "phase_rank": 7,
+      "trial_name": "PACIFIC",
+      "nct_id": "NCT02125461",
+      "line": "consolidation after chemoradiation",
+      "status": "approved",
+      "readout": "Durvalumab following concurrent chemoradiation, stage III",
+      "readout_date": "",
+      "subtype_label": "NSCLC, resectable or stage III",
+      "nodes": [
+        "hist-nsclc"
+      ],
+      "receptor_context": "unresectable stage III after chemoradiation",
+      "source_url": "https://clinicaltrials.gov/study/NCT02125461",
+      "registry": {
+        "title": "A Global Study to Assess the Effects of MEDI4736 Following Concurrent Chemoradiation in Patients With Stage III Unresectable Non-Small Cell Lung Cancer",
+        "overall_status": "COMPLETED",
+        "phase": "Phase 3",
+        "sponsor": "AstraZeneca",
+        "enrollment": 713,
+        "start_date": "2014-05-07",
+        "primary_completion_date": "2017-02-13",
+        "last_update_posted": "2023-10-10",
+        "url": "https://clinicaltrials.gov/study/NCT02125461"
+      },
+      "label": {
+        "matched_brand": "IMFINZI",
+        "matched_generic": "DURVALUMAB",
+        "manufacturer": "AstraZeneca Pharmaceuticals LP",
+        "effective_time": "20260831",
+        "spl_id": "5826517b-d2d2-4636-ad9c-0dc676abad9e",
+        "boxed": null,
+        "warnings": [
+          "Infusion-Related Reactions",
+          "Complications of Allogeneic HSCT",
+          "Embryo-Fetal Toxicity",
+          "Cardiac/vascular",
+          "Nervous system",
+          "Ocular",
+          "Gastrointestinal",
+          "Endocrine",
+          "Hematologic/Immune",
+          "Other"
+        ],
+        "common": {
+          "text": "anemia, nausea, constipation, fatigue, musculoskeletal pain, and rash",
+          "has_frequencies": false
+        },
+        "url": "https://nctr-crs.fda.gov/fdalabel/services/spl/set-ids/8baba4ea-2855-42fa-9bd9-5a7548d4cec3/spl-doc",
+        "openfda_url": "https://api.fda.gov/drug/label.json?search=openfda.brand_name:\"Imfinzi\""
+      }
+    },
+    {
+      "id": "drug-40",
+      "name": "Nivolumab + chemotherapy (Opdivo)",
+      "code": "",
+      "target": "PD-1",
+      "genes": [
+        "PDCD1"
+      ],
+      "modality": "antibody",
+      "company": "Bristol-Myers Squibb",
+      "partner": "",
+      "phase": "approved",
+      "phase_rank": 7,
+      "trial_name": "CheckMate 816",
+      "nct_id": "NCT02998528",
+      "line": "neoadjuvant",
+      "status": "approved",
+      "readout": "Neoadjuvant nivolumab with chemotherapy versus chemotherapy",
+      "readout_date": "",
+      "subtype_label": "NSCLC, resectable or stage III",
+      "nodes": [
+        "hist-nsclc"
+      ],
+      "receptor_context": "resectable",
+      "source_url": "https://clinicaltrials.gov/study/NCT02998528",
+      "registry": {
+        "title": "A Neoadjuvant Study of Nivolumab Plus Ipilimumab or Nivolumab Plus Chemotherapy Versus Chemotherapy Alone in Early Stage Non-Small Cell Lung Cancer (NSCLC)",
+        "overall_status": "COMPLETED",
+        "phase": "Phase 3",
+        "sponsor": "Bristol-Myers Squibb",
+        "enrollment": 505,
+        "start_date": "2017-03-04",
+        "primary_completion_date": "2021-09-08",
+        "last_update_posted": "2026-01-06",
+        "url": "https://clinicaltrials.gov/study/NCT02998528"
+      },
+      "label": {
+        "matched_brand": "OPDIVO",
+        "matched_generic": "NIVOLUMAB",
+        "manufacturer": "E.R. Squibb & Sons, L.L.C.",
+        "effective_time": "20260812",
+        "spl_id": "1fce9e6a-6a7c-4fc0-a3a4-a0099f7bd2ce",
+        "boxed": null,
+        "warnings": [
+          "Immune-Mediated Adverse Reactions",
+          "Infusion-related reactions",
+          "Complications of allogeneic HSCT",
+          "Embryo-Fetal toxicity",
+          "OPDIVO 3 mg/kg with Ipilimumab 1 mg/kg",
+          "OPDIVO 1 mg/kg with Ipilimumab 3 mg/kg",
+          "Cardiac/Vascular",
+          "Nervous System",
+          "Ocular",
+          "Gastrointestinal",
+          "Musculoskeletal and Connective Tissue",
+          "Endocrine"
+        ],
+        "common": {
+          "text": "• As a single agent: fatigue, rash, musculoskeletal pain, pruritus, diarrhea, nausea, asthenia, cough, dyspnea, constipation, decreased appetite, back pain, arthralgia, upper respiratory tract infection, pyrexia, headache, abdominal pain, vomiting, and urinary tract infection",
+          "has_frequencies": false
+        },
+        "url": "https://nctr-crs.fda.gov/fdalabel/services/spl/set-ids/f570b9c4-6846-4de2-abfa-4d0a4ae4e394/spl-doc",
+        "openfda_url": "https://api.fda.gov/drug/label.json?search=openfda.brand_name:\"Opdivo\""
+      }
+    },
+    {
+      "id": "drug-41",
+      "name": "Ramucirumab + docetaxel (Cyramza)",
+      "code": "",
+      "target": "VEGFR2",
+      "genes": [
+        "KDR"
+      ],
+      "modality": "antibody",
+      "company": "Eli Lilly and Company",
+      "partner": "",
+      "phase": "approved",
+      "phase_rank": 7,
+      "trial_name": "REVEL",
+      "nct_id": "NCT01168973",
+      "line": "2L metastatic",
+      "status": "approved",
+      "readout": "Docetaxel with or without ramucirumab, second line",
+      "readout_date": "",
+      "subtype_label": "NSCLC, after platinum",
+      "nodes": [
+        "hist-nsclc"
+      ],
+      "receptor_context": "after platinum chemotherapy",
+      "source_url": "https://clinicaltrials.gov/study/NCT01168973",
+      "registry": {
+        "title": "A Study of Chemotherapy and Ramucirumab Versus Chemotherapy Alone in Second Line Non-Small Cell Lung Cancer (NSCLC) Participants Who Received Prior First Line Platinum-based Chemotherapy",
+        "overall_status": "COMPLETED",
+        "phase": "Phase 3",
+        "sponsor": "Eli Lilly and Company",
+        "enrollment": 1253,
+        "start_date": "2010-12",
+        "primary_completion_date": "2013-12",
+        "last_update_posted": "2019-09-25",
+        "url": "https://clinicaltrials.gov/study/NCT01168973"
+      },
+      "label": {
+        "matched_brand": "CYRAMZA",
+        "matched_generic": "RAMUCIRUMAB",
+        "manufacturer": "Eli Lilly and Company",
+        "effective_time": "20260609",
+        "spl_id": "161cb5e7-7955-45e5-bdde-9be94fdbe76a",
+        "boxed": null,
+        "warnings": [
+          "Hemorrhage",
+          "Gastrointestinal Perforations",
+          "Impaired Wound Healing",
+          "Arterial Thromboembolic Events (ATEs)",
+          "Hypertension",
+          "Infusion-Related Reactions (IRR)",
+          "Worsening of Pre-existing Hepatic Impairment",
+          "Posterior Reversible Encephalopathy Syndrome",
+          "Proteinuria Including Nephrotic Syndrome",
+          "Thyroid Dysfunction",
+          "Embryo-Fetal Toxicity"
+        ],
+        "common": {
+          "text": "anemia (3.8%) and intestinal obstruction (2.1%)",
+          "has_frequencies": true
+        },
+        "url": "https://nctr-crs.fda.gov/fdalabel/services/spl/set-ids/c6080942-dee6-423e-b688-1272c2ae90d4/spl-doc",
+        "openfda_url": "https://api.fda.gov/drug/label.json?search=openfda.brand_name:\"Cyramza\""
+      }
+    },
+    {
+      "id": "drug-42",
+      "name": "Atezolizumab + carboplatin-etoposide (Tecentriq)",
+      "code": "MPDL3280A",
+      "target": "PD-L1",
+      "genes": [
+        "CD274"
+      ],
+      "modality": "antibody",
+      "company": "Hoffmann-La Roche",
+      "partner": "",
+      "phase": "approved",
+      "phase_rank": 7,
+      "trial_name": "IMpower133",
+      "nct_id": "NCT02763579",
+      "line": "1L extensive stage",
+      "status": "approved",
+      "readout": "Carboplatin-etoposide with or without atezolizumab",
+      "readout_date": "",
+      "subtype_label": "Small cell lung cancer",
+      "nodes": [
+        "hist-sclc"
+      ],
+      "receptor_context": "extensive stage, untreated",
+      "source_url": "https://clinicaltrials.gov/study/NCT02763579",
+      "registry": {
+        "title": "A Study of Carboplatin Plus Etoposide With or Without Atezolizumab in Participants With Untreated Extensive-Stage (ES) Small Cell Lung Cancer (SCLC)",
+        "overall_status": "COMPLETED",
+        "phase": "Phase 3",
+        "sponsor": "Hoffmann-La Roche",
+        "enrollment": 503,
+        "start_date": "2016-06-07",
+        "primary_completion_date": "2018-04-24",
+        "last_update_posted": "2023-07-28",
+        "url": "https://clinicaltrials.gov/study/NCT02763579"
+      },
+      "label": {
+        "matched_brand": "TECENTRIQ",
+        "matched_generic": "atezolizumab",
+        "manufacturer": null,
+        "effective_time": "20260520",
+        "spl_id": "4b922b35-c401-4189-a8b2-9f9a820878db",
+        "boxed": null,
+        "warnings": [
+          "Infusion-Related Reactions",
+          "Complications of Allogeneic HSCT",
+          "Embryo-Fetal Toxicity",
+          "TECENTRIQ as a Single Agent",
+          "Combination with Cobimetinib and Vemurafenib",
+          "Thyroiditis",
+          "Hyperthyroidism",
+          "Hypothyroidism",
+          "Combination with Platinum-based Chemotherapy",
+          "Cardiac/Vascular",
+          "Nervous System",
+          "Ocular"
+        ],
+        "common": {
+          "text": "fatigue/asthenia, decreased appetite, nausea, cough, and dyspnea",
+          "has_frequencies": false
+        },
+        "url": "https://nctr-crs.fda.gov/fdalabel/services/spl/set-ids/6fa682c9-a312-4932-9831-f286908660ee/spl-doc",
+        "openfda_url": "https://api.fda.gov/drug/label.json?search=spl_product_data_elements:\"Tecentriq\"",
+        "harmonised": false
+      }
+    },
+    {
+      "id": "drug-43",
+      "name": "Durvalumab + platinum-etoposide (Imfinzi)",
+      "code": "MEDI4736",
+      "target": "PD-L1",
+      "genes": [
+        "CD274"
+      ],
+      "modality": "antibody",
+      "company": "AstraZeneca",
+      "partner": "",
+      "phase": "approved",
+      "phase_rank": 7,
+      "trial_name": "CASPIAN",
+      "nct_id": "NCT03043872",
+      "line": "1L extensive stage",
+      "status": "approved",
+      "readout": "Durvalumab with platinum-etoposide",
+      "readout_date": "",
+      "subtype_label": "Small cell lung cancer",
+      "nodes": [
+        "hist-sclc"
+      ],
+      "receptor_context": "extensive stage, untreated",
+      "source_url": "https://clinicaltrials.gov/study/NCT03043872",
+      "registry": {
+        "title": "Durvalumab ± Tremelimumab in Combination With Platinum Based Chemotherapy in Untreated Extensive-Stage Small Cell Lung Cancer (CASPIAN)",
+        "overall_status": "ACTIVE_NOT_RECRUITING",
+        "phase": "Phase 3",
+        "sponsor": "AstraZeneca",
+        "enrollment": 987,
+        "start_date": "2017-03-27",
+        "primary_completion_date": "2020-01-27",
+        "last_update_posted": "2026-07-16",
+        "url": "https://clinicaltrials.gov/study/NCT03043872"
+      },
+      "label": {
+        "matched_brand": "IMFINZI",
+        "matched_generic": "DURVALUMAB",
+        "manufacturer": "AstraZeneca Pharmaceuticals LP",
+        "effective_time": "20260831",
+        "spl_id": "5826517b-d2d2-4636-ad9c-0dc676abad9e",
+        "boxed": null,
+        "warnings": [
+          "Infusion-Related Reactions",
+          "Complications of Allogeneic HSCT",
+          "Embryo-Fetal Toxicity",
+          "Cardiac/vascular",
+          "Nervous system",
+          "Ocular",
+          "Gastrointestinal",
+          "Endocrine",
+          "Hematologic/Immune",
+          "Other"
+        ],
+        "common": {
+          "text": "anemia, nausea, constipation, fatigue, musculoskeletal pain, and rash",
+          "has_frequencies": false
+        },
+        "url": "https://nctr-crs.fda.gov/fdalabel/services/spl/set-ids/8baba4ea-2855-42fa-9bd9-5a7548d4cec3/spl-doc",
+        "openfda_url": "https://api.fda.gov/drug/label.json?search=openfda.brand_name:\"Imfinzi\""
+      }
+    },
+    {
+      "id": "drug-44",
+      "name": "Durvalumab (Imfinzi)",
+      "code": "MEDI4736",
+      "target": "PD-L1",
+      "genes": [
+        "CD274"
+      ],
+      "modality": "antibody",
+      "company": "AstraZeneca",
+      "partner": "",
+      "phase": "approved",
+      "phase_rank": 7,
+      "trial_name": "ADRIATIC",
+      "nct_id": "NCT03703297",
+      "line": "consolidation, limited stage",
+      "status": "approved",
+      "readout": "Durvalumab after chemoradiation in limited-stage disease",
+      "readout_date": "",
+      "subtype_label": "Small cell lung cancer",
+      "nodes": [
+        "hist-sclc"
+      ],
+      "receptor_context": "limited stage after chemoradiation",
+      "source_url": "https://clinicaltrials.gov/study/NCT03703297",
+      "registry": {
+        "title": "Study of Durvalumab + Tremelimumab, Durvalumab, and Placebo in Limited Stage Small-Cell Lung Cancer in Patients Who Have Not Progressed Following Concurrent Chemoradiation Therapy",
+        "overall_status": "ACTIVE_NOT_RECRUITING",
+        "phase": "Phase 3",
+        "sponsor": "AstraZeneca",
+        "enrollment": 730,
+        "start_date": "2018-09-27",
+        "primary_completion_date": "2024-01-15",
+        "last_update_posted": "2025-11-21",
+        "url": "https://clinicaltrials.gov/study/NCT03703297"
+      },
+      "label": {
+        "matched_brand": "IMFINZI",
+        "matched_generic": "DURVALUMAB",
+        "manufacturer": "AstraZeneca Pharmaceuticals LP",
+        "effective_time": "20260831",
+        "spl_id": "5826517b-d2d2-4636-ad9c-0dc676abad9e",
+        "boxed": null,
+        "warnings": [
+          "Infusion-Related Reactions",
+          "Complications of Allogeneic HSCT",
+          "Embryo-Fetal Toxicity",
+          "Cardiac/vascular",
+          "Nervous system",
+          "Ocular",
+          "Gastrointestinal",
+          "Endocrine",
+          "Hematologic/Immune",
+          "Other"
+        ],
+        "common": {
+          "text": "anemia, nausea, constipation, fatigue, musculoskeletal pain, and rash",
+          "has_frequencies": false
+        },
+        "url": "https://nctr-crs.fda.gov/fdalabel/services/spl/set-ids/8baba4ea-2855-42fa-9bd9-5a7548d4cec3/spl-doc",
+        "openfda_url": "https://api.fda.gov/drug/label.json?search=openfda.brand_name:\"Imfinzi\""
+      }
+    },
+    {
+      "id": "drug-45",
+      "name": "Tarlatamab (Imdelltra)",
+      "code": "",
+      "target": "DLL3",
+      "genes": [
+        "DLL3"
+      ],
+      "modality": "T-cell engager",
+      "company": "Amgen",
+      "partner": "",
+      "phase": "approved",
+      "phase_rank": 7,
+      "trial_name": "DeLLphi-304",
+      "nct_id": "NCT05740566",
+      "line": "after platinum",
+      "status": "approved",
+      "readout": "OS 13.6 vs 8.3 months, HR 0.60 (0.47-0.77)",
+      "readout_date": "2025-11-19",
+      "subtype_label": "Small cell lung cancer",
+      "nodes": [
+        "hist-sclc"
+      ],
+      "receptor_context": "after platinum chemotherapy",
+      "source_url": "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-grants-traditional-approval-tarlatamab-dlle-extensive-stage-small-cell-lung-cancer",
+      "registry": {
+        "title": "Study Comparing Tarlatamab With Standard of Care Chemotherapy in Relapsed Small Cell Lung Cancer",
+        "overall_status": "ACTIVE_NOT_RECRUITING",
+        "phase": "Phase 3",
+        "sponsor": "Amgen",
+        "enrollment": 509,
+        "start_date": "2023-05-31",
+        "primary_completion_date": "2025-01-29",
+        "last_update_posted": "2026-01-05",
+        "url": "https://clinicaltrials.gov/study/NCT05740566"
+      },
+      "label": {
+        "matched_brand": "IMDELLTRA",
+        "matched_generic": "Tarlatamab-dlle",
+        "manufacturer": null,
+        "effective_time": "20260623",
+        "spl_id": "27ebb1b1-13da-4058-9e0b-65c04dd062fe",
+        "boxed": {
+          "headline": "WARNING: CYTOKINE RELEASE SYNDROME and NEUROLOGIC TOXICITY including IMMUNE EFFECTOR CELL-ASSOCIATED NEUROTOXI",
+          "text": "WARNING: CYTOKINE RELEASE SYNDROME and NEUROLOGIC TOXICITY including IMMUNE EFFECTOR CELL-ASSOCIATED NEUROTOXICITY SYNDROME Cytokine release syndrome (CRS), including life-threatening or fatal reactions, can occur in patients receiving IMDELLTRA. Initiate IMDELLTRA using the step-up dosing schedule to reduce the incidence and severity of CRS. Withhold IMDELLTRA until CRS resolves or permanently discontinue based on severity [see Dosage and Administration (2.5) and Warnings and Precautions (5.1) ] . Neurologic toxicity and immune effector cell-associated neurotoxicity syndrome (ICANS), includin…"
+        },
+        "warnings": [
+          "Cytopenias",
+          "Infections",
+          "Hepatotoxicity",
+          "Hypersensitivity",
+          "Embryo - Fetal Toxicity"
+        ],
+        "common": {
+          "text": "cytokine release syndrome, fatigue, decreased appetite, anemia, dysgeusia, pyrexia, constipation, musculoskeletal pain, and nausea",
+          "has_frequencies": false
+        },
+        "url": "https://nctr-crs.fda.gov/fdalabel/services/spl/set-ids/1e7b6163-5d83-42ea-82c9-cf7620cdc782/spl-doc",
+        "openfda_url": "https://api.fda.gov/drug/label.json?search=spl_product_data_elements:\"Imdelltra\"",
+        "harmonised": false
+      }
+    },
+    {
+      "id": "drug-46",
+      "name": "Lurbinectedin (Zepzelca)",
+      "code": "PM01183",
+      "target": "transcription (alkylating)",
+      "genes": [],
+      "modality": "small molecule",
+      "company": "PharmaMar",
+      "partner": "",
+      "phase": "approved",
+      "phase_rank": 7,
+      "trial_name": "Lurbinectedin basket",
+      "nct_id": "NCT02454972",
+      "line": "after platinum",
+      "status": "approved",
+      "readout": "Lurbinectedin in selected advanced solid tumours",
+      "readout_date": "",
+      "subtype_label": "Small cell lung cancer",
+      "nodes": [
+        "hist-sclc"
+      ],
+      "receptor_context": "after platinum chemotherapy",
+      "source_url": "https://clinicaltrials.gov/study/NCT02454972",
+      "registry": {
+        "title": "Clinical Trial of Lurbinectedin (PM01183) in Selected Advanced Solid Tumors",
+        "overall_status": "COMPLETED",
+        "phase": "Phase 2",
+        "sponsor": "PharmaMar",
+        "enrollment": 345,
+        "start_date": "2015-08-25",
+        "primary_completion_date": "2020-09-18",
+        "last_update_posted": "2023-03-02",
+        "url": "https://clinicaltrials.gov/study/NCT02454972"
+      },
+      "label": {
+        "matched_brand": "ZEPZELCA",
+        "matched_generic": "Lurbinectedin",
+        "manufacturer": null,
+        "effective_time": "20260227",
+        "spl_id": "846f5d71-faab-42a5-85d6-d83626b7bf3c",
+        "boxed": null,
+        "warnings": [
+          "Myelosuppression",
+          "Hepatotoxicity",
+          "Extravasation Resulting in Tissue Necrosis",
+          "Rhabdomyolysis",
+          "Embryo-Fetal Toxicity"
+        ],
+        "common": {
+          "text": "leukopenia, lymphopenia, fatigue, anemia, neutropenia, increased creatinine, increased alanine aminotransferase, increased glucose, thrombocytopenia, nausea, decreased appetite, musculoskeletal pain, decreased albumin, constipation, dyspnea, decreased sodium, increased aspartate aminotransferase, vomiting, cough, decreased magnesium and diarrhea",
+          "has_frequencies": false
+        },
+        "url": "https://nctr-crs.fda.gov/fdalabel/services/spl/set-ids/632bb50c-3bcb-4c85-9056-fc33410550ae/spl-doc",
+        "openfda_url": "https://api.fda.gov/drug/label.json?search=spl_product_data_elements:\"Zepzelca\"",
+        "harmonised": false
+      }
+    }
+  ],
+  "drug_summary": {
+    "n_drugs": 47,
+    "registry_matched": 47,
+    "phases": {
+      "approved": 47
+    },
+    "modalities": {
+      "small molecule": 28,
+      "bispecific antibody": 3,
+      "ADC": 2,
+      "antibody": 13,
+      "T-cell engager": 1
+    },
+    "unmapped_targets": []
+  },
+  "gaps": {
+    "druggable_untargeted": [
+      {
+        "gene": "TP53",
+        "basis": "genomic",
+        "max_pct": 68.4,
+        "max_node": "drv-other",
+        "max_metric": "mutation",
+        "civic_best_level": "B",
+        "civic_items": 10,
+        "civic_therapies": [
+          "Adjuvant Chemotherapy",
+          "Docetaxel",
+          "Selumetinib"
+        ],
+        "why": "The most altered gene in lung cancer and still undrugged."
+      },
+      {
+        "gene": "STK11",
+        "basis": "genomic",
+        "max_pct": 32.6,
+        "max_node": "drv-kras",
+        "max_metric": "mutation",
+        "civic_best_level": "B",
+        "civic_items": 18,
+        "civic_therapies": [
+          "Sirolimus",
+          "Radiation Therapy",
+          "Cisplatin/Pembrolizumab/Pemetrexed Regimen",
+          "Chemoradiotherapy"
+        ],
+        "why": "Loss is studied as a marker of poorer response to checkpoint blockade; not itself a target."
+      },
+      {
+        "gene": "KEAP1",
+        "basis": "genomic",
+        "max_pct": 32.3,
+        "max_node": "drv-other",
+        "max_metric": "mutation",
+        "civic_best_level": "B",
+        "civic_best_level_submitted": "A",
+        "civic_items": 7,
+        "civic_therapies": [
+          "Cisplatin/Pembrolizumab/Pemetrexed Regimen",
+          "Chemotherapy",
+          "Tremelimumab",
+          "Durvalumab Regimen"
+        ],
+        "why": "Loss switches on NRF2 signalling; a marker, not a target."
+      },
+      {
+        "gene": "CDKN2A",
+        "basis": "genomic",
+        "max_pct": 18.8,
+        "max_node": "drv-alk",
+        "max_metric": "deep_deletion",
+        "civic_best_level": "B",
+        "civic_items": 6,
+        "civic_therapies": [
+          "Palbociclib",
+          "Pemetrexed"
+        ],
+        "why": "Deleted often, in squamous disease especially."
+      },
+      {
+        "gene": "SMARCA4",
+        "basis": "genomic",
+        "max_pct": 15.8,
+        "max_node": "drv-other",
+        "max_metric": "mutation",
+        "civic_best_level": "B",
+        "civic_items": 5,
+        "civic_therapies": [
+          "Vinorelbine",
+          "Cisplatin",
+          "Palbociclib",
+          "Abemaciclib"
+        ],
+        "why": "A chromatin-remodelling loss with nothing aimed at it."
+      },
+      {
+        "gene": "PIK3CA",
+        "basis": "genomic",
+        "max_pct": 15.8,
+        "max_node": "drv-other",
+        "max_metric": "mutation",
+        "civic_best_level": "B",
+        "civic_items": 20,
+        "civic_therapies": [
+          "PI103",
+          "Gefitinib",
+          "Erlotinib",
+          "Taselisib"
+        ],
+        "why": "Amplified in squamous disease and mutated in a minority of adenocarcinomas."
+      },
+      {
+        "gene": "RB1",
+        "basis": "genomic",
+        "max_pct": 9.9,
+        "max_node": "drv-egfr",
+        "max_metric": "mutation",
+        "civic_best_level": "B",
+        "civic_items": 3,
+        "civic_therapies": [
+          "Palbociclib",
+          "Chemotherapy"
+        ],
+        "why": "Lost in nearly all small cell lung cancer; in EGFR-mutant disease, a warning of lineage change."
+      },
+      {
+        "gene": "NFE2L2",
+        "basis": "genomic",
+        "max_pct": 5.7,
+        "max_node": "drv-other",
+        "max_metric": "mutation",
+        "civic_best_level": "B",
+        "civic_items": 3,
+        "civic_therapies": [
+          "Sapanisertib",
+          "Platinum Doublet"
+        ],
+        "why": "The transcription factor KEAP1 holds back, activated by mutation in squamous disease — which the adenocarcinoma cohort here does not contain."
+      }
+    ],
+    "addressed_indirectly": [],
+    "landscape": [
+      {
+        "gene": "EGFR",
+        "basis": "genomic",
+        "biomarker_gene": null,
+        "comparable": true,
+        "programs": 11,
+        "best_phase": "approved",
+        "max_pct": 99.1,
+        "max_node": "drv-egfr",
+        "max_metric": "mutation",
+        "hotspot_n": 243,
+        "civic_best_level": "A"
+      },
+      {
+        "gene": "PDCD1",
+        "basis": "expression",
+        "biomarker_gene": null,
+        "comparable": false,
+        "programs": 7,
+        "best_phase": "approved",
+        "max_pct": 4.2,
+        "max_node": "drv-erbb2",
+        "max_metric": "mutation",
+        "hotspot_n": 17,
+        "civic_best_level": null
+      },
+      {
+        "gene": "ALK",
+        "basis": "genomic",
+        "biomarker_gene": null,
+        "comparable": true,
+        "programs": 6,
+        "best_phase": "approved",
+        "max_pct": 93.8,
+        "max_node": "drv-alk",
+        "max_metric": "fusion",
+        "hotspot_n": 38,
+        "civic_best_level": "A"
+      },
+      {
+        "gene": "ROS1",
+        "basis": "genomic",
+        "biomarker_gene": null,
+        "comparable": true,
+        "programs": 5,
+        "best_phase": "approved",
+        "max_pct": 95.7,
+        "max_node": "drv-ros1",
+        "max_metric": "fusion",
+        "hotspot_n": 17,
+        "civic_best_level": "A"
+      },
+      {
+        "gene": "MET",
+        "basis": "genomic",
+        "biomarker_gene": null,
+        "comparable": true,
+        "programs": 5,
+        "best_phase": "approved",
+        "max_pct": 92.3,
+        "max_node": "drv-met",
+        "max_metric": "mutation",
+        "hotspot_n": 33,
+        "civic_best_level": "A"
+      },
+      {
+        "gene": "CD274",
+        "basis": "expression",
+        "biomarker_gene": null,
+        "comparable": false,
+        "programs": 5,
+        "best_phase": "approved",
+        "max_pct": 1.3,
+        "max_node": "drv-other",
+        "max_metric": "deep_deletion",
+        "hotspot_n": 1,
+        "civic_best_level": "B"
+      },
+      {
+        "gene": "ERBB2",
+        "basis": "genomic",
+        "biomarker_gene": null,
+        "comparable": true,
+        "programs": 3,
+        "best_phase": "approved",
+        "max_pct": 100.0,
+        "max_node": "drv-erbb2",
+        "max_metric": "mutation",
+        "hotspot_n": 34,
+        "civic_best_level": "A"
+      },
+      {
+        "gene": "NTRK1",
+        "basis": "genomic",
+        "biomarker_gene": null,
+        "comparable": true,
+        "programs": 3,
+        "best_phase": "approved",
+        "max_pct": 0,
+        "max_node": "drv-alk",
+        "max_metric": "fusion",
+        "hotspot_n": 19,
+        "civic_best_level": "C"
+      },
+      {
+        "gene": "KRAS",
+        "basis": "genomic",
+        "biomarker_gene": null,
+        "comparable": true,
+        "programs": 2,
+        "best_phase": "approved",
+        "max_pct": 99.1,
+        "max_node": "drv-kras",
+        "max_metric": "mutation",
+        "hotspot_n": 233,
+        "civic_best_level": "A"
+      },
+      {
+        "gene": "RET",
+        "basis": "genomic",
+        "biomarker_gene": null,
+        "comparable": true,
+        "programs": 2,
+        "best_phase": "approved",
+        "max_pct": 0,
+        "max_node": "drv-alk",
+        "max_metric": "fusion",
+        "hotspot_n": 22,
+        "civic_best_level": "A"
+      },
+      {
+        "gene": "BRAF",
+        "basis": "genomic",
+        "biomarker_gene": null,
+        "comparable": true,
+        "programs": 1,
+        "best_phase": "approved",
+        "max_pct": 10.8,
+        "max_node": "drv-other",
+        "max_metric": "mutation",
+        "hotspot_n": 49,
+        "civic_best_level": "A"
+      },
+      {
+        "gene": "TACSTD2",
+        "basis": "expression",
+        "biomarker_gene": null,
+        "comparable": false,
+        "programs": 1,
+        "best_phase": "approved",
+        "max_pct": 0,
+        "max_node": null,
+        "max_metric": null,
+        "hotspot_n": 0,
+        "civic_best_level": null
+      },
+      {
+        "gene": "DLL3",
+        "basis": "expression",
+        "biomarker_gene": null,
+        "comparable": false,
+        "programs": 1,
+        "best_phase": "approved",
+        "max_pct": 0,
+        "max_node": null,
+        "max_metric": null,
+        "hotspot_n": 0,
+        "civic_best_level": null
+      },
+      {
+        "gene": "TP53",
+        "basis": "genomic",
+        "biomarker_gene": null,
+        "comparable": true,
+        "programs": 0,
+        "best_phase": null,
+        "max_pct": 68.4,
+        "max_node": "drv-other",
+        "max_metric": "mutation",
+        "hotspot_n": 454,
+        "civic_best_level": "B"
+      },
+      {
+        "gene": "STK11",
+        "basis": "genomic",
+        "biomarker_gene": null,
+        "comparable": true,
+        "programs": 0,
+        "best_phase": null,
+        "max_pct": 32.6,
+        "max_node": "drv-kras",
+        "max_metric": "mutation",
+        "hotspot_n": 148,
+        "civic_best_level": "B"
+      },
+      {
+        "gene": "KEAP1",
+        "basis": "genomic",
+        "biomarker_gene": null,
+        "comparable": true,
+        "programs": 0,
+        "best_phase": null,
+        "max_pct": 32.3,
+        "max_node": "drv-other",
+        "max_metric": "mutation",
+        "hotspot_n": 147,
+        "civic_best_level": "B"
+      },
+      {
+        "gene": "CDKN2A",
+        "basis": "genomic",
+        "biomarker_gene": null,
+        "comparable": true,
+        "programs": 0,
+        "best_phase": null,
+        "max_pct": 18.8,
+        "max_node": "drv-alk",
+        "max_metric": "deep_deletion",
+        "hotspot_n": 48,
+        "civic_best_level": "B"
+      },
+      {
+        "gene": "SMARCA4",
+        "basis": "genomic",
+        "biomarker_gene": null,
+        "comparable": true,
+        "programs": 0,
+        "best_phase": null,
+        "max_pct": 15.8,
+        "max_node": "drv-other",
+        "max_metric": "mutation",
+        "hotspot_n": 85,
+        "civic_best_level": "B"
+      },
+      {
+        "gene": "PIK3CA",
+        "basis": "genomic",
+        "biomarker_gene": null,
+        "comparable": true,
+        "programs": 0,
+        "best_phase": null,
+        "max_pct": 15.8,
+        "max_node": "drv-other",
+        "max_metric": "mutation",
+        "hotspot_n": 61,
+        "civic_best_level": "B"
+      },
+      {
+        "gene": "RB1",
+        "basis": "genomic",
+        "biomarker_gene": null,
+        "comparable": true,
+        "programs": 0,
+        "best_phase": null,
+        "max_pct": 9.9,
+        "max_node": "drv-egfr",
+        "max_metric": "mutation",
+        "hotspot_n": 47,
+        "civic_best_level": "B"
+      },
+      {
+        "gene": "NFE2L2",
+        "basis": "genomic",
+        "biomarker_gene": null,
+        "comparable": true,
+        "programs": 0,
+        "best_phase": null,
+        "max_pct": 5.7,
+        "max_node": "drv-other",
+        "max_metric": "mutation",
+        "hotspot_n": 15,
+        "civic_best_level": "B"
+      },
+      {
+        "gene": "FGFR1",
+        "basis": "genomic",
+        "biomarker_gene": null,
+        "comparable": true,
+        "programs": 0,
+        "best_phase": null,
+        "max_pct": 4.4,
+        "max_node": "drv-other",
+        "max_metric": "mutation",
+        "hotspot_n": 16,
+        "civic_best_level": "B"
+      },
+      {
+        "gene": "SOX2",
+        "basis": "genomic",
+        "biomarker_gene": null,
+        "comparable": true,
+        "programs": 0,
+        "best_phase": null,
+        "max_pct": 1.3,
+        "max_node": "drv-other",
+        "max_metric": "mutation",
+        "hotspot_n": 3,
+        "civic_best_level": null
+      },
+      {
+        "gene": "NRG1",
+        "basis": "genomic",
+        "biomarker_gene": null,
+        "comparable": false,
+        "programs": 0,
+        "best_phase": null,
+        "max_pct": 0,
+        "max_node": null,
+        "max_metric": null,
+        "hotspot_n": 0,
+        "civic_best_level": "A"
+      }
+    ],
+    "repositioning": [],
+    "evidence_without_program": [
+      {
+        "gene": "EML4",
+        "best_level": "C",
+        "best_level_submitted": "B",
+        "n_evidence_items": 79,
+        "evidence_types": {
+          "PREDICTIVE": 79
+        },
+        "top_therapies": [
+          "Crizotinib",
+          "Ceritinib",
+          "Lorlatinib",
+          "Alectinib"
+        ],
+        "in_target_set": false
+      },
+      {
+        "gene": "KIF5B",
+        "best_level": "C",
+        "best_level_submitted": "B",
+        "n_evidence_items": 13,
+        "evidence_types": {
+          "PREDICTIVE": 13
+        },
+        "top_therapies": [
+          "Selpercatinib",
+          "Vandetanib",
+          "Afatinib",
+          "Crizotinib"
+        ],
+        "in_target_set": false
+      },
+      {
+        "gene": "RAD51",
+        "best_level": "C",
+        "n_evidence_items": 11,
+        "evidence_types": {
+          "PREDICTIVE": 11
+        },
+        "top_therapies": [
+          "Erlotinib",
+          "Osimertinib",
+          "Afatinib",
+          "Gefitinib"
+        ],
+        "in_target_set": false
+      },
+      {
+        "gene": "ARAF",
+        "best_level": "C",
+        "n_evidence_items": 6,
+        "evidence_types": {
+          "ONCOGENIC": 3,
+          "PREDICTIVE": 3
+        },
+        "top_therapies": [
+          "Sorafenib",
+          "Trametinib"
+        ],
+        "in_target_set": false
+      },
+      {
+        "gene": "DDR2",
+        "best_level": "C",
+        "n_evidence_items": 6,
+        "evidence_types": {
+          "PREDICTIVE": 6
+        },
+        "top_therapies": [
+          "Dasatinib",
+          "Erlotinib"
+        ],
+        "in_target_set": false
+      },
+      {
+        "gene": "NTRK3",
+        "best_level": "C",
+        "n_evidence_items": 4,
+        "evidence_types": {
+          "PREDICTIVE": 4
+        },
+        "top_therapies": [
+          "Entrectinib",
+          "Repotrectinib"
+        ],
+        "in_target_set": false
+      },
+      {
+        "gene": "MYC",
+        "best_level": "C",
+        "n_evidence_items": 4,
+        "evidence_types": {
+          "PREDICTIVE": 4
+        },
+        "top_therapies": [
+          "Capmatinib",
+          "ICX-101",
+          "Pazopanib",
+          "Prexasertib"
+        ],
+        "in_target_set": false
+      },
+      {
+        "gene": "SQSTM1",
+        "best_level": "C",
+        "n_evidence_items": 3,
+        "evidence_types": {
+          "PREDICTIVE": 3
+        },
+        "top_therapies": [
+          "Entrectinib",
+          "Larotrectinib"
+        ],
+        "in_target_set": false
+      },
+      {
+        "gene": "POLD1",
+        "best_level": "C",
+        "n_evidence_items": 3,
+        "evidence_types": {
+          "PREDICTIVE": 3
+        },
+        "top_therapies": [
+          "Pembrolizumab"
+        ],
+        "in_target_set": false
+      },
+      {
+        "gene": "RICTOR",
+        "best_level": "C",
+        "n_evidence_items": 3,
+        "evidence_types": {
+          "PREDICTIVE": 3
+        },
+        "top_therapies": [
+          "Sapanisertib",
+          "Vistusertib",
+          "Onatasertib",
+          "MTOR Kinase Inhibitor AZD8055"
+        ],
+        "in_target_set": false
+      },
+      {
+        "gene": "HAVCR2",
+        "best_level": "C",
+        "n_evidence_items": 2,
+        "evidence_types": {
+          "PREDICTIVE": 2
+        },
+        "top_therapies": [
+          "PD1 Inhibitor",
+          "Anti-TIM-3 Monoclonal Antibody"
+        ],
+        "in_target_set": false
+      },
+      {
+        "gene": "SDC4",
+        "best_level": "C",
+        "n_evidence_items": 2,
+        "evidence_types": {
+          "PREDICTIVE": 2
+        },
+        "top_therapies": [
+          "Crizotinib",
+          "Afatinib"
+        ],
+        "in_target_set": false
+      },
+      {
+        "gene": "JAK3",
+        "best_level": "C",
+        "pending": true,
+        "n_evidence_items": 2,
+        "evidence_types": {
+          "PREDICTIVE": 2
+        },
+        "top_therapies": [
+          "Atezolizumab"
+        ],
+        "in_target_set": false
+      },
+      {
+        "gene": "VOPP1",
+        "best_level": "C",
+        "n_evidence_items": 2,
+        "evidence_types": {
+          "PREDICTIVE": 2
+        },
+        "top_therapies": [
+          "Osimertinib",
+          "Icotinib"
+        ],
+        "in_target_set": false
+      },
+      {
+        "gene": "SEPTIN14",
+        "best_level": "C",
+        "pending": true,
+        "n_evidence_items": 2,
+        "evidence_types": {
+          "ONCOGENIC": 1,
+          "PREDICTIVE": 1
+        },
+        "top_therapies": [
+          "Icotinib",
+          "Paclitaxel Liposome",
+          "Carboplatin"
+        ],
+        "in_target_set": false
+      },
+      {
+        "gene": "LRRC71",
+        "best_level": "C",
+        "pending": true,
+        "n_evidence_items": 2,
+        "evidence_types": {
+          "ONCOGENIC": 2
+        },
+        "top_therapies": [],
+        "in_target_set": false
+      },
+      {
+        "gene": "ATXN7L1",
+        "best_level": "C",
+        "n_evidence_items": 1,
+        "evidence_types": {
+          "PREDICTIVE": 1
+        },
+        "top_therapies": [
+          "Crizotinib"
+        ],
+        "in_target_set": false
+      },
+      {
+        "gene": "MDM2",
+        "best_level": "C",
+        "pending": true,
+        "n_evidence_items": 1,
+        "evidence_types": {
+          "PREDICTIVE": 1
+        },
+        "top_therapies": [
+          "Crizotinib"
+        ],
+        "in_target_set": false
+      },
+      {
+        "gene": "TPR",
+        "best_level": "C",
+        "n_evidence_items": 1,
+        "evidence_types": {
+          "PREDICTIVE": 1
+        },
+        "top_therapies": [
+          "Larotrectinib"
+        ],
+        "in_target_set": false
+      },
+      {
+        "gene": "HIP1",
+        "best_level": "C",
+        "n_evidence_items": 1,
+        "evidence_types": {
+          "PREDICTIVE": 1
+        },
+        "top_therapies": [
+          "Crizotinib",
+          "Alectinib"
+        ],
+        "in_target_set": false
+      },
+      {
+        "gene": "CCDC6",
+        "best_level": "C",
+        "n_evidence_items": 1,
+        "evidence_types": {
+          "PREDICTIVE": 1
+        },
+        "top_therapies": [
+          "Nintedanib"
+        ],
+        "in_target_set": false
+      },
+      {
+        "gene": "YAP1",
+        "best_level": "C",
+        "pending": true,
+        "n_evidence_items": 1,
+        "evidence_types": {
+          "ONCOGENIC": 1
+        },
+        "top_therapies": [],
+        "in_target_set": false
+      },
+      {
+        "gene": "SCN8A",
+        "best_level": "C",
+        "pending": true,
+        "n_evidence_items": 1,
+        "evidence_types": {
+          "PREDICTIVE": 1
+        },
+        "top_therapies": [
+          "Pembrolizumab"
+        ],
+        "in_target_set": false
+      },
+      {
+        "gene": "PXDNL",
+        "best_level": "C",
+        "pending": true,
+        "n_evidence_items": 1,
+        "evidence_types": {
+          "PREDICTIVE": 1
+        },
+        "top_therapies": [
+          "Pembrolizumab"
+        ],
+        "in_target_set": false
+      },
+      {
+        "gene": "PAPPA2",
+        "best_level": "C",
+        "pending": true,
+        "n_evidence_items": 1,
+        "evidence_types": {
+          "PREDICTIVE": 1
+        },
+        "top_therapies": [
+          "Pembrolizumab"
+        ],
+        "in_target_set": false
+      },
+      {
+        "gene": "POLE4",
+        "best_level": "C",
+        "pending": true,
+        "n_evidence_items": 1,
+        "evidence_types": {
+          "PREDICTIVE": 1
+        },
+        "top_therapies": [
+          "Pembrolizumab"
+        ],
+        "in_target_set": false
+      },
+      {
+        "gene": "EML6",
+        "best_level": "C",
+        "pending": true,
+        "n_evidence_items": 1,
+        "evidence_types": {
+          "PREDICTIVE": 1
+        },
+        "top_therapies": [
+          "Crizotinib"
+        ],
+        "in_target_set": false
+      },
+      {
+        "gene": "FBXO11",
+        "best_level": "C",
+        "pending": true,
+        "n_evidence_items": 1,
+        "evidence_types": {
+          "PREDICTIVE": 1
+        },
+        "top_therapies": [
+          "Crizotinib"
+        ],
+        "in_target_set": false
+      },
+      {
+        "gene": "PURB",
+        "best_level": "C",
+        "n_evidence_items": 1,
+        "evidence_types": {
+          "PREDICTIVE": 1
+        },
+        "top_therapies": [
+          "Erlotinib"
+        ],
+        "in_target_set": false
+      },
+      {
+        "gene": "GNAT3",
+        "best_level": "C",
+        "pending": true,
+        "n_evidence_items": 1,
+        "evidence_types": {
+          "PREDICTIVE": 1
+        },
+        "top_therapies": [
+          "Aumolertinib"
+        ],
+        "in_target_set": false
+      },
+      {
+        "gene": "ERBB4",
+        "best_level": "C",
+        "pending": true,
+        "n_evidence_items": 1,
+        "evidence_types": {
+          "PREDICTIVE": 1
+        },
+        "top_therapies": [
+          "Tarloxotinib",
+          "Trastuzumab Deruxtecan",
+          "Mobocertinib",
+          "Osimertinib"
+        ],
+        "in_target_set": false
+      },
+      {
+        "gene": "MACF1",
+        "best_level": "C",
+        "pending": true,
+        "n_evidence_items": 1,
+        "evidence_types": {
+          "PREDICTIVE": 1
+        },
+        "top_therapies": [
+          "Aumolertinib"
+        ],
+        "in_target_set": false
+      },
+      {
+        "gene": "BARD1",
+        "best_level": "C",
+        "n_evidence_items": 1,
+        "evidence_types": {
+          "PREDICTIVE": 1
+        },
+        "top_therapies": [
+          "Carboplatin",
+          "Gemcitabine"
+        ],
+        "in_target_set": false
+      },
+      {
+        "gene": "CD72",
+        "best_level": "C",
+        "n_evidence_items": 1,
+        "evidence_types": {
+          "PREDICTIVE": 1
+        },
+        "top_therapies": [
+          "Ceritinib"
+        ],
+        "in_target_set": false
+      },
+      {
+        "gene": "AKT2",
+        "best_level": "C",
+        "n_evidence_items": 1,
+        "evidence_types": {
+          "PREDICTIVE": 1
+        },
+        "top_therapies": [
+          "Everolimus",
+          "Vandetanib"
+        ],
+        "in_target_set": false
+      },
+      {
+        "gene": "SEC61G",
+        "best_level": "C",
+        "pending": true,
+        "n_evidence_items": 1,
+        "evidence_types": {
+          "PREDICTIVE": 1
+        },
+        "top_therapies": [
+          "Gefitinib",
+          "Cetuximab"
+        ],
+        "in_target_set": false
+      },
+      {
+        "gene": "ZNF713",
+        "best_level": "C",
+        "pending": true,
+        "n_evidence_items": 1,
+        "evidence_types": {
+          "ONCOGENIC": 1
+        },
+        "top_therapies": [],
+        "in_target_set": false
+      },
+      {
+        "gene": "USP42",
+        "best_level": "C",
+        "n_evidence_items": 1,
+        "evidence_types": {
+          "ONCOGENIC": 1
+        },
+        "top_therapies": [],
+        "in_target_set": false
+      },
+      {
+        "gene": "TPM3",
+        "best_level": "C",
+        "n_evidence_items": 1,
+        "evidence_types": {
+          "PREDICTIVE": 1
+        },
+        "top_therapies": [
+          "Larotrectinib"
+        ],
+        "in_target_set": false
+      },
+      {
+        "gene": "RIT1",
+        "best_level": "D",
+        "best_level_submitted": "B",
+        "n_evidence_items": 8,
+        "evidence_types": {
+          "DIAGNOSTIC": 1,
+          "ONCOGENIC": 6,
+          "PREDICTIVE": 1
+        },
+        "top_therapies": [
+          "Pictilisib",
+          "Selumetinib"
+        ],
+        "in_target_set": false
+      },
+      {
+        "gene": "FGFR3",
+        "best_level": "D",
+        "best_level_submitted": "B",
+        "n_evidence_items": 6,
+        "evidence_types": {
+          "ONCOGENIC": 3,
+          "PREDICTIVE": 2,
+          "PROGNOSTIC": 1
+        },
+        "top_therapies": [
+          "PD173074",
+          "Infigratinib"
+        ],
+        "in_target_set": false
+      },
+      {
+        "gene": "FGFR2",
+        "best_level": "D",
+        "n_evidence_items": 6,
+        "evidence_types": {
+          "ONCOGENIC": 3,
+          "PREDICTIVE": 2,
+          "PROGNOSTIC": 1
+        },
+        "top_therapies": [
+          "Pemigatinib",
+          "Futibatinib"
+        ],
+        "in_target_set": false
+      },
+      {
+        "gene": "NRAS",
+        "best_level": "D",
+        "best_level_submitted": "B",
+        "n_evidence_items": 5,
+        "evidence_types": {
+          "PREDICTIVE": 5
+        },
+        "top_therapies": [
+          "Trametinib",
+          "Selumetinib",
+          "Cetuximab",
+          "Erlotinib"
+        ],
+        "in_target_set": false
+      },
+      {
+        "gene": "CBL",
+        "best_level": "D",
+        "pending": true,
+        "n_evidence_items": 5,
+        "evidence_types": {
+          "PREDICTIVE": 5
+        },
+        "top_therapies": [
+          "SU11274"
+        ],
+        "in_target_set": false
+      },
+      {
+        "gene": "ABL1",
+        "best_level": "D",
+        "n_evidence_items": 3,
+        "evidence_types": {
+          "PREDICTIVE": 3
+        },
+        "top_therapies": [
+          "Dasatinib",
+          "Imatinib",
+          "Imatinib Mesylate"
+        ],
+        "in_target_set": false
+      },
+      {
+        "gene": "CIC",
+        "best_level": "D",
+        "pending": true,
+        "n_evidence_items": 3,
+        "evidence_types": {
+          "PREDICTIVE": 3
+        },
+        "top_therapies": [
+          "Trametinib",
+          "Vemurafenib",
+          "Selumetinib"
+        ],
+        "in_target_set": false
+      },
+      {
+        "gene": "PDGFRA",
+        "best_level": "D",
+        "n_evidence_items": 2,
+        "evidence_types": {
+          "PREDICTIVE": 2
+        },
+        "top_therapies": [
+          "Sunitinib",
+          "Imatinib"
+        ],
+        "in_target_set": false
+      },
+      {
+        "gene": "SMO",
+        "best_level": "D",
+        "pending": true,
+        "n_evidence_items": 2,
+        "evidence_types": {
+          "PREDICTIVE": 2
+        },
+        "top_therapies": [
+          "Gefitinib",
+          "Sonidegib"
+        ],
+        "in_target_set": false
+      },
+      {
+        "gene": "ERBB3",
+        "best_level": "D",
+        "n_evidence_items": 2,
+        "evidence_types": {
+          "PREDICTIVE": 2
+        },
+        "top_therapies": [
+          "Pertuzumab",
+          "Afatinib"
+        ],
+        "in_target_set": false
+      },
+      {
+        "gene": "ACTL6A",
+        "best_level": "D",
+        "pending": true,
+        "n_evidence_items": 2,
+        "evidence_types": {
+          "PREDICTIVE": 2
+        },
+        "top_therapies": [
+          "Cisplatin",
+          "Panobinostat"
+        ],
+        "in_target_set": false
+      },
+      {
+        "gene": "FGFR4",
+        "best_level": "D",
+        "pending": true,
+        "n_evidence_items": 2,
+        "evidence_types": {
+          "PREDICTIVE": 2
+        },
+        "top_therapies": [
+          "Erlotinib",
+          "Fexagratinib"
+        ],
+        "in_target_set": false
+      },
+      {
+        "gene": "YES1",
+        "best_level": "D",
+        "pending": true,
+        "n_evidence_items": 2,
+        "evidence_types": {
+          "PREDICTIVE": 2
+        },
+        "top_therapies": [
+          "CH6953755",
+          "Dasatinib",
+          "Neratinib"
+        ],
+        "in_target_set": false
+      },
+      {
+        "gene": "NQO1",
+        "best_level": "D",
+        "n_evidence_items": 2,
+        "evidence_types": {
+          "PREDICTIVE": 2
+        },
+        "top_therapies": [
+          "Amrubicin"
+        ],
+        "in_target_set": false
+      },
+      {
+        "gene": "NPM1",
+        "best_level": "D",
+        "pending": true,
+        "n_evidence_items": 2,
+        "evidence_types": {
+          "PREDICTIVE": 2
+        },
+        "top_therapies": [
+          "Crizotinib"
+        ],
+        "in_target_set": false
+      },
+      {
+        "gene": "MAPK1",
+        "best_level": "D",
+        "n_evidence_items": 1,
+        "evidence_types": {
+          "PREDICTIVE": 1
+        },
+        "top_therapies": [
+          "WZ4002"
+        ],
+        "in_target_set": false
+      },
+      {
+        "gene": "JAK1",
+        "best_level": "D",
+        "n_evidence_items": 1,
+        "evidence_types": {
+          "PREDICTIVE": 1
+        },
+        "top_therapies": [
+          "Enzastaurin"
+        ],
+        "in_target_set": false
+      },
+      {
+        "gene": "CRKL",
+        "best_level": "D",
+        "pending": true,
+        "n_evidence_items": 1,
+        "evidence_types": {
+          "PREDICTIVE": 1
+        },
+        "top_therapies": [
+          "Gefitinib"
+        ],
+        "in_target_set": false
+      },
+      {
+        "gene": "KMT5C",
+        "best_level": "D",
+        "pending": true,
+        "n_evidence_items": 1,
+        "evidence_types": {
+          "PREDICTIVE": 1
+        },
+        "top_therapies": [
+          "Erlotinib"
+        ],
+        "in_target_set": false
+      },
+      {
+        "gene": "PBK",
+        "best_level": "D",
+        "n_evidence_items": 1,
+        "evidence_types": {
+          "PREDICTIVE": 1
+        },
+        "top_therapies": [
+          "Gefitinib"
+        ],
+        "in_target_set": false
+      },
+      {
+        "gene": "ABCC10",
+        "best_level": "D",
+        "n_evidence_items": 1,
+        "evidence_types": {
+          "PREDICTIVE": 1
+        },
+        "top_therapies": [
+          "Paclitaxel"
+        ],
+        "in_target_set": false
+      },
+      {
+        "gene": "HRAS",
+        "best_level": "D",
+        "pending": true,
+        "n_evidence_items": 1,
+        "evidence_types": {
+          "PREDICTIVE": 1
+        },
+        "top_therapies": [
+          "Everolimus",
+          "Selumetinib"
+        ],
+        "in_target_set": false
+      },
+      {
+        "gene": "CREBBP",
+        "best_level": "D",
+        "pending": true,
+        "n_evidence_items": 1,
+        "evidence_types": {
+          "PREDICTIVE": 1
+        },
+        "top_therapies": [
+          "C646"
+        ],
+        "in_target_set": false
+      },
+      {
+        "gene": "CXCR4",
+        "best_level": "D",
+        "pending": true,
+        "n_evidence_items": 1,
+        "evidence_types": {
+          "PREDICTIVE": 1
+        },
+        "top_therapies": [
+          "Cisplatin"
+        ],
+        "in_target_set": false
+      },
+      {
+        "gene": "RASA1",
+        "best_level": "D",
+        "n_evidence_items": 1,
+        "evidence_types": {
+          "PREDICTIVE": 1
+        },
+        "top_therapies": [
+          "Trametinib"
+        ],
+        "in_target_set": false
+      },
+      {
+        "gene": "ERRFI1",
+        "best_level": "D",
+        "pending": true,
+        "n_evidence_items": 1,
+        "evidence_types": {
+          "PREDICTIVE": 1
+        },
+        "top_therapies": [
+          "Epidermal Growth Factor Receptor Tyrosine Kinase Inhibitor"
+        ],
+        "in_target_set": false
+      },
+      {
+        "gene": "IGF1R",
+        "best_level": "D",
+        "n_evidence_items": 1,
+        "evidence_types": {
+          "PREDICTIVE": 1
+        },
+        "top_therapies": [
+          "Gefitinib"
+        ],
+        "in_target_set": false
+      },
+      {
+        "gene": "GATA2",
+        "best_level": "D",
+        "n_evidence_items": 1,
+        "evidence_types": {
+          "PREDICTIVE": 1
+        },
+        "top_therapies": [
+          "Bortezomib",
+          "Fasudil"
+        ],
+        "in_target_set": false
+      },
+      {
+        "gene": "OCLN",
+        "best_level": "D",
+        "pending": true,
+        "n_evidence_items": 1,
+        "evidence_types": {
+          "ONCOGENIC": 1
+        },
+        "top_therapies": [],
+        "in_target_set": false
+      },
+      {
+        "gene": "RASGRF1",
+        "best_level": "D",
+        "pending": true,
+        "n_evidence_items": 1,
+        "evidence_types": {
+          "ONCOGENIC": 1
+        },
+        "top_therapies": [],
+        "in_target_set": false
+      },
+      {
+        "gene": "TSC1",
+        "best_level": "D",
+        "n_evidence_items": 1,
+        "evidence_types": {
+          "PREDICTIVE": 1
+        },
+        "top_therapies": [
+          "Sirolimus"
+        ],
+        "in_target_set": false
+      },
+      {
+        "gene": "SLC4A4",
+        "best_level": "D",
+        "n_evidence_items": 1,
+        "evidence_types": {
+          "PREDICTIVE": 1
+        },
+        "top_therapies": [
+          "DS-6501b"
+        ],
+        "in_target_set": false
+      },
+      {
+        "gene": "ABL2",
+        "best_level": "D",
+        "n_evidence_items": 1,
+        "evidence_types": {
+          "PREDICTIVE": 1
+        },
+        "top_therapies": [
+          "Imatinib",
+          "Dasatinib"
+        ],
+        "in_target_set": false
+      },
+      {
+        "gene": "CHEK1",
+        "best_level": "D",
+        "n_evidence_items": 1,
+        "evidence_types": {
+          "PREDICTIVE": 1
+        },
+        "top_therapies": [
+          "Prexasertib",
+          "Olaparib",
+          "Cisplatin"
+        ],
+        "in_target_set": false
+      },
+      {
+        "gene": "SLFN11",
+        "best_level": "D",
+        "pending": true,
+        "n_evidence_items": 1,
+        "evidence_types": {
+          "PREDICTIVE": 1
+        },
+        "top_therapies": [
+          "Temozolomide",
+          "Talazoparib"
+        ],
+        "in_target_set": false
+      },
+      {
+        "gene": "SETDB1",
+        "best_level": "D",
+        "pending": true,
+        "n_evidence_items": 1,
+        "evidence_types": {
+          "PREDICTIVE": 1
+        },
+        "top_therapies": [
+          "Anti-PD1 Monoclonal Antibody",
+          "Anti-CTLA-4 Monoclonal Antibody"
+        ],
+        "in_target_set": false
+      },
+      {
+        "gene": "ETV1",
+        "best_level": "D",
+        "pending": true,
+        "n_evidence_items": 1,
+        "evidence_types": {
+          "PREDICTIVE": 1
+        },
+        "top_therapies": [
+          "Trametinib"
+        ],
+        "in_target_set": false
+      },
+      {
+        "gene": "ETV4",
+        "best_level": "D",
+        "pending": true,
+        "n_evidence_items": 1,
+        "evidence_types": {
+          "PREDICTIVE": 1
+        },
+        "top_therapies": [
+          "Trametinib"
+        ],
+        "in_target_set": false
+      },
+      {
+        "gene": "ETV5",
+        "best_level": "D",
+        "pending": true,
+        "n_evidence_items": 1,
+        "evidence_types": {
+          "PREDICTIVE": 1
+        },
+        "top_therapies": [
+          "Trametinib"
+        ],
+        "in_target_set": false
+      },
+      {
+        "gene": "B2M",
+        "best_level": "D",
+        "pending": true,
+        "n_evidence_items": 1,
+        "evidence_types": {
+          "PREDICTIVE": 1
+        },
+        "top_therapies": [
+          "Anti-PD-L1 Monoclonal Antibody"
+        ],
+        "in_target_set": false
+      },
+      {
+        "gene": "EREG",
+        "best_level": "E",
+        "n_evidence_items": 1,
+        "evidence_types": {
+          "PROGNOSTIC": 1
+        },
+        "top_therapies": [],
+        "in_target_set": false
+      },
+      {
+        "gene": "VSTM2A",
+        "best_level": "E",
+        "pending": true,
+        "n_evidence_items": 1,
+        "evidence_types": {
+          "ONCOGENIC": 1
+        },
+        "top_therapies": [],
+        "in_target_set": false
+      },
+      {
+        "gene": "TP53BP1",
+        "best_level": "E",
+        "pending": true,
+        "n_evidence_items": 1,
+        "evidence_types": {
+          "PREDISPOSING": 1
+        },
+        "top_therapies": [],
+        "in_target_set": false
+      }
+    ],
+    "cohort_blind_spots": [],
+    "not_mutation_selected": [
+      {
+        "gene": "CD274",
+        "basis": "expression",
+        "n_mutated_samples": 1,
+        "of": 860,
+        "n_programs": 5,
+        "best_phase": "approved",
+        "reason": "PD-L1 by IHC (tumour proportion score) guides checkpoint blockade."
+      },
+      {
+        "gene": "TACSTD2",
+        "basis": "expression",
+        "n_mutated_samples": 0,
+        "of": 860,
+        "n_programs": 1,
+        "best_phase": "approved",
+        "reason": "An antibody-drug conjugate's address, not a driver."
+      },
+      {
+        "gene": "DLL3",
+        "basis": "expression",
+        "n_mutated_samples": 0,
+        "of": 860,
+        "n_programs": 1,
+        "best_phase": "approved",
+        "reason": "A surface antigen on small cell lung cancer, used as a T-cell engager's address."
+      }
+    ],
+    "thresholds": {
+      "altered_pct": 5.0,
+      "comparable_ratio": 0.6,
+      "blind_spot_n": 5,
+      "min_denominator": 20
+    }
+  },
+  "labels_summary": {
+    "source": "openFDA drug label API (US FDA Structured Product Labeling)",
+    "api": "https://api.fda.gov/drug/label.json",
+    "licence": "openFDA is a US federal government resource; label content is publicly available regulatory text",
+    "n_drugs": 47,
+    "n_with_label": 47,
+    "n_boxed_warnings": 3,
+    "n_with_frequencies": 2,
+    "lookup_failed": [],
+    "caveat": "Excerpts of US FDA labels, not a safety summary and not advice. An agent without a label here is one openFDA returned no US label for: an investigational agent has none yet, and an approved one may be approved outside the US or missed by the search. Neither means it has no side effects."
+  }
+};

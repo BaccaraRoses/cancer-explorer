@@ -1,0 +1,4 @@
+# Store and check out every file byte-for-byte. The project compares outputs by
+# md5 (regenerate a cancer, diff it, expect identical bytes), so git must never
+# rewrite line endings, on this station or any clone.
+* -text

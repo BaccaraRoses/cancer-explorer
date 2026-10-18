@@ -1,0 +1,1274 @@
+{
+  "dataset": "breast.js",
+  "n_references": 35,
+  "n_pmid": 27,
+  "n_label": 0,
+  "rows": [
+    {
+      "id": "cgh-alcohol",
+      "pmid": "12439712",
+      "line": 32,
+      "verdict": "OK",
+      "checks": {
+        "resolves": "ok",
+        "url": "ok",
+        "year": "ok",
+        "journal": "ok",
+        "author": "ok",
+        "title": "ok",
+        "retracted": "ok",
+        "swap": "ok"
+      },
+      "problems": [],
+      "notes": {
+        "title": "100%"
+      },
+      "record": {
+        "title": "Alcohol, tobacco and breast cancer--collaborative reanalysis of individual data from 53 epidemiological studies, including 58,515 women with breast cancer and 95,067 women without the disease.",
+        "first_author": "Hamajima",
+        "year": "2002",
+        "journal": "Br J Cancer",
+        "pmcid": "PMC2562507",
+        "doi": "10.1038/sj.bjc.6600596",
+        "pub_types": [
+          "Comment",
+          "Meta-Analysis",
+          "Research Support, Non-U.S. Gov't",
+          "research-article",
+          "Journal Article"
+        ]
+      }
+    },
+    {
+      "id": "cgh-breastfeeding",
+      "pmid": "12133652",
+      "line": 34,
+      "verdict": "OK",
+      "checks": {
+        "resolves": "ok",
+        "url": "ok",
+        "year": "ok",
+        "journal": "ok",
+        "author": "ok",
+        "title": "ok",
+        "retracted": "ok",
+        "swap": "ok"
+      },
+      "problems": [],
+      "notes": {
+        "title": "100%"
+      },
+      "record": {
+        "title": "Breast cancer and breastfeeding: collaborative reanalysis of individual data from 47 epidemiological studies in 30 countries, including 50302 women with breast cancer and 96973 women without the disease.",
+        "first_author": "Collaborative Group on Hormonal Factors in Breast Cancer",
+        "year": "2002",
+        "journal": "Lancet",
+        "pmcid": null,
+        "doi": "10.1016/s0140-6736(02)09454-0",
+        "pub_types": [
+          "Comment",
+          "Research Support, Non-U.S. Gov't",
+          "Journal Article"
+        ]
+      }
+    },
+    {
+      "id": "cgh-family",
+      "pmid": "11705483",
+      "line": 36,
+      "verdict": "OK",
+      "checks": {
+        "resolves": "ok",
+        "url": "ok",
+        "year": "ok",
+        "journal": "ok",
+        "author": "ok",
+        "title": "ok",
+        "retracted": "ok",
+        "swap": "ok"
+      },
+      "problems": [],
+      "notes": {
+        "title": "100%"
+      },
+      "record": {
+        "title": "Familial breast cancer: collaborative reanalysis of individual data from 52 epidemiological studies including 58,209 women with breast cancer and 101,986 women without the disease.",
+        "first_author": "Collaborative Group on Hormonal Factors in Breast Cancer",
+        "year": "2001",
+        "journal": "Lancet",
+        "pmcid": null,
+        "doi": "10.1016/s0140-6736(01)06524-2",
+        "pub_types": [
+          "Research Support, Non-U.S. Gov't",
+          "Review",
+          "Journal Article"
+        ]
+      }
+    },
+    {
+      "id": "cgh-menarche",
+      "pmid": "23084519",
+      "line": 38,
+      "verdict": "OK",
+      "checks": {
+        "resolves": "ok",
+        "url": "ok",
+        "year": "ok",
+        "journal": "ok",
+        "author": "ok",
+        "title": "ok",
+        "retracted": "ok",
+        "swap": "ok"
+      },
+      "problems": [],
+      "notes": {
+        "title": "100%"
+      },
+      "record": {
+        "title": "Menarche, menopause, and breast cancer risk: individual participant meta-analysis, including 118 964 women with breast cancer from 117 epidemiological studies.",
+        "first_author": "Collaborative Group on Hormonal Factors in Breast Cancer",
+        "year": "2012",
+        "journal": "Lancet Oncol",
+        "pmcid": "PMC3488186",
+        "doi": "10.1016/s1470-2045(12)70425-4",
+        "pub_types": [
+          "Meta-Analysis",
+          "Research Support, Non-U.S. Gov't",
+          "research-article",
+          "Journal Article"
+        ]
+      }
+    },
+    {
+      "id": "cgh-mht",
+      "pmid": "31474332",
+      "line": 40,
+      "verdict": "OK",
+      "checks": {
+        "resolves": "ok",
+        "url": "ok",
+        "year": "ok",
+        "journal": "ok",
+        "author": "ok",
+        "title": "ok",
+        "retracted": "ok",
+        "swap": "ok"
+      },
+      "problems": [],
+      "notes": {
+        "title": "100%"
+      },
+      "record": {
+        "title": "Type and timing of menopausal hormone therapy and breast cancer risk: individual participant meta-analysis of the worldwide epidemiological evidence.",
+        "first_author": "Collaborative Group on Hormonal Factors in Breast Cancer",
+        "year": "2019",
+        "journal": "Lancet",
+        "pmcid": "PMC6891893",
+        "doi": "10.1016/s0140-6736(19)31709-x",
+        "pub_types": [
+          "Meta-Analysis",
+          "Research Support, Non-U.S. Gov't",
+          "research-article",
+          "Journal Article"
+        ]
+      }
+    },
+    {
+      "id": "kuchenbaecker-brca",
+      "pmid": "28632866",
+      "line": 42,
+      "verdict": "OK",
+      "checks": {
+        "resolves": "ok",
+        "url": "ok",
+        "year": "ok",
+        "journal": "ok",
+        "author": "ok",
+        "title": "ok",
+        "retracted": "ok",
+        "swap": "ok"
+      },
+      "problems": [],
+      "notes": {
+        "title": "86%"
+      },
+      "record": {
+        "title": "Risks of Breast, Ovarian, and Contralateral Breast Cancer for BRCA1 and BRCA2 Mutation Carriers.",
+        "first_author": "Kuchenbaecker",
+        "year": "2017",
+        "journal": "JAMA",
+        "pmcid": null,
+        "doi": "10.1001/jama.2017.7112",
+        "pub_types": [
+          "Journal Article"
+        ]
+      }
+    },
+    {
+      "id": "tai-male-brca",
+      "pmid": "18042939",
+      "line": 44,
+      "verdict": "OK",
+      "checks": {
+        "resolves": "ok",
+        "url": "ok",
+        "year": "ok",
+        "journal": "ok",
+        "author": "ok",
+        "title": "ok",
+        "retracted": "ok",
+        "swap": "ok"
+      },
+      "problems": [],
+      "notes": {
+        "title": "100%"
+      },
+      "record": {
+        "title": "Breast cancer risk among male BRCA1 and BRCA2 mutation carriers.",
+        "first_author": "Tai",
+        "year": "2007",
+        "journal": "J Natl Cancer Inst",
+        "pmcid": "PMC2267289",
+        "doi": "10.1093/jnci/djm203",
+        "pub_types": [
+          "research-article",
+          "Multicenter Study",
+          "Journal Article",
+          "Research Support, N.I.H., Extramural"
+        ]
+      }
+    },
+    {
+      "id": "yang-palb2",
+      "pmid": "31841383",
+      "line": 46,
+      "verdict": "OK",
+      "checks": {
+        "resolves": "ok",
+        "url": "ok",
+        "year": "ok",
+        "journal": "ok",
+        "author": "ok",
+        "title": "ok",
+        "retracted": "ok",
+        "swap": "ok"
+      },
+      "problems": [],
+      "notes": {
+        "title": "100%"
+      },
+      "record": {
+        "title": "Cancer Risks Associated With Germline <i>PALB2</i> Pathogenic Variants: An International Study of 524 Families.",
+        "first_author": "Yang",
+        "year": "2020",
+        "journal": "J Clin Oncol",
+        "pmcid": "PMC7049229",
+        "doi": "10.1200/jco.19.01907",
+        "pub_types": [
+          "Research Support, Non-U.S. Gov't",
+          "research-article",
+          "Journal Article"
+        ]
+      }
+    },
+    {
+      "id": "hansford-cdh1",
+      "pmid": "26182300",
+      "line": 48,
+      "verdict": "OK",
+      "checks": {
+        "resolves": "ok",
+        "url": "ok",
+        "year": "ok",
+        "journal": "ok",
+        "author": "ok",
+        "title": "ok",
+        "retracted": "ok",
+        "swap": "ok"
+      },
+      "problems": [],
+      "notes": {
+        "title": "100%"
+      },
+      "record": {
+        "title": "Hereditary Diffuse Gastric Cancer Syndrome: CDH1 Mutations and Beyond.",
+        "first_author": "Hansford",
+        "year": "2015",
+        "journal": "JAMA Oncol",
+        "pmcid": null,
+        "doi": "10.1001/jamaoncol.2014.168",
+        "pub_types": [
+          "Video-Audio Media",
+          "Multicenter Study",
+          "Journal Article"
+        ]
+      }
+    },
+    {
+      "id": "boyd-density",
+      "pmid": "17229950",
+      "line": 50,
+      "verdict": "OK",
+      "checks": {
+        "resolves": "ok",
+        "url": "ok",
+        "year": "ok",
+        "journal": "ok",
+        "author": "ok",
+        "title": "ok",
+        "retracted": "ok",
+        "swap": "ok"
+      },
+      "problems": [],
+      "notes": {
+        "title": "100%"
+      },
+      "record": {
+        "title": "Mammographic density and the risk and detection of breast cancer.",
+        "first_author": "Boyd",
+        "year": "2007",
+        "journal": "N Engl J Med",
+        "pmcid": null,
+        "doi": "10.1056/nejmoa062790",
+        "pub_types": [
+          "Research Support, Non-U.S. Gov't",
+          "Journal Article"
+        ]
+      }
+    },
+    {
+      "id": "travis-rt",
+      "pmid": "12876089",
+      "line": 52,
+      "verdict": "OK",
+      "checks": {
+        "resolves": "ok",
+        "url": "ok",
+        "year": "ok",
+        "journal": "ok",
+        "author": "ok",
+        "title": "ok",
+        "retracted": "ok",
+        "swap": "ok"
+      },
+      "problems": [],
+      "notes": {
+        "title": "100%"
+      },
+      "record": {
+        "title": "Breast cancer following radiotherapy and chemotherapy among young women with Hodgkin disease.",
+        "first_author": "Travis",
+        "year": "2003",
+        "journal": "JAMA",
+        "pmcid": null,
+        "doi": "10.1001/jama.290.4.465",
+        "pub_types": [
+          "Research Support, U.S. Gov't, P.H.S.",
+          "Journal Article"
+        ]
+      }
+    },
+    {
+      "id": "swerdlow-klinefelter",
+      "pmid": "21241366",
+      "line": 54,
+      "verdict": "OK",
+      "checks": {
+        "resolves": "ok",
+        "url": "ok",
+        "year": "ok",
+        "journal": "ok",
+        "author": "ok",
+        "title": "ok",
+        "retracted": "ok",
+        "swap": "ok"
+      },
+      "problems": [],
+      "notes": {
+        "title": "100%"
+      },
+      "record": {
+        "title": "Breast cancer risk among patients with Klinefelter syndrome.",
+        "first_author": "Brinton",
+        "year": "2011",
+        "journal": "Acta Paediatr",
+        "pmcid": "PMC4024394",
+        "doi": "10.1111/j.1651-2227.2010.02131.x",
+        "pub_types": [
+          "research-article",
+          "Review",
+          "Journal Article"
+        ]
+      }
+    },
+    {
+      "id": "palmer-tnbc-repro",
+      "pmid": "28086982",
+      "line": 56,
+      "verdict": "OK",
+      "checks": {
+        "resolves": "ok",
+        "url": "ok",
+        "year": "ok",
+        "journal": "ok",
+        "author": "ok",
+        "title": "ok",
+        "retracted": "ok",
+        "swap": "ok"
+      },
+      "problems": [],
+      "notes": {
+        "title": "100%"
+      },
+      "record": {
+        "title": "Reproductive factors and the risk of triple-negative breast cancer in white women and African-American women: a pooled analysis.",
+        "first_author": "Ma",
+        "year": "2017",
+        "journal": "Breast Cancer Res",
+        "pmcid": "PMC5237290",
+        "doi": "10.1186/s13058-016-0799-9",
+        "pub_types": [
+          "research-article",
+          "Journal Article"
+        ]
+      }
+    },
+    {
+      "id": "asco-cap-er",
+      "pmid": "31928404",
+      "line": 61,
+      "verdict": "OK",
+      "checks": {
+        "resolves": "ok",
+        "url": "ok",
+        "year": "ok",
+        "journal": "ok",
+        "author": "ok",
+        "title": "ok",
+        "retracted": "ok",
+        "swap": "ok"
+      },
+      "problems": [],
+      "notes": {
+        "title": "100%"
+      },
+      "record": {
+        "title": "Estrogen and Progesterone Receptor Testing in Breast Cancer: ASCO/CAP Guideline Update.",
+        "first_author": "Allison",
+        "year": "2020",
+        "journal": "J Clin Oncol",
+        "pmcid": null,
+        "doi": "10.1200/jco.19.02309",
+        "pub_types": [
+          "Practice Guideline",
+          "Journal Article"
+        ]
+      }
+    },
+    {
+      "id": "asco-cap-her2",
+      "pmid": "37284804",
+      "line": 63,
+      "verdict": "OK",
+      "checks": {
+        "resolves": "ok",
+        "url": "ok",
+        "year": "ok",
+        "journal": "ok",
+        "author": "ok",
+        "title": "ok",
+        "retracted": "ok",
+        "swap": "ok"
+      },
+      "problems": [],
+      "notes": {
+        "title": "90%"
+      },
+      "record": {
+        "title": "Human Epidermal Growth Factor Receptor 2 Testing in Breast Cancer: ASCO-College of American Pathologists Guideline Update.",
+        "first_author": "Wolff",
+        "year": "2023",
+        "journal": "J Clin Oncol",
+        "pmcid": null,
+        "doi": "10.1200/jco.22.02864",
+        "pub_types": [
+          "Research Support, Non-U.S. Gov't",
+          "Systematic Review",
+          "Practice Guideline",
+          "Journal Article"
+        ]
+      }
+    },
+    {
+      "id": "ki67-iwg",
+      "pmid": "33369635",
+      "line": 65,
+      "verdict": "OK",
+      "checks": {
+        "resolves": "ok",
+        "url": "ok",
+        "year": "ok",
+        "journal": "ok",
+        "author": "ok",
+        "title": "ok",
+        "retracted": "ok",
+        "swap": "ok"
+      },
+      "problems": [],
+      "notes": {
+        "title": "100%"
+      },
+      "record": {
+        "title": "Assessment of Ki67 in Breast Cancer: Updated Recommendations From the International Ki67 in Breast Cancer Working Group.",
+        "first_author": "Nielsen",
+        "year": "2021",
+        "journal": "J Natl Cancer Inst",
+        "pmcid": "PMC8487652",
+        "doi": "10.1093/jnci/djaa201",
+        "pub_types": [
+          "Research Support, Non-U.S. Gov't",
+          "review-article",
+          "Journal Article"
+        ]
+      }
+    },
+    {
+      "id": "shanghai-bse",
+      "pmid": "12359854",
+      "line": 67,
+      "verdict": "OK",
+      "checks": {
+        "resolves": "ok",
+        "url": "ok",
+        "year": "ok",
+        "journal": "ok",
+        "author": "ok",
+        "title": "ok",
+        "retracted": "ok",
+        "swap": "ok"
+      },
+      "problems": [],
+      "notes": {
+        "title": "100%"
+      },
+      "record": {
+        "title": "Randomized trial of breast self-examination in Shanghai: final results.",
+        "first_author": "Thomas",
+        "year": "2002",
+        "journal": "J Natl Cancer Inst",
+        "pmcid": null,
+        "doi": "10.1093/jnci/94.19.1445",
+        "pub_types": [
+          "Comparative Study",
+          "Clinical Trial",
+          "Research Support, U.S. Gov't, P.H.S.",
+          "Randomized Controlled Trial",
+          "Journal Article"
+        ]
+      }
+    },
+    {
+      "id": "dbt-bcsc",
+      "pmid": "33372954",
+      "line": 69,
+      "verdict": "OK",
+      "checks": {
+        "resolves": "ok",
+        "url": "ok",
+        "year": "ok",
+        "journal": "ok",
+        "author": "ok",
+        "title": "ok",
+        "retracted": "ok",
+        "swap": "ok"
+      },
+      "problems": [],
+      "notes": {
+        "title": "100%"
+      },
+      "record": {
+        "title": "Performance of Digital Breast Tomosynthesis, Synthetic Mammography, and Digital Mammography in Breast Cancer Screening: A Systematic Review and Meta-Analysis.",
+        "first_author": "Alabousi",
+        "year": "2021",
+        "journal": "J Natl Cancer Inst",
+        "pmcid": "PMC8168096",
+        "doi": "10.1093/jnci/djaa205",
+        "pub_types": [
+          "Meta-Analysis",
+          "Systematic Review",
+          "review-article",
+          "Journal Article"
+        ]
+      }
+    },
+    {
+      "id": "kuhl-mri",
+      "pmid": "28221097",
+      "line": 71,
+      "verdict": "OK",
+      "checks": {
+        "resolves": "ok",
+        "url": "ok",
+        "year": "ok",
+        "journal": "ok",
+        "author": "ok",
+        "title": "ok",
+        "retracted": "ok",
+        "swap": "ok"
+      },
+      "problems": [],
+      "notes": {
+        "title": "100%"
+      },
+      "record": {
+        "title": "Supplemental Breast MR Imaging Screening of Women with Average Risk of Breast Cancer.",
+        "first_author": "Kuhl",
+        "year": "2017",
+        "journal": "Radiology",
+        "pmcid": null,
+        "doi": "10.1148/radiol.2016161444",
+        "pub_types": [
+          "Comparative Study",
+          "Multicenter Study",
+          "Journal Article",
+          "Observational Study"
+        ]
+      }
+    },
+    {
+      "id": "saslow-2007",
+      "pmid": "17392385",
+      "line": 73,
+      "verdict": "OK",
+      "checks": {
+        "resolves": "ok",
+        "url": "ok",
+        "year": "ok",
+        "journal": "ok",
+        "author": "ok",
+        "title": "ok",
+        "retracted": "ok",
+        "swap": "ok"
+      },
+      "problems": [],
+      "notes": {
+        "title": "100%"
+      },
+      "record": {
+        "title": "American Cancer Society guidelines for breast screening with MRI as an adjunct to mammography.",
+        "first_author": "Saslow",
+        "year": "2007",
+        "journal": "CA Cancer J Clin",
+        "pmcid": null,
+        "doi": "10.3322/canjclin.57.2.75",
+        "pub_types": [
+          "Practice Guideline",
+          "Journal Article"
+        ]
+      }
+    },
+    {
+      "id": "metabric",
+      "pmid": "27161491",
+      "line": 77,
+      "verdict": "OK",
+      "checks": {
+        "resolves": "ok",
+        "url": "skip",
+        "year": "ok",
+        "journal": "ok",
+        "author": "ok",
+        "title": "ok",
+        "retracted": "ok",
+        "swap": "ok"
+      },
+      "problems": [],
+      "notes": {
+        "url": "url names no PubMed, PMC or DOI id",
+        "title": "100%"
+      },
+      "record": {
+        "title": "The somatic mutation profiles of 2,433 breast cancers refines their genomic and transcriptomic landscapes.",
+        "first_author": "Pereira",
+        "year": "2016",
+        "journal": "Nat Commun",
+        "pmcid": "PMC4866047",
+        "doi": "10.1038/ncomms11479",
+        "pub_types": [
+          "Research Support, Non-U.S. Gov't",
+          "research-article",
+          "Journal Article"
+        ]
+      }
+    },
+    {
+      "id": "tcga-2012",
+      "pmid": "23000897",
+      "line": 83,
+      "verdict": "OK",
+      "checks": {
+        "resolves": "ok",
+        "url": "ok",
+        "year": "ok",
+        "journal": "ok",
+        "author": "ok",
+        "title": "ok",
+        "retracted": "ok",
+        "swap": "ok"
+      },
+      "problems": [],
+      "notes": {
+        "title": "100%"
+      },
+      "record": {
+        "title": "Comprehensive molecular portraits of human breast tumours.",
+        "first_author": "Cancer Genome Atlas Network",
+        "year": "2012",
+        "journal": "Nature",
+        "pmcid": "PMC3465532",
+        "doi": "10.1038/nature11412",
+        "pub_types": [
+          "Research Support, Non-U.S. Gov't",
+          "research-article",
+          "Research Support, U.S. Gov't, Non-P.H.S.",
+          "Journal Article",
+          "Research Support, N.I.H., Extramural"
+        ]
+      }
+    },
+    {
+      "id": "razavi-2018",
+      "pmid": "30205045",
+      "line": 97,
+      "verdict": "OK",
+      "checks": {
+        "resolves": "ok",
+        "url": "ok",
+        "year": "ok",
+        "journal": "ok",
+        "author": "ok",
+        "title": "ok",
+        "retracted": "ok",
+        "swap": "ok"
+      },
+      "problems": [],
+      "notes": {
+        "title": "100%"
+      },
+      "record": {
+        "title": "The Genomic Landscape of Endocrine-Resistant Advanced Breast Cancers.",
+        "first_author": "Razavi",
+        "year": "2018",
+        "journal": "Cancer Cell",
+        "pmcid": "PMC6327853",
+        "doi": "10.1016/j.ccell.2018.08.008",
+        "pub_types": [
+          "Research Support, Non-U.S. Gov't",
+          "research-article",
+          "Journal Article",
+          "Research Support, N.I.H., Extramural"
+        ]
+      }
+    },
+    {
+      "id": "pan-2017",
+      "pmid": "29117498",
+      "line": 99,
+      "verdict": "OK",
+      "checks": {
+        "resolves": "ok",
+        "url": "ok",
+        "year": "ok",
+        "journal": "ok",
+        "author": "ok",
+        "title": "ok",
+        "retracted": "ok",
+        "swap": "ok"
+      },
+      "problems": [],
+      "notes": {
+        "title": "100%"
+      },
+      "record": {
+        "title": "20-Year Risks of Breast-Cancer Recurrence after Stopping Endocrine Therapy at 5 Years.",
+        "first_author": "Pan",
+        "year": "2017",
+        "journal": "N Engl J Med",
+        "pmcid": "PMC5734609",
+        "doi": "10.1056/nejmoa1701830",
+        "pub_types": [
+          "Meta-Analysis",
+          "Research Support, Non-U.S. Gov't",
+          "research-article",
+          "Journal Article"
+        ]
+      }
+    },
+    {
+      "id": "mariotto-2017",
+      "pmid": "28522448",
+      "line": 101,
+      "verdict": "OK",
+      "checks": {
+        "resolves": "ok",
+        "url": "ok",
+        "year": "ok",
+        "journal": "ok",
+        "author": "ok",
+        "title": "ok",
+        "retracted": "ok",
+        "swap": "ok"
+      },
+      "problems": [],
+      "notes": {
+        "title": "100%"
+      },
+      "record": {
+        "title": "Estimation of the Number of Women Living with Metastatic Breast Cancer in the United States.",
+        "first_author": "Mariotto",
+        "year": "2017",
+        "journal": "Cancer Epidemiol Biomarkers Prev",
+        "pmcid": "PMC5833304",
+        "doi": "10.1158/1055-9965.epi-16-0889",
+        "pub_types": [
+          "research-article",
+          "Journal Article",
+          "Research Support, N.I.H., Extramural"
+        ]
+      }
+    },
+    {
+      "id": "chandarlapaty-2016",
+      "pmid": "27532364",
+      "line": 107,
+      "verdict": "OK",
+      "checks": {
+        "resolves": "ok",
+        "url": "ok",
+        "year": "ok",
+        "journal": "ok",
+        "author": "ok",
+        "title": "ok",
+        "retracted": "ok",
+        "swap": "ok"
+      },
+      "problems": [],
+      "notes": {
+        "title": "100%"
+      },
+      "record": {
+        "title": "Prevalence of ESR1 Mutations in Cell-Free DNA and Outcomes in Metastatic Breast Cancer: A Secondary Analysis of the BOLERO-2 Clinical Trial.",
+        "first_author": "Chandarlapaty",
+        "year": "2016",
+        "journal": "JAMA Oncol",
+        "pmcid": "PMC5063698",
+        "doi": "10.1001/jamaoncol.2016.1279",
+        "pub_types": [
+          "research-article",
+          "Journal Article"
+        ]
+      }
+    },
+    {
+      "id": "schiavon-2015",
+      "pmid": "26560360",
+      "line": 109,
+      "verdict": "OK",
+      "checks": {
+        "resolves": "ok",
+        "url": "ok",
+        "year": "ok",
+        "journal": "ok",
+        "author": "ok",
+        "title": "ok",
+        "retracted": "ok",
+        "swap": "ok"
+      },
+      "problems": [],
+      "notes": {
+        "title": "100%"
+      },
+      "record": {
+        "title": "Analysis of ESR1 mutation in circulating tumor DNA demonstrates evolution during therapy for metastatic breast cancer.",
+        "first_author": "Schiavon",
+        "year": "2015",
+        "journal": "Sci Transl Med",
+        "pmcid": "PMC4998737",
+        "doi": "10.1126/scitranslmed.aac7551",
+        "pub_types": [
+          "Research Support, Non-U.S. Gov't",
+          "research-article",
+          "Journal Article"
+        ]
+      }
+    }
+  ],
+  "failing": [],
+  "quotes": [
+    {
+      "ref": "boyd-density",
+      "line": 333,
+      "quote": "as compared with women with density in less than 10% of the  mammogram, women with density in 75% or more had an increased risk of breast  cancer (odds ratio, 4.7; 95% confidence interval [CI], 3.0 to 7.4)",
+      "verdict": "OK",
+      "found_in": "abstract"
+    },
+    {
+      "ref": "cgh-family",
+      "line": 353,
+      "quote": "the ratios were 1.80 (99% CI 1.69-1.91), 2.93 (2.36-3.64), and 3.90 (2.03-7.49), respectively, for one, two, and three or more affected first-degree relatives",
+      "verdict": "OK",
+      "found_in": "abstract"
+    },
+    {
+      "ref": "kuchenbaecker-brca",
+      "line": 363,
+      "quote": "The cumulative breast cancer risk to age 80 years was 72%  (95% CI, 65%-79%) for BRCA1 and 69% (95% CI, 61%-77%) for BRCA2 carriers",
+      "verdict": "OK",
+      "found_in": "abstract"
+    },
+    {
+      "ref": "kuchenbaecker-brca",
+      "line": 371,
+      "quote": "The cumulative breast cancer risk to age 80 years was 72%  (95% CI, 65%-79%) for BRCA1 and 69% (95% CI, 61%-77%) for BRCA2 carriers",
+      "verdict": "OK",
+      "found_in": "abstract"
+    },
+    {
+      "ref": "yang-palb2",
+      "line": 387,
+      "quote": "the estimated risks to age 80 years were 53% (95% CI, 44% to 63%)  for female breast cancer",
+      "verdict": "OK",
+      "found_in": "abstract"
+    },
+    {
+      "ref": "hansford-cdh1",
+      "line": 395,
+      "quote": "By the age of 80 years ... the risk of breast cancer for females  was 42% (95% CI, 23%-68%)",
+      "verdict": "OK",
+      "found_in": "abstract"
+    },
+    {
+      "ref": "swerdlow-klinefelter",
+      "line": 412,
+      "quote": "The largest study found 19.2- and 57.8-fold increases in  incidence and mortality, respectively",
+      "verdict": "OK",
+      "found_in": "abstract"
+    },
+    {
+      "ref": "cgh-mht",
+      "line": 424,
+      "quote": "Among current users, these excess risks were definite even during years  1-4 (oestrogen-progestagen RR 1.60, 95% CI 1.52-1.69; oestrogen-only RR 1.17,  1.10-1.26), and were twice as great during years 5-14 (oestrogen-progestagen  RR 2.08, 2.02-2.15; oestrogen-only RR 1.33, 1.28-1.37)",
+      "verdict": "OK",
+      "found_in": "abstract"
+    },
+    {
+      "ref": "cgh-mht",
+      "line": 428,
+      "quote": "5 years of MHT, starting at age 50 years, would increase breast cancer  incidence at ages 50-69 years by about one in every 50 users of oestrogen plus  daily progestagen preparations",
+      "verdict": "OK",
+      "found_in": "abstract"
+    },
+    {
+      "ref": "cgh-menarche",
+      "line": 440,
+      "quote": "Breast cancer risk increased by a factor of 1·050 (95% CI 1·044–1·057; p<0·0001) for every year younger at menarche, and independently by a smaller amount (1·029, 1·025–1·032; p<0·0001), for every year older at menopause",
+      "verdict": "OK",
+      "found_in": "abstract"
+    },
+    {
+      "ref": "palmer-tnbc-repro",
+      "line": 448,
+      "quote": "Among parous women, older age at first completed pregnancy was not associated with any ER/PR/HER2-defined specific subtypes, except for the luminal A-like subtype (P trend = 0.05)",
+      "verdict": "OK",
+      "found_in": "full text"
+    },
+    {
+      "ref": "palmer-tnbc-repro",
+      "line": 451,
+      "quote": "TNBC risk decreased with increasing duration of breastfeeding (P trend = 0.006), but age at menarche, age at first completed pregnancy, and nulliparity were not associated with risk of TNBC",
+      "verdict": "OK",
+      "found_in": "abstract"
+    },
+    {
+      "ref": "cgh-breastfeeding",
+      "line": 461,
+      "quote": "The relative risk of breast cancer decreased by 4.3% (95% CI 2.9-5.8; p<0.0001) for every 12 months of breastfeeding",
+      "verdict": "OK",
+      "found_in": "abstract"
+    },
+    {
+      "ref": "palmer-tnbc-repro",
+      "line": 463,
+      "quote": "Parous women who breastfed for at least one year had a 31% lower risk of TNBC than parous women who had never breastfed (odds ratio, OR = 0.69",
+      "verdict": "OK",
+      "found_in": "abstract"
+    },
+    {
+      "ref": "palmer-tnbc-repro",
+      "line": 466,
+      "quote": "Parous African-American women aged 20-44 years who breastfed for 6 months or longer had an 82% lower risk of TNBC than their counterparts who had never breastfed (OR = 0.18",
+      "verdict": "OK",
+      "found_in": "abstract"
+    },
+    {
+      "ref": "cgh-alcohol",
+      "line": 491,
+      "quote": "The relative risk of breast cancer increased by 7.1% (95% CI 5.5-8.7%;  p<0.00001) for each additional 10 g per day intake of alcohol, i.e. for each  extra unit or drink of alcohol consumed on a daily basis",
+      "verdict": "OK",
+      "found_in": "abstract"
+    },
+    {
+      "ref": "travis-rt",
+      "line": 516,
+      "quote": "cohort of 3817 female 1-year survivors of HD diagnosed at age 30 years or younger … A radiation dose of 4 Gy or more delivered to the breast was associated with a 3.2-fold … Risk increased to 8-fold (95% CI, 2.6-26.4) with a dose of more than 40 Gy",
+      "verdict": "OK",
+      "found_in": "abstract"
+    },
+    {
+      "ref": "saslow-2007",
+      "line": 646,
+      "quote": "Screening MRI is recommended for women with an approximately 20-25% or greater lifetime risk of breast cancer, including women with a strong family history of breast or ovarian cancer and women who were treated for Hodgkin disease.",
+      "verdict": "OK",
+      "found_in": "abstract"
+    },
+    {
+      "ref": "shanghai-bse",
+      "line": 666,
+      "quote": "266,064 women associated with 519 factories in Shanghai were randomly assigned … There were 135 (0.10%) breast cancer deaths in the instruction group and 131 (0.10%) in the control group. … more benign breast lesions were diagnosed in the instruction group than in the control group",
+      "verdict": "OK",
+      "found_in": "abstract"
+    },
+    {
+      "ref": "asco-cap-her2",
+      "line": 720,
+      "quote": "best practices to distinguish IHC 0 from 1+ are now clinically relevant",
+      "verdict": "OK",
+      "found_in": "abstract"
+    },
+    {
+      "ref": "cgh-family",
+      "line": 1126,
+      "quote": "the ratios were 1.80 (99% CI 1.69-1.91), 2.93 (2.36-3.64), and 3.90 (2.03-7.49), respectively, for one, two, and three or more affected first-degree relatives",
+      "verdict": "OK",
+      "found_in": "abstract"
+    },
+    {
+      "ref": "boyd-density",
+      "line": 1133,
+      "quote": "as compared with women with density in less than 10% of the  mammogram, women with density in 75% or more had an increased risk of breast  cancer (odds ratio, 4.7; 95% confidence interval [CI], 3.0 to 7.4)",
+      "verdict": "OK",
+      "found_in": "abstract"
+    },
+    {
+      "ref": "cgh-alcohol",
+      "line": 1138,
+      "quote": "The relative risk of breast cancer increased by 7.1% (95% CI 5.5-8.7%;  p<0.00001) for each additional 10 g per day intake of alcohol, i.e. for each  extra unit or drink of alcohol consumed on a daily basis",
+      "verdict": "OK",
+      "found_in": "abstract"
+    },
+    {
+      "ref": "cgh-mht",
+      "line": 1146,
+      "quote": "Among current users, these excess risks were definite even during years  1-4 (oestrogen-progestagen RR 1.60, 95% CI 1.52-1.69; oestrogen-only RR 1.17,  1.10-1.26), and were twice as great during years 5-14 (oestrogen-progestagen  RR 2.08, 2.02-2.15; oestrogen-only RR 1.33, 1.28-1.37)",
+      "verdict": "OK",
+      "found_in": "abstract"
+    },
+    {
+      "ref": "travis-rt",
+      "line": 1152,
+      "quote": "cohort of 3817 female 1-year survivors of HD diagnosed at age 30 years or younger",
+      "verdict": "OK",
+      "found_in": "abstract"
+    },
+    {
+      "ref": "cgh-menarche",
+      "line": 1156,
+      "quote": "Breast cancer risk increased by a factor of 1·050 (95% CI 1·044–1·057; p<0·0001) for every year younger at menarche, and independently by a smaller amount (1·029, 1·025–1·032; p<0·0001), for every year older at menopause",
+      "verdict": "OK",
+      "found_in": "abstract"
+    },
+    {
+      "ref": "cgh-breastfeeding",
+      "line": 1163,
+      "quote": "The relative risk of breast cancer decreased by 4.3% (95% CI 2.9-5.8; p<0.0001) for every 12 months of breastfeeding",
+      "verdict": "OK",
+      "found_in": "abstract"
+    },
+    {
+      "ref": "asco-cap-er",
+      "line": 1186,
+      "quote": "Breast cancer samples with 1% to 100% of tumor nuclei positive should be interpreted as ER positive.",
+      "verdict": "OK",
+      "found_in": "abstract"
+    },
+    {
+      "ref": "cgh-mht",
+      "line": 1221,
+      "quote": "Among current users, these excess risks were definite even during years  1-4 (oestrogen-progestagen RR 1.60, 95% CI 1.52-1.69; oestrogen-only RR 1.17,  1.10-1.26), and were twice as great during years 5-14 (oestrogen-progestagen  RR 2.08, 2.02-2.15; oestrogen-only RR 1.33, 1.28-1.37)",
+      "verdict": "OK",
+      "found_in": "abstract"
+    },
+    {
+      "ref": "cgh-alcohol",
+      "line": 1229,
+      "quote": "The relative risk of breast cancer increased by 7.1% (95% CI 5.5-8.7%;  p<0.00001) for each additional 10 g per day intake of alcohol, i.e. for each  extra unit or drink of alcohol consumed on a daily basis",
+      "verdict": "OK",
+      "found_in": "abstract"
+    },
+    {
+      "ref": "palmer-tnbc-repro",
+      "line": 1233,
+      "quote": "Among parous women, older age at first completed pregnancy was not associated with any ER/PR/HER2-defined specific subtypes, except for the luminal A-like subtype (P trend = 0.05)",
+      "verdict": "OK",
+      "found_in": "full text"
+    },
+    {
+      "ref": "kuchenbaecker-brca",
+      "line": 1238,
+      "quote": "The cumulative breast cancer risk to age 80 years was 72%  (95% CI, 65%-79%) for BRCA1 and 69% (95% CI, 61%-77%) for BRCA2 carriers",
+      "verdict": "OK",
+      "found_in": "abstract"
+    },
+    {
+      "ref": "chandarlapaty-2016",
+      "line": 1272,
+      "quote": "The study enrolled postmenopausal women with a diagnosis of MBC and prior exposure to an aromatase inhibitor. … The 2 most frequent mutations in ESR1 (Y537S and D538G) were analyzed from cfDNA … Of 541 evaluable patients, 156 (28.8%) had ESR1 mutation",
+      "verdict": "OK",
+      "found_in": "abstract"
+    },
+    {
+      "ref": "schiavon-2015",
+      "line": 1276,
+      "quote": "ESR1 mutation prevalence differed markedly between patients who were first exposed to AI during the adjuvant and metastatic settings [5.8% (3 of 52) versus 36.4% (16 of 44), respectively",
+      "verdict": "OK",
+      "found_in": "abstract"
+    },
+    {
+      "ref": "asco-cap-er",
+      "line": 1380,
+      "quote": "Breast cancer samples with 1% to 100% of tumor nuclei positive should be interpreted as ER positive.",
+      "verdict": "OK",
+      "found_in": "abstract"
+    },
+    {
+      "ref": "kuchenbaecker-brca",
+      "line": 1509,
+      "quote": "The cumulative breast cancer risk to age 80 years was 72%  (95% CI, 65%-79%) for BRCA1 and 69% (95% CI, 61%-77%) for BRCA2 carriers",
+      "verdict": "OK",
+      "found_in": "abstract"
+    },
+    {
+      "ref": "palmer-tnbc-repro",
+      "line": 1521,
+      "quote": "Parous women who breastfed for at least one year had a 31% lower risk of TNBC than parous women who had never breastfed (odds ratio, OR = 0.69",
+      "verdict": "OK",
+      "found_in": "abstract"
+    },
+    {
+      "ref": "palmer-tnbc-repro",
+      "line": 1527,
+      "quote": "Parous African-American women aged 20-44 years who breastfed for 6 months or longer had an 82% lower risk of TNBC than their counterparts who had never breastfed (OR = 0.18",
+      "verdict": "OK",
+      "found_in": "abstract"
+    },
+    {
+      "ref": "yang-palb2",
+      "line": 1535,
+      "quote": "the estimated risks to age 80 years were 53% (95% CI, 44% to 63%)  for female breast cancer",
+      "verdict": "OK",
+      "found_in": "abstract"
+    },
+    {
+      "ref": "tcga-2012",
+      "line": 1828,
+      "quote": "Summary of disease subtypes findings … TP53 mut (32%)",
+      "verdict": "OK",
+      "found_in": "full text"
+    },
+    {
+      "ref": "tcga-2012",
+      "line": 1867,
+      "quote": "Summary of disease subtypes findings … 17q12 focal ERRB2 amp (71%)",
+      "verdict": "OK",
+      "found_in": "full text"
+    },
+    {
+      "ref": "tcga-2012",
+      "line": 1869,
+      "quote": "Summary of disease subtypes findings … TP53 mut (75%)",
+      "verdict": "OK",
+      "found_in": "full text"
+    },
+    {
+      "ref": "kuchenbaecker-brca",
+      "line": 1895,
+      "quote": "The cumulative breast cancer risk to age 80 years was 72%  (95% CI, 65%-79%) for BRCA1 and 69% (95% CI, 61%-77%) for BRCA2 carriers",
+      "verdict": "OK",
+      "found_in": "abstract"
+    },
+    {
+      "ref": "tcga-2012",
+      "line": 1919,
+      "quote": "Summary of disease subtypes findings … TP53 mut (84%)",
+      "verdict": "OK",
+      "found_in": "full text"
+    },
+    {
+      "ref": "hansford-cdh1",
+      "line": 1990,
+      "quote": "By the age of 80 years ... the risk of breast cancer for females  was 42% (95% CI, 23%-68%)",
+      "verdict": "OK",
+      "found_in": "abstract"
+    },
+    {
+      "ref": "swerdlow-klinefelter",
+      "line": 2184,
+      "quote": "The largest study found 19.2- and 57.8-fold increases in  incidence and mortality, respectively",
+      "verdict": "OK",
+      "found_in": "abstract"
+    },
+    {
+      "ref": "asco-cap-her2",
+      "line": 2219,
+      "quote": "a new indication for trastuzumab deruxtecan when HER2 is not overexpressed or amplified but is immunohistochemistry (IHC) 1+ or 2+ without amplification by in situ hybridization. … best practices to distinguish IHC 0 from 1+ are now clinically relevant",
+      "verdict": "OK",
+      "found_in": "abstract"
+    },
+    {
+      "ref": "asco-cap-her2",
+      "line": 2271,
+      "quote": "a new indication for trastuzumab deruxtecan when HER2 is not overexpressed or amplified but is immunohistochemistry (IHC) 1+ or 2+ without amplification by in situ hybridization. … best practices to distinguish IHC 0 from 1+ are now clinically relevant",
+      "verdict": "OK",
+      "found_in": "abstract"
+    },
+    {
+      "ref": "pan-2017",
+      "line": 2408,
+      "quote": "women with ER-positive breast cancer who were disease-free after 5 years of scheduled endocrine therapy … Breast-cancer recurrences occurred at a steady rate throughout the study period from 5 to 20 years. … with risks ranging from 10 to 41%, depending on TN status and tumor grade",
+      "verdict": "OK",
+      "found_in": "abstract"
+    },
+    {
+      "ref": "razavi-2018",
+      "line": 2461,
+      "quote": "We integrated the genomic sequencing of 1,918 breast cancers … In 692 tumors previously exposed to hormonal therapy",
+      "verdict": "OK",
+      "found_in": "abstract"
+    },
+    {
+      "ref": "mariotto-2017",
+      "line": 2525,
+      "quote": "there will be 154,794 women living with MBC in the United States, three in four initially diagnosed with stage I-III breast cancer who later progressed to MBC",
+      "verdict": "OK",
+      "found_in": "abstract"
+    },
+    {
+      "ref": "pan-2017",
+      "line": 2528,
+      "quote": "women with ER-positive breast cancer who were disease-free after 5 years of scheduled endocrine therapy … Breast-cancer recurrences occurred at a steady rate throughout the study period from 5 to 20 years. … with risks ranging from 10 to 41%, depending on TN status and tumor grade",
+      "verdict": "OK",
+      "found_in": "abstract"
+    }
+  ],
+  "failing_quotes": []
+}

@@ -1,0 +1,3342 @@
+{
+  "source": "cBioPortal",
+  "api": "https://www.cbioportal.org/api",
+  "cancer": "breast",
+  "study": {
+    "id": "brca_tcga_pub",
+    "name": "Breast Invasive Carcinoma (TCGA, Nature 2012)",
+    "citation": "TCGA, Nature 2012",
+    "pmid": "23000897",
+    "n_samples": 825,
+    "n_patients": 825
+  },
+  "drivers_by_subtype": {
+    "basal-like": {
+      "subtype_label": "Basal-like",
+      "n_samples": 98,
+      "n_sequenced": 93,
+      "n_cna_profiled": 92,
+      "genes": {
+        "TP53": {
+          "mutation": {
+            "n": 77,
+            "of": 93,
+            "pct": 82.8
+          },
+          "amplification": {
+            "n": 0,
+            "of": 92,
+            "pct": 0.0
+          },
+          "deep_deletion": {
+            "n": 1,
+            "of": 92,
+            "pct": 1.1
+          },
+          "any_loss": {
+            "n": 40,
+            "of": 92,
+            "pct": 43.5
+          }
+        },
+        "PIK3CA": {
+          "mutation": {
+            "n": 8,
+            "of": 93,
+            "pct": 8.6
+          },
+          "amplification": {
+            "n": 7,
+            "of": 92,
+            "pct": 7.6
+          },
+          "deep_deletion": {
+            "n": 0,
+            "of": 92,
+            "pct": 0.0
+          },
+          "any_loss": {
+            "n": 3,
+            "of": 92,
+            "pct": 3.3
+          }
+        },
+        "GATA3": {
+          "mutation": {
+            "n": 2,
+            "of": 93,
+            "pct": 2.2
+          },
+          "amplification": {
+            "n": 11,
+            "of": 92,
+            "pct": 12.0
+          },
+          "deep_deletion": {
+            "n": 0,
+            "of": 92,
+            "pct": 0.0
+          },
+          "any_loss": {
+            "n": 1,
+            "of": 92,
+            "pct": 1.1
+          }
+        },
+        "MAP3K1": {
+          "mutation": {
+            "n": 0,
+            "of": 93,
+            "pct": 0.0
+          },
+          "amplification": {
+            "n": 0,
+            "of": 92,
+            "pct": 0.0
+          },
+          "deep_deletion": {
+            "n": 3,
+            "of": 92,
+            "pct": 3.3
+          },
+          "any_loss": {
+            "n": 57,
+            "of": 92,
+            "pct": 62.0
+          }
+        },
+        "CDH1": {
+          "mutation": {
+            "n": 0,
+            "of": 93,
+            "pct": 0.0
+          },
+          "amplification": {
+            "n": 1,
+            "of": 92,
+            "pct": 1.1
+          },
+          "deep_deletion": {
+            "n": 0,
+            "of": 92,
+            "pct": 0.0
+          },
+          "any_loss": {
+            "n": 19,
+            "of": 92,
+            "pct": 20.7
+          }
+        },
+        "MAP2K4": {
+          "mutation": {
+            "n": 0,
+            "of": 93,
+            "pct": 0.0
+          },
+          "amplification": {
+            "n": 0,
+            "of": 92,
+            "pct": 0.0
+          },
+          "deep_deletion": {
+            "n": 0,
+            "of": 92,
+            "pct": 0.0
+          },
+          "any_loss": {
+            "n": 39,
+            "of": 92,
+            "pct": 42.4
+          }
+        },
+        "PIK3R1": {
+          "mutation": {
+            "n": 2,
+            "of": 93,
+            "pct": 2.2
+          },
+          "amplification": {
+            "n": 0,
+            "of": 92,
+            "pct": 0.0
+          },
+          "deep_deletion": {
+            "n": 2,
+            "of": 92,
+            "pct": 2.2
+          },
+          "any_loss": {
+            "n": 59,
+            "of": 92,
+            "pct": 64.1
+          }
+        },
+        "PTEN": {
+          "mutation": {
+            "n": 1,
+            "of": 93,
+            "pct": 1.1
+          },
+          "amplification": {
+            "n": 1,
+            "of": 92,
+            "pct": 1.1
+          },
+          "deep_deletion": {
+            "n": 5,
+            "of": 92,
+            "pct": 5.4
+          },
+          "any_loss": {
+            "n": 32,
+            "of": 92,
+            "pct": 34.8
+          }
+        },
+        "BRCA1": {
+          "mutation": {
+            "n": 14,
+            "of": 93,
+            "pct": 15.1
+          },
+          "amplification": {
+            "n": 1,
+            "of": 92,
+            "pct": 1.1
+          },
+          "deep_deletion": {
+            "n": 1,
+            "of": 92,
+            "pct": 1.1
+          },
+          "any_loss": {
+            "n": 27,
+            "of": 92,
+            "pct": 29.3
+          }
+        },
+        "BRCA2": {
+          "mutation": {
+            "n": 6,
+            "of": 93,
+            "pct": 6.5
+          },
+          "amplification": {
+            "n": 0,
+            "of": 92,
+            "pct": 0.0
+          },
+          "deep_deletion": {
+            "n": 4,
+            "of": 92,
+            "pct": 4.3
+          },
+          "any_loss": {
+            "n": 34,
+            "of": 92,
+            "pct": 37.0
+          }
+        },
+        "RB1": {
+          "mutation": {
+            "n": 4,
+            "of": 93,
+            "pct": 4.3
+          },
+          "amplification": {
+            "n": 0,
+            "of": 92,
+            "pct": 0.0
+          },
+          "deep_deletion": {
+            "n": 6,
+            "of": 92,
+            "pct": 6.5
+          },
+          "any_loss": {
+            "n": 40,
+            "of": 92,
+            "pct": 43.5
+          }
+        },
+        "INPP4B": {
+          "mutation": {
+            "n": 1,
+            "of": 93,
+            "pct": 1.1
+          },
+          "amplification": {
+            "n": 1,
+            "of": 92,
+            "pct": 1.1
+          },
+          "deep_deletion": {
+            "n": 0,
+            "of": 92,
+            "pct": 0.0
+          },
+          "any_loss": {
+            "n": 27,
+            "of": 92,
+            "pct": 29.3
+          }
+        },
+        "ERBB2": {
+          "mutation": {
+            "n": 0,
+            "of": 93,
+            "pct": 0.0
+          },
+          "amplification": {
+            "n": 4,
+            "of": 92,
+            "pct": 4.3
+          },
+          "deep_deletion": {
+            "n": 1,
+            "of": 92,
+            "pct": 1.1
+          },
+          "any_loss": {
+            "n": 30,
+            "of": 92,
+            "pct": 32.6
+          }
+        },
+        "MYC": {
+          "mutation": {
+            "n": 1,
+            "of": 93,
+            "pct": 1.1
+          },
+          "amplification": {
+            "n": 29,
+            "of": 92,
+            "pct": 31.5
+          },
+          "deep_deletion": {
+            "n": 0,
+            "of": 92,
+            "pct": 0.0
+          },
+          "any_loss": {
+            "n": 2,
+            "of": 92,
+            "pct": 2.2
+          }
+        },
+        "CCND1": {
+          "mutation": {
+            "n": 0,
+            "of": 93,
+            "pct": 0.0
+          },
+          "amplification": {
+            "n": 2,
+            "of": 92,
+            "pct": 2.2
+          },
+          "deep_deletion": {
+            "n": 0,
+            "of": 92,
+            "pct": 0.0
+          },
+          "any_loss": {
+            "n": 9,
+            "of": 92,
+            "pct": 9.8
+          }
+        },
+        "MDM2": {
+          "mutation": {
+            "n": 1,
+            "of": 93,
+            "pct": 1.1
+          },
+          "amplification": {
+            "n": 1,
+            "of": 92,
+            "pct": 1.1
+          },
+          "deep_deletion": {
+            "n": 0,
+            "of": 92,
+            "pct": 0.0
+          },
+          "any_loss": {
+            "n": 20,
+            "of": 92,
+            "pct": 21.7
+          }
+        },
+        "ESR1": {
+          "mutation": {
+            "n": 0,
+            "of": 93,
+            "pct": 0.0
+          },
+          "amplification": {
+            "n": 2,
+            "of": 92,
+            "pct": 2.2
+          },
+          "deep_deletion": {
+            "n": 0,
+            "of": 92,
+            "pct": 0.0
+          },
+          "any_loss": {
+            "n": 17,
+            "of": 92,
+            "pct": 18.5
+          }
+        },
+        "BRCA1/2": {
+          "mutation": {
+            "n": 19,
+            "of": 93,
+            "pct": 20.4
+          },
+          "amplification": {
+            "n": 1,
+            "of": 92,
+            "pct": 1.1
+          },
+          "deep_deletion": {
+            "n": 5,
+            "of": 92,
+            "pct": 5.4
+          },
+          "any_loss": {
+            "n": 46,
+            "of": 92,
+            "pct": 50.0
+          }
+        }
+      }
+    },
+    "her2-enriched": {
+      "subtype_label": "HER2-enriched",
+      "n_samples": 58,
+      "n_sequenced": 57,
+      "n_cna_profiled": 55,
+      "genes": {
+        "TP53": {
+          "mutation": {
+            "n": 43,
+            "of": 57,
+            "pct": 75.4
+          },
+          "amplification": {
+            "n": 0,
+            "of": 55,
+            "pct": 0.0
+          },
+          "deep_deletion": {
+            "n": 0,
+            "of": 55,
+            "pct": 0.0
+          },
+          "any_loss": {
+            "n": 35,
+            "of": 55,
+            "pct": 63.6
+          }
+        },
+        "PIK3CA": {
+          "mutation": {
+            "n": 23,
+            "of": 57,
+            "pct": 40.4
+          },
+          "amplification": {
+            "n": 4,
+            "of": 55,
+            "pct": 7.3
+          },
+          "deep_deletion": {
+            "n": 0,
+            "of": 55,
+            "pct": 0.0
+          },
+          "any_loss": {
+            "n": 1,
+            "of": 55,
+            "pct": 1.8
+          }
+        },
+        "GATA3": {
+          "mutation": {
+            "n": 1,
+            "of": 57,
+            "pct": 1.8
+          },
+          "amplification": {
+            "n": 0,
+            "of": 55,
+            "pct": 0.0
+          },
+          "deep_deletion": {
+            "n": 0,
+            "of": 55,
+            "pct": 0.0
+          },
+          "any_loss": {
+            "n": 6,
+            "of": 55,
+            "pct": 10.9
+          }
+        },
+        "MAP3K1": {
+          "mutation": {
+            "n": 2,
+            "of": 57,
+            "pct": 3.5
+          },
+          "amplification": {
+            "n": 0,
+            "of": 55,
+            "pct": 0.0
+          },
+          "deep_deletion": {
+            "n": 0,
+            "of": 55,
+            "pct": 0.0
+          },
+          "any_loss": {
+            "n": 11,
+            "of": 55,
+            "pct": 20.0
+          }
+        },
+        "CDH1": {
+          "mutation": {
+            "n": 3,
+            "of": 57,
+            "pct": 5.3
+          },
+          "amplification": {
+            "n": 2,
+            "of": 55,
+            "pct": 3.6
+          },
+          "deep_deletion": {
+            "n": 0,
+            "of": 55,
+            "pct": 0.0
+          },
+          "any_loss": {
+            "n": 22,
+            "of": 55,
+            "pct": 40.0
+          }
+        },
+        "MAP2K4": {
+          "mutation": {
+            "n": 1,
+            "of": 57,
+            "pct": 1.8
+          },
+          "amplification": {
+            "n": 0,
+            "of": 55,
+            "pct": 0.0
+          },
+          "deep_deletion": {
+            "n": 1,
+            "of": 55,
+            "pct": 1.8
+          },
+          "any_loss": {
+            "n": 32,
+            "of": 55,
+            "pct": 58.2
+          }
+        },
+        "PIK3R1": {
+          "mutation": {
+            "n": 4,
+            "of": 57,
+            "pct": 7.0
+          },
+          "amplification": {
+            "n": 0,
+            "of": 55,
+            "pct": 0.0
+          },
+          "deep_deletion": {
+            "n": 0,
+            "of": 55,
+            "pct": 0.0
+          },
+          "any_loss": {
+            "n": 14,
+            "of": 55,
+            "pct": 25.5
+          }
+        },
+        "PTEN": {
+          "mutation": {
+            "n": 1,
+            "of": 57,
+            "pct": 1.8
+          },
+          "amplification": {
+            "n": 0,
+            "of": 55,
+            "pct": 0.0
+          },
+          "deep_deletion": {
+            "n": 1,
+            "of": 55,
+            "pct": 1.8
+          },
+          "any_loss": {
+            "n": 9,
+            "of": 55,
+            "pct": 16.4
+          }
+        },
+        "BRCA1": {
+          "mutation": {
+            "n": 1,
+            "of": 57,
+            "pct": 1.8
+          },
+          "amplification": {
+            "n": 1,
+            "of": 55,
+            "pct": 1.8
+          },
+          "deep_deletion": {
+            "n": 1,
+            "of": 55,
+            "pct": 1.8
+          },
+          "any_loss": {
+            "n": 28,
+            "of": 55,
+            "pct": 50.9
+          }
+        },
+        "BRCA2": {
+          "mutation": {
+            "n": 4,
+            "of": 57,
+            "pct": 7.0
+          },
+          "amplification": {
+            "n": 1,
+            "of": 55,
+            "pct": 1.8
+          },
+          "deep_deletion": {
+            "n": 0,
+            "of": 55,
+            "pct": 0.0
+          },
+          "any_loss": {
+            "n": 18,
+            "of": 55,
+            "pct": 32.7
+          }
+        },
+        "RB1": {
+          "mutation": {
+            "n": 0,
+            "of": 57,
+            "pct": 0.0
+          },
+          "amplification": {
+            "n": 0,
+            "of": 55,
+            "pct": 0.0
+          },
+          "deep_deletion": {
+            "n": 0,
+            "of": 55,
+            "pct": 0.0
+          },
+          "any_loss": {
+            "n": 20,
+            "of": 55,
+            "pct": 36.4
+          }
+        },
+        "INPP4B": {
+          "mutation": {
+            "n": 0,
+            "of": 57,
+            "pct": 0.0
+          },
+          "amplification": {
+            "n": 2,
+            "of": 55,
+            "pct": 3.6
+          },
+          "deep_deletion": {
+            "n": 0,
+            "of": 55,
+            "pct": 0.0
+          },
+          "any_loss": {
+            "n": 16,
+            "of": 55,
+            "pct": 29.1
+          }
+        },
+        "ERBB2": {
+          "mutation": {
+            "n": 2,
+            "of": 57,
+            "pct": 3.5
+          },
+          "amplification": {
+            "n": 39,
+            "of": 55,
+            "pct": 70.9
+          },
+          "deep_deletion": {
+            "n": 0,
+            "of": 55,
+            "pct": 0.0
+          },
+          "any_loss": {
+            "n": 3,
+            "of": 55,
+            "pct": 5.5
+          }
+        },
+        "MYC": {
+          "mutation": {
+            "n": 0,
+            "of": 57,
+            "pct": 0.0
+          },
+          "amplification": {
+            "n": 13,
+            "of": 55,
+            "pct": 23.6
+          },
+          "deep_deletion": {
+            "n": 0,
+            "of": 55,
+            "pct": 0.0
+          },
+          "any_loss": {
+            "n": 0,
+            "of": 55,
+            "pct": 0.0
+          }
+        },
+        "CCND1": {
+          "mutation": {
+            "n": 0,
+            "of": 57,
+            "pct": 0.0
+          },
+          "amplification": {
+            "n": 9,
+            "of": 55,
+            "pct": 16.4
+          },
+          "deep_deletion": {
+            "n": 0,
+            "of": 55,
+            "pct": 0.0
+          },
+          "any_loss": {
+            "n": 2,
+            "of": 55,
+            "pct": 3.6
+          }
+        },
+        "MDM2": {
+          "mutation": {
+            "n": 1,
+            "of": 57,
+            "pct": 1.8
+          },
+          "amplification": {
+            "n": 3,
+            "of": 55,
+            "pct": 5.5
+          },
+          "deep_deletion": {
+            "n": 0,
+            "of": 55,
+            "pct": 0.0
+          },
+          "any_loss": {
+            "n": 2,
+            "of": 55,
+            "pct": 3.6
+          }
+        },
+        "ESR1": {
+          "mutation": {
+            "n": 0,
+            "of": 57,
+            "pct": 0.0
+          },
+          "amplification": {
+            "n": 2,
+            "of": 55,
+            "pct": 3.6
+          },
+          "deep_deletion": {
+            "n": 1,
+            "of": 55,
+            "pct": 1.8
+          },
+          "any_loss": {
+            "n": 12,
+            "of": 55,
+            "pct": 21.8
+          }
+        },
+        "BRCA1/2": {
+          "mutation": {
+            "n": 4,
+            "of": 57,
+            "pct": 7.0
+          },
+          "amplification": {
+            "n": 2,
+            "of": 55,
+            "pct": 3.6
+          },
+          "deep_deletion": {
+            "n": 1,
+            "of": 55,
+            "pct": 1.8
+          },
+          "any_loss": {
+            "n": 36,
+            "of": 55,
+            "pct": 65.5
+          }
+        }
+      }
+    },
+    "luminal-a": {
+      "subtype_label": "Luminal A",
+      "n_samples": 231,
+      "n_sequenced": 224,
+      "n_cna_profiled": 216,
+      "genes": {
+        "TP53": {
+          "mutation": {
+            "n": 27,
+            "of": 224,
+            "pct": 12.1
+          },
+          "amplification": {
+            "n": 0,
+            "of": 216,
+            "pct": 0.0
+          },
+          "deep_deletion": {
+            "n": 2,
+            "of": 216,
+            "pct": 0.9
+          },
+          "any_loss": {
+            "n": 94,
+            "of": 216,
+            "pct": 43.5
+          }
+        },
+        "PIK3CA": {
+          "mutation": {
+            "n": 104,
+            "of": 224,
+            "pct": 46.4
+          },
+          "amplification": {
+            "n": 7,
+            "of": 216,
+            "pct": 3.2
+          },
+          "deep_deletion": {
+            "n": 0,
+            "of": 216,
+            "pct": 0.0
+          },
+          "any_loss": {
+            "n": 3,
+            "of": 216,
+            "pct": 1.4
+          }
+        },
+        "GATA3": {
+          "mutation": {
+            "n": 32,
+            "of": 224,
+            "pct": 14.3
+          },
+          "amplification": {
+            "n": 1,
+            "of": 216,
+            "pct": 0.5
+          },
+          "deep_deletion": {
+            "n": 0,
+            "of": 216,
+            "pct": 0.0
+          },
+          "any_loss": {
+            "n": 13,
+            "of": 216,
+            "pct": 6.0
+          }
+        },
+        "MAP3K1": {
+          "mutation": {
+            "n": 30,
+            "of": 224,
+            "pct": 13.4
+          },
+          "amplification": {
+            "n": 0,
+            "of": 216,
+            "pct": 0.0
+          },
+          "deep_deletion": {
+            "n": 1,
+            "of": 216,
+            "pct": 0.5
+          },
+          "any_loss": {
+            "n": 13,
+            "of": 216,
+            "pct": 6.0
+          }
+        },
+        "CDH1": {
+          "mutation": {
+            "n": 23,
+            "of": 224,
+            "pct": 10.3
+          },
+          "amplification": {
+            "n": 0,
+            "of": 216,
+            "pct": 0.0
+          },
+          "deep_deletion": {
+            "n": 8,
+            "of": 216,
+            "pct": 3.7
+          },
+          "any_loss": {
+            "n": 148,
+            "of": 216,
+            "pct": 68.5
+          }
+        },
+        "MAP2K4": {
+          "mutation": {
+            "n": 16,
+            "of": 224,
+            "pct": 7.1
+          },
+          "amplification": {
+            "n": 0,
+            "of": 216,
+            "pct": 0.0
+          },
+          "deep_deletion": {
+            "n": 7,
+            "of": 216,
+            "pct": 3.2
+          },
+          "any_loss": {
+            "n": 93,
+            "of": 216,
+            "pct": 43.1
+          }
+        },
+        "PIK3R1": {
+          "mutation": {
+            "n": 4,
+            "of": 224,
+            "pct": 1.8
+          },
+          "amplification": {
+            "n": 0,
+            "of": 216,
+            "pct": 0.0
+          },
+          "deep_deletion": {
+            "n": 0,
+            "of": 216,
+            "pct": 0.0
+          },
+          "any_loss": {
+            "n": 13,
+            "of": 216,
+            "pct": 6.0
+          }
+        },
+        "PTEN": {
+          "mutation": {
+            "n": 10,
+            "of": 224,
+            "pct": 4.5
+          },
+          "amplification": {
+            "n": 0,
+            "of": 216,
+            "pct": 0.0
+          },
+          "deep_deletion": {
+            "n": 2,
+            "of": 216,
+            "pct": 0.9
+          },
+          "any_loss": {
+            "n": 27,
+            "of": 216,
+            "pct": 12.5
+          }
+        },
+        "BRCA1": {
+          "mutation": {
+            "n": 3,
+            "of": 224,
+            "pct": 1.3
+          },
+          "amplification": {
+            "n": 1,
+            "of": 216,
+            "pct": 0.5
+          },
+          "deep_deletion": {
+            "n": 0,
+            "of": 216,
+            "pct": 0.0
+          },
+          "any_loss": {
+            "n": 33,
+            "of": 216,
+            "pct": 15.3
+          }
+        },
+        "BRCA2": {
+          "mutation": {
+            "n": 7,
+            "of": 224,
+            "pct": 3.1
+          },
+          "amplification": {
+            "n": 1,
+            "of": 216,
+            "pct": 0.5
+          },
+          "deep_deletion": {
+            "n": 0,
+            "of": 216,
+            "pct": 0.0
+          },
+          "any_loss": {
+            "n": 55,
+            "of": 216,
+            "pct": 25.5
+          }
+        },
+        "RB1": {
+          "mutation": {
+            "n": 1,
+            "of": 224,
+            "pct": 0.4
+          },
+          "amplification": {
+            "n": 0,
+            "of": 216,
+            "pct": 0.0
+          },
+          "deep_deletion": {
+            "n": 1,
+            "of": 216,
+            "pct": 0.5
+          },
+          "any_loss": {
+            "n": 58,
+            "of": 216,
+            "pct": 26.9
+          }
+        },
+        "INPP4B": {
+          "mutation": {
+            "n": 2,
+            "of": 224,
+            "pct": 0.9
+          },
+          "amplification": {
+            "n": 2,
+            "of": 216,
+            "pct": 0.9
+          },
+          "deep_deletion": {
+            "n": 0,
+            "of": 216,
+            "pct": 0.0
+          },
+          "any_loss": {
+            "n": 19,
+            "of": 216,
+            "pct": 8.8
+          }
+        },
+        "ERBB2": {
+          "mutation": {
+            "n": 3,
+            "of": 224,
+            "pct": 1.3
+          },
+          "amplification": {
+            "n": 9,
+            "of": 216,
+            "pct": 4.2
+          },
+          "deep_deletion": {
+            "n": 0,
+            "of": 216,
+            "pct": 0.0
+          },
+          "any_loss": {
+            "n": 30,
+            "of": 216,
+            "pct": 13.9
+          }
+        },
+        "MYC": {
+          "mutation": {
+            "n": 0,
+            "of": 224,
+            "pct": 0.0
+          },
+          "amplification": {
+            "n": 16,
+            "of": 216,
+            "pct": 7.4
+          },
+          "deep_deletion": {
+            "n": 0,
+            "of": 216,
+            "pct": 0.0
+          },
+          "any_loss": {
+            "n": 3,
+            "of": 216,
+            "pct": 1.4
+          }
+        },
+        "CCND1": {
+          "mutation": {
+            "n": 1,
+            "of": 224,
+            "pct": 0.4
+          },
+          "amplification": {
+            "n": 32,
+            "of": 216,
+            "pct": 14.8
+          },
+          "deep_deletion": {
+            "n": 0,
+            "of": 216,
+            "pct": 0.0
+          },
+          "any_loss": {
+            "n": 10,
+            "of": 216,
+            "pct": 4.6
+          }
+        },
+        "MDM2": {
+          "mutation": {
+            "n": 0,
+            "of": 224,
+            "pct": 0.0
+          },
+          "amplification": {
+            "n": 4,
+            "of": 216,
+            "pct": 1.9
+          },
+          "deep_deletion": {
+            "n": 0,
+            "of": 216,
+            "pct": 0.0
+          },
+          "any_loss": {
+            "n": 1,
+            "of": 216,
+            "pct": 0.5
+          }
+        },
+        "ESR1": {
+          "mutation": {
+            "n": 1,
+            "of": 224,
+            "pct": 0.4
+          },
+          "amplification": {
+            "n": 2,
+            "of": 216,
+            "pct": 0.9
+          },
+          "deep_deletion": {
+            "n": 0,
+            "of": 216,
+            "pct": 0.0
+          },
+          "any_loss": {
+            "n": 48,
+            "of": 216,
+            "pct": 22.2
+          }
+        },
+        "BRCA1/2": {
+          "mutation": {
+            "n": 10,
+            "of": 224,
+            "pct": 4.5
+          },
+          "amplification": {
+            "n": 2,
+            "of": 216,
+            "pct": 0.9
+          },
+          "deep_deletion": {
+            "n": 0,
+            "of": 216,
+            "pct": 0.0
+          },
+          "any_loss": {
+            "n": 77,
+            "of": 216,
+            "pct": 35.6
+          }
+        }
+      }
+    },
+    "luminal-b": {
+      "subtype_label": "Luminal B",
+      "n_samples": 127,
+      "n_sequenced": 124,
+      "n_cna_profiled": 122,
+      "genes": {
+        "TP53": {
+          "mutation": {
+            "n": 39,
+            "of": 124,
+            "pct": 31.5
+          },
+          "amplification": {
+            "n": 0,
+            "of": 122,
+            "pct": 0.0
+          },
+          "deep_deletion": {
+            "n": 1,
+            "of": 122,
+            "pct": 0.8
+          },
+          "any_loss": {
+            "n": 67,
+            "of": 122,
+            "pct": 54.9
+          }
+        },
+        "PIK3CA": {
+          "mutation": {
+            "n": 39,
+            "of": 124,
+            "pct": 31.5
+          },
+          "amplification": {
+            "n": 4,
+            "of": 122,
+            "pct": 3.3
+          },
+          "deep_deletion": {
+            "n": 0,
+            "of": 122,
+            "pct": 0.0
+          },
+          "any_loss": {
+            "n": 1,
+            "of": 122,
+            "pct": 0.8
+          }
+        },
+        "GATA3": {
+          "mutation": {
+            "n": 19,
+            "of": 124,
+            "pct": 15.3
+          },
+          "amplification": {
+            "n": 1,
+            "of": 122,
+            "pct": 0.8
+          },
+          "deep_deletion": {
+            "n": 0,
+            "of": 122,
+            "pct": 0.0
+          },
+          "any_loss": {
+            "n": 10,
+            "of": 122,
+            "pct": 8.2
+          }
+        },
+        "MAP3K1": {
+          "mutation": {
+            "n": 6,
+            "of": 124,
+            "pct": 4.8
+          },
+          "amplification": {
+            "n": 0,
+            "of": 122,
+            "pct": 0.0
+          },
+          "deep_deletion": {
+            "n": 0,
+            "of": 122,
+            "pct": 0.0
+          },
+          "any_loss": {
+            "n": 13,
+            "of": 122,
+            "pct": 10.7
+          }
+        },
+        "CDH1": {
+          "mutation": {
+            "n": 7,
+            "of": 124,
+            "pct": 5.6
+          },
+          "amplification": {
+            "n": 0,
+            "of": 122,
+            "pct": 0.0
+          },
+          "deep_deletion": {
+            "n": 1,
+            "of": 122,
+            "pct": 0.8
+          },
+          "any_loss": {
+            "n": 70,
+            "of": 122,
+            "pct": 57.4
+          }
+        },
+        "MAP2K4": {
+          "mutation": {
+            "n": 3,
+            "of": 124,
+            "pct": 2.4
+          },
+          "amplification": {
+            "n": 0,
+            "of": 122,
+            "pct": 0.0
+          },
+          "deep_deletion": {
+            "n": 3,
+            "of": 122,
+            "pct": 2.5
+          },
+          "any_loss": {
+            "n": 68,
+            "of": 122,
+            "pct": 55.7
+          }
+        },
+        "PIK3R1": {
+          "mutation": {
+            "n": 3,
+            "of": 124,
+            "pct": 2.4
+          },
+          "amplification": {
+            "n": 0,
+            "of": 122,
+            "pct": 0.0
+          },
+          "deep_deletion": {
+            "n": 0,
+            "of": 122,
+            "pct": 0.0
+          },
+          "any_loss": {
+            "n": 15,
+            "of": 122,
+            "pct": 12.3
+          }
+        },
+        "PTEN": {
+          "mutation": {
+            "n": 6,
+            "of": 124,
+            "pct": 4.8
+          },
+          "amplification": {
+            "n": 0,
+            "of": 122,
+            "pct": 0.0
+          },
+          "deep_deletion": {
+            "n": 1,
+            "of": 122,
+            "pct": 0.8
+          },
+          "any_loss": {
+            "n": 29,
+            "of": 122,
+            "pct": 23.8
+          }
+        },
+        "BRCA1": {
+          "mutation": {
+            "n": 0,
+            "of": 124,
+            "pct": 0.0
+          },
+          "amplification": {
+            "n": 1,
+            "of": 122,
+            "pct": 0.8
+          },
+          "deep_deletion": {
+            "n": 0,
+            "of": 122,
+            "pct": 0.0
+          },
+          "any_loss": {
+            "n": 29,
+            "of": 122,
+            "pct": 23.8
+          }
+        },
+        "BRCA2": {
+          "mutation": {
+            "n": 6,
+            "of": 124,
+            "pct": 4.8
+          },
+          "amplification": {
+            "n": 2,
+            "of": 122,
+            "pct": 1.6
+          },
+          "deep_deletion": {
+            "n": 0,
+            "of": 122,
+            "pct": 0.0
+          },
+          "any_loss": {
+            "n": 51,
+            "of": 122,
+            "pct": 41.8
+          }
+        },
+        "RB1": {
+          "mutation": {
+            "n": 4,
+            "of": 124,
+            "pct": 3.2
+          },
+          "amplification": {
+            "n": 0,
+            "of": 122,
+            "pct": 0.0
+          },
+          "deep_deletion": {
+            "n": 0,
+            "of": 122,
+            "pct": 0.0
+          },
+          "any_loss": {
+            "n": 55,
+            "of": 122,
+            "pct": 45.1
+          }
+        },
+        "INPP4B": {
+          "mutation": {
+            "n": 1,
+            "of": 124,
+            "pct": 0.8
+          },
+          "amplification": {
+            "n": 1,
+            "of": 122,
+            "pct": 0.8
+          },
+          "deep_deletion": {
+            "n": 0,
+            "of": 122,
+            "pct": 0.0
+          },
+          "any_loss": {
+            "n": 22,
+            "of": 122,
+            "pct": 18.0
+          }
+        },
+        "ERBB2": {
+          "mutation": {
+            "n": 2,
+            "of": 124,
+            "pct": 1.6
+          },
+          "amplification": {
+            "n": 14,
+            "of": 122,
+            "pct": 11.5
+          },
+          "deep_deletion": {
+            "n": 0,
+            "of": 122,
+            "pct": 0.0
+          },
+          "any_loss": {
+            "n": 23,
+            "of": 122,
+            "pct": 18.9
+          }
+        },
+        "MYC": {
+          "mutation": {
+            "n": 0,
+            "of": 124,
+            "pct": 0.0
+          },
+          "amplification": {
+            "n": 19,
+            "of": 122,
+            "pct": 15.6
+          },
+          "deep_deletion": {
+            "n": 0,
+            "of": 122,
+            "pct": 0.0
+          },
+          "any_loss": {
+            "n": 3,
+            "of": 122,
+            "pct": 2.5
+          }
+        },
+        "CCND1": {
+          "mutation": {
+            "n": 0,
+            "of": 124,
+            "pct": 0.0
+          },
+          "amplification": {
+            "n": 36,
+            "of": 122,
+            "pct": 29.5
+          },
+          "deep_deletion": {
+            "n": 0,
+            "of": 122,
+            "pct": 0.0
+          },
+          "any_loss": {
+            "n": 4,
+            "of": 122,
+            "pct": 3.3
+          }
+        },
+        "MDM2": {
+          "mutation": {
+            "n": 0,
+            "of": 124,
+            "pct": 0.0
+          },
+          "amplification": {
+            "n": 11,
+            "of": 122,
+            "pct": 9.0
+          },
+          "deep_deletion": {
+            "n": 0,
+            "of": 122,
+            "pct": 0.0
+          },
+          "any_loss": {
+            "n": 0,
+            "of": 122,
+            "pct": 0.0
+          }
+        },
+        "ESR1": {
+          "mutation": {
+            "n": 1,
+            "of": 124,
+            "pct": 0.8
+          },
+          "amplification": {
+            "n": 3,
+            "of": 122,
+            "pct": 2.5
+          },
+          "deep_deletion": {
+            "n": 0,
+            "of": 122,
+            "pct": 0.0
+          },
+          "any_loss": {
+            "n": 33,
+            "of": 122,
+            "pct": 27.0
+          }
+        },
+        "BRCA1/2": {
+          "mutation": {
+            "n": 6,
+            "of": 124,
+            "pct": 4.8
+          },
+          "amplification": {
+            "n": 3,
+            "of": 122,
+            "pct": 2.5
+          },
+          "deep_deletion": {
+            "n": 0,
+            "of": 122,
+            "pct": 0.0
+          },
+          "any_loss": {
+            "n": 68,
+            "of": 122,
+            "pct": 55.7
+          }
+        }
+      }
+    },
+    "normal-like": {
+      "subtype_label": "Normal-like",
+      "n_samples": 8,
+      "n_sequenced": 8,
+      "n_cna_profiled": 8,
+      "genes": {
+        "TP53": {
+          "mutation": {
+            "n": 4,
+            "of": 8,
+            "pct": 50.0
+          },
+          "amplification": {
+            "n": 0,
+            "of": 8,
+            "pct": 0.0
+          },
+          "deep_deletion": {
+            "n": 0,
+            "of": 8,
+            "pct": 0.0
+          },
+          "any_loss": {
+            "n": 4,
+            "of": 8,
+            "pct": 50.0
+          }
+        },
+        "PIK3CA": {
+          "mutation": {
+            "n": 4,
+            "of": 8,
+            "pct": 50.0
+          },
+          "amplification": {
+            "n": 0,
+            "of": 8,
+            "pct": 0.0
+          },
+          "deep_deletion": {
+            "n": 0,
+            "of": 8,
+            "pct": 0.0
+          },
+          "any_loss": {
+            "n": 0,
+            "of": 8,
+            "pct": 0.0
+          }
+        },
+        "GATA3": {
+          "mutation": {
+            "n": 0,
+            "of": 8,
+            "pct": 0.0
+          },
+          "amplification": {
+            "n": 0,
+            "of": 8,
+            "pct": 0.0
+          },
+          "deep_deletion": {
+            "n": 0,
+            "of": 8,
+            "pct": 0.0
+          },
+          "any_loss": {
+            "n": 1,
+            "of": 8,
+            "pct": 12.5
+          }
+        },
+        "MAP3K1": {
+          "mutation": {
+            "n": 1,
+            "of": 8,
+            "pct": 12.5
+          },
+          "amplification": {
+            "n": 0,
+            "of": 8,
+            "pct": 0.0
+          },
+          "deep_deletion": {
+            "n": 0,
+            "of": 8,
+            "pct": 0.0
+          },
+          "any_loss": {
+            "n": 1,
+            "of": 8,
+            "pct": 12.5
+          }
+        },
+        "CDH1": {
+          "mutation": {
+            "n": 1,
+            "of": 8,
+            "pct": 12.5
+          },
+          "amplification": {
+            "n": 0,
+            "of": 8,
+            "pct": 0.0
+          },
+          "deep_deletion": {
+            "n": 0,
+            "of": 8,
+            "pct": 0.0
+          },
+          "any_loss": {
+            "n": 3,
+            "of": 8,
+            "pct": 37.5
+          }
+        },
+        "MAP2K4": {
+          "mutation": {
+            "n": 1,
+            "of": 8,
+            "pct": 12.5
+          },
+          "amplification": {
+            "n": 0,
+            "of": 8,
+            "pct": 0.0
+          },
+          "deep_deletion": {
+            "n": 1,
+            "of": 8,
+            "pct": 12.5
+          },
+          "any_loss": {
+            "n": 5,
+            "of": 8,
+            "pct": 62.5
+          }
+        },
+        "PIK3R1": {
+          "mutation": {
+            "n": 0,
+            "of": 8,
+            "pct": 0.0
+          },
+          "amplification": {
+            "n": 0,
+            "of": 8,
+            "pct": 0.0
+          },
+          "deep_deletion": {
+            "n": 0,
+            "of": 8,
+            "pct": 0.0
+          },
+          "any_loss": {
+            "n": 1,
+            "of": 8,
+            "pct": 12.5
+          }
+        },
+        "PTEN": {
+          "mutation": {
+            "n": 0,
+            "of": 8,
+            "pct": 0.0
+          },
+          "amplification": {
+            "n": 0,
+            "of": 8,
+            "pct": 0.0
+          },
+          "deep_deletion": {
+            "n": 0,
+            "of": 8,
+            "pct": 0.0
+          },
+          "any_loss": {
+            "n": 1,
+            "of": 8,
+            "pct": 12.5
+          }
+        },
+        "BRCA1": {
+          "mutation": {
+            "n": 0,
+            "of": 8,
+            "pct": 0.0
+          },
+          "amplification": {
+            "n": 0,
+            "of": 8,
+            "pct": 0.0
+          },
+          "deep_deletion": {
+            "n": 0,
+            "of": 8,
+            "pct": 0.0
+          },
+          "any_loss": {
+            "n": 2,
+            "of": 8,
+            "pct": 25.0
+          }
+        },
+        "BRCA2": {
+          "mutation": {
+            "n": 1,
+            "of": 8,
+            "pct": 12.5
+          },
+          "amplification": {
+            "n": 0,
+            "of": 8,
+            "pct": 0.0
+          },
+          "deep_deletion": {
+            "n": 0,
+            "of": 8,
+            "pct": 0.0
+          },
+          "any_loss": {
+            "n": 3,
+            "of": 8,
+            "pct": 37.5
+          }
+        },
+        "RB1": {
+          "mutation": {
+            "n": 0,
+            "of": 8,
+            "pct": 0.0
+          },
+          "amplification": {
+            "n": 0,
+            "of": 8,
+            "pct": 0.0
+          },
+          "deep_deletion": {
+            "n": 0,
+            "of": 8,
+            "pct": 0.0
+          },
+          "any_loss": {
+            "n": 3,
+            "of": 8,
+            "pct": 37.5
+          }
+        },
+        "INPP4B": {
+          "mutation": {
+            "n": 0,
+            "of": 8,
+            "pct": 0.0
+          },
+          "amplification": {
+            "n": 0,
+            "of": 8,
+            "pct": 0.0
+          },
+          "deep_deletion": {
+            "n": 0,
+            "of": 8,
+            "pct": 0.0
+          },
+          "any_loss": {
+            "n": 0,
+            "of": 8,
+            "pct": 0.0
+          }
+        },
+        "ERBB2": {
+          "mutation": {
+            "n": 0,
+            "of": 8,
+            "pct": 0.0
+          },
+          "amplification": {
+            "n": 0,
+            "of": 8,
+            "pct": 0.0
+          },
+          "deep_deletion": {
+            "n": 0,
+            "of": 8,
+            "pct": 0.0
+          },
+          "any_loss": {
+            "n": 1,
+            "of": 8,
+            "pct": 12.5
+          }
+        },
+        "MYC": {
+          "mutation": {
+            "n": 0,
+            "of": 8,
+            "pct": 0.0
+          },
+          "amplification": {
+            "n": 2,
+            "of": 8,
+            "pct": 25.0
+          },
+          "deep_deletion": {
+            "n": 0,
+            "of": 8,
+            "pct": 0.0
+          },
+          "any_loss": {
+            "n": 0,
+            "of": 8,
+            "pct": 0.0
+          }
+        },
+        "CCND1": {
+          "mutation": {
+            "n": 0,
+            "of": 8,
+            "pct": 0.0
+          },
+          "amplification": {
+            "n": 1,
+            "of": 8,
+            "pct": 12.5
+          },
+          "deep_deletion": {
+            "n": 0,
+            "of": 8,
+            "pct": 0.0
+          },
+          "any_loss": {
+            "n": 0,
+            "of": 8,
+            "pct": 0.0
+          }
+        },
+        "MDM2": {
+          "mutation": {
+            "n": 0,
+            "of": 8,
+            "pct": 0.0
+          },
+          "amplification": {
+            "n": 0,
+            "of": 8,
+            "pct": 0.0
+          },
+          "deep_deletion": {
+            "n": 0,
+            "of": 8,
+            "pct": 0.0
+          },
+          "any_loss": {
+            "n": 0,
+            "of": 8,
+            "pct": 0.0
+          }
+        },
+        "ESR1": {
+          "mutation": {
+            "n": 0,
+            "of": 8,
+            "pct": 0.0
+          },
+          "amplification": {
+            "n": 0,
+            "of": 8,
+            "pct": 0.0
+          },
+          "deep_deletion": {
+            "n": 0,
+            "of": 8,
+            "pct": 0.0
+          },
+          "any_loss": {
+            "n": 2,
+            "of": 8,
+            "pct": 25.0
+          }
+        },
+        "BRCA1/2": {
+          "mutation": {
+            "n": 1,
+            "of": 8,
+            "pct": 12.5
+          },
+          "amplification": {
+            "n": 0,
+            "of": 8,
+            "pct": 0.0
+          },
+          "deep_deletion": {
+            "n": 0,
+            "of": 8,
+            "pct": 0.0
+          },
+          "any_loss": {
+            "n": 4,
+            "of": 8,
+            "pct": 50.0
+          }
+        }
+      }
+    }
+  },
+  "concordance": {
+    "available": true,
+    "n_classified": 496,
+    "row_label": "Intrinsic subtype (PAM50)",
+    "col_label": "Receptor status (IHC)",
+    "matrix": {
+      "Luminal A": {
+        "HR+/HER2-": 203,
+        "Triple positive": 14,
+        "TNBC": 4
+      },
+      "Basal-like": {
+        "TNBC": 76,
+        "HR+/HER2-": 14,
+        "Triple positive": 2
+      },
+      "Luminal B": {
+        "Triple positive": 20,
+        "HR+/HER2-": 101,
+        "TNBC": 1
+      },
+      "HER2-enriched": {
+        "HER2+/HR-": 19,
+        "Triple positive": 18,
+        "HR+/HER2-": 11,
+        "TNBC": 5
+      },
+      "Normal-like": {
+        "HR+/HER2-": 6,
+        "TNBC": 2
+      }
+    },
+    "headline": {
+      "basal_like_that_is_TNBC": {
+        "n": 76,
+        "of": 92,
+        "pct": 82.6,
+        "label": "Basal-like tumours that are TNBC",
+        "claim": "\"~80% overlap\""
+      },
+      "TNBC_that_is_basal_like": {
+        "n": 76,
+        "of": 88,
+        "pct": 86.4,
+        "label": "TNBC tumours that are basal-like",
+        "claim": "\"~80% overlap\""
+      },
+      "HER2enriched_that_is_HER2pos_HRneg": {
+        "n": 19,
+        "of": 53,
+        "pct": 35.8,
+        "label": "HER2-enriched that is HER2+/HR\u2212",
+        "claim": "\"strong but imperfect\""
+      },
+      "HER2pos_HRneg_that_is_HER2enriched": {
+        "n": 19,
+        "of": 19,
+        "pct": 100.0,
+        "label": "HER2+/HR\u2212 that is HER2-enriched",
+        "claim": "\"strong but imperfect\""
+      }
+    },
+    "row_order": [
+      "Luminal A",
+      "Luminal B",
+      "HER2-enriched",
+      "Basal-like",
+      "Normal-like"
+    ],
+    "col_order": [
+      "HR+/HER2-",
+      "Triple positive",
+      "HER2+/HR-",
+      "TNBC"
+    ]
+  },
+  "drivers_by_cohort": {
+    "state-early": {
+      "n_samples": 825,
+      "n_sequenced": 507,
+      "n_cna_profiled": 778,
+      "genes": {
+        "TP53": {
+          "mutation": {
+            "n": 190,
+            "of": 507,
+            "pct": 37.5
+          },
+          "amplification": {
+            "n": 0,
+            "of": 778,
+            "pct": 0.0
+          },
+          "deep_deletion": {
+            "n": 5,
+            "of": 778,
+            "pct": 0.6
+          },
+          "any_loss": {
+            "n": 384,
+            "of": 778,
+            "pct": 49.4
+          }
+        },
+        "PIK3CA": {
+          "mutation": {
+            "n": 179,
+            "of": 507,
+            "pct": 35.3
+          },
+          "amplification": {
+            "n": 29,
+            "of": 778,
+            "pct": 3.7
+          },
+          "deep_deletion": {
+            "n": 0,
+            "of": 778,
+            "pct": 0.0
+          },
+          "any_loss": {
+            "n": 12,
+            "of": 778,
+            "pct": 1.5
+          }
+        },
+        "GATA3": {
+          "mutation": {
+            "n": 54,
+            "of": 507,
+            "pct": 10.7
+          },
+          "amplification": {
+            "n": 16,
+            "of": 778,
+            "pct": 2.1
+          },
+          "deep_deletion": {
+            "n": 0,
+            "of": 778,
+            "pct": 0.0
+          },
+          "any_loss": {
+            "n": 46,
+            "of": 778,
+            "pct": 5.9
+          }
+        },
+        "MAP3K1": {
+          "mutation": {
+            "n": 39,
+            "of": 507,
+            "pct": 7.7
+          },
+          "amplification": {
+            "n": 0,
+            "of": 778,
+            "pct": 0.0
+          },
+          "deep_deletion": {
+            "n": 5,
+            "of": 778,
+            "pct": 0.6
+          },
+          "any_loss": {
+            "n": 151,
+            "of": 778,
+            "pct": 19.4
+          }
+        },
+        "CDH1": {
+          "mutation": {
+            "n": 34,
+            "of": 507,
+            "pct": 6.7
+          },
+          "amplification": {
+            "n": 3,
+            "of": 778,
+            "pct": 0.4
+          },
+          "deep_deletion": {
+            "n": 9,
+            "of": 778,
+            "pct": 1.2
+          },
+          "any_loss": {
+            "n": 396,
+            "of": 778,
+            "pct": 50.9
+          }
+        },
+        "MAP2K4": {
+          "mutation": {
+            "n": 21,
+            "of": 507,
+            "pct": 4.1
+          },
+          "amplification": {
+            "n": 0,
+            "of": 778,
+            "pct": 0.0
+          },
+          "deep_deletion": {
+            "n": 18,
+            "of": 778,
+            "pct": 2.3
+          },
+          "any_loss": {
+            "n": 384,
+            "of": 778,
+            "pct": 49.4
+          }
+        },
+        "PIK3R1": {
+          "mutation": {
+            "n": 13,
+            "of": 507,
+            "pct": 2.6
+          },
+          "amplification": {
+            "n": 0,
+            "of": 778,
+            "pct": 0.0
+          },
+          "deep_deletion": {
+            "n": 2,
+            "of": 778,
+            "pct": 0.3
+          },
+          "any_loss": {
+            "n": 159,
+            "of": 778,
+            "pct": 20.4
+          }
+        },
+        "PTEN": {
+          "mutation": {
+            "n": 18,
+            "of": 507,
+            "pct": 3.6
+          },
+          "amplification": {
+            "n": 2,
+            "of": 778,
+            "pct": 0.3
+          },
+          "deep_deletion": {
+            "n": 13,
+            "of": 778,
+            "pct": 1.7
+          },
+          "any_loss": {
+            "n": 146,
+            "of": 778,
+            "pct": 18.8
+          }
+        },
+        "BRCA1": {
+          "mutation": {
+            "n": 18,
+            "of": 507,
+            "pct": 3.6
+          },
+          "amplification": {
+            "n": 6,
+            "of": 778,
+            "pct": 0.8
+          },
+          "deep_deletion": {
+            "n": 3,
+            "of": 778,
+            "pct": 0.4
+          },
+          "any_loss": {
+            "n": 186,
+            "of": 778,
+            "pct": 23.9
+          }
+        },
+        "BRCA2": {
+          "mutation": {
+            "n": 24,
+            "of": 507,
+            "pct": 4.7
+          },
+          "amplification": {
+            "n": 7,
+            "of": 778,
+            "pct": 0.9
+          },
+          "deep_deletion": {
+            "n": 7,
+            "of": 778,
+            "pct": 0.9
+          },
+          "any_loss": {
+            "n": 244,
+            "of": 778,
+            "pct": 31.4
+          }
+        },
+        "RB1": {
+          "mutation": {
+            "n": 9,
+            "of": 507,
+            "pct": 1.8
+          },
+          "amplification": {
+            "n": 0,
+            "of": 778,
+            "pct": 0.0
+          },
+          "deep_deletion": {
+            "n": 11,
+            "of": 778,
+            "pct": 1.4
+          },
+          "any_loss": {
+            "n": 276,
+            "of": 778,
+            "pct": 35.5
+          }
+        },
+        "INPP4B": {
+          "mutation": {
+            "n": 4,
+            "of": 507,
+            "pct": 0.8
+          },
+          "amplification": {
+            "n": 6,
+            "of": 778,
+            "pct": 0.8
+          },
+          "deep_deletion": {
+            "n": 0,
+            "of": 778,
+            "pct": 0.0
+          },
+          "any_loss": {
+            "n": 129,
+            "of": 778,
+            "pct": 16.6
+          }
+        },
+        "ERBB2": {
+          "mutation": {
+            "n": 7,
+            "of": 507,
+            "pct": 1.4
+          },
+          "amplification": {
+            "n": 100,
+            "of": 778,
+            "pct": 12.9
+          },
+          "deep_deletion": {
+            "n": 1,
+            "of": 778,
+            "pct": 0.1
+          },
+          "any_loss": {
+            "n": 133,
+            "of": 778,
+            "pct": 17.1
+          }
+        },
+        "MYC": {
+          "mutation": {
+            "n": 1,
+            "of": 507,
+            "pct": 0.2
+          },
+          "amplification": {
+            "n": 118,
+            "of": 778,
+            "pct": 15.2
+          },
+          "deep_deletion": {
+            "n": 0,
+            "of": 778,
+            "pct": 0.0
+          },
+          "any_loss": {
+            "n": 15,
+            "of": 778,
+            "pct": 1.9
+          }
+        },
+        "CCND1": {
+          "mutation": {
+            "n": 1,
+            "of": 507,
+            "pct": 0.2
+          },
+          "amplification": {
+            "n": 116,
+            "of": 778,
+            "pct": 14.9
+          },
+          "deep_deletion": {
+            "n": 0,
+            "of": 778,
+            "pct": 0.0
+          },
+          "any_loss": {
+            "n": 43,
+            "of": 778,
+            "pct": 5.5
+          }
+        },
+        "MDM2": {
+          "mutation": {
+            "n": 2,
+            "of": 507,
+            "pct": 0.4
+          },
+          "amplification": {
+            "n": 23,
+            "of": 778,
+            "pct": 3.0
+          },
+          "deep_deletion": {
+            "n": 0,
+            "of": 778,
+            "pct": 0.0
+          },
+          "any_loss": {
+            "n": 38,
+            "of": 778,
+            "pct": 4.9
+          }
+        },
+        "ESR1": {
+          "mutation": {
+            "n": 2,
+            "of": 507,
+            "pct": 0.4
+          },
+          "amplification": {
+            "n": 12,
+            "of": 778,
+            "pct": 1.5
+          },
+          "deep_deletion": {
+            "n": 1,
+            "of": 778,
+            "pct": 0.1
+          },
+          "any_loss": {
+            "n": 176,
+            "of": 778,
+            "pct": 22.6
+          }
+        },
+        "BRCA1/2": {
+          "mutation": {
+            "n": 40,
+            "of": 507,
+            "pct": 7.9
+          },
+          "amplification": {
+            "n": 13,
+            "of": 778,
+            "pct": 1.7
+          },
+          "deep_deletion": {
+            "n": 10,
+            "of": 778,
+            "pct": 1.3
+          },
+          "any_loss": {
+            "n": 354,
+            "of": 778,
+            "pct": 45.5
+          }
+        }
+      },
+      "n_study_samples": 825,
+      "subtype_label": "Primary tumours (TCGA)",
+      "cohort": {
+        "study": "brca_tcga_pub",
+        "name": "Breast Invasive Carcinoma (TCGA, Nature 2012)",
+        "n": 825,
+        "url": "https://www.cbioportal.org/study/summary?id=brca_tcga_pub"
+      },
+      "cohort_note": "Surgically resected primary tumours, unselected for outcome. Most of these women's disease never becomes metastatic, which is why this cohort stands for the node -- and some of it will, which is the node's caveat."
+    },
+    "state-metastatic": {
+      "n_samples": 905,
+      "n_sequenced": 905,
+      "n_cna_profiled": 905,
+      "genes": {
+        "TP53": {
+          "mutation": {
+            "n": 353,
+            "of": 905,
+            "pct": 39.0
+          },
+          "amplification": {
+            "n": 0,
+            "of": 905,
+            "pct": 0.0
+          },
+          "deep_deletion": {
+            "n": 8,
+            "of": 905,
+            "pct": 0.9
+          },
+          "any_loss": {
+            "n": 8,
+            "of": 905,
+            "pct": 0.9
+          },
+          "fusion": {
+            "n": 0,
+            "of": 905,
+            "pct": 0.0
+          }
+        },
+        "PIK3CA": {
+          "mutation": {
+            "n": 325,
+            "of": 905,
+            "pct": 35.9
+          },
+          "amplification": {
+            "n": 10,
+            "of": 905,
+            "pct": 1.1
+          },
+          "deep_deletion": {
+            "n": 0,
+            "of": 905,
+            "pct": 0.0
+          },
+          "any_loss": {
+            "n": 0,
+            "of": 905,
+            "pct": 0.0
+          },
+          "fusion": {
+            "n": 0,
+            "of": 905,
+            "pct": 0.0
+          }
+        },
+        "GATA3": {
+          "mutation": {
+            "n": 140,
+            "of": 905,
+            "pct": 15.5
+          },
+          "amplification": {
+            "n": 15,
+            "of": 905,
+            "pct": 1.7
+          },
+          "deep_deletion": {
+            "n": 1,
+            "of": 905,
+            "pct": 0.1
+          },
+          "any_loss": {
+            "n": 1,
+            "of": 905,
+            "pct": 0.1
+          },
+          "fusion": {
+            "n": 1,
+            "of": 905,
+            "pct": 0.1
+          }
+        },
+        "MAP3K1": {
+          "mutation": {
+            "n": 66,
+            "of": 905,
+            "pct": 7.3
+          },
+          "amplification": {
+            "n": 0,
+            "of": 905,
+            "pct": 0.0
+          },
+          "deep_deletion": {
+            "n": 7,
+            "of": 905,
+            "pct": 0.8
+          },
+          "any_loss": {
+            "n": 7,
+            "of": 905,
+            "pct": 0.8
+          },
+          "fusion": {
+            "n": 0,
+            "of": 905,
+            "pct": 0.0
+          }
+        },
+        "CDH1": {
+          "mutation": {
+            "n": 141,
+            "of": 905,
+            "pct": 15.6
+          },
+          "amplification": {
+            "n": 1,
+            "of": 905,
+            "pct": 0.1
+          },
+          "deep_deletion": {
+            "n": 6,
+            "of": 905,
+            "pct": 0.7
+          },
+          "any_loss": {
+            "n": 6,
+            "of": 905,
+            "pct": 0.7
+          },
+          "fusion": {
+            "n": 2,
+            "of": 905,
+            "pct": 0.2
+          }
+        },
+        "MAP2K4": {
+          "mutation": {
+            "n": 32,
+            "of": 905,
+            "pct": 3.5
+          },
+          "amplification": {
+            "n": 0,
+            "of": 905,
+            "pct": 0.0
+          },
+          "deep_deletion": {
+            "n": 26,
+            "of": 905,
+            "pct": 2.9
+          },
+          "any_loss": {
+            "n": 26,
+            "of": 905,
+            "pct": 2.9
+          },
+          "fusion": {
+            "n": 0,
+            "of": 905,
+            "pct": 0.0
+          }
+        },
+        "PIK3R1": {
+          "mutation": {
+            "n": 23,
+            "of": 905,
+            "pct": 2.5
+          },
+          "amplification": {
+            "n": 0,
+            "of": 905,
+            "pct": 0.0
+          },
+          "deep_deletion": {
+            "n": 5,
+            "of": 905,
+            "pct": 0.6
+          },
+          "any_loss": {
+            "n": 5,
+            "of": 905,
+            "pct": 0.6
+          },
+          "fusion": {
+            "n": 1,
+            "of": 905,
+            "pct": 0.1
+          }
+        },
+        "PTEN": {
+          "mutation": {
+            "n": 60,
+            "of": 905,
+            "pct": 6.6
+          },
+          "amplification": {
+            "n": 0,
+            "of": 905,
+            "pct": 0.0
+          },
+          "deep_deletion": {
+            "n": 23,
+            "of": 905,
+            "pct": 2.5
+          },
+          "any_loss": {
+            "n": 23,
+            "of": 905,
+            "pct": 2.5
+          },
+          "fusion": {
+            "n": 3,
+            "of": 905,
+            "pct": 0.3
+          }
+        },
+        "BRCA1": {
+          "mutation": {
+            "n": 20,
+            "of": 905,
+            "pct": 2.2
+          },
+          "amplification": {
+            "n": 1,
+            "of": 905,
+            "pct": 0.1
+          },
+          "deep_deletion": {
+            "n": 2,
+            "of": 905,
+            "pct": 0.2
+          },
+          "any_loss": {
+            "n": 2,
+            "of": 905,
+            "pct": 0.2
+          },
+          "fusion": {
+            "n": 0,
+            "of": 905,
+            "pct": 0.0
+          }
+        },
+        "BRCA2": {
+          "mutation": {
+            "n": 31,
+            "of": 905,
+            "pct": 3.4
+          },
+          "amplification": {
+            "n": 4,
+            "of": 905,
+            "pct": 0.4
+          },
+          "deep_deletion": {
+            "n": 2,
+            "of": 905,
+            "pct": 0.2
+          },
+          "any_loss": {
+            "n": 2,
+            "of": 905,
+            "pct": 0.2
+          },
+          "fusion": {
+            "n": 2,
+            "of": 905,
+            "pct": 0.2
+          }
+        },
+        "RB1": {
+          "mutation": {
+            "n": 28,
+            "of": 905,
+            "pct": 3.1
+          },
+          "amplification": {
+            "n": 0,
+            "of": 905,
+            "pct": 0.0
+          },
+          "deep_deletion": {
+            "n": 13,
+            "of": 905,
+            "pct": 1.4
+          },
+          "any_loss": {
+            "n": 13,
+            "of": 905,
+            "pct": 1.4
+          },
+          "fusion": {
+            "n": 5,
+            "of": 905,
+            "pct": 0.6
+          }
+        },
+        "INPP4B": {
+          "mutation": {
+            "n": 3,
+            "of": 905,
+            "pct": 0.3
+          },
+          "amplification": {
+            "n": 1,
+            "of": 905,
+            "pct": 0.1
+          },
+          "deep_deletion": {
+            "n": 1,
+            "of": 905,
+            "pct": 0.1
+          },
+          "any_loss": {
+            "n": 1,
+            "of": 905,
+            "pct": 0.1
+          },
+          "fusion": {
+            "n": 0,
+            "of": 905,
+            "pct": 0.0
+          }
+        },
+        "ERBB2": {
+          "mutation": {
+            "n": 49,
+            "of": 905,
+            "pct": 5.4
+          },
+          "amplification": {
+            "n": 104,
+            "of": 905,
+            "pct": 11.5
+          },
+          "deep_deletion": {
+            "n": 1,
+            "of": 905,
+            "pct": 0.1
+          },
+          "any_loss": {
+            "n": 1,
+            "of": 905,
+            "pct": 0.1
+          },
+          "fusion": {
+            "n": 2,
+            "of": 905,
+            "pct": 0.2
+          }
+        },
+        "MYC": {
+          "mutation": {
+            "n": 5,
+            "of": 905,
+            "pct": 0.6
+          },
+          "amplification": {
+            "n": 90,
+            "of": 905,
+            "pct": 9.9
+          },
+          "deep_deletion": {
+            "n": 0,
+            "of": 905,
+            "pct": 0.0
+          },
+          "any_loss": {
+            "n": 0,
+            "of": 905,
+            "pct": 0.0
+          },
+          "fusion": {
+            "n": 2,
+            "of": 905,
+            "pct": 0.2
+          }
+        },
+        "CCND1": {
+          "mutation": {
+            "n": 1,
+            "of": 905,
+            "pct": 0.1
+          },
+          "amplification": {
+            "n": 192,
+            "of": 905,
+            "pct": 21.2
+          },
+          "deep_deletion": {
+            "n": 0,
+            "of": 905,
+            "pct": 0.0
+          },
+          "any_loss": {
+            "n": 0,
+            "of": 905,
+            "pct": 0.0
+          },
+          "fusion": {
+            "n": 0,
+            "of": 905,
+            "pct": 0.0
+          }
+        },
+        "MDM2": {
+          "mutation": {
+            "n": 6,
+            "of": 905,
+            "pct": 0.7
+          },
+          "amplification": {
+            "n": 41,
+            "of": 905,
+            "pct": 4.5
+          },
+          "deep_deletion": {
+            "n": 0,
+            "of": 905,
+            "pct": 0.0
+          },
+          "any_loss": {
+            "n": 0,
+            "of": 905,
+            "pct": 0.0
+          },
+          "fusion": {
+            "n": 0,
+            "of": 905,
+            "pct": 0.0
+          }
+        },
+        "ESR1": {
+          "mutation": {
+            "n": 118,
+            "of": 905,
+            "pct": 13.0
+          },
+          "amplification": {
+            "n": 22,
+            "of": 905,
+            "pct": 2.4
+          },
+          "deep_deletion": {
+            "n": 0,
+            "of": 905,
+            "pct": 0.0
+          },
+          "any_loss": {
+            "n": 0,
+            "of": 905,
+            "pct": 0.0
+          },
+          "fusion": {
+            "n": 0,
+            "of": 905,
+            "pct": 0.0
+          }
+        },
+        "BRCA1/2": {
+          "mutation": {
+            "n": 50,
+            "of": 905,
+            "pct": 5.5
+          },
+          "amplification": {
+            "n": 5,
+            "of": 905,
+            "pct": 0.6
+          },
+          "deep_deletion": {
+            "n": 4,
+            "of": 905,
+            "pct": 0.4
+          },
+          "any_loss": {
+            "n": 4,
+            "of": 905,
+            "pct": 0.4
+          },
+          "fusion": {
+            "n": 2,
+            "of": 905,
+            "pct": 0.2
+          }
+        }
+      },
+      "n_study_samples": 1918,
+      "n_sv_profiled": 905,
+      "subtype_label": "Metastases (MSK)",
+      "cohort": {
+        "study": "breast_msk_2018",
+        "name": "Breast Cancer (MSK, Cancer Cell 2018)",
+        "n": 905,
+        "url": "https://www.cbioportal.org/study/summary?id=breast_msk_2018",
+        "filter": "SAMPLE_TYPE = Metastasis"
+      },
+      "cohort_note": "Biopsies of metastatic deposits sequenced on MSK-IMPACT (Razavi et al, Cancer Cell 2018), which reports 692 of its 1,918 tumours as previously exposed to hormonal therapy. The study's own primary tumours are excluded here. One sample per patient.",
+      "contrasts": [
+        {
+          "key": "msk-primary",
+          "label": "Same study, primary tumours",
+          "study": "breast_msk_2018",
+          "filter": "SAMPLE_TYPE = Primary",
+          "n_samples": 893,
+          "genes": {
+            "ESR1": {
+              "mutation": {
+                "n": 19,
+                "of": 893,
+                "pct": 2.1
+              },
+              "amplification": {
+                "n": 3,
+                "of": 893,
+                "pct": 0.3
+              },
+              "deep_deletion": {
+                "n": 1,
+                "of": 893,
+                "pct": 0.1
+              },
+              "any_loss": {
+                "n": 1,
+                "of": 893,
+                "pct": 0.1
+              },
+              "fusion": {
+                "n": 0,
+                "of": 893,
+                "pct": 0.0
+              }
+            },
+            "BRCA1/2": {}
+          }
+        },
+        {
+          "key": "msk-primary-hr-pos",
+          "label": "Same study, HR+ primary tumours",
+          "study": "breast_msk_2018",
+          "filter": "SAMPLE_TYPE = Primary; HR_STATUS = Positive",
+          "n_samples": 777,
+          "genes": {
+            "ESR1": {
+              "mutation": {
+                "n": 19,
+                "of": 777,
+                "pct": 2.4
+              },
+              "amplification": {
+                "n": 3,
+                "of": 777,
+                "pct": 0.4
+              },
+              "deep_deletion": {
+                "n": 1,
+                "of": 777,
+                "pct": 0.1
+              },
+              "any_loss": {
+                "n": 1,
+                "of": 777,
+                "pct": 0.1
+              },
+              "fusion": {
+                "n": 0,
+                "of": 777,
+                "pct": 0.0
+              }
+            },
+            "BRCA1/2": {}
+          }
+        },
+        {
+          "key": "msk-metastasis-hr-pos",
+          "label": "HR+ metastases",
+          "study": "breast_msk_2018",
+          "filter": "SAMPLE_TYPE = Metastasis; HR_STATUS = Positive",
+          "n_samples": 672,
+          "genes": {
+            "ESR1": {
+              "mutation": {
+                "n": 112,
+                "of": 672,
+                "pct": 16.7
+              },
+              "amplification": {
+                "n": 22,
+                "of": 672,
+                "pct": 3.3
+              },
+              "deep_deletion": {
+                "n": 0,
+                "of": 672,
+                "pct": 0.0
+              },
+              "any_loss": {
+                "n": 0,
+                "of": 672,
+                "pct": 0.0
+              },
+              "fusion": {
+                "n": 0,
+                "of": 672,
+                "pct": 0.0
+              }
+            },
+            "BRCA1/2": {}
+          }
+        },
+        {
+          "key": "msk-metastasis-stage-iv",
+          "label": "Metastases, stage IV at diagnosis",
+          "study": "breast_msk_2018",
+          "filter": "SAMPLE_TYPE = Metastasis; STAGE_AT_DIAGNOSIS = IV",
+          "n_samples": 202,
+          "genes": {
+            "ESR1": {
+              "mutation": {
+                "n": 24,
+                "of": 202,
+                "pct": 11.9
+              },
+              "amplification": {
+                "n": 1,
+                "of": 202,
+                "pct": 0.5
+              },
+              "deep_deletion": {
+                "n": 0,
+                "of": 202,
+                "pct": 0.0
+              },
+              "any_loss": {
+                "n": 0,
+                "of": 202,
+                "pct": 0.0
+              },
+              "fusion": {
+                "n": 0,
+                "of": 202,
+                "pct": 0.0
+              }
+            },
+            "BRCA1/2": {}
+          }
+        },
+        {
+          "key": "msk-metastasis-stage-i-iii",
+          "label": "Metastases, stage I\u2013III at diagnosis",
+          "study": "breast_msk_2018",
+          "filter": "SAMPLE_TYPE = Metastasis; STAGE_AT_DIAGNOSIS = IA\u2013IIIC",
+          "n_samples": 690,
+          "genes": {
+            "ESR1": {
+              "mutation": {
+                "n": 91,
+                "of": 690,
+                "pct": 13.2
+              },
+              "amplification": {
+                "n": 20,
+                "of": 690,
+                "pct": 2.9
+              },
+              "deep_deletion": {
+                "n": 0,
+                "of": 690,
+                "pct": 0.0
+              },
+              "any_loss": {
+                "n": 0,
+                "of": 690,
+                "pct": 0.0
+              },
+              "fusion": {
+                "n": 0,
+                "of": 690,
+                "pct": 0.0
+              }
+            },
+            "BRCA1/2": {}
+          }
+        },
+        {
+          "key": "mbcproject-naive",
+          "label": "MBCproject, sampled before any treatment",
+          "study": "brca_mbcproject_2022",
+          "filter": "CALC_TREATMENT_NAIVE = YES",
+          "n_samples": 147,
+          "genes": {
+            "ESR1": {
+              "mutation": {
+                "n": 3,
+                "of": 147,
+                "pct": 2.0
+              },
+              "amplification": {
+                "n": 18,
+                "of": 147,
+                "pct": 12.2
+              },
+              "deep_deletion": {
+                "n": 1,
+                "of": 147,
+                "pct": 0.7
+              },
+              "any_loss": {
+                "n": 48,
+                "of": 147,
+                "pct": 32.7
+              },
+              "fusion": {
+                "n": 0,
+                "of": 81,
+                "pct": 0.0
+              }
+            },
+            "BRCA1/2": {
+              "mutation": {
+                "n": 0,
+                "of": 147,
+                "pct": 0.0
+              },
+              "amplification": {
+                "n": 0,
+                "of": 147,
+                "pct": 0.0
+              },
+              "deep_deletion": {
+                "n": 0,
+                "of": 147,
+                "pct": 0.0
+              },
+              "any_loss": {
+                "n": 0,
+                "of": 147,
+                "pct": 0.0
+              },
+              "fusion": {
+                "n": 0,
+                "of": 81,
+                "pct": 0.0
+              }
+            }
+          }
+        },
+        {
+          "key": "mbcproject-treated",
+          "label": "MBCproject, sampled after treatment",
+          "study": "brca_mbcproject_2022",
+          "filter": "CALC_TREATMENT_NAIVE = NO",
+          "n_samples": 119,
+          "genes": {
+            "ESR1": {
+              "mutation": {
+                "n": 20,
+                "of": 119,
+                "pct": 16.8
+              },
+              "amplification": {
+                "n": 4,
+                "of": 119,
+                "pct": 3.4
+              },
+              "deep_deletion": {
+                "n": 2,
+                "of": 119,
+                "pct": 1.7
+              },
+              "any_loss": {
+                "n": 56,
+                "of": 119,
+                "pct": 47.1
+              },
+              "fusion": {
+                "n": 0,
+                "of": 41,
+                "pct": 0.0
+              }
+            },
+            "BRCA1/2": {
+              "mutation": {
+                "n": 0,
+                "of": 119,
+                "pct": 0.0
+              },
+              "amplification": {
+                "n": 0,
+                "of": 119,
+                "pct": 0.0
+              },
+              "deep_deletion": {
+                "n": 0,
+                "of": 119,
+                "pct": 0.0
+              },
+              "any_loss": {
+                "n": 0,
+                "of": 119,
+                "pct": 0.0
+              },
+              "fusion": {
+                "n": 0,
+                "of": 41,
+                "pct": 0.0
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}

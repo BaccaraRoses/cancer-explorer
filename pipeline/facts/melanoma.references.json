@@ -1,0 +1,1127 @@
+{
+  "dataset": "melanoma.js",
+  "n_references": 48,
+  "n_pmid": 27,
+  "n_label": 1,
+  "rows": [
+    {
+      "id": "ncdb-1998",
+      "pmid": "9781962",
+      "line": 104,
+      "verdict": "OK",
+      "checks": {
+        "resolves": "ok",
+        "url": "ok",
+        "year": "ok",
+        "journal": "ok",
+        "author": "ok",
+        "title": "ok",
+        "retracted": "ok",
+        "swap": "ok"
+      },
+      "problems": [],
+      "notes": {
+        "title": "100%"
+      },
+      "record": {
+        "title": "The National Cancer Data Base report on cutaneous and noncutaneous melanoma: a summary of 84,836 cases from the past decade. The American College of Surgeons Commission on Cancer and the American Cancer Society.",
+        "first_author": "Chang",
+        "year": "1998",
+        "journal": "Cancer",
+        "pmcid": null,
+        "doi": "10.1002/(sici)1097-0142(19981015)83:8<1664::aid-cncr23>3.0.co;2-g",
+        "pub_types": [
+          "Comparative Study",
+          "Journal Article"
+        ]
+      }
+    },
+    {
+      "id": "holman-2023",
+      "pmid": "37659614",
+      "line": 106,
+      "verdict": "OK",
+      "checks": {
+        "resolves": "ok",
+        "url": "ok",
+        "year": "ok",
+        "journal": "ok",
+        "author": "ok",
+        "title": "ok",
+        "retracted": "ok",
+        "swap": "ok"
+      },
+      "problems": [],
+      "notes": {
+        "title": "100%"
+      },
+      "record": {
+        "title": "Acral lentiginous melanoma incidence by sex, race, ethnicity, and stage in the United States, 2010-2019.",
+        "first_author": "Holman",
+        "year": "2023",
+        "journal": "Prev Med",
+        "pmcid": "PMC10949133",
+        "doi": "10.1016/j.ypmed.2023.107692",
+        "pub_types": [
+          "research-article",
+          "Journal Article"
+        ]
+      }
+    },
+    {
+      "id": "elder-2020",
+      "pmid": "32057276",
+      "line": 108,
+      "verdict": "OK",
+      "checks": {
+        "resolves": "ok",
+        "url": "ok",
+        "year": "ok",
+        "journal": "ok",
+        "author": "ok",
+        "title": "ok",
+        "retracted": "ok",
+        "swap": "ok"
+      },
+      "problems": [],
+      "notes": {
+        "title": "100%"
+      },
+      "record": {
+        "title": "The 2018 World Health Organization Classification of Cutaneous, Mucosal, and Uveal Melanoma: Detailed Analysis of 9 Distinct Subtypes Defined by Their Evolutionary Pathway.",
+        "first_author": "Elder",
+        "year": "2020",
+        "journal": "Arch Pathol Lab Med",
+        "pmcid": null,
+        "doi": "10.5858/arpa.2019-0561-ra",
+        "pub_types": [
+          "Review",
+          "Journal Article"
+        ]
+      }
+    },
+    {
+      "id": "msk-50k-2026",
+      "pmid": "41895280",
+      "line": 110,
+      "verdict": "OK",
+      "checks": {
+        "resolves": "ok",
+        "url": "skip",
+        "year": "ok",
+        "journal": "ok",
+        "author": "ok",
+        "title": "ok",
+        "retracted": "ok",
+        "swap": "ok"
+      },
+      "problems": [],
+      "notes": {
+        "url": "url names no PubMed, PMC or DOI id",
+        "title": "100%"
+      },
+      "record": {
+        "title": "Cancer type-specific variation in patterns of driver alterations across 50,000 tumors.",
+        "first_author": "Bandlamudi",
+        "year": "2026",
+        "journal": "Cancer Cell",
+        "pmcid": "PMC13198192",
+        "doi": "10.1016/j.ccell.2026.03.003",
+        "pub_types": [
+          "research-article",
+          "Journal Article"
+        ]
+      }
+    },
+    {
+      "id": "lattanzi-2019",
+      "pmid": "29912415",
+      "line": 112,
+      "verdict": "OK",
+      "checks": {
+        "resolves": "ok",
+        "url": "ok",
+        "year": "ok",
+        "journal": "ok",
+        "author": "ok",
+        "title": "ok",
+        "retracted": "ok",
+        "swap": "ok"
+      },
+      "problems": [],
+      "notes": {
+        "title": "100%"
+      },
+      "record": {
+        "title": "Primary Melanoma Histologic Subtype: Impact on Survival and Response to Therapy.",
+        "first_author": "Lattanzi",
+        "year": "2019",
+        "journal": "J Natl Cancer Inst",
+        "pmcid": "PMC7962783",
+        "doi": "10.1093/jnci/djy086",
+        "pub_types": [
+          "Research Support, Non-U.S. Gov't",
+          "research-article",
+          "Journal Article",
+          "Research Support, N.I.H., Extramural"
+        ]
+      }
+    },
+    {
+      "id": "uspstf-2023",
+      "pmid": "37071089",
+      "line": 122,
+      "verdict": "OK",
+      "checks": {
+        "resolves": "ok",
+        "url": "ok",
+        "year": "ok",
+        "journal": "ok",
+        "author": "ok",
+        "title": "ok",
+        "retracted": "ok",
+        "swap": "ok"
+      },
+      "problems": [],
+      "notes": {
+        "title": "100%"
+      },
+      "record": {
+        "title": "Screening for Skin Cancer: US Preventive Services Task Force Recommendation Statement.",
+        "first_author": "US Preventive Services Task Force",
+        "year": "2023",
+        "journal": "JAMA",
+        "pmcid": null,
+        "doi": "10.1001/jama.2023.4342",
+        "pub_types": [
+          "Systematic Review",
+          "Practice Guideline",
+          "Journal Article"
+        ]
+      }
+    },
+    {
+      "id": "henrikson-2023",
+      "pmid": "37071090",
+      "line": 124,
+      "verdict": "OK",
+      "checks": {
+        "resolves": "ok",
+        "url": "ok",
+        "year": "ok",
+        "journal": "ok",
+        "author": "ok",
+        "title": "ok",
+        "retracted": "ok",
+        "swap": "ok"
+      },
+      "problems": [],
+      "notes": {
+        "title": "89%"
+      },
+      "record": {
+        "title": "Skin Cancer Screening: Updated Evidence Report and Systematic Review for the US Preventive Services Task Force.",
+        "first_author": "Henrikson",
+        "year": "2023",
+        "journal": "JAMA",
+        "pmcid": "PMC13178561",
+        "doi": "10.1001/jama.2023.3262",
+        "pub_types": [
+          "research-article",
+          "Systematic Review",
+          "Journal Article",
+          "Research Support, N.I.H., Extramural"
+        ]
+      }
+    },
+    {
+      "id": "henrikson-2018",
+      "pmid": "29558557",
+      "line": 126,
+      "verdict": "OK",
+      "checks": {
+        "resolves": "ok",
+        "url": "ok",
+        "year": "ok",
+        "journal": "ok",
+        "author": "ok",
+        "title": "ok",
+        "retracted": "ok",
+        "swap": "ok"
+      },
+      "problems": [],
+      "notes": {
+        "title": "88%"
+      },
+      "record": {
+        "title": "Behavioral Counseling for Skin Cancer Prevention: Evidence Report and Systematic Review for the US Preventive Services Task Force.",
+        "first_author": "Henrikson",
+        "year": "2018",
+        "journal": "JAMA",
+        "pmcid": "PMC13335595",
+        "doi": "10.1001/jama.2017.21630",
+        "pub_types": [
+          "Research Support, U.S. Gov't, P.H.S.",
+          "research-article",
+          "Systematic Review",
+          "Journal Article"
+        ]
+      }
+    },
+    {
+      "id": "linos-2009",
+      "pmid": "19131946",
+      "line": 128,
+      "verdict": "OK",
+      "checks": {
+        "resolves": "ok",
+        "url": "ok",
+        "year": "ok",
+        "journal": "ok",
+        "author": "ok",
+        "title": "ok",
+        "retracted": "ok",
+        "swap": "ok"
+      },
+      "problems": [],
+      "notes": {
+        "title": "100%"
+      },
+      "record": {
+        "title": "Increasing burden of melanoma in the United States.",
+        "first_author": "Linos",
+        "year": "2009",
+        "journal": "J Invest Dermatol",
+        "pmcid": "PMC2866180",
+        "doi": "10.1038/jid.2008.423",
+        "pub_types": [
+          "research-article",
+          "Journal Article"
+        ]
+      }
+    },
+    {
+      "id": "welch-2005",
+      "pmid": "16081427",
+      "line": 130,
+      "verdict": "OK",
+      "checks": {
+        "resolves": "ok",
+        "url": "ok",
+        "year": "ok",
+        "journal": "ok",
+        "author": "ok",
+        "title": "ok",
+        "retracted": "ok",
+        "swap": "ok"
+      },
+      "problems": [],
+      "notes": {
+        "title": "100%"
+      },
+      "record": {
+        "title": "Skin biopsy rates and incidence of melanoma: population based ecological study.",
+        "first_author": "Welch",
+        "year": "2005",
+        "journal": "BMJ",
+        "pmcid": "PMC1199022",
+        "doi": "10.1136/bmj.38516.649537.e0",
+        "pub_types": [
+          "Research Support, U.S. Gov't, P.H.S.",
+          "Research Support, Non-U.S. Gov't",
+          "research-article",
+          "Multicenter Study",
+          "Research Support, U.S. Gov't, Non-P.H.S.",
+          "Journal Article",
+          "Research Support, N.I.H., Extramural"
+        ]
+      }
+    },
+    {
+      "id": "adamson-2022",
+      "pmid": "35293957",
+      "line": 132,
+      "verdict": "OK",
+      "checks": {
+        "resolves": "ok",
+        "url": "ok",
+        "year": "ok",
+        "journal": "ok",
+        "author": "ok",
+        "title": "ok",
+        "retracted": "ok",
+        "swap": "ok"
+      },
+      "problems": [],
+      "notes": {
+        "title": "100%"
+      },
+      "record": {
+        "title": "Estimating Overdiagnosis of Melanoma Using Trends Among Black and White Patients in the US.",
+        "first_author": "Adamson",
+        "year": "2022",
+        "journal": "JAMA Dermatol",
+        "pmcid": "PMC8928089",
+        "doi": "10.1001/jamadermatol.2022.0139",
+        "pub_types": [
+          "Research Support, Non-U.S. Gov't",
+          "research-article",
+          "Journal Article"
+        ]
+      }
+    },
+    {
+      "id": "gandini-2005-naevi",
+      "pmid": "15617989",
+      "line": 134,
+      "verdict": "OK",
+      "checks": {
+        "resolves": "ok",
+        "url": "ok",
+        "year": "ok",
+        "journal": "ok",
+        "author": "ok",
+        "title": "ok",
+        "retracted": "ok",
+        "swap": "ok"
+      },
+      "problems": [],
+      "notes": {
+        "title": "100%"
+      },
+      "record": {
+        "title": "Meta-analysis of risk factors for cutaneous melanoma: I. Common and atypical naevi.",
+        "first_author": "Gandini",
+        "year": "2005",
+        "journal": "Eur J Cancer",
+        "pmcid": null,
+        "doi": "10.1016/j.ejca.2004.10.015",
+        "pub_types": [
+          "Meta-Analysis",
+          "Research Support, Non-U.S. Gov't",
+          "Review",
+          "Journal Article"
+        ]
+      }
+    },
+    {
+      "id": "gandini-2005-phenotype",
+      "pmid": "16125929",
+      "line": 136,
+      "verdict": "OK",
+      "checks": {
+        "resolves": "ok",
+        "url": "ok",
+        "year": "ok",
+        "journal": "ok",
+        "author": "ok",
+        "title": "ok",
+        "retracted": "ok",
+        "swap": "ok"
+      },
+      "problems": [],
+      "notes": {
+        "title": "100%"
+      },
+      "record": {
+        "title": "Meta-analysis of risk factors for cutaneous melanoma: III. Family history, actinic damage and phenotypic factors.",
+        "first_author": "Gandini",
+        "year": "2005",
+        "journal": "Eur J Cancer",
+        "pmcid": null,
+        "doi": "10.1016/j.ejca.2005.03.034",
+        "pub_types": [
+          "Meta-Analysis",
+          "Research Support, Non-U.S. Gov't",
+          "Review",
+          "Journal Article"
+        ]
+      }
+    },
+    {
+      "id": "boniol-2012",
+      "pmid": "22833605",
+      "line": 138,
+      "verdict": "OK",
+      "checks": {
+        "resolves": "ok",
+        "url": "ok",
+        "year": "ok",
+        "journal": "ok",
+        "author": "ok",
+        "title": "ok",
+        "retracted": "ok",
+        "swap": "ok"
+      },
+      "problems": [],
+      "notes": {
+        "title": "100%"
+      },
+      "record": {
+        "title": "Cutaneous melanoma attributable to sunbed use: systematic review and meta-analysis.",
+        "first_author": "Boniol",
+        "year": "2012",
+        "journal": "BMJ",
+        "pmcid": "PMC3404185",
+        "doi": "10.1136/bmj.e4757",
+        "pub_types": [
+          "Meta-Analysis",
+          "research-article",
+          "Systematic Review",
+          "Journal Article"
+        ]
+      }
+    },
+    {
+      "id": "bishop-2002",
+      "pmid": "12072543",
+      "line": 140,
+      "verdict": "OK",
+      "checks": {
+        "resolves": "ok",
+        "url": "ok",
+        "year": "ok",
+        "journal": "ok",
+        "author": "ok",
+        "title": "ok",
+        "retracted": "ok",
+        "swap": "ok"
+      },
+      "problems": [],
+      "notes": {
+        "title": "100%"
+      },
+      "record": {
+        "title": "Geographical variation in the penetrance of CDKN2A mutations for melanoma.",
+        "first_author": "Bishop",
+        "year": "2002",
+        "journal": "J Natl Cancer Inst",
+        "pmcid": null,
+        "doi": "10.1093/jnci/94.12.894",
+        "pub_types": [
+          "Comparative Study",
+          "Research Support, Non-U.S. Gov't",
+          "Multicenter Study",
+          "Journal Article"
+        ]
+      }
+    },
+    {
+      "id": "engels-2011",
+      "pmid": "22045767",
+      "line": 142,
+      "verdict": "OK",
+      "checks": {
+        "resolves": "ok",
+        "url": "ok",
+        "year": "ok",
+        "journal": "ok",
+        "author": "ok",
+        "title": "ok",
+        "retracted": "ok",
+        "swap": "ok"
+      },
+      "problems": [],
+      "notes": {
+        "title": "100%"
+      },
+      "record": {
+        "title": "Spectrum of cancer risk among US solid organ transplant recipients.",
+        "first_author": "Engels",
+        "year": "2011",
+        "journal": "JAMA",
+        "pmcid": "PMC3310893",
+        "doi": "10.1001/jama.2011.1592",
+        "pub_types": [
+          "Research Support, N.I.H., Intramural",
+          "Research Support, U.S. Gov't, P.H.S.",
+          "Research Support, Non-U.S. Gov't",
+          "research-article",
+          "Journal Article",
+          "Research Support, N.I.H., Extramural"
+        ]
+      }
+    },
+    {
+      "id": "dinnes-2018-visual",
+      "pmid": "30521684",
+      "line": 144,
+      "verdict": "OK",
+      "checks": {
+        "resolves": "ok",
+        "url": "ok",
+        "year": "ok",
+        "journal": "ok",
+        "author": "ok",
+        "title": "ok",
+        "retracted": "ok",
+        "swap": "ok"
+      },
+      "problems": [],
+      "notes": {
+        "title": "100%"
+      },
+      "record": {
+        "title": "Visual inspection for diagnosing cutaneous melanoma in adults.",
+        "first_author": "Dinnes",
+        "year": "2018",
+        "journal": "Cochrane Database Syst Rev",
+        "pmcid": "PMC6492463",
+        "doi": "10.1002/14651858.cd013194",
+        "pub_types": [
+          "Meta-Analysis",
+          "Research Support, Non-U.S. Gov't",
+          "Systematic Review",
+          "systematic-review",
+          "Journal Article"
+        ]
+      }
+    },
+    {
+      "id": "dinnes-2018-dermoscopy",
+      "pmid": "30521682",
+      "line": 146,
+      "verdict": "OK",
+      "checks": {
+        "resolves": "ok",
+        "url": "ok",
+        "year": "ok",
+        "journal": "ok",
+        "author": "ok",
+        "title": "ok",
+        "retracted": "ok",
+        "swap": "ok"
+      },
+      "problems": [],
+      "notes": {
+        "title": "100%"
+      },
+      "record": {
+        "title": "Dermoscopy, with and without visual inspection, for diagnosing melanoma in adults.",
+        "first_author": "Dinnes",
+        "year": "2018",
+        "journal": "Cochrane Database Syst Rev",
+        "pmcid": "PMC6517096",
+        "doi": "10.1002/14651858.cd011902.pub2",
+        "pub_types": [
+          "Meta-Analysis",
+          "Research Support, Non-U.S. Gov't",
+          "Systematic Review",
+          "systematic-review",
+          "Journal Article"
+        ]
+      }
+    },
+    {
+      "id": "berwick-1996",
+      "pmid": "8847720",
+      "line": 148,
+      "verdict": "OK",
+      "checks": {
+        "resolves": "ok",
+        "url": "ok",
+        "year": "ok",
+        "journal": "ok",
+        "author": "ok",
+        "title": "ok",
+        "retracted": "ok",
+        "swap": "ok"
+      },
+      "problems": [],
+      "notes": {
+        "title": "100%"
+      },
+      "record": {
+        "title": "Screening for cutaneous melanoma by skin self-examination.",
+        "first_author": "Berwick",
+        "year": "1996",
+        "journal": "J Natl Cancer Inst",
+        "pmcid": null,
+        "doi": "10.1093/jnci/88.1.17",
+        "pub_types": [
+          "Research Support, U.S. Gov't, P.H.S.",
+          "Research Support, Non-U.S. Gov't",
+          "Journal Article"
+        ]
+      }
+    },
+    {
+      "id": "paddock-2016",
+      "pmid": "26990272",
+      "line": 150,
+      "verdict": "OK",
+      "checks": {
+        "resolves": "ok",
+        "url": "ok",
+        "year": "ok",
+        "journal": "ok",
+        "author": "ok",
+        "title": "ok",
+        "retracted": "ok",
+        "swap": "ok"
+      },
+      "problems": [],
+      "notes": {
+        "title": "100%"
+      },
+      "record": {
+        "title": "Skin self-examination and long-term melanoma survival.",
+        "first_author": "Paddock",
+        "year": "2016",
+        "journal": "Melanoma Res",
+        "pmcid": null,
+        "doi": "10.1097/cmr.0000000000000255",
+        "pub_types": [
+          "Journal Article"
+        ]
+      }
+    },
+    {
+      "id": "chuchu-2018",
+      "pmid": "30521685",
+      "line": 152,
+      "verdict": "OK",
+      "checks": {
+        "resolves": "ok",
+        "url": "ok",
+        "year": "ok",
+        "journal": "ok",
+        "author": "ok",
+        "title": "ok",
+        "retracted": "ok",
+        "swap": "ok"
+      },
+      "problems": [],
+      "notes": {
+        "title": "100%"
+      },
+      "record": {
+        "title": "Smartphone applications for triaging adults with skin lesions that are suspicious for melanoma.",
+        "first_author": "Chuchu",
+        "year": "2018",
+        "journal": "Cochrane Database Syst Rev",
+        "pmcid": "PMC6517294",
+        "doi": "10.1002/14651858.cd013192",
+        "pub_types": [
+          "Research Support, Non-U.S. Gov't",
+          "Systematic Review",
+          "systematic-review",
+          "Journal Article"
+        ]
+      }
+    },
+    {
+      "id": "ji-xu-2021",
+      "pmid": "33369727",
+      "line": 154,
+      "verdict": "OK",
+      "checks": {
+        "resolves": "ok",
+        "url": "ok",
+        "year": "ok",
+        "journal": "ok",
+        "author": "ok",
+        "title": "ok",
+        "retracted": "ok",
+        "swap": "ok"
+      },
+      "problems": [],
+      "notes": {
+        "title": "100%"
+      },
+      "record": {
+        "title": "Total body photography for the diagnosis of cutaneous melanoma in adults: a systematic review and meta-analysis.",
+        "first_author": "Ji-Xu",
+        "year": "2021",
+        "journal": "Br J Dermatol",
+        "pmcid": null,
+        "doi": "10.1111/bjd.19759",
+        "pub_types": [
+          "Meta-Analysis",
+          "Research Support, Non-U.S. Gov't",
+          "Systematic Review",
+          "Journal Article"
+        ]
+      }
+    },
+    {
+      "id": "elmore-2017",
+      "pmid": "28659278",
+      "line": 156,
+      "verdict": "OK",
+      "checks": {
+        "resolves": "ok",
+        "url": "ok",
+        "year": "ok",
+        "journal": "ok",
+        "author": "ok",
+        "title": "ok",
+        "retracted": "ok",
+        "swap": "ok"
+      },
+      "problems": [],
+      "notes": {
+        "title": "100%"
+      },
+      "record": {
+        "title": "Pathologists' diagnosis of invasive melanoma and melanocytic proliferations: observer accuracy and reproducibility study.",
+        "first_author": "Elmore",
+        "year": "2017",
+        "journal": "BMJ",
+        "pmcid": "PMC5485913",
+        "doi": "10.1136/bmj.j2813",
+        "pub_types": [
+          "research-article",
+          "Multicenter Study",
+          "Journal Article"
+        ]
+      }
+    },
+    {
+      "id": "shoushtari-2021",
+      "pmid": "33509808",
+      "line": 160,
+      "verdict": "OK",
+      "checks": {
+        "resolves": "ok",
+        "url": "ok",
+        "year": "ok",
+        "journal": "ok",
+        "author": "ok",
+        "title": "ok",
+        "retracted": "ok",
+        "swap": "ok"
+      },
+      "problems": [],
+      "notes": {
+        "title": "100%"
+      },
+      "record": {
+        "title": "Therapeutic Implications of Detecting MAPK-Activating Alterations in Cutaneous and Unknown Primary Melanomas.",
+        "first_author": "Shoushtari",
+        "year": "2021",
+        "journal": "Clin Cancer Res",
+        "pmcid": "PMC8046739",
+        "doi": "10.1158/1078-0432.ccr-20-4189",
+        "pub_types": [
+          "Research Support, Non-U.S. Gov't",
+          "research-article",
+          "Journal Article",
+          "Research Support, N.I.H., Extramural"
+        ]
+      }
+    },
+    {
+      "id": "van-allen-2014",
+      "pmid": "24265153",
+      "line": 164,
+      "verdict": "OK",
+      "checks": {
+        "resolves": "ok",
+        "url": "ok",
+        "year": "ok",
+        "journal": "ok",
+        "author": "ok",
+        "title": "ok",
+        "retracted": "ok",
+        "swap": "ok"
+      },
+      "problems": [],
+      "notes": {
+        "title": "100%"
+      },
+      "record": {
+        "title": "The genetic landscape of clinical resistance to RAF inhibition in metastatic melanoma.",
+        "first_author": "Van Allen",
+        "year": "2014",
+        "journal": "Cancer Discov",
+        "pmcid": "PMC3947264",
+        "doi": "10.1158/2159-8290.cd-13-0617",
+        "pub_types": [
+          "Research Support, Non-U.S. Gov't",
+          "research-article",
+          "Journal Article",
+          "Research Support, N.I.H., Extramural"
+        ]
+      }
+    },
+    {
+      "id": "cohen-2026",
+      "pmid": "42163062",
+      "line": 175,
+      "verdict": "OK",
+      "checks": {
+        "resolves": "ok",
+        "url": "ok",
+        "year": "ok",
+        "journal": "ok",
+        "author": "ok",
+        "title": "ok",
+        "retracted": "ok",
+        "swap": "ok"
+      },
+      "problems": [],
+      "notes": {
+        "title": "100%"
+      },
+      "record": {
+        "title": "Tebentafusp (IMCgp100), a first in class immune-mobilizing monoclonal T-cell receptors against cancer (ImmTAC) for HLA-A*02:01 positive uveal melanoma: Product review.",
+        "first_author": "Cohen",
+        "year": "2026",
+        "journal": "Hum Vaccin Immunother",
+        "pmcid": "PMC13196628",
+        "doi": "10.1080/21645515.2026.2675068",
+        "pub_types": [
+          "product-review",
+          "Review",
+          "Journal Article"
+        ]
+      }
+    },
+    {
+      "id": "olivier-2023",
+      "pmid": "37883087",
+      "line": 177,
+      "verdict": "OK",
+      "checks": {
+        "resolves": "ok",
+        "url": "ok",
+        "year": "ok",
+        "journal": "ok",
+        "author": "ok",
+        "title": "ok",
+        "retracted": "ok",
+        "swap": "ok"
+      },
+      "problems": [],
+      "notes": {
+        "title": "100%"
+      },
+      "record": {
+        "title": "Eligibility for Human Leukocyte Antigen-Based Therapeutics by Race and Ethnicity.",
+        "first_author": "Olivier",
+        "year": "2023",
+        "journal": "JAMA Netw Open",
+        "pmcid": "PMC10603498",
+        "doi": "10.1001/jamanetworkopen.2023.38612",
+        "pub_types": [
+          "Research Support, Non-U.S. Gov't",
+          "research-article",
+          "Journal Article"
+        ]
+      }
+    },
+    {
+      "id": "label-nivolumab-relatlimab",
+      "pmid": null,
+      "setid": "b22c9d83-3256-4e17-85f7-f331a504adc6",
+      "line": 203,
+      "verdict": "OK",
+      "checks": {
+        "resolves": "ok",
+        "url": "ok",
+        "product": "ok",
+        "effective": "ok"
+      },
+      "problems": [],
+      "notes": {},
+      "record": {
+        "brand_name": [
+          "OPDUALAG"
+        ],
+        "generic_name": [
+          "NIVOLUMAB AND RELATLIMAB-RMBW"
+        ],
+        "effective_time": "20260608",
+        "version": "3"
+      }
+    }
+  ],
+  "failing": [],
+  "quotes": [
+    {
+      "ref": "uspstf-2023",
+      "line": 405,
+      "quote": "Melanoma is about 30 times more common in White persons than in Black persons.",
+      "verdict": "OK",
+      "found_in": "abstract"
+    },
+    {
+      "ref": "gandini-2005-phenotype",
+      "line": 419,
+      "quote": "pooled estimates for family history (RR = 1.74, 1.41-2.14)",
+      "verdict": "OK",
+      "found_in": "abstract"
+    },
+    {
+      "ref": "gandini-2005-naevi",
+      "line": 439,
+      "quote": "101-120 naevi compared with <15 (pooled Relative Risk (RR) = 6.89; 95% Confidential Interval (CI): 4.63, 10.25)",
+      "verdict": "OK",
+      "found_in": "abstract"
+    },
+    {
+      "ref": "gandini-2005-naevi",
+      "line": 449,
+      "quote": "the number of atypical naevi (RR = 6.36 95%; CI: 3.80, 10.33; for 5 versus 0)",
+      "verdict": "OK",
+      "found_in": "abstract"
+    },
+    {
+      "ref": "gandini-2005-phenotype",
+      "line": 456,
+      "quote": "hair colour (Red vs. Dark: RR = 3.64, 2.56-5.37)",
+      "verdict": "OK",
+      "found_in": "abstract"
+    },
+    {
+      "ref": "gandini-2005-phenotype",
+      "line": 464,
+      "quote": "high density of freckles (RR = 2.10, 1.80-2.45)",
+      "verdict": "OK",
+      "found_in": "abstract"
+    },
+    {
+      "ref": "gandini-2005-phenotype",
+      "line": 470,
+      "quote": "skin type (I vs. IV: RR = 2.09, 1.67-2.58)",
+      "verdict": "OK",
+      "found_in": "abstract"
+    },
+    {
+      "ref": "gandini-2005-phenotype",
+      "line": 476,
+      "quote": "skin colour (Fair vs. Dark: RR = 2.06, 1.68-2.52)",
+      "verdict": "OK",
+      "found_in": "abstract"
+    },
+    {
+      "ref": "gandini-2005-phenotype",
+      "line": 482,
+      "quote": "eye colour (Blue vs. Dark: RR = 1.47, 1.28-1.69)",
+      "verdict": "OK",
+      "found_in": "abstract"
+    },
+    {
+      "ref": "gandini-2005-phenotype",
+      "line": 490,
+      "quote": "actinic damage indicators (RR = 2.02, 1.24-3.29)",
+      "verdict": "OK",
+      "found_in": "abstract"
+    },
+    {
+      "ref": "boniol-2012",
+      "line": 497,
+      "quote": "Based on 27 studies ever use of sunbeds was associated with a summary relative risk of 1.20 (95% confidence interval 1.08 to 1.34)",
+      "verdict": "OK",
+      "found_in": "abstract"
+    },
+    {
+      "ref": "gandini-2005-phenotype",
+      "line": 507,
+      "quote": "pre-malignant and skin cancer lesions (RR = 4.28, 2.80-6.55)",
+      "verdict": "OK",
+      "found_in": "abstract"
+    },
+    {
+      "ref": "chuchu-2018",
+      "line": 656,
+      "quote": "Across the four artificial intelligence-based applications … sensitivities ranged from 7% (95% CI 2% to 16%) to 73% (95% CI 52% to 88%)",
+      "verdict": "OK",
+      "found_in": "abstract"
+    },
+    {
+      "ref": "ji-xu-2021",
+      "line": 667,
+      "quote": "In total, 10 studies were included, comprising 41 703 patients who underwent TBP and 6203 biopsies. … mean percentage of biopsies positive for MIS or melanoma was 15% [95% confidence interval (CI) 10-21]",
+      "verdict": "OK",
+      "found_in": "abstract"
+    },
+    {
+      "ref": "ji-xu-2021",
+      "line": 671,
+      "quote": "number needed to biopsy (NNB) was 8·6 (range 2·3-19·6), naevus : melanoma ratio was 7·6 (range 1·3-18·6)",
+      "verdict": "OK",
+      "found_in": "abstract"
+    },
+    {
+      "ref": "elmore-2017",
+      "line": 682,
+      "quote": "In phase 1, 187 pathologists completed 8976 independent case interpretations … I, 92% (95% confidence interval 90% to 94%) … and V, 72% (69% to 75%)",
+      "verdict": "OK",
+      "found_in": "abstract"
+    },
+    {
+      "ref": "elmore-2017",
+      "line": 684,
+      "quote": "II, 25% (22% to 28%); III, 40% (37% to 44%); IV, 43% (39% to 46%)",
+      "verdict": "OK",
+      "found_in": "abstract"
+    },
+    {
+      "ref": "elmore-2017",
+      "line": 685,
+      "quote": "with 8.0% (6.2% to 9.9%) of cases overinterpreted by the initial pathologist and 9.2% (8.8% to 9.6%) underinterpreted",
+      "verdict": "OK",
+      "found_in": "abstract"
+    },
+    {
+      "ref": "cohen-2026",
+      "line": 733,
+      "quote": "In the registrational IMCgp100-202 trial, 1,072 patients were screened for HLA, of which 551 (51%) were HLA-A*02:01 positive.",
+      "verdict": "OK",
+      "found_in": "full text"
+    },
+    {
+      "ref": "olivier-2023",
+      "line": 739,
+      "quote": "its frequency varied from 11.9% (95% CI, 11.8%-12.0%) in individuals of African or African American descent to 27.1% (95% CI, 27.1%-27.1%) in individuals of European or European descent … was present in only 6.5% (95% CI, 6.5%-6.5%) of individuals’ alleles",
+      "verdict": "OK",
+      "found_in": "full text"
+    },
+    {
+      "ref": "label-nivolumab-relatlimab",
+      "line": 817,
+      "quote": "OPDUALAG is a combination of nivolumab, a programmed death receptor-1 (PD-1) blocking antibody, and relatlimab, a lymphocyte activation gene-3 (LAG-3) blocking antibody, indicated for the treatment of adult and pediatric patients 12 years of age or older with unresectable or metastatic melanoma.",
+      "section": "indications_and_usage",
+      "verdict": "OK",
+      "found_in": "label section indications_and_usage"
+    },
+    {
+      "ref": "shoushtari-2021",
+      "line": 1035,
+      "quote": "A total of 670 of 696 sequenced melanomas (96%) harbored an oncogenic RTK-RAS-MAPK pathway alteration",
+      "verdict": "OK",
+      "found_in": "abstract"
+    },
+    {
+      "ref": "holman-2023",
+      "line": 1175,
+      "quote": "non-Hispanic Black persons (1.8 per 1,000,000) … compared to non-Hispanic White persons (2.3 per 1,000,000). Rates were significantly higher among Hispanic White persons (2.8 per 1,000,000) … The percentage of melanomas that were ALM ranged from 0.8% among non-Hispanic White persons to 19.1% among Hispanic Black, AI/AN, and API persons.",
+      "verdict": "OK",
+      "found_in": "abstract"
+    },
+    {
+      "ref": "shoushtari-2021",
+      "line": 1331,
+      "quote": "TTF of PD-1 monotherapy (N = 181) varied by driver, with worse outcomes for NRAS Q61 and BRAF V600 versus NF1 or other alterations (median 4.2, 7.5, 22, and not reached; P < 0.0001). … TTF did not vary by driver for nivolumab plus ipilimumab (N = 141).",
+      "verdict": "OK",
+      "found_in": "abstract"
+    },
+    {
+      "ref": "shoushtari-2021",
+      "line": 1349,
+      "quote": "Among 172 patients with BRAF V600 wild-type melanoma who progressed on checkpoint blockade, 27 were treated with genomically matched therapy, and eight (30%) derived clinical benefit lasting ≥6 months.",
+      "verdict": "OK",
+      "found_in": "abstract"
+    },
+    {
+      "ref": "van-allen-2014",
+      "line": 1396,
+      "quote": "Genetic alterations in known or putative RAF inhibitor resistance genes were observed in 23 of 45 patients (51%).",
+      "verdict": "OK",
+      "found_in": "abstract"
+    }
+  ],
+  "failing_quotes": []
+}

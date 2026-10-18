@@ -1,0 +1,22 @@
+# Secrets — never commit
+pipeline/.env
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Pipeline outputs that are regenerable
+pipeline/cache/
+
+# Keep facts/ and reports/ tracked: they are the auditable record of what the
+# sources said on a given date, and diffing them across runs is the point.
+
+# Raw session streams from the phase runner (tens of MB; runner.log is the
+# readable timeline and stays tracked)
+tools/autophase/logs/
+
+# Cached fetches of the independent audits (tools/audits/_http.py); verify refills them
+tools/audits/cache/

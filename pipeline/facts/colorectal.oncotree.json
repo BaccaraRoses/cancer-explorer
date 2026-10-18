@@ -1,0 +1,227 @@
+{
+  "source": "OncoTree (Memorial Sloan Kettering)",
+  "api": "https://oncotree.mskcc.org/api/tumorTypes",
+  "cancer": "colorectal",
+  "tissue": "Bowel",
+  "n_total_types": 897,
+  "n_tissue_types": 26,
+  "missing_expected_codes": [],
+  "nodes": {
+    "site-root": {
+      "code": "COADREAD",
+      "name": "Colorectal Adenocarcinoma",
+      "parent": "BOWEL",
+      "main_type": "Colorectal Cancer",
+      "level": 2,
+      "nci": [
+        "C5105"
+      ],
+      "umls": [
+        "C1319315"
+      ],
+      "match": "ok"
+    },
+    "site-colon": {
+      "code": "COAD",
+      "name": "Colon Adenocarcinoma",
+      "parent": "COADREAD",
+      "main_type": "Colorectal Cancer",
+      "level": 3,
+      "nci": [
+        "C4349"
+      ],
+      "umls": [
+        "C0338106"
+      ],
+      "match": "ok"
+    },
+    "site-rectum": {
+      "code": "READ",
+      "name": "Rectal Adenocarcinoma",
+      "parent": "COADREAD",
+      "main_type": "Colorectal Cancer",
+      "level": 3,
+      "nci": [
+        "C9383"
+      ],
+      "umls": [
+        "C0149978"
+      ],
+      "match": "ok"
+    },
+    "rep-root": {
+      "code": "COADREAD",
+      "name": "Colorectal Adenocarcinoma",
+      "parent": "BOWEL",
+      "main_type": "Colorectal Cancer",
+      "level": 2,
+      "nci": [
+        "C5105"
+      ],
+      "umls": [
+        "C1319315"
+      ],
+      "match": "ok"
+    },
+    "drv-root": {
+      "code": "COADREAD",
+      "name": "Colorectal Adenocarcinoma",
+      "parent": "BOWEL",
+      "main_type": "Colorectal Cancer",
+      "level": 2,
+      "nci": [
+        "C5105"
+      ],
+      "umls": [
+        "C1319315"
+      ],
+      "match": "ok"
+    },
+    "cms-root": {
+      "code": "COAD",
+      "name": "Colon Adenocarcinoma",
+      "parent": "COADREAD",
+      "main_type": "Colorectal Cancer",
+      "level": 3,
+      "nci": [
+        "C4349"
+      ],
+      "umls": [
+        "C0338106"
+      ],
+      "match": "ok"
+    }
+  },
+  "catalogue": [
+    {
+      "code": "AGA",
+      "name": "Anal Gland Adenocarcinoma",
+      "parent": "BOWEL"
+    },
+    {
+      "code": "ANSC",
+      "name": "Anal Squamous Cell Carcinoma",
+      "parent": "BOWEL"
+    },
+    {
+      "code": "APAD",
+      "name": "Appendiceal Adenocarcinoma",
+      "parent": "BOWEL"
+    },
+    {
+      "code": "ARMM",
+      "name": "Anorectal Mucosal Melanoma",
+      "parent": "BOWEL"
+    },
+    {
+      "code": "AWDNET",
+      "name": "Well-Differentiated Neuroendocrine Tumor of the Appendix",
+      "parent": "GINET"
+    },
+    {
+      "code": "BOWEL",
+      "name": "Bowel",
+      "parent": "TISSUE"
+    },
+    {
+      "code": "CAIS",
+      "name": "Colon Adenocarcinoma In Situ",
+      "parent": "COADREAD"
+    },
+    {
+      "code": "CMC",
+      "name": "Medullary Carcinoma of the Colon",
+      "parent": "BOWEL"
+    },
+    {
+      "code": "COAD",
+      "name": "Colon Adenocarcinoma",
+      "parent": "COADREAD"
+    },
+    {
+      "code": "COADREAD",
+      "name": "Colorectal Adenocarcinoma",
+      "parent": "BOWEL"
+    },
+    {
+      "code": "CTAAP",
+      "name": "Colonic Type Adenocarcinoma of the Appendix",
+      "parent": "APAD"
+    },
+    {
+      "code": "DA",
+      "name": "Duodenal Adenocarcinoma",
+      "parent": "SBC"
+    },
+    {
+      "code": "GCCAP",
+      "name": "Goblet Cell Adenocarcinoma of the Appendix",
+      "parent": "APAD"
+    },
+    {
+      "code": "GINET",
+      "name": "Gastrointestinal Neuroendocrine Tumors",
+      "parent": "BOWEL"
+    },
+    {
+      "code": "HGNEC",
+      "name": "High-Grade Neuroendocrine Carcinoma of the Colon and Rectum",
+      "parent": "GINET"
+    },
+    {
+      "code": "LAMN",
+      "name": "Low-grade Appendiceal Mucinous Neoplasm",
+      "parent": "BOWEL"
+    },
+    {
+      "code": "MAAP",
+      "name": "Mucinous Adenocarcinoma of the Appendix",
+      "parent": "APAD"
+    },
+    {
+      "code": "MACR",
+      "name": "Mucinous Adenocarcinoma of the Colon and Rectum",
+      "parent": "COADREAD"
+    },
+    {
+      "code": "READ",
+      "name": "Rectal Adenocarcinoma",
+      "parent": "COADREAD"
+    },
+    {
+      "code": "RWDNET",
+      "name": "Well-Differentiated Neuroendocrine Tumor of the Rectum",
+      "parent": "GINET"
+    },
+    {
+      "code": "SBC",
+      "name": "Small Bowel Cancer",
+      "parent": "BOWEL"
+    },
+    {
+      "code": "SBWDNET",
+      "name": "Small Bowel Well-Differentiated Neuroendocrine Tumor",
+      "parent": "GINET"
+    },
+    {
+      "code": "SIC",
+      "name": "Small Intestinal Carcinoma",
+      "parent": "BOWEL"
+    },
+    {
+      "code": "SRAP",
+      "name": "Signet Ring Cell Type of the Appendix",
+      "parent": "APAD"
+    },
+    {
+      "code": "SRCCR",
+      "name": "Signet Ring Cell Adenocarcinoma of the Colon and Rectum",
+      "parent": "COADREAD"
+    },
+    {
+      "code": "TAC",
+      "name": "Tubular Adenoma of the Colon",
+      "parent": "BOWEL"
+    }
+  ]
+}

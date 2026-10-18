@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Cancer Subtype Explorer</title>
+<link rel="stylesheet" href="css/explorer.css">
+</head>
+<body>
+<div class="app viz-root">
+
+  <header class="topbar">
+    <div class="brand">
+      <h1 id="ds-name">Cancer Subtype Explorer</h1>
+      <p id="ds-sub" class="sub">Loading…</p>
+    </div>
+
+    <div class="controls">
+      <label class="ctl">
+        <span>Cancer</span>
+        <select id="sel-dataset"></select>
+      </label>
+
+      <!-- A lens picks what the canvas partitions: people, or tumours.
+           The axis picker below only applies to the second. -->
+      <div class="ctl">
+        <span>Lens</span>
+        <div class="segmented" id="lens-toggle" role="group" aria-label="Lens">
+          <button type="button" data-lens="start">Start</button>
+          <button type="button" data-lens="risk">Risk &amp; detection</button>
+          <button type="button" data-lens="subtypes">Subtypes</button>
+          <button type="button" data-lens="targets">Targets</button>
+          <button type="button" data-lens="literature">Literature</button>
+          <button type="button" data-lens="evidence">Evidence</button>
+        </div>
+      </div>
+
+      <label class="ctl" id="ctl-axis">
+        <span>Classify by</span>
+        <select id="sel-axis"></select>
+      </label>
+
+      <div class="ctl" id="ctl-view">
+        <span>View</span>
+        <div class="segmented" id="view-toggle" role="group" aria-label="View">
+          <button type="button" data-view="ranked">Ranked</button>
+          <button type="button" data-view="detection">Detection</button>
+          <button type="button" data-view="treemap">Treemap</button>
+          <button type="button" data-view="tree">Tree</button>
+          <button type="button" data-view="table">Table</button>
+          <button type="button" data-view="start" hidden>Start</button>
+          <button type="button" data-view="glossary" hidden>Glossary</button>
+          <button type="button" data-view="targets" hidden>Targets</button>
+          <button type="button" data-view="drugs" hidden>Drugs</button>
+          <button type="button" data-view="literature" hidden>Literature</button>
+          <button type="button" data-view="evidence" hidden>Evidence</button>
+        </div>
+      </div>
+
+      <label class="ctl ctl-check" id="ctl-related">
+        <input type="checkbox" id="chk-related">
+        <span>Relationships</span>
+      </label>
+
+      <label class="ctl">
+        <span>Search</span>
+        <input type="search" id="search" placeholder="subtype, gene, trigger…" autocomplete="off">
+      </label>
+
+      <button type="button" id="theme-toggle" class="icon-btn" aria-label="Toggle light/dark theme" title="Toggle theme">◐</button>
+    </div>
+  </header>
+
+  <!-- Which rung of the ladder you are on, and the way back if you arrived
+       here by a cross-lens link. -->
+  <nav class="ladder" id="ladder" aria-label="Knowledge ladder"></nav>
+
+  <p class="axis-note" id="axis-note"></p>
+  <nav class="breadcrumb" id="crumbs" aria-label="Breadcrumb"></nav>
+
+  <main class="main">
+    <section class="canvas" id="canvas">
+      <div id="lenshead" class="lenshead" hidden></div>
+      <svg id="viz" role="img" aria-label="Cancer subtype visualization"></svg>
+      <div id="tableview" class="tableview" hidden></div>
+      <div id="empty" class="empty" hidden></div>
+      <div id="legend" class="legend"></div>
+    </section>
+
+    <aside class="drawer" id="drawer" aria-live="polite">
+      <div class="drawer-empty">Select a subtype to see its trigger causes and molecular profile.</div>
+    </aside>
+  </main>
+
+  <footer class="foot">
+    <span id="foot-meta"></span>
+    <span class="disclaimer">Research and educational reference only — not medical advice.</span>
+  </footer>
+
+  <div class="tooltip" id="tip" hidden></div>
+</div>
+
+<!-- Engine (cancer-agnostic) -->
+<script src="js/layouts.js"></script>
+<script src="js/glossary.js"></script>
+<script src="js/validate.js"></script>
+<script src="js/facts.js"></script>
+<script src="js/render.js"></script>
+<script src="js/explorer.js"></script>
+
+<!-- Datasets: add one line per cancer. Order here sets the picker order.
+     Both overlays are generated and both are optional — delete either tag and
+     the app still runs, minus the lens it feeds:
+       .facts.js    pipeline/run.py emit     computed driver figures, concordance
+       .targets.js  pipeline/run.py targets     protein domains, structures, drugs, gaps
+       .literature.js pipeline/run.py literature  the frontier — a dated snapshot -->
+<script src="data/breast.js"></script>
+<script src="data/breast.facts.js"></script>
+<script src="data/breast.targets.js"></script>
+<script src="data/breast.literature.js"></script>
+
+<script src="data/prostate.js"></script>
+<script src="data/prostate.facts.js"></script>
+<script src="data/prostate.targets.js"></script>
+<script src="data/prostate.literature.js"></script>
+
+<script src="data/lung.js"></script>
+<script src="data/lung.facts.js"></script>
+<script src="data/lung.targets.js"></script>
+<script src="data/lung.literature.js"></script>
+
+<script src="data/colorectal.js"></script>
+<script src="data/colorectal.facts.js"></script>
+<script src="data/colorectal.targets.js"></script>
+<script src="data/colorectal.literature.js"></script>
+
+<script src="data/melanoma.js"></script>
+<script src="data/melanoma.facts.js"></script>
+<script src="data/melanoma.targets.js"></script>
+<script src="data/melanoma.literature.js"></script>
+
+<script>CancerExplorer.boot();</script>
+</body>
+</html>

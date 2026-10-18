@@ -1,0 +1,58 @@
+{
+  "source": "SEER Cancer Stat Facts: Female Breast Cancer Subtypes",
+  "url": "https://seer.cancer.gov/statfacts/html/breast-subtypes.html",
+  "period": "SEER 21, 2019-2023",
+  "subtypes": {
+    "HR+/HER2-": {
+      "rate_per_100k": 92.9,
+      "percent_of_cases": 70.1,
+      "five_year_relative_survival": 95.8
+    },
+    "HR-/HER2-": {
+      "rate_per_100k": 14.3,
+      "percent_of_cases": 10.8,
+      "five_year_relative_survival": 78.7
+    },
+    "HR+/HER2+": {
+      "rate_per_100k": 12.3,
+      "percent_of_cases": 9.3,
+      "five_year_relative_survival": 92.2
+    },
+    "HR-/HER2+": {
+      "rate_per_100k": 5.3,
+      "percent_of_cases": 4.0,
+      "five_year_relative_survival": 87.0
+    },
+    "Unknown": {
+      "rate_per_100k": 7.3,
+      "percent_of_cases": 5.5
+    }
+  },
+  "percent_total": 99.7,
+  "by_node": {
+    "hr-pos-her2-neg": {
+      "rate_per_100k": 92.9,
+      "percent_of_cases": 70.1,
+      "five_year_relative_survival": 95.8,
+      "seer_label": "HR+/HER2-"
+    },
+    "tnbc": {
+      "rate_per_100k": 14.3,
+      "percent_of_cases": 10.8,
+      "five_year_relative_survival": 78.7,
+      "seer_label": "HR-/HER2-"
+    },
+    "triple-positive": {
+      "rate_per_100k": 12.3,
+      "percent_of_cases": 9.3,
+      "five_year_relative_survival": 92.2,
+      "seer_label": "HR+/HER2+"
+    },
+    "her2-pos-hr-neg": {
+      "rate_per_100k": 5.3,
+      "percent_of_cases": 4.0,
+      "five_year_relative_survival": 87.0,
+      "seer_label": "HR-/HER2+"
+    }
+  }
+}

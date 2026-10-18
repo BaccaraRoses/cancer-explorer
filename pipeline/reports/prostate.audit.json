@@ -1,0 +1,740 @@
+{
+  "cancer": "prostate",
+  "cohort": {
+    "id": "prad_tcga_pub",
+    "name": "Prostate Adenocarcinoma (TCGA, Cell 2015)",
+    "citation": "TCGA, Cell 2015",
+    "pmid": "26544944",
+    "n_samples": 333,
+    "n_patients": 333
+  },
+  "hand_counts": {
+    "nodes": 32,
+    "drivers": 29
+  },
+  "comparisons": [
+    {
+      "node": "mol-foxa1",
+      "gene": "FOXA1",
+      "metric": "mutation",
+      "hand": 100.0,
+      "computed": 100.0,
+      "n": 9,
+      "of": 9,
+      "alt": null,
+      "delta": 0.0,
+      "verdict": "LOW N",
+      "note": "denominator 9 < 20; computed % is not meaningful"
+    },
+    {
+      "node": "state-crpc",
+      "gene": "MYC",
+      "metric": "amplification",
+      "hand": 24.0,
+      "computed": 23.5,
+      "n": 101,
+      "of": 429,
+      "alt": null,
+      "delta": 0.5,
+      "verdict": "MATCH",
+      "note": "against state-crpc-adeno's cohort (audit_against)"
+    },
+    {
+      "node": "state-nepc",
+      "gene": "SPOP",
+      "metric": "mutation",
+      "hand": 9.0,
+      "computed": 8.6,
+      "n": 7,
+      "of": 81,
+      "alt": null,
+      "delta": 0.4,
+      "verdict": "MATCH",
+      "note": ""
+    },
+    {
+      "node": "mol-erg",
+      "gene": "PTEN",
+      "metric": "deep_deletion",
+      "hand": 26.0,
+      "computed": 26.3,
+      "n": 40,
+      "of": 152,
+      "alt": "incl. hemizygous 41.4%",
+      "delta": -0.3,
+      "verdict": "MATCH",
+      "note": ""
+    },
+    {
+      "node": "state-crpc-adeno",
+      "gene": "AR",
+      "metric": "amplification",
+      "hand": 49.0,
+      "computed": 48.7,
+      "n": 209,
+      "of": 429,
+      "alt": null,
+      "delta": 0.3,
+      "verdict": "MATCH",
+      "note": ""
+    },
+    {
+      "node": "state-crpc-adeno",
+      "gene": "FOXA1",
+      "metric": "mutation",
+      "hand": 9.0,
+      "computed": 9.3,
+      "n": 40,
+      "of": 429,
+      "alt": null,
+      "delta": -0.3,
+      "verdict": "MATCH",
+      "note": ""
+    },
+    {
+      "node": "state-nepc",
+      "gene": "TP53",
+      "metric": "mutation",
+      "hand": 25.0,
+      "computed": 24.7,
+      "n": 20,
+      "of": 81,
+      "alt": null,
+      "delta": 0.3,
+      "verdict": "MATCH",
+      "note": ""
+    },
+    {
+      "node": "mol-root",
+      "gene": "BRCA2",
+      "metric": "mutation",
+      "hand": 3.0,
+      "computed": 2.7,
+      "n": 9,
+      "of": 333,
+      "alt": null,
+      "delta": 0.3,
+      "verdict": "MATCH",
+      "note": "against state-confined's cohort (audit_against)"
+    },
+    {
+      "node": "state-crpc",
+      "gene": "AR",
+      "metric": "amplification",
+      "hand": 49.0,
+      "computed": 48.7,
+      "n": 209,
+      "of": 429,
+      "alt": null,
+      "delta": 0.3,
+      "verdict": "MATCH",
+      "note": "against state-crpc-adeno's cohort (audit_against)"
+    },
+    {
+      "node": "state-crpc",
+      "gene": "RB1",
+      "metric": "deep_deletion",
+      "hand": 10.0,
+      "computed": 9.8,
+      "n": 42,
+      "of": 429,
+      "alt": "incl. hemizygous 60.1%",
+      "delta": 0.2,
+      "verdict": "MATCH",
+      "note": "against state-crpc-adeno's cohort (audit_against)"
+    },
+    {
+      "node": "mol-spop",
+      "gene": "CHD1",
+      "metric": "deep_deletion",
+      "hand": 46.0,
+      "computed": 45.9,
+      "n": 17,
+      "of": 37,
+      "alt": "incl. hemizygous 78.4%",
+      "delta": 0.1,
+      "verdict": "MATCH",
+      "note": ""
+    },
+    {
+      "node": "state-crpc-adeno",
+      "gene": "AR",
+      "metric": "mutation",
+      "hand": 13.0,
+      "computed": 13.1,
+      "n": 56,
+      "of": 429,
+      "alt": null,
+      "delta": -0.1,
+      "verdict": "MATCH",
+      "note": ""
+    },
+    {
+      "node": "state-crpc-adeno",
+      "gene": "TP53",
+      "metric": "mutation",
+      "hand": 37.0,
+      "computed": 37.1,
+      "n": 159,
+      "of": 429,
+      "alt": null,
+      "delta": -0.1,
+      "verdict": "MATCH",
+      "note": ""
+    },
+    {
+      "node": "state-crpc-adeno",
+      "gene": "BRCA2",
+      "metric": "mutation",
+      "hand": 8.0,
+      "computed": 7.9,
+      "n": 34,
+      "of": 429,
+      "alt": null,
+      "delta": 0.1,
+      "verdict": "MATCH",
+      "note": ""
+    },
+    {
+      "node": "mol-root",
+      "gene": "SPOP",
+      "metric": "mutation",
+      "hand": 11.0,
+      "computed": 11.1,
+      "n": 37,
+      "of": 333,
+      "alt": null,
+      "delta": -0.1,
+      "verdict": "MATCH",
+      "note": "against state-confined's cohort (audit_against)"
+    },
+    {
+      "node": "mol-root",
+      "gene": "TP53",
+      "metric": "mutation",
+      "hand": 7.0,
+      "computed": 6.9,
+      "n": 23,
+      "of": 333,
+      "alt": null,
+      "delta": 0.1,
+      "verdict": "MATCH",
+      "note": "against state-confined's cohort (audit_against)"
+    },
+    {
+      "node": "mol-root",
+      "gene": "FOXA1",
+      "metric": "mutation",
+      "hand": 4.0,
+      "computed": 3.9,
+      "n": 13,
+      "of": 333,
+      "alt": null,
+      "delta": 0.1,
+      "verdict": "MATCH",
+      "note": "against state-confined's cohort (audit_against)"
+    },
+    {
+      "node": "mol-root",
+      "gene": "ATM",
+      "metric": "mutation",
+      "hand": 4.0,
+      "computed": 3.9,
+      "n": 13,
+      "of": 333,
+      "alt": null,
+      "delta": 0.1,
+      "verdict": "MATCH",
+      "note": "against state-confined's cohort (audit_against)"
+    },
+    {
+      "node": "state-crpc",
+      "gene": "TP53",
+      "metric": "mutation",
+      "hand": 37.0,
+      "computed": 37.1,
+      "n": 159,
+      "of": 429,
+      "alt": null,
+      "delta": -0.1,
+      "verdict": "MATCH",
+      "note": "against state-crpc-adeno's cohort (audit_against)"
+    },
+    {
+      "node": "state-crpc",
+      "gene": "PTEN",
+      "metric": "deep_deletion",
+      "hand": 26.0,
+      "computed": 25.9,
+      "n": 111,
+      "of": 429,
+      "alt": "incl. hemizygous 51.3%",
+      "delta": 0.1,
+      "verdict": "MATCH",
+      "note": "against state-crpc-adeno's cohort (audit_against)"
+    },
+    {
+      "node": "state-crpc",
+      "gene": "HRR",
+      "metric": "mutation",
+      "hand": 22.0,
+      "computed": 22.1,
+      "n": 95,
+      "of": 429,
+      "alt": null,
+      "delta": -0.1,
+      "verdict": "MATCH",
+      "note": "against state-crpc-adeno's cohort (audit_against)"
+    },
+    {
+      "node": "mol-erg",
+      "gene": "ERG",
+      "metric": "fusion",
+      "hand": 100.0,
+      "computed": 100.0,
+      "n": 152,
+      "of": 152,
+      "alt": null,
+      "delta": 0.0,
+      "verdict": "MATCH",
+      "note": ""
+    },
+    {
+      "node": "mol-etv1",
+      "gene": "ETV1",
+      "metric": "fusion",
+      "hand": 100.0,
+      "computed": 100.0,
+      "n": 28,
+      "of": 28,
+      "alt": null,
+      "delta": 0.0,
+      "verdict": "MATCH",
+      "note": ""
+    },
+    {
+      "node": "mol-spop",
+      "gene": "SPOP",
+      "metric": "mutation",
+      "hand": 100.0,
+      "computed": 100.0,
+      "n": 37,
+      "of": 37,
+      "alt": null,
+      "delta": 0.0,
+      "verdict": "MATCH",
+      "note": ""
+    },
+    {
+      "node": "mol-other",
+      "gene": "ZFHX3",
+      "metric": "any_loss",
+      "hand": 36.0,
+      "computed": 36.0,
+      "n": 31,
+      "of": 86,
+      "alt": "deep-deletion-only 9.3%",
+      "delta": 0.0,
+      "verdict": "MATCH",
+      "note": ""
+    },
+    {
+      "node": "state-nepc",
+      "gene": "RB1",
+      "metric": "mutation",
+      "hand": 2.5,
+      "computed": 2.5,
+      "n": 2,
+      "of": 81,
+      "alt": null,
+      "delta": 0.0,
+      "verdict": "MATCH",
+      "note": ""
+    },
+    {
+      "node": "mol-root",
+      "gene": "PTEN",
+      "metric": "deep_deletion",
+      "hand": 15.0,
+      "computed": 15.0,
+      "n": 50,
+      "of": 333,
+      "alt": "incl. hemizygous 27.9%",
+      "delta": 0.0,
+      "verdict": "MATCH",
+      "note": "against state-confined's cohort (audit_against)"
+    }
+  ],
+  "quoted_counts": [],
+  "prevalence": [],
+  "druggability": [
+    {
+      "gene": "HRR",
+      "resolved_as": "HRR",
+      "marked_druggable": true,
+      "civic_best_level": null,
+      "civic_best_predictive_level": null,
+      "civic_pending_predictive_level": null,
+      "civic_predictive": false,
+      "civic_items": 0,
+      "verdict": "UNSUPPORTED",
+      "note": "no accepted predictive evidence in CIViC for prostate cancer \u2014 may be druggable in principle rather than in practice"
+    },
+    {
+      "gene": "AR",
+      "resolved_as": "AR",
+      "marked_druggable": true,
+      "civic_best_level": "B",
+      "civic_best_predictive_level": "B",
+      "civic_pending_predictive_level": null,
+      "civic_predictive": true,
+      "civic_items": 23,
+      "verdict": "SUPPORTED",
+      "note": ""
+    },
+    {
+      "gene": "BRCA2",
+      "resolved_as": "BRCA2",
+      "marked_druggable": true,
+      "civic_best_level": "B",
+      "civic_best_predictive_level": "B",
+      "civic_pending_predictive_level": "A",
+      "civic_predictive": true,
+      "civic_items": 11,
+      "verdict": "SUPPORTED",
+      "note": "pending CIViC items, not yet accepted by an editor, reach level A"
+    },
+    {
+      "gene": "PTEN",
+      "resolved_as": "PTEN",
+      "marked_druggable": true,
+      "civic_best_level": "B",
+      "civic_best_predictive_level": "B",
+      "civic_pending_predictive_level": null,
+      "civic_predictive": true,
+      "civic_items": 5,
+      "verdict": "SUPPORTED",
+      "note": ""
+    },
+    {
+      "gene": "APC",
+      "resolved_as": "APC",
+      "marked_druggable": false,
+      "civic_best_level": null,
+      "civic_best_predictive_level": null,
+      "civic_pending_predictive_level": null,
+      "civic_predictive": false,
+      "civic_items": 0,
+      "verdict": "AGREED",
+      "note": ""
+    },
+    {
+      "gene": "ATM",
+      "resolved_as": "ATM",
+      "marked_druggable": false,
+      "civic_best_level": "C",
+      "civic_best_predictive_level": "C",
+      "civic_pending_predictive_level": "B",
+      "civic_predictive": true,
+      "civic_items": 5,
+      "verdict": "AGREED",
+      "note": "pending CIViC items, not yet accepted by an editor, reach level B"
+    },
+    {
+      "gene": "CHD1",
+      "resolved_as": "CHD1",
+      "marked_druggable": false,
+      "civic_best_level": null,
+      "civic_best_predictive_level": null,
+      "civic_pending_predictive_level": null,
+      "civic_predictive": false,
+      "civic_items": 0,
+      "verdict": "AGREED",
+      "note": ""
+    },
+    {
+      "gene": "ERG",
+      "resolved_as": "ERG",
+      "marked_druggable": false,
+      "civic_best_level": null,
+      "civic_best_predictive_level": null,
+      "civic_pending_predictive_level": null,
+      "civic_predictive": false,
+      "civic_items": 0,
+      "verdict": "AGREED",
+      "note": ""
+    },
+    {
+      "gene": "ETV1",
+      "resolved_as": "ETV1",
+      "marked_druggable": false,
+      "civic_best_level": null,
+      "civic_best_predictive_level": null,
+      "civic_pending_predictive_level": null,
+      "civic_predictive": false,
+      "civic_items": 1,
+      "verdict": "AGREED",
+      "note": ""
+    },
+    {
+      "gene": "FOXA1",
+      "resolved_as": "FOXA1",
+      "marked_druggable": false,
+      "civic_best_level": null,
+      "civic_best_predictive_level": null,
+      "civic_pending_predictive_level": null,
+      "civic_predictive": false,
+      "civic_items": 0,
+      "verdict": "AGREED",
+      "note": ""
+    },
+    {
+      "gene": "MYC",
+      "resolved_as": "MYC",
+      "marked_druggable": false,
+      "civic_best_level": null,
+      "civic_best_predictive_level": null,
+      "civic_pending_predictive_level": null,
+      "civic_predictive": false,
+      "civic_items": 0,
+      "verdict": "AGREED",
+      "note": ""
+    },
+    {
+      "gene": "RB1",
+      "resolved_as": "RB1",
+      "marked_druggable": false,
+      "civic_best_level": null,
+      "civic_best_predictive_level": null,
+      "civic_pending_predictive_level": null,
+      "civic_predictive": false,
+      "civic_items": 0,
+      "verdict": "AGREED",
+      "note": ""
+    },
+    {
+      "gene": "SPOP",
+      "resolved_as": "SPOP",
+      "marked_druggable": false,
+      "civic_best_level": null,
+      "civic_best_predictive_level": null,
+      "civic_pending_predictive_level": null,
+      "civic_predictive": false,
+      "civic_items": 0,
+      "verdict": "AGREED",
+      "note": ""
+    },
+    {
+      "gene": "TP53",
+      "resolved_as": "TP53",
+      "marked_druggable": false,
+      "civic_best_level": null,
+      "civic_best_predictive_level": null,
+      "civic_pending_predictive_level": null,
+      "civic_predictive": false,
+      "civic_items": 0,
+      "verdict": "AGREED",
+      "note": ""
+    },
+    {
+      "gene": "ZFHX3",
+      "resolved_as": "ZFHX3",
+      "marked_druggable": false,
+      "civic_best_level": null,
+      "civic_best_predictive_level": null,
+      "civic_pending_predictive_level": null,
+      "civic_predictive": false,
+      "civic_items": 0,
+      "verdict": "AGREED",
+      "note": ""
+    }
+  ],
+  "overview": [
+    {
+      "what": "baseline.lifetimeRisk",
+      "hand": 13.2,
+      "seer": 13.2,
+      "delta": 0.0,
+      "verdict": "MATCH",
+      "note": "the denominator every risk-factor conversion uses"
+    },
+    {
+      "what": "stage Localised (share)",
+      "hand": 69.0,
+      "seer": 69.0,
+      "delta": 0.0,
+      "verdict": "MATCH",
+      "note": ""
+    },
+    {
+      "what": "stage Localised (5-year)",
+      "hand": 100.0,
+      "seer": 100.0,
+      "delta": 0.0,
+      "verdict": "MATCH",
+      "note": ""
+    },
+    {
+      "what": "stage Regional (share)",
+      "hand": 14.0,
+      "seer": 14.0,
+      "delta": 0.0,
+      "verdict": "MATCH",
+      "note": ""
+    },
+    {
+      "what": "stage Regional (5-year)",
+      "hand": 100.0,
+      "seer": 100.0,
+      "delta": 0.0,
+      "verdict": "MATCH",
+      "note": ""
+    },
+    {
+      "what": "stage Distant (share)",
+      "hand": 9.0,
+      "seer": 9.0,
+      "delta": 0.0,
+      "verdict": "MATCH",
+      "note": ""
+    },
+    {
+      "what": "stage Distant (5-year)",
+      "hand": 40.1,
+      "seer": 40.1,
+      "delta": 0.0,
+      "verdict": "MATCH",
+      "note": ""
+    },
+    {
+      "what": "stage Unknown (share)",
+      "hand": 8.0,
+      "seer": 8.0,
+      "delta": 0.0,
+      "verdict": "MATCH",
+      "note": ""
+    },
+    {
+      "what": "stage Unknown (5-year)",
+      "hand": 94.1,
+      "seer": 94.1,
+      "delta": 0.0,
+      "verdict": "MATCH",
+      "note": ""
+    }
+  ],
+  "source_coverage": {
+    "references_declared": 29,
+    "factors": {
+      "cited": 17,
+      "total": 17
+    },
+    "triggers": {
+      "cited": 0,
+      "total": 0
+    },
+    "therapies": {
+      "cited": 5,
+      "total": 15
+    },
+    "nodes_with_sources": 12,
+    "dangling_reference_ids": []
+  },
+  "concordance": {
+    "available": true,
+    "n_classified": 333,
+    "row_label": "Molecular class (TCGA)",
+    "col_label": "Gleason pattern at prostatectomy",
+    "matrix": {
+      "ERG fusion": {
+        "Gleason 3+3": 27,
+        "Gleason 4+3": 41,
+        "Gleason \u22658": 37,
+        "Gleason 3+4": 47
+      },
+      "Unclassified": {
+        "Gleason 3+3": 23,
+        "Gleason \u22658": 16,
+        "Gleason 3+4": 30,
+        "Gleason 4+3": 17
+      },
+      "ETV1 fusion": {
+        "Gleason \u22658": 8,
+        "Gleason 3+4": 10,
+        "Gleason 4+3": 7,
+        "Gleason 3+3": 3
+      },
+      "FOXA1 mutant": {
+        "Gleason 3+4": 4,
+        "Gleason \u22658": 5
+      },
+      "FLI1 fusion": {
+        "Gleason 3+3": 3,
+        "Gleason \u22658": 1
+      },
+      "ETV4 fusion": {
+        "Gleason 4+3": 5,
+        "Gleason 3+4": 3,
+        "Gleason \u22658": 4,
+        "Gleason 3+3": 2
+      },
+      "IDH1 mutant": {
+        "Gleason 3+4": 2,
+        "Gleason 3+3": 1
+      },
+      "SPOP mutant": {
+        "Gleason \u22658": 17,
+        "Gleason 3+4": 6,
+        "Gleason 3+3": 6,
+        "Gleason 4+3": 8
+      }
+    },
+    "headline": {
+      "ERG_that_is_high_grade": {
+        "n": 37,
+        "of": 152,
+        "pct": 24.3,
+        "label": "ERG-fused tumours that are Gleason \u22658",
+        "claim": ""
+      },
+      "high_grade_that_is_ERG": {
+        "n": 37,
+        "of": 88,
+        "pct": 42.0,
+        "label": "Gleason \u22658 tumours that are ERG-fused",
+        "claim": ""
+      },
+      "SPOP_that_is_high_grade": {
+        "n": 17,
+        "of": 37,
+        "pct": 45.9,
+        "label": "SPOP-mutant tumours that are Gleason \u22658",
+        "claim": ""
+      },
+      "high_grade_that_is_SPOP": {
+        "n": 17,
+        "of": 88,
+        "pct": 19.3,
+        "label": "Gleason \u22658 tumours that are SPOP-mutant",
+        "claim": ""
+      }
+    },
+    "row_order": [
+      "ERG fusion",
+      "ETV1 fusion",
+      "ETV4 fusion",
+      "FLI1 fusion",
+      "SPOP mutant",
+      "FOXA1 mutant",
+      "IDH1 mutant",
+      "Unclassified"
+    ],
+    "col_order": [
+      "Gleason 3+3",
+      "Gleason 3+4",
+      "Gleason 4+3",
+      "Gleason \u22658"
+    ],
+    "note": "A prostatectomy cohort, so it under-represents the low-grade disease that never reaches surgery. Read the row shares against the cohort's own grade distribution rather than against the population."
+  }
+}

@@ -1,0 +1,301 @@
+{
+  "source": "OncoTree (Memorial Sloan Kettering)",
+  "api": "https://oncotree.mskcc.org/api/tumorTypes",
+  "cancer": "breast",
+  "tissue": "Breast",
+  "n_total_types": 897,
+  "n_tissue_types": 36,
+  "missing_expected_codes": [],
+  "nodes": {
+    "idc-nst": {
+      "code": "IDC",
+      "name": "Breast Invasive Ductal Carcinoma",
+      "parent": "BRCA",
+      "main_type": "Breast Cancer",
+      "level": 3,
+      "nci": [
+        "C4194"
+      ],
+      "umls": [
+        "C1134719"
+      ],
+      "match": "ok"
+    },
+    "ilc": {
+      "code": "ILC",
+      "name": "Breast Invasive Lobular Carcinoma",
+      "parent": "BRCA",
+      "main_type": "Breast Cancer",
+      "level": 3,
+      "nci": [
+        "C7950"
+      ],
+      "umls": [
+        "C0279565"
+      ],
+      "match": "ok"
+    },
+    "dcis": {
+      "code": "DCIS",
+      "name": "Breast Ductal Carcinoma In Situ",
+      "parent": "BREAST",
+      "main_type": "Breast Cancer",
+      "level": 2,
+      "nci": [
+        "C2924"
+      ],
+      "umls": [
+        "C0007124"
+      ],
+      "match": "ok"
+    },
+    "metaplastic": {
+      "code": "MBC",
+      "name": "Metaplastic Breast Cancer",
+      "parent": "BREAST",
+      "main_type": "Breast Cancer",
+      "level": 2,
+      "nci": [
+        "C5164"
+      ],
+      "umls": [
+        "C1334708"
+      ],
+      "match": "ok"
+    },
+    "mucinous": {
+      "code": "IMMC",
+      "name": "Breast Invasive Mixed Mucinous Carcinoma",
+      "parent": "BRCA",
+      "main_type": "Breast Cancer",
+      "level": 3,
+      "nci": [
+        "C9131"
+      ],
+      "umls": [
+        "C1334807"
+      ],
+      "match": "ok"
+    },
+    "papillary": {
+      "code": "BRCNOS",
+      "name": "Breast Invasive Carcinoma, NOS",
+      "parent": "BRCA",
+      "main_type": "Breast Cancer",
+      "level": 3,
+      "nci": null,
+      "umls": null,
+      "match": "ok"
+    },
+    "hist-root": {
+      "code": "BREAST",
+      "name": "Breast",
+      "parent": "TISSUE",
+      "main_type": "Breast Cancer",
+      "level": 1,
+      "nci": [
+        "C12971"
+      ],
+      "umls": [
+        "C0006141"
+      ],
+      "match": "ok"
+    },
+    "ihc-root": {
+      "code": "BRCA",
+      "name": "Invasive Breast Carcinoma",
+      "parent": "BREAST",
+      "main_type": "Breast Cancer",
+      "level": 2,
+      "nci": [
+        "C9245"
+      ],
+      "umls": [
+        "C0853879"
+      ],
+      "match": "ok"
+    }
+  },
+  "catalogue": [
+    {
+      "code": "ACBC",
+      "name": "Adenoid Cystic Breast Cancer",
+      "parent": "BRCA"
+    },
+    {
+      "code": "BA",
+      "name": "Breast Angiosarcoma",
+      "parent": "PBS"
+    },
+    {
+      "code": "BFN",
+      "name": "Breast Fibroepithelial Neoplasms",
+      "parent": "BREAST"
+    },
+    {
+      "code": "BLPT",
+      "name": "Borderline Phyllodes Tumor of the Breast",
+      "parent": "PT"
+    },
+    {
+      "code": "BNNOS",
+      "name": "Breast Neoplasm, NOS",
+      "parent": "BREAST"
+    },
+    {
+      "code": "BPT",
+      "name": "Benign Phyllodes Tumor of the Breast",
+      "parent": "PT"
+    },
+    {
+      "code": "BRAME",
+      "name": "Adenomyoepithelioma of the Breast",
+      "parent": "BREAST"
+    },
+    {
+      "code": "BRCA",
+      "name": "Invasive Breast Carcinoma",
+      "parent": "BREAST"
+    },
+    {
+      "code": "BRCANOS",
+      "name": "Breast Invasive Cancer, NOS",
+      "parent": "BRCA"
+    },
+    {
+      "code": "BRCNOS",
+      "name": "Breast Invasive Carcinoma, NOS",
+      "parent": "BRCA"
+    },
+    {
+      "code": "BREAST",
+      "name": "Breast",
+      "parent": "TISSUE"
+    },
+    {
+      "code": "BRSRCC",
+      "name": "Breast Carcinoma with Signet Ring",
+      "parent": "BRCA"
+    },
+    {
+      "code": "CCHM",
+      "name": "Carcinoma with Chondroid Metaplasia",
+      "parent": "MMBC"
+    },
+    {
+      "code": "COM",
+      "name": "Carcinoma with Osseous Metaplasia",
+      "parent": "MMBC"
+    },
+    {
+      "code": "CSNOS",
+      "name": "Breast Invasive Carcinosarcoma, NOS",
+      "parent": "BRCA"
+    },
+    {
+      "code": "DCIS",
+      "name": "Breast Ductal Carcinoma In Situ",
+      "parent": "BREAST"
+    },
+    {
+      "code": "EMBC",
+      "name": "Epithelial Type Metaplastic Breast Cancer",
+      "parent": "MBC"
+    },
+    {
+      "code": "FA",
+      "name": "Fibroadenoma",
+      "parent": "BFN"
+    },
+    {
+      "code": "IBC",
+      "name": "Inflammatory Breast Cancer",
+      "parent": "BREAST"
+    },
+    {
+      "code": "IDC",
+      "name": "Breast Invasive Ductal Carcinoma",
+      "parent": "BRCA"
+    },
+    {
+      "code": "ILC",
+      "name": "Breast Invasive Lobular Carcinoma",
+      "parent": "BRCA"
+    },
+    {
+      "code": "IMMC",
+      "name": "Breast Invasive Mixed Mucinous Carcinoma",
+      "parent": "BRCA"
+    },
+    {
+      "code": "JSCB",
+      "name": "Juvenile Secretory Carcinoma of the Breast",
+      "parent": "BREAST"
+    },
+    {
+      "code": "LCIS",
+      "name": "Breast Lobular Carcinoma In Situ",
+      "parent": "BREAST"
+    },
+    {
+      "code": "MASC",
+      "name": "Metaplastic Adenosquamous Carcinoma",
+      "parent": "EMBC"
+    },
+    {
+      "code": "MASCC",
+      "name": "Metaplastic Adenocarcinoma with Spindle Cell Differentiation",
+      "parent": "EMBC"
+    },
+    {
+      "code": "MBC",
+      "name": "Metaplastic Breast Cancer",
+      "parent": "BREAST"
+    },
+    {
+      "code": "MCS",
+      "name": "Metaplastic Carcinosarcoma",
+      "parent": "MMBC"
+    },
+    {
+      "code": "MDLC",
+      "name": "Breast Mixed Ductal and Lobular Carcinoma",
+      "parent": "BRCA"
+    },
+    {
+      "code": "MMBC",
+      "name": "Mixed Type Metaplastic Breast Cancer",
+      "parent": "MBC"
+    },
+    {
+      "code": "MPT",
+      "name": "Malignant Phyllodes Tumor of the Breast",
+      "parent": "PT"
+    },
+    {
+      "code": "MSCC",
+      "name": "Metaplastic Squamous Cell Carcinoma",
+      "parent": "EMBC"
+    },
+    {
+      "code": "PBS",
+      "name": "Breast Sarcoma",
+      "parent": "BREAST"
+    },
+    {
+      "code": "PD",
+      "name": "Paget Disease of the Nipple",
+      "parent": "DCIS"
+    },
+    {
+      "code": "PT",
+      "name": "Phyllodes Tumor of the Breast",
+      "parent": "BFN"
+    },
+    {
+      "code": "SPC",
+      "name": "Solid Papillary Carcinoma of the Breast",
+      "parent": "BRCA"
+    }
+  ]
+}

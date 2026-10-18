@@ -1,0 +1,2507 @@
+{
+  "source": "CIViC (Clinical Interpretation of Variants in Cancer)",
+  "api": "https://civicdb.org/api/graphql",
+  "licence": "CC0",
+  "disease": [
+    "Colorectal Cancer",
+    "Colorectal Adenocarcinoma",
+    "Colon Cancer",
+    "Colon Adenocarcinoma",
+    "Colon Carcinoma",
+    "Colon Mucinous Adenocarcinoma",
+    "Colon Signet Ring Adenocarcinoma",
+    "Rectum Adenocarcinoma",
+    "Rectum Cancer"
+  ],
+  "total_reported": 755,
+  "n_fetched": 755,
+  "status_rule": "best_level and best_predictive_level count ACCEPTED items only; *_submitted names a higher level held only by items still pending editor review",
+  "level_key": {
+    "A": "validated association (practice / guidelines)",
+    "B": "clinical evidence (trial or primary patient data)",
+    "C": "case study",
+    "D": "preclinical",
+    "E": "inferential"
+  },
+  "genes": {
+    "KRAS": {
+      "n_evidence_items": 269,
+      "n_accepted": 99,
+      "best_level": "A",
+      "best_predictive_level": "A",
+      "levels": {
+        "A": 8,
+        "B": 80,
+        "C": 125,
+        "D": 56
+      },
+      "evidence_types": {
+        "DIAGNOSTIC": 3,
+        "ONCOGENIC": 6,
+        "PREDICTIVE": 244,
+        "PROGNOSTIC": 16
+      },
+      "top_therapies": [
+        "Cetuximab",
+        "Panitumumab",
+        "Chemotherapy",
+        "Regorafenib Anhydrous",
+        "Selumetinib",
+        "Irinotecan"
+      ],
+      "pmids": [
+        "18946061",
+        "21502544",
+        "28275037",
+        "19339720",
+        "20921465",
+        "38587856",
+        "37870968",
+        "20570890",
+        "17363584",
+        "25666295",
+        "22734028",
+        "20978259"
+      ]
+    },
+    "BRAF": {
+      "n_evidence_items": 109,
+      "n_accepted": 69,
+      "best_level": "A",
+      "best_predictive_level": "A",
+      "levels": {
+        "A": 2,
+        "B": 59,
+        "C": 21,
+        "D": 26,
+        "E": 1
+      },
+      "evidence_types": {
+        "ONCOGENIC": 5,
+        "PREDICTIVE": 84,
+        "PROGNOSTIC": 20
+      },
+      "top_therapies": [
+        "Cetuximab",
+        "Vemurafenib",
+        "Panitumumab",
+        "Irinotecan",
+        "Encorafenib",
+        "Oxaliplatin"
+      ],
+      "pmids": [
+        "31566309",
+        "40444708",
+        "19603024",
+        "19884556",
+        "24594804",
+        "28486044",
+        "33503393",
+        "25989278",
+        "26460303",
+        "27729313",
+        "25666295",
+        "28363909"
+      ]
+    },
+    "PIK3CA": {
+      "n_evidence_items": 61,
+      "n_accepted": 48,
+      "best_level": "B",
+      "best_predictive_level": "B",
+      "levels": {
+        "B": 33,
+        "C": 23,
+        "D": 5
+      },
+      "evidence_types": {
+        "PREDICTIVE": 54,
+        "PROGNOSTIC": 7
+      },
+      "top_therapies": [
+        "Cetuximab",
+        "Aspirin",
+        "Panitumumab",
+        "Irinotecan",
+        "Chemotherapy",
+        "Oxaliplatin"
+      ],
+      "pmids": [
+        "9742087",
+        "19223544",
+        "19903786",
+        "23435830",
+        "40961426",
+        "26184520",
+        "20619739",
+        "23094721",
+        "17590872",
+        "19603024",
+        "22357840",
+        "28424201"
+      ]
+    },
+    "EGFR": {
+      "n_evidence_items": 52,
+      "n_accepted": 18,
+      "best_level": "B",
+      "best_predictive_level": "B",
+      "levels": {
+        "B": 31,
+        "C": 6,
+        "D": 14,
+        "E": 1
+      },
+      "evidence_types": {
+        "PREDICTIVE": 51,
+        "PROGNOSTIC": 1
+      },
+      "top_therapies": [
+        "Cetuximab",
+        "Panitumumab",
+        "Futuximab/Modotuximab Mixture",
+        "Erlotinib",
+        "Panitumumab Regimen",
+        "Chemotherapy"
+      ],
+      "pmids": [
+        "18003960",
+        "24653627",
+        "18794099",
+        "29196463",
+        "17470858",
+        "33825902",
+        "14993230",
+        "22270724",
+        "26888827",
+        "24894453",
+        "31290142",
+        "21641636"
+      ]
+    },
+    "NRAS": {
+      "n_evidence_items": 39,
+      "n_accepted": 17,
+      "best_level": "A",
+      "best_predictive_level": "A",
+      "levels": {
+        "A": 2,
+        "B": 9,
+        "C": 8,
+        "D": 20
+      },
+      "evidence_types": {
+        "PREDICTIVE": 37,
+        "PROGNOSTIC": 2
+      },
+      "top_therapies": [
+        "Cetuximab",
+        "Dactolisib",
+        "Chemotherapy",
+        "Irinotecan",
+        "Selumetinib",
+        "Panitumumab"
+      ],
+      "pmids": [
+        "28275037",
+        "27736842",
+        "21107323",
+        "25666295",
+        "24666267",
+        "20619739",
+        "22392911",
+        "24553387",
+        "22797062",
+        "22586653",
+        "21641636"
+      ]
+    },
+    "ERBB2": {
+      "n_evidence_items": 28,
+      "n_accepted": 19,
+      "best_level": "B",
+      "best_predictive_level": "B",
+      "best_level_submitted": "A",
+      "best_predictive_level_submitted": "A",
+      "levels": {
+        "A": 1,
+        "B": 13,
+        "C": 1,
+        "D": 13
+      },
+      "evidence_types": {
+        "ONCOGENIC": 1,
+        "PREDICTIVE": 27
+      },
+      "top_therapies": [
+        "Trastuzumab",
+        "Cetuximab",
+        "Lapatinib",
+        "Neratinib",
+        "Pertuzumab",
+        "Tucatinib"
+      ],
+      "pmids": [
+        "37142372",
+        "22586653",
+        "27108243",
+        "29320312",
+        "33961795",
+        "29338072",
+        "28223103",
+        "30857956",
+        "31504139",
+        "36315917",
+        "23348520",
+        "24146218"
+      ]
+    },
+    "MLH1": {
+      "n_evidence_items": 21,
+      "n_accepted": 21,
+      "best_level": "C",
+      "best_predictive_level": null,
+      "levels": {
+        "C": 21
+      },
+      "evidence_types": {
+        "ONCOGENIC": 21
+      },
+      "top_therapies": [],
+      "pmids": [
+        "25111426"
+      ]
+    },
+    "KDR": {
+      "n_evidence_items": 10,
+      "n_accepted": 2,
+      "best_level": "C",
+      "best_predictive_level": "C",
+      "levels": {
+        "C": 1,
+        "D": 9
+      },
+      "evidence_types": {
+        "ONCOGENIC": 8,
+        "PREDICTIVE": 2
+      },
+      "top_therapies": [
+        "Axitinib",
+        "Cabozantinib",
+        "Dovitinib",
+        "Lenvatinib",
+        "Regorafenib Anhydrous"
+      ],
+      "pmids": [
+        "29588308",
+        "27004155"
+      ]
+    },
+    "FBXW7": {
+      "n_evidence_items": 7,
+      "n_accepted": 1,
+      "best_level": "B",
+      "best_predictive_level": "B",
+      "levels": {
+        "B": 1,
+        "D": 6
+      },
+      "evidence_types": {
+        "PREDICTIVE": 7
+      },
+      "top_therapies": [
+        "Regorafenib Anhydrous",
+        "Cetuximab",
+        "Panitumumab"
+      ],
+      "pmids": [
+        "26508446",
+        "27399335"
+      ]
+    },
+    "NTRK1": {
+      "n_evidence_items": 6,
+      "n_accepted": 6,
+      "best_level": "C",
+      "best_predictive_level": "C",
+      "levels": {
+        "C": 4,
+        "D": 2
+      },
+      "evidence_types": {
+        "ONCOGENIC": 1,
+        "PREDICTIVE": 5
+      },
+      "top_therapies": [
+        "Entrectinib",
+        "Larotrectinib",
+        "Lestaurtinib"
+      ],
+      "pmids": [
+        "26563355",
+        "35815302",
+        "26716414",
+        "26546295"
+      ]
+    },
+    "MAP2K1": {
+      "n_evidence_items": 6,
+      "n_accepted": 0,
+      "best_level": null,
+      "best_predictive_level": null,
+      "best_level_submitted": "C",
+      "best_predictive_level_submitted": "C",
+      "levels": {
+        "C": 5,
+        "D": 1
+      },
+      "evidence_types": {
+        "PREDICTIVE": 6
+      },
+      "top_therapies": [
+        "Cetuximab",
+        "Vemurafenib",
+        "Irinotecan",
+        "Dabrafenib",
+        "Trametinib",
+        "Binimetinib"
+      ],
+      "pmids": [
+        "25673644",
+        "26644315",
+        "31227518",
+        "27729313"
+      ]
+    },
+    "SMAD4": {
+      "n_evidence_items": 5,
+      "n_accepted": 2,
+      "best_level": "B",
+      "best_predictive_level": "B",
+      "levels": {
+        "B": 5
+      },
+      "evidence_types": {
+        "PREDICTIVE": 4,
+        "PROGNOSTIC": 1
+      },
+      "top_therapies": [
+        "Lysine",
+        "Fluorouracil",
+        "Cetuximab",
+        "Panitumumab",
+        "Regorafenib"
+      ],
+      "pmids": [
+        "27875625",
+        "12237773",
+        "8898652",
+        "26508446",
+        "33224274"
+      ]
+    },
+    "POLE": {
+      "n_evidence_items": 5,
+      "n_accepted": 3,
+      "best_level": "B",
+      "best_predictive_level": null,
+      "best_predictive_level_submitted": "C",
+      "levels": {
+        "B": 3,
+        "C": 2
+      },
+      "evidence_types": {
+        "PREDICTIVE": 2,
+        "PROGNOSTIC": 3
+      },
+      "top_therapies": [
+        "Pembrolizumab"
+      ],
+      "pmids": [
+        "28404093",
+        "28188185",
+        "31240875"
+      ]
+    },
+    "MET": {
+      "n_evidence_items": 5,
+      "n_accepted": 3,
+      "best_level": "C",
+      "best_predictive_level": "C",
+      "best_level_submitted": "B",
+      "best_predictive_level_submitted": "B",
+      "levels": {
+        "B": 2,
+        "C": 2,
+        "D": 1
+      },
+      "evidence_types": {
+        "PREDICTIVE": 5
+      },
+      "top_therapies": [
+        "Crizotinib",
+        "SAIT301",
+        "Vemurafenib",
+        "Panitumumab",
+        "Cetuximab/Irinotecan Regimen",
+        "Cetuximab"
+      ],
+      "pmids": [
+        "26375439",
+        "27325282",
+        "23729478"
+      ]
+    },
+    "MSH6": {
+      "n_evidence_items": 5,
+      "n_accepted": 4,
+      "best_level": "C",
+      "best_predictive_level": null,
+      "levels": {
+        "C": 5
+      },
+      "evidence_types": {
+        "ONCOGENIC": 5
+      },
+      "top_therapies": [],
+      "pmids": [
+        "25111426"
+      ]
+    },
+    "PTEN": {
+      "n_evidence_items": 4,
+      "n_accepted": 3,
+      "best_level": "B",
+      "best_predictive_level": "B",
+      "levels": {
+        "B": 4
+      },
+      "evidence_types": {
+        "PREDICTIVE": 4
+      },
+      "top_therapies": [
+        "Cetuximab",
+        "Panitumumab",
+        "Aspirin"
+      ],
+      "pmids": [
+        "40961426",
+        "21163703",
+        "19223544"
+      ]
+    },
+    "TYMS": {
+      "n_evidence_items": 4,
+      "n_accepted": 1,
+      "best_level": "B",
+      "best_predictive_level": "B",
+      "levels": {
+        "B": 3,
+        "D": 1
+      },
+      "evidence_types": {
+        "PREDICTIVE": 4
+      },
+      "top_therapies": [
+        "Fluorouracil",
+        "5-Fluorouracil/Salicylic Acid Topical Solution",
+        "Irinotecan"
+      ],
+      "pmids": [
+        "20628391",
+        "14970324",
+        "20727737",
+        "21449674"
+      ]
+    },
+    "TP53": {
+      "n_evidence_items": 4,
+      "n_accepted": 2,
+      "best_level": "B",
+      "best_predictive_level": "B",
+      "levels": {
+        "B": 2,
+        "C": 2
+      },
+      "evidence_types": {
+        "DIAGNOSTIC": 1,
+        "PREDICTIVE": 2,
+        "PROGNOSTIC": 1
+      },
+      "top_therapies": [
+        "Cetuximab",
+        "Capecitabine",
+        "Oxaliplatin",
+        "Pazopanib",
+        "Vorinostat"
+      ],
+      "pmids": [
+        "24957073",
+        "12433709",
+        "12795343",
+        "25669829"
+      ]
+    },
+    "APC": {
+      "n_evidence_items": 4,
+      "n_accepted": 2,
+      "best_level": "D",
+      "best_predictive_level": "D",
+      "best_level_submitted": "B",
+      "best_predictive_level_submitted": "B",
+      "levels": {
+        "B": 1,
+        "C": 1,
+        "D": 2
+      },
+      "evidence_types": {
+        "PREDICTIVE": 3,
+        "PROGNOSTIC": 1
+      },
+      "top_therapies": [
+        "Regorafenib",
+        "G007-LK",
+        "JW55"
+      ],
+      "pmids": [
+        "33224274",
+        "19307944",
+        "23539443",
+        "22440753"
+      ]
+    },
+    "LMNA": {
+      "n_evidence_items": 4,
+      "n_accepted": 4,
+      "best_level": "C",
+      "best_predictive_level": "C",
+      "levels": {
+        "C": 3,
+        "D": 1
+      },
+      "evidence_types": {
+        "ONCOGENIC": 1,
+        "PREDICTIVE": 3
+      },
+      "top_therapies": [
+        "Entrectinib"
+      ],
+      "pmids": [
+        "26563355",
+        "26546295"
+      ]
+    },
+    "ALK": {
+      "n_evidence_items": 4,
+      "n_accepted": 3,
+      "best_level": "C",
+      "best_predictive_level": "C",
+      "levels": {
+        "C": 3,
+        "E": 1
+      },
+      "evidence_types": {
+        "PREDICTIVE": 4
+      },
+      "top_therapies": [
+        "Entrectinib",
+        "Nivolumab",
+        "Crizotinib",
+        "Ceritinib"
+      ],
+      "pmids": [
+        "26633560",
+        "29370427",
+        "19737969",
+        "26933125"
+      ]
+    },
+    "VEGFA": {
+      "n_evidence_items": 3,
+      "n_accepted": 1,
+      "best_level": "B",
+      "best_predictive_level": "B",
+      "levels": {
+        "B": 2,
+        "D": 1
+      },
+      "evidence_types": {
+        "PREDICTIVE": 3
+      },
+      "top_therapies": [
+        "Bevacizumab",
+        "Levoleucovorin",
+        "Irinotecan",
+        "Fluorouracil"
+      ],
+      "pmids": [
+        "23104894",
+        "25973082",
+        "18349829"
+      ]
+    },
+    "TOP1": {
+      "n_evidence_items": 3,
+      "n_accepted": 3,
+      "best_level": "B",
+      "best_predictive_level": "B",
+      "levels": {
+        "B": 3
+      },
+      "evidence_types": {
+        "PREDICTIVE": 3
+      },
+      "top_therapies": [
+        "Irinotecan",
+        "Cetuximab",
+        "FOLFIRI Regimen"
+      ],
+      "pmids": [
+        "37666855",
+        "19775480",
+        "24256029"
+      ]
+    },
+    "FLT3": {
+      "n_evidence_items": 3,
+      "n_accepted": 1,
+      "best_level": "B",
+      "best_predictive_level": "B",
+      "levels": {
+        "B": 1,
+        "C": 2
+      },
+      "evidence_types": {
+        "PREDICTIVE": 3
+      },
+      "top_therapies": [
+        "Sunitinib",
+        "Regorafenib Anhydrous",
+        "Sorafenib"
+      ],
+      "pmids": [
+        "33068284",
+        "27906677",
+        "25848357"
+      ]
+    },
+    "HRAS": {
+      "n_evidence_items": 3,
+      "n_accepted": 2,
+      "best_level": "C",
+      "best_predictive_level": "C",
+      "levels": {
+        "C": 1,
+        "D": 2
+      },
+      "evidence_types": {
+        "PREDICTIVE": 3
+      },
+      "top_therapies": [
+        "Cetuximab",
+        "Epidermal Growth Factor Receptor Tyrosine Kinase Inhibitor"
+      ],
+      "pmids": [
+        "26561417",
+        "22797062"
+      ]
+    },
+    "EML4": {
+      "n_evidence_items": 3,
+      "n_accepted": 2,
+      "best_level": "C",
+      "best_predictive_level": null,
+      "best_predictive_level_submitted": "C",
+      "levels": {
+        "C": 2,
+        "D": 1
+      },
+      "evidence_types": {
+        "ONCOGENIC": 2,
+        "PREDICTIVE": 1
+      },
+      "top_therapies": [
+        "Nivolumab"
+      ],
+      "pmids": [
+        "29370427",
+        "28512242",
+        "31375766"
+      ]
+    },
+    "MSH2": {
+      "n_evidence_items": 3,
+      "n_accepted": 3,
+      "best_level": "C",
+      "best_predictive_level": null,
+      "levels": {
+        "C": 3
+      },
+      "evidence_types": {
+        "ONCOGENIC": 3
+      },
+      "top_therapies": [],
+      "pmids": [
+        "25111426"
+      ]
+    },
+    "NTRK3": {
+      "n_evidence_items": 3,
+      "n_accepted": 3,
+      "best_level": "C",
+      "best_predictive_level": null,
+      "levels": {
+        "C": 2,
+        "D": 1
+      },
+      "evidence_types": {
+        "ONCOGENIC": 3
+      },
+      "top_therapies": [],
+      "pmids": [
+        "29099951",
+        "28512242",
+        "31375766"
+      ]
+    },
+    "FGFR2": {
+      "n_evidence_items": 3,
+      "n_accepted": 0,
+      "best_level": null,
+      "best_predictive_level": null,
+      "best_level_submitted": "B",
+      "best_predictive_level_submitted": "D",
+      "levels": {
+        "B": 1,
+        "D": 2
+      },
+      "evidence_types": {
+        "PREDICTIVE": 2,
+        "PROGNOSTIC": 1
+      },
+      "top_therapies": [
+        "Erdafitinib",
+        "Rogaratinib"
+      ],
+      "pmids": [
+        "26675289",
+        "30807645",
+        "26831663"
+      ]
+    },
+    "ERBB3": {
+      "n_evidence_items": 2,
+      "n_accepted": 2,
+      "best_level": "B",
+      "best_predictive_level": "B",
+      "levels": {
+        "B": 2
+      },
+      "evidence_types": {
+        "PREDICTIVE": 2
+      },
+      "top_therapies": [
+        "Cetuximab",
+        "Pertuzumab",
+        "Trastuzumab"
+      ],
+      "pmids": [
+        "25520391",
+        "36315917"
+      ]
+    },
+    "AREG": {
+      "n_evidence_items": 2,
+      "n_accepted": 2,
+      "best_level": "B",
+      "best_predictive_level": "B",
+      "levels": {
+        "B": 2
+      },
+      "evidence_types": {
+        "PREDICTIVE": 2
+      },
+      "top_therapies": [
+        "Panitumumab",
+        "Cetuximab"
+      ],
+      "pmids": [
+        "26867820",
+        "23374602"
+      ]
+    },
+    "EREG": {
+      "n_evidence_items": 2,
+      "n_accepted": 2,
+      "best_level": "B",
+      "best_predictive_level": "B",
+      "levels": {
+        "B": 2
+      },
+      "evidence_types": {
+        "PREDICTIVE": 2
+      },
+      "top_therapies": [
+        "Panitumumab",
+        "Cetuximab"
+      ],
+      "pmids": [
+        "26867820",
+        "23374602"
+      ]
+    },
+    "GNAS": {
+      "n_evidence_items": 2,
+      "n_accepted": 2,
+      "best_level": "B",
+      "best_predictive_level": "C",
+      "levels": {
+        "B": 1,
+        "C": 1
+      },
+      "evidence_types": {
+        "PREDICTIVE": 1,
+        "PROGNOSTIC": 1
+      },
+      "top_therapies": [
+        "Vemurafenib",
+        "Cetuximab",
+        "Irinotecan"
+      ],
+      "pmids": [
+        "16033819",
+        "27729313"
+      ]
+    },
+    "CEACAM1": {
+      "n_evidence_items": 2,
+      "n_accepted": 0,
+      "best_level": null,
+      "best_predictive_level": null,
+      "best_level_submitted": "B",
+      "levels": {
+        "B": 2
+      },
+      "evidence_types": {
+        "PROGNOSTIC": 2
+      },
+      "top_therapies": [],
+      "pmids": [
+        "21413011",
+        "29180203"
+      ]
+    },
+    "MIR218-1": {
+      "n_evidence_items": 2,
+      "n_accepted": 2,
+      "best_level": "B",
+      "best_predictive_level": null,
+      "levels": {
+        "B": 2
+      },
+      "evidence_types": {
+        "PROGNOSTIC": 2
+      },
+      "top_therapies": [],
+      "pmids": [
+        "26442524"
+      ]
+    },
+    "B2M": {
+      "n_evidence_items": 2,
+      "n_accepted": 0,
+      "best_level": null,
+      "best_predictive_level": null,
+      "best_level_submitted": "B",
+      "best_predictive_level_submitted": "B",
+      "levels": {
+        "B": 2
+      },
+      "evidence_types": {
+        "PREDICTIVE": 2
+      },
+      "top_therapies": [
+        "Pembrolizumab",
+        "Nivolumab",
+        "Anti-PD1 Monoclonal Antibody"
+      ],
+      "pmids": [
+        "31008436",
+        "35343934"
+      ]
+    },
+    "NOTCH1": {
+      "n_evidence_items": 2,
+      "n_accepted": 2,
+      "best_level": "B",
+      "best_predictive_level": "D",
+      "levels": {
+        "B": 1,
+        "D": 1
+      },
+      "evidence_types": {
+        "PREDICTIVE": 1,
+        "PROGNOSTIC": 1
+      },
+      "top_therapies": [
+        "NOTCH1 Antibody (PF-06293622)"
+      ],
+      "pmids": [
+        "26152787"
+      ]
+    },
+    "JAK1": {
+      "n_evidence_items": 2,
+      "n_accepted": 0,
+      "best_level": null,
+      "best_predictive_level": null,
+      "best_level_submitted": "B",
+      "best_predictive_level_submitted": "B",
+      "levels": {
+        "B": 1,
+        "C": 1
+      },
+      "evidence_types": {
+        "PREDICTIVE": 2
+      },
+      "top_therapies": [
+        "Anti-PD1 Monoclonal Antibody",
+        "Pembrolizumab"
+      ],
+      "pmids": [
+        "35343934",
+        "27903500"
+      ]
+    },
+    "FGFR1": {
+      "n_evidence_items": 2,
+      "n_accepted": 1,
+      "best_level": "D",
+      "best_predictive_level": "D",
+      "best_level_submitted": "C",
+      "best_predictive_level_submitted": "C",
+      "levels": {
+        "C": 1,
+        "D": 1
+      },
+      "evidence_types": {
+        "PREDICTIVE": 2
+      },
+      "top_therapies": [
+        "Regorafenib",
+        "Infigratinib"
+      ],
+      "pmids": [
+        "33224274",
+        "24135816"
+      ]
+    },
+    "POLD1": {
+      "n_evidence_items": 2,
+      "n_accepted": 0,
+      "best_level": null,
+      "best_predictive_level": null,
+      "best_level_submitted": "D",
+      "best_predictive_level_submitted": "D",
+      "levels": {
+        "D": 2
+      },
+      "evidence_types": {
+        "PREDICTIVE": 2
+      },
+      "top_therapies": [
+        "ATR Inhibitor",
+        "Chk1 Inhibitor"
+      ],
+      "pmids": [
+        "39128273"
+      ]
+    },
+    "KMT2D": {
+      "n_evidence_items": 2,
+      "n_accepted": 0,
+      "best_level": null,
+      "best_predictive_level": null,
+      "best_level_submitted": "B",
+      "best_predictive_level_submitted": "B",
+      "levels": {
+        "B": 1,
+        "D": 1
+      },
+      "evidence_types": {
+        "PREDICTIVE": 2
+      },
+      "top_therapies": [
+        "Immune Checkpoint Inhibitor",
+        "Romoverlib",
+        "WRN Inhibitor RO7589831"
+      ],
+      "pmids": [
+        "39578878"
+      ]
+    },
+    "ZEB1": {
+      "n_evidence_items": 2,
+      "n_accepted": 0,
+      "best_level": null,
+      "best_predictive_level": null,
+      "best_level_submitted": "B",
+      "best_predictive_level_submitted": "D",
+      "levels": {
+        "B": 1,
+        "D": 1
+      },
+      "evidence_types": {
+        "PREDICTIVE": 1,
+        "PROGNOSTIC": 1
+      },
+      "top_therapies": [
+        "Oxaliplatin"
+      ],
+      "pmids": [
+        "29151941"
+      ]
+    },
+    "CIC": {
+      "n_evidence_items": 2,
+      "n_accepted": 0,
+      "best_level": null,
+      "best_predictive_level": null,
+      "best_level_submitted": "D",
+      "best_predictive_level_submitted": "D",
+      "levels": {
+        "D": 2
+      },
+      "evidence_types": {
+        "PREDICTIVE": 2
+      },
+      "top_therapies": [
+        "Trametinib",
+        "Vemurafenib"
+      ],
+      "pmids": [
+        "28178529"
+      ]
+    },
+    "EZH2": {
+      "n_evidence_items": 1,
+      "n_accepted": 1,
+      "best_level": "B",
+      "best_predictive_level": null,
+      "levels": {
+        "B": 1
+      },
+      "evidence_types": {
+        "PROGNOSTIC": 1
+      },
+      "top_therapies": [],
+      "pmids": [
+        "21926398"
+      ]
+    },
+    "GSTP1": {
+      "n_evidence_items": 1,
+      "n_accepted": 1,
+      "best_level": "B",
+      "best_predictive_level": "B",
+      "levels": {
+        "B": 1
+      },
+      "evidence_types": {
+        "PREDICTIVE": 1
+      },
+      "top_therapies": [
+        "FOLFOX Regimen"
+      ],
+      "pmids": [
+        "19922504"
+      ]
+    },
+    "HSPA5": {
+      "n_evidence_items": 1,
+      "n_accepted": 1,
+      "best_level": "B",
+      "best_predictive_level": "B",
+      "levels": {
+        "B": 1
+      },
+      "evidence_types": {
+        "PREDICTIVE": 1
+      },
+      "top_therapies": [
+        "Fluorouracil"
+      ],
+      "pmids": [
+        "23456958"
+      ]
+    },
+    "CDX2": {
+      "n_evidence_items": 1,
+      "n_accepted": 1,
+      "best_level": "B",
+      "best_predictive_level": null,
+      "levels": {
+        "B": 1
+      },
+      "evidence_types": {
+        "PROGNOSTIC": 1
+      },
+      "top_therapies": [],
+      "pmids": [
+        "26789870"
+      ]
+    },
+    "CTNNB1": {
+      "n_evidence_items": 1,
+      "n_accepted": 0,
+      "best_level": null,
+      "best_predictive_level": null,
+      "best_level_submitted": "B",
+      "levels": {
+        "B": 1
+      },
+      "evidence_types": {
+        "PROGNOSTIC": 1
+      },
+      "top_therapies": [],
+      "pmids": [
+        "25313745"
+      ]
+    },
+    "NR2F2": {
+      "n_evidence_items": 1,
+      "n_accepted": 0,
+      "best_level": null,
+      "best_predictive_level": null,
+      "best_level_submitted": "B",
+      "levels": {
+        "B": 1
+      },
+      "evidence_types": {
+        "PROGNOSTIC": 1
+      },
+      "top_therapies": [],
+      "pmids": [
+        "26261604"
+      ]
+    },
+    "PRNCR1": {
+      "n_evidence_items": 1,
+      "n_accepted": 0,
+      "best_level": null,
+      "best_predictive_level": null,
+      "best_level_submitted": "B",
+      "best_predictive_level_submitted": "B",
+      "levels": {
+        "B": 1
+      },
+      "evidence_types": {
+        "PREDICTIVE": 1
+      },
+      "top_therapies": [],
+      "pmids": [
+        "31487296"
+      ]
+    },
+    "CD44": {
+      "n_evidence_items": 1,
+      "n_accepted": 0,
+      "best_level": null,
+      "best_predictive_level": null,
+      "best_level_submitted": "B",
+      "levels": {
+        "B": 1
+      },
+      "evidence_types": {
+        "PROGNOSTIC": 1
+      },
+      "top_therapies": [],
+      "pmids": [
+        "15300427"
+      ]
+    },
+    "PIK3R1": {
+      "n_evidence_items": 1,
+      "n_accepted": 1,
+      "best_level": "B",
+      "best_predictive_level": "B",
+      "levels": {
+        "B": 1
+      },
+      "evidence_types": {
+        "PREDICTIVE": 1
+      },
+      "top_therapies": [
+        "Aspirin"
+      ],
+      "pmids": [
+        "40961426"
+      ]
+    },
+    "NT5E": {
+      "n_evidence_items": 1,
+      "n_accepted": 1,
+      "best_level": "B",
+      "best_predictive_level": "B",
+      "levels": {
+        "B": 1
+      },
+      "evidence_types": {
+        "PREDICTIVE": 1
+      },
+      "top_therapies": [
+        "Cetuximab"
+      ],
+      "pmids": [
+        "25520391"
+      ]
+    },
+    "DKK1": {
+      "n_evidence_items": 1,
+      "n_accepted": 1,
+      "best_level": "B",
+      "best_predictive_level": "B",
+      "levels": {
+        "B": 1
+      },
+      "evidence_types": {
+        "PREDICTIVE": 1
+      },
+      "top_therapies": [
+        "Oxaliplatin",
+        "Irinotecan",
+        "Levoleucovorin",
+        "Fluorouracil"
+      ],
+      "pmids": [
+        "25788273"
+      ]
+    },
+    "CDKN1A": {
+      "n_evidence_items": 1,
+      "n_accepted": 1,
+      "best_level": "B",
+      "best_predictive_level": "B",
+      "levels": {
+        "B": 1
+      },
+      "evidence_types": {
+        "PREDICTIVE": 1
+      },
+      "top_therapies": [
+        "Fluorouracil"
+      ],
+      "pmids": [
+        "24708484"
+      ]
+    },
+    "ALCAM": {
+      "n_evidence_items": 1,
+      "n_accepted": 1,
+      "best_level": "B",
+      "best_predictive_level": "B",
+      "levels": {
+        "B": 1
+      },
+      "evidence_types": {
+        "PREDICTIVE": 1
+      },
+      "top_therapies": [
+        "Fluorouracil"
+      ],
+      "pmids": [
+        "24708484"
+      ]
+    },
+    "THBS2": {
+      "n_evidence_items": 1,
+      "n_accepted": 1,
+      "best_level": "B",
+      "best_predictive_level": null,
+      "levels": {
+        "B": 1
+      },
+      "evidence_types": {
+        "PROGNOSTIC": 1
+      },
+      "top_therapies": [],
+      "pmids": [
+        "26807188"
+      ]
+    },
+    "HIF1A": {
+      "n_evidence_items": 1,
+      "n_accepted": 1,
+      "best_level": "B",
+      "best_predictive_level": null,
+      "levels": {
+        "B": 1
+      },
+      "evidence_types": {
+        "PROGNOSTIC": 1
+      },
+      "top_therapies": [],
+      "pmids": [
+        "20363910"
+      ]
+    },
+    "EPAS1": {
+      "n_evidence_items": 1,
+      "n_accepted": 1,
+      "best_level": "B",
+      "best_predictive_level": null,
+      "levels": {
+        "B": 1
+      },
+      "evidence_types": {
+        "PROGNOSTIC": 1
+      },
+      "top_therapies": [],
+      "pmids": [
+        "20363910"
+      ]
+    },
+    "PTGS2": {
+      "n_evidence_items": 1,
+      "n_accepted": 0,
+      "best_level": null,
+      "best_predictive_level": null,
+      "best_level_submitted": "B",
+      "best_predictive_level_submitted": "B",
+      "levels": {
+        "B": 1
+      },
+      "evidence_types": {
+        "PREDICTIVE": 1
+      },
+      "top_therapies": [
+        "Aspirin"
+      ],
+      "pmids": [
+        "17522398"
+      ]
+    },
+    "DCC": {
+      "n_evidence_items": 1,
+      "n_accepted": 1,
+      "best_level": "B",
+      "best_predictive_level": null,
+      "levels": {
+        "B": 1
+      },
+      "evidence_types": {
+        "PROGNOSTIC": 1
+      },
+      "top_therapies": [],
+      "pmids": [
+        "8929264"
+      ]
+    },
+    "AKT1": {
+      "n_evidence_items": 1,
+      "n_accepted": 1,
+      "best_level": "B",
+      "best_predictive_level": null,
+      "levels": {
+        "B": 1
+      },
+      "evidence_types": {
+        "PROGNOSTIC": 1
+      },
+      "top_therapies": [],
+      "pmids": [
+        "17590872"
+      ]
+    },
+    "WNT11": {
+      "n_evidence_items": 1,
+      "n_accepted": 0,
+      "best_level": null,
+      "best_predictive_level": null,
+      "best_level_submitted": "B",
+      "levels": {
+        "B": 1
+      },
+      "evidence_types": {
+        "DIAGNOSTIC": 1
+      },
+      "top_therapies": [],
+      "pmids": [
+        "31261741"
+      ]
+    },
+    "EPCAM": {
+      "n_evidence_items": 1,
+      "n_accepted": 0,
+      "best_level": null,
+      "best_predictive_level": null,
+      "best_level_submitted": "B",
+      "levels": {
+        "B": 1
+      },
+      "evidence_types": {
+        "PREDISPOSING": 1
+      },
+      "top_therapies": [],
+      "pmids": [
+        "30916491"
+      ]
+    },
+    "EPHB4": {
+      "n_evidence_items": 1,
+      "n_accepted": 1,
+      "best_level": "B",
+      "best_predictive_level": "B",
+      "levels": {
+        "B": 1
+      },
+      "evidence_types": {
+        "PREDICTIVE": 1
+      },
+      "top_therapies": [
+        "Bevacizumab"
+      ],
+      "pmids": [
+        "23579861"
+      ]
+    },
+    "HSPH1": {
+      "n_evidence_items": 1,
+      "n_accepted": 1,
+      "best_level": "B",
+      "best_predictive_level": "B",
+      "levels": {
+        "B": 1
+      },
+      "evidence_types": {
+        "PREDICTIVE": 1
+      },
+      "top_therapies": [
+        "Oxaliplatin",
+        "Fluorouracil"
+      ],
+      "pmids": [
+        "24512910"
+      ]
+    },
+    "SH2B3": {
+      "n_evidence_items": 1,
+      "n_accepted": 1,
+      "best_level": "B",
+      "best_predictive_level": null,
+      "levels": {
+        "B": 1
+      },
+      "evidence_types": {
+        "PREDISPOSING": 1
+      },
+      "top_therapies": [],
+      "pmids": [
+        "26621817"
+      ]
+    },
+    "JAK2": {
+      "n_evidence_items": 1,
+      "n_accepted": 0,
+      "best_level": null,
+      "best_predictive_level": null,
+      "best_level_submitted": "B",
+      "best_predictive_level_submitted": "B",
+      "levels": {
+        "B": 1
+      },
+      "evidence_types": {
+        "PREDICTIVE": 1
+      },
+      "top_therapies": [
+        "Anti-PD1 Monoclonal Antibody"
+      ],
+      "pmids": [
+        "35343934"
+      ]
+    },
+    "LANCL2": {
+      "n_evidence_items": 1,
+      "n_accepted": 0,
+      "best_level": null,
+      "best_predictive_level": null,
+      "best_level_submitted": "B",
+      "best_predictive_level_submitted": "B",
+      "levels": {
+        "B": 1
+      },
+      "evidence_types": {
+        "PREDICTIVE": 1
+      },
+      "top_therapies": [
+        "Panitumumab Regimen"
+      ],
+      "pmids": [
+        "33825902"
+      ]
+    },
+    "ATM": {
+      "n_evidence_items": 1,
+      "n_accepted": 0,
+      "best_level": null,
+      "best_predictive_level": null,
+      "best_level_submitted": "B",
+      "best_predictive_level_submitted": "B",
+      "levels": {
+        "B": 1
+      },
+      "evidence_types": {
+        "PREDICTIVE": 1
+      },
+      "top_therapies": [
+        "Olaparib"
+      ],
+      "pmids": [
+        "41538762"
+      ]
+    },
+    "PPP1R15A": {
+      "n_evidence_items": 1,
+      "n_accepted": 1,
+      "best_level": "B",
+      "best_predictive_level": "B",
+      "levels": {
+        "B": 1
+      },
+      "evidence_types": {
+        "PREDICTIVE": 1
+      },
+      "top_therapies": [
+        "Bevacizumab",
+        "FOLFIRI Regimen"
+      ],
+      "pmids": [
+        "27177629"
+      ]
+    },
+    "TPR": {
+      "n_evidence_items": 1,
+      "n_accepted": 1,
+      "best_level": "C",
+      "best_predictive_level": "C",
+      "levels": {
+        "C": 1
+      },
+      "evidence_types": {
+        "PREDICTIVE": 1
+      },
+      "top_therapies": [
+        "Larotrectinib"
+      ],
+      "pmids": [
+        "35815302"
+      ]
+    },
+    "HLA-C": {
+      "n_evidence_items": 1,
+      "n_accepted": 1,
+      "best_level": "C",
+      "best_predictive_level": "C",
+      "levels": {
+        "C": 1
+      },
+      "evidence_types": {
+        "PREDICTIVE": 1
+      },
+      "top_therapies": [
+        "Therapeutic Tumor Infiltrating Lymphocytes"
+      ],
+      "pmids": [
+        "27959684"
+      ]
+    },
+    "CCDC6": {
+      "n_evidence_items": 1,
+      "n_accepted": 1,
+      "best_level": "C",
+      "best_predictive_level": "C",
+      "levels": {
+        "C": 1
+      },
+      "evidence_types": {
+        "PREDICTIVE": 1
+      },
+      "top_therapies": [
+        "Agerafenib"
+      ],
+      "pmids": [
+        "29538669"
+      ]
+    },
+    "RET": {
+      "n_evidence_items": 1,
+      "n_accepted": 1,
+      "best_level": "C",
+      "best_predictive_level": "C",
+      "levels": {
+        "C": 1
+      },
+      "evidence_types": {
+        "PREDICTIVE": 1
+      },
+      "top_therapies": [
+        "Agerafenib"
+      ],
+      "pmids": [
+        "29538669"
+      ]
+    },
+    "CAD": {
+      "n_evidence_items": 1,
+      "n_accepted": 1,
+      "best_level": "C",
+      "best_predictive_level": "C",
+      "levels": {
+        "C": 1
+      },
+      "evidence_types": {
+        "PREDICTIVE": 1
+      },
+      "top_therapies": [
+        "Entrectinib"
+      ],
+      "pmids": [
+        "26633560"
+      ]
+    },
+    "ARAF": {
+      "n_evidence_items": 1,
+      "n_accepted": 1,
+      "best_level": "C",
+      "best_predictive_level": "C",
+      "levels": {
+        "C": 1
+      },
+      "evidence_types": {
+        "PREDICTIVE": 1
+      },
+      "top_therapies": [
+        "Vemurafenib",
+        "Cetuximab",
+        "Irinotecan"
+      ],
+      "pmids": [
+        "27729313"
+      ]
+    },
+    "VPS18": {
+      "n_evidence_items": 1,
+      "n_accepted": 1,
+      "best_level": "C",
+      "best_predictive_level": null,
+      "levels": {
+        "C": 1
+      },
+      "evidence_types": {
+        "ONCOGENIC": 1
+      },
+      "top_therapies": [],
+      "pmids": [
+        "29099951"
+      ]
+    },
+    "NRG1": {
+      "n_evidence_items": 1,
+      "n_accepted": 1,
+      "best_level": "D",
+      "best_predictive_level": "D",
+      "levels": {
+        "D": 1
+      },
+      "evidence_types": {
+        "PREDICTIVE": 1
+      },
+      "top_therapies": [
+        "Cetuximab"
+      ],
+      "pmids": [
+        "21900593"
+      ]
+    },
+    "FOXC2": {
+      "n_evidence_items": 1,
+      "n_accepted": 0,
+      "best_level": null,
+      "best_predictive_level": null,
+      "best_level_submitted": "D",
+      "best_predictive_level_submitted": "D",
+      "levels": {
+        "D": 1
+      },
+      "evidence_types": {
+        "PREDICTIVE": 1
+      },
+      "top_therapies": [
+        "Oxaliplatin"
+      ],
+      "pmids": [
+        "32110058"
+      ]
+    },
+    "FOXF1": {
+      "n_evidence_items": 1,
+      "n_accepted": 0,
+      "best_level": null,
+      "best_predictive_level": null,
+      "best_level_submitted": "D",
+      "best_predictive_level_submitted": "D",
+      "levels": {
+        "D": 1
+      },
+      "evidence_types": {
+        "PREDICTIVE": 1
+      },
+      "top_therapies": [
+        "Bevacizumab"
+      ],
+      "pmids": [
+        "30253191"
+      ]
+    },
+    "DHFR": {
+      "n_evidence_items": 1,
+      "n_accepted": 0,
+      "best_level": null,
+      "best_predictive_level": null,
+      "best_level_submitted": "D",
+      "best_predictive_level_submitted": "D",
+      "levels": {
+        "D": 1
+      },
+      "evidence_types": {
+        "PREDICTIVE": 1
+      },
+      "top_therapies": [
+        "Fluorouracil"
+      ],
+      "pmids": [
+        "21449674"
+      ]
+    },
+    "GGH": {
+      "n_evidence_items": 1,
+      "n_accepted": 0,
+      "best_level": null,
+      "best_predictive_level": null,
+      "best_level_submitted": "D",
+      "best_predictive_level_submitted": "D",
+      "levels": {
+        "D": 1
+      },
+      "evidence_types": {
+        "PREDICTIVE": 1
+      },
+      "top_therapies": [
+        "Fluorouracil"
+      ],
+      "pmids": [
+        "21449674"
+      ]
+    },
+    "UCK2": {
+      "n_evidence_items": 1,
+      "n_accepted": 0,
+      "best_level": null,
+      "best_predictive_level": null,
+      "best_level_submitted": "D",
+      "best_predictive_level_submitted": "D",
+      "levels": {
+        "D": 1
+      },
+      "evidence_types": {
+        "PREDICTIVE": 1
+      },
+      "top_therapies": [
+        "Fluorouracil"
+      ],
+      "pmids": [
+        "21449674"
+      ]
+    },
+    "NT5C": {
+      "n_evidence_items": 1,
+      "n_accepted": 0,
+      "best_level": null,
+      "best_predictive_level": null,
+      "best_level_submitted": "D",
+      "best_predictive_level_submitted": "D",
+      "levels": {
+        "D": 1
+      },
+      "evidence_types": {
+        "PREDICTIVE": 1
+      },
+      "top_therapies": [
+        "Fluorouracil"
+      ],
+      "pmids": [
+        "21449674"
+      ]
+    },
+    "NME1": {
+      "n_evidence_items": 1,
+      "n_accepted": 0,
+      "best_level": null,
+      "best_predictive_level": null,
+      "best_level_submitted": "D",
+      "best_predictive_level_submitted": "D",
+      "levels": {
+        "D": 1
+      },
+      "evidence_types": {
+        "PREDICTIVE": 1
+      },
+      "top_therapies": [
+        "Fluorouracil"
+      ],
+      "pmids": [
+        "21449674"
+      ]
+    },
+    "UNG": {
+      "n_evidence_items": 1,
+      "n_accepted": 0,
+      "best_level": null,
+      "best_predictive_level": null,
+      "best_level_submitted": "D",
+      "best_predictive_level_submitted": "D",
+      "levels": {
+        "D": 1
+      },
+      "evidence_types": {
+        "PREDICTIVE": 1
+      },
+      "top_therapies": [
+        "Fluorouracil"
+      ],
+      "pmids": [
+        "21449674"
+      ]
+    },
+    "RRM1": {
+      "n_evidence_items": 1,
+      "n_accepted": 0,
+      "best_level": null,
+      "best_predictive_level": null,
+      "best_level_submitted": "D",
+      "best_predictive_level_submitted": "D",
+      "levels": {
+        "D": 1
+      },
+      "evidence_types": {
+        "PREDICTIVE": 1
+      },
+      "top_therapies": [
+        "Fluorouracil"
+      ],
+      "pmids": [
+        "21449674"
+      ]
+    },
+    "DPYS": {
+      "n_evidence_items": 1,
+      "n_accepted": 0,
+      "best_level": null,
+      "best_predictive_level": null,
+      "best_level_submitted": "D",
+      "best_predictive_level_submitted": "D",
+      "levels": {
+        "D": 1
+      },
+      "evidence_types": {
+        "PREDICTIVE": 1
+      },
+      "top_therapies": [
+        "Fluorouracil"
+      ],
+      "pmids": [
+        "21449674"
+      ]
+    },
+    "UGT1A": {
+      "n_evidence_items": 1,
+      "n_accepted": 1,
+      "best_level": "D",
+      "best_predictive_level": "D",
+      "levels": {
+        "D": 1
+      },
+      "evidence_types": {
+        "PREDICTIVE": 1
+      },
+      "top_therapies": [
+        "Ganetespib"
+      ],
+      "pmids": [
+        "25210794"
+      ]
+    },
+    "PTP4A3": {
+      "n_evidence_items": 1,
+      "n_accepted": 1,
+      "best_level": "D",
+      "best_predictive_level": "D",
+      "levels": {
+        "D": 1
+      },
+      "evidence_types": {
+        "PREDICTIVE": 1
+      },
+      "top_therapies": [
+        "Cetuximab"
+      ],
+      "pmids": [
+        "23867504"
+      ]
+    },
+    "ARID1A": {
+      "n_evidence_items": 1,
+      "n_accepted": 1,
+      "best_level": "D",
+      "best_predictive_level": "D",
+      "levels": {
+        "D": 1
+      },
+      "evidence_types": {
+        "PREDICTIVE": 1
+      },
+      "top_therapies": [
+        "Dasatinib"
+      ],
+      "pmids": [
+        "27364904"
+      ]
+    },
+    "BARD1": {
+      "n_evidence_items": 1,
+      "n_accepted": 1,
+      "best_level": "D",
+      "best_predictive_level": "D",
+      "levels": {
+        "D": 1
+      },
+      "evidence_types": {
+        "PREDICTIVE": 1
+      },
+      "top_therapies": [
+        "Olaparib"
+      ],
+      "pmids": [
+        "27197561"
+      ]
+    },
+    "IRS2": {
+      "n_evidence_items": 1,
+      "n_accepted": 0,
+      "best_level": null,
+      "best_predictive_level": null,
+      "best_level_submitted": "D",
+      "best_predictive_level_submitted": "D",
+      "levels": {
+        "D": 1
+      },
+      "evidence_types": {
+        "PREDICTIVE": 1
+      },
+      "top_therapies": [
+        "Dual IGF-1R/InsR Inhibitor BMS-754807"
+      ],
+      "pmids": [
+        "25527633"
+      ]
+    },
+    "PSMD4": {
+      "n_evidence_items": 1,
+      "n_accepted": 0,
+      "best_level": null,
+      "best_predictive_level": null,
+      "best_level_submitted": "D",
+      "best_predictive_level_submitted": "D",
+      "levels": {
+        "D": 1
+      },
+      "evidence_types": {
+        "PREDICTIVE": 1
+      },
+      "top_therapies": [
+        "Carfilzomib"
+      ],
+      "pmids": [
+        "27033953"
+      ]
+    },
+    "LGR5": {
+      "n_evidence_items": 1,
+      "n_accepted": 0,
+      "best_level": null,
+      "best_predictive_level": null,
+      "best_level_submitted": "D",
+      "best_predictive_level_submitted": "D",
+      "levels": {
+        "D": 1
+      },
+      "evidence_types": {
+        "PREDICTIVE": 1
+      },
+      "top_therapies": [
+        "Fluorouracil"
+      ],
+      "pmids": [
+        "27140312"
+      ]
+    },
+    "ERCC6": {
+      "n_evidence_items": 1,
+      "n_accepted": 0,
+      "best_level": null,
+      "best_predictive_level": null,
+      "best_level_submitted": "D",
+      "best_predictive_level_submitted": "D",
+      "levels": {
+        "D": 1
+      },
+      "evidence_types": {
+        "PREDICTIVE": 1
+      },
+      "top_therapies": [
+        "Fluorouracil"
+      ],
+      "pmids": [
+        "28665687"
+      ]
+    },
+    "FPGS": {
+      "n_evidence_items": 1,
+      "n_accepted": 0,
+      "best_level": null,
+      "best_predictive_level": null,
+      "best_level_submitted": "D",
+      "best_predictive_level_submitted": "D",
+      "levels": {
+        "D": 1
+      },
+      "evidence_types": {
+        "PREDICTIVE": 1
+      },
+      "top_therapies": [
+        "Fluorouracil"
+      ],
+      "pmids": [
+        "21449674"
+      ]
+    },
+    "DTYMK": {
+      "n_evidence_items": 1,
+      "n_accepted": 0,
+      "best_level": null,
+      "best_predictive_level": null,
+      "best_level_submitted": "D",
+      "best_predictive_level_submitted": "D",
+      "levels": {
+        "D": 1
+      },
+      "evidence_types": {
+        "PREDICTIVE": 1
+      },
+      "top_therapies": [
+        "Fluorouracil"
+      ],
+      "pmids": [
+        "21449674"
+      ]
+    },
+    "DUT": {
+      "n_evidence_items": 1,
+      "n_accepted": 0,
+      "best_level": null,
+      "best_predictive_level": null,
+      "best_level_submitted": "D",
+      "best_predictive_level_submitted": "D",
+      "levels": {
+        "D": 1
+      },
+      "evidence_types": {
+        "PREDICTIVE": 1
+      },
+      "top_therapies": [
+        "Fluorouracil"
+      ],
+      "pmids": [
+        "21449674"
+      ]
+    },
+    "UMPS": {
+      "n_evidence_items": 1,
+      "n_accepted": 0,
+      "best_level": null,
+      "best_predictive_level": null,
+      "best_level_submitted": "D",
+      "best_predictive_level_submitted": "D",
+      "levels": {
+        "D": 1
+      },
+      "evidence_types": {
+        "PREDICTIVE": 1
+      },
+      "top_therapies": [
+        "Fluorouracil"
+      ],
+      "pmids": [
+        "21449674"
+      ]
+    },
+    "SLFN11": {
+      "n_evidence_items": 1,
+      "n_accepted": 1,
+      "best_level": "D",
+      "best_predictive_level": "D",
+      "levels": {
+        "D": 1
+      },
+      "evidence_types": {
+        "PREDICTIVE": 1
+      },
+      "top_therapies": [
+        "7-Ethyl-10-Hydroxycamptothecin"
+      ],
+      "pmids": [
+        "25089570"
+      ]
+    },
+    "EIF4EBP1": {
+      "n_evidence_items": 1,
+      "n_accepted": 1,
+      "best_level": "D",
+      "best_predictive_level": "D",
+      "levels": {
+        "D": 1
+      },
+      "evidence_types": {
+        "PREDICTIVE": 1
+      },
+      "top_therapies": [
+        "WYE354",
+        "MTOR Kinase Inhibitor PP242",
+        "Dactolisib"
+      ],
+      "pmids": [
+        "22262166"
+      ]
+    },
+    "TPM3": {
+      "n_evidence_items": 1,
+      "n_accepted": 1,
+      "best_level": "D",
+      "best_predictive_level": "D",
+      "levels": {
+        "D": 1
+      },
+      "evidence_types": {
+        "PREDICTIVE": 1
+      },
+      "top_therapies": [
+        "Larotrectinib",
+        "Lestaurtinib"
+      ],
+      "pmids": [
+        "26716414"
+      ]
+    },
+    "WNT6": {
+      "n_evidence_items": 1,
+      "n_accepted": 0,
+      "best_level": null,
+      "best_predictive_level": null,
+      "best_level_submitted": "E",
+      "best_predictive_level_submitted": "E",
+      "levels": {
+        "E": 1
+      },
+      "evidence_types": {
+        "PREDICTIVE": 1
+      },
+      "top_therapies": [
+        "Aspirin"
+      ],
+      "pmids": [
+        "34033814"
+      ]
+    },
+    "JUN": {
+      "n_evidence_items": 1,
+      "n_accepted": 1,
+      "best_level": "C",
+      "best_predictive_level": "C",
+      "levels": {
+        "C": 1
+      },
+      "evidence_types": {
+        "PREDICTIVE": 1
+      },
+      "top_therapies": [
+        "Irbesartan"
+      ],
+      "pmids": [
+        "27022066"
+      ]
+    },
+    "ROS1": {
+      "n_evidence_items": 1,
+      "n_accepted": 1,
+      "best_level": "E",
+      "best_predictive_level": "E",
+      "levels": {
+        "E": 1
+      },
+      "evidence_types": {
+        "PREDICTIVE": 1
+      },
+      "top_therapies": [
+        "Crizotinib"
+      ],
+      "pmids": [
+        "24296758"
+      ]
+    },
+    "BIRC7": {
+      "n_evidence_items": 1,
+      "n_accepted": 1,
+      "best_level": "D",
+      "best_predictive_level": "D",
+      "levels": {
+        "D": 1
+      },
+      "evidence_types": {
+        "PREDICTIVE": 1
+      },
+      "top_therapies": [
+        "Cisplatin"
+      ],
+      "pmids": [
+        "23188704"
+      ]
+    },
+    "POU5F1": {
+      "n_evidence_items": 1,
+      "n_accepted": 1,
+      "best_level": "D",
+      "best_predictive_level": "D",
+      "levels": {
+        "D": 1
+      },
+      "evidence_types": {
+        "PREDICTIVE": 1
+      },
+      "top_therapies": [
+        "Oxaliplatin"
+      ],
+      "pmids": [
+        "26398480"
+      ]
+    },
+    "NCOA3": {
+      "n_evidence_items": 1,
+      "n_accepted": 0,
+      "best_level": null,
+      "best_predictive_level": null,
+      "best_level_submitted": "B",
+      "best_predictive_level_submitted": "B",
+      "levels": {
+        "B": 1
+      },
+      "evidence_types": {
+        "PREDICTIVE": 1
+      },
+      "top_therapies": [
+        "Anti-PDL1 Therapy",
+        "PD-1 Ligand Inhibitor"
+      ],
+      "pmids": [
+        "40215778"
+      ]
+    },
+    "STRN": {
+      "n_evidence_items": 1,
+      "n_accepted": 1,
+      "best_level": "C",
+      "best_predictive_level": "C",
+      "levels": {
+        "C": 1
+      },
+      "evidence_types": {
+        "PREDICTIVE": 1
+      },
+      "top_therapies": [
+        "Ceritinib"
+      ],
+      "pmids": [
+        "26933125"
+      ]
+    },
+    "FOS": {
+      "n_evidence_items": 1,
+      "n_accepted": 1,
+      "best_level": "C",
+      "best_predictive_level": "C",
+      "levels": {
+        "C": 1
+      },
+      "evidence_types": {
+        "PREDICTIVE": 1
+      },
+      "top_therapies": [
+        "Irbesartan"
+      ],
+      "pmids": [
+        "27022066"
+      ]
+    },
+    "SEPTIN14": {
+      "n_evidence_items": 1,
+      "n_accepted": 1,
+      "best_level": "C",
+      "best_predictive_level": "C",
+      "levels": {
+        "C": 1
+      },
+      "evidence_types": {
+        "PREDICTIVE": 1
+      },
+      "top_therapies": [
+        "Erlotinib"
+      ],
+      "pmids": [
+        "32162810"
+      ]
+    },
+    "MSH3": {
+      "n_evidence_items": 1,
+      "n_accepted": 0,
+      "best_level": null,
+      "best_predictive_level": null,
+      "best_level_submitted": "D",
+      "best_predictive_level_submitted": "D",
+      "levels": {
+        "D": 1
+      },
+      "evidence_types": {
+        "PREDICTIVE": 1
+      },
+      "top_therapies": [
+        "Oxaliplatin",
+        "7-Ethyl-10-Hydroxycamptothecin"
+      ],
+      "pmids": [
+        "23724141"
+      ]
+    },
+    "KIT": {
+      "n_evidence_items": 1,
+      "n_accepted": 1,
+      "best_level": "E",
+      "best_predictive_level": "E",
+      "levels": {
+        "E": 1
+      },
+      "evidence_types": {
+        "PREDICTIVE": 1
+      },
+      "top_therapies": [
+        "Imatinib"
+      ],
+      "pmids": [
+        "28595259"
+      ]
+    },
+    "MTHFR": {
+      "n_evidence_items": 1,
+      "n_accepted": 1,
+      "best_level": "B",
+      "best_predictive_level": "B",
+      "levels": {
+        "B": 1
+      },
+      "evidence_types": {
+        "PREDICTIVE": 1
+      },
+      "top_therapies": [
+        "Fluorouracil"
+      ],
+      "pmids": [
+        "26693073"
+      ]
+    },
+    "NOTCH3": {
+      "n_evidence_items": 1,
+      "n_accepted": 0,
+      "best_level": null,
+      "best_predictive_level": null,
+      "best_level_submitted": "D",
+      "best_predictive_level_submitted": "D",
+      "levels": {
+        "D": 1
+      },
+      "evidence_types": {
+        "PREDICTIVE": 1
+      },
+      "top_therapies": [
+        "Tarextumab"
+      ],
+      "pmids": [
+        "24525742"
+      ]
+    }
+  },
+  "by_disease": {
+    "Colorectal Cancer": {
+      "total_reported": 689,
+      "n_fetched": 689,
+      "n_new": 689
+    },
+    "Colorectal Adenocarcinoma": {
+      "total_reported": 19,
+      "n_fetched": 19,
+      "n_new": 19
+    },
+    "Colon Cancer": {
+      "total_reported": 24,
+      "n_fetched": 24,
+      "n_new": 24
+    },
+    "Colon Adenocarcinoma": {
+      "total_reported": 8,
+      "n_fetched": 8,
+      "n_new": 8
+    },
+    "Colon Carcinoma": {
+      "total_reported": 5,
+      "n_fetched": 5,
+      "n_new": 5
+    },
+    "Colon Mucinous Adenocarcinoma": {
+      "total_reported": 1,
+      "n_fetched": 1,
+      "n_new": 1
+    },
+    "Colon Signet Ring Adenocarcinoma": {
+      "total_reported": 1,
+      "n_fetched": 1,
+      "n_new": 1
+    },
+    "Rectum Adenocarcinoma": {
+      "total_reported": 1,
+      "n_fetched": 1,
+      "n_new": 1
+    },
+    "Rectum Cancer": {
+      "total_reported": 7,
+      "n_fetched": 7,
+      "n_new": 7
+    }
+  }
+}

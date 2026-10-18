@@ -1,0 +1,4 @@
+# Minimal on purpose. The viewer has zero dependencies; the pipeline has three.
+requests>=2.32
+certifi>=2024.2
+PyYAML>=6.0

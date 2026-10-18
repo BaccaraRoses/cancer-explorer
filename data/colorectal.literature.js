@@ -1,0 +1,7515 @@
+/* GENERATED FILE - DO NOT EDIT BY HAND.
+ *
+ * Produced by pipeline/run.py literature on 2026-10-18 00:46 UTC
+ * 247 papers since 2024-01-01  (from 279 raw hits, deduplicated)
+ * By tier: meta-analysis 7, preprint 10, primary 142, review 51, systematic review 5, trial 32
+ * By kind: new-approach 76, resistance 80, toxicity 91
+ *
+ * Source: Europe PMC (PubMed + PMC + preprint servers), no API key.
+ *
+ * THIS IS A DATED SNAPSHOT of a literature that moves daily, and most of
+ * it is preclinical. Every record carries an evidence tier, a species
+ * flag, and the terms that matched it, so a preprint about mice cannot
+ * be mistaken for a result. Nothing is ranked by promise: citation
+ * counts are zero for recent work and no heuristic can tell which new
+ * mechanism will succeed.
+ */
+window.CancerExplorerLiterature = window.CancerExplorerLiterature || {};
+window.CancerExplorerLiterature['colorectal'] = {
+ "source": "Europe PMC (PubMed + PMC + preprint servers)",
+ "api": "https://www.ebi.ac.uk/europepmc/webservices/rest/search",
+ "licence": "metadata under Europe PMC terms; abstracts not redistributed here",
+ "since": "2024-01-01",
+ "n_papers": 247,
+ "n_raw_hits": 279,
+ "agents_queried": [
+  "Anti-EGFR antibodies (cetuximab, panitumumab)",
+  "Anti-angiogenic agents",
+  "BRAF V600E: encorafenib with cetuximab",
+  "Checkpoint inhibitors in MSI-H disease",
+  "Dostarlimab in repair-deficient rectal cancer",
+  "HER2-directed therapy",
+  "KRAS G12C inhibitors with anti-EGFR antibodies"
+ ],
+ "genes_queried": [
+  "KRAS",
+  "NRAS",
+  "BRAF",
+  "ERBB2",
+  "NTRK1",
+  "RET",
+  "EGFR",
+  "KDR",
+  "VEGFA",
+  "PDCD1",
+  "MLH1",
+  "MSH2",
+  "MSH6",
+  "PMS2",
+  "POLE",
+  "APC",
+  "TP53",
+  "SMAD4",
+  "PIK3CA",
+  "FBXW7",
+  "CTNNB1",
+  "SOX9",
+  "AMER1",
+  "TCF7L2"
+ ],
+ "by_tier": {
+  "primary": 142,
+  "review": 51,
+  "meta-analysis": 7,
+  "trial": 32,
+  "preprint": 10,
+  "systematic review": 5
+ },
+ "by_kind": {
+  "new-approach": 76,
+  "toxicity": 91,
+  "resistance": 80
+ },
+ "by_species": {
+  "human": 164,
+  "unclear": 9,
+  "mouse": 71,
+  "cell line": 3
+ },
+ "caveat": "A dated snapshot of a moving literature. Evidence tier and species are shown on every row because most of this is preclinical. Nothing here is ranked by promise — that cannot be computed.",
+ "papers": [
+  {
+   "id": "42811483",
+   "src": "MED",
+   "pmid": "42811483",
+   "doi": "10.1002/2056-4538.70118",
+   "title": "Profiling EGFR, c-MET, and B7H3 co-expression to guide next-generation dual-drug conjugate strategies in colorectal cancer.",
+   "journal": "The journal of pathology. Clinical research",
+   "date": "2026-11-01",
+   "authors": "Yang Y, Li H, Xiao S, Jiao M, Wu, Ao C, Zhang Y, Yan S, Sun S, Yang C, Tang R, W",
+   "oa": true,
+   "url": "https://europepmc.org/article/MED/42811483",
+   "kind": "new-approach",
+   "subject": "EGFR",
+   "matched": [
+    "bispecific",
+    "antibody-drug conjugate"
+   ],
+   "tier": "primary",
+   "peer_reviewed": true,
+   "species": "human",
+   "species_from": "mesh",
+   "genes": [
+    "EGFR"
+   ],
+   "nodes": [
+    "drv-ras-wt",
+    "drv-kras-g12c",
+    "drv-braf-v600e"
+   ]
+  },
+  {
+   "id": "42765734",
+   "src": "MED",
+   "pmid": "42765734",
+   "doi": "10.1111/cts.70713",
+   "title": "Fruquintinib: Mechanism of Action, Clinical, and Translational Science.",
+   "journal": "Clinical and translational science",
+   "date": "2026-10-01",
+   "authors": "Zhou X, Dasari A, Li J, Chien C, Dong Q, Chen L, Dong L, Gupta N.",
+   "oa": true,
+   "url": "https://europepmc.org/article/MED/42765734",
+   "kind": "toxicity",
+   "subject": "Anti-angiogenic agents",
+   "matched": [
+    "hypertension",
+    "proteinuria"
+   ],
+   "tier": "review",
+   "peer_reviewed": true,
+   "species": "human",
+   "species_from": "mesh",
+   "genes": [
+    "VEGFA",
+    "KDR",
+    "POLE"
+   ],
+   "nodes": [
+    "site-root"
+   ]
+  },
+  {
+   "id": "42814239",
+   "src": "MED",
+   "pmid": "42814239",
+   "doi": "10.1007/s12029-026-01595-8",
+   "title": "Comparative Effectiveness and Safety of FOLFOXIRI Plus Cetuximab Versus FOLFOXIRI Plus Bevacizumab in Metastatic Colorectal Cancer: A GRADE-assessed Systematic Review and Meta-analysis.",
+   "journal": "Journal of gastrointestinal cancer",
+   "date": "2026-09-30",
+   "authors": "Raza A, Qadri M, Fatima F, Saffi Ullah M, Ansab M, Fatima M, Sadiq Z, Qureshi Z,",
+   "oa": false,
+   "url": "https://europepmc.org/article/MED/42814239",
+   "kind": "toxicity",
+   "subject": "Anti-EGFR antibodies (cetuximab, panitumumab)",
+   "matched": [
+    "acneiform",
+    "rash",
+    "hypomagnesemia"
+   ],
+   "tier": "meta-analysis",
+   "peer_reviewed": true,
+   "species": "human",
+   "species_from": "mesh",
+   "genes": [
+    "EGFR",
+    "BRAF",
+    "KRAS",
+    "ERBB2"
+   ],
+   "nodes": [
+    "drv-ras-wt",
+    "drv-kras-g12c",
+    "drv-braf-v600e"
+   ]
+  },
+  {
+   "id": "42811047",
+   "src": "MED",
+   "pmid": "42811047",
+   "doi": "10.1038/s41416-026-03620-w",
+   "title": "A prospective observational study of treatment sequencing with regorafenib and FTD/TPI in metastatic colorectal cancer: The OSERO study.",
+   "journal": "British journal of cancer",
+   "date": "2026-09-29",
+   "authors": "Kawakami T, Masuishi T, Hamano T, Chida A, Mitani S, Yasui H, Ishiguro A, Ando T",
+   "oa": false,
+   "url": "https://europepmc.org/article/MED/42811047",
+   "kind": "toxicity",
+   "subject": "Anti-angiogenic agents",
+   "matched": [
+    "hypertension",
+    "proteinuria"
+   ],
+   "tier": "primary",
+   "peer_reviewed": true,
+   "species": "human",
+   "species_from": "keywords",
+   "genes": [
+    "VEGFA",
+    "KDR",
+    "POLE"
+   ],
+   "nodes": [
+    "site-root"
+   ]
+  },
+  {
+   "id": "42804071",
+   "src": "MED",
+   "pmid": "42804071",
+   "doi": "10.1007/s12328-026-02460-8",
+   "title": "Delayed and multisystem immune-related adverse events in MSI-high colon cancer treated with nivolumab plus ipilimumab.",
+   "journal": "Clinical journal of gastroenterology",
+   "date": "2026-09-28",
+   "authors": "Maeda T, Munakata M, Numao H, Hanabata N, Shimaya K, Igarashi S, Ko M, Fukutoku ",
+   "oa": false,
+   "url": "https://europepmc.org/article/MED/42804071",
+   "kind": "toxicity",
+   "subject": "Checkpoint inhibitors in MSI-H disease",
+   "matched": [
+    "immune-related adverse"
+   ],
+   "tier": "primary",
+   "peer_reviewed": true,
+   "species": "human",
+   "species_from": "keywords",
+   "genes": [
+    "PDCD1"
+   ],
+   "nodes": [
+    "rep-dmmr",
+    "site-rectum"
+   ]
+  },
+  {
+   "id": "42830811",
+   "src": "MED",
+   "pmid": "42830811",
+   "doi": "10.1016/j.esmogo.2026.100418",
+   "title": "Real-world efficacy, safety, and treatment continuity of fruquintinib in Japanese patients with colorectal cancer: a multicentre retrospective study.",
+   "journal": "ESMO gastrointestinal oncology",
+   "date": "2026-09-22",
+   "authors": "Ito T, Shiraishi K, Ishizuka Y, Ishibashi N, Kameishi S, Kito Y, Sugaya A, Takah",
+   "oa": true,
+   "url": "https://europepmc.org/article/MED/42830811",
+   "kind": "toxicity",
+   "subject": "Anti-angiogenic agents",
+   "matched": [
+    "hypertension",
+    "proteinuria"
+   ],
+   "tier": "primary",
+   "peer_reviewed": true,
+   "species": "human",
+   "species_from": "keywords",
+   "genes": [
+    "VEGFA",
+    "KDR",
+    "POLE"
+   ],
+   "nodes": [
+    "site-root"
+   ]
+  },
+  {
+   "id": "42835167",
+   "src": "MED",
+   "pmid": "42835167",
+   "doi": "10.3389/fphar.2026.1925069",
+   "title": "Case Report: zanidatamab-based regimen as a potential later-line therapeutic option in HER2-amplified metastatic colorectal cancer.",
+   "journal": "Frontiers in pharmacology",
+   "date": "2026-09-21",
+   "authors": "Meng L, Zhang W, Sun C, Qu X, Chen Y.",
+   "oa": false,
+   "url": "https://europepmc.org/article/MED/42835167",
+   "kind": "new-approach",
+   "subject": "ERBB2",
+   "matched": [
+    "bispecific"
+   ],
+   "tier": "primary",
+   "peer_reviewed": true,
+   "species": "human",
+   "species_from": "keywords",
+   "genes": [
+    "ERBB2",
+    "EGFR"
+   ],
+   "nodes": [
+    "drv-her2-amp",
+    "drv-ras-wt",
+    "drv-kras-g12c",
+    "drv-braf-v600e"
+   ],
+   "also": [
+    {
+     "kind": "new-approach",
+     "subject": "EGFR"
+    }
+   ]
+  },
+  {
+   "id": "42787936",
+   "src": "MED",
+   "pmid": "42787936",
+   "doi": "10.1016/j.jlb.2026.100504",
+   "title": "Circulating tumor DNA tumor fraction as a biomarker in refractory metastatic colorectal cancer: findings from the CAVE-2 GOIM trial.",
+   "journal": "The journal of liquid biopsy",
+   "date": "2026-09-17",
+   "authors": "Ciardiello D, Martini G, Boscolo Bielo L, Pellizzari G, Pietrantonio F, Andena P",
+   "oa": false,
+   "url": "https://europepmc.org/article/MED/42787936",
+   "kind": "resistance",
+   "subject": "Anti-EGFR antibodies (cetuximab, panitumumab)",
+   "matched": [
+    "rechallenge"
+   ],
+   "tier": "primary",
+   "peer_reviewed": true,
+   "species": "human",
+   "species_from": "keywords",
+   "genes": [
+    "EGFR",
+    "BRAF",
+    "KRAS",
+    "ERBB2"
+   ],
+   "nodes": [
+    "drv-ras-wt",
+    "drv-kras-g12c",
+    "drv-braf-v600e"
+   ]
+  },
+  {
+   "id": "42752894",
+   "src": "MED",
+   "pmid": "42752894",
+   "doi": "10.1007/s00280-026-04953-2",
+   "title": "Main pulmonary artery enlargement during bevacizumab therapy in KRAS-mutant metastatic colon cancer.",
+   "journal": "Cancer chemotherapy and pharmacology",
+   "date": "2026-09-17",
+   "authors": "Ozbay MF, Atlım F, Vurgun S, Hunur M, Keven A, Sahin E, Göksu SS, Karaca M.",
+   "oa": false,
+   "url": "https://europepmc.org/article/MED/42752894",
+   "kind": "toxicity",
+   "subject": "Anti-angiogenic agents",
+   "matched": [
+    "hypertension"
+   ],
+   "tier": "primary",
+   "peer_reviewed": true,
+   "species": "human",
+   "species_from": "mesh",
+   "genes": [
+    "VEGFA",
+    "KDR",
+    "POLE"
+   ],
+   "nodes": [
+    "site-root"
+   ]
+  },
+  {
+   "id": "42794953",
+   "src": "MED",
+   "pmid": "42794953",
+   "doi": "10.3390/cancers18182987",
+   "title": "FOLFOX Plus Bevacizumab Rechallenge Versus Regorafenib as Third-Line Treatment in Metastatic Colorectal Cancer: The Role of the Oxaliplatin-Free Interval.",
+   "journal": "Cancers",
+   "date": "2026-09-16",
+   "authors": "Ozkerim U, Kınıkoglu O, Oksuz S, Isik D, Altintas YE, Yildirim S, Akdag G, Gecge",
+   "oa": true,
+   "url": "https://europepmc.org/article/MED/42794953",
+   "kind": "resistance",
+   "subject": "Anti-EGFR antibodies (cetuximab, panitumumab)",
+   "matched": [
+    "rechallenge"
+   ],
+   "tier": "primary",
+   "peer_reviewed": true,
+   "species": "human",
+   "species_from": "keywords",
+   "genes": [
+    "EGFR",
+    "BRAF",
+    "KRAS",
+    "ERBB2"
+   ],
+   "nodes": [
+    "drv-ras-wt",
+    "drv-kras-g12c",
+    "drv-braf-v600e"
+   ]
+  },
+  {
+   "id": "42744133",
+   "src": "MED",
+   "pmid": "42744133",
+   "doi": "10.1016/j.critrevonc.2026.105597",
+   "title": "Biomarker-guided treatment selection in metastatic colorectal cancer: A critical review of established and emerging therapies.",
+   "journal": "Critical reviews in oncology/hematology",
+   "date": "2026-09-15",
+   "authors": "Tojjari A, Pourbahrighesmat S, Alkhazna S, Saeed A.",
+   "oa": false,
+   "url": "https://europepmc.org/article/MED/42744133",
+   "kind": "new-approach",
+   "subject": "KRAS",
+   "matched": [
+    "bispecific"
+   ],
+   "tier": "review",
+   "peer_reviewed": true,
+   "species": "human",
+   "species_from": "keywords",
+   "genes": [
+    "KRAS",
+    "BRAF",
+    "RET",
+    "EGFR"
+   ],
+   "nodes": [
+    "drv-kras-g12c",
+    "drv-braf-v600e",
+    "site-root",
+    "drv-ras-wt"
+   ],
+   "also": [
+    {
+     "kind": "new-approach",
+     "subject": "BRAF"
+    },
+    {
+     "kind": "new-approach",
+     "subject": "RET"
+    },
+    {
+     "kind": "new-approach",
+     "subject": "EGFR"
+    }
+   ]
+  },
+  {
+   "id": "42769859",
+   "src": "MED",
+   "pmid": "42769859",
+   "doi": "10.32604/or.2026.078524",
+   "title": "Toxicities of Fruquintinib in Gastrointestinal Malignancies: A Systematic Review and Meta-Analysis.",
+   "journal": "Oncology research",
+   "date": "2026-09-14",
+   "authors": "Jones DT, Sangha T, Manjikian A, Ghobrial M, Shawesh Q, Tiwana E, Hearn E, Latif",
+   "oa": true,
+   "url": "https://europepmc.org/article/MED/42769859",
+   "kind": "toxicity",
+   "subject": "Anti-angiogenic agents",
+   "matched": [
+    "hypertension",
+    "proteinuria",
+    "hemorrhage",
+    "hand-foot skin reaction"
+   ],
+   "tier": "meta-analysis",
+   "peer_reviewed": true,
+   "species": "human",
+   "species_from": "mesh",
+   "genes": [
+    "VEGFA",
+    "KDR",
+    "POLE"
+   ],
+   "nodes": [
+    "site-root"
+   ]
+  },
+  {
+   "id": "42781069",
+   "src": "MED",
+   "pmid": "42781069",
+   "doi": "10.1007/s13691-026-00909-8",
+   "title": "LMNA-NTRK1 fusion-positive MSI-high colorectal cancer responding to FOLFOX plus bevacizumab after immune checkpoint inhibitor failure: a case report.",
+   "journal": "International cancer conference journal",
+   "date": "2026-09-12",
+   "authors": "Sawada K, Watanabe R, Okamoto K, Kon M, Yonemura H, Nishimura Y, Hosoda S, Takah",
+   "oa": false,
+   "url": "https://europepmc.org/article/MED/42781069",
+   "kind": "resistance",
+   "subject": "Checkpoint inhibitors in MSI-H disease",
+   "matched": [
+    "pseudoprogression"
+   ],
+   "tier": "primary",
+   "peer_reviewed": true,
+   "species": "unclear",
+   "species_from": "none",
+   "genes": [
+    "PDCD1"
+   ],
+   "nodes": [
+    "rep-dmmr",
+    "site-rectum"
+   ]
+  },
+  {
+   "id": "42774118",
+   "src": "MED",
+   "pmid": "42774118",
+   "doi": "10.3389/fonc.2026.1905769",
+   "title": "Clinical activity of chidamide-containing regimens after prior PD-1-based therapy in two patients with microsatellite-stable metastatic colorectal cancer: a case series and narrative review.",
+   "journal": "Frontiers in oncology",
+   "date": "2026-09-08",
+   "authors": "Chen R, Yang D, Xu H.",
+   "oa": true,
+   "url": "https://europepmc.org/article/MED/42774118",
+   "kind": "resistance",
+   "subject": "Anti-angiogenic agents",
+   "matched": [
+    "acquired resistance"
+   ],
+   "tier": "primary",
+   "peer_reviewed": true,
+   "species": "human",
+   "species_from": "keywords",
+   "genes": [
+    "VEGFA",
+    "KDR",
+    "POLE"
+   ],
+   "nodes": [
+    "site-root"
+   ]
+  },
+  {
+   "id": "42701139",
+   "src": "MED",
+   "pmid": "42701139",
+   "doi": "10.1007/s10147-026-03191-z",
+   "title": "Gastrointestinal perforation associated with bevacizumab and palliative radiotherapy.",
+   "journal": "International journal of clinical oncology",
+   "date": "2026-09-05",
+   "authors": "Makita K, Nakamura M, Hiroshima Y, Hirata H, Wakabayashi M, Mishima S, Kawazoe A",
+   "oa": false,
+   "url": "https://europepmc.org/article/MED/42701139",
+   "kind": "toxicity",
+   "subject": "Anti-angiogenic agents",
+   "matched": [
+    "gastrointestinal perforation"
+   ],
+   "tier": "primary",
+   "peer_reviewed": true,
+   "species": "human",
+   "species_from": "keywords",
+   "genes": [
+    "VEGFA",
+    "KDR",
+    "POLE"
+   ],
+   "nodes": [
+    "site-root"
+   ]
+  },
+  {
+   "id": "42755803",
+   "src": "MED",
+   "pmid": "42755803",
+   "doi": "10.3389/fcimb.2026.1907957",
+   "title": "Gut microbiome-mediated primary and acquired resistance to immune checkpoint inhibitors in MSI-H/dMMR colorectal cancer: mechanisms, biomarkers, and therapeutic implications-a narrative review.",
+   "journal": "Frontiers in cellular and infection microbiology",
+   "date": "2026-09-03",
+   "authors": "Marjanović M, Maletin N, Kukić B, Nikolić I, Petrović N, Radić J, Đurić A, Kneze",
+   "oa": true,
+   "url": "https://europepmc.org/article/MED/42755803",
+   "kind": "resistance",
+   "subject": "Checkpoint inhibitors in MSI-H disease",
+   "matched": [
+    "primary resistance"
+   ],
+   "tier": "review",
+   "peer_reviewed": true,
+   "species": "mouse",
+   "species_from": "mesh",
+   "genes": [
+    "PDCD1"
+   ],
+   "nodes": [
+    "rep-dmmr",
+    "site-rectum"
+   ]
+  },
+  {
+   "id": "42678245",
+   "src": "MED",
+   "pmid": "42678245",
+   "doi": "10.1158/0008-5472.can-25-5580",
+   "title": "The Trispecific Antibody IBI3019 Integrates CDH17-Enhanced EGFR Antagonism with Optimized CD16A Engagement to Elicit Potent Antitumor Activity with Minimal Toxicity.",
+   "journal": "Cancer research",
+   "date": "2026-09-01",
+   "authors": "Liu J, Ma J, Lin S, Dai W, Lu J, Wu M, Wang Y, Zheng H, Zhou S, Liu Y, Wang F, L",
+   "oa": false,
+   "url": "https://europepmc.org/article/MED/42678245",
+   "kind": "toxicity",
+   "subject": "Anti-EGFR antibodies (cetuximab, panitumumab)",
+   "matched": [
+    "rash"
+   ],
+   "tier": "primary",
+   "peer_reviewed": true,
+   "species": "unclear",
+   "species_from": "none",
+   "genes": [
+    "EGFR",
+    "BRAF",
+    "KRAS",
+    "ERBB2"
+   ],
+   "nodes": [
+    "drv-ras-wt",
+    "drv-kras-g12c",
+    "drv-braf-v600e"
+   ],
+   "also": [
+    {
+     "kind": "new-approach",
+     "subject": "EGFR"
+    }
+   ]
+  },
+  {
+   "id": "42808388",
+   "src": "MED",
+   "pmid": "42808388",
+   "doi": "10.31557/apjcp.2026.27.9.3221",
+   "title": "KRAS and BRAF Hotspot Variants Show Lower Prevalence in Bangladeshi Colorectal Cancer Patients.",
+   "journal": "Asian Pacific journal of cancer prevention : APJCP",
+   "date": "2026-09-01",
+   "authors": "Zunnun MS, Alam MZ, Rashid SMM, Rahaman MSAM, Parvez N, Sheikh MSH, Arjuman F, A",
+   "oa": false,
+   "url": "https://europepmc.org/article/MED/42808388",
+   "kind": "resistance",
+   "subject": "Anti-EGFR antibodies (cetuximab, panitumumab)",
+   "matched": [
+    "anti-EGFR resistance"
+   ],
+   "tier": "primary",
+   "peer_reviewed": true,
+   "species": "human",
+   "species_from": "mesh",
+   "genes": [
+    "EGFR",
+    "BRAF",
+    "KRAS",
+    "ERBB2"
+   ],
+   "nodes": [
+    "drv-ras-wt",
+    "drv-kras-g12c",
+    "drv-braf-v600e"
+   ]
+  },
+  {
+   "id": "42723578",
+   "src": "MED",
+   "pmid": "42723578",
+   "doi": "10.1002/ctm2.70827",
+   "title": "Circulating tumour DNA to guide rechallenge with cetuximab plus irinotecan in RAS/BRAF wild-type metastatic colorectal cancer: A nonrandomised clinical trial.",
+   "journal": "Clinical and translational medicine",
+   "date": "2026-09-01",
+   "authors": "Wang DS, Chen WC, Ren C, Wang FH, Wang ZQ, Luo HY, Wang F, Tan Q, Li YH.",
+   "oa": true,
+   "url": "https://europepmc.org/article/MED/42723578",
+   "kind": "resistance",
+   "subject": "Anti-EGFR antibodies (cetuximab, panitumumab)",
+   "matched": [
+    "anti-EGFR resistance",
+    "rechallenge"
+   ],
+   "tier": "trial",
+   "peer_reviewed": true,
+   "species": "human",
+   "species_from": "mesh",
+   "genes": [
+    "EGFR",
+    "BRAF",
+    "KRAS",
+    "ERBB2"
+   ],
+   "nodes": [
+    "drv-ras-wt",
+    "drv-kras-g12c",
+    "drv-braf-v600e"
+   ]
+  },
+  {
+   "id": "42616657",
+   "src": "MED",
+   "pmid": "42616657",
+   "doi": "10.1093/oncolo/oyag335",
+   "title": "RAF/MEK clamp inhibition with avutometinib and cetuximab in RAF1 S257L-mutated, anti-EGFR-refractory metastatic colorectal cancer in Gaucher's disease.",
+   "journal": "The oncologist",
+   "date": "2026-09-01",
+   "authors": "Rose A, Rosenberg A, Grewal US, Brown TJ, Hornstein N.",
+   "oa": true,
+   "url": "https://europepmc.org/article/MED/42616657",
+   "kind": "resistance",
+   "subject": "Anti-EGFR antibodies (cetuximab, panitumumab)",
+   "matched": [
+    "EGFR ectodomain"
+   ],
+   "tier": "primary",
+   "peer_reviewed": true,
+   "species": "human",
+   "species_from": "mesh",
+   "genes": [
+    "EGFR",
+    "BRAF",
+    "KRAS",
+    "ERBB2"
+   ],
+   "nodes": [
+    "drv-ras-wt",
+    "drv-kras-g12c",
+    "drv-braf-v600e"
+   ]
+  },
+  {
+   "id": "42545685",
+   "src": "MED",
+   "pmid": "42545685",
+   "doi": "10.1001/jama.2026.9350",
+   "title": "Addition of High-Dose Vitamin D3 to Standard Treatment in Patients With Metastatic Colorectal Cancer: The SOLARIS Randomized Clinical Trial (Alliance A021703).",
+   "journal": "JAMA",
+   "date": "2026-09-01",
+   "authors": "Ng K, Ou FS, Zemla T, Jackson NA, Kalyan A, Devoe C, Shusterman M, Vijayvergia N",
+   "oa": false,
+   "url": "https://europepmc.org/article/MED/42545685",
+   "kind": "toxicity",
+   "subject": "Anti-angiogenic agents",
+   "matched": [
+    "hypertension"
+   ],
+   "tier": "trial",
+   "peer_reviewed": true,
+   "species": "human",
+   "species_from": "mesh",
+   "genes": [
+    "VEGFA",
+    "KDR",
+    "POLE"
+   ],
+   "nodes": [
+    "site-root"
+   ]
+  },
+  {
+   "id": "42745771",
+   "src": "MED",
+   "pmid": "42745771",
+   "doi": "10.3389/fonc.2026.1861675",
+   "title": "Case Report: Remarkable response to savolitinib plus chemotherapy and bevacizumab in second-line treatment of MET amplified colon cancer with liver metastasis.",
+   "journal": "Frontiers in oncology",
+   "date": "2026-09-01",
+   "authors": "Huang Y, Shu P, Gu S, Wen F, Wang X.",
+   "oa": true,
+   "url": "https://europepmc.org/article/MED/42745771",
+   "kind": "resistance",
+   "subject": "Anti-angiogenic agents",
+   "matched": [
+    "acquired resistance"
+   ],
+   "tier": "primary",
+   "peer_reviewed": true,
+   "species": "unclear",
+   "species_from": "none",
+   "genes": [
+    "VEGFA",
+    "KDR",
+    "POLE"
+   ],
+   "nodes": [
+    "site-root"
+   ]
+  },
+  {
+   "id": "42703466",
+   "src": "MED",
+   "pmid": "42703466",
+   "doi": "10.21037/jgo-2026-0657",
+   "title": "Second-line raltitrexed plus irinotecan (SALIRI) with bevacizumab, cetuximab, or alone for metastatic colorectal cancer: a prospective multicenter cohort-based secondary analysis of the SALLY trial.",
+   "journal": "Journal of gastrointestinal oncology",
+   "date": "2026-08-27",
+   "authors": "Kou F, Wang X, Li J, Wang Z, Xu T.",
+   "oa": true,
+   "url": "https://europepmc.org/article/MED/42703466",
+   "kind": "toxicity",
+   "subject": "Anti-EGFR antibodies (cetuximab, panitumumab)",
+   "matched": [
+    "rash"
+   ],
+   "tier": "primary",
+   "peer_reviewed": true,
+   "species": "human",
+   "species_from": "keywords",
+   "genes": [
+    "EGFR",
+    "BRAF",
+    "KRAS",
+    "ERBB2"
+   ],
+   "nodes": [
+    "drv-ras-wt",
+    "drv-kras-g12c",
+    "drv-braf-v600e"
+   ]
+  },
+  {
+   "id": "42661135",
+   "src": "MED",
+   "pmid": "42661135",
+   "doi": "10.1007/s10147-026-03181-1",
+   "title": "Proteinuria as the cause of early dose modification in Japanese patients with metastatic colorectal cancer treated with fruquintinib: a multicenter real-world study.",
+   "journal": "International journal of clinical oncology",
+   "date": "2026-08-27",
+   "authors": "Udagawa S, Ishizuka C, Osumi H, Hirose T, Okita N, Hirano H, Shoji H, Kato K, Yo",
+   "oa": false,
+   "url": "https://europepmc.org/article/MED/42661135",
+   "kind": "toxicity",
+   "subject": "Anti-angiogenic agents",
+   "matched": [
+    "hypertension",
+    "proteinuria"
+   ],
+   "tier": "primary",
+   "peer_reviewed": true,
+   "species": "human",
+   "species_from": "keywords",
+   "genes": [
+    "VEGFA",
+    "KDR",
+    "POLE"
+   ],
+   "nodes": [
+    "site-root"
+   ]
+  },
+  {
+   "id": "PPR1306982",
+   "src": "PPR",
+   "pmid": null,
+   "doi": "10.64898/2026.08.26.747295",
+   "title": "LGR5-high colorectal cancer defines a Wnt-active stem-like state with multimodal therapeutic vulnerabilities",
+   "journal": null,
+   "date": "2026-08-27",
+   "authors": "Paniagua-Herranz L, Feito A, Privat C, Álvarez-Carrión L, Doger B, Tejedor AR, A",
+   "oa": false,
+   "url": "https://europepmc.org/article/PPR/PPR1306982",
+   "kind": "new-approach",
+   "subject": "APC",
+   "matched": [
+    "antibody-drug conjugate"
+   ],
+   "tier": "preprint",
+   "peer_reviewed": false,
+   "species": "unclear",
+   "species_from": "none",
+   "genes": [
+    "APC"
+   ],
+   "nodes": []
+  },
+  {
+   "id": "42756525",
+   "src": "MED",
+   "pmid": "42756525",
+   "doi": "10.1016/j.omton.2026.201333",
+   "title": "A p53R273H-selective bispecific T cell engager: Computational design and functional validation.",
+   "journal": "Molecular therapy. Oncology",
+   "date": "2026-08-26",
+   "authors": "Huynh N, Thi Nguyen TM, Bui NT, Ho Nguyen TN, Tran DT, Nguyen HN, Nguyen CT.",
+   "oa": true,
+   "url": "https://europepmc.org/article/MED/42756525",
+   "kind": "new-approach",
+   "subject": "TP53",
+   "matched": [
+    "bispecific"
+   ],
+   "tier": "primary",
+   "peer_reviewed": true,
+   "species": "mouse",
+   "species_from": "keywords",
+   "genes": [
+    "TP53"
+   ],
+   "nodes": []
+  },
+  {
+   "id": "42713197",
+   "src": "MED",
+   "pmid": "42713197",
+   "doi": "10.3389/fonc.2026.1908199",
+   "title": "Organ preservation after neoadjuvant immunotherapy in mismatch repair-deficient colorectal cancer: response assessment, watch-and-wait, and salvage surgery.",
+   "journal": "Frontiers in oncology",
+   "date": "2026-08-25",
+   "authors": "Yao N, Xu G, Duan N, Han F, Li W, Qu J.",
+   "oa": true,
+   "url": "https://europepmc.org/article/MED/42713197",
+   "kind": "resistance",
+   "subject": "Dostarlimab in repair-deficient rectal cancer",
+   "matched": [
+    "regrowth"
+   ],
+   "tier": "review",
+   "peer_reviewed": true,
+   "species": "human",
+   "species_from": "keywords",
+   "genes": [
+    "PDCD1"
+   ],
+   "nodes": [
+    "rep-dmmr",
+    "site-rectum"
+   ]
+  },
+  {
+   "id": "42636265",
+   "src": "MED",
+   "pmid": "42636265",
+   "doi": "10.1093/jnci/djag287",
+   "title": "Evaluating longitudinal toxicity and adverse event in cetuximab-treated metastatic colorectal cancer: a pooled analysis from 1,302 patients in ARCAD database.",
+   "journal": "Journal of the National Cancer Institute",
+   "date": "2026-08-24",
+   "authors": "Yin J, Francis KE, Lopes GS, So J, Olswold CL, Van Cutsem E, Bokemeyer C, Adams ",
+   "oa": false,
+   "url": "https://europepmc.org/article/MED/42636265",
+   "kind": "toxicity",
+   "subject": "Anti-EGFR antibodies (cetuximab, panitumumab)",
+   "matched": [
+    "rash"
+   ],
+   "tier": "primary",
+   "peer_reviewed": true,
+   "species": "human",
+   "species_from": "keywords",
+   "genes": [
+    "EGFR",
+    "BRAF",
+    "KRAS",
+    "ERBB2"
+   ],
+   "nodes": [
+    "drv-ras-wt",
+    "drv-kras-g12c",
+    "drv-braf-v600e"
+   ]
+  },
+  {
+   "id": "42635595",
+   "src": "MED",
+   "pmid": "42635595",
+   "doi": "10.1158/1078-0432.ccr-26-2128",
+   "title": "EMB-01, an Anti-EGFR/c-MET Bispecific Antibody, in Patients with Heavily Pretreated Metastatic Colorectal Cancer From a Phase Ib/II, Open-Label, Multicenter Study.",
+   "journal": "Clinical cancer research : an official journal of the American Association for Cancer Research",
+   "date": "2026-08-24",
+   "authors": "Xu T, Parseghian CM, Zhang Y, Chen Z, Qin Y, Zhang W, Deng Y, Pan H, Gu S, Li C,",
+   "oa": false,
+   "url": "https://europepmc.org/article/MED/42635595",
+   "kind": "toxicity",
+   "subject": "Anti-EGFR antibodies (cetuximab, panitumumab)",
+   "matched": [
+    "acneiform",
+    "rash"
+   ],
+   "tier": "primary",
+   "peer_reviewed": true,
+   "species": "human",
+   "species_from": "keywords",
+   "genes": [
+    "EGFR",
+    "BRAF",
+    "KRAS",
+    "ERBB2"
+   ],
+   "nodes": [
+    "drv-ras-wt",
+    "drv-kras-g12c",
+    "drv-braf-v600e"
+   ],
+   "also": [
+    {
+     "kind": "new-approach",
+     "subject": "EGFR"
+    }
+   ]
+  },
+  {
+   "id": "42737462",
+   "src": "MED",
+   "pmid": "42737462",
+   "doi": "10.3390/ijms27177559",
+   "title": "The Role of Monoclonal Antibody Targeted Therapy (Panitumumab) in the Treatment of Metastatic Colorectal Cancer-A Narrative Review of Current Evidence and Emerging Therapeutic Strategies.",
+   "journal": "International journal of molecular sciences",
+   "date": "2026-08-24",
+   "authors": "Kwiatkowska L, Szczuko M.",
+   "oa": true,
+   "url": "https://europepmc.org/article/MED/42737462",
+   "kind": "resistance",
+   "subject": "Anti-EGFR antibodies (cetuximab, panitumumab)",
+   "matched": [
+    "rechallenge"
+   ],
+   "tier": "review",
+   "peer_reviewed": true,
+   "species": "human",
+   "species_from": "mesh",
+   "genes": [
+    "EGFR",
+    "BRAF",
+    "KRAS",
+    "ERBB2"
+   ],
+   "nodes": [
+    "drv-ras-wt",
+    "drv-kras-g12c",
+    "drv-braf-v600e"
+   ]
+  },
+  {
+   "id": "42635710",
+   "src": "MED",
+   "pmid": "42635710",
+   "doi": "10.1007/s13304-026-02823-3",
+   "title": "Liquid biopsy in colorectal cancer: redefining surgical decision-making.",
+   "journal": "Updates in surgery",
+   "date": "2026-08-24",
+   "authors": "Rausa E, De Grandis MC, Bergamo F, Aiolfi A, Vitellaro M.",
+   "oa": false,
+   "url": "https://europepmc.org/article/MED/42635710",
+   "kind": "resistance",
+   "subject": "Anti-EGFR antibodies (cetuximab, panitumumab)",
+   "matched": [
+    "rechallenge"
+   ],
+   "tier": "review",
+   "peer_reviewed": true,
+   "species": "human",
+   "species_from": "keywords",
+   "genes": [
+    "EGFR",
+    "BRAF",
+    "KRAS",
+    "ERBB2"
+   ],
+   "nodes": [
+    "drv-ras-wt",
+    "drv-kras-g12c",
+    "drv-braf-v600e"
+   ]
+  },
+  {
+   "id": "42662364",
+   "src": "MED",
+   "pmid": "42662364",
+   "doi": "10.36401/jipo-25-32",
+   "title": "Colonic Polyp Regression After Nous-209 Cancer Immunotherapy: A Clinical Trial Case Report.",
+   "journal": "Journal of immunotherapy and precision oncology",
+   "date": "2026-08-24",
+   "authors": "Crespo-Cruz M, Rodriguez-Justo M, Humphries A, Plumb A, Antoniou A, Monahan K, R",
+   "oa": true,
+   "url": "https://europepmc.org/article/MED/42662364",
+   "kind": "toxicity",
+   "subject": "Checkpoint inhibitors in MSI-H disease",
+   "matched": [
+    "colitis"
+   ],
+   "tier": "primary",
+   "peer_reviewed": true,
+   "species": "human",
+   "species_from": "keywords",
+   "genes": [
+    "PDCD1"
+   ],
+   "nodes": [
+    "rep-dmmr",
+    "site-rectum"
+   ]
+  },
+  {
+   "id": "42617424",
+   "src": "MED",
+   "pmid": "42617424",
+   "doi": "10.1016/j.esmoop.2026.108338",
+   "title": "Safety and efficacy of sotorasib plus panitumumab and FOLFIRI for previously treated KRAS G12C-mutated metastatic colorectal cancer in the CodeBreaK 101 phase Ib study.",
+   "journal": "ESMO open",
+   "date": "2026-08-19",
+   "authors": "Masuishi T, Strickler JH, Kuboki Y, Fakih M, Greil R, Galot R, Price TJ, Élez E,",
+   "oa": true,
+   "url": "https://europepmc.org/article/MED/42617424",
+   "kind": "toxicity",
+   "subject": "Anti-EGFR antibodies (cetuximab, panitumumab)",
+   "matched": [
+    "acneiform"
+   ],
+   "tier": "trial",
+   "peer_reviewed": true,
+   "species": "human",
+   "species_from": "mesh",
+   "genes": [
+    "EGFR",
+    "BRAF",
+    "KRAS",
+    "ERBB2"
+   ],
+   "nodes": [
+    "drv-ras-wt",
+    "drv-kras-g12c",
+    "drv-braf-v600e"
+   ]
+  },
+  {
+   "id": "42767848",
+   "src": "MED",
+   "pmid": "42767848",
+   "doi": "10.1016/j.clcc.2026.08.002",
+   "title": "Efficacy and Safety of Immune Checkpoint Inhibitor-Based Neoadjuvant Therapy Combinations in Proficient Mismatch Repair/Microsatellite Stable Locally Advanced Rectal Cancer: A Systematic Review and Meta-Analysis.",
+   "journal": "Clinical colorectal cancer",
+   "date": "2026-08-19",
+   "authors": "Jia X, Zhang G, Lv Y, Wang F, Lai C, Chen Y, Xu L, Shan L, Sun X, Huang X, Dai S",
+   "oa": false,
+   "url": "https://europepmc.org/article/MED/42767848",
+   "kind": "toxicity",
+   "subject": "Checkpoint inhibitors in MSI-H disease",
+   "matched": [
+    "immune-related adverse"
+   ],
+   "tier": "review",
+   "peer_reviewed": true,
+   "species": "human",
+   "species_from": "keywords",
+   "genes": [
+    "PDCD1"
+   ],
+   "nodes": [
+    "rep-dmmr",
+    "site-rectum"
+   ]
+  },
+  {
+   "id": "42688229",
+   "src": "MED",
+   "pmid": "42688229",
+   "doi": "10.3389/fimmu.2026.1925363",
+   "title": "Unlocking HER2 as a target in KRAS-mutated rectal cancer: a case of significant response to zanidatamab-based regimen.",
+   "journal": "Frontiers in immunology",
+   "date": "2026-08-19",
+   "authors": "Zhou K, Yang Y.",
+   "oa": true,
+   "url": "https://europepmc.org/article/MED/42688229",
+   "kind": "new-approach",
+   "subject": "KRAS",
+   "matched": [
+    "bispecific"
+   ],
+   "tier": "primary",
+   "peer_reviewed": true,
+   "species": "human",
+   "species_from": "mesh",
+   "genes": [
+    "KRAS"
+   ],
+   "nodes": [
+    "drv-kras-g12c"
+   ]
+  },
+  {
+   "id": "42611092",
+   "src": "MED",
+   "pmid": "42611092",
+   "doi": "10.1007/s12029-026-01547-2",
+   "title": "KRAS G12C-mutated Metastatic Colorectal Cancer: Current Therapeutic Strategies and Future Directions.",
+   "journal": "Journal of gastrointestinal cancer",
+   "date": "2026-08-18",
+   "authors": "Sagawa T, Nagashima H, Fujikawa K.",
+   "oa": false,
+   "url": "https://europepmc.org/article/MED/42611092",
+   "kind": "resistance",
+   "subject": "KRAS G12C inhibitors with anti-EGFR antibodies",
+   "matched": [
+    "receptor tyrosine kinase"
+   ],
+   "tier": "review",
+   "peer_reviewed": true,
+   "species": "human",
+   "species_from": "mesh",
+   "genes": [
+    "KRAS",
+    "EGFR"
+   ],
+   "nodes": [
+    "drv-kras-g12c",
+    "drv-ras-wt",
+    "drv-braf-v600e"
+   ]
+  },
+  {
+   "id": "42610521",
+   "src": "MED",
+   "pmid": "42610521",
+   "doi": "10.1002/advs.202523795",
+   "title": "Selenium Nanoparticles Selectively Target KRAS G13D to Inhibit Colorectal Cancer.",
+   "journal": "Advanced science (Weinheim, Baden-Wurttemberg, Germany)",
+   "date": "2026-08-18",
+   "authors": "Liu X, Wu C, Song S, Ma L, Huang S, He Y, Li Q, Chang Y, Jiang D, Mei Y, Cai J, ",
+   "oa": true,
+   "url": "https://europepmc.org/article/MED/42610521",
+   "kind": "new-approach",
+   "subject": "KRAS",
+   "matched": [
+    "first-in-class"
+   ],
+   "tier": "primary",
+   "peer_reviewed": true,
+   "species": "mouse",
+   "species_from": "keywords",
+   "genes": [
+    "KRAS"
+   ],
+   "nodes": [
+    "drv-kras-g12c"
+   ]
+  },
+  {
+   "id": "42606655",
+   "src": "MED",
+   "pmid": "42606655",
+   "doi": "10.1245/s10434-026-20430-9",
+   "title": "Neoadjuvant Immunotherapy in Localized dMMR/MSI-H Colon Cancer: A Systematic Review of Pathological Response and Surgical Outcomes.",
+   "journal": "Annals of surgical oncology",
+   "date": "2026-08-17",
+   "authors": "Gosavi R, Smith B, Chouhan H, Nguyen TC, Teoh W, McMurrick P, Narasimhan V.",
+   "oa": false,
+   "url": "https://europepmc.org/article/MED/42606655",
+   "kind": "toxicity",
+   "subject": "Checkpoint inhibitors in MSI-H disease",
+   "matched": [
+    "immune-related adverse"
+   ],
+   "tier": "review",
+   "peer_reviewed": true,
+   "species": "human",
+   "species_from": "keywords",
+   "genes": [
+    "PDCD1"
+   ],
+   "nodes": [
+    "rep-dmmr",
+    "site-rectum"
+   ]
+  },
+  {
+   "id": "42599544",
+   "src": "MED",
+   "pmid": "42599544",
+   "doi": "10.1007/s12029-026-01566-z",
+   "title": "Relative Dose Intensity and Clinical Outcomes of Using Trifluridine/Tipiracil with or without Bevacizumab in Patients Aged ≥ 75 Years with Advanced or Recurrent Colorectal Cancer: a Single-Center Retrospective Study.",
+   "journal": "Journal of gastrointestinal cancer",
+   "date": "2026-08-14",
+   "authors": "Tomiuchi A, Kimura M, Ikeda Y, Usami E.",
+   "oa": false,
+   "url": "https://europepmc.org/article/MED/42599544",
+   "kind": "toxicity",
+   "subject": "Anti-angiogenic agents",
+   "matched": [
+    "hypertension",
+    "proteinuria"
+   ],
+   "tier": "primary",
+   "peer_reviewed": true,
+   "species": "human",
+   "species_from": "mesh",
+   "genes": [
+    "VEGFA",
+    "KDR",
+    "POLE"
+   ],
+   "nodes": [
+    "site-root"
+   ]
+  },
+  {
+   "id": "42630712",
+   "src": "MED",
+   "pmid": "42630712",
+   "doi": "10.32604/or.2026.084378",
+   "title": "A Phase II Clinical Trial of Chemotherapy Rechallenge with or without Targeted Therapy in Refractory Metastatic Colorectal Cancer.",
+   "journal": "Oncology research",
+   "date": "2026-08-13",
+   "authors": "Wang C, Huang M, Li W, Sheng X, Zhao X, Zhu X, Chen Z, Zhang Z, Li H, Guo W.",
+   "oa": true,
+   "url": "https://europepmc.org/article/MED/42630712",
+   "kind": "resistance",
+   "subject": "Anti-EGFR antibodies (cetuximab, panitumumab)",
+   "matched": [
+    "rechallenge"
+   ],
+   "tier": "trial",
+   "peer_reviewed": true,
+   "species": "human",
+   "species_from": "mesh",
+   "genes": [
+    "EGFR",
+    "BRAF",
+    "KRAS",
+    "ERBB2"
+   ],
+   "nodes": [
+    "drv-ras-wt",
+    "drv-kras-g12c",
+    "drv-braf-v600e"
+   ]
+  },
+  {
+   "id": "42661856",
+   "src": "MED",
+   "pmid": "42661856",
+   "doi": "10.1016/j.esmogo.2026.100398",
+   "title": "Predictive biomarkers for cetuximab-based rechallenge therapy in metastatic colorectal cancer: a pooled analysis of the CAVE and CAVE-2 GOIM studies.",
+   "journal": "ESMO gastrointestinal oncology",
+   "date": "2026-08-10",
+   "authors": "Ciardiello D, Martini G, Pietrantonio F, Avallone A, Pisconti S, Santabarbara G,",
+   "oa": true,
+   "url": "https://europepmc.org/article/MED/42661856",
+   "kind": "resistance",
+   "subject": "Anti-EGFR antibodies (cetuximab, panitumumab)",
+   "matched": [
+    "rechallenge"
+   ],
+   "tier": "primary",
+   "peer_reviewed": true,
+   "species": "human",
+   "species_from": "keywords",
+   "genes": [
+    "EGFR",
+    "BRAF",
+    "KRAS",
+    "ERBB2"
+   ],
+   "nodes": [
+    "drv-ras-wt",
+    "drv-kras-g12c",
+    "drv-braf-v600e"
+   ]
+  },
+  {
+   "id": "42574910",
+   "src": "MED",
+   "pmid": "42574910",
+   "doi": "10.1016/j.prp.2026.156645",
+   "title": "Emerging Landscape of CAR-T Cell Therapy in Colon Cancer: Mechanistic Insights, Clinical Advances, Challenges, and Future Directions.",
+   "journal": "Pathology, research and practice",
+   "date": "2026-08-10",
+   "authors": "Raza A, Raza MA, Khan J, Ajazuddin.",
+   "oa": false,
+   "url": "https://europepmc.org/article/MED/42574910",
+   "kind": "new-approach",
+   "subject": "EGFR",
+   "matched": [
+    "CAR-T"
+   ],
+   "tier": "review",
+   "peer_reviewed": true,
+   "species": "human",
+   "species_from": "mesh",
+   "genes": [
+    "EGFR"
+   ],
+   "nodes": [
+    "drv-ras-wt",
+    "drv-kras-g12c",
+    "drv-braf-v600e"
+   ]
+  },
+  {
+   "id": "42571850",
+   "src": "MED",
+   "pmid": "42571850",
+   "doi": "10.1016/j.jare.2026.08.030",
+   "title": "From KRAS inhibition to tumor adaptation: mechanistic layers of resistance and therapeutic strategies.",
+   "journal": "Journal of advanced research",
+   "date": "2026-08-09",
+   "authors": "Salih R, Sirajudeen F, Rahmani M.",
+   "oa": false,
+   "url": "https://europepmc.org/article/MED/42571850",
+   "kind": "new-approach",
+   "subject": "KRAS",
+   "matched": [
+    "targeted protein degradation"
+   ],
+   "tier": "review",
+   "peer_reviewed": true,
+   "species": "unclear",
+   "species_from": "none",
+   "genes": [
+    "KRAS"
+   ],
+   "nodes": [
+    "drv-kras-g12c"
+   ]
+  },
+  {
+   "id": "42625774",
+   "src": "MED",
+   "pmid": "42625774",
+   "doi": "10.3389/fcell.2026.1870567",
+   "title": "Unequal access to liquid biopsy in colorectal cancer care: a cross-sectional survey of clinicians across hospital tiers in Zhejiang, China.",
+   "journal": "Frontiers in cell and developmental biology",
+   "date": "2026-08-06",
+   "authors": "Li S, Shen Z, Sun Y, Hu Y, Cao Y.",
+   "oa": true,
+   "url": "https://europepmc.org/article/MED/42625774",
+   "kind": "resistance",
+   "subject": "Anti-EGFR antibodies (cetuximab, panitumumab)",
+   "matched": [
+    "anti-EGFR resistance"
+   ],
+   "tier": "primary",
+   "peer_reviewed": true,
+   "species": "human",
+   "species_from": "keywords",
+   "genes": [
+    "EGFR",
+    "BRAF",
+    "KRAS",
+    "ERBB2"
+   ],
+   "nodes": [
+    "drv-ras-wt",
+    "drv-kras-g12c",
+    "drv-braf-v600e"
+   ]
+  },
+  {
+   "id": "42557133",
+   "src": "MED",
+   "pmid": "42557133",
+   "doi": "10.1016/j.trecan.2026.07.005",
+   "title": "HuR degradation reveals dependencies in BRAF-driven cancers.",
+   "journal": "Trends in cancer",
+   "date": "2026-08-06",
+   "authors": "Siordia IR, Brody JR, Dixon DA.",
+   "oa": false,
+   "url": "https://europepmc.org/article/MED/42557133",
+   "kind": "new-approach",
+   "subject": "BRAF",
+   "matched": [
+    "molecular glue"
+   ],
+   "tier": "primary",
+   "peer_reviewed": true,
+   "species": "human",
+   "species_from": "mesh",
+   "genes": [
+    "BRAF"
+   ],
+   "nodes": [
+    "drv-braf-v600e"
+   ]
+  },
+  {
+   "id": "42610703",
+   "src": "MED",
+   "pmid": "42610703",
+   "doi": "10.1093/oncolo/oyag320",
+   "title": "FOLFOXIRI plus panitumumab for left-sided RAS-wild-type metastatic colorectal cancer.",
+   "journal": "The oncologist",
+   "date": "2026-08-01",
+   "authors": "Hochster HS, Blatchford PJ, Stein S, Lacy J, Kasi A, Boland PM, Gold P, Scott AJ",
+   "oa": true,
+   "url": "https://europepmc.org/article/MED/42610703",
+   "kind": "toxicity",
+   "subject": "Anti-EGFR antibodies (cetuximab, panitumumab)",
+   "matched": [
+    "rash",
+    "hypomagnesemia"
+   ],
+   "tier": "trial",
+   "peer_reviewed": true,
+   "species": "human",
+   "species_from": "mesh",
+   "genes": [
+    "EGFR",
+    "BRAF",
+    "KRAS",
+    "ERBB2"
+   ],
+   "nodes": [
+    "drv-ras-wt",
+    "drv-kras-g12c",
+    "drv-braf-v600e"
+   ]
+  },
+  {
+   "id": "41837748",
+   "src": "MED",
+   "pmid": "41837748",
+   "doi": "10.1158/1078-0432.ccr-25-1230",
+   "title": "Improving Anti-CTLA-4 Therapies through Peptide Masking and Fragment Crystallizable Non-fucosylation: Preclinical Characterization of Three Novel Antibodies.",
+   "journal": "Clinical cancer research : an official journal of the American Association for Cancer Research",
+   "date": "2026-08-01",
+   "authors": "Jhatakia A, Sun X, Vaccaro A, Wang M, Nasser M, Mukhopadhyay A, Gupta N, Kang K,",
+   "oa": true,
+   "url": "https://europepmc.org/article/MED/41837748",
+   "kind": "toxicity",
+   "subject": "Checkpoint inhibitors in MSI-H disease",
+   "matched": [
+    "immune-related adverse"
+   ],
+   "tier": "primary",
+   "peer_reviewed": true,
+   "species": "mouse",
+   "species_from": "mesh",
+   "genes": [
+    "PDCD1"
+   ],
+   "nodes": [
+    "rep-dmmr",
+    "site-rectum"
+   ]
+  },
+  {
+   "id": "42588647",
+   "src": "MED",
+   "pmid": "42588647",
+   "doi": "10.3390/cancers18152429",
+   "title": "Impact of Bevacizumab Relative Dose Intensity and Treatment-Induced Proteinuria on the Efficacy of Trifluridine/Tipiracil Plus Bevacizumab in Metastatic Colorectal Cancer.",
+   "journal": "Cancers",
+   "date": "2026-07-28",
+   "authors": "Tsukida T, Shibutani M, Nakatani S, Tanda H, Seki Y, Kasashima H, Emoto M, Maeda",
+   "oa": true,
+   "url": "https://europepmc.org/article/MED/42588647",
+   "kind": "toxicity",
+   "subject": "Anti-angiogenic agents",
+   "matched": [
+    "proteinuria"
+   ],
+   "tier": "primary",
+   "peer_reviewed": true,
+   "species": "human",
+   "species_from": "keywords",
+   "genes": [
+    "VEGFA",
+    "KDR",
+    "POLE"
+   ],
+   "nodes": [
+    "site-root"
+   ]
+  },
+  {
+   "id": "42515910",
+   "src": "MED",
+   "pmid": "42515910",
+   "doi": "10.2174/0118715206402851251203225833",
+   "title": "Rechallenge Therapy: New Dimensions in Cancer Therapy.",
+   "journal": "Anti-cancer agents in medicinal chemistry",
+   "date": "2026-07-23",
+   "authors": "Singh H, Kumar R, Mazumder A, Yadav RK.",
+   "oa": false,
+   "url": "https://europepmc.org/article/MED/42515910",
+   "kind": "resistance",
+   "subject": "Anti-EGFR antibodies (cetuximab, panitumumab)",
+   "matched": [
+    "rechallenge"
+   ],
+   "tier": "primary",
+   "peer_reviewed": true,
+   "species": "human",
+   "species_from": "keywords",
+   "genes": [
+    "EGFR",
+    "BRAF",
+    "KRAS",
+    "ERBB2"
+   ],
+   "nodes": [
+    "drv-ras-wt",
+    "drv-kras-g12c",
+    "drv-braf-v600e"
+   ]
+  },
+  {
+   "id": "42487519",
+   "src": "MED",
+   "pmid": "42487519",
+   "doi": "10.1111/cas.70480",
+   "title": "New Treatment Strategy and Future Research Direction for BRAF-Mutated Cancer.",
+   "journal": "Cancer science",
+   "date": "2026-07-23",
+   "authors": "Takahashi M, Taniguchi SH, Yoshida Y.",
+   "oa": true,
+   "url": "https://europepmc.org/article/MED/42487519",
+   "kind": "resistance",
+   "subject": "BRAF V600E: encorafenib with cetuximab",
+   "matched": [
+    "acquired resistance"
+   ],
+   "tier": "review",
+   "peer_reviewed": true,
+   "species": "human",
+   "species_from": "keywords",
+   "genes": [
+    "BRAF",
+    "EGFR"
+   ],
+   "nodes": [
+    "drv-braf-v600e",
+    "drv-ras-wt",
+    "drv-kras-g12c"
+   ]
+  },
+  {
+   "id": "42558893",
+   "src": "MED",
+   "pmid": "42558893",
+   "doi": "10.3389/fmed.2026.1906283",
+   "title": "Targeting molecular residual disease and immune escape in colorectal cancer recurrence: biomarker-guided immunotherapy and cell therapies.",
+   "journal": "Frontiers in medicine",
+   "date": "2026-07-22",
+   "authors": "Shan Y, Zhang X, Liu J, Hu B, Yang L, Wang H, Li J, Jiang Z, Gong G.",
+   "oa": true,
+   "url": "https://europepmc.org/article/MED/42558893",
+   "kind": "new-approach",
+   "subject": "KRAS",
+   "matched": [
+    "CAR-T"
+   ],
+   "tier": "review",
+   "peer_reviewed": true,
+   "species": "human",
+   "species_from": "keywords",
+   "genes": [
+    "KRAS"
+   ],
+   "nodes": [
+    "drv-kras-g12c"
+   ]
+  },
+  {
+   "id": "42477619",
+   "src": "MED",
+   "pmid": "42477619",
+   "doi": "10.1186/s12885-026-16491-4",
+   "title": "Efficacy and safety of cetuximab-irinotecan rechallenge versus regorafenib in ras wild-type metastatic colorectal cancer: a single-center exploratory randomized trial.",
+   "journal": "BMC cancer",
+   "date": "2026-07-21",
+   "authors": "Chen H, Jiang T, Wang H, Zheng J, Du B, Weng X, Yao N, Zhu Y, Liu Q, Lin F, Wang",
+   "oa": false,
+   "url": "https://europepmc.org/article/MED/42477619",
+   "kind": "resistance",
+   "subject": "Anti-EGFR antibodies (cetuximab, panitumumab)",
+   "matched": [
+    "rechallenge"
+   ],
+   "tier": "primary",
+   "peer_reviewed": true,
+   "species": "human",
+   "species_from": "keywords",
+   "genes": [
+    "EGFR",
+    "BRAF",
+    "KRAS",
+    "ERBB2"
+   ],
+   "nodes": [
+    "drv-ras-wt",
+    "drv-kras-g12c",
+    "drv-braf-v600e"
+   ]
+  },
+  {
+   "id": "42481259",
+   "src": "MED",
+   "pmid": "42481259",
+   "doi": "10.1016/j.farma.2026.06.008",
+   "title": "Systematic review and adjusted indirect comparison of first-line immune checkpoint inhibitors in metastatic colorectal cancer.",
+   "journal": "Farmacia hospitalaria : organo oficial de expresion cientifica de la Sociedad Espanola de Farmacia Hospitalaria",
+   "date": "2026-07-21",
+   "authors": "Reyes-de-la-Mata Y, Fenix-Caballero S, Salmeron-Navas FJ.",
+   "oa": false,
+   "url": "https://europepmc.org/article/MED/42481259",
+   "kind": "toxicity",
+   "subject": "Checkpoint inhibitors in MSI-H disease",
+   "matched": [
+    "immune-related adverse"
+   ],
+   "tier": "primary",
+   "peer_reviewed": true,
+   "species": "human",
+   "species_from": "keywords",
+   "genes": [
+    "PDCD1"
+   ],
+   "nodes": [
+    "rep-dmmr",
+    "site-rectum"
+   ]
+  },
+  {
+   "id": "42476270",
+   "src": "MED",
+   "pmid": "42476270",
+   "doi": "10.1016/j.bcp.2026.118270",
+   "title": "Antibody-drug conjugates in colorectal cancer: advances, challenges, and prospectives.",
+   "journal": "Biochemical pharmacology",
+   "date": "2026-07-20",
+   "authors": "Zeng L, Zhu Y, Zhang K, Liu B, Ding J.",
+   "oa": false,
+   "url": "https://europepmc.org/article/MED/42476270",
+   "kind": "new-approach",
+   "subject": "EGFR",
+   "matched": [
+    "bispecific",
+    "antibody-drug conjugate"
+   ],
+   "tier": "review",
+   "peer_reviewed": true,
+   "species": "mouse",
+   "species_from": "mesh",
+   "genes": [
+    "EGFR"
+   ],
+   "nodes": [
+    "drv-ras-wt",
+    "drv-kras-g12c",
+    "drv-braf-v600e"
+   ]
+  },
+  {
+   "id": "42462280",
+   "src": "MED",
+   "pmid": "42462280",
+   "doi": "10.1016/j.esmoop.2026.108304",
+   "title": "Next-generation precision oncology in microsatellite stable colorectal cancer: integrated targeting beyond RAS and RAF.",
+   "journal": "ESMO open",
+   "date": "2026-07-16",
+   "authors": "Bartolini M, Algaze S, Lenz HJ.",
+   "oa": true,
+   "url": "https://europepmc.org/article/MED/42462280",
+   "kind": "new-approach",
+   "subject": "BRAF",
+   "matched": [
+    "bispecific",
+    "antibody-drug conjugate"
+   ],
+   "tier": "review",
+   "peer_reviewed": true,
+   "species": "human",
+   "species_from": "mesh",
+   "genes": [
+    "BRAF",
+    "EGFR",
+    "POLE"
+   ],
+   "nodes": [
+    "drv-braf-v600e",
+    "drv-ras-wt",
+    "drv-kras-g12c"
+   ],
+   "also": [
+    {
+     "kind": "new-approach",
+     "subject": "EGFR"
+    },
+    {
+     "kind": "new-approach",
+     "subject": "POLE"
+    }
+   ]
+  },
+  {
+   "id": "42447212",
+   "src": "MED",
+   "pmid": "42447212",
+   "doi": "10.1126/scisignal.aek4190",
+   "title": "A molecular glue to take down mutant BRAF.",
+   "journal": "Science signaling",
+   "date": "2026-07-14",
+   "authors": "Ferrarelli LK.",
+   "oa": false,
+   "url": "https://europepmc.org/article/MED/42447212",
+   "kind": "new-approach",
+   "subject": "BRAF",
+   "matched": [
+    "degrader",
+    "molecular glue"
+   ],
+   "tier": "primary",
+   "peer_reviewed": true,
+   "species": "human",
+   "species_from": "mesh",
+   "genes": [
+    "BRAF"
+   ],
+   "nodes": [
+    "drv-braf-v600e"
+   ]
+  },
+  {
+   "id": "42500681",
+   "src": "MED",
+   "pmid": "42500681",
+   "doi": "10.3389/fimmu.2026.1798732",
+   "title": "A network meta-analysis of endocrine adverse events induced by immune checkpoint inhibitors in colorectal cancer.",
+   "journal": "Frontiers in immunology",
+   "date": "2026-07-10",
+   "authors": "Chen B, Liu J, Gan K, Yang L, Qiu P, Ma B, Chen W.",
+   "oa": true,
+   "url": "https://europepmc.org/article/MED/42500681",
+   "kind": "toxicity",
+   "subject": "Checkpoint inhibitors in MSI-H disease",
+   "matched": [
+    "thyroiditis"
+   ],
+   "tier": "systematic review",
+   "peer_reviewed": true,
+   "species": "human",
+   "species_from": "mesh",
+   "genes": [
+    "PDCD1"
+   ],
+   "nodes": [
+    "rep-dmmr",
+    "site-rectum"
+   ]
+  },
+  {
+   "id": "42423856",
+   "src": "MED",
+   "pmid": "42423856",
+   "doi": "10.1007/s12029-026-01524-9",
+   "title": "Treatment Selection Beyond Second Line in Metastatic Colorectal Cancer: Practical Sequencing of Cytotoxic Salvage Therapy, Anti-angiogenic Agents, Rechallenge Strategies, and Biomarker-Guided Treatments.",
+   "journal": "Journal of gastrointestinal cancer",
+   "date": "2026-07-09",
+   "authors": "Sagawa T, Nagashima H, Fujikawa K.",
+   "oa": false,
+   "url": "https://europepmc.org/article/MED/42423856",
+   "kind": "resistance",
+   "subject": "Anti-EGFR antibodies (cetuximab, panitumumab)",
+   "matched": [
+    "rechallenge"
+   ],
+   "tier": "review",
+   "peer_reviewed": true,
+   "species": "human",
+   "species_from": "mesh",
+   "genes": [
+    "EGFR",
+    "BRAF",
+    "KRAS",
+    "ERBB2"
+   ],
+   "nodes": [
+    "drv-ras-wt",
+    "drv-kras-g12c",
+    "drv-braf-v600e"
+   ]
+  },
+  {
+   "id": "42423805",
+   "src": "MED",
+   "pmid": "42423805",
+   "doi": "10.1007/s12029-026-01526-7",
+   "title": "Optimal First-Line Immunotherapy for MSI-H/dMMR Metastatic Colorectal Cancer: Evidence, Gaps, and Clinical Decision-Making.",
+   "journal": "Journal of gastrointestinal cancer",
+   "date": "2026-07-09",
+   "authors": "Sagawa T, Nagashima H, Fujikawa K.",
+   "oa": false,
+   "url": "https://europepmc.org/article/MED/42423805",
+   "kind": "toxicity",
+   "subject": "Checkpoint inhibitors in MSI-H disease",
+   "matched": [
+    "immune-related adverse"
+   ],
+   "tier": "review",
+   "peer_reviewed": true,
+   "species": "human",
+   "species_from": "mesh",
+   "genes": [
+    "PDCD1"
+   ],
+   "nodes": [
+    "rep-dmmr",
+    "site-rectum"
+   ]
+  },
+  {
+   "id": "42512271",
+   "src": "MED",
+   "pmid": "42512271",
+   "doi": "10.3390/cancers18142204",
+   "title": "Comparing the Effectiveness and Safety of Different Third-Line Management Options for Patients with Metastatic Colorectal Cancer: A Systematic Review and Reconstructed Individual Patient Data Meta-Analysis.",
+   "journal": "Cancers",
+   "date": "2026-07-08",
+   "authors": "Abdelrahim M, Esmail A, Mustafa N, Al-Najjar E, Hamdaneh Y, Alabed Z, Abdel-Raze",
+   "oa": true,
+   "url": "https://europepmc.org/article/MED/42512271",
+   "kind": "toxicity",
+   "subject": "Anti-angiogenic agents",
+   "matched": [
+    "hypertension",
+    "hand-foot skin reaction"
+   ],
+   "tier": "review",
+   "peer_reviewed": true,
+   "species": "human",
+   "species_from": "keywords",
+   "genes": [
+    "VEGFA",
+    "KDR",
+    "POLE"
+   ],
+   "nodes": [
+    "site-root"
+   ]
+  },
+  {
+   "id": "42406708",
+   "src": "MED",
+   "pmid": "42406708",
+   "doi": "10.1371/journal.pone.0351243",
+   "title": "Higher frequency of subclonal anti-EGFR resistance mutations in post-treatment samples from patients with colorectal cancer liver metastases following anti-EGFR-based conversion chemotherapy.",
+   "journal": "PloS one",
+   "date": "2026-07-06",
+   "authors": "Steup C, Mondorf A, Wild P, Pession U, Bechstein WO, Michael FA, Winter M, Bein ",
+   "oa": true,
+   "url": "https://europepmc.org/article/MED/42406708",
+   "kind": "resistance",
+   "subject": "Anti-EGFR antibodies (cetuximab, panitumumab)",
+   "matched": [
+    "anti-EGFR resistance"
+   ],
+   "tier": "primary",
+   "peer_reviewed": true,
+   "species": "human",
+   "species_from": "mesh",
+   "genes": [
+    "EGFR",
+    "BRAF",
+    "KRAS",
+    "ERBB2"
+   ],
+   "nodes": [
+    "drv-ras-wt",
+    "drv-kras-g12c",
+    "drv-braf-v600e"
+   ]
+  },
+  {
+   "id": "42535750",
+   "src": "MED",
+   "pmid": "42535750",
+   "doi": "10.26355/eurrev_202607_37885",
+   "title": "Pharmacological modulation of the PD-1/PD-L1 axis: from immune tolerance in colitis to immune escape in colorectal cancer.",
+   "journal": "European review for medical and pharmacological sciences",
+   "date": "2026-07-01",
+   "authors": "Grimaldi RM, Balestrero FC, Meggiolan A, Serra M, Ferramosca A, Travelli C.",
+   "oa": false,
+   "url": "https://europepmc.org/article/MED/42535750",
+   "kind": "toxicity",
+   "subject": "Checkpoint inhibitors in MSI-H disease",
+   "matched": [
+    "colitis"
+   ],
+   "tier": "review",
+   "peer_reviewed": true,
+   "species": "mouse",
+   "species_from": "mesh",
+   "genes": [
+    "PDCD1"
+   ],
+   "nodes": [
+    "rep-dmmr",
+    "site-rectum"
+   ]
+  },
+  {
+   "id": "42503979",
+   "src": "MED",
+   "pmid": "42503979",
+   "doi": "10.3760/cma.j.cn441530-20260421-00174",
+   "title": "[Analysis on the incidence and perioperative outcomes of immune-related adverse events in preoperative immunotherapy for colorectal cancer based on multicenter real-world data].",
+   "journal": "Zhonghua wei chang wai ke za zhi = Chinese journal of gastrointestinal surgery",
+   "date": "2026-07-01",
+   "authors": "Xin CL, Huang J, Wang Z, He XS, Li ZR, Xiao Q, Yuan Y, Chen T, Liu LH, Jiang K, ",
+   "oa": false,
+   "url": "https://europepmc.org/article/MED/42503979",
+   "kind": "toxicity",
+   "subject": "Checkpoint inhibitors in MSI-H disease",
+   "matched": [
+    "immune-related adverse"
+   ],
+   "tier": "primary",
+   "peer_reviewed": true,
+   "species": "human",
+   "species_from": "mesh",
+   "genes": [
+    "PDCD1"
+   ],
+   "nodes": [
+    "rep-dmmr",
+    "site-rectum"
+   ]
+  },
+  {
+   "id": "42372745",
+   "src": "MED",
+   "pmid": "42372745",
+   "doi": "10.1016/s1470-2045(26)00085-9",
+   "title": "Perioperative systemic therapy versus surgery alone for resectable colorectal peritoneal-only metastases (CAIRO6): a randomised, open-label, phase 3 trial.",
+   "journal": "The Lancet. Oncology",
+   "date": "2026-07-01",
+   "authors": "Rovers KP, Bakkers C, van den Heuvel TBM, van de Vlasakker VCJ, Kerkhoff TME, Ni",
+   "oa": false,
+   "url": "https://europepmc.org/article/MED/42372745",
+   "kind": "toxicity",
+   "subject": "Anti-angiogenic agents",
+   "matched": [
+    "hypertension"
+   ],
+   "tier": "trial",
+   "peer_reviewed": true,
+   "species": "human",
+   "species_from": "mesh",
+   "genes": [
+    "VEGFA",
+    "KDR",
+    "POLE"
+   ],
+   "nodes": [
+    "site-root"
+   ]
+  },
+  {
+   "id": "42380049",
+   "src": "MED",
+   "pmid": "42380049",
+   "doi": "10.1111/bph.70528",
+   "title": "The selective degradation of PDE4B shortform, using a PROTAC, leads to inhibition of several hallmarks of cancer in HCT116 cells.",
+   "journal": "British journal of pharmacology",
+   "date": "2026-06-30",
+   "authors": "Zorn A, Pediani JD, Hussain M, Ling J, Brown E, Belka I, Torres E, Swindlehurst ",
+   "oa": false,
+   "url": "https://europepmc.org/article/MED/42380049",
+   "kind": "new-approach",
+   "subject": "KRAS",
+   "matched": [
+    "PROTAC",
+    "targeted protein degradation"
+   ],
+   "tier": "primary",
+   "peer_reviewed": true,
+   "species": "human",
+   "species_from": "mesh",
+   "genes": [
+    "KRAS"
+   ],
+   "nodes": [
+    "drv-kras-g12c"
+   ]
+  },
+  {
+   "id": "42373604",
+   "src": "MED",
+   "pmid": "42373604",
+   "doi": "10.1038/s41419-026-09009-0",
+   "title": "EGFR-dependent delivery of phosphorylated IGFBP3 by cancer stem cells drives chemotherapy resistance in colorectal cancer.",
+   "journal": "Cell death & disease",
+   "date": "2026-06-29",
+   "authors": "Gao X, Zhang L, Wang H, Zhang W, Lu X, Wang J, Liu L, Zhang Y, Wang X, Song M, X",
+   "oa": true,
+   "url": "https://europepmc.org/article/MED/42373604",
+   "kind": "new-approach",
+   "subject": "EGFR",
+   "matched": [
+    "novel mechanism"
+   ],
+   "tier": "primary",
+   "peer_reviewed": true,
+   "species": "mouse",
+   "species_from": "mesh",
+   "genes": [
+    "EGFR"
+   ],
+   "nodes": [
+    "drv-ras-wt",
+    "drv-kras-g12c",
+    "drv-braf-v600e"
+   ]
+  },
+  {
+   "id": "42360560",
+   "src": "MED",
+   "pmid": "42360560",
+   "doi": "10.1007/s12029-026-01515-w",
+   "title": "Clinical Outcomes of Second-Line FOLFIRI Plus Ramucirumab According to Prior Biologic Exposure in Metastatic Colorectal Cancer: A Retrospective Comparison of Prior Bevacizumab and Prior Anti-EGFR Cohorts.",
+   "journal": "Journal of gastrointestinal cancer",
+   "date": "2026-06-26",
+   "authors": "Sagawa T, Hirakawa M, Oiwa S, Uesugi A, Yoshida M, Nagashima H, Fujikawa K.",
+   "oa": false,
+   "url": "https://europepmc.org/article/MED/42360560",
+   "kind": "toxicity",
+   "subject": "Anti-angiogenic agents",
+   "matched": [
+    "proteinuria"
+   ],
+   "tier": "primary",
+   "peer_reviewed": true,
+   "species": "human",
+   "species_from": "mesh",
+   "genes": [
+    "VEGFA",
+    "KDR",
+    "POLE"
+   ],
+   "nodes": [
+    "site-root"
+   ]
+  },
+  {
+   "id": "42345355",
+   "src": "MED",
+   "pmid": "42345355",
+   "doi": "10.1080/15384047.2026.2694136",
+   "title": "Advances in SEC61G research: from ER translocon subunit to emerging pan-cancer oncogenic roles.",
+   "journal": "Cancer biology & therapy",
+   "date": "2026-06-25",
+   "authors": "Man YN, He ML.",
+   "oa": true,
+   "url": "https://europepmc.org/article/MED/42345355",
+   "kind": "new-approach",
+   "subject": "EGFR",
+   "matched": [
+    "degrader",
+    "PROTAC"
+   ],
+   "tier": "review",
+   "peer_reviewed": true,
+   "species": "mouse",
+   "species_from": "mesh",
+   "genes": [
+    "EGFR"
+   ],
+   "nodes": [
+    "drv-ras-wt",
+    "drv-kras-g12c",
+    "drv-braf-v600e"
+   ]
+  },
+  {
+   "id": "42345857",
+   "src": "MED",
+   "pmid": "42345857",
+   "doi": "10.1080/14796694.2026.2688569",
+   "title": "EMPIRE (NSABP FC-13): a biomarker-driven phase II platform trial evaluating cemiplimab-based immunotherapy in microsatellite-stable colorectal cancer with ctDNA-defined minimal residual disease.",
+   "journal": "Future oncology (London, England)",
+   "date": "2026-06-25",
+   "authors": "Saeed A, Yothers G, Puhalla SL, Tojjari A, Rastogi P, Freeman TJ, Mathias MD, Se",
+   "oa": false,
+   "url": "https://europepmc.org/article/MED/42345857",
+   "kind": "new-approach",
+   "subject": "EGFR",
+   "matched": [
+    "bispecific"
+   ],
+   "tier": "trial",
+   "peer_reviewed": true,
+   "species": "human",
+   "species_from": "mesh",
+   "genes": [
+    "EGFR"
+   ],
+   "nodes": [
+    "drv-ras-wt",
+    "drv-kras-g12c",
+    "drv-braf-v600e"
+   ]
+  },
+  {
+   "id": "42336869",
+   "src": "MED",
+   "pmid": "42336869",
+   "doi": "10.1038/s41467-026-74711-8",
+   "title": "Mutant KRAS peptide vaccine with dual checkpoint blockade in metastatic colorectal cancer: a phase I trial.",
+   "journal": "Nature communications",
+   "date": "2026-06-23",
+   "authors": "Wang HH, Huff AL, Haldar SD, Berg M, Thoburn C, Heumann TR, Anders RA, Barrett B",
+   "oa": true,
+   "url": "https://europepmc.org/article/MED/42336869",
+   "kind": "toxicity",
+   "subject": "Checkpoint inhibitors in MSI-H disease",
+   "matched": [
+    "immune-related adverse"
+   ],
+   "tier": "trial",
+   "peer_reviewed": true,
+   "species": "human",
+   "species_from": "mesh",
+   "genes": [
+    "PDCD1"
+   ],
+   "nodes": [
+    "rep-dmmr",
+    "site-rectum"
+   ]
+  },
+  {
+   "id": "42337018",
+   "src": "MED",
+   "pmid": "42337018",
+   "doi": "10.1007/s00520-026-10902-9",
+   "title": "Efficacy of hydrocolloid dressing for hand-foot skin reaction: J-SUPPORT 1701 APRON trial.",
+   "journal": "Supportive care in cancer : official journal of the Multinational Association of Supportive Care in Cancer",
+   "date": "2026-06-23",
+   "authors": "Ryu A, Zenda S, Shimizu Y, Takashima A, Tsutsumida A, Takahashi A, Arai M, Moriz",
+   "oa": true,
+   "url": "https://europepmc.org/article/MED/42337018",
+   "kind": "toxicity",
+   "subject": "Anti-angiogenic agents",
+   "matched": [
+    "hand-foot skin reaction"
+   ],
+   "tier": "trial",
+   "peer_reviewed": true,
+   "species": "human",
+   "species_from": "mesh",
+   "genes": [
+    "VEGFA",
+    "KDR",
+    "POLE"
+   ],
+   "nodes": [
+    "site-root"
+   ]
+  },
+  {
+   "id": "42358834",
+   "src": "MED",
+   "pmid": "42358834",
+   "doi": "10.32604/or.2026.077965",
+   "title": "Tissue-Agnostic Targeting in Solid Tumors: A PRISMA-Compliant Meta-Analysis of Efficacy, Safety, and Resistance Determinants Across Histologies.",
+   "journal": "Oncology research",
+   "date": "2026-06-16",
+   "authors": "Balaha M, Aldosari SA, Alamer AA, Ahmed N, Balaha MF.",
+   "oa": true,
+   "url": "https://europepmc.org/article/MED/42358834",
+   "kind": "toxicity",
+   "subject": "HER2-directed therapy",
+   "matched": [
+    "interstitial lung disease"
+   ],
+   "tier": "meta-analysis",
+   "peer_reviewed": true,
+   "species": "human",
+   "species_from": "mesh",
+   "genes": [
+    "ERBB2"
+   ],
+   "nodes": [
+    "drv-her2-amp"
+   ]
+  },
+  {
+   "id": "42298055",
+   "src": "MED",
+   "pmid": "42298055",
+   "doi": "10.1007/s10147-026-03080-5",
+   "title": "Erlotinib plus bevacizumab in EGFR-amplified metastatic solid tumors: results from the KOSMOS I, II study of molecular profiling-guided therapy in advanced cancers.",
+   "journal": "International journal of clinical oncology",
+   "date": "2026-06-15",
+   "authors": "Lee J, Sim J, Lee YG, Lee GW, Jung HA, Kim KP, Kim TY, Ryu H, Ryu MH, Ahn MS, Kw",
+   "oa": true,
+   "url": "https://europepmc.org/article/MED/42298055",
+   "kind": "toxicity",
+   "subject": "Anti-angiogenic agents",
+   "matched": [
+    "hypertension"
+   ],
+   "tier": "primary",
+   "peer_reviewed": true,
+   "species": "human",
+   "species_from": "mesh",
+   "genes": [
+    "VEGFA",
+    "KDR",
+    "POLE"
+   ],
+   "nodes": [
+    "site-root"
+   ]
+  },
+  {
+   "id": "42369136",
+   "src": "MED",
+   "pmid": "42369136",
+   "doi": "10.3389/fmed.2026.1833355",
+   "title": "Early circulating tumor DNA dynamics predict fruquintinib efficacy in refractory metastatic colorectal cancer before imaging.",
+   "journal": "Frontiers in medicine",
+   "date": "2026-06-12",
+   "authors": "Hou H, Liu P, Dong X, Gai W, Jiang P, Yang F, Hao C.",
+   "oa": false,
+   "url": "https://europepmc.org/article/MED/42369136",
+   "kind": "toxicity",
+   "subject": "Anti-angiogenic agents",
+   "matched": [
+    "hypertension",
+    "hand-foot skin reaction"
+   ],
+   "tier": "primary",
+   "peer_reviewed": true,
+   "species": "human",
+   "species_from": "keywords",
+   "genes": [
+    "VEGFA",
+    "KDR",
+    "POLE"
+   ],
+   "nodes": [
+    "site-root"
+   ]
+  },
+  {
+   "id": "42271059",
+   "src": "MED",
+   "pmid": "42271059",
+   "doi": "10.1038/s41586-026-10613-5",
+   "title": "Molecular glue degraders of HuR suppress BRAF-mutant colorectal cancer.",
+   "journal": "Nature",
+   "date": "2026-06-10",
+   "authors": "Lu X, Wang X, Yang Z, Wang X, Wang L, Xu C, Lo IC, Geng C, Wang L, Pu Y, Zhang K",
+   "oa": true,
+   "url": "https://europepmc.org/article/MED/42271059",
+   "kind": "resistance",
+   "subject": "BRAF V600E: encorafenib with cetuximab",
+   "matched": [
+    "pathway reactivation"
+   ],
+   "tier": "primary",
+   "peer_reviewed": true,
+   "species": "mouse",
+   "species_from": "mesh",
+   "genes": [
+    "BRAF",
+    "EGFR"
+   ],
+   "nodes": [
+    "drv-braf-v600e",
+    "drv-ras-wt",
+    "drv-kras-g12c"
+   ],
+   "also": [
+    {
+     "kind": "new-approach",
+     "subject": "BRAF"
+    },
+    {
+     "kind": "new-approach",
+     "subject": "EGFR"
+    }
+   ]
+  },
+  {
+   "id": "42240876",
+   "src": "MED",
+   "pmid": "42240876",
+   "doi": "10.1007/s12029-026-01510-1",
+   "title": "Who Truly Benefits from Anti-EGFR Rechallenge in Metastatic Colorectal Cancer? From Clinical Enrichment to ctDNA-Guided Molecular Hyperselection.",
+   "journal": "Journal of gastrointestinal cancer",
+   "date": "2026-06-04",
+   "authors": "Sagawa T, Fujikawa K.",
+   "oa": false,
+   "url": "https://europepmc.org/article/MED/42240876",
+   "kind": "resistance",
+   "subject": "Anti-EGFR antibodies (cetuximab, panitumumab)",
+   "matched": [
+    "rechallenge"
+   ],
+   "tier": "review",
+   "peer_reviewed": true,
+   "species": "human",
+   "species_from": "mesh",
+   "genes": [
+    "EGFR",
+    "BRAF",
+    "KRAS",
+    "ERBB2"
+   ],
+   "nodes": [
+    "drv-ras-wt",
+    "drv-kras-g12c",
+    "drv-braf-v600e"
+   ]
+  },
+  {
+   "id": "42318350",
+   "src": "MED",
+   "pmid": "42318350",
+   "doi": "10.3389/fphar.2026.1845800",
+   "title": "Old tale new admirers, cetuximab maintenance in metastatic colorectal cancer: a systematic review and meta-analysis.",
+   "journal": "Frontiers in pharmacology",
+   "date": "2026-06-03",
+   "authors": "Yan Y, Lin Z, Yuan J, Gao W, Jiao C, Sun L, Sun X.",
+   "oa": true,
+   "url": "https://europepmc.org/article/MED/42318350",
+   "kind": "toxicity",
+   "subject": "Anti-EGFR antibodies (cetuximab, panitumumab)",
+   "matched": [
+    "rash"
+   ],
+   "tier": "systematic review",
+   "peer_reviewed": true,
+   "species": "human",
+   "species_from": "keywords",
+   "genes": [
+    "EGFR",
+    "BRAF",
+    "KRAS",
+    "ERBB2"
+   ],
+   "nodes": [
+    "drv-ras-wt",
+    "drv-kras-g12c",
+    "drv-braf-v600e"
+   ]
+  },
+  {
+   "id": "41784617",
+   "src": "MED",
+   "pmid": "41784617",
+   "doi": "10.1158/0008-5472.can-25-3520",
+   "title": "PKM2 Lactylation Promotes Colorectal Cancer Vasculogenic Mimicry and Bevacizumab Resistance by Facilitating FOSL1 Super-enhancer Formation.",
+   "journal": "Cancer research",
+   "date": "2026-06-01",
+   "authors": "Li W, Peng J, He J, Liao L, Kang D, Zhang W, Wang W, Wang R, Wang S, Liao Y, Yu ",
+   "oa": true,
+   "url": "https://europepmc.org/article/MED/41784617",
+   "kind": "resistance",
+   "subject": "Anti-angiogenic agents",
+   "matched": [
+    "bevacizumab resistance"
+   ],
+   "tier": "primary",
+   "peer_reviewed": true,
+   "species": "mouse",
+   "species_from": "mesh",
+   "genes": [
+    "VEGFA",
+    "KDR",
+    "POLE"
+   ],
+   "nodes": [
+    "site-root"
+   ]
+  },
+  {
+   "id": "42202492",
+   "src": "MED",
+   "pmid": "42202492",
+   "doi": "10.1016/j.esmoop.2026.107734",
+   "title": "Effect of prior anti-EGFR therapy and baseline ctDNA profiling on the efficacy of pertuzumab plus trastuzumab in HER2-amplified metastatic colorectal cancer: an integrated analysis of TRIUMPH/MyPathway.",
+   "journal": "ESMO open",
+   "date": "2026-05-27",
+   "authors": "Matsubara Y, Wakabayashi M, Okamoto W, Kato T, Esaki T, Kato K, Komatsu Y, Masui",
+   "oa": true,
+   "url": "https://europepmc.org/article/MED/42202492",
+   "kind": "resistance",
+   "subject": "Anti-EGFR antibodies (cetuximab, panitumumab)",
+   "matched": [
+    "EGFR ectodomain",
+    "anti-EGFR resistance"
+   ],
+   "tier": "primary",
+   "peer_reviewed": true,
+   "species": "human",
+   "species_from": "mesh",
+   "genes": [
+    "EGFR",
+    "BRAF",
+    "KRAS",
+    "ERBB2"
+   ],
+   "nodes": [
+    "drv-ras-wt",
+    "drv-kras-g12c",
+    "drv-braf-v600e"
+   ]
+  },
+  {
+   "id": "42172336",
+   "src": "MED",
+   "pmid": "42172336",
+   "doi": "10.1126/sciadv.adx3959",
+   "title": "Tumor-targeted bispecific antibodies effectively inhibit oncogenic pathways while minimizing toxicity.",
+   "journal": "Science advances",
+   "date": "2026-05-22",
+   "authors": "Kschonsak YT, Liang WC, Chan J, Kan D, Nguyen T, Ruiz K, Kee YS, Tsai WK, Xi H, ",
+   "oa": true,
+   "url": "https://europepmc.org/article/MED/42172336",
+   "kind": "new-approach",
+   "subject": "EGFR",
+   "matched": [
+    "bispecific"
+   ],
+   "tier": "primary",
+   "peer_reviewed": true,
+   "species": "mouse",
+   "species_from": "mesh",
+   "genes": [
+    "EGFR"
+   ],
+   "nodes": [
+    "drv-ras-wt",
+    "drv-kras-g12c",
+    "drv-braf-v600e"
+   ]
+  },
+  {
+   "id": "42165764",
+   "src": "MED",
+   "pmid": "42165764",
+   "doi": "10.1016/j.jaccas.2026.108455",
+   "title": "Late-Presenting Fulminant Immune Checkpoint Inhibitor Myocarditis Managed With Abatacept and Venoarterial Extracorporeal Oxygenation.",
+   "journal": "JACC. Case reports",
+   "date": "2026-05-21",
+   "authors": "Kikuchi DS, Zitelny E, Correa A, Halperin JL, Leibner E, Serrao GW, Sahni G.",
+   "oa": true,
+   "url": "https://europepmc.org/article/MED/42165764",
+   "kind": "toxicity",
+   "subject": "Checkpoint inhibitors in MSI-H disease",
+   "matched": [
+    "immune-related adverse"
+   ],
+   "tier": "primary",
+   "peer_reviewed": true,
+   "species": "unclear",
+   "species_from": "none",
+   "genes": [
+    "PDCD1"
+   ],
+   "nodes": [
+    "rep-dmmr",
+    "site-rectum"
+   ]
+  },
+  {
+   "id": "42255214",
+   "src": "MED",
+   "pmid": "42255214",
+   "doi": "10.3389/fonc.2026.1834867",
+   "title": "A meta-analysis on the effectiveness and safety of FOLFOX plus bevacizumab for colorectal cancer treatment.",
+   "journal": "Frontiers in oncology",
+   "date": "2026-05-21",
+   "authors": "Ma W, Song Z, Zhu Y.",
+   "oa": true,
+   "url": "https://europepmc.org/article/MED/42255214",
+   "kind": "toxicity",
+   "subject": "Anti-angiogenic agents",
+   "matched": [
+    "hypertension"
+   ],
+   "tier": "primary",
+   "peer_reviewed": true,
+   "species": "human",
+   "species_from": "keywords",
+   "genes": [
+    "VEGFA",
+    "KDR",
+    "POLE"
+   ],
+   "nodes": [
+    "site-root"
+   ]
+  },
+  {
+   "id": "PPR1236064",
+   "src": "PPR",
+   "pmid": null,
+   "doi": "10.64898/2026.05.17.725749",
+   "title": "An 8-Gene Bevacizumab Resistance Signature Predicts Prognosis and Reveals Immunosuppressive Microenvironment in Colorectal Cancer",
+   "journal": null,
+   "date": "2026-05-20",
+   "authors": "Zhengchuan N, Dongze Q, Pingping X.",
+   "oa": false,
+   "url": "https://europepmc.org/article/PPR/PPR1236064",
+   "kind": "resistance",
+   "subject": "Anti-angiogenic agents",
+   "matched": [
+    "bevacizumab resistance"
+   ],
+   "tier": "preprint",
+   "peer_reviewed": false,
+   "species": "human",
+   "species_from": "keywords",
+   "genes": [
+    "VEGFA",
+    "KDR",
+    "POLE"
+   ],
+   "nodes": [
+    "site-root"
+   ]
+  },
+  {
+   "id": "42150147",
+   "src": "MED",
+   "pmid": "42150147",
+   "doi": "10.1200/po-25-01229",
+   "title": "EXONERATE-TRaCE: A Liquid Biopsy for Tracking Response to Anti-Epidermal Growth Factor Receptor-Based Therapy in Metastatic Colorectal Cancer.",
+   "journal": "JCO precision oncology",
+   "date": "2026-05-18",
+   "authors": "Takahashi T, Mannucci A, Shigeyasu K, Kopetz S, Fakih M, Maurel J, Fujiwara T, G",
+   "oa": false,
+   "url": "https://europepmc.org/article/MED/42150147",
+   "kind": "resistance",
+   "subject": "Anti-EGFR antibodies (cetuximab, panitumumab)",
+   "matched": [
+    "anti-EGFR resistance"
+   ],
+   "tier": "primary",
+   "peer_reviewed": true,
+   "species": "human",
+   "species_from": "mesh",
+   "genes": [
+    "EGFR",
+    "BRAF",
+    "KRAS",
+    "ERBB2"
+   ],
+   "nodes": [
+    "drv-ras-wt",
+    "drv-kras-g12c",
+    "drv-braf-v600e"
+   ]
+  },
+  {
+   "id": "42143164",
+   "src": "MED",
+   "pmid": "42143164",
+   "doi": "10.1007/s13402-026-01222-5",
+   "title": "CTMP-REV7 axis modulates MHC-I antigen presentation via CDK1-AKT crosstalk in MSI-L/MSS colorectal cancer.",
+   "journal": "Cellular oncology (Dordrecht, Netherlands)",
+   "date": "2026-05-16",
+   "authors": "Gu C, He R, Yin X, Wang J, Yang J, Gao J, Xie R, Geng Y, Lu J, Ke Z, Liu Z, Xu Q",
+   "oa": true,
+   "url": "https://europepmc.org/article/MED/42143164",
+   "kind": "resistance",
+   "subject": "Anti-angiogenic agents",
+   "matched": [
+    "fruquintinib resistance"
+   ],
+   "tier": "primary",
+   "peer_reviewed": true,
+   "species": "mouse",
+   "species_from": "mesh",
+   "genes": [
+    "VEGFA",
+    "KDR",
+    "POLE"
+   ],
+   "nodes": [
+    "site-root"
+   ]
+  },
+  {
+   "id": "42142622",
+   "src": "MED",
+   "pmid": "42142622",
+   "doi": "10.1016/j.annonc.2026.05.003",
+   "title": "Preclinical characterization and phase I results of TQB2102, a first-in-class HER2 biparatopic antibody-drug conjugate, in patients with advanced solid tumors.",
+   "journal": "Annals of oncology : official journal of the European Society for Medical Oncology",
+   "date": "2026-05-15",
+   "authors": "Ruan DY, Lin SY, Huang JJ, Li YH, Li N, Qu XJ, Du XB, Yin YM, Yuan ZY, Shi YX, X",
+   "oa": false,
+   "url": "https://europepmc.org/article/MED/42142622",
+   "kind": "toxicity",
+   "subject": "HER2-directed therapy",
+   "matched": [
+    "interstitial lung disease"
+   ],
+   "tier": "trial",
+   "peer_reviewed": true,
+   "species": "human",
+   "species_from": "mesh",
+   "genes": [
+    "ERBB2"
+   ],
+   "nodes": [
+    "drv-her2-amp"
+   ]
+  },
+  {
+   "id": "42248751",
+   "src": "MED",
+   "pmid": "42248751",
+   "doi": "10.1016/j.clcc.2026.05.002",
+   "title": "Fruquintinib or Regorafenib? A Weighted Toxicity Score Analysis to Facilitate Better Discussions on Toxicity and Benefits in Later-line Colorectal Cancer Treatment.",
+   "journal": "Clinical colorectal cancer",
+   "date": "2026-05-12",
+   "authors": "Corallo S, Agustoni F, Pagani A, Serra F, Ferrari A, Personeni N, Pedrazzoli P, ",
+   "oa": false,
+   "url": "https://europepmc.org/article/MED/42248751",
+   "kind": "toxicity",
+   "subject": "Anti-angiogenic agents",
+   "matched": [
+    "hypertension",
+    "hand-foot skin reaction"
+   ],
+   "tier": "primary",
+   "peer_reviewed": true,
+   "species": "human",
+   "species_from": "mesh",
+   "genes": [
+    "VEGFA",
+    "KDR",
+    "POLE"
+   ],
+   "nodes": [
+    "site-root"
+   ]
+  },
+  {
+   "id": "42107507",
+   "src": "MED",
+   "pmid": "42107507",
+   "doi": "10.1016/j.phrs.2026.108226",
+   "title": "Daraxonrasib (RMC-6236) pharmacokinetics: impact of transporters and drug-metabolizing enzymes on a first-in-class pan-RAS molecular glue.",
+   "journal": "Pharmacological research",
+   "date": "2026-05-08",
+   "authors": "Arguedas D, Bui V, Law T, Rijmers J, Tissier R, Beijnen JH, van Tellingen O, Leb",
+   "oa": false,
+   "url": "https://europepmc.org/article/MED/42107507",
+   "kind": "new-approach",
+   "subject": "KRAS",
+   "matched": [
+    "first-in-class",
+    "molecular glue"
+   ],
+   "tier": "primary",
+   "peer_reviewed": true,
+   "species": "mouse",
+   "species_from": "mesh",
+   "genes": [
+    "KRAS"
+   ],
+   "nodes": [
+    "drv-kras-g12c"
+   ]
+  },
+  {
+   "id": "42082463",
+   "src": "MED",
+   "pmid": "42082463",
+   "doi": "10.1038/s41419-026-08795-x",
+   "title": "Multi-omics reveals CXCR4 drives immune escape in colorectal cancer via metabolic reprogramming and immune microenvironment remodeling.",
+   "journal": "Cell death & disease",
+   "date": "2026-05-04",
+   "authors": "Zhu C, Liu Y, Xu S, Li R, Shi J, Tang G, Ran R, Pang B, Chi Z, Ding Y, Wang W, Y",
+   "oa": true,
+   "url": "https://europepmc.org/article/MED/42082463",
+   "kind": "new-approach",
+   "subject": "SMAD4",
+   "matched": [
+    "novel mechanism"
+   ],
+   "tier": "primary",
+   "peer_reviewed": true,
+   "species": "mouse",
+   "species_from": "mesh",
+   "genes": [
+    "SMAD4"
+   ],
+   "nodes": []
+  },
+  {
+   "id": "42066233",
+   "src": "MED",
+   "pmid": "42066233",
+   "doi": "10.1200/jco-25-01525",
+   "title": "Phase I Study of Telisotuzumab Adizutecan (Temab-A, ABBV-400), a Novel c-Met Antibody-Drug Conjugate, in Patients With Late-Line Colorectal Cancer and Advanced Solid Tumors.",
+   "journal": "Journal of clinical oncology : official journal of the American Society of Clinical Oncology",
+   "date": "2026-05-01",
+   "authors": "Sharma MR, Powderly J, Kuboki Y, Strickler JH, Perets R, Cohen JE, Raimbourg J, ",
+   "oa": true,
+   "url": "https://europepmc.org/article/MED/42066233",
+   "kind": "new-approach",
+   "subject": "BRAF",
+   "matched": [
+    "antibody-drug conjugate"
+   ],
+   "tier": "trial",
+   "peer_reviewed": true,
+   "species": "human",
+   "species_from": "mesh",
+   "genes": [
+    "BRAF"
+   ],
+   "nodes": [
+    "drv-braf-v600e"
+   ]
+  },
+  {
+   "id": "42066685",
+   "src": "MED",
+   "pmid": "42066685",
+   "doi": "10.1016/j.esmoop.2026.107694",
+   "title": "Impact of treatment discontinuation among patients with microsatellite instability or mismatch repair-deficient metastatic colorectal cancer treated with immune checkpoint inhibitors.",
+   "journal": "ESMO open",
+   "date": "2026-04-30",
+   "authors": "Ros J, de Grandis MC, Navarro V, Baraibar I, Salva F, Vaghi C, Garcia A, Alcaraz",
+   "oa": true,
+   "url": "https://europepmc.org/article/MED/42066685",
+   "kind": "toxicity",
+   "subject": "Checkpoint inhibitors in MSI-H disease",
+   "matched": [
+    "immune-related adverse"
+   ],
+   "tier": "primary",
+   "peer_reviewed": true,
+   "species": "human",
+   "species_from": "mesh",
+   "genes": [
+    "PDCD1"
+   ],
+   "nodes": [
+    "rep-dmmr",
+    "site-rectum"
+   ]
+  },
+  {
+   "id": "42066786",
+   "src": "MED",
+   "pmid": "42066786",
+   "doi": "10.1016/s2468-1253(26)00047-6",
+   "title": "Effect of one or two cycles of dual immunotherapy with nivolumab and ipilimumab in patients with mismatch repair-deficient rectal cancer (RESET-R): interim results from a multicentre, single-arm, phase 2 trial.",
+   "journal": "The lancet. Gastroenterology & hepatology",
+   "date": "2026-04-28",
+   "authors": "Tarpgaard LS, Poulsen LØ, Gögenur I, Justesen TF, Rafaelsen SR, Øgaard N, Demuth",
+   "oa": false,
+   "url": "https://europepmc.org/article/MED/42066786",
+   "kind": "toxicity",
+   "subject": "Checkpoint inhibitors in MSI-H disease",
+   "matched": [
+    "immune-related adverse"
+   ],
+   "tier": "trial",
+   "peer_reviewed": true,
+   "species": "human",
+   "species_from": "mesh",
+   "genes": [
+    "PDCD1"
+   ],
+   "nodes": [
+    "rep-dmmr",
+    "site-rectum"
+   ],
+   "also": [
+    {
+     "kind": "toxicity",
+     "subject": "Dostarlimab in repair-deficient rectal cancer"
+    }
+   ]
+  },
+  {
+   "id": "42030498",
+   "src": "MED",
+   "pmid": "42030498",
+   "doi": "10.1200/edbk-26-516576",
+   "title": "Emerging and Established Targets in Colorectal Cancer: Translating Biology Into Therapeutics.",
+   "journal": "American Society of Clinical Oncology educational book. American Society of Clinical Oncology. Annual Meeting",
+   "date": "2026-04-24",
+   "authors": "Grochot R, Bartolini M, Algaze S, Reimann P, Winder T, Lenz HJ, Fontana E.",
+   "oa": false,
+   "url": "https://europepmc.org/article/MED/42030498",
+   "kind": "new-approach",
+   "subject": "KRAS",
+   "matched": [
+    "bispecific",
+    "antibody-drug conjugate"
+   ],
+   "tier": "review",
+   "peer_reviewed": true,
+   "species": "human",
+   "species_from": "mesh",
+   "genes": [
+    "KRAS",
+    "BRAF",
+    "EGFR"
+   ],
+   "nodes": [
+    "drv-kras-g12c",
+    "drv-braf-v600e",
+    "drv-ras-wt"
+   ],
+   "also": [
+    {
+     "kind": "new-approach",
+     "subject": "BRAF"
+    },
+    {
+     "kind": "new-approach",
+     "subject": "EGFR"
+    }
+   ]
+  },
+  {
+   "id": "42013403",
+   "src": "MED",
+   "pmid": "42013403",
+   "doi": "10.1200/jco-25-02187",
+   "title": "Amivantamab Monotherapy in Chemorefractory RAS/BRAF Wild-Type Metastatic Colorectal Cancer: Results From OrigAMI-1, an Open-Label, Phase Ib/II Study.",
+   "journal": "Journal of clinical oncology : official journal of the American Society of Clinical Oncology",
+   "date": "2026-04-21",
+   "authors": "Oberstein PE, Hecht JR, Raghav K, Pietrantonio F, Arnold D, Moreno V, Van Cutsem",
+   "oa": true,
+   "url": "https://europepmc.org/article/MED/42013403",
+   "kind": "toxicity",
+   "subject": "Anti-EGFR antibodies (cetuximab, panitumumab)",
+   "matched": [
+    "acneiform",
+    "rash"
+   ],
+   "tier": "trial",
+   "peer_reviewed": true,
+   "species": "human",
+   "species_from": "mesh",
+   "genes": [
+    "EGFR",
+    "BRAF",
+    "KRAS",
+    "ERBB2"
+   ],
+   "nodes": [
+    "drv-ras-wt",
+    "drv-kras-g12c",
+    "drv-braf-v600e",
+    "drv-her2-amp"
+   ],
+   "also": [
+    {
+     "kind": "new-approach",
+     "subject": "BRAF"
+    },
+    {
+     "kind": "new-approach",
+     "subject": "ERBB2"
+    },
+    {
+     "kind": "new-approach",
+     "subject": "EGFR"
+    }
+   ]
+  },
+  {
+   "id": "42145655",
+   "src": "MED",
+   "pmid": "42145655",
+   "doi": "10.1093/abt/tbag015",
+   "title": "Development of SDP0505: a first-in-class HER3 × c-Met bispecific ADC, demonstrates potent antitumor activity in EGFR TKI-resistant NSCLC, CRC, and beyond.",
+   "journal": "Antibody therapeutics",
+   "date": "2026-04-21",
+   "authors": "Wang LM, Yang C, Chen S, Sun X, Tian Y, Zhang J, Gao X, Li D, Zhang W, Hu Y, Yua",
+   "oa": true,
+   "url": "https://europepmc.org/article/MED/42145655",
+   "kind": "new-approach",
+   "subject": "EGFR",
+   "matched": [
+    "first-in-class",
+    "bispecific"
+   ],
+   "tier": "primary",
+   "peer_reviewed": true,
+   "species": "mouse",
+   "species_from": "keywords",
+   "genes": [
+    "EGFR"
+   ],
+   "nodes": [
+    "drv-ras-wt",
+    "drv-kras-g12c",
+    "drv-braf-v600e"
+   ]
+  },
+  {
+   "id": "42027771",
+   "src": "MED",
+   "pmid": "42027771",
+   "doi": "10.1016/j.dib.2026.112753",
+   "title": "Data on microRNA transcriptomic signatures, predicted gene targets and pathway analysis in response to cetuximab or panitumumab in colorectal cancer cells.",
+   "journal": "Data in brief",
+   "date": "2026-04-16",
+   "authors": "Corset L, Picou F, Beilstein F, Ibrahim S, Chautard R, Marouillat S, Hérault O, ",
+   "oa": true,
+   "url": "https://europepmc.org/article/MED/42027771",
+   "kind": "resistance",
+   "subject": "Anti-EGFR antibodies (cetuximab, panitumumab)",
+   "matched": [
+    "anti-EGFR resistance"
+   ],
+   "tier": "primary",
+   "peer_reviewed": true,
+   "species": "human",
+   "species_from": "keywords",
+   "genes": [
+    "EGFR",
+    "BRAF",
+    "KRAS",
+    "ERBB2"
+   ],
+   "nodes": [
+    "drv-ras-wt",
+    "drv-kras-g12c",
+    "drv-braf-v600e"
+   ]
+  },
+  {
+   "id": "41989694",
+   "src": "MED",
+   "pmid": "41989694",
+   "doi": "10.1007/s12272-026-01612-1",
+   "title": "Unraveling regorafenib resistance: metabolic reprogramming, tumor plasticity, and novel approaches to overcome therapy failure.",
+   "journal": "Archives of pharmacal research",
+   "date": "2026-04-16",
+   "authors": "Liu X, Gao X, Yang Y, Yang D, Sun Y, Yang Y, Zhao T, Li N.",
+   "oa": false,
+   "url": "https://europepmc.org/article/MED/41989694",
+   "kind": "resistance",
+   "subject": "Anti-angiogenic agents",
+   "matched": [
+    "regorafenib resistance"
+   ],
+   "tier": "review",
+   "peer_reviewed": true,
+   "species": "mouse",
+   "species_from": "mesh",
+   "genes": [
+    "VEGFA",
+    "KDR",
+    "POLE"
+   ],
+   "nodes": [
+    "site-root"
+   ]
+  },
+  {
+   "id": "42147655",
+   "src": "MED",
+   "pmid": "42147655",
+   "doi": "10.7759/cureus.107078",
+   "title": "Exceptional Response to Pembrolizumab Immunotherapy in a Young Patient With Lynch Syndrome-Associated Metastatic Colorectal Cancer.",
+   "journal": "Cureus",
+   "date": "2026-04-15",
+   "authors": "Niazi M, Crossley R.",
+   "oa": true,
+   "url": "https://europepmc.org/article/MED/42147655",
+   "kind": "toxicity",
+   "subject": "Checkpoint inhibitors in MSI-H disease",
+   "matched": [
+    "immune-related adverse"
+   ],
+   "tier": "primary",
+   "peer_reviewed": true,
+   "species": "mouse",
+   "species_from": "keywords",
+   "genes": [
+    "PDCD1"
+   ],
+   "nodes": [
+    "rep-dmmr",
+    "site-rectum"
+   ]
+  },
+  {
+   "id": "41967859",
+   "src": "MED",
+   "pmid": "41967859",
+   "doi": "10.1111/bph.70445",
+   "title": "Hand-foot skin reaction as a positive prognostic factor in vascular endothelial growth factor receptor-tyrosine kinase inhibitor treatment.",
+   "journal": "British journal of pharmacology",
+   "date": "2026-04-12",
+   "authors": "Huang IH, Wu PC, Yeh CN, Chi CC.",
+   "oa": false,
+   "url": "https://europepmc.org/article/MED/41967859",
+   "kind": "toxicity",
+   "subject": "Anti-angiogenic agents",
+   "matched": [
+    "hand-foot skin reaction"
+   ],
+   "tier": "meta-analysis",
+   "peer_reviewed": true,
+   "species": "human",
+   "species_from": "mesh",
+   "genes": [
+    "VEGFA",
+    "KDR",
+    "POLE"
+   ],
+   "nodes": [
+    "site-root"
+   ]
+  },
+  {
+   "id": "41961332",
+   "src": "MED",
+   "pmid": "41961332",
+   "doi": "10.1007/s12029-026-01460-8",
+   "title": "Real-World Study of anti-PD-1 Combined with Regorafenib and Raltitrexed as Third-Line Therapy in Colorectal Cancer.",
+   "journal": "Journal of gastrointestinal cancer",
+   "date": "2026-04-10",
+   "authors": "Yu Y, Li L, Gan W, Zheng J, Li J, Zhang H, Zhong M, Zhan H, Lai J, Li J, Chen J.",
+   "oa": false,
+   "url": "https://europepmc.org/article/MED/41961332",
+   "kind": "toxicity",
+   "subject": "Anti-angiogenic agents",
+   "matched": [
+    "hypertension"
+   ],
+   "tier": "primary",
+   "peer_reviewed": true,
+   "species": "human",
+   "species_from": "mesh",
+   "genes": [
+    "VEGFA",
+    "KDR",
+    "POLE"
+   ],
+   "nodes": [
+    "site-root"
+   ]
+  },
+  {
+   "id": "41978784",
+   "src": "MED",
+   "pmid": "41978784",
+   "doi": "10.70352/scrj.cr.25-0634",
+   "title": "Hyperprogression after Anti-Programmed Death-1 Therapy in a Case of Sigmoid Colon Cancer with Lynch Syndrome.",
+   "journal": "Surgical case reports",
+   "date": "2026-04-09",
+   "authors": "Miura R, Ohira G, Maruyama M, Tochigi T, Maruyama T, Okada K, Hirata A, Matsubar",
+   "oa": true,
+   "url": "https://europepmc.org/article/MED/41978784",
+   "kind": "resistance",
+   "subject": "Checkpoint inhibitors in MSI-H disease",
+   "matched": [
+    "pseudoprogression"
+   ],
+   "tier": "primary",
+   "peer_reviewed": true,
+   "species": "unclear",
+   "species_from": "none",
+   "genes": [
+    "PDCD1"
+   ],
+   "nodes": [
+    "rep-dmmr",
+    "site-rectum"
+   ]
+  },
+  {
+   "id": "41977448",
+   "src": "MED",
+   "pmid": "41977448",
+   "doi": "10.3390/ijms27073265",
+   "title": "EGFR Signaling in Colorectal Cancer: Novel Therapeutic Strategies, Predictive Biomarkers, and Counteracting Treatment Resistance.",
+   "journal": "International journal of molecular sciences",
+   "date": "2026-04-03",
+   "authors": "Abbas N, Mourad M, Smaily H, Al Mahmasani L, Shamseddine A.",
+   "oa": true,
+   "url": "https://europepmc.org/article/MED/41977448",
+   "kind": "resistance",
+   "subject": "Anti-EGFR antibodies (cetuximab, panitumumab)",
+   "matched": [
+    "rechallenge"
+   ],
+   "tier": "review",
+   "peer_reviewed": true,
+   "species": "human",
+   "species_from": "mesh",
+   "genes": [
+    "EGFR",
+    "BRAF",
+    "KRAS",
+    "ERBB2"
+   ],
+   "nodes": [
+    "drv-ras-wt",
+    "drv-kras-g12c",
+    "drv-braf-v600e"
+   ]
+  },
+  {
+   "id": "41930781",
+   "src": "MED",
+   "pmid": "41930781",
+   "doi": "10.1080/14796694.2026.2654735",
+   "title": "GLP-1 receptor agonists and immune checkpoint inhibitor therapy: a narrative review on mechanistic and clinical evidence.",
+   "journal": "Future oncology (London, England)",
+   "date": "2026-04-03",
+   "authors": "Frey C.",
+   "oa": false,
+   "url": "https://europepmc.org/article/MED/41930781",
+   "kind": "toxicity",
+   "subject": "Checkpoint inhibitors in MSI-H disease",
+   "matched": [
+    "immune-related adverse"
+   ],
+   "tier": "review",
+   "peer_reviewed": true,
+   "species": "mouse",
+   "species_from": "mesh",
+   "genes": [
+    "PDCD1"
+   ],
+   "nodes": [
+    "rep-dmmr",
+    "site-rectum"
+   ]
+  },
+  {
+   "id": "41920914",
+   "src": "MED",
+   "pmid": "41920914",
+   "doi": "10.1093/oncolo/oyag103",
+   "title": "Gastric and rectal administration of encorafenib with targeted chemotherapy against BRAF V600E-mutant rectal cancer with bowel obstruction.",
+   "journal": "The oncologist",
+   "date": "2026-04-01",
+   "authors": "Funk MA, Heinemann V, Bücklein V, Alig SK, Heinrich K, Weiss L, Krenmayr V, Blan",
+   "oa": true,
+   "url": "https://europepmc.org/article/MED/41920914",
+   "kind": "toxicity",
+   "subject": "Anti-EGFR antibodies (cetuximab, panitumumab)",
+   "matched": [
+    "rash"
+   ],
+   "tier": "primary",
+   "peer_reviewed": true,
+   "species": "human",
+   "species_from": "mesh",
+   "genes": [
+    "EGFR",
+    "BRAF",
+    "KRAS",
+    "ERBB2"
+   ],
+   "nodes": [
+    "drv-ras-wt",
+    "drv-kras-g12c",
+    "drv-braf-v600e"
+   ],
+   "also": [
+    {
+     "kind": "toxicity",
+     "subject": "BRAF V600E: encorafenib with cetuximab"
+    }
+   ]
+  },
+  {
+   "id": "41923267",
+   "src": "MED",
+   "pmid": "41923267",
+   "doi": "10.1186/s12967-026-08056-7",
+   "title": "FBXO39 promotes LDHA-mediated aerobic glycolysis and colorectal cancer progression by p53 degradation.",
+   "journal": "Journal of translational medicine",
+   "date": "2026-04-01",
+   "authors": "Liu J, Xiao T, Huang J.",
+   "oa": true,
+   "url": "https://europepmc.org/article/MED/41923267",
+   "kind": "new-approach",
+   "subject": "TP53",
+   "matched": [
+    "novel mechanism"
+   ],
+   "tier": "primary",
+   "peer_reviewed": true,
+   "species": "mouse",
+   "species_from": "mesh",
+   "genes": [
+    "TP53"
+   ],
+   "nodes": []
+  },
+  {
+   "id": "41894647",
+   "src": "MED",
+   "pmid": "41894647",
+   "doi": "10.1200/jco-25-02444",
+   "title": "Phase I Study of Mosperafenib, a Novel Paradox Breaker B-Raf Proto-Oncogene Serine/Threonine Kinase (BRAF) Inhibitor, in Patients With BRAF V600-Mutant Solid Tumors.",
+   "journal": "Journal of clinical oncology : official journal of the American Society of Clinical Oncology",
+   "date": "2026-03-27",
+   "authors": "Vieito M, Fontana E, Han CH, Castanon E, Pinato DJ, Bechter O, Eefsen RL, Moreno",
+   "oa": false,
+   "url": "https://europepmc.org/article/MED/41894647",
+   "kind": "toxicity",
+   "subject": "BRAF V600E: encorafenib with cetuximab",
+   "matched": [
+    "rash"
+   ],
+   "tier": "trial",
+   "peer_reviewed": true,
+   "species": "human",
+   "species_from": "mesh",
+   "genes": [
+    "BRAF",
+    "EGFR"
+   ],
+   "nodes": [
+    "drv-braf-v600e",
+    "drv-ras-wt",
+    "drv-kras-g12c"
+   ]
+  },
+  {
+   "id": "41905242",
+   "src": "MED",
+   "pmid": "41905242",
+   "doi": "10.1016/j.ejca.2026.116689",
+   "title": "Aflibercept and 5-FU vs. FOLFOX as 1st line treatment for older adults or frail elderly patients with metastatic colorectal cancer - The randomized phase 2 AIO / IKF ELDERLY trial (AIO-KRK-0117 / IKF 629).",
+   "journal": "European journal of cancer (Oxford, England : 1990)",
+   "date": "2026-03-24",
+   "authors": "Hofheinz RD, Weikersthal LFV, Dechow T, Depenbusch R, Müller C, Goetze TO, Becke",
+   "oa": false,
+   "url": "https://europepmc.org/article/MED/41905242",
+   "kind": "toxicity",
+   "subject": "Anti-angiogenic agents",
+   "matched": [
+    "hypertension",
+    "proteinuria"
+   ],
+   "tier": "trial",
+   "peer_reviewed": true,
+   "species": "human",
+   "species_from": "mesh",
+   "genes": [
+    "VEGFA",
+    "KDR",
+    "POLE"
+   ],
+   "nodes": [
+    "site-root"
+   ]
+  },
+  {
+   "id": "41899615",
+   "src": "MED",
+   "pmid": "41899615",
+   "doi": "10.3390/cancers18061014",
+   "title": "Liquid Biopsy in Gastrointestinal Cancers: Circulating Tumor DNA for Molecular Residual Disease Assessment and Early Treatment Monitoring.",
+   "journal": "Cancers",
+   "date": "2026-03-20",
+   "authors": "Safiejko K, Juchimiuk M, Pierko J, Maslyk M, Mucha M, Koda M, Konczuga-Koda L, R",
+   "oa": true,
+   "url": "https://europepmc.org/article/MED/41899615",
+   "kind": "resistance",
+   "subject": "Anti-EGFR antibodies (cetuximab, panitumumab)",
+   "matched": [
+    "rechallenge"
+   ],
+   "tier": "review",
+   "peer_reviewed": true,
+   "species": "human",
+   "species_from": "keywords",
+   "genes": [
+    "EGFR",
+    "BRAF",
+    "KRAS",
+    "ERBB2"
+   ],
+   "nodes": [
+    "drv-ras-wt",
+    "drv-kras-g12c",
+    "drv-braf-v600e"
+   ]
+  },
+  {
+   "id": "41784211",
+   "src": "MED",
+   "pmid": "41784211",
+   "doi": "10.1080/07357907.2026.2636581",
+   "title": "A Systematic Review of the Efficacy of KRAS p.G12C Inhibitors in Metastatic Colorectal Cancer: The Current State of Science.",
+   "journal": "Cancer investigation",
+   "date": "2026-03-05",
+   "authors": "Boby JM, Ilerhunmwuwa N, Benny JM, Peniche PZ, Baytar DK, Sahin IH.",
+   "oa": false,
+   "url": "https://europepmc.org/article/MED/41784211",
+   "kind": "toxicity",
+   "subject": "Anti-EGFR antibodies (cetuximab, panitumumab)",
+   "matched": [
+    "rash"
+   ],
+   "tier": "systematic review",
+   "peer_reviewed": true,
+   "species": "human",
+   "species_from": "mesh",
+   "genes": [
+    "EGFR",
+    "BRAF",
+    "KRAS",
+    "ERBB2"
+   ],
+   "nodes": [
+    "drv-ras-wt",
+    "drv-kras-g12c",
+    "drv-braf-v600e"
+   ],
+   "also": [
+    {
+     "kind": "toxicity",
+     "subject": "KRAS G12C inhibitors with anti-EGFR antibodies"
+    }
+   ]
+  },
+  {
+   "id": "41359440",
+   "src": "MED",
+   "pmid": "41359440",
+   "doi": "10.1093/jjco/hyaf198",
+   "title": "Phase II study of FOLFIRI with low-dose irinotecan plus ramucirumab as second-line treatment in Japanese patients with metastatic colorectal cancer (study rindo).",
+   "journal": "Japanese journal of clinical oncology",
+   "date": "2026-03-01",
+   "authors": "Hattori N, Nakayama G, Umeda S, Kishida T, Takeda S, Ezaka K, Tsutsuyama M, Saka",
+   "oa": true,
+   "url": "https://europepmc.org/article/MED/41359440",
+   "kind": "toxicity",
+   "subject": "Anti-angiogenic agents",
+   "matched": [
+    "hypertension",
+    "proteinuria"
+   ],
+   "tier": "trial",
+   "peer_reviewed": true,
+   "species": "human",
+   "species_from": "mesh",
+   "genes": [
+    "VEGFA",
+    "KDR",
+    "POLE"
+   ],
+   "nodes": [
+    "site-root"
+   ]
+  },
+  {
+   "id": "41906550",
+   "src": "MED",
+   "pmid": "41906550",
+   "doi": "10.4274/mmj.galenos.2026.65848",
+   "title": "Overcoming Regorafenib Resistance in Colorectal Cancer: Synergistic Efficacy of Cilengitide in HT29 and WiDr Cells.",
+   "journal": "Medeniyet medical journal",
+   "date": "2026-03-01",
+   "authors": "Boz AB, Semiz Z, Yanar F.",
+   "oa": true,
+   "url": "https://europepmc.org/article/MED/41906550",
+   "kind": "resistance",
+   "subject": "Anti-angiogenic agents",
+   "matched": [
+    "regorafenib resistance"
+   ],
+   "tier": "primary",
+   "peer_reviewed": true,
+   "species": "cell line",
+   "species_from": "keywords",
+   "genes": [
+    "VEGFA",
+    "KDR",
+    "POLE"
+   ],
+   "nodes": [
+    "site-root"
+   ]
+  },
+  {
+   "id": "41827721",
+   "src": "MED",
+   "pmid": "41827721",
+   "doi": "10.3390/cancers18050788",
+   "title": "Trifluridine/Tipiracil Plus Bevacizumab Versus Regorafenib in Elderly Patients with Refractory Metastatic Colorectal Cancer: A Real-World Comparative Study.",
+   "journal": "Cancers",
+   "date": "2026-02-28",
+   "authors": "Tseng YK, Lin CL, Chiang SW, Chiang FF.",
+   "oa": true,
+   "url": "https://europepmc.org/article/MED/41827721",
+   "kind": "toxicity",
+   "subject": "Anti-angiogenic agents",
+   "matched": [
+    "hand-foot skin reaction"
+   ],
+   "tier": "primary",
+   "peer_reviewed": true,
+   "species": "human",
+   "species_from": "keywords",
+   "genes": [
+    "VEGFA",
+    "KDR",
+    "POLE"
+   ],
+   "nodes": [
+    "site-root"
+   ]
+  },
+  {
+   "id": "41742069",
+   "src": "MED",
+   "pmid": "41742069",
+   "doi": "10.1186/s12885-026-15753-5",
+   "title": "ERBITAG: Non-interventional study on the efficacy of cetuximab in first-line therapy in patients with RAS wild-type metastatic colorectal cancer.",
+   "journal": "BMC cancer",
+   "date": "2026-02-25",
+   "authors": "Sahm SW, Neumann UP, Zahn MO, Schwittay M, Maintz C, Goehler T, Rubanov O, Herin",
+   "oa": true,
+   "url": "https://europepmc.org/article/MED/41742069",
+   "kind": "toxicity",
+   "subject": "Anti-EGFR antibodies (cetuximab, panitumumab)",
+   "matched": [
+    "rash"
+   ],
+   "tier": "primary",
+   "peer_reviewed": true,
+   "species": "human",
+   "species_from": "mesh",
+   "genes": [
+    "EGFR",
+    "BRAF",
+    "KRAS",
+    "ERBB2"
+   ],
+   "nodes": [
+    "drv-ras-wt",
+    "drv-kras-g12c",
+    "drv-braf-v600e"
+   ]
+  },
+  {
+   "id": "41822354",
+   "src": "MED",
+   "pmid": "41822354",
+   "doi": "10.3389/fcell.2026.1725088",
+   "title": "Tumor microenvironment-activated ferritin nanovector enables enhanced tumor delivery of KRASG12C inhibitors and degraders.",
+   "journal": "Frontiers in cell and developmental biology",
+   "date": "2026-02-25",
+   "authors": "Abbinantefina AP, Tito C, Masciarelli S, Tisci G, Sortoluzzi S, Ceci P, Falvo E,",
+   "oa": true,
+   "url": "https://europepmc.org/article/MED/41822354",
+   "kind": "new-approach",
+   "subject": "KRAS",
+   "matched": [
+    "degrader",
+    "PROTAC"
+   ],
+   "tier": "primary",
+   "peer_reviewed": true,
+   "species": "mouse",
+   "species_from": "keywords",
+   "genes": [
+    "KRAS",
+    "NRAS"
+   ],
+   "nodes": [
+    "drv-kras-g12c"
+   ],
+   "also": [
+    {
+     "kind": "new-approach",
+     "subject": "NRAS"
+    }
+   ]
+  },
+  {
+   "id": "41826077",
+   "src": "MED",
+   "pmid": "41826077",
+   "doi": "10.1016/j.clcc.2026.02.003",
+   "title": "Phase II Study of Pembrolizumab Plus Capecitabine and Bevacizumab for Microsatellite Stable/Mismatch Repair-Proficient Metastatic Colorectal Cancer.",
+   "journal": "Clinical colorectal cancer",
+   "date": "2026-02-18",
+   "authors": "Bocobo A, Whitman J, Keenan BP, Koser KL, Kidder WA, Piawah S, Van Loon K, Behr ",
+   "oa": false,
+   "url": "https://europepmc.org/article/MED/41826077",
+   "kind": "toxicity",
+   "subject": "Checkpoint inhibitors in MSI-H disease",
+   "matched": [
+    "immune-related adverse"
+   ],
+   "tier": "trial",
+   "peer_reviewed": true,
+   "species": "human",
+   "species_from": "mesh",
+   "genes": [
+    "PDCD1"
+   ],
+   "nodes": [
+    "rep-dmmr",
+    "site-rectum"
+   ]
+  },
+  {
+   "id": "41655134",
+   "src": "MED",
+   "pmid": "41655134",
+   "doi": "10.1080/15548627.2026.2629288",
+   "title": "Regorafenib enhances anti-PDCD1/PD-1 therapeutic efficacy in colorectal cancer by promoting SQSTM1/p62-mediated CD274/PD-L1 degradation.",
+   "journal": "Autophagy",
+   "date": "2026-02-17",
+   "authors": "Zhu M, He Y, Lei S, Lai X, Chen C, Ye K, Li D, Zhang H, Lai M, Jiang W.",
+   "oa": false,
+   "url": "https://europepmc.org/article/MED/41655134",
+   "kind": "new-approach",
+   "subject": "PDCD1",
+   "matched": [
+    "PROTAC",
+    "molecular glue"
+   ],
+   "tier": "primary",
+   "peer_reviewed": true,
+   "species": "mouse",
+   "species_from": "mesh",
+   "genes": [
+    "PDCD1"
+   ],
+   "nodes": [
+    "rep-dmmr",
+    "site-rectum"
+   ]
+  },
+  {
+   "id": "41777651",
+   "src": "MED",
+   "pmid": "41777651",
+   "doi": "10.3389/fonc.2026.1768984",
+   "title": "Characterization of skin adverse events associated with cetuximab: real-world insights from the two global pharmacovigilance databases of FAERS and VigiAccess.",
+   "journal": "Frontiers in oncology",
+   "date": "2026-02-16",
+   "authors": "Li C, Gao Y, Guang M, Wu H, Li Y, Lu Y, Wei Y, Li X, Yang L.",
+   "oa": true,
+   "url": "https://europepmc.org/article/MED/41777651",
+   "kind": "toxicity",
+   "subject": "Anti-EGFR antibodies (cetuximab, panitumumab)",
+   "matched": [
+    "acneiform",
+    "rash"
+   ],
+   "tier": "primary",
+   "peer_reviewed": true,
+   "species": "human",
+   "species_from": "keywords",
+   "genes": [
+    "EGFR",
+    "BRAF",
+    "KRAS",
+    "ERBB2"
+   ],
+   "nodes": [
+    "drv-ras-wt",
+    "drv-kras-g12c",
+    "drv-braf-v600e"
+   ]
+  },
+  {
+   "id": "41690815",
+   "src": "MED",
+   "pmid": "41690815",
+   "doi": "10.1111/joim.70073",
+   "title": "Perioperative immune checkpoint inhibitor therapy across tumors: Insights and shared lessons from a rapidly evolving field.",
+   "journal": "Journal of internal medicine",
+   "date": "2026-02-14",
+   "authors": "Björkström K, Matikas A, Svedman FC, Björgvinsson E, Zupancic M, Villabona L, Er",
+   "oa": false,
+   "url": "https://europepmc.org/article/MED/41690815",
+   "kind": "toxicity",
+   "subject": "Checkpoint inhibitors in MSI-H disease",
+   "matched": [
+    "immune-related adverse"
+   ],
+   "tier": "review",
+   "peer_reviewed": true,
+   "species": "human",
+   "species_from": "mesh",
+   "genes": [
+    "PDCD1"
+   ],
+   "nodes": [
+    "rep-dmmr",
+    "site-rectum"
+   ]
+  },
+  {
+   "id": "41677963",
+   "src": "MED",
+   "pmid": "41677963",
+   "doi": "10.1007/s12029-026-01426-w",
+   "title": "Safety and Efficacy of Triple Therapy Containing Encorafenib, Cetuximab, and Binimetinib for BRAF V600E-Mutated Colorectal Cancer: a Systematic Review and Meta-Analysis.",
+   "journal": "Journal of gastrointestinal cancer",
+   "date": "2026-02-12",
+   "authors": "Ansab M, Ramzan NUH, Ishaque G, Araib E, Rath S, Nisa F, Qasim SA, Dilawar E, Sa",
+   "oa": false,
+   "url": "https://europepmc.org/article/MED/41677963",
+   "kind": "toxicity",
+   "subject": "Anti-EGFR antibodies (cetuximab, panitumumab)",
+   "matched": [
+    "acneiform"
+   ],
+   "tier": "meta-analysis",
+   "peer_reviewed": true,
+   "species": "human",
+   "species_from": "mesh",
+   "genes": [
+    "EGFR",
+    "BRAF",
+    "KRAS",
+    "ERBB2"
+   ],
+   "nodes": [
+    "drv-ras-wt",
+    "drv-kras-g12c",
+    "drv-braf-v600e"
+   ]
+  },
+  {
+   "id": "41756334",
+   "src": "MED",
+   "pmid": "41756334",
+   "doi": "10.3389/fonc.2026.1758251",
+   "title": "Clinical trials of bispecific antibody therapy for colorectal cancer: advanced and next steps.",
+   "journal": "Frontiers in oncology",
+   "date": "2026-02-11",
+   "authors": "Shao W, Liu Y, Huang L, Lu S, Zhai Y, Xiong Y, Chen N, Ye P, Lv Q.",
+   "oa": true,
+   "url": "https://europepmc.org/article/MED/41756334",
+   "kind": "new-approach",
+   "subject": "EGFR",
+   "matched": [
+    "bispecific",
+    "CAR-T"
+   ],
+   "tier": "review",
+   "peer_reviewed": true,
+   "species": "human",
+   "species_from": "keywords",
+   "genes": [
+    "EGFR"
+   ],
+   "nodes": [
+    "drv-ras-wt",
+    "drv-kras-g12c",
+    "drv-braf-v600e"
+   ]
+  },
+  {
+   "id": "41743737",
+   "src": "MED",
+   "pmid": "41743737",
+   "doi": "10.3389/fimmu.2026.1602846",
+   "title": "ProMMF_Kron: a multimodal deep learning model for immunotherapy response prediction in stomach adenocarcinoma.",
+   "journal": "Frontiers in immunology",
+   "date": "2026-02-10",
+   "authors": "Wang C, Liu W, Ai D, Liu X.",
+   "oa": true,
+   "url": "https://europepmc.org/article/MED/41743737",
+   "kind": "toxicity",
+   "subject": "Checkpoint inhibitors in MSI-H disease",
+   "matched": [
+    "immune-related adverse"
+   ],
+   "tier": "primary",
+   "peer_reviewed": true,
+   "species": "human",
+   "species_from": "mesh",
+   "genes": [
+    "PDCD1"
+   ],
+   "nodes": [
+    "rep-dmmr",
+    "site-rectum"
+   ]
+  },
+  {
+   "id": "PPR1224613",
+   "src": "PPR",
+   "pmid": null,
+   "doi": "10.64898/2026.02.05.704029",
+   "title": "Harnessing Inflammatory Monocytes to Overcome Resistance to Anti-PD-1 Immunotherapy",
+   "journal": null,
+   "date": "2026-02-08",
+   "authors": "Zimmerman MP, Huang AY, Cox EK, Al Abosy R, Chong WL, Bastian AG, Vietor K, Chou",
+   "oa": false,
+   "url": "https://europepmc.org/article/PPR/PPR1224613",
+   "kind": "resistance",
+   "subject": "Checkpoint inhibitors in MSI-H disease",
+   "matched": [
+    "B2M"
+   ],
+   "tier": "preprint",
+   "peer_reviewed": false,
+   "species": "mouse",
+   "species_from": "keywords",
+   "genes": [
+    "PDCD1"
+   ],
+   "nodes": [
+    "rep-dmmr",
+    "site-rectum"
+   ]
+  },
+  {
+   "id": "41754815",
+   "src": "MED",
+   "pmid": "41754815",
+   "doi": "10.3390/ph19020276",
+   "title": "Immune-Related Adverse Events Associated with Immune Checkpoint Inhibitors: A Scoping Review.",
+   "journal": "Pharmaceuticals (Basel, Switzerland)",
+   "date": "2026-02-06",
+   "authors": "Tacchi C, Convertino I, Bocci G.",
+   "oa": true,
+   "url": "https://europepmc.org/article/MED/41754815",
+   "kind": "toxicity",
+   "subject": "Checkpoint inhibitors in MSI-H disease",
+   "matched": [
+    "immune-related adverse"
+   ],
+   "tier": "review",
+   "peer_reviewed": true,
+   "species": "human",
+   "species_from": "keywords",
+   "genes": [
+    "PDCD1"
+   ],
+   "nodes": [
+    "rep-dmmr",
+    "site-rectum"
+   ]
+  },
+  {
+   "id": "41727427",
+   "src": "MED",
+   "pmid": "41727427",
+   "doi": "10.3389/fimmu.2026.1753215",
+   "title": "The impact of p53 mutation on tumor immune evasion: mechanistic insights and clinical implications.",
+   "journal": "Frontiers in immunology",
+   "date": "2026-02-06",
+   "authors": "Liang L, Wang W.",
+   "oa": true,
+   "url": "https://europepmc.org/article/MED/41727427",
+   "kind": "toxicity",
+   "subject": "Checkpoint inhibitors in MSI-H disease",
+   "matched": [
+    "immune-related adverse"
+   ],
+   "tier": "review",
+   "peer_reviewed": true,
+   "species": "mouse",
+   "species_from": "mesh",
+   "genes": [
+    "PDCD1"
+   ],
+   "nodes": [
+    "rep-dmmr",
+    "site-rectum"
+   ]
+  },
+  {
+   "id": "41650686",
+   "src": "MED",
+   "pmid": "41650686",
+   "doi": "10.1016/j.neo.2026.101283",
+   "title": "Inhibition of fatty acid synthase enhances therapeutic efficacy and delays acquired resistance to BRAF-targeted therapy in colorectal cancer.",
+   "journal": "Neoplasia (New York, N.Y.)",
+   "date": "2026-02-05",
+   "authors": "Geisen ME, Tessmann JW, Kelson CO, He D, Wang C, Faisal ASM, Beswick EJ, Baca Y,",
+   "oa": true,
+   "url": "https://europepmc.org/article/MED/41650686",
+   "kind": "resistance",
+   "subject": "BRAF V600E: encorafenib with cetuximab",
+   "matched": [
+    "acquired resistance"
+   ],
+   "tier": "primary",
+   "peer_reviewed": true,
+   "species": "mouse",
+   "species_from": "mesh",
+   "genes": [
+    "BRAF",
+    "EGFR"
+   ],
+   "nodes": [
+    "drv-braf-v600e",
+    "drv-ras-wt",
+    "drv-kras-g12c"
+   ]
+  },
+  {
+   "id": "PPR1225093",
+   "src": "PPR",
+   "pmid": null,
+   "doi": "10.64898/2026.02.03.703469",
+   "title": "Cellular mechanisms of acquired drug resistance against regorafenib in colon cancer cells",
+   "journal": null,
+   "date": "2026-02-05",
+   "authors": "sharma D, Rasool F, kumar B, verma R, singh A, Magani SKJ.",
+   "oa": false,
+   "url": "https://europepmc.org/article/PPR/PPR1225093",
+   "kind": "resistance",
+   "subject": "Anti-angiogenic agents",
+   "matched": [
+    "regorafenib resistance",
+    "acquired resistance"
+   ],
+   "tier": "preprint",
+   "peer_reviewed": false,
+   "species": "cell line",
+   "species_from": "keywords",
+   "genes": [
+    "VEGFA",
+    "KDR",
+    "POLE"
+   ],
+   "nodes": [
+    "site-root"
+   ]
+  },
+  {
+   "id": "41651313",
+   "src": "MED",
+   "pmid": "41651313",
+   "doi": "10.1016/j.critrevonc.2026.105180",
+   "title": "Anti-EGFR rechallenge compared with standard of care for patients with ctDNA RAS/BRAF wild-type chemorefractory metastatic colorectal cancer: A systematic review and meta-analysis.",
+   "journal": "Critical reviews in oncology/hematology",
+   "date": "2026-02-04",
+   "authors": "Kuznetsova O, Battaiotto E, Malvezzi G, Gervaso L, Zampino MG, Cella CA, Benini ",
+   "oa": false,
+   "url": "https://europepmc.org/article/MED/41651313",
+   "kind": "resistance",
+   "subject": "Anti-EGFR antibodies (cetuximab, panitumumab)",
+   "matched": [
+    "rechallenge"
+   ],
+   "tier": "meta-analysis",
+   "peer_reviewed": true,
+   "species": "human",
+   "species_from": "mesh",
+   "genes": [
+    "EGFR",
+    "BRAF",
+    "KRAS",
+    "ERBB2"
+   ],
+   "nodes": [
+    "drv-ras-wt",
+    "drv-kras-g12c",
+    "drv-braf-v600e"
+   ]
+  },
+  {
+   "id": "41651315",
+   "src": "MED",
+   "pmid": "41651315",
+   "doi": "10.1016/j.critrevonc.2026.105186",
+   "title": "Why does EGFR-targeted therapy continue to fail in breast cancer? From mechanistic deciphering to novel intervention strategies.",
+   "journal": "Critical reviews in oncology/hematology",
+   "date": "2026-02-04",
+   "authors": "An X, Xie J, Wang W, Long T, Liang Q, Hou J.",
+   "oa": false,
+   "url": "https://europepmc.org/article/MED/41651315",
+   "kind": "new-approach",
+   "subject": "EGFR",
+   "matched": [
+    "PROTAC"
+   ],
+   "tier": "review",
+   "peer_reviewed": true,
+   "species": "human",
+   "species_from": "mesh",
+   "genes": [
+    "EGFR"
+   ],
+   "nodes": [
+    "drv-ras-wt",
+    "drv-kras-g12c",
+    "drv-braf-v600e"
+   ]
+  },
+  {
+   "id": "41807198",
+   "src": "MED",
+   "pmid": "41807198",
+   "doi": "10.1016/j.cllc.2026.02.001",
+   "title": "Subcutaneous Delivery of Amivantamab in Patients With Advanced Solid Malignancies: The Phase Ib PALOMA Study.",
+   "journal": "Clinical lung cancer",
+   "date": "2026-02-03",
+   "authors": "Minchom A, Cho BC, Leighl NB, Johnson ML, Sabari J, Lee SH, Lee KH, Kim YJ, Sanb",
+   "oa": false,
+   "url": "https://europepmc.org/article/MED/41807198",
+   "kind": "new-approach",
+   "subject": "EGFR",
+   "matched": [
+    "bispecific"
+   ],
+   "tier": "trial",
+   "peer_reviewed": true,
+   "species": "human",
+   "species_from": "mesh",
+   "genes": [
+    "EGFR"
+   ],
+   "nodes": [
+    "drv-ras-wt",
+    "drv-kras-g12c",
+    "drv-braf-v600e"
+   ]
+  },
+  {
+   "id": "41616458",
+   "src": "MED",
+   "pmid": "41616458",
+   "doi": "10.1016/j.neo.2025.101270",
+   "title": "MYLK4 promotes colorectal cancer progression by regulating lipid metabolism reprogramming via targeting ferroptosis.",
+   "journal": "Neoplasia (New York, N.Y.)",
+   "date": "2026-01-29",
+   "authors": "Wang B, Wu K, Liu X, Shen Y, Li Y.",
+   "oa": true,
+   "url": "https://europepmc.org/article/MED/41616458",
+   "kind": "resistance",
+   "subject": "Anti-angiogenic agents",
+   "matched": [
+    "regorafenib resistance"
+   ],
+   "tier": "primary",
+   "peer_reviewed": true,
+   "species": "mouse",
+   "species_from": "mesh",
+   "genes": [
+    "VEGFA",
+    "KDR",
+    "POLE"
+   ],
+   "nodes": [
+    "site-root"
+   ]
+  },
+  {
+   "id": "41611186",
+   "src": "MED",
+   "pmid": "41611186",
+   "doi": "10.1016/j.critrevonc.2026.105158",
+   "title": "Trastuzumab deruxtecan in non-breast solid tumors: Expanding indications, efficacy, and future directions.",
+   "journal": "Critical reviews in oncology/hematology",
+   "date": "2026-01-28",
+   "authors": "Ghidini A, Bukovec R, Roncari L, Dottorini L, Petrelli F.",
+   "oa": false,
+   "url": "https://europepmc.org/article/MED/41611186",
+   "kind": "toxicity",
+   "subject": "HER2-directed therapy",
+   "matched": [
+    "interstitial lung disease"
+   ],
+   "tier": "review",
+   "peer_reviewed": true,
+   "species": "human",
+   "species_from": "mesh",
+   "genes": [
+    "ERBB2"
+   ],
+   "nodes": [
+    "drv-her2-amp"
+   ]
+  },
+  {
+   "id": "41579169",
+   "src": "MED",
+   "pmid": "41579169",
+   "doi": "10.1007/s00210-025-04884-4",
+   "title": "Innovative immunotherapy approaches: harnessing synergy of dual checkpoint blockade in oncology.",
+   "journal": "Naunyn-Schmiedeberg's archives of pharmacology",
+   "date": "2026-01-24",
+   "authors": "Shaik R, Varikuppala M, Badampudi S, Jabeen A, Hamzah MA, Zehra FU, Unnisa A, Mo",
+   "oa": false,
+   "url": "https://europepmc.org/article/MED/41579169",
+   "kind": "toxicity",
+   "subject": "Checkpoint inhibitors in MSI-H disease",
+   "matched": [
+    "immune-related adverse"
+   ],
+   "tier": "review",
+   "peer_reviewed": true,
+   "species": "mouse",
+   "species_from": "mesh",
+   "genes": [
+    "PDCD1"
+   ],
+   "nodes": [
+    "rep-dmmr",
+    "site-rectum"
+   ]
+  },
+  {
+   "id": "41930183",
+   "src": "MED",
+   "pmid": "41930183",
+   "doi": "10.2147/cmar.s570548",
+   "title": "Prognostic Impact of Cetuximab-Related Hypomagnesemia and Hypokalemia in RAS/RAF Wild-Type Colorectal Cancer: A Multicenter Study.",
+   "journal": "Cancer management and research",
+   "date": "2026-01-21",
+   "authors": "Güzel HG, Kıvrak Salim D, Ulukal Karancı E, Acun M, Çatlı MM, Mordağ Çiçek C, Ka",
+   "oa": true,
+   "url": "https://europepmc.org/article/MED/41930183",
+   "kind": "toxicity",
+   "subject": "Anti-EGFR antibodies (cetuximab, panitumumab)",
+   "matched": [
+    "hypomagnesemia"
+   ],
+   "tier": "primary",
+   "peer_reviewed": true,
+   "species": "human",
+   "species_from": "keywords",
+   "genes": [
+    "EGFR",
+    "BRAF",
+    "KRAS",
+    "ERBB2"
+   ],
+   "nodes": [
+    "drv-ras-wt",
+    "drv-kras-g12c",
+    "drv-braf-v600e"
+   ]
+  },
+  {
+   "id": "41859378",
+   "src": "MED",
+   "pmid": "41859378",
+   "doi": "10.2147/jir.s556800",
+   "title": "Intestinal Stenosis Related to Immune Checkpoint Inhibitors Caused by Sintilimab: A Case Report.",
+   "journal": "Journal of inflammation research",
+   "date": "2026-01-10",
+   "authors": "Li HY, Liu Y, Hu SL, Li YQ, Tang TY.",
+   "oa": true,
+   "url": "https://europepmc.org/article/MED/41859378",
+   "kind": "toxicity",
+   "subject": "Checkpoint inhibitors in MSI-H disease",
+   "matched": [
+    "immune-related adverse",
+    "colitis"
+   ],
+   "tier": "primary",
+   "peer_reviewed": true,
+   "species": "human",
+   "species_from": "keywords",
+   "genes": [
+    "PDCD1"
+   ],
+   "nodes": [
+    "rep-dmmr",
+    "site-rectum"
+   ]
+  },
+  {
+   "id": "41523907",
+   "src": "MED",
+   "pmid": "41523907",
+   "doi": "10.1177/17588359251411086",
+   "title": "Cancer-derived inflammation is associated with bevacizumab resistance and inferior clinical outcomes in patients with metastatic colorectal cancer.",
+   "journal": "Therapeutic advances in medical oncology",
+   "date": "2026-01-07",
+   "authors": "Li YN, Wu Y, Deng FW, Lu Y, Song GB, Xiang L, Peng T, Cheng XX, Ying HQ.",
+   "oa": true,
+   "url": "https://europepmc.org/article/MED/41523907",
+   "kind": "resistance",
+   "subject": "Anti-angiogenic agents",
+   "matched": [
+    "bevacizumab resistance",
+    "acquired resistance"
+   ],
+   "tier": "primary",
+   "peer_reviewed": true,
+   "species": "human",
+   "species_from": "keywords",
+   "genes": [
+    "VEGFA",
+    "KDR",
+    "POLE"
+   ],
+   "nodes": [
+    "site-root"
+   ]
+  },
+  {
+   "id": "41494713",
+   "src": "MED",
+   "pmid": "41494713",
+   "doi": "10.1136/bcr-2025-266250",
+   "title": "Relationship between recurrent colorectal cancer and EGFR inhibitor-induced dermatological side effects: a focus on paronychia.",
+   "journal": "BMJ case reports",
+   "date": "2026-01-05",
+   "authors": "Esmez O, Yıldız Esmez M, Deniz G.",
+   "oa": false,
+   "url": "https://europepmc.org/article/MED/41494713",
+   "kind": "toxicity",
+   "subject": "Anti-EGFR antibodies (cetuximab, panitumumab)",
+   "matched": [
+    "acneiform"
+   ],
+   "tier": "primary",
+   "peer_reviewed": true,
+   "species": "human",
+   "species_from": "mesh",
+   "genes": [
+    "EGFR",
+    "BRAF",
+    "KRAS",
+    "ERBB2"
+   ],
+   "nodes": [
+    "drv-ras-wt",
+    "drv-kras-g12c",
+    "drv-braf-v600e"
+   ]
+  },
+  {
+   "id": "41485060",
+   "src": "MED",
+   "pmid": "41485060",
+   "doi": "10.1186/s13046-025-03619-w",
+   "title": "KRAS-ERK signaling drives metastasis in colorectal cancer via phosphorylation-dependent activation of the ZBTB20-TGFBR2 axis.",
+   "journal": "Journal of experimental & clinical cancer research : CR",
+   "date": "2026-01-02",
+   "authors": "Liu Q, Huang J, Zhang Z, Xu Z, Li S, Guo W, Liu X, Shen T, Vega-Rubín-de-Celis S",
+   "oa": true,
+   "url": "https://europepmc.org/article/MED/41485060",
+   "kind": "new-approach",
+   "subject": "KRAS",
+   "matched": [
+    "degrader"
+   ],
+   "tier": "primary",
+   "peer_reviewed": true,
+   "species": "mouse",
+   "species_from": "mesh",
+   "genes": [
+    "KRAS",
+    "EGFR"
+   ],
+   "nodes": [
+    "drv-kras-g12c",
+    "drv-ras-wt",
+    "drv-braf-v600e"
+   ],
+   "also": [
+    {
+     "kind": "new-approach",
+     "subject": "EGFR"
+    }
+   ]
+  },
+  {
+   "id": "41555172",
+   "src": "MED",
+   "pmid": "41555172",
+   "doi": null,
+   "title": "[Impact of Seasonal Climate Variations on Skin Toxicity Induced by Anti-EGFR Antibody Therapy in Patients with Metastatic Colorectal Cancer].",
+   "journal": "Gan to kagaku ryoho. Cancer & chemotherapy",
+   "date": "2026-01-01",
+   "authors": "Yanagawa T, Kataoka K, Demachi T, Nagai M, Kimura K, Otsuka A, Ito K, Fukumoto Y",
+   "oa": false,
+   "url": "https://europepmc.org/article/MED/41555172",
+   "kind": "toxicity",
+   "subject": "Anti-EGFR antibodies (cetuximab, panitumumab)",
+   "matched": [
+    "acneiform",
+    "rash"
+   ],
+   "tier": "primary",
+   "peer_reviewed": true,
+   "species": "human",
+   "species_from": "mesh",
+   "genes": [
+    "EGFR",
+    "BRAF",
+    "KRAS",
+    "ERBB2"
+   ],
+   "nodes": [
+    "drv-ras-wt",
+    "drv-kras-g12c",
+    "drv-braf-v600e"
+   ]
+  },
+  {
+   "id": "41608149",
+   "src": "MED",
+   "pmid": "41608149",
+   "doi": "10.12998/wjcc.v14.i2.116700",
+   "title": "Differentiating fenbendazole-induced liver injury from immunotherapy hepatitis - the importance of structured causality assessment: A case report.",
+   "journal": "World journal of clinical cases",
+   "date": "2026-01-01",
+   "authors": "Krishnan A, Lucas K, Maas L, Woreta TA.",
+   "oa": true,
+   "url": "https://europepmc.org/article/MED/41608149",
+   "kind": "toxicity",
+   "subject": "Checkpoint inhibitors in MSI-H disease",
+   "matched": [
+    "immune-related adverse",
+    "hepatitis"
+   ],
+   "tier": "primary",
+   "peer_reviewed": true,
+   "species": "human",
+   "species_from": "keywords",
+   "genes": [
+    "PDCD1"
+   ],
+   "nodes": [
+    "rep-dmmr",
+    "site-rectum"
+   ]
+  },
+  {
+   "id": "42816355",
+   "src": "MED",
+   "pmid": "42816355",
+   "doi": "10.1248/yakushi.26-00022",
+   "title": "[A Case of Nephrotic Syndrome Developing Early After Initiation of Fruquintinib Therapy].",
+   "journal": "Yakugaku zasshi : Journal of the Pharmaceutical Society of Japan",
+   "date": "2026-01-01",
+   "authors": "Urushima M, Aimono Y, Ogawa E, Harada Y, Tamura A, Sato W, Ohkawara A.",
+   "oa": false,
+   "url": "https://europepmc.org/article/MED/42816355",
+   "kind": "toxicity",
+   "subject": "Anti-angiogenic agents",
+   "matched": [
+    "hypertension",
+    "proteinuria"
+   ],
+   "tier": "primary",
+   "peer_reviewed": true,
+   "species": "human",
+   "species_from": "mesh",
+   "genes": [
+    "VEGFA",
+    "KDR",
+    "POLE"
+   ],
+   "nodes": [
+    "site-root"
+   ]
+  },
+  {
+   "id": "41150906",
+   "src": "MED",
+   "pmid": "41150906",
+   "doi": "10.1158/0008-5472.can-25-1301",
+   "title": "CFT1946 Is an Orally Available Brain-Penetrant BRAFV600-Mutant Degrader That Overcomes BRAF Inhibitor Resistance.",
+   "journal": "Cancer research",
+   "date": "2026-01-01",
+   "authors": "Kreger BT, Liang Y, Reilly NM, Spears ME, Scott WA, Simard JR, Li P, Chaturvedi ",
+   "oa": false,
+   "url": "https://europepmc.org/article/MED/41150906",
+   "kind": "new-approach",
+   "subject": "BRAF",
+   "matched": [
+    "degrader"
+   ],
+   "tier": "primary",
+   "peer_reviewed": true,
+   "species": "mouse",
+   "species_from": "mesh",
+   "genes": [
+    "BRAF"
+   ],
+   "nodes": [
+    "drv-braf-v600e"
+   ]
+  },
+  {
+   "id": "41459924",
+   "src": "MED",
+   "pmid": "41459924",
+   "doi": "10.1128/msystems.00689-25",
+   "title": "Synergistic effects of Clostridium butyricum and Akkermansia muciniphila-derived postbiotics ameliorate DSS-induced colitis and associated tumorigenesis through immunomodulation and microbiota regulation in mice.",
+   "journal": "mSystems",
+   "date": "2025-12-29",
+   "authors": "Hua D, Yang Q, Zhou X, Wu D, Kang Y, Tang L, Li B, Zhang Z, Wang X, Hong W, Chen",
+   "oa": true,
+   "url": "https://europepmc.org/article/MED/41459924",
+   "kind": "toxicity",
+   "subject": "Checkpoint inhibitors in MSI-H disease",
+   "matched": [
+    "colitis"
+   ],
+   "tier": "primary",
+   "peer_reviewed": true,
+   "species": "mouse",
+   "species_from": "mesh",
+   "genes": [
+    "PDCD1"
+   ],
+   "nodes": [
+    "rep-dmmr",
+    "site-rectum"
+   ]
+  },
+  {
+   "id": "41443411",
+   "src": "MED",
+   "pmid": "41443411",
+   "doi": "10.1016/j.annonc.2025.12.014",
+   "title": "Cetuximab rechallenge in molecularly selected metastatic colorectal cancer: the randomized CAVE-2 GOIM trial.",
+   "journal": "Annals of oncology : official journal of the European Society for Medical Oncology",
+   "date": "2025-12-22",
+   "authors": "Ciardiello D, Martini G, Boscolo Bielo L, Pietrantonio F, Raimondi A, Manca P, P",
+   "oa": false,
+   "url": "https://europepmc.org/article/MED/41443411",
+   "kind": "resistance",
+   "subject": "Anti-EGFR antibodies (cetuximab, panitumumab)",
+   "matched": [
+    "rechallenge"
+   ],
+   "tier": "trial",
+   "peer_reviewed": true,
+   "species": "human",
+   "species_from": "mesh",
+   "genes": [
+    "EGFR",
+    "BRAF",
+    "KRAS",
+    "ERBB2"
+   ],
+   "nodes": [
+    "drv-ras-wt",
+    "drv-kras-g12c",
+    "drv-braf-v600e"
+   ]
+  },
+  {
+   "id": "41490183",
+   "src": "MED",
+   "pmid": "41490183",
+   "doi": "10.3791/68992",
+   "title": "A Case of Severe Skin Adverse Reactions Caused by Cetuximab.",
+   "journal": "Journal of visualized experiments : JoVE",
+   "date": "2025-12-19",
+   "authors": "Yan YT, Jiang CH, Wang L, Niu YX, Chen G, Liu ZJ.",
+   "oa": false,
+   "url": "https://europepmc.org/article/MED/41490183",
+   "kind": "toxicity",
+   "subject": "Anti-EGFR antibodies (cetuximab, panitumumab)",
+   "matched": [
+    "acneiform",
+    "rash"
+   ],
+   "tier": "primary",
+   "peer_reviewed": true,
+   "species": "human",
+   "species_from": "mesh",
+   "genes": [
+    "EGFR",
+    "BRAF",
+    "KRAS",
+    "ERBB2"
+   ],
+   "nodes": [
+    "drv-ras-wt",
+    "drv-kras-g12c",
+    "drv-braf-v600e"
+   ]
+  },
+  {
+   "id": "41361128",
+   "src": "MED",
+   "pmid": "41361128",
+   "doi": "10.1186/s43556-025-00361-9",
+   "title": "Gastrointestinal cancer: molecular pathogenesis and targeted therapy.",
+   "journal": "Molecular biomedicine",
+   "date": "2025-12-09",
+   "authors": "Jin Y, He X, Wu Y.",
+   "oa": true,
+   "url": "https://europepmc.org/article/MED/41361128",
+   "kind": "new-approach",
+   "subject": "KRAS",
+   "matched": [
+    "CAR-T"
+   ],
+   "tier": "review",
+   "peer_reviewed": true,
+   "species": "mouse",
+   "species_from": "mesh",
+   "genes": [
+    "KRAS",
+    "EGFR",
+    "APC",
+    "TP53"
+   ],
+   "nodes": [
+    "drv-kras-g12c",
+    "drv-ras-wt",
+    "drv-braf-v600e"
+   ],
+   "also": [
+    {
+     "kind": "new-approach",
+     "subject": "EGFR"
+    },
+    {
+     "kind": "new-approach",
+     "subject": "APC"
+    },
+    {
+     "kind": "new-approach",
+     "subject": "TP53"
+    }
+   ]
+  },
+  {
+   "id": "41343101",
+   "src": "MED",
+   "pmid": "41343101",
+   "doi": "10.1007/s12029-025-01358-x",
+   "title": "Neoadjuvant Immune Checkpoint Inhibition in MSI-H/dMMR Colorectal Cancer: A Systematic Review of Prospective Trials Evaluating Efficacy, Pathologic Response, and Surgical Outcomes.",
+   "journal": "Journal of gastrointestinal cancer",
+   "date": "2025-12-04",
+   "authors": "Mirza W, Khan ME, Iqbal H, Khan A, Moeen-Ud-Din MB, Khan HM, Dadan S.",
+   "oa": false,
+   "url": "https://europepmc.org/article/MED/41343101",
+   "kind": "resistance",
+   "subject": "Dostarlimab in repair-deficient rectal cancer",
+   "matched": [
+    "regrowth"
+   ],
+   "tier": "systematic review",
+   "peer_reviewed": true,
+   "species": "human",
+   "species_from": "mesh",
+   "genes": [
+    "PDCD1"
+   ],
+   "nodes": [
+    "rep-dmmr",
+    "site-rectum"
+   ]
+  },
+  {
+   "id": "41343090",
+   "src": "MED",
+   "pmid": "41343090",
+   "doi": "10.1007/s10585-025-10385-8",
+   "title": "PRL-3 as a metastasis-associated phosphatase in colorectal cancer: Mechanisms and therapeutic strategies.",
+   "journal": "Clinical & experimental metastasis",
+   "date": "2025-12-04",
+   "authors": "Greenstein SJ, Ramlogan-Steel CA, Wise IA, Wilson RJ, Steel JC.",
+   "oa": false,
+   "url": "https://europepmc.org/article/MED/41343090",
+   "kind": "new-approach",
+   "subject": "EGFR",
+   "matched": [
+    "first-in-class"
+   ],
+   "tier": "review",
+   "peer_reviewed": true,
+   "species": "mouse",
+   "species_from": "mesh",
+   "genes": [
+    "EGFR"
+   ],
+   "nodes": [
+    "drv-ras-wt",
+    "drv-kras-g12c",
+    "drv-braf-v600e"
+   ]
+  },
+  {
+   "id": "41338446",
+   "src": "MED",
+   "pmid": "41338446",
+   "doi": "10.1016/j.canlet.2025.218194",
+   "title": "SRC at the crossroads of KRAS inhibitor resistance: Mechanisms and therapeutic opportunities.",
+   "journal": "Cancer letters",
+   "date": "2025-12-02",
+   "authors": "Tian H, Zhao D, Zhou Z, Kim A, Huang H, Lee YJ, Qu Z, Kang R, Zeh HJ, Westover K",
+   "oa": false,
+   "url": "https://europepmc.org/article/MED/41338446",
+   "kind": "new-approach",
+   "subject": "KRAS",
+   "matched": [
+    "degrader",
+    "PROTAC"
+   ],
+   "tier": "review",
+   "peer_reviewed": true,
+   "species": "mouse",
+   "species_from": "mesh",
+   "genes": [
+    "KRAS"
+   ],
+   "nodes": [
+    "drv-kras-g12c"
+   ]
+  },
+  {
+   "id": "41344351",
+   "src": "MED",
+   "pmid": "41344351",
+   "doi": "10.1016/s2468-1253(25)00267-5",
+   "title": "Glecirasib with or without cetuximab in previously treated locally advanced or metastatic colorectal cancer with KRASG12C mutation (JAB-21822-1002 and JAB-21822-1007): two open-label, non-randomised phase 1/2 trials.",
+   "journal": "The lancet. Gastroenterology & hepatology",
+   "date": "2025-12-01",
+   "authors": "Li J, Wang Z, Huang J, Ba Y, Cao B, Luo S, Li W, Bai C, Song Z, Xiong J, Zhu L, ",
+   "oa": false,
+   "url": "https://europepmc.org/article/MED/41344351",
+   "kind": "toxicity",
+   "subject": "Anti-EGFR antibodies (cetuximab, panitumumab)",
+   "matched": [
+    "rash"
+   ],
+   "tier": "trial",
+   "peer_reviewed": true,
+   "species": "human",
+   "species_from": "mesh",
+   "genes": [
+    "EGFR",
+    "BRAF",
+    "KRAS",
+    "ERBB2"
+   ],
+   "nodes": [
+    "drv-ras-wt",
+    "drv-kras-g12c",
+    "drv-braf-v600e"
+   ]
+  },
+  {
+   "id": "41502912",
+   "src": "MED",
+   "pmid": "41502912",
+   "doi": "10.1016/j.iotech.2025.101558",
+   "title": "Refractory microsatellite-stable metastatic colorectal cancer: a comparison between botensilimab + balstilimab and current standard of care.",
+   "journal": "Immuno-oncology technology",
+   "date": "2025-11-28",
+   "authors": "Bengala E, Santini D, Picone V.",
+   "oa": true,
+   "url": "https://europepmc.org/article/MED/41502912",
+   "kind": "toxicity",
+   "subject": "Anti-angiogenic agents",
+   "matched": [
+    "hypertension"
+   ],
+   "tier": "primary",
+   "peer_reviewed": true,
+   "species": "human",
+   "species_from": "keywords",
+   "genes": [
+    "VEGFA",
+    "KDR",
+    "POLE"
+   ],
+   "nodes": [
+    "site-root"
+   ]
+  },
+  {
+   "id": "41458789",
+   "src": "MED",
+   "pmid": "41458789",
+   "doi": "10.7759/cureus.97871",
+   "title": "Pharmacist-Led Prevention of Recurrent Cetuximab Infusion Reactions.",
+   "journal": "Cureus",
+   "date": "2025-11-26",
+   "authors": "Yamada Y, Fukuyama A, Miyazaki M, Sumi Y, Fukue H, Nakashima A, Akasaki T, Imaky",
+   "oa": true,
+   "url": "https://europepmc.org/article/MED/41458789",
+   "kind": "resistance",
+   "subject": "Anti-EGFR antibodies (cetuximab, panitumumab)",
+   "matched": [
+    "rechallenge"
+   ],
+   "tier": "primary",
+   "peer_reviewed": true,
+   "species": "unclear",
+   "species_from": "none",
+   "genes": [
+    "EGFR",
+    "BRAF",
+    "KRAS",
+    "ERBB2"
+   ],
+   "nodes": [
+    "drv-ras-wt",
+    "drv-kras-g12c",
+    "drv-braf-v600e"
+   ]
+  },
+  {
+   "id": "41290730",
+   "src": "MED",
+   "pmid": "41290730",
+   "doi": "10.1038/s41598-025-25687-w",
+   "title": "Discovery of a Proteolysis Targeting Chimera for TRKA and RET-derived oncoproteins.",
+   "journal": "Scientific reports",
+   "date": "2025-11-25",
+   "authors": "Moccia M, Zhang L, Wang Z, Wang M, Federico G, Santoro M, Li HY, Carlomagno F.",
+   "oa": true,
+   "url": "https://europepmc.org/article/MED/41290730",
+   "kind": "new-approach",
+   "subject": "RET",
+   "matched": [
+    "degrader",
+    "PROTAC"
+   ],
+   "tier": "primary",
+   "peer_reviewed": true,
+   "species": "mouse",
+   "species_from": "mesh",
+   "genes": [
+    "RET"
+   ],
+   "nodes": [
+    "site-root"
+   ]
+  },
+  {
+   "id": "41438133",
+   "src": "MED",
+   "pmid": "41438133",
+   "doi": "10.1016/j.omton.2025.201098",
+   "title": "A KRASG12V-targeted bispecific T cell engager promotes immunity against colorectal solid tumor.",
+   "journal": "Molecular therapy. Oncology",
+   "date": "2025-11-22",
+   "authors": "Huynh N, Nguyen TT, Bui NT, Nguyen HN, Nguyen CT.",
+   "oa": true,
+   "url": "https://europepmc.org/article/MED/41438133",
+   "kind": "new-approach",
+   "subject": "KRAS",
+   "matched": [
+    "bispecific"
+   ],
+   "tier": "primary",
+   "peer_reviewed": true,
+   "species": "cell line",
+   "species_from": "keywords",
+   "genes": [
+    "KRAS"
+   ],
+   "nodes": [
+    "drv-kras-g12c"
+   ]
+  },
+  {
+   "id": "41306942",
+   "src": "MED",
+   "pmid": "41306942",
+   "doi": "10.2147/dddt.s558378",
+   "title": "Pyrotinib Plus Trastuzumab as an Effective Later-Line Therapeutic Strategy for HER2-Positive Metastatic Colorectal Cancer: Results from a Phase II Study.",
+   "journal": "Drug design, development and therapy",
+   "date": "2025-11-21",
+   "authors": "Yang W, Zhang J, Wu G, Zhang W, Zhou A, Yang L, Sun Y.",
+   "oa": true,
+   "url": "https://europepmc.org/article/MED/41306942",
+   "kind": "toxicity",
+   "subject": "HER2-directed therapy",
+   "matched": [
+    "diarrhea"
+   ],
+   "tier": "trial",
+   "peer_reviewed": true,
+   "species": "human",
+   "species_from": "mesh",
+   "genes": [
+    "ERBB2"
+   ],
+   "nodes": [
+    "drv-her2-amp"
+   ]
+  },
+  {
+   "id": "41346621",
+   "src": "MED",
+   "pmid": "41346621",
+   "doi": "10.3389/fimmu.2025.1698410",
+   "title": "Rare MSI-H hepatoid adenocarcinoma of the colon with BRAF V600E mutation achieving long-term disease-free survival after adjuvant envafolimab: a case report.",
+   "journal": "Frontiers in immunology",
+   "date": "2025-11-19",
+   "authors": "Fan S, Meng Q, Zhao Z, Niu W.",
+   "oa": true,
+   "url": "https://europepmc.org/article/MED/41346621",
+   "kind": "toxicity",
+   "subject": "Dostarlimab in repair-deficient rectal cancer",
+   "matched": [
+    "immune-related adverse"
+   ],
+   "tier": "primary",
+   "peer_reviewed": true,
+   "species": "human",
+   "species_from": "mesh",
+   "genes": [
+    "PDCD1"
+   ],
+   "nodes": [
+    "rep-dmmr",
+    "site-rectum"
+   ]
+  },
+  {
+   "id": "41300938",
+   "src": "MED",
+   "pmid": "41300938",
+   "doi": "10.3390/diagnostics15222914",
+   "title": "Delta-Radiomics Biomarker in Colorectal Cancer Liver Metastases Treated with Cetuximab Plus Avelumab (CAVE Trial).",
+   "journal": "Diagnostics (Basel, Switzerland)",
+   "date": "2025-11-18",
+   "authors": "Nardone V, Patanè V, Marinelli L, D'Ambrosio L, Del Tufo S, De Chiara M, Brunese",
+   "oa": true,
+   "url": "https://europepmc.org/article/MED/41300938",
+   "kind": "resistance",
+   "subject": "Anti-EGFR antibodies (cetuximab, panitumumab)",
+   "matched": [
+    "rechallenge"
+   ],
+   "tier": "primary",
+   "peer_reviewed": true,
+   "species": "human",
+   "species_from": "keywords",
+   "genes": [
+    "EGFR",
+    "BRAF",
+    "KRAS",
+    "ERBB2"
+   ],
+   "nodes": [
+    "drv-ras-wt",
+    "drv-kras-g12c",
+    "drv-braf-v600e"
+   ]
+  },
+  {
+   "id": "41225509",
+   "src": "MED",
+   "pmid": "41225509",
+   "doi": "10.1186/s12967-025-07312-6",
+   "title": "Vemurafenib, cetuximab and camrelizumab in BRAF V600E-mutated/MSS metastatic colorectal cancer.",
+   "journal": "Journal of translational medicine",
+   "date": "2025-11-12",
+   "authors": "Wei GX, Zhou YW, Cao P, Leng WB, Wang L, Tang J, Qiu M.",
+   "oa": true,
+   "url": "https://europepmc.org/article/MED/41225509",
+   "kind": "toxicity",
+   "subject": "Anti-EGFR antibodies (cetuximab, panitumumab)",
+   "matched": [
+    "rash"
+   ],
+   "tier": "trial",
+   "peer_reviewed": true,
+   "species": "human",
+   "species_from": "mesh",
+   "genes": [
+    "EGFR",
+    "BRAF",
+    "KRAS",
+    "ERBB2"
+   ],
+   "nodes": [
+    "drv-ras-wt",
+    "drv-kras-g12c",
+    "drv-braf-v600e"
+   ]
+  },
+  {
+   "id": "41192598",
+   "src": "MED",
+   "pmid": "41192598",
+   "doi": "10.1016/j.ijpharm.2025.126358",
+   "title": "Microfluidic-assisted preparation of ARV 825 and Osimertinib loaded liposomal formulation as a potential system for colorectal cancer therapy.",
+   "journal": "International journal of pharmaceutics",
+   "date": "2025-11-04",
+   "authors": "Patel A, Tiboni M, Casettari L, Patel K.",
+   "oa": false,
+   "url": "https://europepmc.org/article/MED/41192598",
+   "kind": "new-approach",
+   "subject": "EGFR",
+   "matched": [
+    "degrader",
+    "PROTAC"
+   ],
+   "tier": "primary",
+   "peer_reviewed": true,
+   "species": "human",
+   "species_from": "mesh",
+   "genes": [
+    "EGFR"
+   ],
+   "nodes": [
+    "drv-ras-wt",
+    "drv-kras-g12c",
+    "drv-braf-v600e"
+   ]
+  },
+  {
+   "id": "41182655",
+   "src": "MED",
+   "pmid": "41182655",
+   "doi": "10.1007/s11912-025-01725-8",
+   "title": "From Early Detection To Advanced Therapies: How Circulating Tumor DNA Is Transforming the Care of Colorectal Cancer.",
+   "journal": "Current oncology reports",
+   "date": "2025-11-03",
+   "authors": "Yee EJ, McCarter MD, Vogel JD, Schulick RD, Lieu C, Lentz RW.",
+   "oa": true,
+   "url": "https://europepmc.org/article/MED/41182655",
+   "kind": "resistance",
+   "subject": "Anti-EGFR antibodies (cetuximab, panitumumab)",
+   "matched": [
+    "rechallenge"
+   ],
+   "tier": "review",
+   "peer_reviewed": true,
+   "species": "human",
+   "species_from": "mesh",
+   "genes": [
+    "EGFR",
+    "BRAF",
+    "KRAS",
+    "ERBB2"
+   ],
+   "nodes": [
+    "drv-ras-wt",
+    "drv-kras-g12c",
+    "drv-braf-v600e"
+   ]
+  },
+  {
+   "id": "40260627",
+   "src": "MED",
+   "pmid": "40260627",
+   "doi": "10.1158/1078-0432.ccr-25-0206",
+   "title": "Izalontamab (SI-B001), a Novel EGFRxHER3 Bispecific Antibody in Patients with Locally Advanced or Metastatic Epithelial Tumor: Results from First-in-Human Phase I/Ib Study.",
+   "journal": "Clinical cancer research : an official journal of the American Association for Cancer Research",
+   "date": "2025-11-01",
+   "authors": "Xue J, Ma Y, Zhao Y, Wang Y, Hong W, Huang Y, Yang Y, Fang W, Hong S, Zhang Y, L",
+   "oa": true,
+   "url": "https://europepmc.org/article/MED/40260627",
+   "kind": "new-approach",
+   "subject": "EGFR",
+   "matched": [
+    "bispecific"
+   ],
+   "tier": "trial",
+   "peer_reviewed": true,
+   "species": "human",
+   "species_from": "mesh",
+   "genes": [
+    "EGFR"
+   ],
+   "nodes": [
+    "drv-ras-wt",
+    "drv-kras-g12c",
+    "drv-braf-v600e"
+   ]
+  },
+  {
+   "id": "41174352",
+   "src": "MED",
+   "pmid": "41174352",
+   "doi": "10.1002/1878-0261.70152",
+   "title": "Class IIa HDACs forced degradation allows resensitization of oxaliplatin-resistant FBXW7-mutated colorectal cancer.",
+   "journal": "Molecular oncology",
+   "date": "2025-10-31",
+   "authors": "Tolotto V, Gualandi N, Cortolezzis Y, Picco R, Colitti M, D'Este F, Gani M, Hanc",
+   "oa": true,
+   "url": "https://europepmc.org/article/MED/41174352",
+   "kind": "new-approach",
+   "subject": "FBXW7",
+   "matched": [
+    "PROTAC"
+   ],
+   "tier": "primary",
+   "peer_reviewed": true,
+   "species": "mouse",
+   "species_from": "mesh",
+   "genes": [
+    "FBXW7"
+   ],
+   "nodes": []
+  },
+  {
+   "id": "41161289",
+   "src": "MED",
+   "pmid": "41161289",
+   "doi": "10.1016/j.bioorg.2025.109161",
+   "title": "Research progress of direct and indirect KRAS-targeting protein degraders in KRAS-mutant cancers.",
+   "journal": "Bioorganic chemistry",
+   "date": "2025-10-26",
+   "authors": "Jiang L, Chen Y, Zhao J, Zhou L, Zhou Q, Jiang H, Lou D, Huang W, Zhang Y.",
+   "oa": false,
+   "url": "https://europepmc.org/article/MED/41161289",
+   "kind": "new-approach",
+   "subject": "KRAS",
+   "matched": [
+    "degrader",
+    "PROTAC",
+    "targeted protein degradation"
+   ],
+   "tier": "review",
+   "peer_reviewed": true,
+   "species": "mouse",
+   "species_from": "mesh",
+   "genes": [
+    "KRAS"
+   ],
+   "nodes": [
+    "drv-kras-g12c"
+   ]
+  },
+  {
+   "id": "41138046",
+   "src": "MED",
+   "pmid": "41138046",
+   "doi": "10.1007/s40265-025-02226-5",
+   "title": "Trastuzumab Rezetecan: First Approval.",
+   "journal": "Drugs",
+   "date": "2025-10-25",
+   "authors": "Hoy SM.",
+   "oa": false,
+   "url": "https://europepmc.org/article/MED/41138046",
+   "kind": "new-approach",
+   "subject": "ERBB2",
+   "matched": [
+    "antibody-drug conjugate"
+   ],
+   "tier": "review",
+   "peer_reviewed": true,
+   "species": "human",
+   "species_from": "mesh",
+   "genes": [
+    "ERBB2"
+   ],
+   "nodes": [
+    "drv-her2-amp"
+   ]
+  },
+  {
+   "id": "41135735",
+   "src": "MED",
+   "pmid": "41135735",
+   "doi": "10.1016/j.ejphar.2025.178278",
+   "title": "Postmarketing safety signals of cetuximab and panitumumab in the FAERS database: Real-World insights focus on population heterogeneity.",
+   "journal": "European journal of pharmacology",
+   "date": "2025-10-22",
+   "authors": "Mao KL, Jin LY, Chen GQ, Xie J, Chen P, Sun HY, Li LC, Zheng HL.",
+   "oa": false,
+   "url": "https://europepmc.org/article/MED/41135735",
+   "kind": "toxicity",
+   "subject": "Anti-EGFR antibodies (cetuximab, panitumumab)",
+   "matched": [
+    "acneiform",
+    "hypomagnesaemia"
+   ],
+   "tier": "primary",
+   "peer_reviewed": true,
+   "species": "human",
+   "species_from": "mesh",
+   "genes": [
+    "EGFR",
+    "BRAF",
+    "KRAS",
+    "ERBB2"
+   ],
+   "nodes": [
+    "drv-ras-wt",
+    "drv-kras-g12c",
+    "drv-braf-v600e"
+   ]
+  },
+  {
+   "id": "41115464",
+   "src": "MED",
+   "pmid": "41115464",
+   "doi": "10.1016/j.annonc.2025.10.002",
+   "title": "Re-treatment with panitumumab followed by regorafenib versus the reverse sequence in chemorefractory metastatic colorectal cancer patients with RAS and BRAF wild-type circulating tumor DNA: the PARERE study by GONO.",
+   "journal": "Annals of oncology : official journal of the European Society for Medical Oncology",
+   "date": "2025-10-18",
+   "authors": "Ciracì P, Germani MM, Pietrantonio F, Manca P, Lonardi S, Busico A, Bergamo F, B",
+   "oa": false,
+   "url": "https://europepmc.org/article/MED/41115464",
+   "kind": "resistance",
+   "subject": "Anti-angiogenic agents",
+   "matched": [
+    "acquired resistance"
+   ],
+   "tier": "trial",
+   "peer_reviewed": true,
+   "species": "human",
+   "species_from": "mesh",
+   "genes": [
+    "VEGFA",
+    "KDR",
+    "POLE"
+   ],
+   "nodes": [
+    "site-root"
+   ]
+  },
+  {
+   "id": "41044391",
+   "src": "MED",
+   "pmid": "41044391",
+   "doi": "10.1007/s00432-025-06270-2",
+   "title": "EYA1 promotes tumor angiogenesis in colorectal cancer by activating HIF-1β through LSD2-mediated H3K4me2 demethylation.",
+   "journal": "Journal of cancer research and clinical oncology",
+   "date": "2025-10-04",
+   "authors": "Cai S, Wu J, Wang N, Zheng C, Su J, Zeng C, Wang J.",
+   "oa": true,
+   "url": "https://europepmc.org/article/MED/41044391",
+   "kind": "new-approach",
+   "subject": "VEGFA",
+   "matched": [
+    "novel mechanism"
+   ],
+   "tier": "primary",
+   "peer_reviewed": true,
+   "species": "human",
+   "species_from": "mesh",
+   "genes": [
+    "VEGFA"
+   ],
+   "nodes": [
+    "site-root"
+   ]
+  },
+  {
+   "id": "PPR1089700",
+   "src": "PPR",
+   "pmid": null,
+   "doi": "10.1101/2025.09.22.677768",
+   "title": "Targeting tankyrase scaffolding in the β-catenin destruction complex by PROTAC overcomes the limitation of catalytic inhibitors in cancer",
+   "journal": null,
+   "date": "2025-09-24",
+   "authors": "Wang Q, Li L, You L, Wang S, Han L, Wang B, Yao L, Addepalli Y, Lu Y, Mender I, ",
+   "oa": false,
+   "url": "https://europepmc.org/article/PPR/PPR1089700",
+   "kind": "new-approach",
+   "subject": "APC",
+   "matched": [
+    "PROTAC"
+   ],
+   "tier": "preprint",
+   "peer_reviewed": false,
+   "species": "unclear",
+   "species_from": "none",
+   "genes": [
+    "APC"
+   ],
+   "nodes": []
+  },
+  {
+   "id": "40972397",
+   "src": "MED",
+   "pmid": "40972397",
+   "doi": "10.1016/j.biopha.2025.118565",
+   "title": "TME-responsive nanoparticles co-targeting VCP, NETs, and dual immune checkpoints for immune revitalization in EGFR/PD-L1/CTLA-4-driven colorectal cancer.",
+   "journal": "Biomedicine & pharmacotherapy = Biomedecine & pharmacotherapie",
+   "date": "2025-09-18",
+   "authors": "Lo YL, Lin HC, Lee Y, Chuang HY, Chou TF.",
+   "oa": false,
+   "url": "https://europepmc.org/article/MED/40972397",
+   "kind": "new-approach",
+   "subject": "EGFR",
+   "matched": [
+    "bispecific"
+   ],
+   "tier": "primary",
+   "peer_reviewed": true,
+   "species": "mouse",
+   "species_from": "mesh",
+   "genes": [
+    "EGFR"
+   ],
+   "nodes": [
+    "drv-ras-wt",
+    "drv-kras-g12c",
+    "drv-braf-v600e"
+   ]
+  },
+  {
+   "id": "40972582",
+   "src": "MED",
+   "pmid": "40972582",
+   "doi": "10.1016/j.xcrm.2025.102363",
+   "title": "Cetuximab increases LGR5 expression and augments LGR5-targeting antibody-drug conjugate efficacy in patient-derived colorectal cancer models.",
+   "journal": "Cell reports. Medicine",
+   "date": "2025-09-18",
+   "authors": "High PC, Liang Z, Guernsey-Biddle C, Subramanian S, Shyu YM, Aldana AM, Toh Y, C",
+   "oa": true,
+   "url": "https://europepmc.org/article/MED/40972582",
+   "kind": "new-approach",
+   "subject": "PIK3CA",
+   "matched": [
+    "antibody-drug conjugate"
+   ],
+   "tier": "primary",
+   "peer_reviewed": true,
+   "species": "mouse",
+   "species_from": "mesh",
+   "genes": [
+    "PIK3CA"
+   ],
+   "nodes": []
+  },
+  {
+   "id": "40939487",
+   "src": "MED",
+   "pmid": "40939487",
+   "doi": "10.1016/j.drup.2025.101299",
+   "title": "Gamma-synuclein drives bevacizumab resistance in colorectal cancer via VEGFR2 activation and angiogenesis.",
+   "journal": "Drug resistance updates : reviews and commentaries in antimicrobial and anticancer chemotherapy",
+   "date": "2025-09-09",
+   "authors": "Liu C, Meng L, Wang L, Dong B, Qu L, Zhao C, Shou C.",
+   "oa": false,
+   "url": "https://europepmc.org/article/MED/40939487",
+   "kind": "resistance",
+   "subject": "Anti-angiogenic agents",
+   "matched": [
+    "bevacizumab resistance",
+    "resistance to bevacizumab"
+   ],
+   "tier": "primary",
+   "peer_reviewed": true,
+   "species": "mouse",
+   "species_from": "mesh",
+   "genes": [
+    "VEGFA",
+    "KDR",
+    "POLE"
+   ],
+   "nodes": [
+    "site-root"
+   ]
+  },
+  {
+   "id": "40967883",
+   "src": "MED",
+   "pmid": "40967883",
+   "doi": "10.3760/cma.j.cn112152-20250101-00002",
+   "title": "[A retrospective study of BRAF inhibitors and EGFR inhibitors combined with immune checkpoint inhibitors in patients with microsatellite stable, BRAF V600E mutated metastatic colorectal cancer].",
+   "journal": "Zhonghua zhong liu za zhi [Chinese journal of oncology]",
+   "date": "2025-09-01",
+   "authors": "Ji Z, Ma JG, Wang X, Xin JQ, Ma LJ, Wang YX, Zeng CY, Liu R, Zhang N.",
+   "oa": false,
+   "url": "https://europepmc.org/article/MED/40967883",
+   "kind": "toxicity",
+   "subject": "BRAF V600E: encorafenib with cetuximab",
+   "matched": [
+    "fatigue",
+    "rash"
+   ],
+   "tier": "primary",
+   "peer_reviewed": true,
+   "species": "human",
+   "species_from": "mesh",
+   "genes": [
+    "BRAF",
+    "EGFR"
+   ],
+   "nodes": [
+    "drv-braf-v600e",
+    "drv-ras-wt",
+    "drv-kras-g12c"
+   ]
+  },
+  {
+   "id": "40942081",
+   "src": "MED",
+   "pmid": "40942081",
+   "doi": "10.3390/molecules30173556",
+   "title": "Combining Molecular Dynamics and Machine Learning to Predict Drug Resistance Causing Variants of BRAF in Colorectal Cancer.",
+   "journal": "Molecules (Basel, Switzerland)",
+   "date": "2025-08-30",
+   "authors": "Xie L, Lockhart C, Klimov DK, Jafri MS.",
+   "oa": true,
+   "url": "https://europepmc.org/article/MED/40942081",
+   "kind": "resistance",
+   "subject": "BRAF V600E: encorafenib with cetuximab",
+   "matched": [
+    "acquired resistance"
+   ],
+   "tier": "primary",
+   "peer_reviewed": true,
+   "species": "human",
+   "species_from": "mesh",
+   "genes": [
+    "BRAF",
+    "EGFR"
+   ],
+   "nodes": [
+    "drv-braf-v600e",
+    "drv-ras-wt",
+    "drv-kras-g12c"
+   ]
+  },
+  {
+   "id": "40940907",
+   "src": "MED",
+   "pmid": "40940907",
+   "doi": "10.3390/cancers17172810",
+   "title": "Advancements in Targeted Therapies for Colorectal Cancer: Overcoming Challenges and Exploring Future Directions.",
+   "journal": "Cancers",
+   "date": "2025-08-28",
+   "authors": "Khelwatty SA, Puvanenthiran S, Seddon AM, Bagwan I, Essapen S, Modjtahedi H.",
+   "oa": true,
+   "url": "https://europepmc.org/article/MED/40940907",
+   "kind": "new-approach",
+   "subject": "KRAS",
+   "matched": [
+    "bispecific",
+    "CAR-T"
+   ],
+   "tier": "review",
+   "peer_reviewed": true,
+   "species": "human",
+   "species_from": "keywords",
+   "genes": [
+    "KRAS"
+   ],
+   "nodes": [
+    "drv-kras-g12c"
+   ]
+  },
+  {
+   "id": "40940901",
+   "src": "MED",
+   "pmid": "40940901",
+   "doi": "10.3390/cancers17172804",
+   "title": "Anti-EGFR Therapy in Metastatic Colorectal Cancer: Identifying, Tracking, and Overcoming Resistance.",
+   "journal": "Cancers",
+   "date": "2025-08-27",
+   "authors": "Leite LF, Noronha MM, de Menezes JSA, da Conceição LD, Almeida LFC, Cappellaro A",
+   "oa": true,
+   "url": "https://europepmc.org/article/MED/40940901",
+   "kind": "new-approach",
+   "subject": "BRAF",
+   "matched": [
+    "bispecific"
+   ],
+   "tier": "review",
+   "peer_reviewed": true,
+   "species": "human",
+   "species_from": "keywords",
+   "genes": [
+    "BRAF",
+    "ERBB2"
+   ],
+   "nodes": [
+    "drv-braf-v600e",
+    "drv-her2-amp"
+   ],
+   "also": [
+    {
+     "kind": "new-approach",
+     "subject": "ERBB2"
+    }
+   ]
+  },
+  {
+   "id": "40881578",
+   "src": "MED",
+   "pmid": "40881578",
+   "doi": "10.3389/pore.2025.1612186",
+   "title": "B7-H3: a consistent marker in metastatic colorectal cancer with potential for targeted treatment.",
+   "journal": "Pathology oncology research : POR",
+   "date": "2025-08-13",
+   "authors": "Ott JM, Gassenmaier V, Bitzer M, Schürch CM, Heitmann JS, Hagelstein I.",
+   "oa": true,
+   "url": "https://europepmc.org/article/MED/40881578",
+   "kind": "new-approach",
+   "subject": "KRAS",
+   "matched": [
+    "bispecific"
+   ],
+   "tier": "trial",
+   "peer_reviewed": true,
+   "species": "human",
+   "species_from": "mesh",
+   "genes": [
+    "KRAS",
+    "NRAS",
+    "BRAF",
+    "PIK3CA"
+   ],
+   "nodes": [
+    "drv-kras-g12c",
+    "drv-braf-v600e"
+   ],
+   "also": [
+    {
+     "kind": "new-approach",
+     "subject": "NRAS"
+    },
+    {
+     "kind": "new-approach",
+     "subject": "BRAF"
+    },
+    {
+     "kind": "new-approach",
+     "subject": "PIK3CA"
+    }
+   ]
+  },
+  {
+   "id": "40803709",
+   "src": "MED",
+   "pmid": "40803709",
+   "doi": "10.1136/bcr-2025-265250",
+   "title": "Cytomegalovirus hepatitis after treatment with dostarlimab for colorectal cancer.",
+   "journal": "BMJ case reports",
+   "date": "2025-08-12",
+   "authors": "Harper H, Newman J, Sun W, MacKenzie E.",
+   "oa": false,
+   "url": "https://europepmc.org/article/MED/40803709",
+   "kind": "toxicity",
+   "subject": "Dostarlimab in repair-deficient rectal cancer",
+   "matched": [
+    "immune-related adverse"
+   ],
+   "tier": "primary",
+   "peer_reviewed": true,
+   "species": "human",
+   "species_from": "mesh",
+   "genes": [
+    "PDCD1"
+   ],
+   "nodes": [
+    "rep-dmmr",
+    "site-rectum"
+   ]
+  },
+  {
+   "id": "40782852",
+   "src": "MED",
+   "pmid": "40782852",
+   "doi": "10.1016/j.ijbiomac.2025.146678",
+   "title": "C-Arg9-APCR3-VHL promotes β-catenin degradation via the VHL-mediated ubiquitin-proteasome system in APC-mutant colorectal cancer.",
+   "journal": "International journal of biological macromolecules",
+   "date": "2025-08-08",
+   "authors": "Luo P, Shi W, Tian L, Li Y, Cheng X, Yang J, Li Y, Dong J.",
+   "oa": false,
+   "url": "https://europepmc.org/article/MED/40782852",
+   "kind": "new-approach",
+   "subject": "APC",
+   "matched": [
+    "PROTAC"
+   ],
+   "tier": "primary",
+   "peer_reviewed": true,
+   "species": "mouse",
+   "species_from": "mesh",
+   "genes": [
+    "APC"
+   ],
+   "nodes": []
+  },
+  {
+   "id": "40759630",
+   "src": "MED",
+   "pmid": "40759630",
+   "doi": "10.1038/s41419-025-07897-2",
+   "title": "P2X7 a new therapeutic target to block vesicle-dependent metastasis in colon carcinoma: Role of the A2A/CD39/CD73 axis.",
+   "journal": "Cell death & disease",
+   "date": "2025-08-04",
+   "authors": "Pegoraro A, De Marchi E, Ruo L, Zanoni M, Chioccioli S, Caderni G, Alfieri L, Gr",
+   "oa": true,
+   "url": "https://europepmc.org/article/MED/40759630",
+   "kind": "new-approach",
+   "subject": "APC",
+   "matched": [
+    "novel mechanism"
+   ],
+   "tier": "primary",
+   "peer_reviewed": true,
+   "species": "mouse",
+   "species_from": "mesh",
+   "genes": [
+    "APC"
+   ],
+   "nodes": []
+  },
+  {
+   "id": "40744997",
+   "src": "MED",
+   "pmid": "40744997",
+   "doi": "10.1038/s12276-025-01506-0",
+   "title": "Extracellular vesicle-mediated delivery of circp53 suppresses the progression of multiple cancers by activating the CypD/TRAP/HSP90 pathway.",
+   "journal": "Experimental & molecular medicine",
+   "date": "2025-08-01",
+   "authors": "Yu X, Ding P, Guo M, Tang X, Wang Z, Zhang Y, Zhou L, Lv X, Shi H, Huang H, Mao ",
+   "oa": true,
+   "url": "https://europepmc.org/article/MED/40744997",
+   "kind": "new-approach",
+   "subject": "TP53",
+   "matched": [
+    "mRNA vaccine"
+   ],
+   "tier": "primary",
+   "peer_reviewed": true,
+   "species": "mouse",
+   "species_from": "mesh",
+   "genes": [
+    "TP53"
+   ],
+   "nodes": []
+  },
+  {
+   "id": "40705959",
+   "src": "MED",
+   "pmid": "40705959",
+   "doi": "10.1002/mc.70017",
+   "title": "Venetoclax Synergizes With Regorafenib for Colorectal Cancer by Targeting BCL-2.",
+   "journal": "Molecular carcinogenesis",
+   "date": "2025-07-24",
+   "authors": "Zhu L, Wang W, Dong Y, Han X, Zhang W, Zhang Z, Guo W, Gu Y.",
+   "oa": false,
+   "url": "https://europepmc.org/article/MED/40705959",
+   "kind": "resistance",
+   "subject": "Anti-angiogenic agents",
+   "matched": [
+    "regorafenib resistance"
+   ],
+   "tier": "primary",
+   "peer_reviewed": true,
+   "species": "mouse",
+   "species_from": "mesh",
+   "genes": [
+    "VEGFA",
+    "KDR",
+    "POLE"
+   ],
+   "nodes": [
+    "site-root"
+   ]
+  },
+  {
+   "id": "40772227",
+   "src": "MED",
+   "pmid": "40772227",
+   "doi": "10.3389/fcell.2025.1631116",
+   "title": "Autophagy inhibition improves sensitivity to the multi-kinase inhibitor regorafenib in preclinical mouse colon tumoroids.",
+   "journal": "Frontiers in cell and developmental biology",
+   "date": "2025-07-23",
+   "authors": "Agostini G, Leprovots M, Jeandriens J, Lefort A, Libert F, Sclafani F, Langer I,",
+   "oa": true,
+   "url": "https://europepmc.org/article/MED/40772227",
+   "kind": "resistance",
+   "subject": "Anti-angiogenic agents",
+   "matched": [
+    "regorafenib resistance"
+   ],
+   "tier": "primary",
+   "peer_reviewed": true,
+   "species": "mouse",
+   "species_from": "keywords",
+   "genes": [
+    "VEGFA",
+    "KDR",
+    "POLE"
+   ],
+   "nodes": [
+    "site-root"
+   ]
+  },
+  {
+   "id": "40700298",
+   "src": "MED",
+   "pmid": "40700298",
+   "doi": "10.3390/antib14030058",
+   "title": "Immunotherapy in GI Cancers: Lessons from Key Trials and Future Clinical Applications.",
+   "journal": "Antibodies (Basel, Switzerland)",
+   "date": "2025-07-11",
+   "authors": "Peshin S, Bashir F, Kodali NA, Dharia A, Zaiter S, Singal S, Moka N.",
+   "oa": true,
+   "url": "https://europepmc.org/article/MED/40700298",
+   "kind": "resistance",
+   "subject": "Anti-angiogenic agents",
+   "matched": [
+    "acquired resistance"
+   ],
+   "tier": "review",
+   "peer_reviewed": true,
+   "species": "human",
+   "species_from": "keywords",
+   "genes": [
+    "VEGFA",
+    "KDR",
+    "POLE"
+   ],
+   "nodes": [
+    "site-root"
+   ],
+   "also": [
+    {
+     "kind": "new-approach",
+     "subject": "POLE"
+    }
+   ]
+  },
+  {
+   "id": "40724830",
+   "src": "MED",
+   "pmid": "40724830",
+   "doi": "10.3390/ijms26146580",
+   "title": "Transcriptomic Landscape of Paclitaxel-Induced Multidrug Resistance in 3D Cultures of Colon Cancer Cell Line DLD1.",
+   "journal": "International journal of molecular sciences",
+   "date": "2025-07-09",
+   "authors": "Dragicevic S, Dinic J, Ugrin M, Vidovic M, Babic T, Nikolic A.",
+   "oa": true,
+   "url": "https://europepmc.org/article/MED/40724830",
+   "kind": "resistance",
+   "subject": "Anti-angiogenic agents",
+   "matched": [
+    "acquired resistance"
+   ],
+   "tier": "primary",
+   "peer_reviewed": true,
+   "species": "human",
+   "species_from": "mesh",
+   "genes": [
+    "VEGFA",
+    "KDR",
+    "POLE"
+   ],
+   "nodes": [
+    "site-root"
+   ]
+  },
+  {
+   "id": "40626459",
+   "src": "MED",
+   "pmid": "40626459",
+   "doi": "10.1097/cad.0000000000001755",
+   "title": "Distribution of side effects of anti-EGFR treatments in patients with metastatic colorectal cancer and evaluation of their relationship with survival.",
+   "journal": "Anti-cancer drugs",
+   "date": "2025-07-07",
+   "authors": "Erciyestepe M, Aydin O, Dinc Sonusen S, Ozturk AE, Celik E, Atci MM, Erturk K.",
+   "oa": false,
+   "url": "https://europepmc.org/article/MED/40626459",
+   "kind": "toxicity",
+   "subject": "Anti-EGFR antibodies (cetuximab, panitumumab)",
+   "matched": [
+    "hypomagnesemia"
+   ],
+   "tier": "primary",
+   "peer_reviewed": true,
+   "species": "human",
+   "species_from": "mesh",
+   "genes": [
+    "EGFR",
+    "BRAF",
+    "KRAS",
+    "ERBB2"
+   ],
+   "nodes": [
+    "drv-ras-wt",
+    "drv-kras-g12c",
+    "drv-braf-v600e"
+   ]
+  },
+  {
+   "id": "40651134",
+   "src": "MED",
+   "pmid": "40651134",
+   "doi": "10.1016/j.ejmech.2025.117928",
+   "title": "KRASG12D selective VHL-PROTAC with sparing KRASWT and other KRAS mutants.",
+   "journal": "European journal of medicinal chemistry",
+   "date": "2025-07-05",
+   "authors": "Jeon E, Kim C, Ko M, Kim TK, Bae J, Oh JW, Kim KP, Kim HS, Sim T.",
+   "oa": false,
+   "url": "https://europepmc.org/article/MED/40651134",
+   "kind": "new-approach",
+   "subject": "KRAS",
+   "matched": [
+    "PROTAC"
+   ],
+   "tier": "primary",
+   "peer_reviewed": true,
+   "species": "mouse",
+   "species_from": "mesh",
+   "genes": [
+    "KRAS"
+   ],
+   "nodes": [
+    "drv-kras-g12c"
+   ]
+  },
+  {
+   "id": "40755575",
+   "src": "MED",
+   "pmid": "40755575",
+   "doi": "10.7759/cureus.87184",
+   "title": "Comparison of Side Effects of Anti-epidermal Growth Factor Receptor (Anti-EGFR) Antibody Drugs During Initial Induction and Reinduction in Colorectal Cancer: A Case Series.",
+   "journal": "Cureus",
+   "date": "2025-07-02",
+   "authors": "Hoshida T, Tanabe K, Tsubaki M, Nagai N, Nishida S.",
+   "oa": true,
+   "url": "https://europepmc.org/article/MED/40755575",
+   "kind": "toxicity",
+   "subject": "Anti-EGFR antibodies (cetuximab, panitumumab)",
+   "matched": [
+    "rash",
+    "hypomagnesemia"
+   ],
+   "tier": "primary",
+   "peer_reviewed": true,
+   "species": "human",
+   "species_from": "keywords",
+   "genes": [
+    "EGFR",
+    "BRAF",
+    "KRAS",
+    "ERBB2"
+   ],
+   "nodes": [
+    "drv-ras-wt",
+    "drv-kras-g12c",
+    "drv-braf-v600e"
+   ]
+  },
+  {
+   "id": "PPR1041438",
+   "src": "PPR",
+   "pmid": null,
+   "doi": "10.21203/rs.3.rs-6770441/v1",
+   "title": "Acquired resistance to BRAF inhibitory treatments requires tumor tissue remodeling and reveals targetable vulnerabilities in colorectal cancer",
+   "journal": null,
+   "date": "2025-06-25",
+   "authors": "Palmer H, Ramírez L, Ros J, Arqués O, Martinez-Quintanilla J, Cabot D, Mur-Espin",
+   "oa": false,
+   "url": "https://europepmc.org/article/PPR/PPR1041438",
+   "kind": "resistance",
+   "subject": "Anti-angiogenic agents",
+   "matched": [
+    "acquired resistance"
+   ],
+   "tier": "preprint",
+   "peer_reviewed": false,
+   "species": "mouse",
+   "species_from": "keywords",
+   "genes": [
+    "VEGFA",
+    "KDR",
+    "POLE"
+   ],
+   "nodes": [
+    "site-root"
+   ]
+  },
+  {
+   "id": "PPR1041286",
+   "src": "PPR",
+   "pmid": null,
+   "doi": "10.1101/2025.06.18.660406",
+   "title": "Cetuximab increases LGR5 expression and augments LGR5-targeting antibody-drug conjugate efficacy in patient-derived colorectal cancer models",
+   "journal": null,
+   "date": "2025-06-24",
+   "authors": "High PC, Liang Z, Guernsey-Biddle C, Subramanian S, Shyu Y, Aldana AM, Toh Y, Ca",
+   "oa": false,
+   "url": "https://europepmc.org/article/PPR/PPR1041286",
+   "kind": "new-approach",
+   "subject": "PIK3CA",
+   "matched": [
+    "antibody-drug conjugate"
+   ],
+   "tier": "preprint",
+   "peer_reviewed": false,
+   "species": "mouse",
+   "species_from": "keywords",
+   "genes": [
+    "PIK3CA"
+   ],
+   "nodes": []
+  },
+  {
+   "id": "40607397",
+   "src": "MED",
+   "pmid": "40607397",
+   "doi": "10.3389/fimmu.2025.1612547",
+   "title": "Characterization and functional evaluation of JS207, a novel bispecific antibody against human PD-1 and VEGFA.",
+   "journal": "Frontiers in immunology",
+   "date": "2025-06-18",
+   "authors": "Lin S, Hong M, Zhang J, Zhao W, Li K, Wu C, Yang Q, Xiao Y, Huang L, Wang J, Jia",
+   "oa": true,
+   "url": "https://europepmc.org/article/MED/40607397",
+   "kind": "new-approach",
+   "subject": "VEGFA",
+   "matched": [
+    "bispecific"
+   ],
+   "tier": "primary",
+   "peer_reviewed": true,
+   "species": "mouse",
+   "species_from": "mesh",
+   "genes": [
+    "VEGFA"
+   ],
+   "nodes": [
+    "site-root"
+   ]
+  },
+  {
+   "id": "40515512",
+   "src": "MED",
+   "pmid": "40515512",
+   "doi": "10.1002/kjm2.70050",
+   "title": "PKN2 Inhibits VEGFA and bFGF-Mediated Angiogenesis by Targeting HIF-1α in Colon Cancer.",
+   "journal": "The Kaohsiung journal of medical sciences",
+   "date": "2025-06-14",
+   "authors": "Zhu Y, Huang SY, Lei Y, Luo AN, Li XZ, Wang B, Sun PH, Gong ST, Cheng Y.",
+   "oa": true,
+   "url": "https://europepmc.org/article/MED/40515512",
+   "kind": "new-approach",
+   "subject": "VEGFA",
+   "matched": [
+    "novel mechanism"
+   ],
+   "tier": "primary",
+   "peer_reviewed": true,
+   "species": "mouse",
+   "species_from": "mesh",
+   "genes": [
+    "VEGFA"
+   ],
+   "nodes": [
+    "site-root"
+   ]
+  },
+  {
+   "id": "40503645",
+   "src": "MED",
+   "pmid": "40503645",
+   "doi": "10.1111/1346-8138.17813",
+   "title": "Facial Skin With Conspicuous Enlarged Pores Closely Related to Severity of Facial Acneiform Rash and Therapeutic Effects of EGFR Inhibitors in RAS Wild-Type Metastatic Colorectal Cancer: Ancillary Analysis of FAEISS Study (NCCH1512).",
+   "journal": "The Journal of dermatology",
+   "date": "2025-06-12",
+   "authors": "Yoshikawa S, Kikuchi K, Nozawa K, Nakai Y, Fukuda H, Shibata T, Machida R, Hamag",
+   "oa": true,
+   "url": "https://europepmc.org/article/MED/40503645",
+   "kind": "toxicity",
+   "subject": "Anti-EGFR antibodies (cetuximab, panitumumab)",
+   "matched": [
+    "acneiform",
+    "rash"
+   ],
+   "tier": "trial",
+   "peer_reviewed": true,
+   "species": "human",
+   "species_from": "mesh",
+   "genes": [
+    "EGFR",
+    "BRAF",
+    "KRAS",
+    "ERBB2"
+   ],
+   "nodes": [
+    "drv-ras-wt",
+    "drv-kras-g12c",
+    "drv-braf-v600e"
+   ]
+  },
+  {
+   "id": "40126545",
+   "src": "MED",
+   "pmid": "40126545",
+   "doi": "10.1158/0008-5472.can-24-2266",
+   "title": "An Anti-EGFR Antibody-Drug Radioconjugate Labeled with Actinium-225 Elicits Durable Antitumor Responses in KRAS- and BRAF-Mutant Colorectal Cancer.",
+   "journal": "Cancer research",
+   "date": "2025-06-01",
+   "authors": "Tikum AF, Henning NW, Pougoue Ketchemen J, Doroudi A, Babeker H, Njotu FN, Nwang",
+   "oa": false,
+   "url": "https://europepmc.org/article/MED/40126545",
+   "kind": "new-approach",
+   "subject": "KRAS",
+   "matched": [
+    "antibody-drug conjugate"
+   ],
+   "tier": "primary",
+   "peer_reviewed": true,
+   "species": "mouse",
+   "species_from": "mesh",
+   "genes": [
+    "KRAS",
+    "BRAF"
+   ],
+   "nodes": [
+    "drv-kras-g12c",
+    "drv-braf-v600e"
+   ],
+   "also": [
+    {
+     "kind": "new-approach",
+     "subject": "BRAF"
+    }
+   ]
+  },
+  {
+   "id": "40289838",
+   "src": "MED",
+   "pmid": "40289838",
+   "doi": "10.1080/14740338.2025.2499219",
+   "title": "Two first-generation KRAS inhibitor safety profiles: a disproportionality analysis of individual reports from the FDA adverse event reporting system.",
+   "journal": "Expert opinion on drug safety",
+   "date": "2025-05-27",
+   "authors": "Zhang Y, Tong S, Wan L.",
+   "oa": false,
+   "url": "https://europepmc.org/article/MED/40289838",
+   "kind": "toxicity",
+   "subject": "KRAS G12C inhibitors with anti-EGFR antibodies",
+   "matched": [
+    "hepatotoxicity",
+    "diarrhea"
+   ],
+   "tier": "primary",
+   "peer_reviewed": true,
+   "species": "human",
+   "species_from": "keywords",
+   "genes": [
+    "KRAS",
+    "EGFR"
+   ],
+   "nodes": [
+    "drv-kras-g12c",
+    "drv-ras-wt",
+    "drv-braf-v600e"
+   ]
+  },
+  {
+   "id": "PPR1026873",
+   "src": "PPR",
+   "pmid": null,
+   "doi": "10.1101/2025.05.25.25328304",
+   "title": "From Mutation to Prognosis: AI-HOPE-PI3K Enables Artificial Intelligence-Agent Driven Integration of PI3K Pathway Data in Colorectal Cancer Precision Medicine",
+   "journal": null,
+   "date": "2025-05-26",
+   "authors": "Yang E, Waldrup B, Velazquez-Villarreal E.",
+   "oa": false,
+   "url": "https://europepmc.org/article/PPR/PPR1026873",
+   "kind": "new-approach",
+   "subject": "PIK3CA",
+   "matched": [
+    "first-in-class"
+   ],
+   "tier": "preprint",
+   "peer_reviewed": false,
+   "species": "human",
+   "species_from": "keywords",
+   "genes": [
+    "PIK3CA"
+   ],
+   "nodes": []
+  },
+  {
+   "id": "40397411",
+   "src": "MED",
+   "pmid": "40397411",
+   "doi": "10.1002/advs.202417714",
+   "title": "Bioengineered Tumor-Derived Extracellular Vehicles Suppressed Colorectal Cancer Liver Metastasis and Bevacizumab Resistance.",
+   "journal": "Advanced science (Weinheim, Baden-Wurttemberg, Germany)",
+   "date": "2025-05-21",
+   "authors": "Wang J, Liu C, Wang P, Liu Z, Hu W, Lv Z, Huang C, Yao X.",
+   "oa": true,
+   "url": "https://europepmc.org/article/MED/40397411",
+   "kind": "resistance",
+   "subject": "Anti-angiogenic agents",
+   "matched": [
+    "bevacizumab resistance",
+    "resistance to bevacizumab"
+   ],
+   "tier": "primary",
+   "peer_reviewed": true,
+   "species": "mouse",
+   "species_from": "mesh",
+   "genes": [
+    "VEGFA",
+    "KDR",
+    "POLE"
+   ],
+   "nodes": [
+    "site-root"
+   ]
+  },
+  {
+   "id": "40342736",
+   "src": "MED",
+   "pmid": "40342736",
+   "doi": "10.20517/cdr.2025.35",
+   "title": "Unveiling MAGEA3: a novel predictive biomarker for bevacizumab resistance in colorectal cancer.",
+   "journal": "Cancer drug resistance (Alhambra, Calif.)",
+   "date": "2025-04-28",
+   "authors": "Su J, Wang J, Chen W, Xu Y, Yang W, Liu W, Wang Z, Huang M.",
+   "oa": true,
+   "url": "https://europepmc.org/article/MED/40342736",
+   "kind": "resistance",
+   "subject": "Anti-angiogenic agents",
+   "matched": [
+    "bevacizumab resistance"
+   ],
+   "tier": "primary",
+   "peer_reviewed": true,
+   "species": "human",
+   "species_from": "keywords",
+   "genes": [
+    "VEGFA",
+    "KDR",
+    "POLE"
+   ],
+   "nodes": [
+    "site-root"
+   ]
+  },
+  {
+   "id": "40274247",
+   "src": "MED",
+   "pmid": "40274247",
+   "doi": "10.1016/j.critrevonc.2025.104741",
+   "title": "KRAS G12C inhibitors as monotherapy or in combination for metastatic colorectal cancer: A proportion and comparative meta-analysis of efficacy and toxicity from phase I-II-III trials.",
+   "journal": "Critical reviews in oncology/hematology",
+   "date": "2025-04-22",
+   "authors": "Akkus E, Öksüz NE, Erul E.",
+   "oa": false,
+   "url": "https://europepmc.org/article/MED/40274247",
+   "kind": "toxicity",
+   "subject": "Anti-EGFR antibodies (cetuximab, panitumumab)",
+   "matched": [
+    "hypomagnesemia"
+   ],
+   "tier": "meta-analysis",
+   "peer_reviewed": true,
+   "species": "human",
+   "species_from": "mesh",
+   "genes": [
+    "EGFR",
+    "BRAF",
+    "KRAS",
+    "ERBB2"
+   ],
+   "nodes": [
+    "drv-ras-wt",
+    "drv-kras-g12c",
+    "drv-braf-v600e"
+   ]
+  },
+  {
+   "id": "40270608",
+   "src": "MED",
+   "pmid": "40270608",
+   "doi": "10.3389/fonc.2025.1553380",
+   "title": "Case Report: A long-term response of immunotherapy combined with anti-angiogenesis therapy in a patient with dMMR metastatic colorectal cancer after ICI failure.",
+   "journal": "Frontiers in oncology",
+   "date": "2025-04-09",
+   "authors": "Huang Q, Zheng X, Xu W.",
+   "oa": true,
+   "url": "https://europepmc.org/article/MED/40270608",
+   "kind": "resistance",
+   "subject": "Anti-angiogenic agents",
+   "matched": [
+    "acquired resistance"
+   ],
+   "tier": "primary",
+   "peer_reviewed": true,
+   "species": "human",
+   "species_from": "keywords",
+   "genes": [
+    "VEGFA",
+    "KDR",
+    "POLE"
+   ],
+   "nodes": [
+    "site-root"
+   ]
+  },
+  {
+   "id": "40189705",
+   "src": "MED",
+   "pmid": "40189705",
+   "doi": "10.1038/s41388-025-03365-5",
+   "title": "CDX2 downregulation regulates intrinsic WNT pathway activation, dictating metastasis in APC and CTNNB1 wildtype colorectal cancer.",
+   "journal": "Oncogene",
+   "date": "2025-04-06",
+   "authors": "Wouters VM, Helderman RFCPA, Cameron K, van der Hooff SR, Torang A, van den Berg",
+   "oa": true,
+   "url": "https://europepmc.org/article/MED/40189705",
+   "kind": "new-approach",
+   "subject": "APC",
+   "matched": [
+    "novel mechanism"
+   ],
+   "tier": "primary",
+   "peer_reviewed": true,
+   "species": "mouse",
+   "species_from": "mesh",
+   "genes": [
+    "APC",
+    "CTNNB1"
+   ],
+   "nodes": [],
+   "also": [
+    {
+     "kind": "new-approach",
+     "subject": "CTNNB1"
+    }
+   ]
+  },
+  {
+   "id": "40755231",
+   "src": "MED",
+   "pmid": "40755231",
+   "doi": "10.1093/carcin/bgaf036",
+   "title": "Co-targeting KRASG12D and the HER family is efficacious in colorectal cancer.",
+   "journal": "Carcinogenesis",
+   "date": "2025-04-01",
+   "authors": "Kilroy-Gehret MK, Wischmeier C, Park S, Choi D, Feroz W, Mishra R, Garrett JT.",
+   "oa": false,
+   "url": "https://europepmc.org/article/MED/40755231",
+   "kind": "new-approach",
+   "subject": "KRAS",
+   "matched": [
+    "antibody-drug conjugate"
+   ],
+   "tier": "primary",
+   "peer_reviewed": true,
+   "species": "human",
+   "species_from": "mesh",
+   "genes": [
+    "KRAS"
+   ],
+   "nodes": [
+    "drv-kras-g12c"
+   ]
+  },
+  {
+   "id": "40116975",
+   "src": "MED",
+   "pmid": "40116975",
+   "doi": "10.1007/s12032-025-02684-7",
+   "title": "Efficacy and safety of KRAS -G12C inhibitors in colorectal cancer: a systematic review of clinical trials.",
+   "journal": "Medical oncology (Northwood, London, England)",
+   "date": "2025-03-21",
+   "authors": "Sayed MS, Alami Idrissi Y, Ahmed O, Samir SH, Pandita S, Saeed F, Elraggal D, Ab",
+   "oa": false,
+   "url": "https://europepmc.org/article/MED/40116975",
+   "kind": "toxicity",
+   "subject": "KRAS G12C inhibitors with anti-EGFR antibodies",
+   "matched": [
+    "diarrhea"
+   ],
+   "tier": "systematic review",
+   "peer_reviewed": true,
+   "species": "human",
+   "species_from": "mesh",
+   "genes": [
+    "KRAS",
+    "EGFR"
+   ],
+   "nodes": [
+    "drv-kras-g12c",
+    "drv-ras-wt",
+    "drv-braf-v600e"
+   ]
+  },
+  {
+   "id": "40141317",
+   "src": "MED",
+   "pmid": "40141317",
+   "doi": "10.3390/ijms26062676",
+   "title": "Small Molecule B-RAF Inhibitors as Anti-Cancer Therapeutics: Advances in Discovery, Development, and Mechanistic Insights.",
+   "journal": "International journal of molecular sciences",
+   "date": "2025-03-16",
+   "authors": "Anaya YA, Bracho RP, Chauhan SC, Tripathi MK, Bandyopadhyay D.",
+   "oa": true,
+   "url": "https://europepmc.org/article/MED/40141317",
+   "kind": "resistance",
+   "subject": "BRAF V600E: encorafenib with cetuximab",
+   "matched": [
+    "pathway reactivation",
+    "acquired resistance"
+   ],
+   "tier": "review",
+   "peer_reviewed": true,
+   "species": "mouse",
+   "species_from": "mesh",
+   "genes": [
+    "BRAF",
+    "EGFR"
+   ],
+   "nodes": [
+    "drv-braf-v600e",
+    "drv-ras-wt",
+    "drv-kras-g12c"
+   ]
+  },
+  {
+   "id": "40009739",
+   "src": "MED",
+   "pmid": "40009739",
+   "doi": "10.3238/arztebl.m2025.0002",
+   "title": "The Pharmacologic Inhibition of KRAS Mutants as a Treatment for Cancer: Therapeutic Principles and Clinical Results.",
+   "journal": "Deutsches Arzteblatt international",
+   "date": "2025-03-01",
+   "authors": "Kasper S, Sebastian M.",
+   "oa": false,
+   "url": "https://europepmc.org/article/MED/40009739",
+   "kind": "toxicity",
+   "subject": "KRAS G12C inhibitors with anti-EGFR antibodies",
+   "matched": [
+    "diarrhea"
+   ],
+   "tier": "review",
+   "peer_reviewed": true,
+   "species": "human",
+   "species_from": "mesh",
+   "genes": [
+    "KRAS",
+    "EGFR"
+   ],
+   "nodes": [
+    "drv-kras-g12c",
+    "drv-ras-wt",
+    "drv-braf-v600e"
+   ]
+  },
+  {
+   "id": "39914665",
+   "src": "MED",
+   "pmid": "39914665",
+   "doi": "10.1016/j.annonc.2025.01.020",
+   "title": "Genomic landscape of clinically acquired resistance alterations in patients treated with KRASG12C inhibitors.",
+   "journal": "Annals of oncology : official journal of the European Society for Medical Oncology",
+   "date": "2025-02-04",
+   "authors": "Riedl JM, Fece de la Cruz F, Lin JJ, Parseghian C, Kim JE, Matsubara H, Barnes H",
+   "oa": false,
+   "url": "https://europepmc.org/article/MED/39914665",
+   "kind": "resistance",
+   "subject": "KRAS G12C inhibitors with anti-EGFR antibodies",
+   "matched": [
+    "acquired RAS",
+    "KRAS amplification"
+   ],
+   "tier": "primary",
+   "peer_reviewed": true,
+   "species": "human",
+   "species_from": "mesh",
+   "genes": [
+    "KRAS",
+    "EGFR"
+   ],
+   "nodes": [
+    "drv-kras-g12c",
+    "drv-ras-wt",
+    "drv-braf-v600e"
+   ]
+  },
+  {
+   "id": "39823500",
+   "src": "MED",
+   "pmid": "39823500",
+   "doi": "10.1371/journal.pone.0317294",
+   "title": "FBXW7 metabolic reprogramming inhibits the development of colon cancer by down-regulating the activity of arginine/mToR pathways.",
+   "journal": "PloS one",
+   "date": "2025-01-17",
+   "authors": "Li Q, Li Y, Zhou T, Zhang Y, Li H, Yuan F, Bi Y.",
+   "oa": true,
+   "url": "https://europepmc.org/article/MED/39823500",
+   "kind": "new-approach",
+   "subject": "FBXW7",
+   "matched": [
+    "novel mechanism"
+   ],
+   "tier": "primary",
+   "peer_reviewed": true,
+   "species": "human",
+   "species_from": "mesh",
+   "genes": [
+    "FBXW7"
+   ],
+   "nodes": []
+  },
+  {
+   "id": "39789190",
+   "src": "MED",
+   "pmid": "39789190",
+   "doi": "10.1038/s41598-025-85856-9",
+   "title": "EGFR-targeting RNase A-cetuximab antibody-drug conjugate induces ROS-mediated apoptosis to overcome drug resistance in KRAS mutant cancer cells.",
+   "journal": "Scientific reports",
+   "date": "2025-01-09",
+   "authors": "Jafary B, Akbarzadeh-Khiavi M, Farzi-Khajeh H, Safary A, Adibkia K.",
+   "oa": true,
+   "url": "https://europepmc.org/article/MED/39789190",
+   "kind": "new-approach",
+   "subject": "KRAS",
+   "matched": [
+    "antibody-drug conjugate"
+   ],
+   "tier": "primary",
+   "peer_reviewed": true,
+   "species": "human",
+   "species_from": "mesh",
+   "genes": [
+    "KRAS"
+   ],
+   "nodes": [
+    "drv-kras-g12c"
+   ]
+  },
+  {
+   "id": "41109298",
+   "src": "MED",
+   "pmid": "41109298",
+   "doi": null,
+   "title": "[Hyperprogression in a patient with colorectal cancer and repair protein deficiency: a diagnostic and therapeutic challenge].",
+   "journal": "Medicina",
+   "date": "2025-01-01",
+   "authors": "Riera LE, Catani G, Gallardo Martinez A, Esteso F, Bruno L, Rodriguez A, Freile ",
+   "oa": false,
+   "url": "https://europepmc.org/article/MED/41109298",
+   "kind": "resistance",
+   "subject": "Checkpoint inhibitors in MSI-H disease",
+   "matched": [
+    "pseudoprogression"
+   ],
+   "tier": "primary",
+   "peer_reviewed": true,
+   "species": "human",
+   "species_from": "mesh",
+   "genes": [
+    "PDCD1"
+   ],
+   "nodes": [
+    "rep-dmmr",
+    "site-rectum"
+   ]
+  },
+  {
+   "id": "39631402",
+   "src": "MED",
+   "pmid": "39631402",
+   "doi": "10.1016/j.xcrm.2024.101838",
+   "title": "Genetic and microenvironmental evolution of colorectal liver metastases under chemotherapy.",
+   "journal": "Cell reports. Medicine",
+   "date": "2024-12-03",
+   "authors": "Shi M, Yang Y, Huang N, Zeng D, Mo Z, Wang J, Zhang X, Liu R, Wang C, Rong X, Wu",
+   "oa": true,
+   "url": "https://europepmc.org/article/MED/39631402",
+   "kind": "resistance",
+   "subject": "Anti-angiogenic agents",
+   "matched": [
+    "acquired resistance"
+   ],
+   "tier": "primary",
+   "peer_reviewed": true,
+   "species": "mouse",
+   "species_from": "mesh",
+   "genes": [
+    "VEGFA",
+    "KDR",
+    "POLE"
+   ],
+   "nodes": [
+    "site-root"
+   ]
+  },
+  {
+   "id": "39866256",
+   "src": "MED",
+   "pmid": "39866256",
+   "doi": "10.21037/acr-24-137",
+   "title": "Differential response to immunotherapy in different lesions of MSI-H double primary colorectal cancer: a case report and literature review.",
+   "journal": "AME case reports",
+   "date": "2024-11-25",
+   "authors": "Guo Z, Hong D, Wei Y, Huo Y, Su S, Shi Y, An L, Wang K, Su Y, Wang Z.",
+   "oa": true,
+   "url": "https://europepmc.org/article/MED/39866256",
+   "kind": "resistance",
+   "subject": "Checkpoint inhibitors in MSI-H disease",
+   "matched": [
+    "primary resistance"
+   ],
+   "tier": "primary",
+   "peer_reviewed": true,
+   "species": "human",
+   "species_from": "keywords",
+   "genes": [
+    "PDCD1"
+   ],
+   "nodes": [
+    "rep-dmmr",
+    "site-rectum"
+   ]
+  },
+  {
+   "id": "39436710",
+   "src": "MED",
+   "pmid": "39436710",
+   "doi": "10.1172/jci182217",
+   "title": "MOGAT3-mediated DAG accumulation drives acquired resistance to anti-BRAF/anti-EGFR therapy in BRAFV600E-mutant metastatic colorectal cancer.",
+   "journal": "The Journal of clinical investigation",
+   "date": "2024-10-22",
+   "authors": "Wang J, Wang H, Zhou W, Luo X, Wang H, Meng Q, Chen J, Chen X, Liu Y, Chan DW, J",
+   "oa": true,
+   "url": "https://europepmc.org/article/MED/39436710",
+   "kind": "resistance",
+   "subject": "BRAF V600E: encorafenib with cetuximab",
+   "matched": [
+    "acquired resistance"
+   ],
+   "tier": "primary",
+   "peer_reviewed": true,
+   "species": "mouse",
+   "species_from": "mesh",
+   "genes": [
+    "BRAF",
+    "EGFR"
+   ],
+   "nodes": [
+    "drv-braf-v600e",
+    "drv-ras-wt",
+    "drv-kras-g12c"
+   ]
+  },
+  {
+   "id": "39426846",
+   "src": "MED",
+   "pmid": "39426846",
+   "doi": "10.1016/j.canrad.2024.09.004",
+   "title": "[Practice-changing clinical trials in gastrointestinal radiation oncology].",
+   "journal": "Cancer radiotherapie : journal de la Societe francaise de radiotherapie oncologique",
+   "date": "2024-10-18",
+   "authors": "Modesto A, Keller A, Guimbaud R, Vendrely V.",
+   "oa": false,
+   "url": "https://europepmc.org/article/MED/39426846",
+   "kind": "resistance",
+   "subject": "Dostarlimab in repair-deficient rectal cancer",
+   "matched": [
+    "local recurrence"
+   ],
+   "tier": "review",
+   "peer_reviewed": true,
+   "species": "human",
+   "species_from": "mesh",
+   "genes": [
+    "PDCD1"
+   ],
+   "nodes": [
+    "rep-dmmr",
+    "site-rectum"
+   ]
+  },
+  {
+   "id": "39388269",
+   "src": "MED",
+   "pmid": "39388269",
+   "doi": "10.1073/pnas.2406936121",
+   "title": "TRIM21 induces selective autophagic degradation of c-Myc and sensitizes regorafenib therapy in colorectal cancer.",
+   "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+   "date": "2024-10-10",
+   "authors": "Ye WL, Huang L, Yang XQ, Wan S, Gan WJ, Yang Y, He XS, Liu F, Guo X, Liu YX, Hu ",
+   "oa": true,
+   "url": "https://europepmc.org/article/MED/39388269",
+   "kind": "resistance",
+   "subject": "Anti-angiogenic agents",
+   "matched": [
+    "regorafenib resistance"
+   ],
+   "tier": "primary",
+   "peer_reviewed": true,
+   "species": "mouse",
+   "species_from": "mesh",
+   "genes": [
+    "VEGFA",
+    "KDR",
+    "POLE"
+   ],
+   "nodes": [
+    "site-root"
+   ]
+  },
+  {
+   "id": "39385104",
+   "src": "MED",
+   "pmid": "39385104",
+   "doi": "10.1186/s12885-024-12994-0",
+   "title": "Node-sparing modified short-course Radiotherapy Combined with CAPOX and Tislelizumab for locally Advanced MSS of Middle and low rectal Cancer (mRCAT): an open-label, single-arm, prospective, multicentre clinical trial.",
+   "journal": "BMC cancer",
+   "date": "2024-10-09",
+   "authors": "Cai C, Zhang X, Sun X, Wang H, Chen E, Chen L, Gu B, Wang J, Huang X, Lao W, Wan",
+   "oa": true,
+   "url": "https://europepmc.org/article/MED/39385104",
+   "kind": "resistance",
+   "subject": "Dostarlimab in repair-deficient rectal cancer",
+   "matched": [
+    "local recurrence"
+   ],
+   "tier": "trial",
+   "peer_reviewed": true,
+   "species": "human",
+   "species_from": "mesh",
+   "genes": [
+    "PDCD1"
+   ],
+   "nodes": [
+    "rep-dmmr",
+    "site-rectum"
+   ]
+  },
+  {
+   "id": "39288743",
+   "src": "MED",
+   "pmid": "39288743",
+   "doi": "10.1159/000541376",
+   "title": "Guidelines of Onkopedia: What Is New? Locally Advanced Rectal Cancer.",
+   "journal": "Oncology research and treatment",
+   "date": "2024-10-09",
+   "authors": "Hofheinz RD, Arnold D, Borner M, Eisterer W, Folprecht G, Ghadimi M, Graeven U, ",
+   "oa": false,
+   "url": "https://europepmc.org/article/MED/39288743",
+   "kind": "resistance",
+   "subject": "Dostarlimab in repair-deficient rectal cancer",
+   "matched": [
+    "local recurrence"
+   ],
+   "tier": "review",
+   "peer_reviewed": true,
+   "species": "human",
+   "species_from": "mesh",
+   "genes": [
+    "PDCD1"
+   ],
+   "nodes": [
+    "rep-dmmr",
+    "site-rectum"
+   ]
+  },
+  {
+   "id": "39377932",
+   "src": "MED",
+   "pmid": "39377932",
+   "doi": "10.1186/s40792-024-02033-2",
+   "title": "RAS mutant transverse colon cancer with multiple liver metastases achieving long-term disease-free survival with postoperative maintenance therapy with aflibercept + FOLFIRI and four repeated radical resections: a case report.",
+   "journal": "Surgical case reports",
+   "date": "2024-10-08",
+   "authors": "Tanaka Y, Nakanishi R, Sato S, Otake A, Ryujin K, Ikeda S, Ebata Y, Harima T, Na",
+   "oa": true,
+   "url": "https://europepmc.org/article/MED/39377932",
+   "kind": "resistance",
+   "subject": "Anti-angiogenic agents",
+   "matched": [
+    "resistance to bevacizumab"
+   ],
+   "tier": "primary",
+   "peer_reviewed": true,
+   "species": "human",
+   "species_from": "keywords",
+   "genes": [
+    "VEGFA",
+    "KDR",
+    "POLE"
+   ],
+   "nodes": [
+    "site-root"
+   ]
+  },
+  {
+   "id": "39439794",
+   "src": "MED",
+   "pmid": "39439794",
+   "doi": "10.3389/fimmu.2024.1440308",
+   "title": "SMAD4 enhances the cytotoxic efficacy of human NK cells against colorectal cancer cells via the m6A reader YTHDF2.",
+   "journal": "Frontiers in immunology",
+   "date": "2024-10-07",
+   "authors": "Li X, Wang Y, Cai L, Huang S.",
+   "oa": true,
+   "url": "https://europepmc.org/article/MED/39439794",
+   "kind": "new-approach",
+   "subject": "SMAD4",
+   "matched": [
+    "novel mechanism"
+   ],
+   "tier": "primary",
+   "peer_reviewed": true,
+   "species": "human",
+   "species_from": "mesh",
+   "genes": [
+    "SMAD4"
+   ],
+   "nodes": []
+  },
+  {
+   "id": "38904222",
+   "src": "MED",
+   "pmid": "38904222",
+   "doi": "10.1158/1535-7163.mct-23-0870",
+   "title": "The SOS1 Inhibitor MRTX0902 Blocks KRAS Activation and Demonstrates Antitumor Activity in Cancers Dependent on KRAS Nucleotide Loading.",
+   "journal": "Molecular cancer therapeutics",
+   "date": "2024-10-01",
+   "authors": "Sudhakar N, Yan L, Qiryaqos F, Engstrom LD, Laguer J, Calinisan A, Hebbert A, Wa",
+   "oa": true,
+   "url": "https://europepmc.org/article/MED/38904222",
+   "kind": "resistance",
+   "subject": "KRAS G12C inhibitors with anti-EGFR antibodies",
+   "matched": [
+    "receptor tyrosine kinase"
+   ],
+   "tier": "primary",
+   "peer_reviewed": true,
+   "species": "mouse",
+   "species_from": "mesh",
+   "genes": [
+    "KRAS",
+    "EGFR"
+   ],
+   "nodes": [
+    "drv-kras-g12c",
+    "drv-ras-wt",
+    "drv-braf-v600e"
+   ]
+  },
+  {
+   "id": "39313594",
+   "src": "MED",
+   "pmid": "39313594",
+   "doi": "10.1038/s41591-024-03235-9",
+   "title": "Molecular profiling of BRAF-V600E-mutant metastatic colorectal cancer in the phase 3 BEACON CRC trial.",
+   "journal": "Nature medicine",
+   "date": "2024-09-23",
+   "authors": "Kopetz S, Murphy DA, Pu J, Ciardiello F, Desai J, Van Cutsem E, Wasan HS, Yoshin",
+   "oa": true,
+   "url": "https://europepmc.org/article/MED/39313594",
+   "kind": "resistance",
+   "subject": "BRAF V600E: encorafenib with cetuximab",
+   "matched": [
+    "acquired resistance"
+   ],
+   "tier": "trial",
+   "peer_reviewed": true,
+   "species": "human",
+   "species_from": "mesh",
+   "genes": [
+    "BRAF",
+    "EGFR"
+   ],
+   "nodes": [
+    "drv-braf-v600e",
+    "drv-ras-wt",
+    "drv-kras-g12c"
+   ]
+  },
+  {
+   "id": "39299402",
+   "src": "MED",
+   "pmid": "39299402",
+   "doi": "10.1053/j.gastro.2024.09.011",
+   "title": "Obesity-Facilitated Colon Cancer Progression Is Mediated by Increased Diacylglycerol O-Acyltransferases 1 and 2 Levels.",
+   "journal": "Gastroenterology",
+   "date": "2024-09-18",
+   "authors": "Ghimire J, Collins ME, Snarski P, King AN, Ruiz E, Iftikhar R, Penrose HM, Moroz",
+   "oa": false,
+   "url": "https://europepmc.org/article/MED/39299402",
+   "kind": "new-approach",
+   "subject": "APC",
+   "matched": [
+    "novel mechanism"
+   ],
+   "tier": "primary",
+   "peer_reviewed": true,
+   "species": "mouse",
+   "species_from": "mesh",
+   "genes": [
+    "APC"
+   ],
+   "nodes": []
+  },
+  {
+   "id": "39175203",
+   "src": "MED",
+   "pmid": "39175203",
+   "doi": "10.1111/cas.16280",
+   "title": "Tretinoin synergistically enhances the antitumor effect of combined BRAF, MEK, and EGFR inhibition in BRAFV600E colorectal cancer.",
+   "journal": "Cancer science",
+   "date": "2024-08-22",
+   "authors": "Yoshida Y, Takahashi M, Taniguchi S, Numakura R, Komine K, Ishioka C.",
+   "oa": true,
+   "url": "https://europepmc.org/article/MED/39175203",
+   "kind": "resistance",
+   "subject": "BRAF V600E: encorafenib with cetuximab",
+   "matched": [
+    "acquired resistance"
+   ],
+   "tier": "primary",
+   "peer_reviewed": true,
+   "species": "mouse",
+   "species_from": "mesh",
+   "genes": [
+    "BRAF",
+    "EGFR"
+   ],
+   "nodes": [
+    "drv-braf-v600e",
+    "drv-ras-wt",
+    "drv-kras-g12c"
+   ]
+  },
+  {
+   "id": "39279968",
+   "src": "MED",
+   "pmid": "39279968",
+   "doi": "10.21037/jgo-23-940",
+   "title": "PD-1 blockade combined with chemotherapy and bevacizumab in DNA mismatch repair-proficient/microsatellite stable colorectal liver metastases.",
+   "journal": "Journal of gastrointestinal oncology",
+   "date": "2024-08-12",
+   "authors": "Men Q, Duan Y, Pei F, Yao Q, He W, Zhao Y, Shi L, Liu G, Huang J.",
+   "oa": true,
+   "url": "https://europepmc.org/article/MED/39279968",
+   "kind": "toxicity",
+   "subject": "Dostarlimab in repair-deficient rectal cancer",
+   "matched": [
+    "immune-related adverse"
+   ],
+   "tier": "primary",
+   "peer_reviewed": true,
+   "species": "human",
+   "species_from": "keywords",
+   "genes": [
+    "PDCD1"
+   ],
+   "nodes": [
+    "rep-dmmr",
+    "site-rectum"
+   ]
+  },
+  {
+   "id": "39128702",
+   "src": "MED",
+   "pmid": "39128702",
+   "doi": "10.1016/j.jare.2024.07.035",
+   "title": "NDRG1 enhances the sensitivity to Cetuximab by promoting Stat1 ubiquitylation in colorectal cancer.",
+   "journal": "Journal of advanced research",
+   "date": "2024-08-09",
+   "authors": "Yang G, Ding C, Yang X, Jiang J, He S, Shao Y, Zhang E, Fan X, Zhou X, Huang L, ",
+   "oa": true,
+   "url": "https://europepmc.org/article/MED/39128702",
+   "kind": "new-approach",
+   "subject": "KRAS",
+   "matched": [
+    "novel mechanism"
+   ],
+   "tier": "primary",
+   "peer_reviewed": true,
+   "species": "mouse",
+   "species_from": "mesh",
+   "genes": [
+    "KRAS"
+   ],
+   "nodes": [
+    "drv-kras-g12c"
+   ]
+  },
+  {
+   "id": "39116902",
+   "src": "MED",
+   "pmid": "39116902",
+   "doi": "10.1016/s1470-2045(24)00380-2",
+   "title": "Trastuzumab deruxtecan in patients with HER2-positive advanced colorectal cancer (DESTINY-CRC02): primary results from a multicentre, randomised, phase 2 trial.",
+   "journal": "The Lancet. Oncology",
+   "date": "2024-08-05",
+   "authors": "Raghav K, Siena S, Takashima A, Kato T, Van den Eynde M, Pietrantonio F, Komatsu",
+   "oa": false,
+   "url": "https://europepmc.org/article/MED/39116902",
+   "kind": "toxicity",
+   "subject": "HER2-directed therapy",
+   "matched": [
+    "interstitial lung disease"
+   ],
+   "tier": "trial",
+   "peer_reviewed": true,
+   "species": "human",
+   "species_from": "mesh",
+   "genes": [
+    "ERBB2"
+   ],
+   "nodes": [
+    "drv-her2-amp"
+   ]
+  },
+  {
+   "id": "PPR889236",
+   "src": "PPR",
+   "pmid": null,
+   "doi": "10.21203/rs.3.rs-4758082/v1",
+   "title": "Super-enhancers reorganization controls re-sensitization of oxaliplatin-resistant FBXW7-mutated colorectal cancer",
+   "journal": null,
+   "date": "2024-07-30",
+   "authors": "Giorgio ED, Tolotto V, Gualandi N, Colitti M, Picco R, Cortolezzis Y, D'Este F, ",
+   "oa": false,
+   "url": "https://europepmc.org/article/PPR/PPR889236",
+   "kind": "new-approach",
+   "subject": "FBXW7",
+   "matched": [
+    "PROTAC"
+   ],
+   "tier": "preprint",
+   "peer_reviewed": false,
+   "species": "mouse",
+   "species_from": "keywords",
+   "genes": [
+    "FBXW7"
+   ],
+   "nodes": []
+  },
+  {
+   "id": "39039255",
+   "src": "MED",
+   "pmid": "39039255",
+   "doi": "10.1038/s41589-024-01683-5",
+   "title": "Targeting Smurf1 to block PDK1-Akt signaling in KRAS-mutated colorectal cancer.",
+   "journal": "Nature chemical biology",
+   "date": "2024-07-22",
+   "authors": "Peng Z, Fang W, Wu B, He M, Li S, Wei J, Hao Y, Jin L, Liu M, Zhang X, Wei Y, Ge",
+   "oa": false,
+   "url": "https://europepmc.org/article/MED/39039255",
+   "kind": "new-approach",
+   "subject": "KRAS",
+   "matched": [
+    "degrader"
+   ],
+   "tier": "primary",
+   "peer_reviewed": true,
+   "species": "mouse",
+   "species_from": "mesh",
+   "genes": [
+    "KRAS"
+   ],
+   "nodes": [
+    "drv-kras-g12c"
+   ]
+  },
+  {
+   "id": "41647594",
+   "src": "MED",
+   "pmid": "41647594",
+   "doi": "10.1016/j.esmogo.2024.100084",
+   "title": "High prevalence of NTRK fusions in sporadic dMMR/MSI mCRC RAS/RAF wild-type: an opportunity for a post-immune checkpoint inhibitors progression rescue strategy.",
+   "journal": "ESMO gastrointestinal oncology",
+   "date": "2024-07-16",
+   "authors": "Svrcek M, Cayre A, Samaille T, Colle R, Mas L, Bourgoin P, Guillerm E, Cohen R, ",
+   "oa": true,
+   "url": "https://europepmc.org/article/MED/41647594",
+   "kind": "resistance",
+   "subject": "Checkpoint inhibitors in MSI-H disease",
+   "matched": [
+    "primary resistance"
+   ],
+   "tier": "primary",
+   "peer_reviewed": true,
+   "species": "human",
+   "species_from": "keywords",
+   "genes": [
+    "PDCD1"
+   ],
+   "nodes": [
+    "rep-dmmr",
+    "site-rectum"
+   ]
+  },
+  {
+   "id": "39145064",
+   "src": "MED",
+   "pmid": "39145064",
+   "doi": "10.21037/tcr-24-20",
+   "title": "CDK4/6 inhibition to resensitize BRAF/EGFR inhibitor in patient-derived BRAF/PTEN-mutant colon cancer cells.",
+   "journal": "Translational cancer research",
+   "date": "2024-07-12",
+   "authors": "Lim SH, Lee SY, Hong JY, Lee J, Kim ST.",
+   "oa": true,
+   "url": "https://europepmc.org/article/MED/39145064",
+   "kind": "resistance",
+   "subject": "BRAF V600E: encorafenib with cetuximab",
+   "matched": [
+    "acquired resistance"
+   ],
+   "tier": "primary",
+   "peer_reviewed": true,
+   "species": "mouse",
+   "species_from": "keywords",
+   "genes": [
+    "BRAF",
+    "EGFR"
+   ],
+   "nodes": [
+    "drv-braf-v600e",
+    "drv-ras-wt",
+    "drv-kras-g12c"
+   ]
+  },
+  {
+   "id": "38992135",
+   "src": "MED",
+   "pmid": "38992135",
+   "doi": "10.1038/s43018-024-00781-6",
+   "title": "A first-in-class selective inhibitor of EGFR and PI3K offers a single-molecule approach to targeting adaptive resistance.",
+   "journal": "Nature cancer",
+   "date": "2024-07-11",
+   "authors": "Whitehead CE, Ziemke EK, Frankowski-McGregor CL, Mumby RA, Chung J, Li J, Osher ",
+   "oa": true,
+   "url": "https://europepmc.org/article/MED/38992135",
+   "kind": "new-approach",
+   "subject": "KRAS",
+   "matched": [
+    "first-in-class"
+   ],
+   "tier": "primary",
+   "peer_reviewed": true,
+   "species": "mouse",
+   "species_from": "mesh",
+   "genes": [
+    "KRAS",
+    "BRAF"
+   ],
+   "nodes": [
+    "drv-kras-g12c",
+    "drv-braf-v600e"
+   ],
+   "also": [
+    {
+     "kind": "new-approach",
+     "subject": "BRAF"
+    }
+   ]
+  },
+  {
+   "id": "38992694",
+   "src": "MED",
+   "pmid": "38992694",
+   "doi": "10.1186/s12929-024-01060-3",
+   "title": "Dual inhibition of SUMOylation and MEK conquers MYC-expressing KRAS-mutant cancers by accumulating DNA damage.",
+   "journal": "Journal of biomedical science",
+   "date": "2024-07-11",
+   "authors": "Kotani H, Oshima H, Boucher JC, Yamano T, Sakaguchi H, Sato S, Fukuda K, Nishiya",
+   "oa": true,
+   "url": "https://europepmc.org/article/MED/38992694",
+   "kind": "new-approach",
+   "subject": "KRAS",
+   "matched": [
+    "first-in-class"
+   ],
+   "tier": "primary",
+   "peer_reviewed": true,
+   "species": "mouse",
+   "species_from": "mesh",
+   "genes": [
+    "KRAS",
+    "FBXW7"
+   ],
+   "nodes": [
+    "drv-kras-g12c"
+   ],
+   "also": [
+    {
+     "kind": "new-approach",
+     "subject": "FBXW7"
+    }
+   ]
+  },
+  {
+   "id": "38875244",
+   "src": "MED",
+   "pmid": "38875244",
+   "doi": "10.1371/journal.pone.0304324",
+   "title": "Prediction of resistance to bevacizumab plus FOLFOX in metastatic colorectal cancer-Results of the prospective multicenter PERMAD trial.",
+   "journal": "PloS one",
+   "date": "2024-06-14",
+   "authors": "Seufferlein T, Lausser L, Stein A, Arnold D, Prager G, Kasper-Virchow S, Niederm",
+   "oa": true,
+   "url": "https://europepmc.org/article/MED/38875244",
+   "kind": "resistance",
+   "subject": "Anti-angiogenic agents",
+   "matched": [
+    "resistance to bevacizumab"
+   ],
+   "tier": "primary",
+   "peer_reviewed": true,
+   "species": "human",
+   "species_from": "mesh",
+   "genes": [
+    "VEGFA",
+    "KDR",
+    "POLE"
+   ],
+   "nodes": [
+    "site-root"
+   ]
+  },
+  {
+   "id": "38871645",
+   "src": "MED",
+   "pmid": "38871645",
+   "doi": "10.1136/bcr-2023-258816",
+   "title": "Symptomatic pseudoprogression in metastatic colorectal cancer.",
+   "journal": "BMJ case reports",
+   "date": "2024-06-13",
+   "authors": "Hutchings K, Al Zaki A, Bhadkamkar N, Willis J.",
+   "oa": false,
+   "url": "https://europepmc.org/article/MED/38871645",
+   "kind": "resistance",
+   "subject": "Checkpoint inhibitors in MSI-H disease",
+   "matched": [
+    "pseudoprogression"
+   ],
+   "tier": "primary",
+   "peer_reviewed": true,
+   "species": "human",
+   "species_from": "mesh",
+   "genes": [
+    "PDCD1"
+   ],
+   "nodes": [
+    "rep-dmmr",
+    "site-rectum"
+   ]
+  },
+  {
+   "id": "38852601",
+   "src": "MED",
+   "pmid": "38852601",
+   "doi": "10.1016/s1470-2045(24)00203-1",
+   "title": "Neoadjuvant camrelizumab plus apatinib for locally advanced microsatellite instability-high or mismatch repair-deficient colorectal cancer (NEOCAP): a single-arm, open-label, phase 2 study.",
+   "journal": "The Lancet. Oncology",
+   "date": "2024-06-06",
+   "authors": "Yu JH, Xiao BY, Li DD, Jiang W, Ding Y, Wu XJ, Zhang RX, Lin JZ, Wang W, Han K, ",
+   "oa": false,
+   "url": "https://europepmc.org/article/MED/38852601",
+   "kind": "toxicity",
+   "subject": "Dostarlimab in repair-deficient rectal cancer",
+   "matched": [
+    "immune-related adverse"
+   ],
+   "tier": "trial",
+   "peer_reviewed": true,
+   "species": "human",
+   "species_from": "mesh",
+   "genes": [
+    "PDCD1"
+   ],
+   "nodes": [
+    "rep-dmmr",
+    "site-rectum"
+   ]
+  },
+  {
+   "id": "38775361",
+   "src": "MED",
+   "pmid": "38775361",
+   "doi": "10.1080/13543784.2024.2349287",
+   "title": "Epidermal growth factor receptor antagonists in colorectal cancer: emerging strategies for precision therapy.",
+   "journal": "Expert opinion on investigational drugs",
+   "date": "2024-05-22",
+   "authors": "González NS, Marchese PV, Baraibar I, Ros J, Salvà F, Rodríguez M, Salvà C, Vagh",
+   "oa": false,
+   "url": "https://europepmc.org/article/MED/38775361",
+   "kind": "new-approach",
+   "subject": "BRAF",
+   "matched": [
+    "bispecific"
+   ],
+   "tier": "review",
+   "peer_reviewed": true,
+   "species": "mouse",
+   "species_from": "mesh",
+   "genes": [
+    "BRAF"
+   ],
+   "nodes": [
+    "drv-braf-v600e"
+   ]
+  },
+  {
+   "id": "38805760",
+   "src": "MED",
+   "pmid": "38805760",
+   "doi": "10.1016/j.prp.2024.155345",
+   "title": "The therapeutic impact of programmed death - 1 in the treatment of colorectal cancer.",
+   "journal": "Pathology, research and practice",
+   "date": "2024-05-16",
+   "authors": "Sangani PS, Yazdani S, Khalili-Tanha G, Ghorbani E, Al-Hayawi IS, Fiuji H, Khaza",
+   "oa": false,
+   "url": "https://europepmc.org/article/MED/38805760",
+   "kind": "toxicity",
+   "subject": "Dostarlimab in repair-deficient rectal cancer",
+   "matched": [
+    "immune-related adverse"
+   ],
+   "tier": "review",
+   "peer_reviewed": true,
+   "species": "human",
+   "species_from": "mesh",
+   "genes": [
+    "PDCD1"
+   ],
+   "nodes": [
+    "rep-dmmr",
+    "site-rectum"
+   ]
+  },
+  {
+   "id": "38754916",
+   "src": "MED",
+   "pmid": "38754916",
+   "doi": "10.1136/jitc-2023-008659",
+   "title": "Safety and biological outcomes following a phase 1 trial of GD2-specific CAR-T cells in patients with GD2-positive metastatic melanoma and other solid cancers.",
+   "journal": "Journal for immunotherapy of cancer",
+   "date": "2024-05-15",
+   "authors": "Gargett T, Truong NTH, Gardam B, Yu W, Ebert LM, Johnson A, Yeo ECF, Wittwer NL,",
+   "oa": true,
+   "url": "https://europepmc.org/article/MED/38754916",
+   "kind": "new-approach",
+   "subject": "BRAF",
+   "matched": [
+    "CAR-T"
+   ],
+   "tier": "trial",
+   "peer_reviewed": true,
+   "species": "human",
+   "species_from": "mesh",
+   "genes": [
+    "BRAF"
+   ],
+   "nodes": [
+    "drv-braf-v600e"
+   ]
+  },
+  {
+   "id": "38723697",
+   "src": "MED",
+   "pmid": "38723697",
+   "doi": "10.1016/j.bbcan.2024.189108",
+   "title": "Activity and resistance to KRASG12C inhibitors in non-small cell lung cancer and colorectal cancer.",
+   "journal": "Biochimica et biophysica acta. Reviews on cancer",
+   "date": "2024-05-08",
+   "authors": "Ye W, Lu X, Qiao Y, Ou WB.",
+   "oa": false,
+   "url": "https://europepmc.org/article/MED/38723697",
+   "kind": "resistance",
+   "subject": "KRAS G12C inhibitors with anti-EGFR antibodies",
+   "matched": [
+    "receptor tyrosine kinase"
+   ],
+   "tier": "review",
+   "peer_reviewed": true,
+   "species": "mouse",
+   "species_from": "mesh",
+   "genes": [
+    "KRAS",
+    "EGFR"
+   ],
+   "nodes": [
+    "drv-kras-g12c",
+    "drv-ras-wt",
+    "drv-braf-v600e"
+   ]
+  },
+  {
+   "id": "38881068",
+   "src": "MED",
+   "pmid": "38881068",
+   "doi": null,
+   "title": "[A Case of BRAF Mutant Cecal Cancer Treated with Encorafenib, Binimetinib, and Cetuximab Triple Therapy].",
+   "journal": "Gan to kagaku ryoho. Cancer & chemotherapy",
+   "date": "2024-05-01",
+   "authors": "Okumura T, Fujimoto S, Nakamura S, Maehara N.",
+   "oa": false,
+   "url": "https://europepmc.org/article/MED/38881068",
+   "kind": "toxicity",
+   "subject": "BRAF V600E: encorafenib with cetuximab",
+   "matched": [
+    "nausea"
+   ],
+   "tier": "primary",
+   "peer_reviewed": true,
+   "species": "human",
+   "species_from": "mesh",
+   "genes": [
+    "BRAF",
+    "EGFR"
+   ],
+   "nodes": [
+    "drv-braf-v600e",
+    "drv-ras-wt",
+    "drv-kras-g12c"
+   ]
+  },
+  {
+   "id": "38376926",
+   "src": "MED",
+   "pmid": "38376926",
+   "doi": "10.1158/1078-0432.ccr-23-2748",
+   "title": "Circulating microRNA Analysis in a Prospective Co-clinical Trial Identifies MIR652-3p as a Response Biomarker and Driver of Regorafenib Resistance Mechanisms in Colorectal Cancer.",
+   "journal": "Clinical cancer research : an official journal of the American Association for Cancer Research",
+   "date": "2024-05-01",
+   "authors": "Hedayat S, Cascione L, Cunningham D, Schirripa M, Lampis A, Hahne JC, Tunariu N,",
+   "oa": false,
+   "url": "https://europepmc.org/article/MED/38376926",
+   "kind": "resistance",
+   "subject": "Anti-angiogenic agents",
+   "matched": [
+    "regorafenib resistance"
+   ],
+   "tier": "trial",
+   "peer_reviewed": true,
+   "species": "mouse",
+   "species_from": "mesh",
+   "genes": [
+    "VEGFA",
+    "KDR",
+    "POLE"
+   ],
+   "nodes": [
+    "site-root"
+   ]
+  },
+  {
+   "id": "PPR832066",
+   "src": "PPR",
+   "pmid": null,
+   "doi": "10.21203/rs.3.rs-4166800/v1",
+   "title": "Objective Response after Immune Checkpoint Inhibitors in a Chemotherapy-Refractory pMMR/MSS Metastatic Rectal Cancer Patient Primed with Experimental AlloStim® Immunotherapy.",
+   "journal": null,
+   "date": "2024-04-03",
+   "authors": "Hirschfeld A, Gurell D, Har-Noy M.",
+   "oa": false,
+   "url": "https://europepmc.org/article/PPR/PPR832066",
+   "kind": "resistance",
+   "subject": "Checkpoint inhibitors in MSI-H disease",
+   "matched": [
+    "pseudoprogression"
+   ],
+   "tier": "preprint",
+   "peer_reviewed": false,
+   "species": "human",
+   "species_from": "keywords",
+   "genes": [
+    "PDCD1"
+   ],
+   "nodes": [
+    "rep-dmmr",
+    "site-rectum"
+   ]
+  },
+  {
+   "id": "38565920",
+   "src": "MED",
+   "pmid": "38565920",
+   "doi": "10.1038/s43018-024-00754-9",
+   "title": "Direct and selective pharmacological disruption of the YAP-TEAD interface by IAG933 inhibits Hippo-dependent and RAS-MAPK-altered cancers.",
+   "journal": "Nature cancer",
+   "date": "2024-04-02",
+   "authors": "Chapeau EA, Sansregret L, Galli GG, Chène P, Wartmann M, Mourikis TP, Jaaks P, B",
+   "oa": true,
+   "url": "https://europepmc.org/article/MED/38565920",
+   "kind": "new-approach",
+   "subject": "KRAS",
+   "matched": [
+    "first-in-class"
+   ],
+   "tier": "primary",
+   "peer_reviewed": true,
+   "species": "mouse",
+   "species_from": "mesh",
+   "genes": [
+    "KRAS"
+   ],
+   "nodes": [
+    "drv-kras-g12c"
+   ]
+  },
+  {
+   "id": "38345769",
+   "src": "MED",
+   "pmid": "38345769",
+   "doi": "10.1158/1078-0432.ccr-23-2581",
+   "title": "RAS/RAF Comutation and ERBB2 Copy Number Modulates HER2 Heterogeneity and Responsiveness to HER2-directed Therapy in Colorectal Cancer.",
+   "journal": "Clinical cancer research : an official journal of the American Association for Cancer Research",
+   "date": "2024-04-01",
+   "authors": "Singh H, Sahgal P, Kapner K, Corsello SM, Gupta H, Gujrathi R, Li YY, Cherniack ",
+   "oa": false,
+   "url": "https://europepmc.org/article/MED/38345769",
+   "kind": "resistance",
+   "subject": "HER2-directed therapy",
+   "matched": [
+    "HER2 heterogeneity"
+   ],
+   "tier": "primary",
+   "peer_reviewed": true,
+   "species": "mouse",
+   "species_from": "mesh",
+   "genes": [
+    "ERBB2"
+   ],
+   "nodes": [
+    "drv-her2-amp"
+   ]
+  },
+  {
+   "id": "38539034",
+   "src": "MED",
+   "pmid": "38539034",
+   "doi": "10.1007/s11864-024-01183-7",
+   "title": "HER2-Positive Metastatic Colorectal Cancer.",
+   "journal": "Current treatment options in oncology",
+   "date": "2024-03-28",
+   "authors": "Robinson HR, Messersmith WA, Lentz RW.",
+   "oa": false,
+   "url": "https://europepmc.org/article/MED/38539034",
+   "kind": "new-approach",
+   "subject": "BRAF",
+   "matched": [],
+   "tier": "review",
+   "peer_reviewed": true,
+   "species": "human",
+   "species_from": "mesh",
+   "genes": [
+    "BRAF"
+   ],
+   "nodes": [
+    "drv-braf-v600e"
+   ]
+  },
+  {
+   "id": "38828145",
+   "src": "MED",
+   "pmid": "38828145",
+   "doi": "10.1016/j.apsb.2024.03.020",
+   "title": "Computer-aided molecular design and optimization of potent inhibitors disrupting APC‒Asef interaction.",
+   "journal": "Acta pharmaceutica Sinica. B",
+   "date": "2024-03-19",
+   "authors": "Wang X, Du Z, Guo Y, Zhong J, Song K, Wang J, Yu J, Yang X, Liu CY, Shi T, Zhang",
+   "oa": true,
+   "url": "https://europepmc.org/article/MED/38828145",
+   "kind": "new-approach",
+   "subject": "APC",
+   "matched": [
+    "first-in-class"
+   ],
+   "tier": "primary",
+   "peer_reviewed": true,
+   "species": "human",
+   "species_from": "keywords",
+   "genes": [
+    "APC"
+   ],
+   "nodes": []
+  },
+  {
+   "id": "38429301",
+   "src": "MED",
+   "pmid": "38429301",
+   "doi": "10.1038/s41419-024-06478-z",
+   "title": "BCL-XL inhibitors enhance the apoptotic efficacy of BRAF inhibitors in BRAFV600E colorectal cancer.",
+   "journal": "Cell death & disease",
+   "date": "2024-03-01",
+   "authors": "Jenkins LJ, Luk IY, Chionh F, Tan T, Needham K, Ayton J, Reehorst CM, Vukelic N,",
+   "oa": true,
+   "url": "https://europepmc.org/article/MED/38429301",
+   "kind": "new-approach",
+   "subject": "BRAF",
+   "matched": [
+    "PROTAC"
+   ],
+   "tier": "primary",
+   "peer_reviewed": true,
+   "species": "mouse",
+   "species_from": "mesh",
+   "genes": [
+    "BRAF"
+   ],
+   "nodes": [
+    "drv-braf-v600e"
+   ]
+  },
+  {
+   "id": "38360051",
+   "src": "MED",
+   "pmid": "38360051",
+   "doi": "10.2967/jnumed.123.266204",
+   "title": "Effectiveness of 225Ac-Labeled Anti-EGFR Radioimmunoconjugate in EGFR-Positive Kirsten Rat Sarcoma Viral Oncogene and BRAF Mutant Colorectal Cancer Models.",
+   "journal": "Journal of nuclear medicine : official publication, Society of Nuclear Medicine",
+   "date": "2024-02-15",
+   "authors": "Tikum AF, Ketchemen JP, Doroudi A, Nambisan AK, Babeker H, Njotu FN, Fonge H.",
+   "oa": false,
+   "url": "https://europepmc.org/article/MED/38360051",
+   "kind": "new-approach",
+   "subject": "BRAF",
+   "matched": [
+    "radioligand"
+   ],
+   "tier": "primary",
+   "peer_reviewed": true,
+   "species": "mouse",
+   "species_from": "keywords",
+   "genes": [
+    "BRAF"
+   ],
+   "nodes": [
+    "drv-braf-v600e"
+   ]
+  },
+  {
+   "id": "38205076",
+   "src": "MED",
+   "pmid": "38205076",
+   "doi": "10.1177/17588359231170473",
+   "title": "Deficient mismatch repair/microsatellite unstable colorectal cancer: therapeutic advances and questions.",
+   "journal": "Therapeutic advances in medical oncology",
+   "date": "2024-01-09",
+   "authors": "Cervantes B, André T, Cohen R.",
+   "oa": true,
+   "url": "https://europepmc.org/article/MED/38205076",
+   "kind": "resistance",
+   "subject": "Checkpoint inhibitors in MSI-H disease",
+   "matched": [
+    "pseudoprogression"
+   ],
+   "tier": "review",
+   "peer_reviewed": true,
+   "species": "human",
+   "species_from": "keywords",
+   "genes": [
+    "PDCD1"
+   ],
+   "nodes": [
+    "rep-dmmr",
+    "site-rectum"
+   ]
+  },
+  {
+   "id": "39175850",
+   "src": "MED",
+   "pmid": "39175850",
+   "doi": "10.33696/cancerimmunol.6.086",
+   "title": "Combining EGFR and KRAS G12C Inhibitors for KRAS G12C Mutated Advanced Colorectal Cancer.",
+   "journal": "Journal of cancer immunology",
+   "date": "2024-01-01",
+   "authors": "Miyashita H, Hong DS.",
+   "oa": true,
+   "url": "https://europepmc.org/article/MED/39175850",
+   "kind": "resistance",
+   "subject": "KRAS G12C inhibitors with anti-EGFR antibodies",
+   "matched": [
+    "receptor tyrosine kinase"
+   ],
+   "tier": "primary",
+   "peer_reviewed": true,
+   "species": "human",
+   "species_from": "keywords",
+   "genes": [
+    "KRAS",
+    "EGFR"
+   ],
+   "nodes": [
+    "drv-kras-g12c",
+    "drv-ras-wt",
+    "drv-braf-v600e"
+   ]
+  }
+ ],
+ "cancer": "colorectal",
+ "gene_to_nodes": {
+  "EGFR": [
+   "drv-ras-wt",
+   "drv-kras-g12c",
+   "drv-braf-v600e"
+  ],
+  "KRAS": [
+   "drv-kras-g12c"
+  ],
+  "BRAF": [
+   "drv-braf-v600e"
+  ],
+  "ERBB2": [
+   "drv-her2-amp"
+  ],
+  "VEGFA": [
+   "site-root"
+  ],
+  "KDR": [
+   "site-root"
+  ],
+  "VEGFB": [
+   "site-root"
+  ],
+  "PGF": [
+   "site-root"
+  ],
+  "FLT1": [
+   "site-root"
+  ],
+  "FLT4": [
+   "site-root"
+  ],
+  "PDCD1": [
+   "rep-dmmr",
+   "site-rectum"
+  ],
+  "CTLA4": [
+   "rep-dmmr"
+  ],
+  "NTRK1": [
+   "site-root"
+  ],
+  "RET": [
+   "site-root"
+  ],
+  "CD274": [
+   "rep-pmmr"
+  ]
+ }
+};

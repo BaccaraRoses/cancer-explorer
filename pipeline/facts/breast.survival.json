@@ -1,0 +1,90 @@
+{
+  "source": "cBioPortal clinical data",
+  "caveat": "METABRIC accrued largely before 2000, so absolute survival understates outcomes achievable today. These figures are valid for RELATIVE ranking between subtypes, not as current prognosis.",
+  "cohorts": {
+    "brca_metabric": {
+      "available": true,
+      "subtype_attribute": "CLAUDIN_SUBTYPE",
+      "by_subtype": {
+        "Basal": {
+          "n": 209,
+          "deaths": 115,
+          "median_os_months": 36.4,
+          "note": null
+        },
+        "Her2": {
+          "n": 224,
+          "deaths": 157,
+          "median_os_months": 65.1,
+          "note": null
+        },
+        "LumA": {
+          "n": 700,
+          "deaths": 378,
+          "median_os_months": 115.1,
+          "note": null
+        },
+        "LumB": {
+          "n": 475,
+          "deaths": 315,
+          "median_os_months": 85.3,
+          "note": null
+        },
+        "NC": {
+          "n": 6,
+          "deaths": 5,
+          "median_os_months": 118.0,
+          "note": null
+        },
+        "Normal": {
+          "n": 148,
+          "deaths": 79,
+          "median_os_months": 77.9,
+          "note": null
+        },
+        "claudin-low": {
+          "n": 218,
+          "deaths": 94,
+          "median_os_months": null,
+          "note": "median not reached \u2014 only 94/218 events (>50% required for a defined median)"
+        }
+      }
+    },
+    "brca_tcga_pub": {
+      "available": true,
+      "subtype_attribute": "PAM50_SUBTYPE",
+      "by_subtype": {
+        "Basal-like": {
+          "n": 98,
+          "deaths": 11,
+          "median_os_months": null,
+          "note": "median not reached \u2014 only 11/98 events (>50% required for a defined median)"
+        },
+        "HER2-enriched": {
+          "n": 58,
+          "deaths": 10,
+          "median_os_months": null,
+          "note": "median not reached \u2014 only 10/58 events (>50% required for a defined median)"
+        },
+        "Luminal A": {
+          "n": 231,
+          "deaths": 25,
+          "median_os_months": null,
+          "note": "median not reached \u2014 only 25/231 events (>50% required for a defined median)"
+        },
+        "Luminal B": {
+          "n": 127,
+          "deaths": 16,
+          "median_os_months": null,
+          "note": "median not reached \u2014 only 16/127 events (>50% required for a defined median)"
+        },
+        "Normal-like": {
+          "n": 8,
+          "deaths": 2,
+          "median_os_months": null,
+          "note": "median not reached \u2014 only 2/8 events (>50% required for a defined median)"
+        }
+      }
+    }
+  }
+}

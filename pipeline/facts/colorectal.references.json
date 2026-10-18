@@ -1,0 +1,1575 @@
+{
+  "dataset": "colorectal.js",
+  "n_references": 59,
+  "n_pmid": 32,
+  "n_label": 1,
+  "rows": [
+    {
+      "id": "siegel-2026",
+      "pmid": "41769777",
+      "line": 93,
+      "verdict": "OK",
+      "checks": {
+        "resolves": "ok",
+        "url": "ok",
+        "year": "ok",
+        "journal": "ok",
+        "author": "ok",
+        "title": "ok",
+        "retracted": "ok",
+        "swap": "ok"
+      },
+      "problems": [],
+      "notes": {
+        "title": "100%"
+      },
+      "record": {
+        "title": "Colorectal cancer statistics, 2026.",
+        "first_author": "Siegel",
+        "year": "2026",
+        "journal": "CA Cancer J Clin",
+        "pmcid": "PMC12951547",
+        "doi": "10.3322/caac.70067",
+        "pub_types": [
+          "research-article",
+          "Journal Article",
+          "Observational Study"
+        ]
+      }
+    },
+    {
+      "id": "domingo-2016",
+      "pmid": "28404093",
+      "line": 95,
+      "verdict": "OK",
+      "checks": {
+        "resolves": "ok",
+        "url": "ok",
+        "year": "ok",
+        "journal": "ok",
+        "author": "ok",
+        "title": "ok",
+        "retracted": "ok",
+        "swap": "ok"
+      },
+      "problems": [],
+      "notes": {
+        "title": "100%"
+      },
+      "record": {
+        "title": "Somatic POLE proofreading domain mutation, immune response, and prognosis in colorectal cancer: a retrospective, pooled biomarker study.",
+        "first_author": "Domingo",
+        "year": "2016",
+        "journal": "Lancet Gastroenterol Hepatol",
+        "pmcid": null,
+        "doi": "10.1016/s2468-1253(16)30014-0",
+        "pub_types": [
+          "Meta-Analysis",
+          "Research Support, Non-U.S. Gov't",
+          "Journal Article"
+        ]
+      }
+    },
+    {
+      "id": "hampel-2008",
+      "pmid": "18809606",
+      "line": 97,
+      "verdict": "OK",
+      "checks": {
+        "resolves": "ok",
+        "url": "ok",
+        "year": "ok",
+        "journal": "ok",
+        "author": "ok",
+        "title": "ok",
+        "retracted": "ok",
+        "swap": "ok"
+      },
+      "problems": [],
+      "notes": {
+        "title": "100%"
+      },
+      "record": {
+        "title": "Feasibility of screening for Lynch syndrome among patients with colorectal cancer.",
+        "first_author": "Hampel",
+        "year": "2008",
+        "journal": "J Clin Oncol",
+        "pmcid": "PMC2645108",
+        "doi": "10.1200/jco.2008.17.5950",
+        "pub_types": [
+          "Comparative Study",
+          "Research Support, Non-U.S. Gov't",
+          "research-article",
+          "Multicenter Study",
+          "Journal Article",
+          "Research Support, N.I.H., Extramural"
+        ]
+      }
+    },
+    {
+      "id": "tcga-2012",
+      "pmid": "22810696",
+      "line": 99,
+      "verdict": "OK",
+      "checks": {
+        "resolves": "ok",
+        "url": "ok",
+        "year": "ok",
+        "journal": "ok",
+        "author": "ok",
+        "title": "ok",
+        "retracted": "ok",
+        "swap": "ok"
+      },
+      "problems": [],
+      "notes": {
+        "title": "100%"
+      },
+      "record": {
+        "title": "Comprehensive molecular characterization of human colon and rectal cancer.",
+        "first_author": "Cancer Genome Atlas Network",
+        "year": "2012",
+        "journal": "Nature",
+        "pmcid": "PMC3401966",
+        "doi": "10.1038/nature11252",
+        "pub_types": [
+          "research-article",
+          "Journal Article",
+          "Research Support, N.I.H., Extramural"
+        ]
+      }
+    },
+    {
+      "id": "tcga-pancan",
+      "pmid": "29625048",
+      "line": 101,
+      "verdict": "OK",
+      "checks": {
+        "resolves": "ok",
+        "url": "skip",
+        "year": "ok",
+        "journal": "ok",
+        "author": "ok",
+        "title": "ok",
+        "retracted": "ok",
+        "swap": "ok"
+      },
+      "problems": [],
+      "notes": {
+        "url": "url names no PubMed, PMC or DOI id",
+        "title": "100%"
+      },
+      "record": {
+        "title": "Cell-of-Origin Patterns Dominate the Molecular Classification of 10,000 Tumors from 33 Types of Cancer.",
+        "first_author": "Hoadley",
+        "year": "2018",
+        "journal": "Cell",
+        "pmcid": "PMC5957518",
+        "doi": "10.1016/j.cell.2018.03.022",
+        "pub_types": [
+          "research-article",
+          "Journal Article",
+          "Research Support, N.I.H., Extramural"
+        ]
+      }
+    },
+    {
+      "id": "liu-2018",
+      "pmid": "29622466",
+      "line": 103,
+      "verdict": "OK",
+      "checks": {
+        "resolves": "ok",
+        "url": "ok",
+        "year": "ok",
+        "journal": "ok",
+        "author": "ok",
+        "title": "ok",
+        "retracted": "ok",
+        "swap": "ok"
+      },
+      "problems": [],
+      "notes": {
+        "title": "100%"
+      },
+      "record": {
+        "title": "Comparative Molecular Analysis of Gastrointestinal Adenocarcinomas.",
+        "first_author": "Liu",
+        "year": "2018",
+        "journal": "Cancer Cell",
+        "pmcid": "PMC5966039",
+        "doi": "10.1016/j.ccell.2018.03.010",
+        "pub_types": [
+          "Comparative Study",
+          "research-article",
+          "Journal Article",
+          "Research Support, N.I.H., Extramural"
+        ]
+      }
+    },
+    {
+      "id": "msk-crc-2017",
+      "pmid": "29316426",
+      "line": 105,
+      "verdict": "OK",
+      "checks": {
+        "resolves": "ok",
+        "url": "skip",
+        "year": "ok",
+        "journal": "ok",
+        "author": "ok",
+        "title": "ok",
+        "retracted": "ok",
+        "swap": "ok"
+      },
+      "problems": [],
+      "notes": {
+        "url": "url names no PubMed, PMC or DOI id",
+        "title": "100%"
+      },
+      "record": {
+        "title": "Clinical Sequencing Defines the Genomic Landscape of Metastatic Colorectal Cancer.",
+        "first_author": "Yaeger",
+        "year": "2018",
+        "journal": "Cancer Cell",
+        "pmcid": "PMC5765991",
+        "doi": "10.1016/j.ccell.2017.12.004",
+        "pub_types": [
+          "Research Support, Non-U.S. Gov't",
+          "research-article",
+          "Journal Article",
+          "Research Support, N.I.H., Extramural"
+        ]
+      }
+    },
+    {
+      "id": "keynote-177",
+      "pmid": "33264544",
+      "line": 107,
+      "verdict": "OK",
+      "checks": {
+        "resolves": "ok",
+        "url": "ok",
+        "year": "ok",
+        "journal": "ok",
+        "author": "ok",
+        "title": "ok",
+        "retracted": "ok",
+        "swap": "ok"
+      },
+      "problems": [],
+      "notes": {
+        "title": "100%"
+      },
+      "record": {
+        "title": "Pembrolizumab in Microsatellite-Instability-High Advanced Colorectal Cancer.",
+        "first_author": "André",
+        "year": "2020",
+        "journal": "N Engl J Med",
+        "pmcid": null,
+        "doi": "10.1056/nejmoa2017699",
+        "pub_types": [
+          "Comparative Study",
+          "Research Support, Non-U.S. Gov't",
+          "Multicenter Study",
+          "Randomized Controlled Trial",
+          "Journal Article"
+        ]
+      }
+    },
+    {
+      "id": "checkmate-8hw",
+      "pmid": "39602630",
+      "line": 109,
+      "verdict": "OK",
+      "checks": {
+        "resolves": "ok",
+        "url": "ok",
+        "year": "ok",
+        "journal": "ok",
+        "author": "ok",
+        "title": "ok",
+        "retracted": "ok",
+        "swap": "ok"
+      },
+      "problems": [],
+      "notes": {
+        "title": "100%"
+      },
+      "record": {
+        "title": "Nivolumab plus Ipilimumab in Microsatellite-Instability-High Metastatic Colorectal Cancer.",
+        "first_author": "Andre",
+        "year": "2024",
+        "journal": "N Engl J Med",
+        "pmcid": null,
+        "doi": "10.1056/nejmoa2402141",
+        "pub_types": [
+          "Clinical Trial, Phase III",
+          "Comparative Study",
+          "Multicenter Study",
+          "Randomized Controlled Trial",
+          "Journal Article"
+        ]
+      }
+    },
+    {
+      "id": "bray-2024",
+      "pmid": "38572751",
+      "line": 119,
+      "verdict": "OK",
+      "checks": {
+        "resolves": "ok",
+        "url": "ok",
+        "year": "ok",
+        "journal": "ok",
+        "author": "ok",
+        "title": "ok",
+        "retracted": "ok",
+        "swap": "ok"
+      },
+      "problems": [],
+      "notes": {
+        "title": "100%"
+      },
+      "record": {
+        "title": "Global cancer statistics 2022: GLOBOCAN estimates of incidence and mortality worldwide for 36 cancers in 185 countries.",
+        "first_author": "Bray",
+        "year": "2024",
+        "journal": "CA Cancer J Clin",
+        "pmcid": null,
+        "doi": "10.3322/caac.21834",
+        "pub_types": [
+          "Research Support, Non-U.S. Gov't",
+          "Journal Article"
+        ]
+      }
+    },
+    {
+      "id": "plsd-2020",
+      "pmid": "31337882",
+      "line": 121,
+      "verdict": "OK",
+      "checks": {
+        "resolves": "ok",
+        "url": "ok",
+        "year": "ok",
+        "journal": "ok",
+        "author": "ok",
+        "title": "ok",
+        "retracted": "ok",
+        "swap": "ok"
+      },
+      "problems": [],
+      "notes": {
+        "title": "83%"
+      },
+      "record": {
+        "title": "Cancer risks by gene, age, and gender in 6350 carriers of pathogenic mismatch repair variants: findings from the Prospective Lynch Syndrome Database.",
+        "first_author": "Dominguez-Valentin",
+        "year": "2020",
+        "journal": "Genet Med",
+        "pmcid": "PMC7371626",
+        "doi": "10.1038/s41436-019-0596-9",
+        "pub_types": [
+          "Research Support, Non-U.S. Gov't",
+          "research-article",
+          "Multicenter Study",
+          "Journal Article",
+          "Research Support, N.I.H., Extramural",
+          "Observational Study"
+        ]
+      }
+    },
+    {
+      "id": "win-2014",
+      "pmid": "24444654",
+      "line": 125,
+      "verdict": "OK",
+      "checks": {
+        "resolves": "ok",
+        "url": "ok",
+        "year": "ok",
+        "journal": "ok",
+        "author": "ok",
+        "title": "ok",
+        "retracted": "ok",
+        "swap": "ok"
+      },
+      "problems": [],
+      "notes": {
+        "title": "100%"
+      },
+      "record": {
+        "title": "Risk of colorectal cancer for carriers of mutations in MUTYH, with and without a family history of cancer.",
+        "first_author": "Win",
+        "year": "2014",
+        "journal": "Gastroenterology",
+        "pmcid": "PMC3992182",
+        "doi": "10.1053/j.gastro.2014.01.022",
+        "pub_types": [
+          "Research Support, Non-U.S. Gov't",
+          "research-article",
+          "Multicenter Study",
+          "Journal Article",
+          "Research Support, N.I.H., Extramural"
+        ]
+      }
+    },
+    {
+      "id": "olen-uc-2020",
+      "pmid": "31929014",
+      "line": 127,
+      "verdict": "OK",
+      "checks": {
+        "resolves": "ok",
+        "url": "ok",
+        "year": "ok",
+        "journal": "ok",
+        "author": "ok",
+        "title": "ok",
+        "retracted": "ok",
+        "swap": "ok"
+      },
+      "problems": [],
+      "notes": {
+        "title": "100%"
+      },
+      "record": {
+        "title": "Colorectal cancer in ulcerative colitis: a Scandinavian population-based cohort study.",
+        "first_author": "Olén",
+        "year": "2020",
+        "journal": "Lancet",
+        "pmcid": null,
+        "doi": "10.1016/s0140-6736(19)32545-0",
+        "pub_types": [
+          "Comparative Study",
+          "Research Support, Non-U.S. Gov't",
+          "Journal Article"
+        ]
+      }
+    },
+    {
+      "id": "olen-cd-2020",
+      "pmid": "32066530",
+      "line": 129,
+      "verdict": "OK",
+      "checks": {
+        "resolves": "ok",
+        "url": "ok",
+        "year": "ok",
+        "journal": "ok",
+        "author": "ok",
+        "title": "ok",
+        "retracted": "ok",
+        "swap": "ok"
+      },
+      "problems": [],
+      "notes": {
+        "title": "100%"
+      },
+      "record": {
+        "title": "Colorectal cancer in Crohn's disease: a Scandinavian population-based cohort study.",
+        "first_author": "Olén",
+        "year": "2020",
+        "journal": "Lancet Gastroenterol Hepatol",
+        "pmcid": null,
+        "doi": "10.1016/s2468-1253(20)30005-4",
+        "pub_types": [
+          "Research Support, Non-U.S. Gov't",
+          "Journal Article"
+        ]
+      }
+    },
+    {
+      "id": "rothwell-2010",
+      "pmid": "20970847",
+      "line": 131,
+      "verdict": "OK",
+      "checks": {
+        "resolves": "ok",
+        "url": "ok",
+        "year": "ok",
+        "journal": "ok",
+        "author": "ok",
+        "title": "ok",
+        "retracted": "ok",
+        "swap": "ok"
+      },
+      "problems": [],
+      "notes": {
+        "title": "100%"
+      },
+      "record": {
+        "title": "Long-term effect of aspirin on colorectal cancer incidence and mortality: 20-year follow-up of five randomised trials.",
+        "first_author": "Rothwell",
+        "year": "2010",
+        "journal": "Lancet",
+        "pmcid": null,
+        "doi": "10.1016/s0140-6736(10)61543-7",
+        "pub_types": [
+          "Research Support, Non-U.S. Gov't",
+          "Journal Article"
+        ]
+      }
+    },
+    {
+      "id": "uspstf-2021",
+      "pmid": "34003218",
+      "line": 133,
+      "verdict": "OK",
+      "checks": {
+        "resolves": "ok",
+        "url": "ok",
+        "year": "ok",
+        "journal": "ok",
+        "author": "ok",
+        "title": "ok",
+        "retracted": "ok",
+        "swap": "ok"
+      },
+      "problems": [],
+      "notes": {
+        "title": "100%"
+      },
+      "record": {
+        "title": "Screening for Colorectal Cancer: US Preventive Services Task Force Recommendation Statement.",
+        "first_author": "US Preventive Services Task Force",
+        "year": "2021",
+        "journal": "JAMA",
+        "pmcid": null,
+        "doi": "10.1001/jama.2021.6238",
+        "pub_types": [
+          "Practice Guideline",
+          "Journal Article"
+        ]
+      }
+    },
+    {
+      "id": "knudsen-2021",
+      "pmid": "34003219",
+      "line": 135,
+      "verdict": "OK",
+      "checks": {
+        "resolves": "ok",
+        "url": "ok",
+        "year": "ok",
+        "journal": "ok",
+        "author": "ok",
+        "title": "ok",
+        "retracted": "ok",
+        "swap": "ok"
+      },
+      "problems": [],
+      "notes": {
+        "title": "86%"
+      },
+      "record": {
+        "title": "Colorectal Cancer Screening: An Updated Modeling Study for the US Preventive Services Task Force.",
+        "first_author": "Knudsen",
+        "year": "2021",
+        "journal": "JAMA",
+        "pmcid": "PMC8409520",
+        "doi": "10.1001/jama.2021.5746",
+        "pub_types": [
+          "Research Support, U.S. Gov't, P.H.S.",
+          "research-article",
+          "Journal Article",
+          "Research Support, N.I.H., Extramural"
+        ]
+      }
+    },
+    {
+      "id": "lin-2021",
+      "pmid": "34003220",
+      "line": 137,
+      "verdict": "OK",
+      "checks": {
+        "resolves": "ok",
+        "url": "ok",
+        "year": "ok",
+        "journal": "ok",
+        "author": "ok",
+        "title": "ok",
+        "retracted": "ok",
+        "swap": "ok"
+      },
+      "problems": [],
+      "notes": {
+        "title": "89%"
+      },
+      "record": {
+        "title": "Screening for Colorectal Cancer: Updated Evidence Report and Systematic Review for the US Preventive Services Task Force.",
+        "first_author": "Lin",
+        "year": "2021",
+        "journal": "JAMA",
+        "pmcid": "PMC13509038",
+        "doi": "10.1001/jama.2021.4417",
+        "pub_types": [
+          "Research Support, U.S. Gov't, P.H.S.",
+          "research-article",
+          "Systematic Review",
+          "Journal Article"
+        ]
+      }
+    },
+    {
+      "id": "nordicc-2022",
+      "pmid": "36214590",
+      "line": 139,
+      "verdict": "OK",
+      "checks": {
+        "resolves": "ok",
+        "url": "ok",
+        "year": "ok",
+        "journal": "ok",
+        "author": "ok",
+        "title": "ok",
+        "retracted": "ok",
+        "swap": "ok"
+      },
+      "problems": [],
+      "notes": {
+        "title": "100%"
+      },
+      "record": {
+        "title": "Effect of Colonoscopy Screening on Risks of Colorectal Cancer and Related Death.",
+        "first_author": "Bretthauer",
+        "year": "2022",
+        "journal": "N Engl J Med",
+        "pmcid": null,
+        "doi": "10.1056/nejmoa2208375",
+        "pub_types": [
+          "Research Support, Non-U.S. Gov't",
+          "Randomized Controlled Trial",
+          "Pragmatic Clinical Trial",
+          "Journal Article"
+        ]
+      }
+    },
+    {
+      "id": "lee-2014",
+      "pmid": "24658694",
+      "line": 141,
+      "verdict": "OK",
+      "checks": {
+        "resolves": "ok",
+        "url": "ok",
+        "year": "ok",
+        "journal": "ok",
+        "author": "ok",
+        "title": "ok",
+        "retracted": "ok",
+        "swap": "ok"
+      },
+      "problems": [],
+      "notes": {
+        "title": "100%"
+      },
+      "record": {
+        "title": "Accuracy of fecal immunochemical tests for colorectal cancer: systematic review and meta-analysis.",
+        "first_author": "Lee",
+        "year": "2014",
+        "journal": "Ann Intern Med",
+        "pmcid": "PMC4189821",
+        "doi": "10.7326/m13-1484",
+        "pub_types": [
+          "Meta-Analysis",
+          "research-article",
+          "Systematic Review",
+          "Journal Article",
+          "Research Support, N.I.H., Extramural"
+        ]
+      }
+    },
+    {
+      "id": "imperiale-2014",
+      "pmid": "24645800",
+      "line": 143,
+      "verdict": "OK",
+      "checks": {
+        "resolves": "ok",
+        "url": "ok",
+        "year": "ok",
+        "journal": "ok",
+        "author": "ok",
+        "title": "ok",
+        "retracted": "ok",
+        "swap": "ok"
+      },
+      "problems": [],
+      "notes": {
+        "title": "100%"
+      },
+      "record": {
+        "title": "Multitarget stool DNA testing for colorectal-cancer screening.",
+        "first_author": "Imperiale",
+        "year": "2014",
+        "journal": "N Engl J Med",
+        "pmcid": null,
+        "doi": "10.1056/nejmoa1311194",
+        "pub_types": [
+          "Controlled Clinical Trial",
+          "Research Support, Non-U.S. Gov't",
+          "Journal Article"
+        ]
+      }
+    },
+    {
+      "id": "johnson-2008",
+      "pmid": "18799557",
+      "line": 145,
+      "verdict": "OK",
+      "checks": {
+        "resolves": "ok",
+        "url": "ok",
+        "year": "ok",
+        "journal": "ok",
+        "author": "ok",
+        "title": "ok",
+        "retracted": "ok",
+        "swap": "ok"
+      },
+      "problems": [],
+      "notes": {
+        "title": "100%"
+      },
+      "record": {
+        "title": "Accuracy of CT colonography for detection of large adenomas and cancers.",
+        "first_author": "Johnson",
+        "year": "2008",
+        "journal": "N Engl J Med",
+        "pmcid": "PMC2654614",
+        "doi": "10.1056/nejmoa0800996",
+        "pub_types": [
+          "Clinical Trial",
+          "Research Support, Non-U.S. Gov't",
+          "research-article",
+          "Multicenter Study",
+          "Journal Article",
+          "Research Support, N.I.H., Extramural"
+        ]
+      }
+    },
+    {
+      "id": "schoen-2012",
+      "pmid": "22612596",
+      "line": 147,
+      "verdict": "OK",
+      "checks": {
+        "resolves": "ok",
+        "url": "ok",
+        "year": "ok",
+        "journal": "ok",
+        "author": "ok",
+        "title": "ok",
+        "retracted": "ok",
+        "swap": "ok"
+      },
+      "problems": [],
+      "notes": {
+        "title": "100%"
+      },
+      "record": {
+        "title": "Colorectal-cancer incidence and mortality with screening flexible sigmoidoscopy.",
+        "first_author": "Schoen",
+        "year": "2012",
+        "journal": "N Engl J Med",
+        "pmcid": "PMC3641846",
+        "doi": "10.1056/nejmoa1114635",
+        "pub_types": [
+          "Comparative Study",
+          "research-article",
+          "Multicenter Study",
+          "Randomized Controlled Trial",
+          "Journal Article",
+          "Research Support, N.I.H., Extramural"
+        ]
+      }
+    },
+    {
+      "id": "chung-2024",
+      "pmid": "38477985",
+      "line": 149,
+      "verdict": "OK",
+      "checks": {
+        "resolves": "ok",
+        "url": "ok",
+        "year": "ok",
+        "journal": "ok",
+        "author": "ok",
+        "title": "ok",
+        "retracted": "ok",
+        "swap": "ok"
+      },
+      "problems": [],
+      "notes": {
+        "title": "100%"
+      },
+      "record": {
+        "title": "A Cell-free DNA Blood-Based Test for Colorectal Cancer Screening.",
+        "first_author": "Chung",
+        "year": "2024",
+        "journal": "N Engl J Med",
+        "pmcid": null,
+        "doi": "10.1056/nejmoa2304714",
+        "pub_types": [
+          "Validation Study",
+          "Journal Article",
+          "Research Support, N.I.H., Extramural",
+          "Observational Study"
+        ]
+      }
+    },
+    {
+      "id": "cercek-2021",
+      "pmid": "34405229",
+      "line": 153,
+      "verdict": "OK",
+      "checks": {
+        "resolves": "ok",
+        "url": "ok",
+        "year": "ok",
+        "journal": "ok",
+        "author": "ok",
+        "title": "ok",
+        "retracted": "ok",
+        "swap": "ok"
+      },
+      "problems": [],
+      "notes": {
+        "title": "100%"
+      },
+      "record": {
+        "title": "A Comprehensive Comparison of Early-Onset and Average-Onset Colorectal Cancers.",
+        "first_author": "Cercek",
+        "year": "2021",
+        "journal": "J Natl Cancer Inst",
+        "pmcid": "PMC8634406",
+        "doi": "10.1093/jnci/djab124",
+        "pub_types": [
+          "Research Support, Non-U.S. Gov't",
+          "research-article",
+          "Journal Article",
+          "Research Support, N.I.H., Extramural"
+        ]
+      }
+    },
+    {
+      "id": "guinney-2015",
+      "pmid": "26457759",
+      "line": 155,
+      "verdict": "OK",
+      "checks": {
+        "resolves": "ok",
+        "url": "ok",
+        "year": "ok",
+        "journal": "ok",
+        "author": "ok",
+        "title": "ok",
+        "retracted": "ok",
+        "swap": "ok"
+      },
+      "problems": [],
+      "notes": {
+        "title": "100%"
+      },
+      "record": {
+        "title": "The consensus molecular subtypes of colorectal cancer.",
+        "first_author": "Guinney",
+        "year": "2015",
+        "journal": "Nat Med",
+        "pmcid": "PMC4636487",
+        "doi": "10.1038/nm.3967",
+        "pub_types": [
+          "Research Support, Non-U.S. Gov't",
+          "research-article",
+          "Journal Article",
+          "Research Support, N.I.H., Extramural"
+        ]
+      }
+    },
+    {
+      "id": "alascca-2025",
+      "pmid": "40961426",
+      "line": 157,
+      "verdict": "OK",
+      "checks": {
+        "resolves": "ok",
+        "url": "ok",
+        "year": "ok",
+        "journal": "ok",
+        "author": "ok",
+        "title": "ok",
+        "retracted": "ok",
+        "swap": "ok"
+      },
+      "problems": [],
+      "notes": {
+        "title": "100%"
+      },
+      "record": {
+        "title": "Low-Dose Aspirin for PI3K-Altered Localized Colorectal Cancer.",
+        "first_author": "Martling",
+        "year": "2025",
+        "journal": "N Engl J Med",
+        "pmcid": null,
+        "doi": "10.1056/nejmoa2504650",
+        "pub_types": [
+          "Clinical Trial, Phase III",
+          "Multicenter Study",
+          "Randomized Controlled Trial",
+          "Journal Article"
+        ]
+      }
+    },
+    {
+      "id": "deroock-2010",
+      "pmid": "20619739",
+      "line": 159,
+      "verdict": "OK",
+      "checks": {
+        "resolves": "ok",
+        "url": "ok",
+        "year": "ok",
+        "journal": "ok",
+        "author": "ok",
+        "title": "ok",
+        "retracted": "ok",
+        "swap": "ok"
+      },
+      "problems": [],
+      "notes": {
+        "title": "100%"
+      },
+      "record": {
+        "title": "Effects of KRAS, BRAF, NRAS, and PIK3CA mutations on the efficacy of cetuximab plus chemotherapy in chemotherapy-refractory metastatic colorectal cancer: a retrospective consortium analysis.",
+        "first_author": "De Roock",
+        "year": "2010",
+        "journal": "Lancet Oncol",
+        "pmcid": null,
+        "doi": "10.1016/s1470-2045(10)70130-3",
+        "pub_types": [
+          "Research Support, Non-U.S. Gov't",
+          "Multicenter Study",
+          "Journal Article"
+        ]
+      }
+    },
+    {
+      "id": "roelands-2023",
+      "pmid": "37202560",
+      "line": 161,
+      "verdict": "OK",
+      "checks": {
+        "resolves": "ok",
+        "url": "skip",
+        "year": "ok",
+        "journal": "ok",
+        "author": "ok",
+        "title": "ok",
+        "retracted": "ok",
+        "swap": "ok"
+      },
+      "problems": [],
+      "notes": {
+        "url": "url names no PubMed, PMC or DOI id",
+        "title": "100%"
+      },
+      "record": {
+        "title": "An integrated tumor, immune and microbiome atlas of colon cancer.",
+        "first_author": "Roelands",
+        "year": "2023",
+        "journal": "Nat Med",
+        "pmcid": "PMC10202816",
+        "doi": "10.1038/s41591-023-02324-5",
+        "pub_types": [
+          "Research Support, Non-U.S. Gov't",
+          "research-article",
+          "Journal Article"
+        ]
+      }
+    },
+    {
+      "id": "breakwater-2025",
+      "pmid": "40444708",
+      "line": 173,
+      "verdict": "OK",
+      "checks": {
+        "resolves": "ok",
+        "url": "ok",
+        "year": "ok",
+        "journal": "ok",
+        "author": "ok",
+        "title": "ok",
+        "retracted": "ok",
+        "swap": "ok"
+      },
+      "problems": [],
+      "notes": {
+        "title": "100%"
+      },
+      "record": {
+        "title": "Encorafenib, Cetuximab, and mFOLFOX6 in BRAF-Mutated Colorectal Cancer.",
+        "first_author": "Elez",
+        "year": "2025",
+        "journal": "N Engl J Med",
+        "pmcid": "PMC12197837",
+        "doi": "10.1056/nejmoa2501912",
+        "pub_types": [
+          "Clinical Trial, Phase III",
+          "Comparative Study",
+          "research-article",
+          "Multicenter Study",
+          "Randomized Controlled Trial",
+          "Journal Article"
+        ]
+      }
+    },
+    {
+      "id": "codebreak300-2023",
+      "pmid": "37870968",
+      "line": 175,
+      "verdict": "OK",
+      "checks": {
+        "resolves": "ok",
+        "url": "ok",
+        "year": "ok",
+        "journal": "ok",
+        "author": "ok",
+        "title": "ok",
+        "retracted": "ok",
+        "swap": "ok"
+      },
+      "problems": [],
+      "notes": {
+        "title": "100%"
+      },
+      "record": {
+        "title": "Sotorasib plus Panitumumab in Refractory Colorectal Cancer with Mutated KRAS G12C.",
+        "first_author": "Fakih",
+        "year": "2023",
+        "journal": "N Engl J Med",
+        "pmcid": null,
+        "doi": "10.1056/nejmoa2308795",
+        "pub_types": [
+          "Clinical Trial, Phase III",
+          "Multicenter Study",
+          "Randomized Controlled Trial",
+          "Journal Article"
+        ]
+      }
+    },
+    {
+      "id": "casak-2023",
+      "pmid": "37318379",
+      "line": 177,
+      "verdict": "OK",
+      "checks": {
+        "resolves": "ok",
+        "url": "ok",
+        "year": "ok",
+        "journal": "ok",
+        "author": "ok",
+        "title": "ok",
+        "retracted": "ok",
+        "swap": "ok"
+      },
+      "problems": [],
+      "notes": {
+        "title": "100%"
+      },
+      "record": {
+        "title": "FDA Approval Summary: Tucatinib with Trastuzumab for Advanced Unresectable or Metastatic, Chemotherapy Refractory, HER2-Positive RAS Wild-Type Colorectal Cancer.",
+        "first_author": "Casak",
+        "year": "2023",
+        "journal": "Clin Cancer Res",
+        "pmcid": "PMC10722550",
+        "doi": "10.1158/1078-0432.ccr-23-1041",
+        "pub_types": [
+          "research-article",
+          "Multicenter Study",
+          "Journal Article"
+        ]
+      }
+    },
+    {
+      "id": "label-trastuzumab-deruxtecan",
+      "pmid": null,
+      "setid": "7e67e73e-ddf4-4e4d-8b50-09d7514910b6",
+      "line": 210,
+      "verdict": "OK",
+      "checks": {
+        "resolves": "ok",
+        "url": "ok",
+        "product": "ok",
+        "effective": "ok"
+      },
+      "problems": [],
+      "notes": {},
+      "record": {
+        "brand_name": [
+          "Enhertu"
+        ],
+        "generic_name": [
+          "FAM-TRASTUZUMAB DERUXTECAN-NXKI"
+        ],
+        "effective_time": "20260515",
+        "version": "28"
+      }
+    }
+  ],
+  "failing": [],
+  "quotes": [
+    {
+      "ref": "siegel-2026",
+      "line": 384,
+      "quote": "Colorectal cancer incidence rates by tumor subsite and age, 2018–2022, United States … Colorectum 35.3 40.5 30.7",
+      "verdict": "OK",
+      "found_in": "full text"
+    },
+    {
+      "ref": "siegel-2026",
+      "line": 386,
+      "quote": "CRC incidence rates in men are only 19% higher than in women younger than 50 years versus 44% higher in those aged 50–64 years … incidence is 9% higher in men for proximal colon tumors but 41% higher for distal colon tumors and 57% higher for rectal tumors",
+      "verdict": "OK",
+      "found_in": "full text"
+    },
+    {
+      "ref": "siegel-2026",
+      "line": 389,
+      "quote": "the death rate during 2019–2023 was 42% higher in men",
+      "verdict": "OK",
+      "found_in": "full text"
+    },
+    {
+      "ref": "siegel-2026",
+      "line": 397,
+      "quote": "While Black–White disparities in incidence have narrowed from 22% higher rates in Black individuals in 2013 to 11% higher in 2022, AIAN–White disparities have widened from 39% to 48% higher rates",
+      "verdict": "OK",
+      "found_in": "full text"
+    },
+    {
+      "ref": "siegel-2026",
+      "line": 410,
+      "quote": "At least one first-degree relative (Roos 2019 … ) 1.7–2.2 At least one first-degree relative with diagnosis before age 50 years (Roos 2019 … ) 3.3–3.6 At least two first-degree relative relatives (Roos 2019 … ) 2.4–2.8 At least one second-degree relative (Roos 2019 … ) 1.1–1.9",
+      "verdict": "OK",
+      "found_in": "full text"
+    },
+    {
+      "ref": "siegel-2026",
+      "line": 422,
+      "quote": "At least one first-degree relative (Roos 2019 … ) 1.7–2.2 At least one first-degree relative with diagnosis before age 50 years (Roos 2019 … ) 3.3–3.6",
+      "verdict": "OK",
+      "found_in": "full text"
+    },
+    {
+      "ref": "plsd-2020",
+      "line": 430,
+      "quote": "path_MLH1 path_MSH2 path_MSH6 path_PMS2 ICD-9 organ age females males females males females males both … 153, 154 colorectal … 75 48.3 [40.9–57.4] 57.1 [48.7–67.9] 46.6 [39.1–55.4] 51.4 [41.0–65.0]",
+      "verdict": "OK",
+      "found_in": "full text"
+    },
+    {
+      "ref": "plsd-2020",
+      "line": 433,
+      "quote": "After validation the cohorts were merged providing 6350 participants",
+      "verdict": "OK",
+      "found_in": "abstract"
+    },
+    {
+      "ref": "plsd-2020",
+      "line": 443,
+      "quote": "path_MLH1 path_MSH2 path_MSH6 path_PMS2 ICD-9 organ age females males females males females males both … 153, 154 colorectal … 75 48.3 [40.9–57.4] 57.1 [48.7–67.9] 46.6 [39.1–55.4] 51.4 [41.0–65.0] 20.3 [11.8–40.5] 18.2 [7.9–43.2] 10.4 [2.9–40.8]",
+      "verdict": "OK",
+      "found_in": "full text"
+    },
+    {
+      "ref": "win-2014",
+      "line": 462,
+      "quote": "We studied 2332 individuals with monoallelic mutations in MUTYH among 9504 relatives of 264 colorectal cancer (CRC) cases with a MUTYH mutation. We estimated CRC risks through 70 years of age of 7.2% for male carriers … and 5.6% for female carriers",
+      "verdict": "OK",
+      "found_in": "abstract"
+    },
+    {
+      "ref": "win-2014",
+      "line": 465,
+      "quote": "with a first-degree relative with CRC diagnosed by 50 years of age who does not have the MUTYH mutation, risks of CRC were 12.5% for men (95% CI, 8.6%-17.7%) and 10% for women",
+      "verdict": "OK",
+      "found_in": "abstract"
+    },
+    {
+      "ref": "olen-uc-2020",
+      "line": 477,
+      "quote": "In this population-based cohort study of 96 447 patients with UC in Denmark (n=32 919) and Sweden (n=63 528), patients were followed up for CRC incidence and CRC mortality between Jan 1, 1969, and Dec 31, 2017",
+      "verdict": "OK",
+      "found_in": "abstract"
+    },
+    {
+      "ref": "olen-uc-2020",
+      "line": 480,
+      "quote": "9544 incident CRCs in reference individuals (0·82 per 1000 person-years; HR 1·66, 95% CI 1·57-1·76) … HR 1·59, 95% CI 1·46-1·72",
+      "verdict": "OK",
+      "found_in": "abstract"
+    },
+    {
+      "ref": "olen-uc-2020",
+      "line": 482,
+      "quote": "during the last 5 years of follow-up (2013-17, Sweden only), the HR for incident CRC in people with UC was 1·38 (95% CI 1·20-1·60",
+      "verdict": "OK",
+      "found_in": "abstract"
+    },
+    {
+      "ref": "olen-cd-2020",
+      "line": 492,
+      "quote": "we identified 47 035 patients with incident Crohn's disease (13 056 in Denmark and 33 979 in Sweden)",
+      "verdict": "OK",
+      "found_in": "abstract"
+    },
+    {
+      "ref": "olen-cd-2020",
+      "line": 494,
+      "quote": "corresponding to an overall adjusted HR of 1·40 (95% CI 1·27-1·53)",
+      "verdict": "OK",
+      "found_in": "abstract"
+    },
+    {
+      "ref": "olen-cd-2020",
+      "line": 495,
+      "quote": "in patients potentially eligible for CRC surveillance we only found significantly increased risks in patients diagnosed with Crohn's disease before the age of 40 years, patients with disease activity in the colon only, or patients with PSC",
+      "verdict": "OK",
+      "found_in": "abstract"
+    },
+    {
+      "ref": "siegel-2026",
+      "line": 506,
+      "quote": "Type 2 diabetes (Zhang 2021 … ) 1.3",
+      "verdict": "OK",
+      "found_in": "full text"
+    },
+    {
+      "ref": "siegel-2026",
+      "line": 515,
+      "quote": "Very heavy alcohol consumption: Daily average ≥3 drinks (McNabb 2020 … ) 1.3 … Meta-analysis of 16 studies of the association of alcohol with colorectal cancer",
+      "verdict": "OK",
+      "found_in": "full text"
+    },
+    {
+      "ref": "siegel-2026",
+      "line": 524,
+      "quote": "Obesity: Body mass index ≥30 … (Zhang 2021 … ) 1.3 Colon (Xue 2017 … ) Male 1.5 Female 1.1 Rectum (Xue 2017 … ) Male 1.3 Female 1.1",
+      "verdict": "OK",
+      "found_in": "full text"
+    },
+    {
+      "ref": "siegel-2026",
+      "line": 533,
+      "quote": "Red meat consumption: High vs. low (Schwingshackl 2018 … ) 1.1 Processed meat consumption: High vs. low (Schwingshackl 2018 … ) 1.1",
+      "verdict": "OK",
+      "found_in": "full text"
+    },
+    {
+      "ref": "siegel-2026",
+      "line": 542,
+      "quote": "Smoking: Current vs. never (Zhang 2021 … ) 1.2",
+      "verdict": "OK",
+      "found_in": "full text"
+    },
+    {
+      "ref": "siegel-2026",
+      "line": 549,
+      "quote": "Lifetime physical activity: Colon (Hidayat 2019 … ) 0.8",
+      "verdict": "OK",
+      "found_in": "full text"
+    },
+    {
+      "ref": "siegel-2026",
+      "line": 557,
+      "quote": "Dairy consumption: High vs. low (Schwingshackl 2018 … ) 0.8 Whole grains: High vs. low (Schwingshackl 2018 … ) 0.9 Total dietary fiber: High vs. low (Reynolds 2019 … ) 0.8",
+      "verdict": "OK",
+      "found_in": "full text"
+    },
+    {
+      "ref": "rothwell-2010",
+      "line": 566,
+      "quote": "In the four trials of aspirin versus control (mean duration of scheduled treatment 6·0 years), 391 (2·8%) of 14 033 patients had colorectal cancer during a median follow-up of 18·3 years. Allocation to aspirin reduced the 20-year risk of colon cancer (incidence hazard ratio [HR] 0·76, 0·60-0·96, p=0·02; … but not rectal cancer (0·90, 0·63-1·30",
+      "verdict": "OK",
+      "found_in": "abstract"
+    },
+    {
+      "ref": "rothwell-2010",
+      "line": 571,
+      "quote": "allocation to aspirin of 5 years or longer reduced risk of proximal colon cancer by about 70% … There was no increase in benefit at doses of aspirin greater than 75 mg daily",
+      "verdict": "OK",
+      "found_in": "abstract"
+    },
+    {
+      "ref": "rothwell-2010",
+      "line": 573,
+      "quote": "High-dose aspirin (≥500 mg daily) reduces long-term incidence of colorectal cancer, but adverse effects might limit its potential for long-term prevention",
+      "verdict": "OK",
+      "found_in": "abstract"
+    },
+    {
+      "ref": "siegel-2026",
+      "line": 613,
+      "quote": "Three in four patients younger than age 50 are diagnosed with advanced disease, including 27% with distant metastases versus 21%–23% of older patients … with the largest gap for distant-stage disease (23% vs. 17% in those aged 50–64 years and 10% in individuals aged 65 years and older",
+      "verdict": "OK",
+      "found_in": "full text"
+    },
+    {
+      "ref": "nordicc-2022",
+      "line": 669,
+      "quote": "28,220 in the invited group, 11,843 of whom (42.0%) underwent screening",
+      "verdict": "OK",
+      "found_in": "abstract"
+    },
+    {
+      "ref": "lin-2021",
+      "line": 670,
+      "quote": "Serious harms of screening colonoscopy included perforations (3.1/10 000 procedures) and major bleeding (14.6/10 000 procedures)",
+      "verdict": "OK",
+      "found_in": "abstract"
+    },
+    {
+      "ref": "siegel-2026",
+      "line": 672,
+      "quote": "FOBT/FIT, sDNA, sigmoidoscopy, colonoscopy, or CT colonography in the past 1, 3, 5, 10, and 5 years, respectively",
+      "verdict": "OK",
+      "found_in": "full text"
+    },
+    {
+      "ref": "lin-2021",
+      "line": 684,
+      "quote": "commonly evaluated FITs (14 studies, n = 45 403) (sensitivity, 0.74; specificity, 0.94)",
+      "verdict": "OK",
+      "found_in": "abstract"
+    },
+    {
+      "ref": "lee-2014",
+      "line": 686,
+      "quote": "Nineteen eligible studies were included and meta-analyzed. The pooled sensitivity … of FITs for CRC were 0.79 (95% CI, 0.69 to 0.86)",
+      "verdict": "OK",
+      "found_in": "abstract"
+    },
+    {
+      "ref": "imperiale-2014",
+      "line": 688,
+      "quote": "The sensitivity for detecting advanced precancerous lesions was 42.4% with DNA testing and 23.8% with FIT",
+      "verdict": "OK",
+      "found_in": "abstract"
+    },
+    {
+      "ref": "siegel-2026",
+      "line": 690,
+      "quote": "a recent study of nearly 33,000 individuals who had a positive stool test reported that only 53% received a colonoscopy within 1 year",
+      "verdict": "OK",
+      "found_in": "full text"
+    },
+    {
+      "ref": "lee-2014",
+      "line": 692,
+      "quote": "Sensitivity for CRC improved with lower assay cutoff values for a positive test result (for example, 0.89 [CI, 0.80 to 0.95] at a cutoff value less than 20 µg/g vs. 0.70 [CI, 0.55 to 0.81] at cutoff values of 20 to 50 µg/g) but with a corresponding decrease in specificity",
+      "verdict": "OK",
+      "found_in": "abstract"
+    },
+    {
+      "ref": "siegel-2026",
+      "line": 696,
+      "quote": "FOBT/FIT, sDNA, sigmoidoscopy, colonoscopy, or CT colonography in the past 1, 3, 5, 10, and 5 years, respectively",
+      "verdict": "OK",
+      "found_in": "full text"
+    },
+    {
+      "ref": "imperiale-2014",
+      "line": 705,
+      "quote": "Of the 9989 participants who could be evaluated … The sensitivity for detecting colorectal cancer was 92.3% with DNA testing and 73.8% with FIT … The sensitivity for detecting advanced precancerous lesions was 42.4% with DNA testing and 23.8% with FIT",
+      "verdict": "OK",
+      "found_in": "abstract"
+    },
+    {
+      "ref": "imperiale-2014",
+      "line": 709,
+      "quote": "The sensitivity for detecting advanced precancerous lesions was 42.4% with DNA testing",
+      "verdict": "OK",
+      "found_in": "abstract"
+    },
+    {
+      "ref": "imperiale-2014",
+      "line": 711,
+      "quote": "Specificities with DNA testing and FIT were 86.6% and 94.9%, respectively, among participants with nonadvanced or negative findings",
+      "verdict": "OK",
+      "found_in": "abstract"
+    },
+    {
+      "ref": "siegel-2026",
+      "line": 713,
+      "quote": "FOBT/FIT, sDNA, sigmoidoscopy, colonoscopy, or CT colonography in the past 1, 3, 5, 10, and 5 years, respectively",
+      "verdict": "OK",
+      "found_in": "full text"
+    },
+    {
+      "ref": "johnson-2008",
+      "line": 720,
+      "quote": "Complete data were available for 2531 participants (97%). … CT colonographic screening identified 90% of subjects with adenomas or cancers measuring 10 mm or more in diameter",
+      "verdict": "OK",
+      "found_in": "abstract"
+    },
+    {
+      "ref": "johnson-2008",
+      "line": 723,
+      "quote": "The per-patient sensitivity for detecting adenomas that were 6 mm or more in diameter was 0.78",
+      "verdict": "OK",
+      "found_in": "abstract"
+    },
+    {
+      "ref": "siegel-2026",
+      "line": 726,
+      "quote": "FOBT/FIT, sDNA, sigmoidoscopy, colonoscopy, or CT colonography in the past 1, 3, 5, 10, and 5 years, respectively",
+      "verdict": "OK",
+      "found_in": "full text"
+    },
+    {
+      "ref": "schoen-2012",
+      "line": 737,
+      "quote": "we randomly assigned 154,900 men and women … which represents a 21% reduction (relative risk, 0.79; 95% confidence interval [CI], 0.72 to 0.85 … which represents a 26% reduction (relative risk, 0.74; 95% CI, 0.63 to 0.87",
+      "verdict": "OK",
+      "found_in": "abstract"
+    },
+    {
+      "ref": "schoen-2012",
+      "line": 740,
+      "quote": "Mortality from distal colorectal cancer was reduced by 50% (87 deaths in the intervention group vs. 175 in the usual-care group; relative risk, 0.50; 95% CI, 0.38 to 0.64; P<0.001); mortality from proximal colorectal cancer was unaffected (143 and 147 deaths, respectively; relative risk, 0.97; 95% CI, 0.77 to 1.22",
+      "verdict": "OK",
+      "found_in": "abstract"
+    },
+    {
+      "ref": "siegel-2026",
+      "line": 745,
+      "quote": "FOBT/FIT, sDNA, sigmoidoscopy, colonoscopy, or CT colonography in the past 1, 3, 5, 10, and 5 years, respectively",
+      "verdict": "OK",
+      "found_in": "full text"
+    },
+    {
+      "ref": "chung-2024",
+      "line": 758,
+      "quote": "7861 of whom met eligibility criteria and were evaluable … a sensitivity of the cfDNA test for detection of colorectal cancer of 83.1% (95% confidence interval [CI], 72.2 to 90.3). Sensitivity for stage I, II, or III colorectal cancer was 87.5%",
+      "verdict": "OK",
+      "found_in": "abstract"
+    },
+    {
+      "ref": "chung-2024",
+      "line": 761,
+      "quote": "sensitivity for advanced precancerous lesions was 13.2%",
+      "verdict": "OK",
+      "found_in": "abstract"
+    },
+    {
+      "ref": "chung-2024",
+      "line": 762,
+      "quote": "A total of 89.6% of the participants without any advanced colorectal neoplasia … identified on colonoscopy had a negative cfDNA blood-based test, whereas 10.4% had a positive cfDNA blood-based test",
+      "verdict": "OK",
+      "found_in": "abstract"
+    },
+    {
+      "ref": "knudsen-2021",
+      "line": 765,
+      "quote": "Screening from ages 45, 50, or 55 years to ages 70, 75, 80, or 85 years with fecal immunochemical testing (FIT), multitarget stool DNA testing, flexible sigmoidoscopy alone or with FIT, computed tomography colonography, or colonoscopy",
+      "verdict": "OK",
+      "found_in": "abstract"
+    },
+    {
+      "ref": "label-trastuzumab-deruxtecan",
+      "line": 822,
+      "quote": "ENHERTU, as monotherapy, is indicated for the treatment of adult patients with unresectable or metastatic HER2-positive (IHC 3+) solid tumors who have received prior systemic treatment",
+      "section": "indications_and_usage",
+      "verdict": "OK",
+      "found_in": "label section indications_and_usage"
+    },
+    {
+      "ref": "label-trastuzumab-deruxtecan",
+      "line": 826,
+      "quote": "DESTINY-CRC02 (NCT04744831) was a multicenter, randomized, 2-arm trial that included 64 patients with previously treated, unresectable or metastatic centrally confirmed HER2-positive (IHC 3+) colorectal cancer (CRC).",
+      "section": "clinical_studies",
+      "verdict": "OK",
+      "found_in": "label section clinical_studies"
+    },
+    {
+      "ref": "roelands-2023",
+      "line": 1118,
+      "quote": "we performed comprehensive genomic analyses on fresh-frozen samples from 348 patients affected by primary colon cancer",
+      "verdict": "OK",
+      "found_in": "abstract"
+    },
+    {
+      "ref": "alascca-2025",
+      "line": 1157,
+      "quote": "The patients were assigned in a 1:1 ratio to receive 160 mg of aspirin or matched placebo once daily for 3 years. Patients with prespecified PIK3CA hotspot mutations in exon 9 or 20 (group A alterations) and those with other moderate- or high-impact somatic variants in PIK3CA, PIK3R1, or PTEN (group B alterations) … Alterations in PI3K pathway genes were detected in 1103 of 2980 patients (37.0%) with complete genomic data. … The estimated 3-year cumulative incidence of recurrence was 7.7% with aspirin and 14.1% with placebo (hazard ratio, 0.49; 95% confidence interval [CI], 0.24 to 0.98; P = 0.04) among patients with group A alterations and 7.7% and 16.8%, respectively (hazard ratio, 0.42; 95% CI, 0.21 to 0.83) … Severe adverse events occurred in 16.8% of aspirin recipients and 11.6% of placebo recipients",
+      "verdict": "OK",
+      "found_in": "abstract"
+    },
+    {
+      "ref": "cercek-2021",
+      "line": 1308,
+      "quote": "Patients with mismatch repair deficient tumors, CRC-related hereditary syndromes, and inflammatory bowel disease were excluded from all but the germline analysis. … Left-sided tumors (35 years and younger = 80.8%; 36-49 years = 83.7%; AO = 63.9%; P < .001 for both comparisons)",
+      "verdict": "OK",
+      "found_in": "abstract"
+    },
+    {
+      "ref": "keynote-177",
+      "line": 1380,
+      "quote": "307 patients with metastatic MSI-H-dMMR colorectal cancer … (median, 16.5 vs. 8.2 months; hazard ratio, 0.60; 95% confidence interval [CI], 0.45 to 0.80",
+      "verdict": "OK",
+      "found_in": "abstract"
+    },
+    {
+      "ref": "checkmate-8hw",
+      "line": 1384,
+      "quote": "255 patients had centrally confirmed MSI-H or dMMR tumors",
+      "verdict": "OK",
+      "found_in": "abstract"
+    },
+    {
+      "ref": "domingo-2016",
+      "line": 1463,
+      "quote": "We subsequently investigated its association with prognosis in stage II/III colorectal cancer by Cox regression of pooled individual patient data from more than 4500 cases … Both POLE mutation and MMR-D were associated with significantly reduced risk of recurrence compared with MMR-P colorectal cancers in multivariable analysis (HR 0·34 [95% CI 0·11-0·76]",
+      "verdict": "OK",
+      "found_in": "abstract"
+    },
+    {
+      "ref": "domingo-2016",
+      "line": 1469,
+      "quote": "Pathogenic somatic POLE mutations were detected in 66 (1·0%) of 6517 colorectal cancers",
+      "verdict": "OK",
+      "found_in": "abstract"
+    },
+    {
+      "ref": "codebreak300-2023",
+      "line": 1607,
+      "quote": "sotorasib at a dose of 960 mg once daily plus panitumumab … the median progression-free survival was 5.6 months … as compared with 2.2 months … was 0.49 (95% CI, 0.30 to 0.80 … The objective response was 26.4% … and 0% … Treatment-related adverse events of grade 3 or higher occurred in 35.8%, 30.2%, and 43.1% of patients",
+      "verdict": "OK",
+      "found_in": "abstract"
+    },
+    {
+      "ref": "deroock-2010",
+      "line": 1664,
+      "quote": "PIK3CA exon 9 mutations had no effect, whereas exon 20 mutations were associated with a worse outcome compared with wild types, with a response rate of 0.0% (0/9) versus 36.8% (121/329; OR 0.00, 0.00-0.89; p=0.029), a median PFS of 11.5 weeks versus 24 weeks (HR 2.52, 1.33-4.78",
+      "verdict": "OK",
+      "found_in": "abstract"
+    },
+    {
+      "ref": "breakwater-2025",
+      "line": 1700,
+      "quote": "(median, 12.8 vs. 7.1 months; hazard ratio for progression or death, 0.53; 95% confidence interval [CI], 0.41 to 0.68; P<0.001). In an interim analysis, overall survival was significantly longer with EC+mFOLFOX6 than with standard care (median, 30.3 vs. 15.1 months; hazard ratio for death, 0.49; 95% CI, 0.38 to 0.63; P<0.001). The incidence of serious adverse events during treatment was 46.1% with EC+mFOLFOX6 and 38.9% with standard care",
+      "verdict": "OK",
+      "found_in": "abstract"
+    },
+    {
+      "ref": "casak-2023",
+      "line": 1744,
+      "quote": "Eighty-four eligible patients received the combination tucatinib and trastuzumab. With a median follow-up of 16 months, the ORR was 38% [95% confidence interval (CI): 28-49] and median DOR was 12.4 months",
+      "verdict": "OK",
+      "found_in": "abstract"
+    }
+  ],
+  "failing_quotes": []
+}

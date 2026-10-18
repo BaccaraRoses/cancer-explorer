@@ -1,0 +1,261 @@
+{
+  "source": "OncoTree (Memorial Sloan Kettering)",
+  "api": "https://oncotree.mskcc.org/api/tumorTypes",
+  "cancer": "lung",
+  "tissue": "Lung",
+  "n_total_types": 897,
+  "n_tissue_types": 30,
+  "missing_expected_codes": [],
+  "nodes": {
+    "hist-root": {
+      "code": "LUNG",
+      "name": "Lung",
+      "parent": "TISSUE",
+      "main_type": "Lung Cancer",
+      "level": 1,
+      "nci": [
+        "C12468"
+      ],
+      "umls": [
+        "C0024109"
+      ],
+      "match": "ok"
+    },
+    "hist-nsclc": {
+      "code": "NSCLC",
+      "name": "Non-Small Cell Lung Cancer",
+      "parent": "LUNG",
+      "main_type": "Non-Small Cell Lung Cancer",
+      "level": 2,
+      "nci": [
+        "C2926"
+      ],
+      "umls": [
+        "C0007131"
+      ],
+      "match": "ok"
+    },
+    "hist-adeno": {
+      "code": "LUAD",
+      "name": "Lung Adenocarcinoma",
+      "parent": "NSCLC",
+      "main_type": "Non-Small Cell Lung Cancer",
+      "level": 3,
+      "nci": [
+        "C3512"
+      ],
+      "umls": [
+        "C0152013"
+      ],
+      "match": "ok"
+    },
+    "hist-squamous": {
+      "code": "LUSC",
+      "name": "Lung Squamous Cell Carcinoma",
+      "parent": "NSCLC",
+      "main_type": "Non-Small Cell Lung Cancer",
+      "level": 3,
+      "nci": [
+        "C3493"
+      ],
+      "umls": [
+        "C0149782"
+      ],
+      "match": "ok"
+    },
+    "hist-large": {
+      "code": "LCLC",
+      "name": "Large Cell Lung Carcinoma",
+      "parent": "NSCLC",
+      "main_type": "Non-Small Cell Lung Cancer",
+      "level": 3,
+      "nci": [
+        "C4450"
+      ],
+      "umls": [
+        "C0345958"
+      ],
+      "match": "ok"
+    },
+    "hist-sclc": {
+      "code": "SCLC",
+      "name": "Small Cell Lung Cancer",
+      "parent": "LNET",
+      "main_type": "Small Cell Lung Cancer",
+      "level": 3,
+      "nci": [
+        "C4917"
+      ],
+      "umls": [
+        "C0149925"
+      ],
+      "match": "ok"
+    },
+    "drv-root": {
+      "code": "LUAD",
+      "name": "Lung Adenocarcinoma",
+      "parent": "NSCLC",
+      "main_type": "Non-Small Cell Lung Cancer",
+      "level": 3,
+      "nci": [
+        "C3512"
+      ],
+      "umls": [
+        "C0152013"
+      ],
+      "match": "ok"
+    }
+  },
+  "catalogue": [
+    {
+      "code": "ALUCA",
+      "name": "Atypical Lung Carcinoid",
+      "parent": "LNET"
+    },
+    {
+      "code": "BLCLC",
+      "name": "Basaloid Large Cell Carcinoma of the Lung",
+      "parent": "LCLC"
+    },
+    {
+      "code": "CCLC",
+      "name": "Clear Cell Carcinoma of the Lung",
+      "parent": "LCLC"
+    },
+    {
+      "code": "CMPT",
+      "name": "Ciliated Muconodular Papillary Tumor of the Lung",
+      "parent": "NSCLC"
+    },
+    {
+      "code": "CSCLC",
+      "name": "Combined Small Cell Lung Carcinoma",
+      "parent": "LUNG"
+    },
+    {
+      "code": "GCLC",
+      "name": "Giant Cell Carcinoma of the Lung",
+      "parent": "LCLC"
+    },
+    {
+      "code": "IMTL",
+      "name": "Inflammatory Myofibroblastic Lung Tumor",
+      "parent": "LUNG"
+    },
+    {
+      "code": "LAIS",
+      "name": "Lung Adenocarcinoma In Situ",
+      "parent": "LUNG"
+    },
+    {
+      "code": "LAM",
+      "name": "Pulmonary Lymphangiomyomatosis",
+      "parent": "LUNG"
+    },
+    {
+      "code": "LCLC",
+      "name": "Large Cell Lung Carcinoma",
+      "parent": "NSCLC"
+    },
+    {
+      "code": "LECLC",
+      "name": "Lymphoepithelioma-like Carcinoma of the Lung",
+      "parent": "LCLC"
+    },
+    {
+      "code": "LNET",
+      "name": "Lung Neuroendocrine Tumor",
+      "parent": "LUNG"
+    },
+    {
+      "code": "LUACC",
+      "name": "Adenoid Cystic Carcinoma of the Lung",
+      "parent": "SGTTL"
+    },
+    {
+      "code": "LUAD",
+      "name": "Lung Adenocarcinoma",
+      "parent": "NSCLC"
+    },
+    {
+      "code": "LUAS",
+      "name": "Lung Adenosquamous Carcinoma",
+      "parent": "NSCLC"
+    },
+    {
+      "code": "LUCA",
+      "name": "Lung Carcinoid",
+      "parent": "LNET"
+    },
+    {
+      "code": "LUMEC",
+      "name": "Mucoepidermoid Carcinoma of the Lung",
+      "parent": "SGTTL"
+    },
+    {
+      "code": "LUNE",
+      "name": "Large Cell Neuroendocrine Carcinoma",
+      "parent": "LNET"
+    },
+    {
+      "code": "LUNG",
+      "name": "Lung",
+      "parent": "TISSUE"
+    },
+    {
+      "code": "LUPC",
+      "name": "Pleomorphic Carcinoma of the Lung",
+      "parent": "NSCLC"
+    },
+    {
+      "code": "LUSC",
+      "name": "Lung Squamous Cell Carcinoma",
+      "parent": "NSCLC"
+    },
+    {
+      "code": "NSCLC",
+      "name": "Non-Small Cell Lung Cancer",
+      "parent": "LUNG"
+    },
+    {
+      "code": "NSCLCPD",
+      "name": "Poorly Differentiated Non-Small Cell Lung Cancer",
+      "parent": "NSCLC"
+    },
+    {
+      "code": "NUTCL",
+      "name": "NUT Carcinoma of the Lung",
+      "parent": "NSCLC"
+    },
+    {
+      "code": "PPB",
+      "name": "Pleuropulmonary Blastoma",
+      "parent": "LUNG"
+    },
+    {
+      "code": "RLCLC",
+      "name": "Large Cell Lung Carcinoma With Rhabdoid Phenotype",
+      "parent": "LCLC"
+    },
+    {
+      "code": "SARCL",
+      "name": "Sarcomatoid Carcinoma of the Lung",
+      "parent": "LUNG"
+    },
+    {
+      "code": "SCLC",
+      "name": "Small Cell Lung Cancer",
+      "parent": "LNET"
+    },
+    {
+      "code": "SGTTL",
+      "name": "Salivary Gland-Type Tumor of the Lung",
+      "parent": "NSCLC"
+    },
+    {
+      "code": "SPCC",
+      "name": "Spindle Cell Carcinoma of the Lung",
+      "parent": "NSCLC"
+    }
+  ]
+}

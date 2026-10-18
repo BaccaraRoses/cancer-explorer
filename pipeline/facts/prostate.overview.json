@@ -1,0 +1,120 @@
+{
+  "source": "SEER Cancer Stat Facts: Prostate Cancer",
+  "url": "https://seer.cancer.gov/statfacts/html/prost.html",
+  "population": "United States",
+  "population_sex": "men",
+  "estimate_year": 2026,
+  "at_a_glance": {
+    "estimated_new_cases": 333830.0,
+    "pct_of_all_new_cancers": 15.8,
+    "estimated_deaths": 36320.0,
+    "pct_of_all_cancer_deaths": 5.8,
+    "five_year_relative_survival": 98.2
+  },
+  "rates_per_100k": {
+    "new_cases": 123.2,
+    "deaths": 18.9,
+    "basis": "age-adjusted, US men, per year"
+  },
+  "lifetime_risk_pct": 13.2,
+  "median_age": {
+    "diagnosis": 68.0,
+    "death": 79.0
+  },
+  "age_distribution": {
+    "new_cases": [
+      {
+        "range": "<20",
+        "percent": 0.0
+      },
+      {
+        "range": "20-34",
+        "percent": 0.0
+      },
+      {
+        "range": "35-44",
+        "percent": 0.3
+      },
+      {
+        "range": "45-54",
+        "percent": 5.7
+      },
+      {
+        "range": "55-64",
+        "percent": 28.6
+      },
+      {
+        "range": "65-74",
+        "percent": 43.3
+      },
+      {
+        "range": "75-84",
+        "percent": 18.3
+      },
+      {
+        "range": ">84",
+        "percent": 3.9
+      }
+    ],
+    "deaths": [
+      {
+        "range": "<20",
+        "percent": 0.0
+      },
+      {
+        "range": "20-34",
+        "percent": 0.0
+      },
+      {
+        "range": "35-44",
+        "percent": 0.1
+      },
+      {
+        "range": "45-54",
+        "percent": 1.0
+      },
+      {
+        "range": "55-64",
+        "percent": 8.3
+      },
+      {
+        "range": "65-74",
+        "percent": 24.9
+      },
+      {
+        "range": "75-84",
+        "percent": 34.7
+      },
+      {
+        "range": ">84",
+        "percent": 31.0
+      }
+    ]
+  },
+  "stage": [
+    {
+      "stage": "Localized",
+      "definition": "Confined to Primary Site",
+      "percent_of_cases": 69.0,
+      "five_year_relative_survival": 100.0
+    },
+    {
+      "stage": "Regional",
+      "definition": "Spread to Regional Lymph Nodes",
+      "percent_of_cases": 14.0,
+      "five_year_relative_survival": 100.0
+    },
+    {
+      "stage": "Distant",
+      "definition": "Cancer Has Metastasized",
+      "percent_of_cases": 9.0,
+      "five_year_relative_survival": 40.1
+    },
+    {
+      "stage": "Unknown",
+      "definition": "Unstaged",
+      "percent_of_cases": 8.0,
+      "five_year_relative_survival": 94.1
+    }
+  ]
+}

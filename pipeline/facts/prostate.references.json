@@ -1,0 +1,516 @@
+{
+  "dataset": "prostate.js",
+  "n_references": 29,
+  "n_pmid": 12,
+  "n_label": 0,
+  "rows": [
+    {
+      "id": "tcga-prad",
+      "pmid": "26544944",
+      "line": 58,
+      "verdict": "OK",
+      "checks": {
+        "resolves": "ok",
+        "url": "ok",
+        "year": "ok",
+        "journal": "ok",
+        "author": "ok",
+        "title": "ok",
+        "retracted": "ok",
+        "swap": "ok"
+      },
+      "problems": [],
+      "notes": {
+        "title": "100%"
+      },
+      "record": {
+        "title": "The Molecular Taxonomy of Primary Prostate Cancer.",
+        "first_author": "Cancer Genome Atlas Research Network",
+        "year": "2015",
+        "journal": "Cell",
+        "pmcid": "PMC4695400",
+        "doi": "10.1016/j.cell.2015.10.025",
+        "pub_types": [
+          "research-article",
+          "Journal Article",
+          "Research Support, N.I.H., Extramural"
+        ]
+      }
+    },
+    {
+      "id": "erg-deletion",
+      "pmid": "26880803",
+      "line": 72,
+      "verdict": "OK",
+      "checks": {
+        "resolves": "ok",
+        "url": "ok",
+        "year": "ok",
+        "journal": "ok",
+        "author": "ok",
+        "title": "ok",
+        "retracted": "ok",
+        "swap": "ok"
+      },
+      "problems": [],
+      "notes": {
+        "title": "100%"
+      },
+      "record": {
+        "title": "Deletion of Interstitial Genes between TMPRSS2 and ERG Promotes Prostate Cancer Progression.",
+        "first_author": "Linn",
+        "year": "2016",
+        "journal": "Cancer Res",
+        "pmcid": "PMC4873435",
+        "doi": "10.1158/0008-5472.can-15-1911",
+        "pub_types": [
+          "research-article",
+          "Research Support, U.S. Gov't, Non-P.H.S.",
+          "Journal Article",
+          "Research Support, N.I.H., Extramural"
+        ]
+      }
+    },
+    {
+      "id": "su2c-2019",
+      "pmid": "31061129",
+      "line": 78,
+      "verdict": "OK",
+      "checks": {
+        "resolves": "ok",
+        "url": "skip",
+        "year": "ok",
+        "journal": "ok",
+        "author": "ok",
+        "title": "ok",
+        "retracted": "ok",
+        "swap": "ok"
+      },
+      "problems": [],
+      "notes": {
+        "url": "url names no PubMed, PMC or DOI id",
+        "title": "100%"
+      },
+      "record": {
+        "title": "Genomic correlates of clinical outcome in advanced prostate cancer.",
+        "first_author": "Abida",
+        "year": "2019",
+        "journal": "Proc Natl Acad Sci U S A",
+        "pmcid": "PMC6561293",
+        "doi": "10.1073/pnas.1902651116",
+        "pub_types": [
+          "Research Support, Non-U.S. Gov't",
+          "research-article",
+          "Research Support, U.S. Gov't, Non-P.H.S.",
+          "Journal Article",
+          "Research Support, N.I.H., Extramural"
+        ]
+      }
+    },
+    {
+      "id": "nepc-2016",
+      "pmid": "26855148",
+      "line": 80,
+      "verdict": "OK",
+      "checks": {
+        "resolves": "ok",
+        "url": "skip",
+        "year": "ok",
+        "journal": "ok",
+        "author": "ok",
+        "title": "ok",
+        "retracted": "ok",
+        "swap": "ok"
+      },
+      "problems": [],
+      "notes": {
+        "url": "url names no PubMed, PMC or DOI id",
+        "title": "100%"
+      },
+      "record": {
+        "title": "Divergent clonal evolution of castration-resistant neuroendocrine prostate cancer.",
+        "first_author": "Beltran",
+        "year": "2016",
+        "journal": "Nat Med",
+        "pmcid": "PMC4777652",
+        "doi": "10.1038/nm.4045",
+        "pub_types": [
+          "Research Support, Non-U.S. Gov't",
+          "research-article",
+          "Research Support, U.S. Gov't, Non-P.H.S.",
+          "Journal Article",
+          "Research Support, N.I.H., Extramural"
+        ]
+      }
+    },
+    {
+      "id": "mcrpc-epi",
+      "pmid": "40659047",
+      "line": 86,
+      "verdict": "OK",
+      "checks": {
+        "resolves": "ok",
+        "url": "ok",
+        "year": "ok",
+        "journal": "ok",
+        "author": "ok",
+        "title": "ok",
+        "retracted": "ok",
+        "swap": "ok"
+      },
+      "problems": [],
+      "notes": {
+        "title": "100%"
+      },
+      "record": {
+        "title": "Epidemiology of Metastatic Castration-Resistant Prostate Cancer in Veterans Nationwide.",
+        "first_author": "Candelieri-Surette",
+        "year": "2025",
+        "journal": "J Natl Compr Canc Netw",
+        "pmcid": null,
+        "doi": "10.6004/jnccn.2025.7032",
+        "pub_types": [
+          "Journal Article"
+        ]
+      }
+    },
+    {
+      "id": "nccn-prostate",
+      "pmid": "42134408",
+      "line": 88,
+      "verdict": "OK",
+      "checks": {
+        "resolves": "ok",
+        "url": "ok",
+        "year": "ok",
+        "journal": "ok",
+        "author": "ok",
+        "title": "ok",
+        "retracted": "ok",
+        "swap": "ok"
+      },
+      "problems": [],
+      "notes": {
+        "title": "100%"
+      },
+      "record": {
+        "title": "NCCN Guidelines® Insights: Prostate Cancer, Version 5.2026.",
+        "first_author": "Spratt",
+        "year": "2026",
+        "journal": "J Natl Compr Canc Netw",
+        "pmcid": null,
+        "doi": "10.6004/jnccn.2026.0023",
+        "pub_types": [
+          "Practice Guideline",
+          "Journal Article"
+        ]
+      }
+    },
+    {
+      "id": "zeegers-family",
+      "pmid": "12673715",
+      "line": 90,
+      "verdict": "OK",
+      "checks": {
+        "resolves": "ok",
+        "url": "ok",
+        "year": "ok",
+        "journal": "ok",
+        "author": "ok",
+        "title": "ok",
+        "retracted": "ok",
+        "swap": "ok"
+      },
+      "problems": [],
+      "notes": {
+        "title": "80%"
+      },
+      "record": {
+        "title": "Empiric risk of prostate carcinoma for relatives of patients with prostate carcinoma: a meta-analysis.",
+        "first_author": "Zeegers",
+        "year": "2003",
+        "journal": "Cancer",
+        "pmcid": null,
+        "doi": "10.1002/cncr.11262",
+        "pub_types": [
+          "Meta-Analysis",
+          "Comparative Study",
+          "Research Support, U.S. Gov't, P.H.S.",
+          "Journal Article"
+        ]
+      }
+    },
+    {
+      "id": "nyberg-brca",
+      "pmid": "31495749",
+      "line": 92,
+      "verdict": "OK",
+      "checks": {
+        "resolves": "ok",
+        "url": "ok",
+        "year": "ok",
+        "journal": "ok",
+        "author": "ok",
+        "title": "ok",
+        "retracted": "ok",
+        "swap": "ok"
+      },
+      "problems": [],
+      "notes": {
+        "title": "100%"
+      },
+      "record": {
+        "title": "Prostate Cancer Risks for Male BRCA1 and BRCA2 Mutation Carriers: A Prospective Cohort Study.",
+        "first_author": "Nyberg",
+        "year": "2020",
+        "journal": "Eur Urol",
+        "pmcid": "PMC6926480",
+        "doi": "10.1016/j.eururo.2019.08.025",
+        "pub_types": [
+          "Research Support, Non-U.S. Gov't",
+          "research-article",
+          "Journal Article"
+        ]
+      }
+    },
+    {
+      "id": "smoking-meta",
+      "pmid": "19608952",
+      "line": 100,
+      "verdict": "OK",
+      "checks": {
+        "resolves": "ok",
+        "url": "skip",
+        "year": "ok",
+        "journal": "ok",
+        "author": "ok",
+        "title": "ok",
+        "retracted": "ok",
+        "swap": "ok"
+      },
+      "problems": [],
+      "notes": {
+        "url": "url names no PubMed, PMC or DOI id",
+        "title": "100%"
+      },
+      "record": {
+        "title": "Smoking as a risk factor for prostate cancer: a meta-analysis of 24 prospective cohort studies.",
+        "first_author": "Huncharek",
+        "year": "2010",
+        "journal": "Am J Public Health",
+        "pmcid": null,
+        "doi": "10.2105/ajph.2008.150508",
+        "pub_types": [
+          "Meta-Analysis",
+          "Research Support, Non-U.S. Gov't",
+          "Journal Article"
+        ]
+      }
+    },
+    {
+      "id": "smoking-mortality",
+      "pmid": "25242554",
+      "line": 102,
+      "verdict": "OK",
+      "checks": {
+        "resolves": "ok",
+        "url": "ok",
+        "year": "ok",
+        "journal": "ok",
+        "author": "ok",
+        "title": "ok",
+        "retracted": "ok",
+        "swap": "ok"
+      },
+      "problems": [],
+      "notes": {
+        "title": "100%"
+      },
+      "record": {
+        "title": "A systematic review and meta-analysis of tobacco use and prostate cancer mortality and incidence in prospective cohort studies.",
+        "first_author": "Islami",
+        "year": "2014",
+        "journal": "Eur Urol",
+        "pmcid": "PMC4566150",
+        "doi": "10.1016/j.eururo.2014.08.059",
+        "pub_types": [
+          "Meta-Analysis",
+          "research-article",
+          "Systematic Review",
+          "Journal Article",
+          "Research Support, N.I.H., Extramural"
+        ]
+      }
+    },
+    {
+      "id": "pcpt-bias",
+      "pmid": "19138953",
+      "line": 104,
+      "verdict": "OK",
+      "checks": {
+        "resolves": "ok",
+        "url": "ok",
+        "year": "ok",
+        "journal": "ok",
+        "author": "ok",
+        "title": "ok",
+        "retracted": "ok",
+        "swap": "ok"
+      },
+      "problems": [],
+      "notes": {
+        "title": "100%"
+      },
+      "record": {
+        "title": "Finasteride does not increase the risk of high-grade prostate cancer: a bias-adjusted modeling approach.",
+        "first_author": "Redman",
+        "year": "2008",
+        "journal": "Cancer Prev Res (Phila)",
+        "pmcid": "PMC2844801",
+        "doi": "10.1158/1940-6207.capr-08-0092",
+        "pub_types": [
+          "research-article",
+          "Randomized Controlled Trial",
+          "Journal Article",
+          "Research Support, N.I.H., Extramural"
+        ]
+      }
+    },
+    {
+      "id": "propsma",
+      "pmid": "32209449",
+      "line": 110,
+      "verdict": "OK",
+      "checks": {
+        "resolves": "ok",
+        "url": "skip",
+        "year": "ok",
+        "journal": "ok",
+        "author": "ok",
+        "title": "ok",
+        "retracted": "ok",
+        "swap": "ok"
+      },
+      "problems": [],
+      "notes": {
+        "url": "url names no PubMed, PMC or DOI id",
+        "title": "100%"
+      },
+      "record": {
+        "title": "Prostate-specific membrane antigen PET-CT in patients with high-risk prostate cancer before curative-intent surgery or radiotherapy (proPSMA): a prospective, randomised, multicentre study.",
+        "first_author": "Hofman",
+        "year": "2020",
+        "journal": "Lancet",
+        "pmcid": null,
+        "doi": "10.1016/s0140-6736(20)30314-7",
+        "pub_types": [
+          "Multicenter Study",
+          "Randomized Controlled Trial",
+          "Journal Article"
+        ]
+      }
+    }
+  ],
+  "failing": [],
+  "quotes": [
+    {
+      "ref": "zeegers-family",
+      "line": 331,
+      "quote": "Thirty-three epidemiologic studies were included in the current review. S(lambda) was 2.53 (95% confidence interval, 2.24-2.85) for first-degree family members.",
+      "verdict": "OK",
+      "found_in": "abstract"
+    },
+    {
+      "ref": "nyberg-brca",
+      "line": 341,
+      "quote": "BRCA2 carriers had an SIR of 4.45 (95% confidence interval [CI] 2.99-6.61) and absolute PCa risk of 27% (95% CI 17-41%) and 60% (95% CI 43-78%) by ages 75 and 85 yr, respectively.",
+      "verdict": "OK",
+      "found_in": "abstract"
+    },
+    {
+      "ref": "nyberg-brca",
+      "line": 352,
+      "quote": "The estimated absolute risk of PCa was 21% (95% CI 13-34%) by age 75 yr and 29% (95% CI 17-45%) by age 85 yr for BRCA1 carriers.",
+      "verdict": "OK",
+      "found_in": "full text"
+    },
+    {
+      "ref": "nyberg-brca",
+      "line": 355,
+      "quote": "For BRCA1 carriers, the overall SIR was 2.35 (95% CI 1.43-3.88); the corresponding SIR at age <65 yr was 3.57 (95% CI 1.68-7.58).",
+      "verdict": "OK",
+      "found_in": "abstract"
+    },
+    {
+      "ref": "smoking-mortality",
+      "line": 417,
+      "quote": "Current cigarette smoking was inversely associated with incident PCa (RR: 0.90; 95% CI, 0.85-0.96), with high heterogeneity in the results.",
+      "verdict": "OK",
+      "found_in": "abstract"
+    },
+    {
+      "ref": "smoking-mortality",
+      "line": 427,
+      "quote": "Current cigarette smoking was associated with an increased risk of PCa death (RR: 1.24; 95% CI, 1.18-1.31), with little evidence for heterogeneity and publication bias. The number of cigarettes smoked per day had a dose-response association with PCa mortality (p=0.02; RR for 20 cigarettes per day: 1.20).",
+      "verdict": "OK",
+      "found_in": "abstract"
+    },
+    {
+      "ref": "pcpt-bias",
+      "line": 447,
+      "quote": "Finasteride taken for 7 years in the Prostate Cancer Prevention Trial (PCPT) reduced the risk of prostate cancer by 25%, but with an apparent increased risk of high-grade disease.",
+      "verdict": "OK",
+      "found_in": "abstract"
+    },
+    {
+      "ref": "propsma",
+      "line": 595,
+      "quote": "PSMA PET-CT had a 27% (95% CI 23-31) greater accuracy than that of conventional imaging (92% [88-95] vs 65% [60-69]; p<0.0001). … had more equivocal findings (23% [17-31] vs 7% [4-13]) than PSMA PET-CT did.",
+      "verdict": "OK",
+      "found_in": "abstract"
+    },
+    {
+      "ref": "propsma",
+      "line": 599,
+      "quote": "First-line conventional imaging conferred management change less frequently (23 [15%] men [10-22] vs 41 [28%] men [21-36]; p=0.008) … Radiation exposure was 10.9 mSv (95% CI 9.8-12.0) higher for conventional imaging than for PSMA PET-CT (19.2 mSv vs 8.4 mSv; p<0.001).",
+      "verdict": "OK",
+      "found_in": "abstract"
+    },
+    {
+      "ref": "propsma",
+      "line": 604,
+      "quote": "We found a lower sensitivity (38% [24-52] vs 85% [74-96]) and specificity (91% [85-97] vs 98% [95-100]) for conventional imaging compared with PSMA PET-CT.",
+      "verdict": "OK",
+      "found_in": "abstract"
+    },
+    {
+      "ref": "tcga-prad",
+      "line": 996,
+      "quote": "DNA repair genes were inactivated in 19%.",
+      "verdict": "OK",
+      "found_in": "abstract"
+    },
+    {
+      "ref": "tcga-prad",
+      "line": 1229,
+      "quote": "25% of the prostate cancers had a presumed actionable lesion in the PI3K or MAPK signaling pathways",
+      "verdict": "OK",
+      "found_in": "abstract"
+    },
+    {
+      "ref": "tcga-prad",
+      "line": 1234,
+      "quote": "DNA repair genes were inactivated in 19%.",
+      "verdict": "OK",
+      "found_in": "abstract"
+    },
+    {
+      "ref": "mcrpc-epi",
+      "line": 1672,
+      "quote": "Median overall survival increased from 1.23 years (95% CI, 1.19-1.27) in 2005 to 2011, to 1.75 years (95% CI, 1.70-1.80) in 2012 to 2017, to 2.17 years (95% CI, 2.11-2.22) in 2018 to 2024",
+      "verdict": "OK",
+      "found_in": "abstract"
+    }
+  ],
+  "failing_quotes": []
+}

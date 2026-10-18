@@ -1,0 +1,929 @@
+{
+  "dataset": "lung.js",
+  "n_references": 31,
+  "n_pmid": 24,
+  "n_label": 0,
+  "rows": [
+    {
+      "id": "msk-2017",
+      "pmid": "28336552",
+      "line": 65,
+      "verdict": "OK",
+      "checks": {
+        "resolves": "ok",
+        "url": "skip",
+        "year": "ok",
+        "journal": "ok",
+        "author": "ok",
+        "title": "ok",
+        "retracted": "ok",
+        "swap": "ok"
+      },
+      "problems": [],
+      "notes": {
+        "url": "url names no PubMed, PMC or DOI id",
+        "title": "100%"
+      },
+      "record": {
+        "title": "Prospective Comprehensive Molecular Characterization of Lung Adenocarcinomas for Efficient Patient Matching to Approved and Emerging Therapies.",
+        "first_author": "Jordan",
+        "year": "2017",
+        "journal": "Cancer Discov",
+        "pmcid": "PMC5482929",
+        "doi": "10.1158/2159-8290.cd-16-1337",
+        "pub_types": [
+          "research-article",
+          "Journal Article",
+          "Observational Study"
+        ]
+      }
+    },
+    {
+      "id": "tcga-panlung",
+      "pmid": "27158780",
+      "line": 67,
+      "verdict": "OK",
+      "checks": {
+        "resolves": "ok",
+        "url": "skip",
+        "year": "ok",
+        "journal": "ok",
+        "author": "ok",
+        "title": "ok",
+        "retracted": "ok",
+        "swap": "ok"
+      },
+      "problems": [],
+      "notes": {
+        "url": "url names no PubMed, PMC or DOI id",
+        "title": "100%"
+      },
+      "record": {
+        "title": "Distinct patterns of somatic genome alterations in lung adenocarcinomas and squamous cell carcinomas.",
+        "first_author": "Campbell",
+        "year": "2016",
+        "journal": "Nat Genet",
+        "pmcid": "PMC4884143",
+        "doi": "10.1038/ng.3564",
+        "pub_types": [
+          "Research Support, Non-U.S. Gov't",
+          "research-article",
+          "Research Support, U.S. Gov't, Non-P.H.S.",
+          "Journal Article",
+          "Research Support, N.I.H., Extramural"
+        ]
+      }
+    },
+    {
+      "id": "george-sclc",
+      "pmid": "26168399",
+      "line": 69,
+      "verdict": "OK",
+      "checks": {
+        "resolves": "ok",
+        "url": "skip",
+        "year": "ok",
+        "journal": "ok",
+        "author": "ok",
+        "title": "ok",
+        "retracted": "ok",
+        "swap": "ok"
+      },
+      "problems": [],
+      "notes": {
+        "url": "url names no PubMed, PMC or DOI id",
+        "title": "100%"
+      },
+      "record": {
+        "title": "Comprehensive genomic profiles of small cell lung cancer.",
+        "first_author": "George",
+        "year": "2015",
+        "journal": "Nature",
+        "pmcid": "PMC4861069",
+        "doi": "10.1038/nature14664",
+        "pub_types": [
+          "Research Support, Non-U.S. Gov't",
+          "research-article",
+          "Journal Article",
+          "Research Support, N.I.H., Extramural"
+        ]
+      }
+    },
+    {
+      "id": "rudin-sclc",
+      "pmid": "30926931",
+      "line": 71,
+      "verdict": "OK",
+      "checks": {
+        "resolves": "ok",
+        "url": "ok",
+        "year": "ok",
+        "journal": "ok",
+        "author": "ok",
+        "title": "ok",
+        "retracted": "ok",
+        "swap": "ok"
+      },
+      "problems": [],
+      "notes": {
+        "title": "100%"
+      },
+      "record": {
+        "title": "Molecular subtypes of small cell lung cancer: a synthesis of human and mouse model data.",
+        "first_author": "Rudin",
+        "year": "2019",
+        "journal": "Nat Rev Cancer",
+        "pmcid": "PMC6538259",
+        "doi": "10.1038/s41568-019-0133-9",
+        "pub_types": [
+          "Research Support, Non-U.S. Gov't",
+          "research-article",
+          "Review",
+          "Research Support, U.S. Gov't, Non-P.H.S.",
+          "Journal Article",
+          "Research Support, N.I.H., Extramural"
+        ]
+      }
+    },
+    {
+      "id": "who-2021",
+      "pmid": "34808341",
+      "line": 73,
+      "verdict": "OK",
+      "checks": {
+        "resolves": "ok",
+        "url": "ok",
+        "year": "ok",
+        "journal": "ok",
+        "author": "ok",
+        "title": "ok",
+        "retracted": "ok",
+        "swap": "ok"
+      },
+      "problems": [],
+      "notes": {
+        "title": "100%"
+      },
+      "record": {
+        "title": "The 2021 WHO Classification of Lung Tumors: Impact of Advances Since 2015.",
+        "first_author": "Nicholson",
+        "year": "2022",
+        "journal": "J Thorac Oncol",
+        "pmcid": null,
+        "doi": "10.1016/j.jtho.2021.11.003",
+        "pub_types": [
+          "Review",
+          "Journal Article"
+        ]
+      }
+    },
+    {
+      "id": "travis-2013",
+      "pmid": "22970842",
+      "line": 75,
+      "verdict": "OK",
+      "checks": {
+        "resolves": "ok",
+        "url": "ok",
+        "year": "ok",
+        "journal": "ok",
+        "author": "ok",
+        "title": "ok",
+        "retracted": "ok",
+        "swap": "ok"
+      },
+      "problems": [],
+      "notes": {
+        "title": "100%"
+      },
+      "record": {
+        "title": "Diagnosis of lung cancer in small biopsies and cytology: implications of the 2011 International Association for the Study of Lung Cancer/American Thoracic Society/European Respiratory Society classification.",
+        "first_author": "Travis",
+        "year": "2013",
+        "journal": "Arch Pathol Lab Med",
+        "pmcid": "PMC4509741",
+        "doi": "10.5858/arpa.2012-0263-ra",
+        "pub_types": [
+          "research-article",
+          "Journal Article"
+        ]
+      }
+    },
+    {
+      "id": "gainor-alk",
+      "pmid": "23729361",
+      "line": 77,
+      "verdict": "OK",
+      "checks": {
+        "resolves": "ok",
+        "url": "ok",
+        "year": "ok",
+        "journal": "ok",
+        "author": "ok",
+        "title": "ok",
+        "retracted": "ok",
+        "swap": "ok"
+      },
+      "problems": [],
+      "notes": {
+        "title": "100%"
+      },
+      "record": {
+        "title": "ALK rearrangements are mutually exclusive with mutations in EGFR or KRAS: an analysis of 1,683 patients with non-small cell lung cancer.",
+        "first_author": "Gainor",
+        "year": "2013",
+        "journal": "Clin Cancer Res",
+        "pmcid": "PMC3874127",
+        "doi": "10.1158/1078-0432.ccr-13-0318",
+        "pub_types": [
+          "Research Support, Non-U.S. Gov't",
+          "research-article",
+          "Journal Article",
+          "Research Support, N.I.H., Extramural"
+        ]
+      }
+    },
+    {
+      "id": "oser-transform",
+      "pmid": "25846096",
+      "line": 79,
+      "verdict": "OK",
+      "checks": {
+        "resolves": "ok",
+        "url": "ok",
+        "year": "ok",
+        "journal": "ok",
+        "author": "ok",
+        "title": "ok",
+        "retracted": "ok",
+        "swap": "ok"
+      },
+      "problems": [],
+      "notes": {
+        "title": "100%"
+      },
+      "record": {
+        "title": "Transformation from non-small-cell lung cancer to small-cell lung cancer: molecular drivers and cells of origin.",
+        "first_author": "Oser",
+        "year": "2015",
+        "journal": "Lancet Oncol",
+        "pmcid": "PMC4470698",
+        "doi": "10.1016/s1470-2045(14)71180-5",
+        "pub_types": [
+          "research-article",
+          "Review",
+          "Journal Article",
+          "Research Support, N.I.H., Extramural"
+        ]
+      }
+    },
+    {
+      "id": "villeneuve-mao",
+      "pmid": "7895211",
+      "line": 83,
+      "verdict": "OK",
+      "checks": {
+        "resolves": "ok",
+        "url": "ok",
+        "year": "ok",
+        "journal": "ok",
+        "author": "ok",
+        "title": "ok",
+        "retracted": "ok",
+        "swap": "ok"
+      },
+      "problems": [],
+      "notes": {
+        "title": "100%"
+      },
+      "record": {
+        "title": "Lifetime probability of developing lung cancer, by smoking status, Canada.",
+        "first_author": "Villeneuve",
+        "year": "1994",
+        "journal": "Can J Public Health",
+        "pmcid": null,
+        "doi": "10.1016/0169-5002(95)90149-3",
+        "pub_types": [
+          "Journal Article"
+        ]
+      }
+    },
+    {
+      "id": "thun-2013",
+      "pmid": "23343064",
+      "line": 85,
+      "verdict": "OK",
+      "checks": {
+        "resolves": "ok",
+        "url": "ok",
+        "year": "ok",
+        "journal": "ok",
+        "author": "ok",
+        "title": "ok",
+        "retracted": "ok",
+        "swap": "ok"
+      },
+      "problems": [],
+      "notes": {
+        "title": "100%"
+      },
+      "record": {
+        "title": "50-year trends in smoking-related mortality in the United States.",
+        "first_author": "Thun",
+        "year": "2013",
+        "journal": "N Engl J Med",
+        "pmcid": "PMC3632080",
+        "doi": "10.1056/nejmsa1211127",
+        "pub_types": [
+          "Research Support, N.I.H., Intramural",
+          "Research Support, Non-U.S. Gov't",
+          "research-article",
+          "Journal Article",
+          "Research Support, N.I.H., Extramural"
+        ]
+      }
+    },
+    {
+      "id": "peto-2000",
+      "pmid": "10926586",
+      "line": 87,
+      "verdict": "OK",
+      "checks": {
+        "resolves": "ok",
+        "url": "ok",
+        "year": "ok",
+        "journal": "ok",
+        "author": "ok",
+        "title": "ok",
+        "retracted": "ok",
+        "swap": "ok"
+      },
+      "problems": [],
+      "notes": {
+        "title": "100%"
+      },
+      "record": {
+        "title": "Smoking, smoking cessation, and lung cancer in the UK since 1950: combination of national statistics with two case-control studies.",
+        "first_author": "Peto",
+        "year": "2000",
+        "journal": "BMJ",
+        "pmcid": "PMC27446",
+        "doi": "10.1136/bmj.321.7257.323",
+        "pub_types": [
+          "Research Support, Non-U.S. Gov't",
+          "research-article",
+          "Journal Article"
+        ]
+      }
+    },
+    {
+      "id": "zhong-ets",
+      "pmid": "10672779",
+      "line": 89,
+      "verdict": "OK",
+      "checks": {
+        "resolves": "ok",
+        "url": "ok",
+        "year": "ok",
+        "journal": "ok",
+        "author": "ok",
+        "title": "ok",
+        "retracted": "ok",
+        "swap": "ok"
+      },
+      "problems": [],
+      "notes": {
+        "title": "100%"
+      },
+      "record": {
+        "title": "Exposure to environmental tobacco smoke and the risk of lung cancer: a meta-analysis.",
+        "first_author": "Zhong",
+        "year": "2000",
+        "journal": "Lung Cancer",
+        "pmcid": null,
+        "doi": "10.1016/s0169-5002(99)00093-8",
+        "pub_types": [
+          "Meta-Analysis",
+          "Research Support, Non-U.S. Gov't",
+          "Journal Article"
+        ]
+      }
+    },
+    {
+      "id": "darby-radon",
+      "pmid": "15613366",
+      "line": 91,
+      "verdict": "OK",
+      "checks": {
+        "resolves": "ok",
+        "url": "ok",
+        "year": "ok",
+        "journal": "ok",
+        "author": "ok",
+        "title": "ok",
+        "retracted": "ok",
+        "swap": "ok"
+      },
+      "problems": [],
+      "notes": {
+        "title": "100%"
+      },
+      "record": {
+        "title": "Radon in homes and risk of lung cancer: collaborative analysis of individual data from 13 European case-control studies.",
+        "first_author": "Darby",
+        "year": "2005",
+        "journal": "BMJ",
+        "pmcid": "PMC546066",
+        "doi": "10.1136/bmj.38308.477650.63",
+        "pub_types": [
+          "Research Support, Non-U.S. Gov't",
+          "research-article",
+          "Journal Article"
+        ]
+      }
+    },
+    {
+      "id": "nlst-2011",
+      "pmid": "21714641",
+      "line": 93,
+      "verdict": "OK",
+      "checks": {
+        "resolves": "ok",
+        "url": "ok",
+        "year": "ok",
+        "journal": "ok",
+        "author": "ok",
+        "title": "ok",
+        "retracted": "ok",
+        "swap": "ok"
+      },
+      "problems": [],
+      "notes": {
+        "title": "100%"
+      },
+      "record": {
+        "title": "Reduced lung-cancer mortality with low-dose computed tomographic screening.",
+        "first_author": "National Lung Screening Trial Research Team",
+        "year": "2011",
+        "journal": "N Engl J Med",
+        "pmcid": "PMC4356534",
+        "doi": "10.1056/nejmoa1102873",
+        "pub_types": [
+          "Comparative Study",
+          "research-article",
+          "Multicenter Study",
+          "Randomized Controlled Trial",
+          "Journal Article",
+          "Research Support, N.I.H., Extramural"
+        ]
+      }
+    },
+    {
+      "id": "nelson-2020",
+      "pmid": "31995683",
+      "line": 95,
+      "verdict": "OK",
+      "checks": {
+        "resolves": "ok",
+        "url": "ok",
+        "year": "ok",
+        "journal": "ok",
+        "author": "ok",
+        "title": "ok",
+        "retracted": "ok",
+        "swap": "ok"
+      },
+      "problems": [],
+      "notes": {
+        "title": "100%"
+      },
+      "record": {
+        "title": "Reduced Lung-Cancer Mortality with Volume CT Screening in a Randomized Trial.",
+        "first_author": "de Koning",
+        "year": "2020",
+        "journal": "N Engl J Med",
+        "pmcid": null,
+        "doi": "10.1056/nejmoa1911793",
+        "pub_types": [
+          "Multicenter Study",
+          "Randomized Controlled Trial",
+          "Journal Article"
+        ]
+      }
+    },
+    {
+      "id": "plco-2011",
+      "pmid": "22031728",
+      "line": 97,
+      "verdict": "OK",
+      "checks": {
+        "resolves": "ok",
+        "url": "ok",
+        "year": "ok",
+        "journal": "ok",
+        "author": "ok",
+        "title": "ok",
+        "retracted": "ok",
+        "swap": "ok"
+      },
+      "problems": [],
+      "notes": {
+        "title": "100%"
+      },
+      "record": {
+        "title": "Screening by chest radiograph and lung cancer mortality: the Prostate, Lung, Colorectal, and Ovarian (PLCO) randomized trial.",
+        "first_author": "Oken",
+        "year": "2011",
+        "journal": "JAMA",
+        "pmcid": null,
+        "doi": "10.1001/jama.2011.1591",
+        "pub_types": [
+          "Research Support, N.I.H., Intramural",
+          "Multicenter Study",
+          "Randomized Controlled Trial",
+          "Journal Article",
+          "Research Support, N.I.H., Extramural"
+        ]
+      }
+    },
+    {
+      "id": "meza-2021",
+      "pmid": "33687469",
+      "line": 99,
+      "verdict": "OK",
+      "checks": {
+        "resolves": "ok",
+        "url": "ok",
+        "year": "ok",
+        "journal": "ok",
+        "author": "ok",
+        "title": "ok",
+        "retracted": "ok",
+        "swap": "ok"
+      },
+      "problems": [],
+      "notes": {
+        "title": "62%"
+      },
+      "record": {
+        "title": "Evaluation of the Benefits and Harms of Lung Cancer Screening With Low-Dose Computed Tomography: Modeling Study for the US Preventive Services Task Force.",
+        "first_author": "Meza",
+        "year": "2021",
+        "journal": "JAMA",
+        "pmcid": "PMC9208912",
+        "doi": "10.1001/jama.2021.1077",
+        "pub_types": [
+          "research-article",
+          "Journal Article",
+          "Research Support, N.I.H., Extramural"
+        ]
+      }
+    },
+    {
+      "id": "uspstf-2021",
+      "pmid": "33687470",
+      "line": 101,
+      "verdict": "OK",
+      "checks": {
+        "resolves": "ok",
+        "url": "ok",
+        "year": "ok",
+        "journal": "ok",
+        "author": "ok",
+        "title": "ok",
+        "retracted": "ok",
+        "swap": "ok"
+      },
+      "problems": [],
+      "notes": {
+        "title": "100%"
+      },
+      "record": {
+        "title": "Screening for Lung Cancer: US Preventive Services Task Force Recommendation Statement.",
+        "first_author": "US Preventive Services Task Force",
+        "year": "2021",
+        "journal": "JAMA",
+        "pmcid": null,
+        "doi": "10.1001/jama.2021.1117",
+        "pub_types": [
+          "Practice Guideline",
+          "Journal Article"
+        ]
+      }
+    },
+    {
+      "id": "bandi-2025",
+      "pmid": "41259039",
+      "line": 103,
+      "verdict": "OK",
+      "checks": {
+        "resolves": "ok",
+        "url": "skip",
+        "year": "ok",
+        "journal": "ok",
+        "author": "ok",
+        "title": "ok",
+        "retracted": "ok",
+        "swap": "ok"
+      },
+      "problems": [],
+      "notes": {
+        "url": "url names no PubMed, PMC or DOI id",
+        "title": "100%"
+      },
+      "record": {
+        "title": "Lung Cancer Deaths Prevented and Life-Years Gained From Lung Cancer Screening.",
+        "first_author": "Bandi",
+        "year": "2025",
+        "journal": "JAMA",
+        "pmcid": "PMC12631561",
+        "doi": "10.1001/jama.2025.19798",
+        "pub_types": [
+          "research-article",
+          "Journal Article"
+        ]
+      }
+    },
+    {
+      "id": "zanazanian-2026",
+      "pmid": "42616166",
+      "line": 105,
+      "verdict": "OK",
+      "checks": {
+        "resolves": "ok",
+        "url": "ok",
+        "year": "ok",
+        "journal": "ok",
+        "author": "ok",
+        "title": "ok",
+        "retracted": "ok",
+        "swap": "ok"
+      },
+      "problems": [],
+      "notes": {
+        "title": "100%"
+      },
+      "record": {
+        "title": "Lung cancer screening eligibility and completion among adults diagnosed with lung cancer: retrospective analysis of 2024 National Health Interview Survey.",
+        "first_author": "Zanazanian",
+        "year": "2026",
+        "journal": "Cancer Causes Control",
+        "pmcid": "PMC13490233",
+        "doi": "10.1007/s10552-026-02229-x",
+        "pub_types": [
+          "brief-report",
+          "Journal Article"
+        ]
+      }
+    },
+    {
+      "id": "bray-2024",
+      "pmid": "38572751",
+      "line": 107,
+      "verdict": "OK",
+      "checks": {
+        "resolves": "ok",
+        "url": "ok",
+        "year": "ok",
+        "journal": "ok",
+        "author": "ok",
+        "title": "ok",
+        "retracted": "ok",
+        "swap": "ok"
+      },
+      "problems": [],
+      "notes": {
+        "title": "100%"
+      },
+      "record": {
+        "title": "Global cancer statistics 2022: GLOBOCAN estimates of incidence and mortality worldwide for 36 cancers in 185 countries.",
+        "first_author": "Bray",
+        "year": "2024",
+        "journal": "CA Cancer J Clin",
+        "pmcid": null,
+        "doi": "10.3322/caac.21834",
+        "pub_types": [
+          "Research Support, Non-U.S. Gov't",
+          "Journal Article"
+        ]
+      }
+    },
+    {
+      "id": "express-2019",
+      "pmid": "31319978",
+      "line": 109,
+      "verdict": "OK",
+      "checks": {
+        "resolves": "ok",
+        "url": "ok",
+        "year": "ok",
+        "journal": "ok",
+        "author": "ok",
+        "title": "ok",
+        "retracted": "ok",
+        "swap": "ok"
+      },
+      "problems": [],
+      "notes": {
+        "title": "83%"
+      },
+      "record": {
+        "title": "Real-world prevalence of programmed death ligand 1 expression in locally advanced or metastatic non-small-cell lung cancer: The global, multicenter EXPRESS study.",
+        "first_author": "Dietel",
+        "year": "2019",
+        "journal": "Lung Cancer",
+        "pmcid": null,
+        "doi": "10.1016/j.lungcan.2019.06.012",
+        "pub_types": [
+          "Research Support, Non-U.S. Gov't",
+          "Multicenter Study",
+          "Journal Article"
+        ]
+      }
+    },
+    {
+      "id": "chmielecki-2023",
+      "pmid": "36849494",
+      "line": 111,
+      "verdict": "OK",
+      "checks": {
+        "resolves": "ok",
+        "url": "ok",
+        "year": "ok",
+        "journal": "ok",
+        "author": "ok",
+        "title": "ok",
+        "retracted": "ok",
+        "swap": "ok"
+      },
+      "problems": [],
+      "notes": {
+        "title": "100%"
+      },
+      "record": {
+        "title": "Candidate mechanisms of acquired resistance to first-line osimertinib in EGFR-mutated advanced non-small cell lung cancer.",
+        "first_author": "Chmielecki",
+        "year": "2023",
+        "journal": "Nat Commun",
+        "pmcid": "PMC9971254",
+        "doi": "10.1038/s41467-023-35961-y",
+        "pub_types": [
+          "Research Support, Non-U.S. Gov't",
+          "research-article",
+          "Journal Article"
+        ]
+      }
+    },
+    {
+      "id": "msk-met-2023",
+      "pmid": "37084736",
+      "line": 113,
+      "verdict": "OK",
+      "checks": {
+        "resolves": "ok",
+        "url": "skip",
+        "year": "ok",
+        "journal": "ok",
+        "author": "ok",
+        "title": "ok",
+        "retracted": "ok",
+        "swap": "ok"
+      },
+      "problems": [],
+      "notes": {
+        "url": "url names no PubMed, PMC or DOI id",
+        "title": "100%"
+      },
+      "record": {
+        "title": "Genomic mapping of metastatic organotropism in lung adenocarcinoma.",
+        "first_author": "Lengel",
+        "year": "2023",
+        "journal": "Cancer Cell",
+        "pmcid": "PMC10391526",
+        "doi": "10.1016/j.ccell.2023.03.018",
+        "pub_types": [
+          "research-article",
+          "Research Support, U.S. Gov't, Non-P.H.S.",
+          "Journal Article",
+          "Research Support, N.I.H., Extramural"
+        ]
+      }
+    }
+  ],
+  "failing": [],
+  "quotes": [
+    {
+      "ref": "villeneuve-mao",
+      "line": 285,
+      "quote": "Canadian rates observed over the period 1987 to 1989. It was found that 172/1,000 of male current smokers will eventually develop lung cancer … Only 13/1,000 males … When smoking status is not adjusted for, the lifetime risk of developing lung cancer is approximately 96/1,000",
+      "verdict": "OK",
+      "found_in": "abstract"
+    },
+    {
+      "ref": "villeneuve-mao",
+      "line": 301,
+      "quote": "Canadian rates observed over the period 1987 to 1989. … the similar probability among female current smokers was 116/1,000. … Only 13/1,000 males and 14/1,000 females in this category will develop lung cancer.",
+      "verdict": "OK",
+      "found_in": "abstract"
+    },
+    {
+      "ref": "thun-2013",
+      "line": 314,
+      "quote": "three time periods (1959-1965, 1982-1988, and 2000-2010) … For women who were current smokers, as compared with women who had never smoked, the relative risks of death from lung cancer were 2.73, 12.65, and 25.66 in the 1960s, 1980s, and contemporary cohorts, respectively; corresponding relative risks for male current smokers, as compared with men who had never smoked, were 12.22, 23.81, and 24.97.",
+      "verdict": "OK",
+      "found_in": "abstract"
+    },
+    {
+      "ref": "peto-2000",
+      "line": 329,
+      "quote": "Among both men and women in 1990, however, the former smokers had only a fraction of the lung cancer rate of continuing smokers, and this fraction fell steeply with time since stopping. By 1990 cessation had almost halved the number of lung cancers that would have been expected if the former smokers had continued.",
+      "verdict": "OK",
+      "found_in": "abstract"
+    },
+    {
+      "ref": "zhong-ets",
+      "line": 343,
+      "quote": "The relative risk of lung cancer among non smoking women ever exposed to ETS from their husbands … was 1.20 (95% confidence interval (CI): 1.12-1.29). … the relative risk of lung cancer for ever being exposed to ETS at work was a 1.16 (95% CI: 1.05-1.28).",
+      "verdict": "OK",
+      "found_in": "abstract"
+    },
+    {
+      "ref": "darby-radon",
+      "line": 367,
+      "quote": "Collaborative analysis of individual data from 13 case-control studies of residential radon and lung cancer. … Nine European countries. … This corresponds to an increase of 16% (5% to 31%) per 100 Bq/m3 increase in usual radon",
+      "verdict": "OK",
+      "found_in": "abstract"
+    },
+    {
+      "ref": "nlst-2011",
+      "line": 511,
+      "quote": "There were 247 deaths from lung cancer per 100,000 person-years in the low-dose CT group and 309 deaths per 100,000 person-years in the radiography group, representing a relative reduction in mortality from lung cancer with low-dose CT screening of 20.0%",
+      "verdict": "OK",
+      "found_in": "abstract"
+    },
+    {
+      "ref": "zanazanian-2026",
+      "line": 516,
+      "quote": "Among those with known eligibility, 52.3% (58/11) met screening criteria at diagnosis. … Among US adults with lung cancer, approximately half were screening-eligible",
+      "verdict": "OK",
+      "found_in": "abstract"
+    },
+    {
+      "ref": "nlst-2011",
+      "line": 520,
+      "quote": "Participants were randomly assigned to undergo three annual screenings … The rate of positive screening tests was 24.2% with low-dose CT and 6.9% with radiography over all three rounds. A total of 96.4% of the positive screening results in the low-dose CT group",
+      "verdict": "OK",
+      "found_in": "abstract"
+    },
+    {
+      "ref": "uspstf-2021",
+      "line": 525,
+      "quote": "The USPSTF recommends annual screening for lung cancer with LDCT in adults aged 50 to 80 years who have a 20 pack-year smoking history and currently smoke or have quit within the past 15 years.",
+      "verdict": "OK",
+      "found_in": "abstract"
+    },
+    {
+      "ref": "plco-2011",
+      "line": 537,
+      "quote": "Randomized controlled trial that involved 154,901 participants aged 55 through 74 years, 77,445 of whom were assigned to annual screenings and 77,456 to usual care … (mortality RR, 0.99; 95% CI, 0.87-1.22)",
+      "verdict": "OK",
+      "found_in": "abstract"
+    },
+    {
+      "ref": "msk-2017",
+      "line": 561,
+      "quote": "Here, we report the experience of 860 patients with metastatic lung adenocarcinoma … Overall, 37.1% (319/860) of patients received a matched therapy guided by their tumor molecular profile.",
+      "verdict": "OK",
+      "found_in": "abstract"
+    },
+    {
+      "ref": "msk-2017",
+      "line": 605,
+      "quote": "Here, we report the experience of 860 patients with metastatic lung adenocarcinoma analyzed prospectively",
+      "verdict": "OK",
+      "found_in": "abstract"
+    },
+    {
+      "ref": "chmielecki-2023",
+      "line": 610,
+      "quote": "In the osimertinib arm acquired resistance analysis subset, 38/109 (35%) patients had a detectable acquired resistance mechanism, 71 (65%) had no detectable candidate mechanism of resistance, and there was no evidence of acquired EGFR T790M",
+      "verdict": "OK",
+      "found_in": "full text"
+    },
+    {
+      "ref": "express-2019",
+      "line": 679,
+      "quote": "Of 2617 patients who met inclusion criteria, 2368 (90%) had PD-L1 data; 530 (22%) patients had PD-L1 TPS ≥ 50%, 1232 (52%) had PD-L1 TPS ≥ 1%, and 1136 (48%) had PD-L1 TPS < 1%.",
+      "verdict": "OK",
+      "found_in": "abstract"
+    },
+    {
+      "ref": "chmielecki-2023",
+      "line": 1575,
+      "quote": "No EGFR T790M-mediated acquired resistance are observed; most frequent resistance mechanisms are MET amplification (n = 17; 16%) and EGFR C797S mutations (n = 7; 6%). … 109/137 (80%) in the osimertinib arm … More than one acquired resistance mechanism was detected in 15 (14%) patients",
+      "verdict": "OK",
+      "found_in": "full text"
+    }
+  ],
+  "failing_quotes": []
+}
