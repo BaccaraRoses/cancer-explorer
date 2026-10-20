@@ -110,7 +110,8 @@ two inputs of `tools/verify.py` are deliberately not published: `invariants`
 reads the project's working rules (`CLAUDE.md`), and `sitescan` reads a private
 list of strings that must never ship. In a clone both report FAIL. They are
 missing their input, which says nothing about the data. `validator` needs
-Windows (`mshta`). The other checks run as they do for the author, and the
+Windows (`mshta`), and `render` needs Chrome, Chromium or Edge (`CX_CHROME`
+names one). The other checks run as they do for the author, and the
 first run fetches what `refs` and `audits` need, because the cache is not
 published either.
 
@@ -121,7 +122,7 @@ the terms of the source it came from, listed in `ATTRIBUTION.md`.
 
 | Control | What it does |
 |---|---|
-| **Lens** | Start, Risk & detection, Subtypes, Targets or Evidence. Changes what the canvas shows. |
+| **Lens** | Start, Risk & detection, Subtypes, Targets, Literature or Evidence. Changes what the canvas shows. |
 | **Start** | What the disease is, how common, how it is classified, and which lens to click. |
 | **Classify by** | Switches the classification axis (subtypes lens only). Breast has five: receptor IHC, PAM50 intrinsic, histology, HER2 expression level, and disease state. |
 | **Ranked** | Risk factors on a ratio axis, grouped by whether you can change them. |
@@ -130,7 +131,9 @@ the terms of the source it came from, listed in `ATTRIBUTION.md`.
 | **Tree** | Branching hierarchy, circle size ∝ share of cases. Dashed arcs show cross-cutting relationships. |
 | **Table** | The same data as rows — the accessible fallback, and the fastest way to scan everything at once. Present in both lenses. |
 | **Relationships** | Toggles the dashed cross-cutting edges in the tree view. |
-| **Search** | Dims non-matching entries. Matches labels, summaries, **gene names**, trigger factors, drug names, and risk factors. |
+| **Search** | Lists every match in the current cancer under the box, grouped by kind: subtypes on every axis, risk factors, targets, drugs, glossary terms and papers. A result opens where it lives, crossing lenses with a "← back" pill, and says which field matched when it is not the name. Matching is by words, so "triple negative" finds "Triple-negative". The treemap, tree and ranked views also dim what does not match. |
+| **On a phone** | Below 640px the cancers become tabs in a strip held at the top, beside the search button; the lenses become a bar fixed to the bottom; search opens as a full-screen sheet. Classify by gives way to the Sorted-by switcher at the head of the Subtypes lens, which is the same choice. |
+| **Targets, on a narrow screen** | Up to 1000px, where a target's card sits under the whole lens, every target also gets a button under the landscape chart (its dots are too close to tap), and opening one from a button, a dot or a gap table scrolls straight to the card. "↑ Back to …" at the top and end of the card returns to the place it was opened from. |
 
 Click any node for marker chips, trigger causes with effect sizes and evidence
 strength, molecular drivers with frequency bars, pathways, biomarkers, prognosis,
@@ -619,6 +622,8 @@ data/breast.literature.js generated overlay (pipeline/run.py literature) — opt
 data/prostate.*.js    second dataset — curated file plus the same three overlays
 data/lung.*.js        third dataset — curated file plus the same three overlays
 tools/chartaudit.py   re-derives every chart's geometry and checks its claim
+tools/rendercheck.py  the site in headless Chromium: phone layout, search, hover tips, Targets taps (+ rendercheck.js)
+tools/cdp.py          drives that browser over the DevTools protocol, stdlib only
 data/img/             structure renders from RCSB, public domain (~1.2 MB)
 tools/validate.mjs    optional Node CLI wrapper
 SCHEMA.md             the data contract

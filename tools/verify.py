@@ -8,7 +8,8 @@ Run it with the pipeline's interpreter; every check below is started with the
 same one. Exit 0 only when every check passes.
 
   tests            pipeline/tests (the gate's own unit tests) and tools/tests (the
-                   Skeptic's verdict code)
+                   Skeptic's verdict code, and one planted defect per rule of
+                   sitescan, publish and render)
   audit:<cancer>   run.py --cancer X audit -- computed facts against the curated
                    dataset, judged by cxp/gate.py. Offline: reads facts/, and
                    rewrites reports/ exactly as a manual `audit` would.
@@ -33,6 +34,16 @@ same one. Exit 0 only when every check passes.
                    pipeline/.env, no local path, host, e-mail, credential shape,
                    file that must not ship, or image metadata. Run it on a staged
                    copy too: `python tools/sitescan.py <folder>`.
+  render           tools/rendercheck.py -- the site in headless Chrome, Chromium or
+                   Edge (tools/cdp.py, stdlib only): no sideways scroll, no control
+                   cut off, off-screen or overlapping, the page end clear of the
+                   phone's lens bar, at 320/393/800/1400px over every cancer, lens,
+                   view and classification; a search drawn from each cancer's data
+                   finds each kind and opens it; no hover tip left after a tap; in
+                   the Targets lens every target has a button, a tap on a button,
+                   dot or table row brings its card on screen and the way back
+                   returns, and a desktop click does not move the page; no
+                   uncaught exception. Fails when no such browser is found.
   audits           every tools/audits/*.py (not _*.py helpers) exits 0. Each one
                    re-derives figures the site prints by its own code -- stdlib
                    only, never cxp -- and compares them with data/. A script named
@@ -41,7 +52,8 @@ same one. Exit 0 only when every check passes.
 
 This is what the autophase runner runs after a session reports a phase done,
 so a phase's gate is decided here rather than by the session that did the work.
-It cannot look at a rendered page; that check stays with the session.
+`render` sees what is cut off, hidden or dead in a rendered page, not whether
+it reads right; looking at the page stays with the session.
 
     python tools/verify.py --fingerprint out.json
 
@@ -80,14 +92,17 @@ sys.path.insert(0, str(ROOT / "tools"))
 import skeptic  # noqa: E402
 
 VALIDATOR_TIMEOUT_S = 180
+RENDER_TIMEOUT_S = 600
 
 GUARD = ("tools/verify.py", "tools/validate.hta", "pipeline/cxp/gate.py", "tools/skeptic.py",
          "tools/autophase/skeptic-prompt.md", "tools/autophase/run-phases.ps1",
-         "tools/autophase/phase-prompt.md", "tools/autophase/loop.json", "tools/sitescan.py")
+         "tools/autophase/phase-prompt.md", "tools/autophase/loop.json", "tools/sitescan.py",
+         "tools/rendercheck.py", "tools/rendercheck.js")
 RULES_FILE = "CLAUDE.md"
 SYNTAX_DIRS = ("pipeline", "tools")
 SYNTAX_SKIP = {"cache", "__pycache__", "logs"}
-CHECKERS = ("pipeline/cxp/audit.py", "pipeline/cxp/refcheck.py", "js/validate.js", "tools/chartaudit.py")
+CHECKERS = ("pipeline/cxp/audit.py", "pipeline/cxp/refcheck.py", "js/validate.js", "tools/chartaudit.py",
+            "tools/cdp.py")
 AUDITS_DIR = "tools/audits"
 AUDIT_TIMEOUT_S = 900
 CXP_IMPORT = re.compile(r"^\s*(?:from|import)\s+cxp\b", re.M)
@@ -221,6 +236,21 @@ def check_sitescan() -> dict:
     last = lines[-1] if lines else f"exit {code}"
     return {"name": "sitescan", "ok": code == 0,
             "summary": last.split(" -- ", 1)[-1] if code == 0 else last,
+            "details": [] if code == 0 else lines[:-1]}
+
+
+def check_render(only: set[str] | None) -> dict:
+    args = [sys.executable, str(ROOT / "tools" / "rendercheck.py")]
+    for cid in sorted(only or ()):
+        args += ["--cancer", cid]
+    try:
+        code, out = _run(args, ROOT, timeout=RENDER_TIMEOUT_S)
+    except subprocess.TimeoutExpired:
+        return {"name": "render", "ok": False, "summary": f"still running after {RENDER_TIMEOUT_S}s; killed",
+                "details": []}
+    lines = [ln for ln in out.splitlines() if ln.strip()]
+    last = lines[-1] if lines else f"exit {code}"
+    return {"name": "render", "ok": code == 0, "summary": last.split(" -- ", 1)[-1],
             "details": [] if code == 0 else lines[:-1]}
 
 
@@ -399,6 +429,7 @@ def main() -> int:
     checks.append(lambda: check_parser_parity(ids))
     checks.append(check_chartaudit)
     checks.append(check_sitescan)
+    checks.append(lambda: check_render(set(args.cancer) if args.cancer else None))
     checks.append(lambda: check_audits(set(args.cancer) if args.cancer else None))
 
     results = []

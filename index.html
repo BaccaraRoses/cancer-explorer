@@ -9,6 +9,16 @@
 <body>
 <div class="app viz-root">
 
+  <!-- Phone only: the cancer is the widest choice on the page, so all five stay
+       in reach at the top while the lens bar sits at the bottom. Filled from
+       the registered datasets; hidden on wider screens, where the picker is. -->
+  <div class="mtop" id="mtop">
+    <div class="segmented" id="cancer-tabs" role="group" aria-label="Cancer"></div>
+    <button type="button" id="search-open" class="icon-btn" aria-label="Search" title="Search">
+      <svg viewBox="0 0 20 20" width="18" height="18" aria-hidden="true"><circle cx="8.5" cy="8.5" r="5.5" fill="none" stroke="currentColor" stroke-width="2"/><path d="M12.6 12.6 17 17" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+    </button>
+  </div>
+
   <header class="topbar">
     <div class="brand">
       <h1 id="ds-name">Cancer Subtype Explorer</h1>
@@ -16,14 +26,14 @@
     </div>
 
     <div class="controls">
-      <label class="ctl">
+      <label class="ctl" id="ctl-dataset">
         <span>Cancer</span>
         <select id="sel-dataset"></select>
       </label>
 
       <!-- A lens picks what the canvas partitions: people, or tumours.
            The axis picker below only applies to the second. -->
-      <div class="ctl">
+      <div class="ctl" id="ctl-lens">
         <span>Lens</span>
         <div class="segmented" id="lens-toggle" role="group" aria-label="Lens">
           <button type="button" data-lens="start">Start</button>
@@ -62,10 +72,17 @@
         <span>Relationships</span>
       </label>
 
-      <label class="ctl">
-        <span>Search</span>
-        <input type="search" id="search" placeholder="subtype, gene, trigger…" autocomplete="off">
-      </label>
+      <!-- Finds across every lens, not only the one on screen: the results open
+           under the box, which on a phone becomes a full-screen sheet. -->
+      <div class="ctl ctl-search" id="ctl-search">
+        <label for="search">Search</label>
+        <div class="search-row">
+          <input type="search" id="search" placeholder="subtype, gene, drug, term…" autocomplete="off"
+                 aria-controls="search-results" aria-expanded="false">
+          <button type="button" id="search-close" class="search-close">Done</button>
+        </div>
+        <div class="search-results" id="search-results" role="region" aria-label="Search results" hidden></div>
+      </div>
 
       <button type="button" id="theme-toggle" class="icon-btn" aria-label="Toggle light/dark theme" title="Toggle theme">◐</button>
     </div>

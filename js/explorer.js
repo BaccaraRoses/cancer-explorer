@@ -45,6 +45,10 @@
        one-way and silent: click PIK3CA in a subtype drawer and the subtype is
        simply gone, with no way back and no record that you were ever there. */
     cameFrom: null,       // { lens, view, axisId, nodeId, gene, factorId, label }
+    /* Where a target was opened from inside its own lens, on a screen where the
+       drawer sits under the lens: the card is then thousands of pixels below
+       the dot, and the way back has to be a button, not a long scroll. */
+    targetReturn: null,   // { ds, gene, y, label }
     view: 'treemap',
     showRelated: true,
     query: ''
@@ -274,39 +278,384 @@
     });
   }
 
-  /* ---------------- search ---------------- */
+  /* ---------------- search ----------------
 
-  function matches(node, q) {
-    if (!q) return true;
-    var hay = [node.label, node.shortLabel, node.summary]
-      .concat((node.molecular && node.molecular.drivers || []).map(function (d) { return d.gene; }))
-      .concat((node.triggers || []).map(function (t) { return t.factor; }))
-      .concat((node.therapies || []).map(function (t) { return t.name; }))
-      .filter(Boolean).join(' ').toLowerCase();
-    return hay.indexOf(q) !== -1;
+     One box, two effects. Typing dims what does not match in the view on
+     screen (treemap, tree, ranked factors), and lists every match in this
+     cancer under the box, whichever lens holds it. The dimming alone was the
+     whole search once: in every other lens it did nothing, and on a phone the
+     view it dimmed sat a screen below the box, so typing looked broken.
+
+     Matching is by words, against a copy of each field with punctuation turned
+     into spaces: "triple negative" finds "Triple-negative", "cdk4/6" finds
+     "CDK4/6". All the words must sit in one field, so a result can say which
+     field it matched in. A match in a drug's company name says so, rather than
+     passing for a match on the drug. */
+
+  var MIN_QUERY = 2;
+
+  /* One character out for each character in, so a match found in the copy marks
+     the same span in the original. */
+  function fold(s) {
+    return String(s == null ? '' : s).toLowerCase().replace(/[^\p{L}\p{N}]/gu, ' ');
+  }
+
+  function queryWords(q) {
+    var f = fold(q).trim();
+    if (f.replace(/\s+/g, '').length < MIN_QUERY) return [];
+    return f.split(/\s+/);
+  }
+
+  var wordsMemo = { q: null, words: [] };
+  function words() {
+    if (wordsMemo.q !== state.query) wordsMemo = { q: state.query, words: queryWords(state.query) };
+    return wordsMemo.words;
+  }
+
+  /* A field is [why, text]. `why` null means the text is the item's own name;
+     otherwise it is what the result line says the match was in. Order is
+     priority: the first field holding every word is the one reported. */
+  function nodeFields(n) {
+    var m = n.molecular || {};
+    var out = [[null, n.label], ['short name', n.shortLabel]];
+    (m.drivers || []).forEach(function (d) { out.push(['driver', d.gene]); });
+    (m.biomarkers || []).forEach(function (b) { out.push(['biomarker', b.name]); });
+    (m.pathways || []).forEach(function (p) { out.push(['pathway', p.name]); });
+    (n.triggers || []).forEach(function (t) { out.push(['trigger', t.factor]); });
+    (n.therapies || []).forEach(function (t) { out.push(['therapy', t.name]); });
+    out.push(['description', n.summary]);
+    return out;
+  }
+
+  /* Also matches the labels of the subtypes a factor affects, so searching
+     "triple-negative" surfaces the factors that push toward it. */
+  function factorFields(f) {
+    var out = [[null, f.label], ['category', f.category]];
+    (f.affects || []).forEach(function (id) {
+      var n = nodeById(id);
+      out.push(['affects', n ? n.label : id]);
+      if (n && n.shortLabel) out.push(['affects', n.shortLabel]);
+    });
+    out.push(['magnitude', f.magnitude], ['note', f.note]);
+    return out;
+  }
+
+  /* Prose fields are named, never quoted: a sentence cut out of a summary would
+     carry its figures into the result list without their footnotes. */
+  var PROSE_FIELDS = { description: 1, note: 1, magnitude: 1, definition: 1 };
+
+  // Lowest rank wins: 0 exact name, 1 name starts with it, 2 a word of the name
+  // does, 3 elsewhere in the name, 4 another field. null when nothing matches.
+  function scoreFields(fields, ws) {
+    var best = null, whole = ws.join(' ');
+    for (var i = 0; i < fields.length; i++) {
+      var text = fields[i][1];
+      if (!text) continue;
+      var f = fold(text);
+      if (!ws.every(function (w) { return f.indexOf(w) !== -1; })) continue;
+      var r = 4;
+      if (fields[i][0] === null) {
+        var t = f.trim().replace(/\s+/g, ' ');
+        r = t === whole ? 0 : t.indexOf(whole) === 0 ? 1 :
+          (' ' + t).indexOf(' ' + ws[0]) !== -1 ? 2 : 3;
+      }
+      if (!best || r < best.rank) best = { rank: r, field: fields[i] };
+      if (r === 0) break;
+    }
+    return best;
   }
 
   function isDimmed(node) {
-    if (!state.query) return false;
-    if (matches(node, state.query)) return false;
+    var ws = words();
+    if (!ws.length) return false;
+    if (scoreFields(nodeFields(node), ws)) return false;
     // keep a node lit if any descendant matches
     var kids = childrenOf(node.id);
     for (var i = 0; i < kids.length; i++) if (!isDimmed(kids[i])) return false;
     return true;
   }
 
-  /* Same debounced query, applied to the factor list. Also matches the labels of
-     the subtypes a factor affects, so searching "triple-negative" surfaces the
-     factors that push toward it. */
   function isFactorDimmed(f) {
-    if (!state.query) return false;
-    var hay = [f.label, f.category, f.magnitude, f.note, f.direction]
-      .concat((f.affects || []).map(function (id) {
-        var n = nodeById(id);
-        return n ? n.label + ' ' + (n.shortLabel || '') : id;
-      }))
-      .filter(Boolean).join(' ').toLowerCase();
-    return hay.indexOf(state.query) === -1;
+    var ws = words();
+    if (!ws.length) return false;
+    return !scoreFields(factorFields(f), ws);
+  }
+
+  /* The kinds a search reaches, in ladder order — the order groups fall back to
+     when their best matches tie. `lens` is the lens a result opens. */
+  var SEARCH_GROUPS = [
+    { kind: 'term', title: 'Glossary', lens: 'start' },
+    { kind: 'factor', title: 'Risk factors', lens: 'risk' },
+    { kind: 'node', title: 'Subtypes', lens: 'subtypes' },
+    { kind: 'target', title: 'Targets', lens: 'targets' },
+    { kind: 'drug', title: 'Drugs', lens: 'targets' },
+    { kind: 'paper', title: 'Papers', lens: 'literature' }
+  ];
+  var GROUP_SHOWN = 5;
+
+  var searchIndex = { dsId: null, entries: [] };
+
+  /* Built once per cancer, from the same records the lenses draw: a result
+     cannot name something the lens it opens does not show. */
+  function searchEntries() {
+    if (searchIndex.dsId === state.dsId) return searchIndex.entries;
+    var d = ds() || {}, out = [];
+
+    (d.nodes || []).forEach(function (n) {
+      out.push({ kind: 'node', id: n.id, label: n.label, sub: ctx.axisLabelOf(n.axis), fields: nodeFields(n) });
+    });
+    if (lensAvailable('risk')) {
+      (d.factors || []).forEach(function (f) {
+        out.push({ kind: 'factor', id: f.id, label: f.label, sub: f.category, fields: factorFields(f) });
+      });
+    }
+    var t = targetData();
+    if (t && lensAvailable('targets')) {
+      Object.keys(t.genes || {}).forEach(function (g) {
+        var protein = ((t.genes[g] || {}).uniprot || {}).protein;
+        out.push({ kind: 'target', id: g, label: g, sub: protein,
+          fields: [[null, g], ['protein', protein], ['description', (t.genes[g] || {}).why]] });
+      });
+      (t.drugs || []).forEach(function (x) {
+        var f = [[null, x.name], ['code', x.code], ['target', x.target]];
+        (x.genes || []).forEach(function (g) { f.push(['gene', g]); });
+        f.push(['modality', x.modality], ['company', x.company], ['trial', x.trial_name]);
+        // one row per trial, so the trial is what tells two Tagrisso rows apart
+        out.push({ kind: 'drug', id: x.id, label: x.name,
+          sub: [x.target, x.modality, x.trial_name].filter(Boolean).join(' · '), fields: f });
+      });
+    }
+    if (global.Glossary && lensAvailable('start')) {
+      // the groups, not Glossary.all(): a term outside every group is not on the page
+      global.Glossary.groups().forEach(function (g) {
+        g.terms.forEach(function (e) {
+          /* The name shown is what was matched: "EGFR" found only the full
+             name once, so the result gave no sign of why it was there. */
+          var both = e.full && e.full.toLowerCase() !== e.t.toLowerCase();
+          var f = [[null, both ? e.full + ' (' + e.t + ')' : e.t]];
+          (e.alias || []).forEach(function (a) { f.push(['also called', a]); });
+          f.push(['definition', e.d]);
+          out.push({ kind: 'term', id: e.t, label: f[0][1], sub: g.label, fields: f });
+        });
+      });
+    }
+    var lit = literatureData();
+    if (lit && lensAvailable('literature')) {
+      (lit.papers || []).forEach(function (p) {
+        var f = [[null, p.title]];
+        (p.genes || []).forEach(function (g) { f.push(['about', g]); });
+        (p.matched || []).forEach(function (m) { f.push(['mentions', m]); });
+        f.push(['authors', p.authors]);
+        /* The Literature lens's rule holds here too: no title without its tier
+           and species beside it, and unclear printed as unclear. "species"
+           goes with it only there, where the bare word would not say what is
+           unclear. */
+        var species = p.species === 'unclear' ? 'species unclear' : p.species;
+        var sub = [p.tier, species, p.journal];
+        out.push({ kind: 'paper', id: p.id, label: p.title, url: p.url,
+          sub: sub.filter(Boolean).join(' · '), fields: f });
+      });
+    }
+    searchIndex = { dsId: state.dsId, entries: out };
+    return out;
+  }
+
+  var search = { open: false, expanded: {} };
+
+  function matchedGroups(ws) {
+    var byKind = {};
+    searchEntries().forEach(function (e, i) {
+      var s = scoreFields(e.fields, ws);
+      if (!s) return;
+      (byKind[e.kind] = byKind[e.kind] || []).push({ e: e, s: s, i: i });
+    });
+    var groups = [];
+    SEARCH_GROUPS.forEach(function (g, order) {
+      var hits = byKind[g.kind];
+      if (!hits) return;
+      hits.sort(function (a, b) { return a.s.rank - b.s.rank || a.i - b.i; });
+      groups.push({ def: g, hits: hits, order: order });
+    });
+    /* Best match first, except papers, which go last: a title that opens with
+       "BRCA1" is about the gene, and should not outrank the gene. */
+    groups.sort(function (a, b) {
+      return (a.def.kind === 'paper') - (b.def.kind === 'paper') ||
+        a.hits[0].s.rank - b.hits[0].s.rank || a.order - b.order;
+    });
+    return groups;
+  }
+
+  function mk(tag, cls, text) {
+    var n = document.createElement(tag);
+    if (cls) n.className = cls;
+    if (text != null) n.textContent = text;
+    return n;
+  }
+
+  // The name with the first word's first hit marked, built from text nodes.
+  function markedLabel(label, ws) {
+    var span = mk('span', 'sr-label');
+    var f = fold(label), at = f.indexOf(ws[0]);
+    if (at === -1 || f.length !== label.length) { span.textContent = label; return span; }
+    span.appendChild(document.createTextNode(label.slice(0, at)));
+    span.appendChild(mk('mark', null, label.slice(at, at + ws[0].length)));
+    span.appendChild(document.createTextNode(label.slice(at + ws[0].length)));
+    return span;
+  }
+
+  function resultItem(hit, ws) {
+    var e = hit.e, item;
+    if (e.kind === 'paper') {
+      // a paper's detail lives at its publisher, as in the Literature lens
+      item = mk('a', 'sr-item sr-paper');
+      item.href = e.url; item.target = '_blank'; item.rel = 'noopener';
+    } else {
+      item = mk('button', 'sr-item');
+      item.type = 'button';
+      item.addEventListener('click', function () { chooseResult(e); });
+    }
+    item.appendChild(markedLabel(e.label, ws));
+    if (e.sub) item.appendChild(mk('span', 'sr-sub', e.sub));
+    var why = hit.s.field[0];
+    if (why) {
+      item.appendChild(mk('span', 'sr-why', PROSE_FIELDS[why]
+        ? 'matched in its ' + why : why + ': ' + hit.s.field[1]));
+    }
+    return item;
+  }
+
+  function renderSearch() {
+    var box = dom.searchResults;
+    if (!box) return;
+    clearNode(box);
+    var typed = fold(state.query).replace(/\s+/g, '');
+    var show = search.open && typed.length > 0;
+    box.hidden = !show;
+    dom.search.setAttribute('aria-expanded', String(show));
+    if (!show) return;
+    var at = dom.searchCtl.getBoundingClientRect();
+    box.classList.toggle('from-right', at.left + box.offsetWidth > document.documentElement.clientWidth - 8);
+
+    var ws = words(), name = (ds() || {}).name || '';
+    if (!ws.length) {
+      box.appendChild(mk('p', 'sr-note', 'Type at least ' + MIN_QUERY + ' letters.'));
+      return;
+    }
+    var groups = matchedGroups(ws);
+    var total = groups.reduce(function (s, g) { return s + g.hits.length; }, 0);
+
+    if (!total) {
+      // what was searched, generated from what this cancer carries
+      var kinds = SEARCH_GROUPS.filter(function (g) {
+        return searchEntries().some(function (e) { return e.kind === g.kind; });
+      }).map(function (g) { return g.title.toLowerCase(); });
+      box.appendChild(mk('p', 'sr-note', 'Nothing in ' + name + ' matches “' + state.query.trim() +
+        '”. Searched: ' + kinds.join(', ') + '.'));
+      return;
+    }
+
+    var count = mk('p', 'sr-count', total + (total === 1 ? ' match' : ' matches') + ' in ' + name);
+    count.setAttribute('aria-live', 'polite');
+    box.appendChild(count);
+
+    groups.forEach(function (g, gi) {
+      var sec = mk('div', 'sr-group');
+      var head = mk('div', 'sr-head', g.def.title + ' ');
+      head.appendChild(mk('span', 'n', String(g.hits.length)));
+      sec.appendChild(head);
+      var all = search.expanded[g.def.kind];
+      g.hits.slice(0, all ? g.hits.length : GROUP_SHOWN).forEach(function (hit) {
+        sec.appendChild(resultItem(hit, ws));
+      });
+      if (!all && g.hits.length > GROUP_SHOWN) {
+        var more = mk('button', 'sr-more', 'Show all ' + g.hits.length);
+        more.type = 'button';
+        more.addEventListener('click', function () {
+          search.expanded[g.def.kind] = true;
+          renderSearch();
+          // keep the keyboard where it was: on the first item the button revealed
+          var shown = box.querySelectorAll('.sr-group')[gi].querySelectorAll('.sr-item');
+          if (shown[GROUP_SHOWN]) shown[GROUP_SHOWN].focus();
+        });
+        sec.appendChild(more);
+      }
+      box.appendChild(sec);
+    });
+  }
+
+  function isPhone() { return !!(global.matchMedia && global.matchMedia('(max-width: 640px)').matches); }
+
+  function openSearch() {
+    search.open = true;
+    if (isPhone()) document.documentElement.classList.add('search-sheet');
+    renderSearch();
+  }
+
+  function closeSearch() {
+    search.open = false;
+    // on a phone the box is gone with the sheet, and so should the keyboard be
+    if (document.documentElement.classList.contains('search-sheet')) dom.search.blur();
+    document.documentElement.classList.remove('search-sheet');
+    renderSearch();
+  }
+
+  /* Every result goes through the same moves a click inside the lenses makes,
+     so a jump across lenses leaves the same "← back" pill behind. */
+  function chooseResult(e) {
+    closeSearch();
+    if (e.kind === 'node') ctx.activate(e.id);
+    else if (e.kind === 'factor') {
+      if (state.lens !== 'risk') {
+        state.cameFrom = snapshot();
+        state.lens = 'risk';
+        normaliseView();
+      }
+      state.selectedFactorId = e.id;
+      render();
+    } else if (e.kind === 'target') {
+      if (state.lens === 'targets') state.view = 'targets';
+      ctx.selectTarget(e.id);
+    } else if (e.kind === 'drug') ctx.selectDrug(e.id);
+    else if (e.kind === 'term') {
+      if (state.lens !== 'start') state.cameFrom = snapshot();
+      state.lens = 'start';
+      state.view = 'glossary';
+      render();
+      var card = dom.tableview.querySelector('.gl-term[data-term="' + global.CSS.escape(e.id) + '"]');
+      if (card) {
+        card.classList.add('is-found');
+        card.scrollIntoView({ block: 'center' });
+      }
+      return;
+    }
+    /* Where the drawer sits under the canvas, the thing you picked is a screen
+       below where you picked it. */
+    if (!dom.drawer.hidden && drawerBelow()) dom.drawer.scrollIntoView({ block: 'start' });
+  }
+
+  // css/explorer.css stacks the drawer under the lens at this width
+  function drawerBelow() {
+    return !!(global.matchMedia && global.matchMedia('(max-width: 1000px)').matches);
+  }
+
+  // Arrow keys walk the results; Escape goes back to the box.
+  function searchKeys(ev) {
+    var items = Array.prototype.slice.call(dom.searchResults.querySelectorAll('.sr-item, .sr-more'));
+    var at = items.indexOf(document.activeElement);
+    if (ev.key === 'Escape') {
+      ev.preventDefault();
+      closeSearch();
+      dom.search.focus();
+    } else if (ev.key === 'ArrowDown' && items.length) {
+      ev.preventDefault();
+      items[Math.min(at + 1, items.length - 1)].focus();
+    } else if (ev.key === 'ArrowUp' && at !== -1) {
+      ev.preventDefault();
+      if (at === 0) dom.search.focus(); else items[at - 1].focus();
+    } else if (ev.key === 'Enter' && ev.target === dom.search && items.length && !dom.searchResults.hidden) {
+      ev.preventDefault();
+      items[0].click();
+    }
   }
 
   /* ---------------- context handed to the renderer ---------------- */
@@ -316,6 +665,7 @@
     get focusId() { return state.focusId; },
     get selectedId() { return state.selectedId; },
     get selectedFactorId() { return state.selectedFactorId; },
+    get selectedGene() { return state.selectedGene; },
     get lens() { return state.lens; },
     get view() { return state.view; },
     get showRelated() { return state.showRelated; },
@@ -415,18 +765,39 @@
     },
     curatedTargets: function () { return (ds() || {}).targets || []; },
     hasTarget: function (g) { return !!targetByGene(g); },
-    selectTarget: function (gene) {
+    /* `from` names the place in the lens the target was opened from (a dot,
+       a gene button, a table), for the way back. */
+    selectTarget: function (gene, from) {
       if (!targetByGene(gene)) return;
       // Reached from a driver bar in the subtype drawer as well as from within
       // the lens, so it may have to cross the lens boundary — and if it does,
       // remember where it came from.
-      if (state.lens !== 'targets') {
+      var within = state.lens === 'targets';
+      if (!within) {
         state.cameFrom = snapshot();
         state.lens = 'targets';
         state.view = 'targets';
       }
       state.selectedGene = gene;
+      var y = global.scrollY;
+      state.targetReturn = within && from && drawerBelow()
+        ? { ds: state.dsId, gene: gene, y: y, label: from } : null;
       render();
+      /* On a phone the card opened under the gap tables, about five screens
+         below the dot that was tapped, and the page did not move. */
+      if (drawerBelow() && !dom.drawer.hidden) dom.drawer.scrollIntoView({ block: 'start' });
+      /* Beside the chart the card needs no scroll, but rebuilding the lens
+         reads the chart's width while it is half-built, the page is briefly
+         too short for where the reader is, and the browser clamped the
+         scroll: a click on a dot sent a desktop reader to the top. */
+      else if (within && global.scrollY !== y) global.scrollTo(0, y);
+    },
+    get targetReturn() {
+      var r = state.targetReturn;
+      return r && r.ds === state.dsId && r.gene === state.selectedGene ? r : null;
+    },
+    returnFromTarget: function () {
+      if (state.targetReturn) global.scrollTo(0, state.targetReturn.y);
     },
     get cameFrom() { return state.cameFrom; },
     goBack: goBack,
@@ -492,6 +863,9 @@
     dom.drawer.hidden = false;
     if (dom.main) dom.main.classList.remove('no-drawer');
     renderLadder();
+    syncCancerTabs();
+    // the shape a tip described is about to be replaced, with no leave event
+    Render.tooltip(null);
 
     if (state.lens === 'start') return renderStart(d);
     if (state.lens === 'risk') return renderRisk(d);
@@ -880,6 +1254,11 @@
       chkRelated: document.getElementById('chk-related'),
       relatedCtl: document.getElementById('ctl-related'),
       search: document.getElementById('search'),
+      searchCtl: document.getElementById('ctl-search'),
+      searchResults: document.getElementById('search-results'),
+      searchOpen: document.getElementById('search-open'),
+      searchClose: document.getElementById('search-close'),
+      cancerTabs: document.getElementById('cancer-tabs'),
       themeToggle: document.getElementById('theme-toggle'),
       axisNote: document.getElementById('axis-note'),
       ladder: document.getElementById('ladder'),
@@ -943,18 +1322,20 @@
     });
     dom.selDataset.value = state.dsId;
     dom.selDataset.disabled = datasets.length < 2;
-    dom.selDataset.addEventListener('change', function () {
-      state.dsId = dom.selDataset.value;
-      reindex(ds());
-      state.axisId = (ds().axes.find(function (a) { return a.default; }) || ds().axes[0]).id;
-      state.focusId = null;
-      state.selectedId = null;
-      state.selectedFactorId = null;
-      if (dom.lensToggle) dom.lensToggle.hidden = !hasFactors() && !(ds() || {}).detection;
-      fillAxes();
-      applyMeta();
-      render();
-    });
+    dom.selDataset.addEventListener('change', function () { switchDataset(dom.selDataset.value); });
+
+    // the same picker as tabs, for the phone's top strip
+    if (dom.cancerTabs) {
+      datasets.forEach(function (d) {
+        var b = document.createElement('button');
+        b.type = 'button';
+        b.dataset.ds = d.id;
+        b.textContent = d.name.replace(/\s+cancer$/i, '');
+        b.title = d.name;
+        b.addEventListener('click', function () { switchDataset(d.id); });
+        dom.cancerTabs.appendChild(b);
+      });
+    }
 
     dom.chkRelated.checked = state.showRelated;
     dom.chkRelated.addEventListener('change', function () {
@@ -988,10 +1369,29 @@
     dom.search.addEventListener('input', function () {
       clearTimeout(searchTimer);
       searchTimer = setTimeout(function () {
-        state.query = dom.search.value.trim().toLowerCase();
+        state.query = dom.search.value.trim();
+        search.expanded = {};
+        search.open = true;
         render();
+        renderSearch();
       }, 140);
     });
+    dom.search.addEventListener('focus', function () { if (!search.open) openSearch(); });
+    dom.search.addEventListener('click', function () { if (!search.open) openSearch(); });
+    dom.search.addEventListener('keydown', searchKeys);
+    dom.searchResults.addEventListener('keydown', searchKeys);
+    // a click anywhere outside the box and its list closes the list
+    document.addEventListener('pointerdown', function (ev) {
+      if (search.open && !dom.searchCtl.contains(ev.target) &&
+          !(dom.searchOpen && dom.searchOpen.contains(ev.target))) closeSearch();
+    });
+    if (dom.searchOpen) {
+      dom.searchOpen.addEventListener('click', function () {
+        openSearch();
+        dom.search.focus();
+      });
+    }
+    if (dom.searchClose) dom.searchClose.addEventListener('click', closeSearch);
 
     dom.themeToggle.addEventListener('click', function () {
       var cur = document.documentElement.getAttribute('data-theme');
@@ -1005,6 +1405,9 @@
       if (suppressHash) return;
       if (applyHash()) { fillAxes(); render(); }
     });
+
+    // a fixed tip stays put while the page moves under it
+    global.addEventListener('scroll', function () { Render.tooltip(null); }, { passive: true });
 
     var resizeTimer = null;
     global.addEventListener('resize', function () {
@@ -1022,6 +1425,40 @@
     fillAxes();
     applyMeta();
     render();
+  }
+
+  /* The one way the cancer changes, from the picker or a tab. Selections are
+     ids into the old cancer's records, so they go (a drug id like drug-0 would
+     silently name another cancer's drug), and so does the way back, which would
+     land on a subtype this cancer does not have. The gene stays: a symbol names
+     the same protein in every cancer. */
+  function switchDataset(id) {
+    if (!byDsId[id] || id === state.dsId) return;
+    state.dsId = id;
+    reindex(ds());
+    state.axisId = (ds().axes.find(function (a) { return a.default; }) || ds().axes[0]).id;
+    state.focusId = null;
+    state.selectedId = null;
+    state.selectedFactorId = null;
+    state.selectedDrugId = null;
+    state.cameFrom = null;
+    dom.selDataset.value = id;
+    if (dom.lensToggle) {
+      dom.lensToggle.hidden = LENS_ORDER.filter(lensAvailable).length < 2;
+      syncLensAvailability();
+    }
+    fillAxes();
+    applyMeta();
+    render();
+    renderSearch();
+  }
+
+  function syncCancerTabs() {
+    var bar = dom.cancerTabs;
+    if (!bar) return;
+    Array.prototype.forEach.call(bar.querySelectorAll('button'), function (b) {
+      b.setAttribute('aria-pressed', String(b.dataset.ds === state.dsId));
+    });
   }
 
   function fillAxes() {

@@ -216,6 +216,91 @@ html, body {
   cursor: pointer;
 }
 
+/* ---------- search: results across every lens ---------- */
+
+/* The list hangs under the box on a wide screen and fills the screen on a
+   phone (see the 640px block). Above 640px the phone's top strip and the
+   sheet's Done button do not exist. */
+.mtop, .search-close { display: none; }
+
+.ctl-search { position: relative; }
+.search-row { display: flex; gap: 6px; }
+.search-row input { flex: 1 1 auto; }
+
+.search-results {
+  position: absolute;
+  top: calc(100% + 6px);
+  left: 0;
+  z-index: 45;
+  width: min(440px, calc(100vw - 28px));
+  max-height: min(70vh, 560px);
+  overflow-y: auto;
+  background: var(--surface-1);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  box-shadow: 0 8px 28px var(--shadow);
+  padding: 4px 0 8px;
+  font-size: 13px;
+  text-transform: none;
+  letter-spacing: 0;
+  color: var(--text-primary);
+}
+
+/* The box moves as the top bar wraps: hang the list from whichever edge keeps it
+   on screen (set in renderSearch). */
+.search-results.from-right { left: auto; right: 0; }
+
+.sr-count, .sr-note { margin: 0; padding: 8px 14px 4px; font-size: 12px; color: var(--text-secondary); }
+.sr-note { padding-bottom: 8px; }
+.sr-group { padding-top: 6px; }
+.sr-head {
+  padding: 4px 14px 2px;
+  font-size: 10.5px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--text-muted);
+}
+.sr-head .n { color: var(--text-secondary); font-variant-numeric: tabular-nums; }
+
+.sr-item {
+  display: block;
+  width: 100%;
+  text-align: left;
+  font: inherit;
+  font-size: 13px;
+  color: var(--text-primary);
+  text-decoration: none;
+  background: none;
+  border: 0;
+  padding: 6px 14px;
+  cursor: pointer;
+}
+.sr-item:hover, .sr-item:focus-visible {
+  background: color-mix(in srgb, var(--series-1) 10%, transparent);
+  outline: none;
+}
+.sr-label { display: block; font-weight: 600; }
+.sr-paper .sr-label { font-weight: 500; }   /* full titles: lighter, or the list is a wall of bold */
+.sr-label mark { background: color-mix(in srgb, var(--series-4) 35%, transparent); color: inherit; border-radius: 2px; }
+.sr-sub, .sr-why { display: block; font-size: 11.5px; color: var(--text-muted); }
+.sr-why { font-style: italic; }
+
+.sr-more {
+  font: inherit;
+  font-size: 12px;
+  margin: 2px 14px 0;
+  padding: 3px 9px;
+  color: var(--text-primary);
+  background: var(--surface-1);
+  border: 1px solid var(--baseline);
+  border-radius: 6px;
+  cursor: pointer;
+}
+.sr-more:hover, .sr-more:focus-visible { border-color: var(--series-1); }
+
+/* the card a search result landed on, until the next render */
+.gl-term.is-found { outline: 2px solid var(--series-1); outline-offset: 3px; border-radius: 6px; }
+
 /* ---------- axis note + breadcrumb ---------- */
 
 .axis-note {
@@ -1830,6 +1915,40 @@ html, body {
 .tg-pt:focus-visible { outline: 2px solid var(--series-1); outline-offset: 2px; }
 
 .targetsview tbody tr.clickable { cursor: pointer; }
+
+/* A button per target under the landscape, and the way back from a card. Only
+   where the drawer sits under the lens (drawerBelow() in explorer.js): there a
+   card opens screens below the dot, and a fingertip covers three dots at once.
+   Filled like .segmented, because a quieter chip reads as part of the prose. */
+.tg-open, .tg-return { display: none; }
+.detectionview .tg-open-h { font-size: 12.5px; color: var(--text-secondary); margin: 10px 0 6px; }
+.tg-open-row { display: flex; flex-wrap: wrap; gap: 6px; }
+.tg-open-row button,
+.tg-return {
+  font: inherit;
+  font-size: 13px;
+  padding: 7px 12px;
+  background: color-mix(in srgb, var(--series-1) 10%, var(--surface-1));
+  color: var(--text-primary);
+  border: 1px solid var(--baseline);
+  border-radius: 6px;
+  cursor: pointer;
+}
+.tg-open-row button[aria-pressed="true"] {
+  background: var(--series-1);
+  border-color: var(--series-1);
+  color: #fff;
+  font-weight: 600;
+}
+.tg-open-row button:active,
+.tg-return:active { background: color-mix(in srgb, var(--series-1) 24%, var(--surface-1)); }
+.tg-open-row button:focus-visible,
+.tg-return:focus-visible { outline: 2px solid var(--series-1); outline-offset: 2px; }
+@media (max-width: 1000px) {
+  .tg-open { display: block; margin: 2px 0 16px; }
+  .tg-return { display: inline-block; margin: 0 0 12px; text-align: left; }
+  .drawer .tg-return:last-child { margin: 16px 0 0; }
+}
 .tableview td.why { color: var(--text-muted); font-size: 11.5px; min-width: 22ch; }
 
 /* --- protein track --- */
@@ -2039,21 +2158,136 @@ html, body {
 }
 
 @media (max-width: 640px) {
-  .topbar { padding: 12px 14px; gap: 12px; }
+  /* Phone navigation. A full-width row per control took about 600px of an
+     850px screen before any content. Now each choice sits where its reach
+     matches its use: the cancer in a strip held at the top, the lens in a bar
+     fixed to the bottom under the thumb, and what changes only the current
+     lens (view, relationships, Sorted by) with the content. Nothing is folded
+     behind a menu: a control that is not on show goes unfound (INV-16). */
+  .mtop {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    position: sticky;
+    top: 0;
+    z-index: 40;
+    padding: 8px 14px;
+    background: var(--surface-1);
+    border-bottom: 1px solid var(--border);
+  }
+  /* Five names at 13px fit one row of a 393px phone at this padding, even in
+     the wide fallback font; on a narrower phone they wrap to a second row
+     rather than cut "Melanoma" short. The fill marks the pressed tab, so it
+     is not bold as well: bold is what pushed the row over. */
+  .mtop { gap: 6px; }
+  #cancer-tabs { flex: 1 1 auto; }
+  #cancer-tabs button { padding: 6px 4px; }
+  #search-open { flex: 0 0 auto; display: inline-flex; padding: 6px 8px; }
+  #cancer-tabs button[aria-pressed="true"],
+  #lens-toggle button[aria-pressed="true"] { font-weight: 400; }
+
+  .topbar { position: relative; padding: 12px 14px; gap: 10px; }
   .main { padding: 0 14px 14px; gap: 12px; }
   .axis-note, .breadcrumb { padding-left: 14px; padding-right: 14px; }
 
-  .brand { flex: 1 1 100%; }
+  .brand { flex: 1 1 100%; padding-right: 44px; }   /* room for the theme button */
   .brand h1 { font-size: 16px; }
+  #theme-toggle { position: absolute; top: 10px; right: 14px; }
 
-  /* Every control gets its own full-width row rather than fighting for space. */
-  .controls { gap: 8px 10px; width: 100%; }
+  .controls { gap: 8px 12px; width: 100%; align-items: center; }
   .ctl { flex: 1 1 100%; }
   .ctl select, .ctl input[type="search"] { min-width: 0; width: 100%; }
-  .segmented { width: 100%; }
-  .segmented button { flex: 1 1 0; min-width: 0; }
+
+  /* The tabs replace the cancer picker. Classify by is the same choice as the
+     Sorted-by switcher at the head of the Subtypes lens, which shows every
+     option at once. */
+  #ctl-dataset, #ctl-axis { display: none; }
+
+  /* View and Relationships share a row; the view buttons name themselves. */
+  #ctl-view { flex: 1 1 auto; }
+  #ctl-view > span { display: none; }
   .ctl-check { flex: 0 0 auto; padding-bottom: 0; }
-  .icon-btn { align-self: center; }
+
+  /* A segmented control wraps, never squeezes or scrolls. Squeezed, it cut
+     "Subtypes" to "Subtyp" and "Histology" to "Histolog"; scrolled, it would
+     hide which options exist, which is what Sorted by is there to show. The
+     1px gap over the border colour draws the dividers between rows too. */
+  .segmented { display: flex; flex-wrap: wrap; gap: 1px; background: var(--baseline); width: 100%; }
+  .segmented button { flex: 1 0 auto; border-right: 0; white-space: nowrap; }
+
+  /* The lens bar, fixed to the bottom, in ladder order. */
+  #ctl-lens {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 40;
+    background: var(--surface-1);
+    border-top: 1px solid var(--baseline);
+    padding-bottom: env(safe-area-inset-bottom);
+  }
+  #ctl-lens > span { display: none; }
+  #lens-toggle { flex-wrap: nowrap; border: 0; border-radius: 0; }
+  #lens-toggle button {
+    flex: 1 1 0;
+    min-width: 0;
+    min-height: 50px;
+    padding: 4px 1px;
+    font-size: clamp(10px, 2.95vw, 11.5px);   /* "Literature" fits a 320px phone's sixth */
+    line-height: 1.2;
+    white-space: normal;
+  }
+  .app { padding-bottom: calc(51px + env(safe-area-inset-bottom)); }
+
+  /* The bar is the lens switch now; the ladder keeps only its way back. */
+  .ladder { padding-top: 0; }
+  .ladder .rung, .ladder-note { display: none; }
+  .ladder .back { margin-top: 8px; }
+
+  /* Search is a full-screen sheet, opened from the top strip, so the results
+     sit above the keyboard instead of a screen below the box. */
+  .ctl-search { display: none; }
+  .search-sheet .ctl-search {
+    display: flex;
+    position: fixed;
+    inset: 0;
+    z-index: 70;
+    padding: 10px 14px 0;
+    gap: 6px;
+    background: var(--surface-1);
+  }
+  .search-sheet .ctl-search > label { display: none; }
+  /* under 16px, iOS Safari zooms the page when the box takes focus */
+  .search-sheet .ctl-search input[type="search"] { font-size: 16px; }
+  .search-sheet .search-close {
+    display: inline-block;
+    flex: 0 0 auto;
+    font: inherit;
+    font-size: 14px;
+    text-transform: none;
+    letter-spacing: 0;
+    padding: 5px 12px;
+    color: var(--text-primary);
+    background: var(--surface-1);
+    border: 1px solid var(--baseline);
+    border-radius: 6px;
+  }
+  .search-sheet .search-results {
+    position: static;
+    flex: 1 1 auto;
+    width: auto;
+    max-height: none;
+    margin: 0 -14px;
+    border: 0;
+    border-radius: 0;
+    box-shadow: none;
+    padding-bottom: 24px;
+  }
+  .search-sheet .sr-item { padding: 9px 14px; }
+  .search-sheet, .search-sheet body { overflow: hidden; }
+
+  /* clear the sticky strip when a search result scrolls something into view */
+  .drawer, .gl-term { scroll-margin-top: 60px; }
 
   #viz { height: 400px; }
   .canvas { min-height: 360px; padding: 8px; }

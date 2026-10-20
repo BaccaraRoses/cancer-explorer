@@ -260,6 +260,16 @@
     tipEl.style.top = Math.max(8, y) + 'px';
   }
 
+  /* Hover detail for a mouse or a pen only. A tap already opens the drawer,
+     and a touch sends no reliable leave event: on a phone the tip outlived its
+     tile and sat over the next axis. */
+  function hoverTip(g, make) {
+    function show(e) { if (e.pointerType !== 'touch') tooltip(make(), e); }
+    g.addEventListener('pointerenter', show);
+    g.addEventListener('pointermove', show);
+    g.addEventListener('pointerleave', function () { tooltip(null); });
+  }
+
   /* "cases" — unless the axis partitions only part of the disease, in which
      case every share names the part. Lung's driver classes are shares of
      adenocarcinoma; "25% of cases" beside KRAS would say all lung cancer. One
@@ -556,8 +566,7 @@
     g.addEventListener('keydown', function (e) {
       if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); ctx.activate(node.id); }
     });
-    g.addEventListener('mousemove', function (e) { tooltip(nodeTip(node, ctx), e); });
-    g.addEventListener('mouseleave', function () { tooltip(null); });
+    hoverTip(g, function () { return nodeTip(node, ctx); });
     g.addEventListener('focus', function () { ctx.select(node.id); });
   }
 
@@ -1132,6 +1141,7 @@
 
       g.terms.forEach(function (e) {
         var card = h('div', 'gl-term');
+        card.dataset.term = e.t;     // what a search result scrolls to
         var top = h('div', 'top');
         top.appendChild(h('span', 'tm', e.full || e.t));
         if (e.full && e.full.toLowerCase() !== e.t.toLowerCase()) {
@@ -1589,9 +1599,7 @@
       // the whole label on hover, in case a line was cut
       if (lines.join('  ·  ') !== txt || lines.length > 1) el('title', {}, vl).textContent = txt;
 
-      g.addEventListener('mouseenter', function (e) { tooltip(factorTip(rec, ctx), e); });
-      g.addEventListener('mousemove', function (e) { tooltip(factorTip(rec, ctx), e); });
-      g.addEventListener('mouseleave', function () { tooltip(null); });
+      hoverTip(g, function () { return factorTip(rec, ctx); });
       g.addEventListener('click', function () { ctx.selectFactor(f.id); });
       g.addEventListener('keydown', function (e) {
         if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); ctx.selectFactor(f.id); }
@@ -1630,9 +1638,7 @@
         mg.textContent = truncate(full, fit);
         if (full.length > fit) el('title', {}, mg).textContent = full;
 
-        g.addEventListener('mouseenter', function (e) { tooltip(factorTip(rec, ctx), e); });
-        g.addEventListener('mousemove', function (e) { tooltip(factorTip(rec, ctx), e); });
-        g.addEventListener('mouseleave', function () { tooltip(null); });
+        hoverTip(g, function () { return factorTip(rec, ctx); });
         g.addEventListener('click', function () { ctx.selectFactor(f.id); });
         g.addEventListener('keydown', function (e) {
           if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); ctx.selectFactor(f.id); }
@@ -3099,6 +3105,18 @@
     var drugIndex = {};
     (tg.drugs || []).forEach(function (d) { drugIndex[d.id] = d; });
 
+    /* Opened from the chart or a table on a screen where this card sits under
+       the whole lens, it is screens away from where it was opened: the way
+       back is a button at both ends of the card, not a long scroll. */
+    var ret = ctx.targetReturn;
+    function backButton() {
+      var b = h('button', 'tg-return', '↑ Back to ' + ret.label);
+      b.type = 'button';
+      b.addEventListener('click', ctx.returnFromTarget);
+      return b;
+    }
+    if (ret) container.appendChild(backButton());
+
     container.appendChild(h('h2', null, target.gene));
 
     /* Gene symbol stays the headline; the formal protein name and the common
@@ -3438,6 +3456,7 @@
         container.appendChild(b);
       }
     }
+    if (ret) container.appendChild(backButton());
   }
 
   /* ---------------- targets lens: the landscape and the gaps ---------------- */
@@ -3505,6 +3524,7 @@
           'who is ruled out.'));
       }
     }
+    targetButtons(container, ctx, plot, unplot);
 
     /* Described from the data rather than as four idealised quadrants, because
        on this cohort the top-left is EMPTY and a key that invents an example for
@@ -3660,6 +3680,34 @@
     container.appendChild(ul);
   }
 
+  /* On a phone the dots are too close to tap one reliably (three share a few
+     pixels at the left of breast's bottom row), and a target the chart cannot
+     place has no dot at all. So where the drawer sits under the lens, every
+     target also gets a button here; css hides the row where the drawer sits
+     beside the lens, because a pointer can hit a dot and the card opens next
+     to it. Names only: a number here would need its own footnote. */
+  function targetButtons(container, ctx, plot, unplot) {
+    var box = h('div', 'tg-open');
+    function row(lead, rows) {
+      rows = rows.filter(function (r) { return ctx.hasTarget(r.gene); });
+      if (!rows.length) return;
+      box.appendChild(h('p', 'tg-open-h', lead));
+      var line = h('div', 'tg-open-row');
+      rows.forEach(function (r) {
+        var b = h('button', null, r.gene);
+        b.type = 'button';
+        b.setAttribute('aria-pressed', String(ctx.selectedGene === r.gene));
+        b.addEventListener('click', function () { ctx.selectTarget(r.gene, 'the chart'); });
+        line.appendChild(b);
+      });
+      box.appendChild(line);
+    }
+    row('Open a target’s card. On the chart, most altered first:',
+      plot.slice().sort(function (a, b) { return b.max_pct - a.max_pct; }));
+    row('Not on the chart (the note under the key says why):', unplot);
+    if (box.childNodes.length) container.appendChild(box);
+  }
+
   function gapSection(container, ctx, title, lede, rows, cells) {
     if (!rows || !rows.length) return;
     container.appendChild(h('h3', null, title + ' (' + rows.length + ')'));
@@ -3675,7 +3723,7 @@
       tr.appendChild(h('td', 'nw', vals[2] || '—'));
       tr.appendChild(h('td', 'why', vals[3] || ''));
       if (r.gene && ctx.hasTarget(r.gene)) {
-        tr.addEventListener('click', function () { ctx.selectTarget(r.gene); });
+        tr.addEventListener('click', function () { ctx.selectTarget(r.gene, 'the table “' + title + '”'); });
         tr.className = 'clickable';
       }
       tb.appendChild(tr);
@@ -3742,17 +3790,43 @@
     el('line', { x1: bandX, y1: bandY, x2: bandX, y2: padT + ph, class: 'tg-quadedge' }, svg);
 
     /* Anchored at the band's own left edge, in the empty strip above the y=1
-       row, so it cannot be mistaken for a caption on the axis. */
+       row, so it cannot be mistaken for a caption on the axis. On a phone the
+       band is narrower than the sentence, and the svg edge printed "at most
+       one prog": the label falls back to shorter words for the same band. */
     var ql = el('text', { x: bandX + 7, y: bandY + 13, 'text-anchor': 'start',
                           class: 'tg-quadlab' }, svg);
-    ql.textContent = 'altered above ' + Math.round(maxPct * 0.35) +
-      '% · at most one program';
+    var edge = Math.round(maxPct * 0.35) + '%';
+    var room = (W - padR) - (bandX + 7) - 4;
+    ['altered above ' + edge + ' · at most one program', 'above ' + edge + ' · ≤1 program',
+     'above ' + edge].some(function (txt) {
+      ql.textContent = txt;
+      var tw = 0;
+      try { tw = ql.getComputedTextLength(); } catch (e) { tw = 0; }
+      return !tw || tw <= room;
+    });
 
     /* Genes with no programs all sit on y=0, so their labels would overprint.
        Placed points are remembered and a colliding label is pushed to the row
        above instead of being dropped — the gene name is the whole point here. */
     var placed = [];
     var PASSES = 14, STEP = 13;
+
+    /* Leaders are remembered too. On a phone the bottom row is a few pixels
+       wide, labels climb steeply, and a leader ran straight through another
+       gene's name: "E|F1AX", "ERB|B3". So a label takes a place no leader
+       crosses when one is at most two steps above where it would otherwise
+       go. As a hard rule it ran the crowded clusters out of room, and the
+       fallback stacked them at the top with long leaders, which read worse
+       than a crossing. A label box is the 12px band the clash test uses, 10px
+       above its baseline to 2px below. */
+    var labels = [], leaders = [];
+    function crosses(seg, box) {
+      for (var k = 0; k <= 24; k++) {
+        var x = seg.x1 + (seg.x2 - seg.x1) * k / 24, y = seg.y1 + (seg.y2 - seg.y1) * k / 24;
+        if (x > box.x0 && x < box.x1 && y > box.y - 10 && y < box.y + 2) return true;
+      }
+      return false;
+    }
 
     /* Seed the map with every MARKER, not just the labels placed so far. Labels
        used to dodge each other and then land squarely on a neighbouring dot —
@@ -3763,8 +3837,17 @@
       placed.push({ x0: mx - 7, x1: mx + 7, y: my });
     });
     function place(cx, cy, w) {
+      var loose = find(cx, cy, w, false, PASSES);
+      var c = (loose && find(cx, cy, w, true, loose.pass + 3)) || loose;
+      if (!c) return placeAbove(cx, cy, w);
+      placed.push(c.box);
+      labels.push(c.box);
+      if (c.lead) leaders.push(c.lead);
+      return { x: c.side > 0 ? cx + 9 : cx - 9, y: c.box.y, side: c.side };
+    }
+    function find(cx, cy, w, strict, passes) {
       // try right of the point, then left, stepping upward on each failure
-      for (var pass = 0; pass < PASSES; pass++) {
+      for (var pass = 0; pass < passes; pass++) {
         for (var s = 0; s < 2; s++) {
           var side = s === 0 ? 1 : -1;
           var y = cy + 4 - pass * STEP;
@@ -3776,12 +3859,16 @@
           var clash = placed.some(function (p) {
             return Math.abs(p.y - y) < 12 && x0 < p.x1 && (x0 + w) > p.x0;
           });
-          if (!clash) {
-            placed.push({ x0: x0, x1: x0 + w, y: y });
-            return { x: side > 0 ? cx + 9 : cx - 9, y: y, side: side };
-          }
+          var box = { x0: x0, x1: x0 + w, y: y };
+          var lead = pass ? { x1: cx, y1: cy - 5, x2: side > 0 ? cx + 9 : cx - 9, y2: y - 3 } : null;
+          if (strict && !clash && lead) clash = labels.some(function (b) { return crosses(lead, b); });
+          if (strict && !clash) clash = leaders.some(function (l) { return crosses(l, box); });
+          if (!clash) return { box: box, lead: lead, side: side, pass: pass };
         }
       }
+      return null;
+    }
+    function placeAbove(cx, cy, w) {
       /* Exhausted. Stack it above everything already placed rather than dropping
          it on the point — the previous fallback overprinted, which is how RB1
          and PTEN ended up on top of each other. A wrong-looking leader line is
@@ -3791,6 +3878,8 @@
       var fside = cx + 9 + w > W - 2 ? -1 : 1;
       var fx0 = fside > 0 ? cx + 9 : cx - 9 - w;
       placed.push({ x0: fx0, x1: fx0 + w, y: fy });
+      labels.push({ x0: fx0, x1: fx0 + w, y: fy });
+      leaders.push({ x1: cx, y1: cy - 5, x2: fside > 0 ? cx + 9 : cx - 9, y2: fy - 3 });
       return { x: fside > 0 ? cx + 9 : cx - 9, y: fy, side: fside };
     }
 
@@ -3825,9 +3914,9 @@
         '), peak ' + r.max_pct + '% ' + String(r.max_metric || '').replace(/_/g, ' ') +
         ' in ' + nodeName(ctx, r.max_node) + (rx.length ? '; ' + exclusionSpan(rx) : '');
       if (ctx.hasTarget(r.gene)) {
-        node.addEventListener('click', function () { ctx.selectTarget(r.gene); });
+        node.addEventListener('click', function () { ctx.selectTarget(r.gene, 'the chart'); });
         node.addEventListener('keydown', function (e) {
-          if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); ctx.selectTarget(r.gene); }
+          if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); ctx.selectTarget(r.gene, 'the chart'); }
         });
       }
     });
