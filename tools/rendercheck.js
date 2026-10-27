@@ -431,8 +431,75 @@
     return out;
   }
 
+  /* ---- a definition opened from a chip or a dotted term ---- */
+
+  // one card per basis this cancer uses, in button order, so every kind of basis chip gets a tap
+  function chipPlan() {
+    var id = $('#sel-dataset').value;
+    var d = (CancerExplorer._datasets || []).filter(function (x) { return x.id === id; })[0] || {};
+    var genes = (d.targetData || {}).genes || {}, seen = {}, out = [];
+    all('.tg-open-row button').filter(shown).forEach(function (b) {
+      var g = words(b.textContent), k = genes[g] && genes[g].basis;
+      if (k && !seen[k]) { seen[k] = true; out.push(g); }
+    });
+    return out;
+  }
+
+  function chipEls() { return all('#drawer .chips > *').filter(shown); }
+
+  function chips() {
+    return chipEls().map(function (c, i) {
+      var k = c.querySelector('.k');
+      return { i: i, button: c.tagName === 'BUTTON', key: k ? words(k.textContent) : '',
+               value: k && k.nextElementSibling ? words(k.nextElementSibling.textContent) : words(c.textContent) };
+    });
+  }
+
+  // brought to the lower part of the band, so a definition too tall to fit under it has to open upward
+  async function lowAim(el) {
+    if (!el) return null;
+    var b = band();
+    scrollTo(0, scrollY + el.getBoundingClientRect().top - (b.top + (b.bottom - b.top) * 0.7));
+    await frames();
+    var r = el.getBoundingClientRect();
+    return { x: r.left + r.width / 2, y: r.top + r.height / 2, text: words(el.textContent) };
+  }
+
+  function aimChip(i) { return lowAim(chipEls()[i]); }
+  function aimTerm() { return lowAim(all('.main .term').filter(shown)[0]); }
+  function aimDefClose() { var x = $('.defpop .x'); return x ? centre('.defpop .x') : null; }
+
+  function defState() {
+    var p = $('.defpop');
+    var out = { open: !!p, pressed: all('.chip-def[aria-expanded="true"]').map(function (c) { return words(c.textContent); }) };
+    if (!p) return out;
+    var r = p.getBoundingClientRect(), bar = $('#ctl-lens');
+    var bg = getComputedStyle(p).backgroundColor, m = bg.match(/rgba?\(([^)]+)\)/);
+    var parts = m ? m[1].split(',') : [];
+    // what a reader sees at five points inside it: the definition, or the page drawn over it
+    var covered = [[0.5, 0.5], [0.1, 0.1], [0.9, 0.1], [0.1, 0.9], [0.9, 0.9]].filter(function (f) {
+      var x = r.left + r.width * f[0], y = r.top + r.height * f[1];
+      if (x < 0 || y < 0 || x >= innerWidth || y >= innerHeight) return false;   // the box rule judges that
+      var e = document.elementFromPoint(x, y);
+      return !(e && p.contains(e));
+    }).length;
+    out.head = words((p.querySelector('.dp-head .tm') || p).textContent);
+    out.box = { left: r.left, right: r.right, top: r.top, bottom: r.bottom };
+    out.vw = innerWidth;
+    out.floor = rect(bar) && getComputedStyle(bar).position === 'fixed' ? rect(bar).top : innerHeight;
+    out.bg = bg;
+    out.alpha = parts.length === 4 ? parseFloat(parts[3]) : parts.length === 3 ? 1 : 0;
+    out.covered = covered;
+    out.links = all('a', p).map(function (a) { return { href: a.href, blank: a.target === '_blank' }; });
+    return out;
+  }
+
+  function openCard() { var h2 = $('#drawer h2'); return h2 ? words(h2.textContent) : null; }
+
   window.__rc = { plan: plan, show: show, where: where, layout: layout, phoneFrame: phoneFrame,
                   probes: probes, search: search, pick: pick, closeSearch: closeSearch,
                   centre: centre, tip: tip, tipStale: tipStale, targetPlan: targetPlan, aim: aim,
-                  card: card, whereIs: whereIs, svgCut: svgCut };
+                  card: card, whereIs: whereIs, svgCut: svgCut, chipPlan: chipPlan, chips: chips,
+                  aimChip: aimChip, aimTerm: aimTerm, aimDefClose: aimDefClose, defState: defState,
+                  openCard: openCard };
 })();

@@ -864,8 +864,10 @@
     if (dom.main) dom.main.classList.remove('no-drawer');
     renderLadder();
     syncCancerTabs();
-    // the shape a tip described is about to be replaced, with no leave event
+    // the shape a tip described is about to be replaced, with no leave event;
+    // so is the word or chip an open definition is attached to
     Render.tooltip(null);
+    Render.closeDef();
 
     if (state.lens === 'start') return renderStart(d);
     if (state.lens === 'risk') return renderRisk(d);

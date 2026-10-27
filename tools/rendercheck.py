@@ -37,6 +37,15 @@ Loads index.html from file:// in headless Chromium (tools/cdp.py) and fails on:
            again. At 1400px, where the card opens beside the chart, a click
            on a dot opens it without moving the page. The landscape's labels
            must sit inside its edge (on a phone the svg cut the band's label).
+  defs     definitions, on the Targets lens: at 393px, per cancer, one card per
+           basis the cancer uses; at 1400px, the card a dot opens. Each chip on
+           the card is a button (it looks like one) whose definition names it,
+           shows the chip pressed until a second tap closes it, and for the
+           UniProt chip links to the entry; one dotted term per page, closed by
+           its x. Every definition must be opaque, inside the window, above a
+           phone's lens bar and uncovered: attached outside .viz-root (until
+           2026-10-19) every one was see-through and printed over the text it
+           explained.
   errors   any uncaught exception in the page, and any console.error that is
            not the validator's own report (the validator check judges that).
 
@@ -62,7 +71,7 @@ ROOT = Path(__file__).resolve().parents[1]
 PROBE_JS = Path(__file__).resolve().with_name("rendercheck.js")
 WIDTHS = (320, 393, 800, 1400)
 PLACEMENT_WIDTHS = (700, 1000, 1200, 1600, 1800, 1920)
-SECTIONS = ("layout", "search", "tips", "targets")
+SECTIONS = ("layout", "search", "tips", "targets", "defs")
 TARGET_WIDTHS = (393, 800, 1400)
 DRAWER_BELOW = 1000           # css/explorer.css puts the drawer under the lens up to this width
 TAP_SETTLE = 0.1              # the Targets steps wait for the card itself
@@ -89,7 +98,7 @@ class Check:
         self.js = PROBE_JS.read_text(encoding="utf-8")
         self.lenses = lenses
         self.problems: list[tuple[str, str]] = []
-        self.stats = {"cancers": 0, "views": 0, "controls": 0, "searches": 0, "tips": 0, "taps": 0}
+        self.stats = {"cancers": 0, "views": 0, "controls": 0, "searches": 0, "tips": 0, "taps": 0, "defs": 0}
         self._seen = (0, 0)
 
     def flag(self, where: str, msg: str) -> None:
@@ -400,6 +409,105 @@ class Check:
             self.flag(where, f"{c['backs'][0]!r} shows where the card opens beside the chart")
         self.drain(where)
 
+    # --- definitions: a chip on a target's card, a dotted term --------------------
+
+    def defs(self, width: int, cid: str) -> None:
+        where = f"{width}px {cid} definitions"
+        self.load(width, f"#{cid}/targets")
+        if "targets" not in self.rc("plan")["lenses"]:
+            return
+        if width <= DRAWER_BELOW:
+            self.definitions(where, width, self.rc("chipPlan"))
+        else:
+            a = self.rc("aim", "dot", None)
+            if not a:
+                self.flag(where, "no dot to click")
+                return
+            self.b.mouse_move(a["x"], a["y"], settle=0)
+            self.b.click(a["x"], a["y"], settle=TAP_SETTLE)
+            if self.rc("card", a["gene"])["gene"] == a["gene"]:
+                self.definitions(where, width, None)
+        self.drain(where)
+
+    def press(self, width: int, pt: dict) -> None:
+        if width <= DRAWER_BELOW:
+            self.b.tap(pt["x"], pt["y"], settle=TAP_SETTLE)
+        else:
+            self.b.mouse_move(pt["x"], pt["y"], settle=0)
+            self.b.click(pt["x"], pt["y"], settle=TAP_SETTLE)
+        self.stats["defs"] += 1
+
+    def readable(self, where: str, what: str, s: dict) -> None:
+        """The definition is opaque, inside the window, above a phone's lens bar, and nothing covers it."""
+        if not s["open"]:
+            self.flag(where, f"a tap on {what} opens no definition")
+            return
+        bx = s["box"]
+        if bx["left"] < -1 or bx["right"] > s["vw"] + 1 or bx["top"] < -1 or bx["bottom"] > s["floor"] + 1:
+            self.flag(where, f"the definition of {what} runs off-screen or under the lens bar: it spans "
+                             f"{bx['left']:.0f}..{bx['right']:.0f} x {bx['top']:.0f}..{bx['bottom']:.0f}px of a "
+                             f"{s['vw']}px window whose bottom edge is at {s['floor']:.0f}px")
+        if s["alpha"] < 1:
+            self.flag(where, f"the definition of {what} is see-through (background {s['bg']}), so it prints "
+                             "over the text under it")
+        if s["covered"]:
+            self.flag(where, f"the definition of {what} is covered by the page at {s['covered']} of 5 points")
+
+    def definitions(self, where: str, width: int, picks: list[str] | None) -> None:
+        """Every chip on a target's card opens a definition that names it, and shows pressed until a second
+        tap closes it. `picks` are cards opened by their buttons, one per basis the cancer uses: every chip
+        on the first, the basis chip on the rest. None checks the card already open. Then one dotted term,
+        closed by its x."""
+        for n, gene in enumerate(picks if picks is not None else [None]):
+            if gene is not None:
+                a = self.rc("aim", "button", gene)
+                if not a:
+                    continue
+                self.b.tap(a["x"], a["y"], settle=TAP_SETTLE)
+                if self.rc("card", gene)["gene"] != gene:
+                    continue            # targets() reports a button that opens the wrong card
+            name = self.rc("openCard")
+            for ch in self.rc("chips"):
+                if n and ch["key"] != "basis":
+                    continue
+                what = f"{name}'s chip \"{ch['key']} {ch['value']}\""
+                if not ch["button"]:
+                    self.flag(where, f"{what} is not a button: it looks like one and a tap on it does nothing")
+                    continue
+                pt = self.rc("aimChip", ch["i"])
+                self.press(width, pt)
+                s = self.rc("defState")
+                self.readable(where, what, s)
+                if not s["open"]:
+                    continue
+                head = s["head"].lower()
+                if ch["key"].lower() not in head and ch["value"].lower() not in head:
+                    self.flag(where, f"{what} opens the definition of \"{s['head']}\"")
+                if len(s["pressed"]) != 1:
+                    self.flag(where, f"{what} does not show as pressed while its definition is open")
+                if ch["key"] == "UniProt" and not any("uniprot.org" in ln["href"] and ln["href"].rstrip("/")
+                                                      .endswith(ch["value"]) and ln["blank"] for ln in s["links"]):
+                    self.flag(where, f"the definition of {what} has no link to its UniProt entry in a new tab")
+                self.press(width, pt)
+                s2 = self.rc("defState")
+                if s2["open"]:
+                    self.flag(where, f"a second tap on {what} leaves its definition open")
+                if s2["pressed"]:
+                    self.flag(where, f"{what} stays pressed after its definition closes")
+        t = self.rc("aimTerm")
+        if not t:
+            return
+        what = f"the dotted term \"{t['text']}\""
+        self.press(width, t)
+        s = self.rc("defState")
+        self.readable(where, what, s)
+        if s["open"]:
+            x = self.rc("aimDefClose")
+            if x:
+                self.press(width, x)
+            if not x or self.rc("defState")["open"]:
+                self.flag(where, f"the x on the definition of {what} does not close it")
+
     def report(self) -> list[str]:
         """One line per distinct problem: the first place it showed, and how many more."""
         by_msg: dict[str, list[str]] = {}
@@ -450,6 +558,10 @@ def run(root: Path, ids: list[str] | None = None, widths: tuple[int, ...] = WIDT
                     continue
                 for cid in want if w <= PHONE_MAX else want[:1]:
                     chk.targets(w, cid)
+        if "defs" in sections and want:
+            for w in target_widths:
+                for cid in want if w <= PHONE_MAX else want[:1] if w > DRAWER_BELOW else []:
+                    chk.defs(w, cid)
         chk.drain("page")
         return chk.report(), chk.stats
     finally:
@@ -495,7 +607,7 @@ def main(argv: list[str] | None = None) -> int:
         print(line)
     summary = (f"{stats['cancers']} cancer(s), {stats['views']} views at {'/'.join(map(str, widths))}px, "
                f"{stats['controls']} controls, {stats['searches']} searches, {stats['tips']} tip steps, "
-               f"{stats['taps']} Targets taps "
+               f"{stats['taps']} Targets taps, {stats['defs']} definitions "
                f"in {time.time() - t0:.0f}s")
     print(f"render: {'FAIL' if problems else 'PASS'} -- "
           + (f"{len(problems)} problem(s); {summary}" if problems else summary))

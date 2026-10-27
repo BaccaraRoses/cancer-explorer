@@ -310,13 +310,23 @@ says `preprint`, a chip says `synthetic-lethal`. Those are precise words doing
 real work, invisible to anyone who knows them and opaque to everyone else.
 "Modality: ADC" defines nothing.
 
-**71 shared terms** in `js/glossary.js` plus whatever the loaded dataset adds —
-80 with breast — grouped into six vocabularies, reachable three ways:
+**79 shared terms** in `js/glossary.js` plus whatever the loaded dataset adds —
+88 with breast — grouped into six vocabularies, reachable three ways:
 
-- **On controlled vocabulary.** Modality, phase, evidence tier, species flag,
-  basis chip and alteration metric all carry a dotted underline and open a
-  plain-language definition on click. These are known positions with known
-  values, so the lookup is exact and cannot mislabel anything.
+- **On controlled vocabulary.** Modality, phase, evidence tier, species flag and
+  alteration metric carry a dotted underline and open a plain-language
+  definition on click. These are known positions with known values, so the
+  lookup is exact and cannot mislabel anything.
+- **On a target card's chips.** Basis, length and UniProt are filled pills with
+  an "i" (`defChip` in `js/render.js`): a tap opens the definition and shows the
+  chip pressed, a second tap closes it. The basis is looked up by the words the
+  chip prints, one entry per kind, because the pipeline's short names collide
+  ("expression" is gene activity in this glossary, not a stain), and its panel
+  lists the other targets here with the same basis. Length and UniProt link to
+  the entry they were read from. Until 2026-10-19 these chips looked like
+  buttons and did nothing; inside the basis chip, three of the seven kinds had a
+  dotted word, and "selected by protein expression" opened gene expression's
+  definition.
 - **In prose, where an author marked it.** Any string passed through
   `Render.prose` may write `{{pathology report}}` or `{{duct|ducts or lobules}}`.
   The front page's opening paragraphs, the classification section and every
@@ -622,7 +632,7 @@ data/breast.literature.js generated overlay (pipeline/run.py literature) — opt
 data/prostate.*.js    second dataset — curated file plus the same three overlays
 data/lung.*.js        third dataset — curated file plus the same three overlays
 tools/chartaudit.py   re-derives every chart's geometry and checks its claim
-tools/rendercheck.py  the site in headless Chromium: phone layout, search, hover tips, Targets taps (+ rendercheck.js)
+tools/rendercheck.py  the site in headless Chromium: phone layout, search, hover tips, Targets taps, definitions (+ rendercheck.js)
 tools/cdp.py          drives that browser over the DevTools protocol, stdlib only
 data/img/             structure renders from RCSB, public domain (~1.2 MB)
 tools/validate.mjs    optional Node CLI wrapper

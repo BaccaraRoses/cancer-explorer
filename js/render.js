@@ -135,13 +135,18 @@
   ------------------------------------------------------ */
 
   var defPanel = null;
+  var defAnchor = null;   // the chip that opened it, shown pressed while it is open
 
   function closeDef() {
     if (defPanel && defPanel.parentNode) defPanel.parentNode.removeChild(defPanel);
+    if (defAnchor && defAnchor.hasAttribute('aria-expanded')) defAnchor.setAttribute('aria-expanded', 'false');
     defPanel = null;
+    defAnchor = null;
   }
 
-  function openDef(entry, anchor) {
+  /* `extra` is a list of nodes for the end of the panel: what this one value
+     adds to the general definition, such as the link to its record. */
+  function openDef(entry, anchor, extra) {
     closeDef();
     if (!entry) return;
     var p = h('div', 'defpop');
@@ -165,22 +170,36 @@
       w.appendChild(document.createTextNode(entry.w));
       p.appendChild(w);
     }
+    (extra || []).forEach(function (n) { p.appendChild(n); });
 
-    document.body.appendChild(p);
+    /* Inside .viz-root, where the colour tokens are defined, as the hover tip
+       is. Attached to <body> (until 2026-10-19) every var() in .defpop
+       resolved to nothing: no background, border or shadow, so the definition
+       printed straight over the text it was explaining. */
+    (document.querySelector('.viz-root') || document.body).appendChild(p);
     defPanel = p;
+    defAnchor = anchor;
+    if (anchor.hasAttribute('aria-expanded')) anchor.setAttribute('aria-expanded', 'true');
 
+    /* Placed in page coordinates, so a scroll carries it with the word it
+       explains instead of leaving it floating over whatever scrolls under it.
+       A phone's lens bar is fixed over the bottom of the screen: the panel
+       opens above the word rather than under the bar. */
     var r = anchor.getBoundingClientRect();
     var pr = p.getBoundingClientRect();
+    var bar = document.getElementById('ctl-lens');
+    var floor = global.innerHeight;
+    if (bar && global.getComputedStyle(bar).position === 'fixed') floor = Math.min(floor, bar.getBoundingClientRect().top);
     var left = Math.min(Math.max(8, r.left), global.innerWidth - pr.width - 8);
     var top = r.bottom + 6;
-    if (top + pr.height > global.innerHeight - 8) top = Math.max(8, r.top - pr.height - 6);
-    p.style.left = left + 'px';
-    p.style.top = top + 'px';
+    if (top + pr.height > floor - 8) top = Math.max(8, r.top - pr.height - 6);
+    p.style.left = (left + global.scrollX) + 'px';
+    p.style.top = (top + global.scrollY) + 'px';
   }
 
   if (typeof document !== 'undefined') {
     document.addEventListener('click', function (e) {
-      if (defPanel && !defPanel.contains(e.target) && !e.target.closest('.term')) closeDef();
+      if (defPanel && !defPanel.contains(e.target) && !e.target.closest('.term, .chip-def')) closeDef();
     });
     document.addEventListener('keydown', function (e) { if (e.key === 'Escape') closeDef(); });
   }
@@ -197,6 +216,50 @@
     b.addEventListener('click', function (e) {
       e.stopPropagation();
       openDef(entry, b);
+    });
+    return b;
+  }
+
+  function glossaryEntry(key) { return global.Glossary ? global.Glossary.lookup(key) : null; }
+
+  // A link at the foot of a definition: the record a chip's value was read from.
+  function defLink(href, text) {
+    var p = h('p', 'dp-link');
+    var a = h('a', null, text);
+    a.href = href; a.target = '_blank'; a.rel = 'noopener';
+    p.appendChild(a);
+    return p;
+  }
+
+  /* A chip — "basis · selected by …", "length · 509 aa" — that explains itself.
+     The pill used to look like a button and do nothing; now the whole pill is
+     the button, filled so it reads as one (INV-16), marked with an "i", and
+     pressed while its definition is open. A second tap closes it. `head` is
+     the definition's title when the chip's value names it better than the
+     glossary word does. With no entry it stays the plain chip it was. */
+  function defChip(cls, key, value, entry, head, extra) {
+    if (!entry) {
+      var s = h('span', cls);
+      s.appendChild(h('span', 'k', key));
+      s.appendChild(h('span', null, value));
+      return s;
+    }
+    var title = head || entry.full || entry.t;
+    var shown = { t: title.toLowerCase().indexOf(key.toLowerCase()) < 0 ? key : title,
+                  full: title, d: entry.d, w: entry.w };
+    var b = h('button', cls + ' chip-def');
+    b.type = 'button';
+    b.setAttribute('aria-expanded', 'false');
+    b.title = title + ' — tap for what this means';
+    b.appendChild(h('span', 'k', key));
+    b.appendChild(h('span', null, value));
+    var mark = h('span', 'ci', 'i');
+    mark.setAttribute('aria-hidden', 'true');
+    b.appendChild(mark);
+    b.addEventListener('click', function (e) {
+      e.stopPropagation();
+      if (defAnchor === b) { closeDef(); return; }
+      openDef(shown, b, typeof extra === 'function' ? extra() : extra);
     });
     return b;
   }
@@ -3138,23 +3201,31 @@
     var chips = h('div', 'chips');
     var gsel = germlineGene(ctx, target.gene);
     var basis = basisShown(ctx, target.gene, target.basis);
+    /* Each chip opens its definition. The basis is looked up by the words the
+       chip prints, and its panel names the other targets here that share it,
+       read off the same basisShown() that labels every card; the length and
+       the accession link to the record they were read from. */
     if (basis) {
-      var bc = h('span', 'chip basis ' + basis);
-      bc.appendChild(h('span', 'k', 'basis'));
-      bc.appendChild(term(BASIS_LABEL[basis] || basis, null, basis));
-      chips.appendChild(bc);
+      var label = BASIS_LABEL[basis] || basis;
+      chips.appendChild(defChip('chip basis ' + basis, 'basis', label, glossaryEntry(label), null,
+        function () {
+          var genes = (tg.genes || {});
+          var same = Object.keys(genes).filter(function (g) {
+            return g !== target.gene && basisShown(ctx, g, genes[g].basis) === basis;
+          }).sort();
+          return [h('p', 'dp-also', same.length
+            ? 'Other targets here with this basis: ' + same.join(', ') + '.'
+            : 'No other target here has this basis.')];
+        }));
     }
     if (uni.length) {
-      var lc = h('span', 'chip var');
-      lc.appendChild(h('span', 'k', 'length'));
-      lc.appendChild(h('span', null, uni.length + ' aa'));
-      chips.appendChild(lc);
+      chips.appendChild(defChip('chip var', 'length', uni.length + ' aa', glossaryEntry('protein length'),
+        null, uni.url ? [defLink(uni.url, 'Read from ' + (uni.accession ? 'UniProt entry ' + uni.accession
+          : 'its UniProt entry') + ' ↗')] : null));
     }
     if (uni.accession) {
-      var uc = h('span', 'chip code');
-      uc.appendChild(h('span', 'k', 'UniProt'));
-      uc.appendChild(h('span', null, uni.accession));
-      chips.appendChild(uc);
+      chips.appendChild(defChip('chip code', 'UniProt', uni.accession, glossaryEntry('UniProt'),
+        null, uni.url ? [defLink(uni.url, 'Open ' + uni.accession + ' on UniProt ↗')] : null));
     }
     container.appendChild(chips);
 
@@ -4653,6 +4724,7 @@
     legend: legend,
     drawer: drawer,
     tooltip: tooltip,
+    closeDef: closeDef,
     seriesColor: seriesColor,
     mode: mode,
 

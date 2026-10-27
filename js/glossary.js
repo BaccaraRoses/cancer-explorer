@@ -374,6 +374,72 @@
       w: 'Every marker this cancer is classified by is a biomarker, and so is any mutation ' +
          'that picks a drug: each one selects or rules out a therapy.' },
 
+    /* The basis chip on a target's card, one entry per value. Keyed by the
+       words the chip prints (render.js BASIS_LABEL), not by the pipeline's
+       short names: "expression" and "pathway" already mean something broader
+       in this glossary, and an exact lookup must not hand a stain the meaning
+       of gene activity. "synthetic lethality" is its own entry above. */
+    { t: 'selected by genomic alteration', g: 'molecular',
+      d: 'This protein matters here because of a change in its own gene — a mutation, extra ' +
+         'copies, or a loss — found by testing the tumour\'s DNA. Where drugs are aimed at it, ' +
+         'that test is what picks the people who receive them.',
+      w: 'A basis chip on a target\'s card. Only targets with this basis, and measured in the ' +
+         'cohort, are placed on the Targets chart: only for them does the share of tumours with ' +
+         'the gene altered describe the people a test would look for.' },
+
+    { t: 'selected by protein expression', g: 'molecular',
+      d: 'What picks the people treated is how much of a protein is present — usually this one, ' +
+         'measured with a stain on a tissue sample or seen on a scan — rather than a change in ' +
+         'a gene. A protein can be a good target without ever being mutated: a drug can use it ' +
+         'as an address on the cell.',
+      w: 'A basis chip on a target\'s card. These targets are not placed on the Targets chart, ' +
+         'whose axis counts changes in genes: a protein chosen by its level can have approved ' +
+         'drugs and still look rarely altered.' },
+
+    { t: 'pathway dependency', g: 'molecular',
+      d: 'The tumour depends on this protein because of the signalling chain it sits in, not ' +
+         'because the protein itself is broken. Usually a fault further up the chain switched ' +
+         'the signal on, and blocking this step cuts it off.',
+      w: 'A basis chip on a target\'s card. Where the card says "Selected by" another gene, the ' +
+         'test is of that gene. Not placed on the Targets chart, whose axis counts changes in ' +
+         'this gene.' },
+
+    { t: 'not selected by a tumour test', g: 'molecular',
+      d: 'No test of the tumour decides who receives the drugs aimed at this protein. They are ' +
+         'given according to the cancer, its stage and the treatment already tried.',
+      w: 'A basis chip on a target\'s card. Not placed on the Targets chart: with no test, how ' +
+         'often the gene is altered says nothing about who is treated.' },
+
+    { t: 'selected by another marker', g: 'molecular',
+      d: 'The people treated are picked by a test of something other than this protein or its ' +
+         'gene, and no synthetic-lethal link joins the two. Where the card says "Selected by", ' +
+         'that is the test.',
+      w: 'A basis chip on a target\'s card. Not placed on the Targets chart, whose axis counts ' +
+         'changes in this gene rather than in the marker that is tested.' },
+
+    { t: 'selected by a germline test', g: 'molecular',
+      d: 'The people treated are picked by a test of what they were born with — a sample of ' +
+         'their own cells, not of the tumour. Two people with the same tumour can differ here, ' +
+         'and only one of them qualifies.',
+      w: 'A basis chip on a target\'s card; where the test is recorded, a box on the card names ' +
+         'it. Not placed on the Targets chart: its axis is a share of tumours, which says ' +
+         'nothing about what a person inherited.' },
+
+    { t: 'protein length', g: 'molecular', alias: ['length', 'aa', 'amino acids'],
+      d: 'How many amino acids — the small building blocks a protein is strung together from, ' +
+         'one after another — make up the protein\'s chain. "aa" is short for amino acids.',
+      w: 'The length chip on a target\'s card, read from the protein\'s UniProt entry. The ' +
+         'protein track on the card is drawn to this length, so where a mutation sits on the ' +
+         'track is where it sits along the chain.' },
+
+    { t: 'UniProt', g: 'molecular', full: 'UniProt Knowledgebase', alias: ['accession'],
+      d: 'The public reference database of proteins: each one\'s sequence, name, working parts ' +
+         'and what is known about it. Every protein has a permanent ID there, its accession, so ' +
+         'two proteins with similar names are never confused.',
+      w: 'The UniProt chip on a target\'s card shows the protein\'s accession, and its ' +
+         'definition links to the entry. The formal name, the length and the domains on the ' +
+         'protein track all come from that entry.' },
+
     { t: 'alteration frequency', g: 'molecular', alias: ['altered', 'alteration'],
       d: 'What share of tumours of a given kind carry a change in this gene — mutated, ' +
          'amplified or deleted, all counted together. "Altered in 60%" means 6 in 10 of the ' +

@@ -116,6 +116,46 @@ MUTANTS = {
         "a click on a dot sends a desktop reader to the top of the page, as before 2026-10-19",
         [("js/explorer.js", "      else if (within && global.scrollY !== y) global.scrollTo(0, y);" + NL, "")],
         {"sections": ("targets",), "target_widths": (1400,)}, ["moved the page"]),
+    "chip-dead": (
+        "a target card's chips drawn as plain pills that look like buttons, as before 2026-10-19",
+        [("js/render.js", "function defChip(cls, key, value, entry, head, extra) {" + NL + "    if (!entry) {",
+          "function defChip(cls, key, value, entry, head, extra) {" + NL + "    if (true) {")],
+        {"sections": ("defs",), "target_widths": (393,)}, ["is not a button"]),
+    "def-see-through": (
+        "the definition attached outside .viz-root, where no colour token is defined, as before 2026-10-19",
+        [("js/render.js", "(document.querySelector('.viz-root') || document.body).appendChild(p);",
+          "document.body.appendChild(p);")],
+        {"sections": ("defs",), "target_widths": (393,)}, ["is see-through"]),
+    "def-under-bar": (
+        "a definition that always opens below its chip, into a phone's lens bar",
+        [("js/render.js", "if (top + pr.height > floor - 8) top = ", "if (false) top = ")],
+        {"sections": ("defs",), "target_widths": (393,)}, ["under the lens bar"]),
+    "def-wrong-words": (
+        "the basis chip looked up by the pipeline's short name, so expression gets gene expression's definition",
+        [("js/render.js", "glossaryEntry(label)", "glossaryEntry(basis)")],
+        {"sections": ("defs",), "target_widths": (393,)}, ["opens the definition of", "gene expression"]),
+    "def-not-pressed": (
+        "a chip whose definition is open but which does not show pressed",
+        [("js/render.js", "if (anchor.hasAttribute('aria-expanded')) anchor.setAttribute('aria-expanded', 'true');", "")],
+        {"sections": ("defs",), "target_widths": (393,)}, ["does not show as pressed"]),
+    "def-stays-pressed": (
+        "a chip left pressed after its definition closes",
+        [("js/render.js", "if (defAnchor && defAnchor.hasAttribute('aria-expanded')) "
+          "defAnchor.setAttribute('aria-expanded', 'false');", "")],
+        {"sections": ("defs",), "target_widths": (393,)}, ["stays pressed"]),
+    "def-second-tap": (
+        "a second tap on a chip opens its definition again instead of closing it",
+        [("js/render.js", "if (defAnchor === b) { closeDef(); return; }", "")],
+        {"sections": ("defs",), "target_widths": (393,)}, ["leaves its definition open"]),
+    "def-no-link": (
+        "the UniProt chip's definition without the link to the entry",
+        [("js/render.js", "[defLink(uni.url, 'Open ' + uni.accession + ' on UniProt ↗')]", "null")],
+        {"sections": ("defs",), "target_widths": (393,)}, ["no link to its UniProt entry"]),
+    "def-x-dead": (
+        "the x on a definition that does nothing",
+        [("js/render.js", "close.addEventListener('click', function (e) { e.stopPropagation(); closeDef(); });",
+          "close.addEventListener('click', function (e) { e.stopPropagation(); });")],
+        {"sections": ("defs",), "target_widths": (393,)}, ["does not close it"]),
     "exception": (
         "a lens that throws when drawn: a mistyped property path",
         [("js/explorer.js", "if (state.lens === 'evidence') return renderEvidence(d);",
@@ -174,6 +214,7 @@ class RenderCheck(unittest.TestCase):
         self.assertGreater(stats["searches"], 6)
         self.assertGreater(stats["tips"], 3)
         self.assertGreater(stats["taps"], 8)
+        self.assertGreater(stats["defs"], 8)
 
     def test_every_mutant_is_seen(self):
         for mid, (why, edits, kw, words) in MUTANTS.items():
