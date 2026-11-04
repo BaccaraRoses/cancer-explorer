@@ -1,6 +1,6 @@
 /* GENERATED FILE - DO NOT EDIT BY HAND.
  *
- * Produced by pipeline/run.py literature on 2026-10-18 00:46 UTC
+ * Produced by pipeline/run.py literature on 2026-11-04 05:19 UTC
  * 247 papers since 2024-01-01  (from 279 raw hits, deduplicated)
  * By tier: meta-analysis 7, preprint 10, primary 142, review 51, systematic review 5, trial 32
  * By kind: new-approach 76, resistance 80, toxicity 91
@@ -131,8 +131,7 @@ window.CancerExplorerLiterature['colorectal'] = {
    "species_from": "mesh",
    "genes": [
     "VEGFA",
-    "KDR",
-    "POLE"
+    "KDR"
    ],
    "nodes": [
     "site-root"
@@ -161,10 +160,7 @@ window.CancerExplorerLiterature['colorectal'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "EGFR",
-    "BRAF",
-    "KRAS",
-    "ERBB2"
+    "EGFR"
    ],
    "nodes": [
     "drv-ras-wt",
@@ -195,8 +191,7 @@ window.CancerExplorerLiterature['colorectal'] = {
    "species_from": "keywords",
    "genes": [
     "VEGFA",
-    "KDR",
-    "POLE"
+    "KDR"
    ],
    "nodes": [
     "site-root"
@@ -253,8 +248,7 @@ window.CancerExplorerLiterature['colorectal'] = {
    "species_from": "keywords",
    "genes": [
     "VEGFA",
-    "KDR",
-    "POLE"
+    "KDR"
    ],
    "nodes": [
     "site-root"
@@ -318,10 +312,7 @@ window.CancerExplorerLiterature['colorectal'] = {
    "species": "human",
    "species_from": "keywords",
    "genes": [
-    "EGFR",
-    "BRAF",
-    "KRAS",
-    "ERBB2"
+    "EGFR"
    ],
    "nodes": [
     "drv-ras-wt",
@@ -351,8 +342,7 @@ window.CancerExplorerLiterature['colorectal'] = {
    "species_from": "mesh",
    "genes": [
     "VEGFA",
-    "KDR",
-    "POLE"
+    "KDR"
    ],
    "nodes": [
     "site-root"
@@ -379,10 +369,7 @@ window.CancerExplorerLiterature['colorectal'] = {
    "species": "human",
    "species_from": "keywords",
    "genes": [
-    "EGFR",
-    "BRAF",
-    "KRAS",
-    "ERBB2"
+    "EGFR"
    ],
    "nodes": [
     "drv-ras-wt",
@@ -462,8 +449,7 @@ window.CancerExplorerLiterature['colorectal'] = {
    "species_from": "mesh",
    "genes": [
     "VEGFA",
-    "KDR",
-    "POLE"
+    "KDR"
    ],
    "nodes": [
     "site-root"
@@ -519,8 +505,7 @@ window.CancerExplorerLiterature['colorectal'] = {
    "species_from": "keywords",
    "genes": [
     "VEGFA",
-    "KDR",
-    "POLE"
+    "KDR"
    ],
    "nodes": [
     "site-root"
@@ -548,8 +533,7 @@ window.CancerExplorerLiterature['colorectal'] = {
    "species_from": "keywords",
    "genes": [
     "VEGFA",
-    "KDR",
-    "POLE"
+    "KDR"
    ],
    "nodes": [
     "site-root"
@@ -604,10 +588,7 @@ window.CancerExplorerLiterature['colorectal'] = {
    "species": "unclear",
    "species_from": "none",
    "genes": [
-    "EGFR",
-    "BRAF",
-    "KRAS",
-    "ERBB2"
+    "EGFR"
    ],
    "nodes": [
     "drv-ras-wt",
@@ -642,10 +623,7 @@ window.CancerExplorerLiterature['colorectal'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "EGFR",
-    "BRAF",
-    "KRAS",
-    "ERBB2"
+    "EGFR"
    ],
    "nodes": [
     "drv-ras-wt",
@@ -675,10 +653,7 @@ window.CancerExplorerLiterature['colorectal'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "EGFR",
-    "BRAF",
-    "KRAS",
-    "ERBB2"
+    "EGFR"
    ],
    "nodes": [
     "drv-ras-wt",
@@ -707,10 +682,7 @@ window.CancerExplorerLiterature['colorectal'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "EGFR",
-    "BRAF",
-    "KRAS",
-    "ERBB2"
+    "EGFR"
    ],
    "nodes": [
     "drv-ras-wt",
@@ -740,8 +712,7 @@ window.CancerExplorerLiterature['colorectal'] = {
    "species_from": "mesh",
    "genes": [
     "VEGFA",
-    "KDR",
-    "POLE"
+    "KDR"
    ],
    "nodes": [
     "site-root"
@@ -769,8 +740,7 @@ window.CancerExplorerLiterature['colorectal'] = {
    "species_from": "none",
    "genes": [
     "VEGFA",
-    "KDR",
-    "POLE"
+    "KDR"
    ],
    "nodes": [
     "site-root"
@@ -797,10 +767,7 @@ window.CancerExplorerLiterature['colorectal'] = {
    "species": "human",
    "species_from": "keywords",
    "genes": [
-    "EGFR",
-    "BRAF",
-    "KRAS",
-    "ERBB2"
+    "EGFR"
    ],
    "nodes": [
     "drv-ras-wt",
@@ -831,8 +798,7 @@ window.CancerExplorerLiterature['colorectal'] = {
    "species_from": "keywords",
    "genes": [
     "VEGFA",
-    "KDR",
-    "POLE"
+    "KDR"
    ],
    "nodes": [
     "site-root"
@@ -937,10 +903,7 @@ window.CancerExplorerLiterature['colorectal'] = {
    "species": "human",
    "species_from": "keywords",
    "genes": [
-    "EGFR",
-    "BRAF",
-    "KRAS",
-    "ERBB2"
+    "EGFR"
    ],
    "nodes": [
     "drv-ras-wt",
@@ -970,10 +933,7 @@ window.CancerExplorerLiterature['colorectal'] = {
    "species": "human",
    "species_from": "keywords",
    "genes": [
-    "EGFR",
-    "BRAF",
-    "KRAS",
-    "ERBB2"
+    "EGFR"
    ],
    "nodes": [
     "drv-ras-wt",
@@ -1008,10 +968,7 @@ window.CancerExplorerLiterature['colorectal'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "EGFR",
-    "BRAF",
-    "KRAS",
-    "ERBB2"
+    "EGFR"
    ],
    "nodes": [
     "drv-ras-wt",
@@ -1040,10 +997,7 @@ window.CancerExplorerLiterature['colorectal'] = {
    "species": "human",
    "species_from": "keywords",
    "genes": [
-    "EGFR",
-    "BRAF",
-    "KRAS",
-    "ERBB2"
+    "EGFR"
    ],
    "nodes": [
     "drv-ras-wt",
@@ -1100,10 +1054,7 @@ window.CancerExplorerLiterature['colorectal'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "EGFR",
-    "BRAF",
-    "KRAS",
-    "ERBB2"
+    "EGFR"
    ],
    "nodes": [
     "drv-ras-wt",
@@ -1274,8 +1225,7 @@ window.CancerExplorerLiterature['colorectal'] = {
    "species_from": "mesh",
    "genes": [
     "VEGFA",
-    "KDR",
-    "POLE"
+    "KDR"
    ],
    "nodes": [
     "site-root"
@@ -1302,10 +1252,7 @@ window.CancerExplorerLiterature['colorectal'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "EGFR",
-    "BRAF",
-    "KRAS",
-    "ERBB2"
+    "EGFR"
    ],
    "nodes": [
     "drv-ras-wt",
@@ -1334,10 +1281,7 @@ window.CancerExplorerLiterature['colorectal'] = {
    "species": "human",
    "species_from": "keywords",
    "genes": [
-    "EGFR",
-    "BRAF",
-    "KRAS",
-    "ERBB2"
+    "EGFR"
    ],
    "nodes": [
     "drv-ras-wt",
@@ -1422,10 +1366,7 @@ window.CancerExplorerLiterature['colorectal'] = {
    "species": "human",
    "species_from": "keywords",
    "genes": [
-    "EGFR",
-    "BRAF",
-    "KRAS",
-    "ERBB2"
+    "EGFR"
    ],
    "nodes": [
     "drv-ras-wt",
@@ -1482,10 +1423,7 @@ window.CancerExplorerLiterature['colorectal'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "EGFR",
-    "BRAF",
-    "KRAS",
-    "ERBB2"
+    "EGFR"
    ],
    "nodes": [
     "drv-ras-wt",
@@ -1543,8 +1481,7 @@ window.CancerExplorerLiterature['colorectal'] = {
    "species_from": "keywords",
    "genes": [
     "VEGFA",
-    "KDR",
-    "POLE"
+    "KDR"
    ],
    "nodes": [
     "site-root"
@@ -1571,10 +1508,7 @@ window.CancerExplorerLiterature['colorectal'] = {
    "species": "human",
    "species_from": "keywords",
    "genes": [
-    "EGFR",
-    "BRAF",
-    "KRAS",
-    "ERBB2"
+    "EGFR"
    ],
    "nodes": [
     "drv-ras-wt",
@@ -1660,10 +1594,7 @@ window.CancerExplorerLiterature['colorectal'] = {
    "species": "human",
    "species_from": "keywords",
    "genes": [
-    "EGFR",
-    "BRAF",
-    "KRAS",
-    "ERBB2"
+    "EGFR"
    ],
    "nodes": [
     "drv-ras-wt",
@@ -1848,10 +1779,7 @@ window.CancerExplorerLiterature['colorectal'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "EGFR",
-    "BRAF",
-    "KRAS",
-    "ERBB2"
+    "EGFR"
    ],
    "nodes": [
     "drv-ras-wt",
@@ -1910,8 +1838,7 @@ window.CancerExplorerLiterature['colorectal'] = {
    "species_from": "keywords",
    "genes": [
     "VEGFA",
-    "KDR",
-    "POLE"
+    "KDR"
    ],
    "nodes": [
     "site-root"
@@ -1938,10 +1865,7 @@ window.CancerExplorerLiterature['colorectal'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "EGFR",
-    "BRAF",
-    "KRAS",
-    "ERBB2"
+    "EGFR"
    ],
    "nodes": [
     "drv-ras-wt",
@@ -2027,8 +1951,7 @@ window.CancerExplorerLiterature['colorectal'] = {
    "species_from": "mesh",
    "genes": [
     "VEGFA",
-    "KDR",
-    "POLE"
+    "KDR"
    ],
    "nodes": [
     "site-root"
@@ -2113,8 +2036,7 @@ window.CancerExplorerLiterature['colorectal'] = {
    "species_from": "mesh",
    "genes": [
     "VEGFA",
-    "KDR",
-    "POLE"
+    "KDR"
    ],
    "nodes": [
     "site-root"
@@ -2229,8 +2151,7 @@ window.CancerExplorerLiterature['colorectal'] = {
    "species_from": "mesh",
    "genes": [
     "VEGFA",
-    "KDR",
-    "POLE"
+    "KDR"
    ],
    "nodes": [
     "site-root"
@@ -2285,8 +2206,7 @@ window.CancerExplorerLiterature['colorectal'] = {
    "species_from": "mesh",
    "genes": [
     "VEGFA",
-    "KDR",
-    "POLE"
+    "KDR"
    ],
    "nodes": [
     "site-root"
@@ -2315,8 +2235,7 @@ window.CancerExplorerLiterature['colorectal'] = {
    "species_from": "keywords",
    "genes": [
     "VEGFA",
-    "KDR",
-    "POLE"
+    "KDR"
    ],
    "nodes": [
     "site-root"
@@ -2383,10 +2302,7 @@ window.CancerExplorerLiterature['colorectal'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "EGFR",
-    "BRAF",
-    "KRAS",
-    "ERBB2"
+    "EGFR"
    ],
    "nodes": [
     "drv-ras-wt",
@@ -2415,10 +2331,7 @@ window.CancerExplorerLiterature['colorectal'] = {
    "species": "human",
    "species_from": "keywords",
    "genes": [
-    "EGFR",
-    "BRAF",
-    "KRAS",
-    "ERBB2"
+    "EGFR"
    ],
    "nodes": [
     "drv-ras-wt",
@@ -2448,8 +2361,7 @@ window.CancerExplorerLiterature['colorectal'] = {
    "species_from": "mesh",
    "genes": [
     "VEGFA",
-    "KDR",
-    "POLE"
+    "KDR"
    ],
    "nodes": [
     "site-root"
@@ -2477,10 +2389,7 @@ window.CancerExplorerLiterature['colorectal'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "EGFR",
-    "BRAF",
-    "KRAS",
-    "ERBB2"
+    "EGFR"
    ],
    "nodes": [
     "drv-ras-wt",
@@ -2567,8 +2476,7 @@ window.CancerExplorerLiterature['colorectal'] = {
    "species_from": "keywords",
    "genes": [
     "VEGFA",
-    "KDR",
-    "POLE"
+    "KDR"
    ],
    "nodes": [
     "site-root"
@@ -2596,8 +2504,7 @@ window.CancerExplorerLiterature['colorectal'] = {
    "species_from": "keywords",
    "genes": [
     "VEGFA",
-    "KDR",
-    "POLE"
+    "KDR"
    ],
    "nodes": [
     "site-root"
@@ -2624,10 +2531,7 @@ window.CancerExplorerLiterature['colorectal'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "EGFR",
-    "BRAF",
-    "KRAS",
-    "ERBB2"
+    "EGFR"
    ],
    "nodes": [
     "drv-ras-wt",
@@ -2657,8 +2561,7 @@ window.CancerExplorerLiterature['colorectal'] = {
    "species_from": "mesh",
    "genes": [
     "VEGFA",
-    "KDR",
-    "POLE"
+    "KDR"
    ],
    "nodes": [
     "site-root"
@@ -2714,8 +2617,7 @@ window.CancerExplorerLiterature['colorectal'] = {
    "species_from": "mesh",
    "genes": [
     "VEGFA",
-    "KDR",
-    "POLE"
+    "KDR"
    ],
    "nodes": [
     "site-root"
@@ -2929,7 +2831,6 @@ window.CancerExplorerLiterature['colorectal'] = {
    "genes": [
     "EGFR",
     "BRAF",
-    "KRAS",
     "ERBB2"
    ],
    "nodes": [
@@ -3004,10 +2905,7 @@ window.CancerExplorerLiterature['colorectal'] = {
    "species": "human",
    "species_from": "keywords",
    "genes": [
-    "EGFR",
-    "BRAF",
-    "KRAS",
-    "ERBB2"
+    "EGFR"
    ],
    "nodes": [
     "drv-ras-wt",
@@ -3037,8 +2935,7 @@ window.CancerExplorerLiterature['colorectal'] = {
    "species_from": "mesh",
    "genes": [
     "VEGFA",
-    "KDR",
-    "POLE"
+    "KDR"
    ],
    "nodes": [
     "site-root"
@@ -3094,8 +2991,7 @@ window.CancerExplorerLiterature['colorectal'] = {
    "species_from": "mesh",
    "genes": [
     "VEGFA",
-    "KDR",
-    "POLE"
+    "KDR"
    ],
    "nodes": [
     "site-root"
@@ -3123,8 +3019,7 @@ window.CancerExplorerLiterature['colorectal'] = {
    "species_from": "mesh",
    "genes": [
     "VEGFA",
-    "KDR",
-    "POLE"
+    "KDR"
    ],
    "nodes": [
     "site-root"
@@ -3179,10 +3074,7 @@ window.CancerExplorerLiterature['colorectal'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "EGFR",
-    "BRAF",
-    "KRAS",
-    "ERBB2"
+    "EGFR"
    ],
    "nodes": [
     "drv-ras-wt",
@@ -3240,9 +3132,7 @@ window.CancerExplorerLiterature['colorectal'] = {
    "species_from": "mesh",
    "genes": [
     "EGFR",
-    "BRAF",
-    "KRAS",
-    "ERBB2"
+    "BRAF"
    ],
    "nodes": [
     "drv-ras-wt",
@@ -3334,8 +3224,7 @@ window.CancerExplorerLiterature['colorectal'] = {
    "species_from": "mesh",
    "genes": [
     "VEGFA",
-    "KDR",
-    "POLE"
+    "KDR"
    ],
    "nodes": [
     "site-root"
@@ -3362,10 +3251,7 @@ window.CancerExplorerLiterature['colorectal'] = {
    "species": "human",
    "species_from": "keywords",
    "genes": [
-    "EGFR",
-    "BRAF",
-    "KRAS",
-    "ERBB2"
+    "EGFR"
    ],
    "nodes": [
     "drv-ras-wt",
@@ -3395,9 +3281,7 @@ window.CancerExplorerLiterature['colorectal'] = {
    "species_from": "mesh",
    "genes": [
     "EGFR",
-    "BRAF",
-    "KRAS",
-    "ERBB2"
+    "KRAS"
    ],
    "nodes": [
     "drv-ras-wt",
@@ -3434,8 +3318,7 @@ window.CancerExplorerLiterature['colorectal'] = {
    "species_from": "mesh",
    "genes": [
     "VEGFA",
-    "KDR",
-    "POLE"
+    "KDR"
    ],
    "nodes": [
     "site-root"
@@ -3463,8 +3346,7 @@ window.CancerExplorerLiterature['colorectal'] = {
    "species_from": "keywords",
    "genes": [
     "VEGFA",
-    "KDR",
-    "POLE"
+    "KDR"
    ],
    "nodes": [
     "site-root"
@@ -3492,8 +3374,7 @@ window.CancerExplorerLiterature['colorectal'] = {
    "species_from": "keywords",
    "genes": [
     "VEGFA",
-    "KDR",
-    "POLE"
+    "KDR"
    ],
    "nodes": [
     "site-root"
@@ -3520,10 +3401,7 @@ window.CancerExplorerLiterature['colorectal'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "EGFR",
-    "BRAF",
-    "KRAS",
-    "ERBB2"
+    "EGFR"
    ],
    "nodes": [
     "drv-ras-wt",
@@ -3645,10 +3523,7 @@ window.CancerExplorerLiterature['colorectal'] = {
    "species": "human",
    "species_from": "keywords",
    "genes": [
-    "EGFR",
-    "BRAF",
-    "KRAS",
-    "ERBB2"
+    "EGFR"
    ],
    "nodes": [
     "drv-ras-wt",
@@ -3705,10 +3580,7 @@ window.CancerExplorerLiterature['colorectal'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "EGFR",
-    "BRAF",
-    "KRAS",
-    "ERBB2"
+    "EGFR"
    ],
    "nodes": [
     "drv-ras-wt",
@@ -3911,8 +3783,7 @@ window.CancerExplorerLiterature['colorectal'] = {
    "species_from": "keywords",
    "genes": [
     "VEGFA",
-    "KDR",
-    "POLE"
+    "KDR"
    ],
    "nodes": [
     "site-root"
@@ -3939,10 +3810,7 @@ window.CancerExplorerLiterature['colorectal'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "EGFR",
-    "BRAF",
-    "KRAS",
-    "ERBB2"
+    "EGFR"
    ],
    "nodes": [
     "drv-ras-wt",
@@ -4030,8 +3898,7 @@ window.CancerExplorerLiterature['colorectal'] = {
    "species_from": "mesh",
    "genes": [
     "VEGFA",
-    "KDR",
-    "POLE"
+    "KDR"
    ],
    "nodes": [
     "site-root"
@@ -4113,10 +3980,7 @@ window.CancerExplorerLiterature['colorectal'] = {
    "species": "human",
    "species_from": "keywords",
    "genes": [
-    "EGFR",
-    "BRAF",
-    "KRAS",
-    "ERBB2"
+    "EGFR"
    ],
    "nodes": [
     "drv-ras-wt",
@@ -4176,8 +4040,7 @@ window.CancerExplorerLiterature['colorectal'] = {
    "species_from": "keywords",
    "genes": [
     "VEGFA",
-    "KDR",
-    "POLE"
+    "KDR"
    ],
    "nodes": [
     "site-root"
@@ -4204,10 +4067,7 @@ window.CancerExplorerLiterature['colorectal'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "EGFR",
-    "BRAF",
-    "KRAS",
-    "ERBB2"
+    "EGFR"
    ],
    "nodes": [
     "drv-ras-wt",
@@ -4273,10 +4133,7 @@ window.CancerExplorerLiterature['colorectal'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "EGFR",
-    "BRAF",
-    "KRAS",
-    "ERBB2"
+    "EGFR"
    ],
    "nodes": [
     "drv-ras-wt",
@@ -4336,8 +4193,7 @@ window.CancerExplorerLiterature['colorectal'] = {
    "species_from": "mesh",
    "genes": [
     "VEGFA",
-    "KDR",
-    "POLE"
+    "KDR"
    ],
    "nodes": [
     "site-root"
@@ -4419,10 +4275,7 @@ window.CancerExplorerLiterature['colorectal'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "EGFR",
-    "BRAF",
-    "KRAS",
-    "ERBB2"
+    "EGFR"
    ],
    "nodes": [
     "drv-ras-wt",
@@ -4452,10 +4305,7 @@ window.CancerExplorerLiterature['colorectal'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "EGFR",
-    "BRAF",
-    "KRAS",
-    "ERBB2"
+    "EGFR"
    ],
    "nodes": [
     "drv-ras-wt",
@@ -4615,10 +4465,7 @@ window.CancerExplorerLiterature['colorectal'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "EGFR",
-    "BRAF",
-    "KRAS",
-    "ERBB2"
+    "EGFR"
    ],
    "nodes": [
     "drv-ras-wt",
@@ -4648,8 +4495,7 @@ window.CancerExplorerLiterature['colorectal'] = {
    "species_from": "keywords",
    "genes": [
     "VEGFA",
-    "KDR",
-    "POLE"
+    "KDR"
    ],
    "nodes": [
     "site-root"
@@ -4676,10 +4522,7 @@ window.CancerExplorerLiterature['colorectal'] = {
    "species": "unclear",
    "species_from": "none",
    "genes": [
-    "EGFR",
-    "BRAF",
-    "KRAS",
-    "ERBB2"
+    "EGFR"
    ],
    "nodes": [
     "drv-ras-wt",
@@ -4818,10 +4661,7 @@ window.CancerExplorerLiterature['colorectal'] = {
    "species": "human",
    "species_from": "keywords",
    "genes": [
-    "EGFR",
-    "BRAF",
-    "KRAS",
-    "ERBB2"
+    "EGFR"
    ],
    "nodes": [
     "drv-ras-wt",
@@ -4850,10 +4690,7 @@ window.CancerExplorerLiterature['colorectal'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "EGFR",
-    "BRAF",
-    "KRAS",
-    "ERBB2"
+    "EGFR"
    ],
    "nodes": [
     "drv-ras-wt",
@@ -4912,10 +4749,7 @@ window.CancerExplorerLiterature['colorectal'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "EGFR",
-    "BRAF",
-    "KRAS",
-    "ERBB2"
+    "EGFR"
    ],
    "nodes": [
     "drv-ras-wt",
@@ -5055,10 +4889,7 @@ window.CancerExplorerLiterature['colorectal'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "EGFR",
-    "BRAF",
-    "KRAS",
-    "ERBB2"
+    "EGFR"
    ],
    "nodes": [
     "drv-ras-wt",
@@ -5088,8 +4919,7 @@ window.CancerExplorerLiterature['colorectal'] = {
    "species_from": "mesh",
    "genes": [
     "VEGFA",
-    "KDR",
-    "POLE"
+    "KDR"
    ],
    "nodes": [
     "site-root"
@@ -5224,8 +5054,7 @@ window.CancerExplorerLiterature['colorectal'] = {
    "species_from": "mesh",
    "genes": [
     "VEGFA",
-    "KDR",
-    "POLE"
+    "KDR"
    ],
    "nodes": [
     "site-root"
@@ -5525,8 +5354,7 @@ window.CancerExplorerLiterature['colorectal'] = {
    "species_from": "mesh",
    "genes": [
     "VEGFA",
-    "KDR",
-    "POLE"
+    "KDR"
    ],
    "nodes": [
     "site-root"
@@ -5554,8 +5382,7 @@ window.CancerExplorerLiterature['colorectal'] = {
    "species_from": "keywords",
    "genes": [
     "VEGFA",
-    "KDR",
-    "POLE"
+    "KDR"
    ],
    "nodes": [
     "site-root"
@@ -5618,8 +5445,7 @@ window.CancerExplorerLiterature['colorectal'] = {
    "species_from": "mesh",
    "genes": [
     "VEGFA",
-    "KDR",
-    "POLE"
+    "KDR"
    ],
    "nodes": [
     "site-root"
@@ -5646,10 +5472,7 @@ window.CancerExplorerLiterature['colorectal'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "EGFR",
-    "BRAF",
-    "KRAS",
-    "ERBB2"
+    "EGFR"
    ],
    "nodes": [
     "drv-ras-wt",
@@ -5706,10 +5529,7 @@ window.CancerExplorerLiterature['colorectal'] = {
    "species": "human",
    "species_from": "keywords",
    "genes": [
-    "EGFR",
-    "BRAF",
-    "KRAS",
-    "ERBB2"
+    "EGFR"
    ],
    "nodes": [
     "drv-ras-wt",
@@ -5739,8 +5559,7 @@ window.CancerExplorerLiterature['colorectal'] = {
    "species_from": "keywords",
    "genes": [
     "VEGFA",
-    "KDR",
-    "POLE"
+    "KDR"
    ],
    "nodes": [
     "site-root"
@@ -5847,10 +5666,7 @@ window.CancerExplorerLiterature['colorectal'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "EGFR",
-    "BRAF",
-    "KRAS",
-    "ERBB2"
+    "EGFR"
    ],
    "nodes": [
     "drv-ras-wt",
@@ -5972,8 +5788,7 @@ window.CancerExplorerLiterature['colorectal'] = {
    "species_from": "mesh",
    "genes": [
     "VEGFA",
-    "KDR",
-    "POLE"
+    "KDR"
    ],
    "nodes": [
     "site-root"
@@ -6001,8 +5816,7 @@ window.CancerExplorerLiterature['colorectal'] = {
    "species_from": "keywords",
    "genes": [
     "VEGFA",
-    "KDR",
-    "POLE"
+    "KDR"
    ],
    "nodes": [
     "site-root"
@@ -6029,10 +5843,7 @@ window.CancerExplorerLiterature['colorectal'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "EGFR",
-    "BRAF",
-    "KRAS",
-    "ERBB2"
+    "EGFR"
    ],
    "nodes": [
     "drv-ras-wt",
@@ -6062,8 +5873,7 @@ window.CancerExplorerLiterature['colorectal'] = {
    "species_from": "keywords",
    "genes": [
     "VEGFA",
-    "KDR",
-    "POLE"
+    "KDR"
    ],
    "nodes": [
     "site-root"
@@ -6352,8 +6162,7 @@ window.CancerExplorerLiterature['colorectal'] = {
    "species_from": "mesh",
    "genes": [
     "VEGFA",
-    "KDR",
-    "POLE"
+    "KDR"
    ],
    "nodes": [
     "site-root"
@@ -6467,8 +6276,7 @@ window.CancerExplorerLiterature['colorectal'] = {
    "species_from": "mesh",
    "genes": [
     "VEGFA",
-    "KDR",
-    "POLE"
+    "KDR"
    ],
    "nodes": [
     "site-root"
@@ -6552,8 +6360,7 @@ window.CancerExplorerLiterature['colorectal'] = {
    "species_from": "keywords",
    "genes": [
     "VEGFA",
-    "KDR",
-    "POLE"
+    "KDR"
    ],
    "nodes": [
     "site-root"
@@ -6982,8 +6789,7 @@ window.CancerExplorerLiterature['colorectal'] = {
    "species_from": "mesh",
    "genes": [
     "VEGFA",
-    "KDR",
-    "POLE"
+    "KDR"
    ],
    "nodes": [
     "site-root"
@@ -7209,8 +7015,7 @@ window.CancerExplorerLiterature['colorectal'] = {
    "species_from": "mesh",
    "genes": [
     "VEGFA",
-    "KDR",
-    "POLE"
+    "KDR"
    ],
    "nodes": [
     "site-root"

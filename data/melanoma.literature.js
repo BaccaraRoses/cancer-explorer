@@ -1,6 +1,6 @@
 /* GENERATED FILE - DO NOT EDIT BY HAND.
  *
- * Produced by pipeline/run.py literature on 2026-10-18 00:47 UTC
+ * Produced by pipeline/run.py literature on 2026-11-04 05:19 UTC
  * 250 papers since 2024-01-01  (from 275 raw hits, deduplicated)
  * By tier: meta-analysis 4, preprint 9, primary 155, review 60, systematic review 5, trial 17
  * By kind: new-approach 49, resistance 79, toxicity 122
@@ -100,8 +100,7 @@ window.CancerExplorerLiterature['melanoma'] = {
    "species_from": "keywords",
    "genes": [
     "PDCD1",
-    "CTLA4",
-    "LAG3"
+    "CTLA4"
    ],
    "nodes": [
     "path-root",
@@ -129,9 +128,7 @@ window.CancerExplorerLiterature['melanoma'] = {
    "species": "human",
    "species_from": "keywords",
    "genes": [
-    "PMEL",
-    "GNAQ",
-    "GNA11"
+    "PMEL"
    ],
    "nodes": [
     "path-uveal"
@@ -159,8 +156,7 @@ window.CancerExplorerLiterature['melanoma'] = {
    "species_from": "keywords",
    "genes": [
     "PDCD1",
-    "CTLA4",
-    "LAG3"
+    "CTLA4"
    ],
    "nodes": [
     "path-root",
@@ -189,8 +185,7 @@ window.CancerExplorerLiterature['melanoma'] = {
    "species_from": "mesh",
    "genes": [
     "PDCD1",
-    "CTLA4",
-    "LAG3"
+    "CTLA4"
    ],
    "nodes": [
     "path-root",
@@ -219,8 +214,7 @@ window.CancerExplorerLiterature['melanoma'] = {
    "species_from": "keywords",
    "genes": [
     "PDCD1",
-    "CTLA4",
-    "LAG3"
+    "CTLA4"
    ],
    "nodes": [
     "path-root",
@@ -249,8 +243,7 @@ window.CancerExplorerLiterature['melanoma'] = {
    "species_from": "keywords",
    "genes": [
     "PDCD1",
-    "CTLA4",
-    "LAG3"
+    "CTLA4"
    ],
    "nodes": [
     "path-root",
@@ -327,9 +320,7 @@ window.CancerExplorerLiterature['melanoma'] = {
    "genes": [
     "BRAF",
     "MAP2K1",
-    "MAP2K2",
-    "PDCD1",
-    "CTLA4"
+    "MAP2K2"
    ],
    "nodes": [
     "drv-braf-v600e",
@@ -381,8 +372,7 @@ window.CancerExplorerLiterature['melanoma'] = {
    "species_from": "keywords",
    "genes": [
     "PDCD1",
-    "CTLA4",
-    "LAG3"
+    "CTLA4"
    ],
    "nodes": [
     "path-root",
@@ -532,8 +522,7 @@ window.CancerExplorerLiterature['melanoma'] = {
    "species_from": "mesh",
    "genes": [
     "PDCD1",
-    "CTLA4",
-    "LAG3"
+    "CTLA4"
    ],
    "nodes": [
     "path-root",
@@ -562,8 +551,7 @@ window.CancerExplorerLiterature['melanoma'] = {
    "species_from": "keywords",
    "genes": [
     "PDCD1",
-    "CTLA4",
-    "LAG3"
+    "CTLA4"
    ],
    "nodes": [
     "path-root",
@@ -592,8 +580,7 @@ window.CancerExplorerLiterature['melanoma'] = {
    "species_from": "mesh",
    "genes": [
     "PDCD1",
-    "CTLA4",
-    "LAG3"
+    "CTLA4"
    ],
    "nodes": [
     "path-root",
@@ -621,9 +608,7 @@ window.CancerExplorerLiterature['melanoma'] = {
    "species": "unclear",
    "species_from": "none",
    "genes": [
-    "PMEL",
-    "GNAQ",
-    "GNA11"
+    "PMEL"
    ],
    "nodes": [
     "path-uveal"
@@ -651,8 +636,7 @@ window.CancerExplorerLiterature['melanoma'] = {
    "species_from": "keywords",
    "genes": [
     "PDCD1",
-    "CTLA4",
-    "LAG3"
+    "CTLA4"
    ],
    "nodes": [
     "path-root",
@@ -681,8 +665,7 @@ window.CancerExplorerLiterature['melanoma'] = {
    "species_from": "mesh",
    "genes": [
     "PDCD1",
-    "CTLA4",
-    "LAG3"
+    "CTLA4"
    ],
    "nodes": [
     "path-root",
@@ -711,8 +694,7 @@ window.CancerExplorerLiterature['melanoma'] = {
    "species_from": "mesh",
    "genes": [
     "PDCD1",
-    "CTLA4",
-    "LAG3"
+    "CTLA4"
    ],
    "nodes": [
     "path-root",
@@ -741,9 +723,7 @@ window.CancerExplorerLiterature['melanoma'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "PMEL",
-    "GNAQ",
-    "GNA11"
+    "PMEL"
    ],
    "nodes": [
     "path-uveal"
@@ -772,9 +752,7 @@ window.CancerExplorerLiterature['melanoma'] = {
    "genes": [
     "BRAF",
     "MAP2K1",
-    "MAP2K2",
-    "PDCD1",
-    "CTLA4"
+    "MAP2K2"
    ],
    "nodes": [
     "drv-braf-v600e",
@@ -802,9 +780,7 @@ window.CancerExplorerLiterature['melanoma'] = {
    "species": "human",
    "species_from": "keywords",
    "genes": [
-    "PMEL",
-    "GNAQ",
-    "GNA11"
+    "PMEL"
    ],
    "nodes": [
     "path-uveal"
@@ -834,9 +810,7 @@ window.CancerExplorerLiterature['melanoma'] = {
    "genes": [
     "BRAF",
     "MAP2K1",
-    "MAP2K2",
-    "PDCD1",
-    "CTLA4"
+    "MAP2K2"
    ],
    "nodes": [
     "drv-braf-v600e",
@@ -865,8 +839,7 @@ window.CancerExplorerLiterature['melanoma'] = {
    "species_from": "none",
    "genes": [
     "PDCD1",
-    "CTLA4",
-    "LAG3"
+    "CTLA4"
    ],
    "nodes": [
     "path-root",
@@ -895,8 +868,7 @@ window.CancerExplorerLiterature['melanoma'] = {
    "species_from": "none",
    "genes": [
     "PDCD1",
-    "CTLA4",
-    "LAG3"
+    "CTLA4"
    ],
    "nodes": [
     "path-root",
@@ -950,9 +922,7 @@ window.CancerExplorerLiterature['melanoma'] = {
    "genes": [
     "BRAF",
     "MAP2K1",
-    "MAP2K2",
-    "PDCD1",
-    "CTLA4"
+    "MAP2K2"
    ],
    "nodes": [
     "drv-braf-v600e",
@@ -1004,8 +974,7 @@ window.CancerExplorerLiterature['melanoma'] = {
    "species_from": "mesh",
    "genes": [
     "PDCD1",
-    "CTLA4",
-    "LAG3"
+    "CTLA4"
    ],
    "nodes": [
     "path-root",
@@ -1035,9 +1004,7 @@ window.CancerExplorerLiterature['melanoma'] = {
    "genes": [
     "BRAF",
     "MAP2K1",
-    "MAP2K2",
-    "PDCD1",
-    "CTLA4"
+    "MAP2K2"
    ],
    "nodes": [
     "drv-braf-v600e",
@@ -1091,8 +1058,7 @@ window.CancerExplorerLiterature['melanoma'] = {
    "species_from": "mesh",
    "genes": [
     "PDCD1",
-    "CTLA4",
-    "LAG3"
+    "CTLA4"
    ],
    "nodes": [
     "path-root",
@@ -1175,9 +1141,7 @@ window.CancerExplorerLiterature['melanoma'] = {
    "genes": [
     "BRAF",
     "MAP2K1",
-    "MAP2K2",
-    "PDCD1",
-    "CTLA4"
+    "MAP2K2"
    ],
    "nodes": [
     "drv-braf-v600e",
@@ -1207,9 +1171,7 @@ window.CancerExplorerLiterature['melanoma'] = {
    "genes": [
     "BRAF",
     "MAP2K1",
-    "MAP2K2",
-    "PDCD1",
-    "CTLA4"
+    "MAP2K2"
    ],
    "nodes": [
     "drv-braf-v600e",
@@ -1238,8 +1200,7 @@ window.CancerExplorerLiterature['melanoma'] = {
    "species_from": "mesh",
    "genes": [
     "PDCD1",
-    "CTLA4",
-    "LAG3"
+    "CTLA4"
    ],
    "nodes": [
     "path-root",
@@ -1292,8 +1253,7 @@ window.CancerExplorerLiterature['melanoma'] = {
    "species_from": "mesh",
    "genes": [
     "PDCD1",
-    "CTLA4",
-    "LAG3"
+    "CTLA4"
    ],
    "nodes": [
     "path-root",
@@ -1323,8 +1283,7 @@ window.CancerExplorerLiterature['melanoma'] = {
    "species_from": "mesh",
    "genes": [
     "PDCD1",
-    "CTLA4",
-    "LAG3"
+    "CTLA4"
    ],
    "nodes": [
     "path-root",
@@ -1359,8 +1318,7 @@ window.CancerExplorerLiterature['melanoma'] = {
    "species_from": "mesh",
    "genes": [
     "PDCD1",
-    "CTLA4",
-    "LAG3"
+    "CTLA4"
    ],
    "nodes": [
     "path-root",
@@ -1430,9 +1388,7 @@ window.CancerExplorerLiterature['melanoma'] = {
    "genes": [
     "BRAF",
     "MAP2K1",
-    "MAP2K2",
-    "PDCD1",
-    "CTLA4"
+    "MAP2K2"
    ],
    "nodes": [
     "drv-braf-v600e",
@@ -1461,8 +1417,7 @@ window.CancerExplorerLiterature['melanoma'] = {
    "species_from": "mesh",
    "genes": [
     "PDCD1",
-    "CTLA4",
-    "LAG3"
+    "CTLA4"
    ],
    "nodes": [
     "path-root",
@@ -1570,8 +1525,7 @@ window.CancerExplorerLiterature['melanoma'] = {
    "species_from": "keywords",
    "genes": [
     "PDCD1",
-    "CTLA4",
-    "LAG3"
+    "CTLA4"
    ],
    "nodes": [
     "path-root",
@@ -1644,9 +1598,7 @@ window.CancerExplorerLiterature['melanoma'] = {
    "genes": [
     "BRAF",
     "MAP2K1",
-    "MAP2K2",
-    "PDCD1",
-    "CTLA4"
+    "MAP2K2"
    ],
    "nodes": [
     "drv-braf-v600e",
@@ -1675,8 +1627,7 @@ window.CancerExplorerLiterature['melanoma'] = {
    "species_from": "mesh",
    "genes": [
     "PDCD1",
-    "CTLA4",
-    "LAG3"
+    "CTLA4"
    ],
    "nodes": [
     "path-root",
@@ -1791,8 +1742,7 @@ window.CancerExplorerLiterature['melanoma'] = {
    "species_from": "mesh",
    "genes": [
     "PDCD1",
-    "CTLA4",
-    "LAG3"
+    "CTLA4"
    ],
    "nodes": [
     "path-root",
@@ -1873,9 +1823,7 @@ window.CancerExplorerLiterature['melanoma'] = {
    "species": "human",
    "species_from": "keywords",
    "genes": [
-    "PMEL",
-    "GNAQ",
-    "GNA11"
+    "PMEL"
    ],
    "nodes": [
     "path-uveal"
@@ -1903,8 +1851,7 @@ window.CancerExplorerLiterature['melanoma'] = {
    "species_from": "mesh",
    "genes": [
     "PDCD1",
-    "CTLA4",
-    "LAG3"
+    "CTLA4"
    ],
    "nodes": [
     "path-root",
@@ -1957,8 +1904,7 @@ window.CancerExplorerLiterature['melanoma'] = {
    "species_from": "mesh",
    "genes": [
     "PDCD1",
-    "CTLA4",
-    "LAG3"
+    "CTLA4"
    ],
    "nodes": [
     "path-root",
@@ -2020,9 +1966,7 @@ window.CancerExplorerLiterature['melanoma'] = {
    "species": "human",
    "species_from": "keywords",
    "genes": [
-    "PMEL",
-    "GNAQ",
-    "GNA11"
+    "PMEL"
    ],
    "nodes": [
     "path-uveal"
@@ -2075,8 +2019,7 @@ window.CancerExplorerLiterature['melanoma'] = {
    "species_from": "keywords",
    "genes": [
     "PDCD1",
-    "CTLA4",
-    "LAG3"
+    "CTLA4"
    ],
    "nodes": [
     "path-root",
@@ -2156,9 +2099,7 @@ window.CancerExplorerLiterature['melanoma'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "PMEL",
-    "GNAQ",
-    "GNA11"
+    "PMEL"
    ],
    "nodes": [
     "path-uveal"
@@ -2187,9 +2128,7 @@ window.CancerExplorerLiterature['melanoma'] = {
    "genes": [
     "BRAF",
     "MAP2K1",
-    "MAP2K2",
-    "PDCD1",
-    "CTLA4"
+    "MAP2K2"
    ],
    "nodes": [
     "drv-braf-v600e",
@@ -2219,9 +2158,7 @@ window.CancerExplorerLiterature['melanoma'] = {
    "genes": [
     "BRAF",
     "MAP2K1",
-    "MAP2K2",
-    "PDCD1",
-    "CTLA4"
+    "MAP2K2"
    ],
    "nodes": [
     "drv-braf-v600e",
@@ -2273,9 +2210,7 @@ window.CancerExplorerLiterature['melanoma'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "PMEL",
-    "GNAQ",
-    "GNA11"
+    "PMEL"
    ],
    "nodes": [
     "path-uveal"
@@ -2350,9 +2285,7 @@ window.CancerExplorerLiterature['melanoma'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "PMEL",
-    "GNAQ",
-    "GNA11"
+    "PMEL"
    ],
    "nodes": [
     "path-uveal"
@@ -2434,9 +2367,7 @@ window.CancerExplorerLiterature['melanoma'] = {
    "genes": [
     "BRAF",
     "MAP2K1",
-    "MAP2K2",
-    "PDCD1",
-    "CTLA4"
+    "MAP2K2"
    ],
    "nodes": [
     "drv-braf-v600e",
@@ -2489,8 +2420,7 @@ window.CancerExplorerLiterature['melanoma'] = {
    "species_from": "mesh",
    "genes": [
     "PDCD1",
-    "CTLA4",
-    "LAG3"
+    "CTLA4"
    ],
    "nodes": [
     "path-root",
@@ -2549,9 +2479,7 @@ window.CancerExplorerLiterature['melanoma'] = {
    "genes": [
     "BRAF",
     "MAP2K1",
-    "MAP2K2",
-    "PDCD1",
-    "CTLA4"
+    "MAP2K2"
    ],
    "nodes": [
     "drv-braf-v600e",
@@ -2627,9 +2555,7 @@ window.CancerExplorerLiterature['melanoma'] = {
    "genes": [
     "BRAF",
     "MAP2K1",
-    "MAP2K2",
-    "PDCD1",
-    "CTLA4"
+    "MAP2K2"
    ],
    "nodes": [
     "drv-braf-v600e",
@@ -2685,8 +2611,7 @@ window.CancerExplorerLiterature['melanoma'] = {
    "species_from": "mesh",
    "genes": [
     "PDCD1",
-    "CTLA4",
-    "LAG3"
+    "CTLA4"
    ],
    "nodes": [
     "path-root",
@@ -2715,8 +2640,7 @@ window.CancerExplorerLiterature['melanoma'] = {
    "species_from": "keywords",
    "genes": [
     "PDCD1",
-    "CTLA4",
-    "LAG3"
+    "CTLA4"
    ],
    "nodes": [
     "path-root",
@@ -2753,9 +2677,7 @@ window.CancerExplorerLiterature['melanoma'] = {
    "genes": [
     "BRAF",
     "MAP2K1",
-    "MAP2K2",
-    "PDCD1",
-    "CTLA4"
+    "MAP2K2"
    ],
    "nodes": [
     "drv-braf-v600e",
@@ -2784,8 +2706,7 @@ window.CancerExplorerLiterature['melanoma'] = {
    "species_from": "mesh",
    "genes": [
     "PDCD1",
-    "CTLA4",
-    "LAG3"
+    "CTLA4"
    ],
    "nodes": [
     "path-root",
@@ -2815,9 +2736,7 @@ window.CancerExplorerLiterature['melanoma'] = {
    "genes": [
     "BRAF",
     "MAP2K1",
-    "MAP2K2",
-    "PDCD1",
-    "CTLA4"
+    "MAP2K2"
    ],
    "nodes": [
     "drv-braf-v600e",
@@ -2870,8 +2789,7 @@ window.CancerExplorerLiterature['melanoma'] = {
    "species_from": "mesh",
    "genes": [
     "PDCD1",
-    "CTLA4",
-    "LAG3"
+    "CTLA4"
    ],
    "nodes": [
     "path-root",
@@ -2926,9 +2844,7 @@ window.CancerExplorerLiterature['melanoma'] = {
    "genes": [
     "BRAF",
     "MAP2K1",
-    "MAP2K2",
-    "PDCD1",
-    "CTLA4"
+    "MAP2K2"
    ],
    "nodes": [
     "drv-braf-v600e",
@@ -2958,9 +2874,7 @@ window.CancerExplorerLiterature['melanoma'] = {
    "genes": [
     "BRAF",
     "MAP2K1",
-    "MAP2K2",
-    "PDCD1",
-    "CTLA4"
+    "MAP2K2"
    ],
    "nodes": [
     "drv-braf-v600e",
@@ -3042,9 +2956,7 @@ window.CancerExplorerLiterature['melanoma'] = {
    "genes": [
     "BRAF",
     "MAP2K1",
-    "MAP2K2",
-    "PDCD1",
-    "CTLA4"
+    "MAP2K2"
    ],
    "nodes": [
     "drv-braf-v600e",
@@ -3075,9 +2987,7 @@ window.CancerExplorerLiterature['melanoma'] = {
    "genes": [
     "BRAF",
     "MAP2K1",
-    "MAP2K2",
-    "PDCD1",
-    "CTLA4"
+    "MAP2K2"
    ],
    "nodes": [
     "drv-braf-v600e",
@@ -3106,8 +3016,7 @@ window.CancerExplorerLiterature['melanoma'] = {
    "species_from": "mesh",
    "genes": [
     "PDCD1",
-    "CTLA4",
-    "LAG3"
+    "CTLA4"
    ],
    "nodes": [
     "path-root",
@@ -3244,8 +3153,7 @@ window.CancerExplorerLiterature['melanoma'] = {
    "species_from": "mesh",
    "genes": [
     "PDCD1",
-    "CTLA4",
-    "LAG3"
+    "CTLA4"
    ],
    "nodes": [
     "path-root",
@@ -3299,9 +3207,7 @@ window.CancerExplorerLiterature['melanoma'] = {
    "genes": [
     "BRAF",
     "MAP2K1",
-    "MAP2K2",
-    "PDCD1",
-    "CTLA4"
+    "MAP2K2"
    ],
    "nodes": [
     "drv-braf-v600e",
@@ -3330,8 +3236,7 @@ window.CancerExplorerLiterature['melanoma'] = {
    "species_from": "mesh",
    "genes": [
     "PDCD1",
-    "CTLA4",
-    "LAG3"
+    "CTLA4"
    ],
    "nodes": [
     "path-root",
@@ -3361,9 +3266,7 @@ window.CancerExplorerLiterature['melanoma'] = {
    "genes": [
     "BRAF",
     "MAP2K1",
-    "MAP2K2",
-    "PDCD1",
-    "CTLA4"
+    "MAP2K2"
    ],
    "nodes": [
     "drv-braf-v600e",
@@ -3416,9 +3319,7 @@ window.CancerExplorerLiterature['melanoma'] = {
    "genes": [
     "BRAF",
     "MAP2K1",
-    "MAP2K2",
-    "PDCD1",
-    "CTLA4"
+    "MAP2K2"
    ],
    "nodes": [
     "drv-braf-v600e",
@@ -3447,8 +3348,7 @@ window.CancerExplorerLiterature['melanoma'] = {
    "species_from": "mesh",
    "genes": [
     "PDCD1",
-    "CTLA4",
-    "LAG3"
+    "CTLA4"
    ],
    "nodes": [
     "path-root",
@@ -3478,9 +3378,7 @@ window.CancerExplorerLiterature['melanoma'] = {
    "genes": [
     "BRAF",
     "MAP2K1",
-    "MAP2K2",
-    "PDCD1",
-    "CTLA4"
+    "MAP2K2"
    ],
    "nodes": [
     "drv-braf-v600e",
@@ -3511,9 +3409,7 @@ window.CancerExplorerLiterature['melanoma'] = {
    "genes": [
     "BRAF",
     "MAP2K1",
-    "MAP2K2",
-    "PDCD1",
-    "CTLA4"
+    "MAP2K2"
    ],
    "nodes": [
     "drv-braf-v600e",
@@ -3543,9 +3439,7 @@ window.CancerExplorerLiterature['melanoma'] = {
    "genes": [
     "BRAF",
     "MAP2K1",
-    "MAP2K2",
-    "PDCD1",
-    "CTLA4"
+    "MAP2K2"
    ],
    "nodes": [
     "drv-braf-v600e",
@@ -3574,8 +3468,7 @@ window.CancerExplorerLiterature['melanoma'] = {
    "species_from": "mesh",
    "genes": [
     "PDCD1",
-    "CTLA4",
-    "LAG3"
+    "CTLA4"
    ],
    "nodes": [
     "path-root",
@@ -3605,9 +3498,7 @@ window.CancerExplorerLiterature['melanoma'] = {
    "genes": [
     "BRAF",
     "MAP2K1",
-    "MAP2K2",
-    "PDCD1",
-    "CTLA4"
+    "MAP2K2"
    ],
    "nodes": [
     "drv-braf-v600e",
@@ -3637,9 +3528,7 @@ window.CancerExplorerLiterature['melanoma'] = {
    "genes": [
     "BRAF",
     "MAP2K1",
-    "MAP2K2",
-    "PDCD1",
-    "CTLA4"
+    "MAP2K2"
    ],
    "nodes": [
     "drv-braf-v600e",
@@ -3702,9 +3591,7 @@ window.CancerExplorerLiterature['melanoma'] = {
    "genes": [
     "BRAF",
     "MAP2K1",
-    "MAP2K2",
-    "PDCD1",
-    "CTLA4"
+    "MAP2K2"
    ],
    "nodes": [
     "drv-braf-v600e",
@@ -3733,8 +3620,7 @@ window.CancerExplorerLiterature['melanoma'] = {
    "species_from": "mesh",
    "genes": [
     "PDCD1",
-    "CTLA4",
-    "LAG3"
+    "CTLA4"
    ],
    "nodes": [
     "path-root",
@@ -3798,9 +3684,7 @@ window.CancerExplorerLiterature['melanoma'] = {
    "genes": [
     "BRAF",
     "MAP2K1",
-    "MAP2K2",
-    "PDCD1",
-    "CTLA4"
+    "MAP2K2"
    ],
    "nodes": [
     "drv-braf-v600e",
@@ -3858,8 +3742,7 @@ window.CancerExplorerLiterature['melanoma'] = {
    "species_from": "mesh",
    "genes": [
     "PDCD1",
-    "CTLA4",
-    "LAG3"
+    "CTLA4"
    ],
    "nodes": [
     "path-root",
@@ -4103,9 +3986,7 @@ window.CancerExplorerLiterature['melanoma'] = {
    "genes": [
     "BRAF",
     "MAP2K1",
-    "MAP2K2",
-    "PDCD1",
-    "CTLA4"
+    "MAP2K2"
    ],
    "nodes": [
     "drv-braf-v600e",
@@ -4344,9 +4225,7 @@ window.CancerExplorerLiterature['melanoma'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "PMEL",
-    "GNAQ",
-    "GNA11"
+    "PMEL"
    ],
    "nodes": [
     "path-uveal"
@@ -4403,8 +4282,7 @@ window.CancerExplorerLiterature['melanoma'] = {
    "species_from": "mesh",
    "genes": [
     "PDCD1",
-    "CTLA4",
-    "LAG3"
+    "CTLA4"
    ],
    "nodes": [
     "path-root",
@@ -4436,9 +4314,7 @@ window.CancerExplorerLiterature['melanoma'] = {
    "genes": [
     "BRAF",
     "MAP2K1",
-    "MAP2K2",
-    "PDCD1",
-    "CTLA4"
+    "MAP2K2"
    ],
    "nodes": [
     "drv-braf-v600e",
@@ -4468,9 +4344,7 @@ window.CancerExplorerLiterature['melanoma'] = {
    "genes": [
     "BRAF",
     "MAP2K1",
-    "MAP2K2",
-    "PDCD1",
-    "CTLA4"
+    "MAP2K2"
    ],
    "nodes": [
     "drv-braf-v600e",
@@ -4498,9 +4372,7 @@ window.CancerExplorerLiterature['melanoma'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "PMEL",
-    "GNAQ",
-    "GNA11"
+    "PMEL"
    ],
    "nodes": [
     "path-uveal"
@@ -4600,9 +4472,7 @@ window.CancerExplorerLiterature['melanoma'] = {
    "species": "mouse",
    "species_from": "mesh",
    "genes": [
-    "PMEL",
-    "GNAQ",
-    "GNA11"
+    "PMEL"
    ],
    "nodes": [
     "path-uveal"
@@ -4714,9 +4584,7 @@ window.CancerExplorerLiterature['melanoma'] = {
    "species": "human",
    "species_from": "keywords",
    "genes": [
-    "PMEL",
-    "GNAQ",
-    "GNA11"
+    "PMEL"
    ],
    "nodes": [
     "path-uveal"
@@ -4770,9 +4638,7 @@ window.CancerExplorerLiterature['melanoma'] = {
    "genes": [
     "BRAF",
     "MAP2K1",
-    "MAP2K2",
-    "PDCD1",
-    "CTLA4"
+    "MAP2K2"
    ],
    "nodes": [
     "drv-braf-v600e",
@@ -4801,8 +4667,7 @@ window.CancerExplorerLiterature['melanoma'] = {
    "species_from": "mesh",
    "genes": [
     "PDCD1",
-    "CTLA4",
-    "LAG3"
+    "CTLA4"
    ],
    "nodes": [
     "path-root",
@@ -4857,9 +4722,7 @@ window.CancerExplorerLiterature['melanoma'] = {
    "genes": [
     "BRAF",
     "MAP2K1",
-    "MAP2K2",
-    "PDCD1",
-    "CTLA4"
+    "MAP2K2"
    ],
    "nodes": [
     "drv-braf-v600e",
@@ -4914,9 +4777,7 @@ window.CancerExplorerLiterature['melanoma'] = {
    "genes": [
     "BRAF",
     "MAP2K1",
-    "MAP2K2",
-    "PDCD1",
-    "CTLA4"
+    "MAP2K2"
    ],
    "nodes": [
     "drv-braf-v600e",
@@ -5077,9 +4938,7 @@ window.CancerExplorerLiterature['melanoma'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "PMEL",
-    "GNAQ",
-    "GNA11"
+    "PMEL"
    ],
    "nodes": [
     "path-uveal"
@@ -5245,9 +5104,7 @@ window.CancerExplorerLiterature['melanoma'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "PMEL",
-    "GNAQ",
-    "GNA11"
+    "PMEL"
    ],
    "nodes": [
     "path-uveal"
@@ -5275,8 +5132,7 @@ window.CancerExplorerLiterature['melanoma'] = {
    "species_from": "mesh",
    "genes": [
     "PDCD1",
-    "CTLA4",
-    "LAG3"
+    "CTLA4"
    ],
    "nodes": [
     "path-root",
@@ -5304,9 +5160,7 @@ window.CancerExplorerLiterature['melanoma'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "PMEL",
-    "GNAQ",
-    "GNA11"
+    "PMEL"
    ],
    "nodes": [
     "path-uveal"
@@ -5377,8 +5231,7 @@ window.CancerExplorerLiterature['melanoma'] = {
    "species_from": "keywords",
    "genes": [
     "PDCD1",
-    "CTLA4",
-    "LAG3"
+    "CTLA4"
    ],
    "nodes": [
     "path-root",
@@ -5435,8 +5288,7 @@ window.CancerExplorerLiterature['melanoma'] = {
    "species_from": "mesh",
    "genes": [
     "PDCD1",
-    "CTLA4",
-    "LAG3"
+    "CTLA4"
    ],
    "nodes": [
     "path-root",
@@ -5494,9 +5346,7 @@ window.CancerExplorerLiterature['melanoma'] = {
    "genes": [
     "BRAF",
     "MAP2K1",
-    "MAP2K2",
-    "PDCD1",
-    "CTLA4"
+    "MAP2K2"
    ],
    "nodes": [
     "drv-braf-v600e",
@@ -5575,9 +5425,7 @@ window.CancerExplorerLiterature['melanoma'] = {
    "species": "mouse",
    "species_from": "mesh",
    "genes": [
-    "PMEL",
-    "GNAQ",
-    "GNA11"
+    "PMEL"
    ],
    "nodes": [
     "path-uveal"
@@ -5606,9 +5454,7 @@ window.CancerExplorerLiterature['melanoma'] = {
    "genes": [
     "BRAF",
     "MAP2K1",
-    "MAP2K2",
-    "PDCD1",
-    "CTLA4"
+    "MAP2K2"
    ],
    "nodes": [
     "drv-braf-v600e",
@@ -5639,9 +5485,7 @@ window.CancerExplorerLiterature['melanoma'] = {
    "genes": [
     "BRAF",
     "MAP2K1",
-    "MAP2K2",
-    "PDCD1",
-    "CTLA4"
+    "MAP2K2"
    ],
    "nodes": [
     "drv-braf-v600e",
@@ -5867,8 +5711,7 @@ window.CancerExplorerLiterature['melanoma'] = {
    "species_from": "keywords",
    "genes": [
     "PDCD1",
-    "CTLA4",
-    "LAG3"
+    "CTLA4"
    ],
    "nodes": [
     "path-root",
@@ -5897,8 +5740,7 @@ window.CancerExplorerLiterature['melanoma'] = {
    "species_from": "mesh",
    "genes": [
     "PDCD1",
-    "CTLA4",
-    "LAG3"
+    "CTLA4"
    ],
    "nodes": [
     "path-root",
@@ -6027,8 +5869,7 @@ window.CancerExplorerLiterature['melanoma'] = {
    "species_from": "mesh",
    "genes": [
     "PDCD1",
-    "CTLA4",
-    "LAG3"
+    "CTLA4"
    ],
    "nodes": [
     "path-root",
@@ -6056,9 +5897,7 @@ window.CancerExplorerLiterature['melanoma'] = {
    "species": "human",
    "species_from": "keywords",
    "genes": [
-    "PMEL",
-    "GNAQ",
-    "GNA11"
+    "PMEL"
    ],
    "nodes": [
     "path-uveal"
@@ -6087,9 +5926,7 @@ window.CancerExplorerLiterature['melanoma'] = {
    "genes": [
     "BRAF",
     "MAP2K1",
-    "MAP2K2",
-    "PDCD1",
-    "CTLA4"
+    "MAP2K2"
    ],
    "nodes": [
     "drv-braf-v600e",
@@ -6119,9 +5956,7 @@ window.CancerExplorerLiterature['melanoma'] = {
    "genes": [
     "BRAF",
     "MAP2K1",
-    "MAP2K2",
-    "PDCD1",
-    "CTLA4"
+    "MAP2K2"
    ],
    "nodes": [
     "drv-braf-v600e",
@@ -6306,9 +6141,7 @@ window.CancerExplorerLiterature['melanoma'] = {
    "genes": [
     "BRAF",
     "MAP2K1",
-    "MAP2K2",
-    "PDCD1",
-    "CTLA4"
+    "MAP2K2"
    ],
    "nodes": [
     "drv-braf-v600e",
@@ -6336,9 +6169,7 @@ window.CancerExplorerLiterature['melanoma'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "PMEL",
-    "GNAQ",
-    "GNA11"
+    "PMEL"
    ],
    "nodes": [
     "path-uveal"
@@ -6394,9 +6225,7 @@ window.CancerExplorerLiterature['melanoma'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "PMEL",
-    "GNAQ",
-    "GNA11"
+    "PMEL"
    ],
    "nodes": [
     "path-uveal"
@@ -6475,9 +6304,7 @@ window.CancerExplorerLiterature['melanoma'] = {
    "genes": [
     "BRAF",
     "MAP2K1",
-    "MAP2K2",
-    "PDCD1",
-    "CTLA4"
+    "MAP2K2"
    ],
    "nodes": [
     "drv-braf-v600e",
@@ -6507,9 +6334,7 @@ window.CancerExplorerLiterature['melanoma'] = {
    "genes": [
     "BRAF",
     "MAP2K1",
-    "MAP2K2",
-    "PDCD1",
-    "CTLA4"
+    "MAP2K2"
    ],
    "nodes": [
     "drv-braf-v600e",
@@ -6709,9 +6534,7 @@ window.CancerExplorerLiterature['melanoma'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "PMEL",
-    "GNAQ",
-    "GNA11"
+    "PMEL"
    ],
    "nodes": [
     "path-uveal"
@@ -6858,9 +6681,7 @@ window.CancerExplorerLiterature['melanoma'] = {
    "genes": [
     "BRAF",
     "MAP2K1",
-    "MAP2K2",
-    "PDCD1",
-    "CTLA4"
+    "MAP2K2"
    ],
    "nodes": [
     "drv-braf-v600e",
@@ -6918,9 +6739,7 @@ window.CancerExplorerLiterature['melanoma'] = {
    "genes": [
     "BRAF",
     "MAP2K1",
-    "MAP2K2",
-    "PDCD1",
-    "CTLA4"
+    "MAP2K2"
    ],
    "nodes": [
     "drv-braf-v600e",
@@ -7063,9 +6882,7 @@ window.CancerExplorerLiterature['melanoma'] = {
    "genes": [
     "BRAF",
     "MAP2K1",
-    "MAP2K2",
-    "PDCD1",
-    "CTLA4"
+    "MAP2K2"
    ],
    "nodes": [
     "drv-braf-v600e",
@@ -7297,9 +7114,7 @@ window.CancerExplorerLiterature['melanoma'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "PMEL",
-    "GNAQ",
-    "GNA11"
+    "PMEL"
    ],
    "nodes": [
     "path-uveal"
@@ -7326,9 +7141,7 @@ window.CancerExplorerLiterature['melanoma'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "PMEL",
-    "GNAQ",
-    "GNA11"
+    "PMEL"
    ],
    "nodes": [
     "path-uveal"

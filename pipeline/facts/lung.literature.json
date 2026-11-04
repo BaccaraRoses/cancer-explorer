@@ -188,10 +188,7 @@
       "species": "unclear",
       "species_from": "none",
       "genes": [
-        "EGFR",
-        "MET",
-        "TACSTD2",
-        "ERBB2"
+        "EGFR"
       ],
       "nodes": [
         "drv-egfr",
@@ -248,9 +245,7 @@
       "species_from": "keywords",
       "genes": [
         "EGFR",
-        "MET",
-        "TACSTD2",
-        "ERBB2"
+        "MET"
       ],
       "nodes": [
         "drv-egfr",
@@ -492,10 +487,7 @@
       "species": "mouse",
       "species_from": "keywords",
       "genes": [
-        "EGFR",
-        "MET",
-        "TACSTD2",
-        "ERBB2"
+        "EGFR"
       ],
       "nodes": [
         "drv-egfr",
@@ -561,12 +553,7 @@
       "species": "human",
       "species_from": "keywords",
       "genes": [
-        "DLL3",
-        "EGFR",
-        "MET",
-        "NRG1",
-        "TP53",
-        "RB1"
+        "DLL3"
       ],
       "nodes": [
         "hist-sclc"
@@ -629,8 +616,7 @@
       "species_from": "keywords",
       "genes": [
         "TACSTD2",
-        "ERBB2",
-        "MET"
+        "ERBB2"
       ],
       "nodes": [
         "res-treated",
@@ -665,11 +651,7 @@
       "species_from": "keywords",
       "genes": [
         "DLL3",
-        "EGFR",
-        "MET",
-        "NRG1",
-        "TP53",
-        "RB1"
+        "EGFR"
       ],
       "nodes": [
         "hist-sclc",
@@ -762,12 +744,7 @@
       "species": "human",
       "species_from": "keywords",
       "genes": [
-        "DLL3",
-        "EGFR",
-        "MET",
-        "NRG1",
-        "TP53",
-        "RB1"
+        "DLL3"
       ],
       "nodes": [
         "hist-sclc"
@@ -938,10 +915,7 @@
       "species": "human",
       "species_from": "keywords",
       "genes": [
-        "EGFR",
-        "MET",
-        "TACSTD2",
-        "ERBB2"
+        "EGFR"
       ],
       "nodes": [
         "drv-egfr",
@@ -972,12 +946,7 @@
       "species": "unclear",
       "species_from": "none",
       "genes": [
-        "DLL3",
-        "EGFR",
-        "MET",
-        "NRG1",
-        "TP53",
-        "RB1"
+        "DLL3"
       ],
       "nodes": [
         "hist-sclc"
@@ -1244,10 +1213,7 @@
       "species": "human",
       "species_from": "keywords",
       "genes": [
-        "EGFR",
-        "MET",
-        "TACSTD2",
-        "ERBB2"
+        "EGFR"
       ],
       "nodes": [
         "drv-egfr",
@@ -1349,8 +1315,7 @@
       "species_from": "keywords",
       "genes": [
         "TACSTD2",
-        "ERBB2",
-        "MET"
+        "ERBB2"
       ],
       "nodes": [
         "res-treated",
@@ -1378,10 +1343,7 @@
       "species": "human",
       "species_from": "keywords",
       "genes": [
-        "EGFR",
-        "MET",
-        "TACSTD2",
-        "ERBB2"
+        "EGFR"
       ],
       "nodes": [
         "drv-egfr",
@@ -1482,10 +1444,7 @@
       "species": "mouse",
       "species_from": "keywords",
       "genes": [
-        "EGFR",
-        "MET",
-        "TACSTD2",
-        "ERBB2"
+        "EGFR"
       ],
       "nodes": [
         "drv-egfr",
@@ -1587,12 +1546,7 @@
       "species": "mouse",
       "species_from": "keywords",
       "genes": [
-        "DLL3",
-        "EGFR",
-        "MET",
-        "NRG1",
-        "TP53",
-        "RB1"
+        "DLL3"
       ],
       "nodes": [
         "hist-sclc"
@@ -1684,10 +1638,7 @@
       "species": "human",
       "species_from": "keywords",
       "genes": [
-        "EGFR",
-        "MET",
-        "TACSTD2",
-        "ERBB2"
+        "EGFR"
       ],
       "nodes": [
         "drv-egfr",
@@ -1716,12 +1667,7 @@
       "species": "unclear",
       "species_from": "none",
       "genes": [
-        "DLL3",
-        "EGFR",
-        "MET",
-        "NRG1",
-        "TP53",
-        "RB1"
+        "DLL3"
       ],
       "nodes": [
         "hist-sclc"
@@ -1754,10 +1700,7 @@
       "species": "cell line",
       "species_from": "keywords",
       "genes": [
-        "EGFR",
-        "MET",
-        "TACSTD2",
-        "ERBB2"
+        "EGFR"
       ],
       "nodes": [
         "drv-egfr",
@@ -1821,12 +1764,7 @@
       "species": "human",
       "species_from": "keywords",
       "genes": [
-        "DLL3",
-        "EGFR",
-        "MET",
-        "NRG1",
-        "TP53",
-        "RB1"
+        "DLL3"
       ],
       "nodes": [
         "hist-sclc"
@@ -2003,10 +1941,7 @@
       "species": "human",
       "species_from": "mesh",
       "genes": [
-        "EGFR",
-        "MET",
-        "TACSTD2",
-        "ERBB2"
+        "EGFR"
       ],
       "nodes": [
         "drv-egfr",
@@ -2035,10 +1970,7 @@
       "species": "unclear",
       "species_from": "none",
       "genes": [
-        "EGFR",
-        "MET",
-        "TACSTD2",
-        "ERBB2"
+        "EGFR"
       ],
       "nodes": [
         "drv-egfr",
@@ -2131,8 +2063,7 @@
         "MET",
         "ERBB2",
         "ROS1",
-        "RET",
-        "BRAF"
+        "RET"
       ],
       "nodes": [
         "drv-egfr",
@@ -2208,8 +2139,7 @@
       "species_from": "keywords",
       "genes": [
         "TACSTD2",
-        "ERBB2",
-        "MET"
+        "ERBB2"
       ],
       "nodes": [
         "res-treated",
@@ -2305,10 +2235,7 @@
       "species": "human",
       "species_from": "mesh",
       "genes": [
-        "EGFR",
-        "MET",
-        "TACSTD2",
-        "ERBB2"
+        "EGFR"
       ],
       "nodes": [
         "drv-egfr",
@@ -2338,7 +2265,6 @@
       "species_from": "mesh",
       "genes": [
         "ALK",
-        "KRAS",
         "ERBB2",
         "ROS1",
         "RET",
@@ -2454,12 +2380,7 @@
       "species": "human",
       "species_from": "mesh",
       "genes": [
-        "DLL3",
-        "EGFR",
-        "MET",
-        "NRG1",
-        "TP53",
-        "RB1"
+        "DLL3"
       ],
       "nodes": [
         "hist-sclc"
@@ -2627,12 +2548,7 @@
       "species": "human",
       "species_from": "keywords",
       "genes": [
-        "ALK",
-        "KRAS",
-        "ERBB2",
-        "ROS1",
-        "RET",
-        "MET"
+        "ALK"
       ],
       "nodes": [
         "drv-alk",
@@ -2660,10 +2576,7 @@
       "species": "mouse",
       "species_from": "mesh",
       "genes": [
-        "EGFR",
-        "MET",
-        "TACSTD2",
-        "ERBB2"
+        "EGFR"
       ],
       "nodes": [
         "drv-egfr",
@@ -2731,10 +2644,7 @@
       "species": "human",
       "species_from": "keywords",
       "genes": [
-        "EGFR",
-        "MET",
-        "TACSTD2",
-        "ERBB2"
+        "EGFR"
       ],
       "nodes": [
         "drv-egfr",
@@ -2763,10 +2673,7 @@
       "species": "human",
       "species_from": "mesh",
       "genes": [
-        "EGFR",
-        "MET",
-        "TACSTD2",
-        "ERBB2"
+        "EGFR"
       ],
       "nodes": [
         "drv-egfr",
@@ -2795,12 +2702,7 @@
       "species": "unclear",
       "species_from": "none",
       "genes": [
-        "DLL3",
-        "EGFR",
-        "MET",
-        "NRG1",
-        "TP53",
-        "RB1"
+        "DLL3"
       ],
       "nodes": [
         "hist-sclc"
@@ -2870,10 +2772,7 @@
       "species": "mouse",
       "species_from": "mesh",
       "genes": [
-        "EGFR",
-        "MET",
-        "TACSTD2",
-        "ERBB2"
+        "EGFR"
       ],
       "nodes": [
         "drv-egfr",
@@ -3083,10 +2982,7 @@
       "species": "human",
       "species_from": "mesh",
       "genes": [
-        "EGFR",
-        "MET",
-        "TACSTD2",
-        "ERBB2"
+        "EGFR"
       ],
       "nodes": [
         "drv-egfr",
@@ -3115,12 +3011,7 @@
       "species": "human",
       "species_from": "keywords",
       "genes": [
-        "ALK",
-        "KRAS",
-        "ERBB2",
-        "ROS1",
-        "RET",
-        "MET"
+        "ALK"
       ],
       "nodes": [
         "drv-alk",
@@ -3149,8 +3040,7 @@
       "species_from": "keywords",
       "genes": [
         "TACSTD2",
-        "ERBB2",
-        "MET"
+        "ERBB2"
       ],
       "nodes": [
         "res-treated",
@@ -3178,10 +3068,7 @@
       "species": "human",
       "species_from": "mesh",
       "genes": [
-        "EGFR",
-        "MET",
-        "TACSTD2",
-        "ERBB2"
+        "EGFR"
       ],
       "nodes": [
         "drv-egfr",
@@ -3237,10 +3124,7 @@
       "species": "unclear",
       "species_from": "none",
       "genes": [
-        "EGFR",
-        "MET",
-        "TACSTD2",
-        "ERBB2"
+        "EGFR"
       ],
       "nodes": [
         "drv-egfr",
@@ -3334,11 +3218,7 @@
       "species_from": "mesh",
       "genes": [
         "EGFR",
-        "MET",
-        "ERBB2",
-        "ROS1",
-        "RET",
-        "BRAF"
+        "MET"
       ],
       "nodes": [
         "drv-egfr",
@@ -3435,8 +3315,7 @@
       "species_from": "keywords",
       "genes": [
         "TACSTD2",
-        "ERBB2",
-        "MET"
+        "ERBB2"
       ],
       "nodes": [
         "res-treated",
@@ -3464,10 +3343,7 @@
       "species": "human",
       "species_from": "mesh",
       "genes": [
-        "EGFR",
-        "MET",
-        "TACSTD2",
-        "ERBB2"
+        "EGFR"
       ],
       "nodes": [
         "drv-egfr",
@@ -3496,10 +3372,7 @@
       "species": "human",
       "species_from": "keywords",
       "genes": [
-        "EGFR",
-        "MET",
-        "TACSTD2",
-        "ERBB2"
+        "EGFR"
       ],
       "nodes": [
         "drv-egfr",
@@ -3528,10 +3401,7 @@
       "species": "human",
       "species_from": "mesh",
       "genes": [
-        "EGFR",
-        "MET",
-        "TACSTD2",
-        "ERBB2"
+        "EGFR"
       ],
       "nodes": [
         "drv-egfr",
@@ -3673,10 +3543,7 @@
       "species": "mouse",
       "species_from": "mesh",
       "genes": [
-        "EGFR",
-        "MET",
-        "TACSTD2",
-        "ERBB2"
+        "EGFR"
       ],
       "nodes": [
         "drv-egfr",
@@ -3705,10 +3572,7 @@
       "species": "mouse",
       "species_from": "mesh",
       "genes": [
-        "EGFR",
-        "MET",
-        "TACSTD2",
-        "ERBB2"
+        "EGFR"
       ],
       "nodes": [
         "drv-egfr",
@@ -3738,9 +3602,7 @@
       "species_from": "none",
       "genes": [
         "EGFR",
-        "MET",
-        "TACSTD2",
-        "ERBB2"
+        "MET"
       ],
       "nodes": [
         "drv-egfr",
@@ -3781,8 +3643,7 @@
       "species_from": "keywords",
       "genes": [
         "TACSTD2",
-        "ERBB2",
-        "MET"
+        "ERBB2"
       ],
       "nodes": [
         "res-treated",
@@ -3810,12 +3671,7 @@
       "species": "mouse",
       "species_from": "mesh",
       "genes": [
-        "DLL3",
-        "EGFR",
-        "MET",
-        "NRG1",
-        "TP53",
-        "RB1"
+        "DLL3"
       ],
       "nodes": [
         "hist-sclc"
@@ -3848,10 +3704,7 @@
       "species": "human",
       "species_from": "mesh",
       "genes": [
-        "EGFR",
-        "MET",
-        "TACSTD2",
-        "ERBB2"
+        "EGFR"
       ],
       "nodes": [
         "drv-egfr",
@@ -3947,10 +3800,7 @@
       "species": "human",
       "species_from": "mesh",
       "genes": [
-        "EGFR",
-        "MET",
-        "TACSTD2",
-        "ERBB2"
+        "EGFR"
       ],
       "nodes": [
         "drv-egfr",
@@ -3980,10 +3830,7 @@
       "species": "human",
       "species_from": "keywords",
       "genes": [
-        "EGFR",
-        "MET",
-        "TACSTD2",
-        "ERBB2"
+        "EGFR"
       ],
       "nodes": [
         "drv-egfr",
@@ -4012,10 +3859,7 @@
       "species": "human",
       "species_from": "keywords",
       "genes": [
-        "EGFR",
-        "MET",
-        "TACSTD2",
-        "ERBB2"
+        "EGFR"
       ],
       "nodes": [
         "drv-egfr",
@@ -4044,10 +3888,7 @@
       "species": "unclear",
       "species_from": "none",
       "genes": [
-        "EGFR",
-        "MET",
-        "TACSTD2",
-        "ERBB2"
+        "EGFR"
       ],
       "nodes": [
         "drv-egfr",
@@ -4281,12 +4122,7 @@
       "species": "human",
       "species_from": "keywords",
       "genes": [
-        "ALK",
-        "KRAS",
-        "ERBB2",
-        "ROS1",
-        "RET",
-        "MET"
+        "ALK"
       ],
       "nodes": [
         "drv-alk",
@@ -4343,11 +4179,7 @@
       "species_from": "mesh",
       "genes": [
         "EGFR",
-        "MET",
-        "ERBB2",
-        "ROS1",
-        "RET",
-        "BRAF"
+        "MET"
       ],
       "nodes": [
         "drv-egfr",
@@ -4377,12 +4209,7 @@
       "species": "human",
       "species_from": "keywords",
       "genes": [
-        "DLL3",
-        "EGFR",
-        "MET",
-        "NRG1",
-        "TP53",
-        "RB1"
+        "DLL3"
       ],
       "nodes": [
         "hist-sclc"
@@ -4435,9 +4262,7 @@
       "species_from": "none",
       "genes": [
         "EGFR",
-        "MET",
-        "TACSTD2",
-        "ERBB2"
+        "MET"
       ],
       "nodes": [
         "drv-egfr",
@@ -4474,8 +4299,7 @@
       "species_from": "mesh",
       "genes": [
         "TACSTD2",
-        "ERBB2",
-        "MET"
+        "ERBB2"
       ],
       "nodes": [
         "res-treated",
@@ -4505,11 +4329,7 @@
       "species_from": "keywords",
       "genes": [
         "EGFR",
-        "MET",
-        "ERBB2",
-        "ROS1",
-        "RET",
-        "BRAF"
+        "MET"
       ],
       "nodes": [
         "drv-egfr",
@@ -4565,10 +4385,7 @@
       "species": "human",
       "species_from": "mesh",
       "genes": [
-        "EGFR",
-        "MET",
-        "TACSTD2",
-        "ERBB2"
+        "EGFR"
       ],
       "nodes": [
         "drv-egfr",
@@ -4634,12 +4451,7 @@
       "species": "human",
       "species_from": "keywords",
       "genes": [
-        "DLL3",
-        "EGFR",
-        "MET",
-        "NRG1",
-        "TP53",
-        "RB1"
+        "DLL3"
       ],
       "nodes": [
         "hist-sclc"
@@ -4809,11 +4621,7 @@
       "species_from": "keywords",
       "genes": [
         "EGFR",
-        "MET",
-        "ERBB2",
-        "ROS1",
-        "RET",
-        "BRAF"
+        "MET"
       ],
       "nodes": [
         "drv-egfr",
@@ -4905,10 +4713,7 @@
       "species": "human",
       "species_from": "mesh",
       "genes": [
-        "EGFR",
-        "MET",
-        "TACSTD2",
-        "ERBB2"
+        "EGFR"
       ],
       "nodes": [
         "drv-egfr",
@@ -4938,10 +4743,7 @@
       "species": "human",
       "species_from": "mesh",
       "genes": [
-        "EGFR",
-        "MET",
-        "TACSTD2",
-        "ERBB2"
+        "EGFR"
       ],
       "nodes": [
         "drv-egfr",
@@ -4970,10 +4772,7 @@
       "species": "human",
       "species_from": "mesh",
       "genes": [
-        "EGFR",
-        "MET",
-        "TACSTD2",
-        "ERBB2"
+        "EGFR"
       ],
       "nodes": [
         "drv-egfr",
@@ -5064,12 +4863,7 @@
       "species": "unclear",
       "species_from": "none",
       "genes": [
-        "DLL3",
-        "EGFR",
-        "MET",
-        "NRG1",
-        "TP53",
-        "RB1"
+        "DLL3"
       ],
       "nodes": [
         "hist-sclc"
@@ -5103,12 +4897,7 @@
       "species": "unclear",
       "species_from": "none",
       "genes": [
-        "DLL3",
-        "EGFR",
-        "MET",
-        "NRG1",
-        "TP53",
-        "RB1"
+        "DLL3"
       ],
       "nodes": [
         "hist-sclc"
@@ -5280,12 +5069,7 @@
       "species": "mouse",
       "species_from": "mesh",
       "genes": [
-        "ALK",
-        "KRAS",
-        "ERBB2",
-        "ROS1",
-        "RET",
-        "MET"
+        "ALK"
       ],
       "nodes": [
         "drv-alk",
@@ -5313,12 +5097,7 @@
       "species": "human",
       "species_from": "keywords",
       "genes": [
-        "DLL3",
-        "EGFR",
-        "MET",
-        "NRG1",
-        "TP53",
-        "RB1"
+        "DLL3"
       ],
       "nodes": [
         "hist-sclc"
@@ -5373,7 +5152,6 @@
       "species_from": "mesh",
       "genes": [
         "EGFR",
-        "MET",
         "TACSTD2",
         "ERBB2"
       ],
@@ -5499,10 +5277,7 @@
       "species": "human",
       "species_from": "keywords",
       "genes": [
-        "EGFR",
-        "MET",
-        "TACSTD2",
-        "ERBB2"
+        "EGFR"
       ],
       "nodes": [
         "drv-egfr",
@@ -5560,8 +5335,7 @@
       "species_from": "keywords",
       "genes": [
         "TACSTD2",
-        "ERBB2",
-        "MET"
+        "ERBB2"
       ],
       "nodes": [
         "res-treated",
@@ -5589,10 +5363,7 @@
       "species": "human",
       "species_from": "mesh",
       "genes": [
-        "EGFR",
-        "MET",
-        "TACSTD2",
-        "ERBB2"
+        "EGFR"
       ],
       "nodes": [
         "drv-egfr",
@@ -5686,10 +5457,7 @@
       "species": "mouse",
       "species_from": "mesh",
       "genes": [
-        "EGFR",
-        "MET",
-        "TACSTD2",
-        "ERBB2"
+        "EGFR"
       ],
       "nodes": [
         "drv-egfr",
@@ -5746,8 +5514,7 @@
       "species_from": "mesh",
       "genes": [
         "TACSTD2",
-        "ERBB2",
-        "MET"
+        "ERBB2"
       ],
       "nodes": [
         "res-treated",
@@ -5801,10 +5568,7 @@
       "species": "human",
       "species_from": "mesh",
       "genes": [
-        "EGFR",
-        "MET",
-        "TACSTD2",
-        "ERBB2"
+        "EGFR"
       ],
       "nodes": [
         "drv-egfr",
@@ -5834,10 +5598,7 @@
       "species": "human",
       "species_from": "mesh",
       "genes": [
-        "EGFR",
-        "MET",
-        "TACSTD2",
-        "ERBB2"
+        "EGFR"
       ],
       "nodes": [
         "drv-egfr",
@@ -5867,8 +5628,7 @@
       "species_from": "keywords",
       "genes": [
         "TACSTD2",
-        "ERBB2",
-        "MET"
+        "ERBB2"
       ],
       "nodes": [
         "res-treated",
@@ -5985,10 +5745,7 @@
       "species": "human",
       "species_from": "mesh",
       "genes": [
-        "EGFR",
-        "MET",
-        "TACSTD2",
-        "ERBB2"
+        "EGFR"
       ],
       "nodes": [
         "drv-egfr",
@@ -6017,10 +5774,7 @@
       "species": "mouse",
       "species_from": "mesh",
       "genes": [
-        "EGFR",
-        "MET",
-        "TACSTD2",
-        "ERBB2"
+        "EGFR"
       ],
       "nodes": [
         "drv-egfr",
@@ -6051,11 +5805,7 @@
       "species_from": "mesh",
       "genes": [
         "EGFR",
-        "MET",
-        "ERBB2",
-        "ROS1",
-        "RET",
-        "BRAF"
+        "MET"
       ],
       "nodes": [
         "drv-egfr",
@@ -6087,11 +5837,7 @@
       "species_from": "keywords",
       "genes": [
         "DLL3",
-        "EGFR",
-        "MET",
-        "NRG1",
-        "TP53",
-        "RB1"
+        "NRG1"
       ],
       "nodes": [
         "hist-sclc"
@@ -6124,12 +5870,7 @@
       "species": "human",
       "species_from": "keywords",
       "genes": [
-        "DLL3",
-        "EGFR",
-        "MET",
-        "NRG1",
-        "TP53",
-        "RB1"
+        "DLL3"
       ],
       "nodes": [
         "hist-sclc"
@@ -6332,10 +6073,7 @@
       "species": "mouse",
       "species_from": "mesh",
       "genes": [
-        "EGFR",
-        "MET",
-        "TACSTD2",
-        "ERBB2"
+        "EGFR"
       ],
       "nodes": [
         "drv-egfr",
@@ -6365,11 +6103,7 @@
       "species_from": "keywords",
       "genes": [
         "EGFR",
-        "MET",
-        "ERBB2",
-        "ROS1",
-        "RET",
-        "BRAF"
+        "MET"
       ],
       "nodes": [
         "drv-egfr",
@@ -6400,11 +6134,7 @@
       "species_from": "keywords",
       "genes": [
         "EGFR",
-        "MET",
-        "ERBB2",
-        "ROS1",
-        "RET",
-        "BRAF"
+        "MET"
       ],
       "nodes": [
         "drv-egfr",
@@ -6516,12 +6246,7 @@
       "species": "human",
       "species_from": "keywords",
       "genes": [
-        "DLL3",
-        "EGFR",
-        "MET",
-        "NRG1",
-        "TP53",
-        "RB1"
+        "DLL3"
       ],
       "nodes": [
         "hist-sclc"
@@ -6625,11 +6350,7 @@
       "species_from": "keywords",
       "genes": [
         "EGFR",
-        "MET",
-        "ERBB2",
-        "ROS1",
-        "RET",
-        "BRAF"
+        "MET"
       ],
       "nodes": [
         "drv-egfr",
@@ -6659,12 +6380,7 @@
       "species": "unclear",
       "species_from": "none",
       "genes": [
-        "DLL3",
-        "EGFR",
-        "MET",
-        "NRG1",
-        "TP53",
-        "RB1"
+        "DLL3"
       ],
       "nodes": [
         "hist-sclc"
@@ -6717,12 +6433,7 @@
       "species": "human",
       "species_from": "keywords",
       "genes": [
-        "ALK",
-        "KRAS",
-        "ERBB2",
-        "ROS1",
-        "RET",
-        "MET"
+        "ALK"
       ],
       "nodes": [
         "drv-alk",
@@ -6751,12 +6462,7 @@
       "species": "unclear",
       "species_from": "none",
       "genes": [
-        "DLL3",
-        "EGFR",
-        "MET",
-        "NRG1",
-        "TP53",
-        "RB1"
+        "DLL3"
       ],
       "nodes": [
         "hist-sclc"
@@ -6812,12 +6518,7 @@
       "species": "human",
       "species_from": "keywords",
       "genes": [
-        "ALK",
-        "KRAS",
-        "ERBB2",
-        "ROS1",
-        "RET",
-        "MET"
+        "ALK"
       ],
       "nodes": [
         "drv-alk",
@@ -6846,10 +6547,7 @@
       "species": "human",
       "species_from": "mesh",
       "genes": [
-        "EGFR",
-        "MET",
-        "TACSTD2",
-        "ERBB2"
+        "EGFR"
       ],
       "nodes": [
         "drv-egfr",
@@ -6878,12 +6576,7 @@
       "species": "human",
       "species_from": "mesh",
       "genes": [
-        "DLL3",
-        "EGFR",
-        "MET",
-        "NRG1",
-        "TP53",
-        "RB1"
+        "DLL3"
       ],
       "nodes": [
         "hist-sclc"
@@ -6939,12 +6632,7 @@
       "species": "human",
       "species_from": "mesh",
       "genes": [
-        "DLL3",
-        "EGFR",
-        "MET",
-        "NRG1",
-        "TP53",
-        "RB1"
+        "DLL3"
       ],
       "nodes": [
         "hist-sclc"
@@ -7104,10 +6792,7 @@
       "species": "unclear",
       "species_from": "none",
       "genes": [
-        "EGFR",
-        "MET",
-        "TACSTD2",
-        "ERBB2"
+        "EGFR"
       ],
       "nodes": [
         "drv-egfr",
@@ -7137,8 +6822,7 @@
       "species_from": "mesh",
       "genes": [
         "TACSTD2",
-        "ERBB2",
-        "MET"
+        "ERBB2"
       ],
       "nodes": [
         "res-treated",
@@ -7206,12 +6890,7 @@
       "species": "human",
       "species_from": "keywords",
       "genes": [
-        "DLL3",
-        "EGFR",
-        "MET",
-        "NRG1",
-        "TP53",
-        "RB1"
+        "DLL3"
       ],
       "nodes": [
         "hist-sclc"
@@ -7239,8 +6918,7 @@
       "species_from": "mesh",
       "genes": [
         "TACSTD2",
-        "ERBB2",
-        "MET"
+        "ERBB2"
       ],
       "nodes": [
         "res-treated",
@@ -7270,12 +6948,7 @@
       "species": "human",
       "species_from": "mesh",
       "genes": [
-        "DLL3",
-        "EGFR",
-        "MET",
-        "NRG1",
-        "TP53",
-        "RB1"
+        "DLL3"
       ],
       "nodes": [
         "hist-sclc"
@@ -7308,12 +6981,7 @@
       "species": "human",
       "species_from": "mesh",
       "genes": [
-        "DLL3",
-        "EGFR",
-        "MET",
-        "NRG1",
-        "TP53",
-        "RB1"
+        "DLL3"
       ],
       "nodes": [
         "hist-sclc"
@@ -7405,12 +7073,7 @@
       "species": "unclear",
       "species_from": "none",
       "genes": [
-        "DLL3",
-        "EGFR",
-        "MET",
-        "NRG1",
-        "TP53",
-        "RB1"
+        "DLL3"
       ],
       "nodes": [
         "hist-sclc"
@@ -7479,11 +7142,7 @@
       "species_from": "mesh",
       "genes": [
         "EGFR",
-        "MET",
-        "ERBB2",
-        "ROS1",
-        "RET",
-        "BRAF"
+        "MET"
       ],
       "nodes": [
         "drv-egfr",
@@ -7548,12 +7207,7 @@
       "species": "human",
       "species_from": "keywords",
       "genes": [
-        "ALK",
-        "KRAS",
-        "ERBB2",
-        "ROS1",
-        "RET",
-        "MET"
+        "ALK"
       ],
       "nodes": [
         "drv-alk",
@@ -7608,12 +7262,7 @@
       "species": "human",
       "species_from": "mesh",
       "genes": [
-        "ALK",
-        "KRAS",
-        "ERBB2",
-        "ROS1",
-        "RET",
-        "MET"
+        "ALK"
       ],
       "nodes": [
         "drv-alk",
@@ -7671,10 +7320,8 @@
       "genes": [
         "EGFR",
         "MET",
-        "ERBB2",
-        "ROS1",
-        "RET",
-        "BRAF"
+        "BRAF",
+        "ERBB2"
       ],
       "nodes": [
         "drv-egfr",
@@ -7721,11 +7368,7 @@
       "species_from": "keywords",
       "genes": [
         "EGFR",
-        "MET",
-        "ERBB2",
-        "ROS1",
-        "RET",
-        "BRAF"
+        "MET"
       ],
       "nodes": [
         "drv-egfr",
@@ -7795,8 +7438,7 @@
       "species_from": "keywords",
       "genes": [
         "TACSTD2",
-        "ERBB2",
-        "MET"
+        "ERBB2"
       ],
       "nodes": [
         "res-treated",
@@ -7900,12 +7542,7 @@
       "species": "human",
       "species_from": "mesh",
       "genes": [
-        "ALK",
-        "KRAS",
-        "ERBB2",
-        "ROS1",
-        "RET",
-        "MET"
+        "ALK"
       ],
       "nodes": [
         "drv-alk",
@@ -7933,12 +7570,7 @@
       "species": "human",
       "species_from": "mesh",
       "genes": [
-        "ALK",
-        "KRAS",
-        "ERBB2",
-        "ROS1",
-        "RET",
-        "MET"
+        "ALK"
       ],
       "nodes": [
         "drv-alk",
@@ -7966,12 +7598,7 @@
       "species": "mouse",
       "species_from": "mesh",
       "genes": [
-        "DLL3",
-        "EGFR",
-        "MET",
-        "NRG1",
-        "TP53",
-        "RB1"
+        "DLL3"
       ],
       "nodes": [
         "hist-sclc"
@@ -8055,11 +7682,7 @@
       "species_from": "mesh",
       "genes": [
         "EGFR",
-        "MET",
-        "ERBB2",
-        "ROS1",
-        "RET",
-        "BRAF"
+        "MET"
       ],
       "nodes": [
         "drv-egfr",
@@ -8095,12 +7718,7 @@
       "species": "unclear",
       "species_from": "none",
       "genes": [
-        "DLL3",
-        "EGFR",
-        "MET",
-        "NRG1",
-        "TP53",
-        "RB1"
+        "DLL3"
       ],
       "nodes": [
         "hist-sclc"
@@ -8160,12 +7778,7 @@
       "species": "mouse",
       "species_from": "mesh",
       "genes": [
-        "DLL3",
-        "EGFR",
-        "MET",
-        "NRG1",
-        "TP53",
-        "RB1"
+        "DLL3"
       ],
       "nodes": [
         "hist-sclc"
@@ -8231,12 +7844,7 @@
       "species": "human",
       "species_from": "mesh",
       "genes": [
-        "DLL3",
-        "EGFR",
-        "MET",
-        "NRG1",
-        "TP53",
-        "RB1"
+        "DLL3"
       ],
       "nodes": [
         "hist-sclc"
@@ -8364,12 +7972,7 @@
       "species": "human",
       "species_from": "mesh",
       "genes": [
-        "ALK",
-        "KRAS",
-        "ERBB2",
-        "ROS1",
-        "RET",
-        "MET"
+        "ALK"
       ],
       "nodes": [
         "drv-alk",
@@ -8434,12 +8037,7 @@
       "species": "human",
       "species_from": "mesh",
       "genes": [
-        "DLL3",
-        "EGFR",
-        "MET",
-        "NRG1",
-        "TP53",
-        "RB1"
+        "DLL3"
       ],
       "nodes": [
         "hist-sclc"
@@ -8539,12 +8137,7 @@
       "species": "human",
       "species_from": "keywords",
       "genes": [
-        "ALK",
-        "KRAS",
-        "ERBB2",
-        "ROS1",
-        "RET",
-        "MET"
+        "ALK"
       ],
       "nodes": [
         "drv-alk",
@@ -8637,12 +8230,7 @@
       "species": "human",
       "species_from": "mesh",
       "genes": [
-        "DLL3",
-        "EGFR",
-        "MET",
-        "NRG1",
-        "TP53",
-        "RB1"
+        "DLL3"
       ],
       "nodes": [
         "hist-sclc"
@@ -8725,11 +8313,7 @@
       "species_from": "mesh",
       "genes": [
         "DLL3",
-        "EGFR",
-        "MET",
-        "NRG1",
-        "TP53",
-        "RB1"
+        "MET"
       ],
       "nodes": [
         "hist-sclc",
@@ -8766,10 +8350,7 @@
       "species": "human",
       "species_from": "mesh",
       "genes": [
-        "EGFR",
-        "MET",
-        "TACSTD2",
-        "ERBB2"
+        "EGFR"
       ],
       "nodes": [
         "drv-egfr",
@@ -8798,12 +8379,7 @@
       "species": "unclear",
       "species_from": "none",
       "genes": [
-        "ALK",
-        "KRAS",
-        "ERBB2",
-        "ROS1",
-        "RET",
-        "MET"
+        "ALK"
       ],
       "nodes": [
         "drv-alk",
@@ -8862,11 +8438,7 @@
       "species_from": "keywords",
       "genes": [
         "EGFR",
-        "MET",
-        "ERBB2",
-        "ROS1",
-        "RET",
-        "BRAF"
+        "MET"
       ],
       "nodes": [
         "drv-egfr",
@@ -8971,10 +8543,7 @@
       "species": "unclear",
       "species_from": "none",
       "genes": [
-        "EGFR",
-        "MET",
-        "TACSTD2",
-        "ERBB2"
+        "EGFR"
       ],
       "nodes": [
         "drv-egfr",
@@ -9003,10 +8572,7 @@
       "species": "human",
       "species_from": "mesh",
       "genes": [
-        "EGFR",
-        "MET",
-        "TACSTD2",
-        "ERBB2"
+        "EGFR"
       ],
       "nodes": [
         "drv-egfr",
@@ -9065,8 +8631,7 @@
       "species_from": "mesh",
       "genes": [
         "TACSTD2",
-        "ERBB2",
-        "MET"
+        "ERBB2"
       ],
       "nodes": [
         "res-treated",
@@ -9195,11 +8760,7 @@
       "species_from": "keywords",
       "genes": [
         "EGFR",
-        "MET",
-        "ERBB2",
-        "ROS1",
-        "RET",
-        "BRAF"
+        "MET"
       ],
       "nodes": [
         "drv-egfr",
@@ -9230,8 +8791,7 @@
       "species_from": "mesh",
       "genes": [
         "TACSTD2",
-        "ERBB2",
-        "MET"
+        "ERBB2"
       ],
       "nodes": [
         "res-treated",
@@ -9261,10 +8821,7 @@
       "species": "human",
       "species_from": "mesh",
       "genes": [
-        "EGFR",
-        "MET",
-        "TACSTD2",
-        "ERBB2"
+        "EGFR"
       ],
       "nodes": [
         "drv-egfr",
@@ -9470,12 +9027,7 @@
       "species": "human",
       "species_from": "keywords",
       "genes": [
-        "DLL3",
-        "EGFR",
-        "MET",
-        "NRG1",
-        "TP53",
-        "RB1"
+        "DLL3"
       ],
       "nodes": [
         "hist-sclc"
@@ -9503,11 +9055,7 @@
       "species_from": "keywords",
       "genes": [
         "EGFR",
-        "MET",
-        "ERBB2",
-        "ROS1",
-        "RET",
-        "BRAF"
+        "MET"
       ],
       "nodes": [
         "drv-egfr",
@@ -9538,11 +9086,7 @@
       "species_from": "mesh",
       "genes": [
         "EGFR",
-        "MET",
-        "ERBB2",
-        "ROS1",
-        "RET",
-        "BRAF"
+        "MET"
       ],
       "nodes": [
         "drv-egfr",
@@ -9572,12 +9116,7 @@
       "species": "human",
       "species_from": "mesh",
       "genes": [
-        "ALK",
-        "KRAS",
-        "ERBB2",
-        "ROS1",
-        "RET",
-        "MET"
+        "ALK"
       ],
       "nodes": [
         "drv-alk",
@@ -9606,11 +9145,7 @@
       "species_from": "mesh",
       "genes": [
         "EGFR",
-        "MET",
-        "ERBB2",
-        "ROS1",
-        "RET",
-        "BRAF"
+        "MET"
       ],
       "nodes": [
         "drv-egfr",
@@ -9711,8 +9246,7 @@
       "species_from": "mesh",
       "genes": [
         "TACSTD2",
-        "ERBB2",
-        "MET"
+        "ERBB2"
       ],
       "nodes": [
         "res-treated",
@@ -9740,12 +9274,7 @@
       "species": "human",
       "species_from": "mesh",
       "genes": [
-        "ALK",
-        "KRAS",
-        "ERBB2",
-        "ROS1",
-        "RET",
-        "MET"
+        "ALK"
       ],
       "nodes": [
         "drv-alk",
@@ -9774,12 +9303,7 @@
       "species": "human",
       "species_from": "keywords",
       "genes": [
-        "ALK",
-        "KRAS",
-        "ERBB2",
-        "ROS1",
-        "RET",
-        "MET"
+        "ALK"
       ],
       "nodes": [
         "drv-alk",
@@ -10062,8 +9586,7 @@
       "species_from": "mesh",
       "genes": [
         "TACSTD2",
-        "ERBB2",
-        "MET"
+        "ERBB2"
       ],
       "nodes": [
         "res-treated",
@@ -10092,8 +9615,7 @@
       "species_from": "mesh",
       "genes": [
         "TACSTD2",
-        "ERBB2",
-        "MET"
+        "ERBB2"
       ],
       "nodes": [
         "res-treated",
@@ -10121,12 +9643,7 @@
       "species": "human",
       "species_from": "mesh",
       "genes": [
-        "ALK",
-        "KRAS",
-        "ERBB2",
-        "ROS1",
-        "RET",
-        "MET"
+        "ALK"
       ],
       "nodes": [
         "drv-alk",
@@ -10191,12 +9708,7 @@
       "species": "human",
       "species_from": "mesh",
       "genes": [
-        "ALK",
-        "KRAS",
-        "ERBB2",
-        "ROS1",
-        "RET",
-        "MET"
+        "ALK"
       ],
       "nodes": [
         "drv-alk",
@@ -10224,12 +9736,7 @@
       "species": "human",
       "species_from": "mesh",
       "genes": [
-        "ALK",
-        "KRAS",
-        "ERBB2",
-        "ROS1",
-        "RET",
-        "MET"
+        "ALK"
       ],
       "nodes": [
         "drv-alk",
@@ -10258,8 +9765,7 @@
       "species_from": "mesh",
       "genes": [
         "TACSTD2",
-        "ERBB2",
-        "MET"
+        "ERBB2"
       ],
       "nodes": [
         "res-treated",
@@ -10478,8 +9984,7 @@
       "species_from": "mesh",
       "genes": [
         "TACSTD2",
-        "ERBB2",
-        "MET"
+        "ERBB2"
       ],
       "nodes": [
         "res-treated",
@@ -10537,8 +10042,7 @@
       "species_from": "keywords",
       "genes": [
         "TACSTD2",
-        "ERBB2",
-        "MET"
+        "ERBB2"
       ],
       "nodes": [
         "res-treated",
@@ -10567,8 +10071,7 @@
       "species_from": "mesh",
       "genes": [
         "TACSTD2",
-        "ERBB2",
-        "MET"
+        "ERBB2"
       ],
       "nodes": [
         "res-treated",
@@ -10628,12 +10131,7 @@
       "species": "human",
       "species_from": "mesh",
       "genes": [
-        "ALK",
-        "KRAS",
-        "ERBB2",
-        "ROS1",
-        "RET",
-        "MET"
+        "ALK"
       ],
       "nodes": [
         "drv-alk",
@@ -10757,11 +10255,7 @@
       "species_from": "none",
       "genes": [
         "EGFR",
-        "MET",
-        "ERBB2",
-        "ROS1",
-        "RET",
-        "BRAF"
+        "MET"
       ],
       "nodes": [
         "drv-egfr",
@@ -10791,12 +10285,7 @@
       "species": "human",
       "species_from": "mesh",
       "genes": [
-        "ALK",
-        "KRAS",
-        "ERBB2",
-        "ROS1",
-        "RET",
-        "MET"
+        "ALK"
       ],
       "nodes": [
         "drv-alk",
@@ -10891,11 +10380,7 @@
       "species_from": "mesh",
       "genes": [
         "EGFR",
-        "MET",
-        "ERBB2",
-        "ROS1",
-        "RET",
-        "BRAF"
+        "MET"
       ],
       "nodes": [
         "drv-egfr",
@@ -10927,8 +10412,7 @@
       "species_from": "mesh",
       "genes": [
         "TACSTD2",
-        "ERBB2",
-        "MET"
+        "ERBB2"
       ],
       "nodes": [
         "res-treated",
@@ -11144,8 +10628,7 @@
       "species_from": "mesh",
       "genes": [
         "TACSTD2",
-        "ERBB2",
-        "MET"
+        "ERBB2"
       ],
       "nodes": [
         "res-treated",
@@ -11175,11 +10658,7 @@
       "species_from": "mesh",
       "genes": [
         "EGFR",
-        "MET",
-        "ERBB2",
-        "ROS1",
-        "RET",
-        "BRAF"
+        "MET"
       ],
       "nodes": [
         "drv-egfr",
@@ -11238,12 +10717,7 @@
       "species": "unclear",
       "species_from": "none",
       "genes": [
-        "ALK",
-        "KRAS",
-        "ERBB2",
-        "ROS1",
-        "RET",
-        "MET"
+        "ALK"
       ],
       "nodes": [
         "drv-alk",
@@ -11335,8 +10809,7 @@
       "species_from": "mesh",
       "genes": [
         "TACSTD2",
-        "ERBB2",
-        "MET"
+        "ERBB2"
       ],
       "nodes": [
         "res-treated",
@@ -11418,8 +10891,7 @@
       "species_from": "mesh",
       "genes": [
         "TACSTD2",
-        "ERBB2",
-        "MET"
+        "ERBB2"
       ],
       "nodes": [
         "res-treated",
@@ -11517,12 +10989,7 @@
       "species": "unclear",
       "species_from": "none",
       "genes": [
-        "DLL3",
-        "EGFR",
-        "MET",
-        "NRG1",
-        "TP53",
-        "RB1"
+        "DLL3"
       ],
       "nodes": [
         "hist-sclc"
@@ -11643,11 +11110,7 @@
       "species_from": "keywords",
       "genes": [
         "EGFR",
-        "MET",
-        "ERBB2",
-        "ROS1",
-        "RET",
-        "BRAF"
+        "MET"
       ],
       "nodes": [
         "drv-egfr",
@@ -11678,12 +11141,7 @@
       "species": "human",
       "species_from": "mesh",
       "genes": [
-        "ALK",
-        "KRAS",
-        "ERBB2",
-        "ROS1",
-        "RET",
-        "MET"
+        "ALK"
       ],
       "nodes": [
         "drv-alk",
@@ -11782,8 +11240,7 @@
       "species_from": "mesh",
       "genes": [
         "TACSTD2",
-        "ERBB2",
-        "MET"
+        "ERBB2"
       ],
       "nodes": [
         "res-treated",
@@ -11812,9 +11269,6 @@
       "species_from": "keywords",
       "genes": [
         "DLL3",
-        "EGFR",
-        "MET",
-        "NRG1",
         "TP53",
         "RB1"
       ],
@@ -11927,12 +11381,7 @@
       "species": "mouse",
       "species_from": "mesh",
       "genes": [
-        "ALK",
-        "KRAS",
-        "ERBB2",
-        "ROS1",
-        "RET",
-        "MET"
+        "ALK"
       ],
       "nodes": [
         "drv-alk",
@@ -11986,11 +11435,7 @@
       "species_from": "mesh",
       "genes": [
         "EGFR",
-        "MET",
-        "ERBB2",
-        "ROS1",
-        "RET",
-        "BRAF"
+        "MET"
       ],
       "nodes": [
         "drv-egfr",
@@ -12021,11 +11466,7 @@
       "species_from": "mesh",
       "genes": [
         "EGFR",
-        "MET",
-        "ERBB2",
-        "ROS1",
-        "RET",
-        "BRAF"
+        "MET"
       ],
       "nodes": [
         "drv-egfr",
@@ -12057,11 +11498,7 @@
       "species_from": "mesh",
       "genes": [
         "EGFR",
-        "MET",
-        "ERBB2",
-        "ROS1",
-        "RET",
-        "BRAF"
+        "MET"
       ],
       "nodes": [
         "drv-egfr",
@@ -12118,12 +11555,7 @@
       "species": "human",
       "species_from": "mesh",
       "genes": [
-        "ALK",
-        "KRAS",
-        "ERBB2",
-        "ROS1",
-        "RET",
-        "MET"
+        "ALK"
       ],
       "nodes": [
         "drv-alk",
@@ -12151,12 +11583,7 @@
       "species": "human",
       "species_from": "mesh",
       "genes": [
-        "ALK",
-        "KRAS",
-        "ERBB2",
-        "ROS1",
-        "RET",
-        "MET"
+        "ALK"
       ],
       "nodes": [
         "drv-alk",
@@ -12268,12 +11695,7 @@
       "species": "human",
       "species_from": "mesh",
       "genes": [
-        "ALK",
-        "KRAS",
-        "ERBB2",
-        "ROS1",
-        "RET",
-        "MET"
+        "ALK"
       ],
       "nodes": [
         "drv-alk",
@@ -12336,12 +11758,7 @@
       "species": "human",
       "species_from": "keywords",
       "genes": [
-        "ALK",
-        "KRAS",
-        "ERBB2",
-        "ROS1",
-        "RET",
-        "MET"
+        "ALK"
       ],
       "nodes": [
         "drv-alk",
@@ -12399,11 +11816,7 @@
       "species_from": "mesh",
       "genes": [
         "EGFR",
-        "MET",
-        "ERBB2",
-        "ROS1",
-        "RET",
-        "BRAF"
+        "MET"
       ],
       "nodes": [
         "drv-egfr",
@@ -12433,12 +11846,7 @@
       "species": "human",
       "species_from": "mesh",
       "genes": [
-        "ALK",
-        "KRAS",
-        "ERBB2",
-        "ROS1",
-        "RET",
-        "MET"
+        "ALK"
       ],
       "nodes": [
         "drv-alk",
@@ -12520,11 +11928,7 @@
       "species_from": "mesh",
       "genes": [
         "EGFR",
-        "MET",
-        "ERBB2",
-        "ROS1",
-        "RET",
-        "BRAF"
+        "MET"
       ],
       "nodes": [
         "drv-egfr",
@@ -12557,11 +11961,7 @@
       "species_from": "mesh",
       "genes": [
         "EGFR",
-        "MET",
-        "ERBB2",
-        "ROS1",
-        "RET",
-        "BRAF"
+        "MET"
       ],
       "nodes": [
         "drv-egfr",
@@ -12742,12 +12142,7 @@
       "species": "human",
       "species_from": "mesh",
       "genes": [
-        "ALK",
-        "KRAS",
-        "ERBB2",
-        "ROS1",
-        "RET",
-        "MET"
+        "ALK"
       ],
       "nodes": [
         "drv-alk",
@@ -12801,11 +12196,7 @@
       "species_from": "keywords",
       "genes": [
         "EGFR",
-        "MET",
-        "ERBB2",
-        "ROS1",
-        "RET",
-        "BRAF"
+        "MET"
       ],
       "nodes": [
         "drv-egfr",
@@ -12924,12 +12315,7 @@
       "species": "human",
       "species_from": "mesh",
       "genes": [
-        "ALK",
-        "KRAS",
-        "ERBB2",
-        "ROS1",
-        "RET",
-        "MET"
+        "ALK"
       ],
       "nodes": [
         "drv-alk",
@@ -12958,12 +12344,7 @@
       "species": "mouse",
       "species_from": "mesh",
       "genes": [
-        "ALK",
-        "KRAS",
-        "ERBB2",
-        "ROS1",
-        "RET",
-        "MET"
+        "ALK"
       ],
       "nodes": [
         "drv-alk",
@@ -12998,8 +12379,7 @@
       "species_from": "mesh",
       "genes": [
         "TACSTD2",
-        "ERBB2",
-        "MET"
+        "ERBB2"
       ],
       "nodes": [
         "res-treated",
@@ -13028,12 +12408,7 @@
       "species": "human",
       "species_from": "mesh",
       "genes": [
-        "ALK",
-        "KRAS",
-        "ERBB2",
-        "ROS1",
-        "RET",
-        "MET"
+        "ALK"
       ],
       "nodes": [
         "drv-alk",
@@ -13088,12 +12463,7 @@
       "species": "human",
       "species_from": "mesh",
       "genes": [
-        "DLL3",
-        "EGFR",
-        "MET",
-        "NRG1",
-        "TP53",
-        "RB1"
+        "DLL3"
       ],
       "nodes": [
         "hist-sclc"
@@ -13307,11 +12677,7 @@
       "species_from": "mesh",
       "genes": [
         "EGFR",
-        "MET",
-        "ERBB2",
-        "ROS1",
-        "RET",
-        "BRAF"
+        "MET"
       ],
       "nodes": [
         "drv-egfr",
@@ -13341,12 +12707,7 @@
       "species": "human",
       "species_from": "mesh",
       "genes": [
-        "ALK",
-        "KRAS",
-        "ERBB2",
-        "ROS1",
-        "RET",
-        "MET"
+        "ALK"
       ],
       "nodes": [
         "drv-alk",
@@ -13473,12 +12834,7 @@
       "species": "human",
       "species_from": "mesh",
       "genes": [
-        "ALK",
-        "KRAS",
-        "ERBB2",
-        "ROS1",
-        "RET",
-        "MET"
+        "ALK"
       ],
       "nodes": [
         "drv-alk",
@@ -13531,12 +12887,7 @@
       "species": "mouse",
       "species_from": "mesh",
       "genes": [
-        "ALK",
-        "KRAS",
-        "ERBB2",
-        "ROS1",
-        "RET",
-        "MET"
+        "ALK"
       ],
       "nodes": [
         "drv-alk",
@@ -13657,12 +13008,7 @@
       "species": "mouse",
       "species_from": "mesh",
       "genes": [
-        "ALK",
-        "KRAS",
-        "ERBB2",
-        "ROS1",
-        "RET",
-        "MET"
+        "ALK"
       ],
       "nodes": [
         "drv-alk",
@@ -13690,12 +13036,7 @@
       "species": "human",
       "species_from": "mesh",
       "genes": [
-        "ALK",
-        "KRAS",
-        "ERBB2",
-        "ROS1",
-        "RET",
-        "MET"
+        "ALK"
       ],
       "nodes": [
         "drv-alk",
@@ -13921,12 +13262,7 @@
       "species": "human",
       "species_from": "mesh",
       "genes": [
-        "ALK",
-        "KRAS",
-        "ERBB2",
-        "ROS1",
-        "RET",
-        "MET"
+        "ALK"
       ],
       "nodes": [
         "drv-alk",
@@ -14042,12 +13378,7 @@
       "species": "human",
       "species_from": "mesh",
       "genes": [
-        "DLL3",
-        "EGFR",
-        "MET",
-        "NRG1",
-        "TP53",
-        "RB1"
+        "DLL3"
       ],
       "nodes": [
         "hist-sclc"
@@ -14099,12 +13430,7 @@
       "species": "human",
       "species_from": "mesh",
       "genes": [
-        "ALK",
-        "KRAS",
-        "ERBB2",
-        "ROS1",
-        "RET",
-        "MET"
+        "ALK"
       ],
       "nodes": [
         "drv-alk",
@@ -14194,12 +13520,7 @@
       "species": "human",
       "species_from": "mesh",
       "genes": [
-        "ALK",
-        "KRAS",
-        "ERBB2",
-        "ROS1",
-        "RET",
-        "MET"
+        "ALK"
       ],
       "nodes": [
         "drv-alk",
@@ -14318,12 +13639,7 @@
       "species": "human",
       "species_from": "mesh",
       "genes": [
-        "ALK",
-        "KRAS",
-        "ERBB2",
-        "ROS1",
-        "RET",
-        "MET"
+        "ALK"
       ],
       "nodes": [
         "drv-alk",
@@ -14507,12 +13823,7 @@
       "species": "human",
       "species_from": "mesh",
       "genes": [
-        "ALK",
-        "KRAS",
-        "ERBB2",
-        "ROS1",
-        "RET",
-        "MET"
+        "ALK"
       ],
       "nodes": [
         "drv-alk",
@@ -14568,12 +13879,7 @@
       "species": "human",
       "species_from": "mesh",
       "genes": [
-        "ALK",
-        "KRAS",
-        "ERBB2",
-        "ROS1",
-        "RET",
-        "MET"
+        "ALK"
       ],
       "nodes": [
         "drv-alk",
@@ -14742,12 +14048,7 @@
       "species": "mouse",
       "species_from": "mesh",
       "genes": [
-        "ALK",
-        "KRAS",
-        "ERBB2",
-        "ROS1",
-        "RET",
-        "MET"
+        "ALK"
       ],
       "nodes": [
         "drv-alk",
@@ -15005,11 +14306,7 @@
       "species_from": "mesh",
       "genes": [
         "EGFR",
-        "MET",
-        "ERBB2",
-        "ROS1",
-        "RET",
-        "BRAF"
+        "MET"
       ],
       "nodes": [
         "drv-egfr",
@@ -15066,12 +14363,7 @@
       "species": "human",
       "species_from": "mesh",
       "genes": [
-        "DLL3",
-        "EGFR",
-        "MET",
-        "NRG1",
-        "TP53",
-        "RB1"
+        "DLL3"
       ],
       "nodes": [
         "hist-sclc"
@@ -15165,12 +14457,7 @@
       "species": "human",
       "species_from": "keywords",
       "genes": [
-        "ALK",
-        "KRAS",
-        "ERBB2",
-        "ROS1",
-        "RET",
-        "MET"
+        "ALK"
       ],
       "nodes": [
         "drv-alk",
@@ -15303,8 +14590,7 @@
       "species_from": "keywords",
       "genes": [
         "TACSTD2",
-        "ERBB2",
-        "MET"
+        "ERBB2"
       ],
       "nodes": [
         "res-treated",

@@ -7,7 +7,8 @@
   --page:           #f9f9f7;
   --text-primary:   #0b0b0b;
   --text-secondary: #52514e;
-  --text-muted:     #898781;
+  /* #898781 was 3.5:1 on the surface, under WCAG AA's 4.5:1 for text. */
+  --text-muted:     #6b6964;
   --grid:           #e1e0d9;
   --baseline:       #c3c2b7;
   --border:         rgba(11,11,11,0.10);
@@ -27,6 +28,11 @@
   --warning:  #fab219;
   --serious:  #ec835a;
   --critical: #d03b3b;
+
+  /* Blue for text and for a fill under white text. --series-1 stays the
+     chart colour; as text it was 4.3:1, and white on it 4.4:1. */
+  --accent-ink:  #2068c0;
+  --accent-fill: #2068c0;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -49,6 +55,8 @@
     --series-6: #008300;
     --series-7: #9085e9;
     --series-8: #e66767;
+    --accent-ink:  #4b93ea;
+    --accent-fill: #2a66b8;
   }
 }
 
@@ -71,6 +79,8 @@
   --series-6: #008300;
   --series-7: #9085e9;
   --series-8: #e66767;
+  --accent-ink:  #4b93ea;
+  --accent-fill: #2a66b8;
 }
 
 * { box-sizing: border-box; }
@@ -199,7 +209,7 @@ html, body {
 .segmented button:last-child { border-right: 0; }
 
 .segmented button[aria-pressed="true"] {
-  background: var(--series-1);
+  background: var(--accent-fill);
   color: #fff;
   font-weight: 600;
 }
@@ -327,7 +337,7 @@ html, body {
   background: none;
   border: 0;
   padding: 2px 4px;
-  color: var(--series-1);
+  color: var(--accent-ink);
   cursor: pointer;
   border-radius: 4px;
 }
@@ -496,6 +506,9 @@ html, body {
   text-align: center;
 }
 
+/* "above": only where the drawer sits under the lens (max-width: 1000px) */
+.drawer-empty .de-below { display: none; }
+
 .drawer h2 {
   margin: 0 0 2px;
   font-size: 17px;
@@ -535,7 +548,7 @@ html, body {
 }
 
 .chip .k { font-weight: 650; color: var(--text-primary); }
-.chip.pos { border-color: var(--series-1); color: var(--series-1); }
+.chip.pos { border-color: var(--series-1); color: var(--accent-ink); }
 .chip.neg { border-color: var(--baseline); }
 .chip.var { border-color: var(--series-4); color: var(--text-secondary); --chip-c: var(--series-4); }
 
@@ -556,7 +569,7 @@ button.chip-def {
 button.chip-def:hover { background: color-mix(in srgb, var(--chip-c, var(--series-1)) 22%, var(--surface-1)); }
 button.chip-def:focus-visible { outline: 2px solid var(--series-1); outline-offset: 2px; }
 button.chip-def[aria-expanded="true"] {
-  background: var(--series-1);
+  background: var(--accent-fill);
   color: #fff;
 }
 button.chip-def[aria-expanded="true"] .k { color: #fff; }
@@ -666,7 +679,7 @@ button.chip-def[aria-expanded="true"] .k { color: #fff; }
 }
 
 .driver .computed.drift .v,
-.driver .computed .delta { color: var(--series-2); }
+.driver .computed .delta { color: color-mix(in srgb, var(--series-2) 62%, var(--text-primary)); }
 
 .driver .computed .delta {
   border: 1px solid var(--series-2);
@@ -698,7 +711,7 @@ button.chip-def[aria-expanded="true"] .k { color: #fff; }
   white-space: nowrap;
 }
 
-.tag.drug { border-color: var(--series-3); color: var(--series-3); }
+.tag.drug { border-color: var(--series-3); color: color-mix(in srgb, var(--series-3) 62%, var(--text-primary)); }
 
 /* triggers */
 
@@ -724,7 +737,7 @@ button.chip-def[aria-expanded="true"] .k { color: #fff; }
 
 .trigger .dir { font-weight: 700; font-size: 13px; line-height: 1.4; }
 .trigger .dir.up { color: var(--critical); }
-.trigger .dir.down { color: var(--good); }
+.trigger .dir.down { color: color-mix(in srgb, var(--good) 62%, var(--text-primary)); }
 .trigger .f { font-weight: 600; color: var(--text-primary); }
 .trigger .m { color: var(--text-secondary); font-variant-numeric: tabular-nums; }
 .trigger .n { color: var(--text-muted); font-size: 11.5px; display: block; margin-top: 1px; }
@@ -740,7 +753,7 @@ button.chip-def[aria-expanded="true"] .k { color: #fff; }
   margin-left: 5px;
 }
 
-.ev.strong { border-color: var(--good); color: var(--good); }
+.ev.strong { border-color: var(--good); color: color-mix(in srgb, var(--good) 62%, var(--text-primary)); }
 .ev.limited { border-style: dashed; }
 
 /* lists */
@@ -763,7 +776,7 @@ button.chip-def[aria-expanded="true"] .k { color: #fff; }
 .rel-item .n { display: block; font-size: 11.5px; color: var(--text-muted); }
 
 .srcs { font-size: 11.5px; }
-.srcs a { color: var(--series-1); }
+.srcs a { color: var(--accent-ink); }
 
 /* ---------- tooltip ---------- */
 
@@ -861,7 +874,7 @@ button.chip-def[aria-expanded="true"] .k { color: #fff; }
 }
 
 .bl-src { margin: 10px 0 0; font-size: 11.5px; }
-.bl-src a { color: var(--series-1); }
+.bl-src a { color: var(--accent-ink); }
 
 /* ---------- Book I: ranked factor plot ---------- */
 
@@ -888,6 +901,14 @@ button.chip-def[aria-expanded="true"] .k { color: #fff; }
 }
 
 .rk-name { font-size: 12.5px; fill: var(--text-primary); }
+/* On a phone the name has its own line, which crosses the gridlines: the same
+   surface halo as a value label keeps it off them. */
+.rk-name-top {
+  stroke: var(--surface-1);
+  stroke-width: 3px;
+  paint-order: stroke fill;
+  stroke-linejoin: round;
+}
 
 /* A long label flips to the inside of its own stem, so it needs to sit on the
    surface rather than on the line. paint-order puts the halo under the glyphs. */
@@ -1096,8 +1117,13 @@ button.chip-def[aria-expanded="true"] .k { color: #fff; }
   letter-spacing: 0.04em;
   color: var(--text-secondary);
   border: 1px solid var(--border);
-  border-radius: 999px;
+  border-radius: 10px;
   padding: 1px 7px;
+  margin-left: 0;
+  /* A role can be a clause ("Population screening, and the follow-up for
+     every other test"): on a phone it is wider than the card, and the
+     inherited nowrap cut it off. */
+  white-space: normal;
 }
 
 .dt-line { margin: 0 0 3px; font-size: 12.5px; display: flex; gap: 8px; }
@@ -1112,7 +1138,7 @@ button.chip-def[aria-expanded="true"] .k { color: #fff; }
 .fn-mark {
   font-size: 9.5px;
   font-weight: 700;
-  color: var(--series-1);
+  color: var(--accent-ink);
   margin-left: 2px;
   cursor: help;
   font-variant-numeric: tabular-nums;
@@ -1126,7 +1152,7 @@ button.chip-def[aria-expanded="true"] .k { color: #fff; }
   line-height: 1.5;
 }
 .fn-list li { margin-bottom: 5px; }
-.fn-list li::marker { color: var(--series-1); font-weight: 700; }
+.fn-list li::marker { color: var(--accent-ink); font-weight: 700; }
 .fn-list a { color: var(--text-secondary); }
 .fn-list a:hover { color: var(--text-primary); }
 .fn-list .meta { display: block; color: var(--text-muted); font-size: 11px; }
@@ -1150,8 +1176,8 @@ button.chip-def[aria-expanded="true"] .k { color: #fff; }
   border: 0;
   padding: 0;
   cursor: pointer;
-  color: var(--series-1);
-  border-bottom: 1px dotted var(--series-1);
+  color: var(--accent-ink);
+  border-bottom: 1px dotted var(--accent-ink);
 }
 .driver .genelink .arw, .d-excl .genelink .arw { font-size: 9px; margin-left: 3px; vertical-align: 1px; opacity: 0.7; }
 .driver .genelink:hover, .d-excl .genelink:hover { border-bottom-style: solid; }
@@ -1222,7 +1248,7 @@ button.chip-def[aria-expanded="true"] .k { color: #fff; }
 
 /* a citation, rendered identically wherever it appears */
 .cite { margin: 0 0 6px; font-size: 11.5px; }
-.cite a { color: var(--series-1); }
+.cite a { color: var(--accent-ink); }
 .cite .meta { display: block; color: var(--text-muted); font-size: 10.5px; margin-top: 1px; }
 
 /* ---------- attribution panel ---------- */
@@ -1315,7 +1341,7 @@ button.chip-def[aria-expanded="true"] .k { color: #fff; }
 .defpop .w { margin: 8px 0 0; font-size: 11.5px; color: var(--text-secondary); }
 .defpop .dp-also { margin: 8px 0 0; font-size: 11.5px; color: var(--text-secondary); }
 .defpop .dp-link { margin: 8px 0 0; font-size: 12.5px; }
-.defpop .dp-link a { color: var(--series-1); }
+.defpop .dp-link a { color: var(--accent-ink); }
 .defpop .w .k,
 .gl-term .w .k {
   display: block;
@@ -1398,7 +1424,7 @@ button.chip-def[aria-expanded="true"] .k { color: #fff; }
 .dg-safety .common .n,
 .dg-safety .n { margin: 4px 0 0; font-size: 11px; color: var(--text-muted); font-style: italic; }
 .dg-safety .prov { margin: 8px 0 0; font-size: 11px; color: var(--text-muted); }
-.dg-safety .prov a { color: var(--series-1); }
+.dg-safety .prov a { color: var(--accent-ink); }
 .dg-safety .none { margin: 0; font-size: 12px; color: var(--text-muted); }
 
 /* agents listed under a druggable driver in the subtype drawer */
@@ -1414,7 +1440,7 @@ button.chip-def[aria-expanded="true"] .k { color: #fff; }
   border-radius: 999px;
   padding: 1px 9px;
   cursor: pointer;
-  color: var(--series-1);
+  color: var(--accent-ink);
 }
 .drv-agents .ag:hover { border-color: var(--series-1); }
 .drv-agents .ag .bx {
@@ -1469,7 +1495,7 @@ button.chip-def[aria-expanded="true"] .k { color: #fff; }
   color: var(--text-secondary);
 }
 .chipbtn:hover { border-color: var(--series-1); }
-.chipbtn.on { background: var(--series-1); color: #fff; border-color: transparent; }
+.chipbtn.on { background: var(--accent-fill); color: #fff; border-color: transparent; }
 .chipbtn:focus-visible { outline: 2px solid var(--series-1); outline-offset: 2px; }
 
 .lit-group { margin: 0 0 16px; }
@@ -1483,7 +1509,6 @@ button.chip-def[aria-expanded="true"] .k { color: #fff; }
 }
 .lit-group .ghead .nm { font-size: 13px; font-weight: 650; color: var(--text-primary); }
 .lit-group .ghead .n { font-size: 11px; color: var(--text-muted); }
-.lit-group .more { margin: 4px 0 0; font-size: 11px; color: var(--text-muted); font-style: italic; }
 
 .lit-paper {
   border: 1px solid var(--border);
@@ -1517,7 +1542,7 @@ button.chip-def[aria-expanded="true"] .k { color: #fff; }
 /* The preprint badge is the most conspicuous thing on the card, deliberately —
    it is the single fact most likely to be skipped over. */
 .lit-paper .badge.tier-preprint {
-  background: var(--series-7);
+  background: color-mix(in srgb, var(--series-7) 70%, #000);
   color: #fff;
   border-color: transparent;
   font-weight: 700;
@@ -1544,7 +1569,7 @@ button.chip-def[aria-expanded="true"] .k { color: #fff; }
   line-height: 1.35;
   text-decoration: none;
 }
-.lit-paper .ttl:hover { text-decoration: underline; color: var(--series-1); }
+.lit-paper .ttl:hover { text-decoration: underline; color: var(--accent-ink); }
 
 .lit-paper .meta { font-size: 11px; color: var(--text-secondary); margin-top: 3px; }
 .lit-paper .auth { font-size: 10.5px; color: var(--text-muted); margin-top: 1px; }
@@ -1571,7 +1596,7 @@ button.chip-def[aria-expanded="true"] .k { color: #fff; }
 }
 
 .ev-cohort .nm { font-size: 14px; font-weight: 650; color: var(--text-primary); }
-.ev-cohort .nm a { color: var(--series-1); }
+.ev-cohort .nm a { color: var(--accent-ink); }
 .ev-cohort .n { font-size: 12px; color: var(--text-secondary); font-variant-numeric: tabular-nums; margin-top: 2px; }
 .ev-cohort .note { margin: 8px 0 0; font-size: 11.5px; color: var(--text-muted); max-width: 80ch; }
 
@@ -1611,7 +1636,7 @@ button.chip-def[aria-expanded="true"] .k { color: #fff; }
 
 .tableview td.gene { font-weight: 650; color: var(--text-primary); }
 .tableview td.gap { font-variant-numeric: tabular-nums; color: var(--text-secondary); }
-.tableview td.gap.wide { color: var(--serious); font-weight: 650; }
+.tableview td.gap.wide { color: color-mix(in srgb, var(--serious) 62%, var(--text-primary)); font-weight: 650; }
 
 .ev-srcs { columns: 2; column-gap: 28px; }
 .ev-srcs li { break-inside: avoid; margin-bottom: 5px; }
@@ -1768,7 +1793,7 @@ button.chip-def[aria-expanded="true"] .k { color: #fff; }
   display: block;
   margin-top: 9px;
   font-size: 11.5px;
-  color: var(--series-1);
+  color: var(--accent-ink);
 }
 .st-axis .go:hover, .st-term .go:hover, .st-feeds:hover { text-decoration: underline; }
 .st-axis .go:focus-visible,
@@ -1792,7 +1817,7 @@ button.chip-def[aria-expanded="true"] .k { color: #fff; }
 .st-term .tm { font-size: 13.5px; font-weight: 650; color: var(--text-primary); }
 .st-term .meta { font-size: 10.5px; color: var(--text-muted); }
 .st-term .pl { display: block; font-size: 12.5px; color: var(--text-secondary); margin-top: 4px; }
-.st-term .go { display: block; font-size: 11px; color: var(--series-1); margin-top: 5px; }
+.st-term .go { display: block; font-size: 11px; color: var(--accent-ink); margin-top: 5px; }
 
 .st-feeds {
   display: block;
@@ -1843,7 +1868,7 @@ button.chip-def[aria-expanded="true"] .k { color: #fff; }
   background: none;
   border: none;
   text-align: left;
-  color: var(--series-1);
+  color: var(--accent-ink);
   cursor: pointer;
 }
 .st-next:hover { text-decoration: underline; }
@@ -1959,11 +1984,13 @@ button.chip-def[aria-expanded="true"] .k { color: #fff; }
    where the drawer sits under the lens (drawerBelow() in explorer.js): there a
    card opens screens below the dot, and a fingertip covers three dots at once.
    Filled like .segmented, because a quieter chip reads as part of the prose. */
-.tg-open, .tg-return { display: none; }
+.tg-open, .tg-return, .de-back { display: none; }
 .detectionview .tg-open-h { font-size: 12.5px; color: var(--text-secondary); margin: 10px 0 6px; }
 .tg-open-row { display: flex; flex-wrap: wrap; gap: 6px; }
 .tg-open-row button,
-.tg-return {
+.tg-return,
+.de-back,
+.lit-btn {
   font: inherit;
   font-size: 13px;
   padding: 7px 12px;
@@ -1974,19 +2001,33 @@ button.chip-def[aria-expanded="true"] .k { color: #fff; }
   cursor: pointer;
 }
 .tg-open-row button[aria-pressed="true"] {
-  background: var(--series-1);
-  border-color: var(--series-1);
+  background: var(--accent-fill);
+  border-color: var(--accent-fill);
   color: #fff;
   font-weight: 600;
 }
 .tg-open-row button:active,
-.tg-return:active { background: color-mix(in srgb, var(--series-1) 24%, var(--surface-1)); }
+.tg-return:active,
+.de-back:active,
+.lit-btn:active { background: color-mix(in srgb, var(--series-1) 24%, var(--surface-1)); }
 .tg-open-row button:focus-visible,
-.tg-return:focus-visible { outline: 2px solid var(--series-1); outline-offset: 2px; }
+.tg-return:focus-visible,
+.de-back:focus-visible,
+.lit-btn:focus-visible { outline: 2px solid var(--series-1); outline-offset: 2px; }
+.lit-focus {
+  margin: 0 0 14px;
+  padding: 10px 12px;
+  border-left: 3px solid var(--series-1);
+  background: color-mix(in srgb, var(--series-1) 6%, var(--surface-1));
+  border-radius: 0 6px 6px 0;
+}
+.lit-focus p { margin: 0 0 8px; font-size: 13px; color: var(--text-primary); }
+.lit-group .lit-more { margin: 6px 0 0; }
 @media (max-width: 1000px) {
   .tg-open { display: block; margin: 2px 0 16px; }
   .tg-return { display: inline-block; margin: 0 0 12px; text-align: left; }
   .drawer .tg-return:last-child { margin: 16px 0 0; }
+  .de-back { display: block; margin: 10px 0 0; text-align: left; }
 }
 .tableview td.why { color: var(--text-muted); font-size: 11.5px; min-width: 22ch; }
 
@@ -2036,7 +2077,7 @@ button.chip-def[aria-expanded="true"] .k { color: #fff; }
 .tg-struct .t { display: block; margin-top: 2px; font-style: italic; }
 
 .tg-links { display: flex; gap: 12px; flex-wrap: wrap; margin: 0 0 6px; font-size: 11.5px; }
-.tg-links a { color: var(--series-1); }
+.tg-links a { color: var(--accent-ink); }
 
 .tg-caveat { font-size: 11px !important; color: var(--text-muted) !important; font-style: italic; }
 
@@ -2119,14 +2160,17 @@ button.chip-def[aria-expanded="true"] .k { color: #fff; }
 .tg-drug .phase.ph-phase-2 { background: color-mix(in srgb, var(--series-1) 18%, transparent); }
 .tg-drug .phase.ph-phase-1-2 { background: color-mix(in srgb, var(--series-1) 12%, transparent); }
 .tg-drug .phase.ph-discontinued { text-decoration: line-through; color: var(--text-muted); }
+/* On a tint the secondary grey fell under AA ("filed" 3.37:1 on its green). */
+.tg-drug .phase.ph-filed, .tg-drug .phase.ph-phase-3, .tg-drug .phase.ph-phase-2,
+.tg-drug .phase.ph-phase-1-2 { color: var(--text-primary); }
 
 .tg-drug .meta { margin: 3px 0 0; font-size: 11.5px; color: var(--text-secondary); }
 .tg-drug .readout { margin: 4px 0 0; font-size: 12px; color: var(--text-primary); }
 .tg-drug .trial { margin: 4px 0 0; font-size: 11.5px; display: flex; gap: 8px; flex-wrap: wrap; }
 .tg-drug .trial .tn { color: var(--text-secondary); }
-.tg-drug .trial a { color: var(--series-1); }
+.tg-drug .trial a { color: var(--accent-ink); }
 .tg-drug .registry { margin: 3px 0 0; font-size: 11px; color: var(--text-muted); }
-.tg-drug .disagree { margin: 3px 0 0; font-size: 11px; color: var(--serious); }
+.tg-drug .disagree { margin: 3px 0 0; font-size: 11px; color: color-mix(in srgb, var(--serious) 62%, var(--text-primary)); }
 
 /* --- evidence + gaps --- */
 .tg-civic { border: 1px solid var(--border); border-radius: 8px; padding: 9px 11px; }
@@ -2148,6 +2192,8 @@ button.chip-def[aria-expanded="true"] .k { color: #fff; }
 .tg-civic .lvl-B { background: color-mix(in srgb, var(--series-6) 40%, transparent); }
 .tg-civic .lvl-C { background: color-mix(in srgb, var(--series-4) 35%, transparent); }
 .tg-civic .lvl-D { background: color-mix(in srgb, var(--series-4) 20%, transparent); }
+/* "level B" was 4.29:1 in the secondary grey on its green tint. */
+.tg-civic .lvl-B, .tg-civic .lvl-C, .tg-civic .lvl-D { color: var(--text-primary); }
 
 .tg-gaps { margin: 0; padding-left: 19px; font-size: 12.5px; color: var(--text-secondary); }
 .tg-gaps li { margin-bottom: 5px; }
@@ -2186,6 +2232,7 @@ button.chip-def[aria-expanded="true"] .k { color: #fff; }
    kicks in instead of squeezing every column into a single word per line. */
 .tableview td.nw { white-space: nowrap; }
 .tableview td.f-name { min-width: 15ch; font-weight: 600; color: var(--text-primary); }
+.tableview td.f-name .sub { display: block; margin-top: 2px; font-size: 11.5px; font-weight: 400; color: var(--text-secondary); }
 .tableview td.num { white-space: normal; }
 .riskview table { min-width: 1080px; }
 
@@ -2195,6 +2242,11 @@ button.chip-def[aria-expanded="true"] .k { color: #fff; }
   .main { grid-template-columns: minmax(0, 1fr); }
   .drawer { position: static; max-height: none; }
   #viz { height: 440px; }
+  /* Under the lens, the empty drawer is a pointer back up, not a card: a line
+     of text instead of 113px of box (the user, 2026-11-03). */
+  .drawer:has(> .drawer-empty) { padding: 10px 14px; }
+  .drawer-empty { padding: 0; text-align: left; }
+  .drawer-empty .de-below { display: inline; }
 }
 
 @media (max-width: 640px) {
@@ -2327,7 +2379,9 @@ button.chip-def[aria-expanded="true"] .k { color: #fff; }
   .search-sheet, .search-sheet body { overflow: hidden; }
 
   /* clear the sticky strip when a search result scrolls something into view */
-  .drawer, .gl-term { scroll-margin-top: 60px; }
+  .drawer, .gl-term, .tg-open, #tableview table, #viz {
+    scroll-margin-top: calc(var(--strip-h, 52px) + 8px);   /* --strip-h: explorer.js */
+  }
 
   #viz { height: 400px; }
   .canvas { min-height: 360px; padding: 8px; }

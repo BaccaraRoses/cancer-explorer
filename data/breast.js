@@ -171,8 +171,8 @@ CancerExplorer.register({
       'answers at once, and all four are true. A fifth sorts something different: not the ' +
       'tumour but the course of the disease, by whether it ever becomes {{metastatic}} — and ' +
       'it is the only one that shows what treatment selects for. Each is a ' +
-      '{{classification axis}} here, and the "Classify by" picker in the bar above switches ' +
-      'between them.',
+      '{{classification axis}} here: "Sort by this" on a card below opens the Subtypes lens ' +
+      'on it, and the "Sorted by" switch at the head of that lens moves between them.',
 
     classificationClose:
       'They genuinely disagree, which is the reason to keep them apart: only 83% of tumours ' +
@@ -879,7 +879,7 @@ CancerExplorer.register({
            'overlap and together account for all of them. Four sort the tumour and are in ' +
            'routine use for breast cancer; a fifth here sorts the course of the disease. They ' +
            'answer different questions.',
-        w: 'The "Classify by" picker chooses which one the Subtypes lens draws. Risk factors and ' +
+        w: 'The "Sorted by" switch at the head of the Subtypes lens chooses which one it draws. Risk factors and ' +
            'drugs are deliberately NOT axes — a tumour can have many of either, so they sort ' +
            'nothing.' },
 

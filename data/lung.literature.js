@@ -1,6 +1,6 @@
 /* GENERATED FILE - DO NOT EDIT BY HAND.
  *
- * Produced by pipeline/run.py literature on 2026-10-18 00:46 UTC
+ * Produced by pipeline/run.py literature on 2026-11-04 05:19 UTC
  * 485 papers since 2024-01-01  (from 575 raw hits, deduplicated)
  * By tier: meta-analysis 6, preprint 9, primary 319, review 115, systematic review 2, trial 34
  * By kind: new-approach 160, resistance 140, toxicity 185
@@ -205,10 +205,7 @@ window.CancerExplorerLiterature['lung'] = {
    "species": "unclear",
    "species_from": "none",
    "genes": [
-    "EGFR",
-    "MET",
-    "TACSTD2",
-    "ERBB2"
+    "EGFR"
    ],
    "nodes": [
     "drv-egfr",
@@ -265,9 +262,7 @@ window.CancerExplorerLiterature['lung'] = {
    "species_from": "keywords",
    "genes": [
     "EGFR",
-    "MET",
-    "TACSTD2",
-    "ERBB2"
+    "MET"
    ],
    "nodes": [
     "drv-egfr",
@@ -509,10 +504,7 @@ window.CancerExplorerLiterature['lung'] = {
    "species": "mouse",
    "species_from": "keywords",
    "genes": [
-    "EGFR",
-    "MET",
-    "TACSTD2",
-    "ERBB2"
+    "EGFR"
    ],
    "nodes": [
     "drv-egfr",
@@ -578,12 +570,7 @@ window.CancerExplorerLiterature['lung'] = {
    "species": "human",
    "species_from": "keywords",
    "genes": [
-    "DLL3",
-    "EGFR",
-    "MET",
-    "NRG1",
-    "TP53",
-    "RB1"
+    "DLL3"
    ],
    "nodes": [
     "hist-sclc"
@@ -646,8 +633,7 @@ window.CancerExplorerLiterature['lung'] = {
    "species_from": "keywords",
    "genes": [
     "TACSTD2",
-    "ERBB2",
-    "MET"
+    "ERBB2"
    ],
    "nodes": [
     "res-treated",
@@ -682,11 +668,7 @@ window.CancerExplorerLiterature['lung'] = {
    "species_from": "keywords",
    "genes": [
     "DLL3",
-    "EGFR",
-    "MET",
-    "NRG1",
-    "TP53",
-    "RB1"
+    "EGFR"
    ],
    "nodes": [
     "hist-sclc",
@@ -779,12 +761,7 @@ window.CancerExplorerLiterature['lung'] = {
    "species": "human",
    "species_from": "keywords",
    "genes": [
-    "DLL3",
-    "EGFR",
-    "MET",
-    "NRG1",
-    "TP53",
-    "RB1"
+    "DLL3"
    ],
    "nodes": [
     "hist-sclc"
@@ -955,10 +932,7 @@ window.CancerExplorerLiterature['lung'] = {
    "species": "human",
    "species_from": "keywords",
    "genes": [
-    "EGFR",
-    "MET",
-    "TACSTD2",
-    "ERBB2"
+    "EGFR"
    ],
    "nodes": [
     "drv-egfr",
@@ -989,12 +963,7 @@ window.CancerExplorerLiterature['lung'] = {
    "species": "unclear",
    "species_from": "none",
    "genes": [
-    "DLL3",
-    "EGFR",
-    "MET",
-    "NRG1",
-    "TP53",
-    "RB1"
+    "DLL3"
    ],
    "nodes": [
     "hist-sclc"
@@ -1261,10 +1230,7 @@ window.CancerExplorerLiterature['lung'] = {
    "species": "human",
    "species_from": "keywords",
    "genes": [
-    "EGFR",
-    "MET",
-    "TACSTD2",
-    "ERBB2"
+    "EGFR"
    ],
    "nodes": [
     "drv-egfr",
@@ -1366,8 +1332,7 @@ window.CancerExplorerLiterature['lung'] = {
    "species_from": "keywords",
    "genes": [
     "TACSTD2",
-    "ERBB2",
-    "MET"
+    "ERBB2"
    ],
    "nodes": [
     "res-treated",
@@ -1395,10 +1360,7 @@ window.CancerExplorerLiterature['lung'] = {
    "species": "human",
    "species_from": "keywords",
    "genes": [
-    "EGFR",
-    "MET",
-    "TACSTD2",
-    "ERBB2"
+    "EGFR"
    ],
    "nodes": [
     "drv-egfr",
@@ -1499,10 +1461,7 @@ window.CancerExplorerLiterature['lung'] = {
    "species": "mouse",
    "species_from": "keywords",
    "genes": [
-    "EGFR",
-    "MET",
-    "TACSTD2",
-    "ERBB2"
+    "EGFR"
    ],
    "nodes": [
     "drv-egfr",
@@ -1604,12 +1563,7 @@ window.CancerExplorerLiterature['lung'] = {
    "species": "mouse",
    "species_from": "keywords",
    "genes": [
-    "DLL3",
-    "EGFR",
-    "MET",
-    "NRG1",
-    "TP53",
-    "RB1"
+    "DLL3"
    ],
    "nodes": [
     "hist-sclc"
@@ -1701,10 +1655,7 @@ window.CancerExplorerLiterature['lung'] = {
    "species": "human",
    "species_from": "keywords",
    "genes": [
-    "EGFR",
-    "MET",
-    "TACSTD2",
-    "ERBB2"
+    "EGFR"
    ],
    "nodes": [
     "drv-egfr",
@@ -1733,12 +1684,7 @@ window.CancerExplorerLiterature['lung'] = {
    "species": "unclear",
    "species_from": "none",
    "genes": [
-    "DLL3",
-    "EGFR",
-    "MET",
-    "NRG1",
-    "TP53",
-    "RB1"
+    "DLL3"
    ],
    "nodes": [
     "hist-sclc"
@@ -1771,10 +1717,7 @@ window.CancerExplorerLiterature['lung'] = {
    "species": "cell line",
    "species_from": "keywords",
    "genes": [
-    "EGFR",
-    "MET",
-    "TACSTD2",
-    "ERBB2"
+    "EGFR"
    ],
    "nodes": [
     "drv-egfr",
@@ -1838,12 +1781,7 @@ window.CancerExplorerLiterature['lung'] = {
    "species": "human",
    "species_from": "keywords",
    "genes": [
-    "DLL3",
-    "EGFR",
-    "MET",
-    "NRG1",
-    "TP53",
-    "RB1"
+    "DLL3"
    ],
    "nodes": [
     "hist-sclc"
@@ -2020,10 +1958,7 @@ window.CancerExplorerLiterature['lung'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "EGFR",
-    "MET",
-    "TACSTD2",
-    "ERBB2"
+    "EGFR"
    ],
    "nodes": [
     "drv-egfr",
@@ -2052,10 +1987,7 @@ window.CancerExplorerLiterature['lung'] = {
    "species": "unclear",
    "species_from": "none",
    "genes": [
-    "EGFR",
-    "MET",
-    "TACSTD2",
-    "ERBB2"
+    "EGFR"
    ],
    "nodes": [
     "drv-egfr",
@@ -2148,8 +2080,7 @@ window.CancerExplorerLiterature['lung'] = {
     "MET",
     "ERBB2",
     "ROS1",
-    "RET",
-    "BRAF"
+    "RET"
    ],
    "nodes": [
     "drv-egfr",
@@ -2225,8 +2156,7 @@ window.CancerExplorerLiterature['lung'] = {
    "species_from": "keywords",
    "genes": [
     "TACSTD2",
-    "ERBB2",
-    "MET"
+    "ERBB2"
    ],
    "nodes": [
     "res-treated",
@@ -2322,10 +2252,7 @@ window.CancerExplorerLiterature['lung'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "EGFR",
-    "MET",
-    "TACSTD2",
-    "ERBB2"
+    "EGFR"
    ],
    "nodes": [
     "drv-egfr",
@@ -2355,7 +2282,6 @@ window.CancerExplorerLiterature['lung'] = {
    "species_from": "mesh",
    "genes": [
     "ALK",
-    "KRAS",
     "ERBB2",
     "ROS1",
     "RET",
@@ -2471,12 +2397,7 @@ window.CancerExplorerLiterature['lung'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "DLL3",
-    "EGFR",
-    "MET",
-    "NRG1",
-    "TP53",
-    "RB1"
+    "DLL3"
    ],
    "nodes": [
     "hist-sclc"
@@ -2644,12 +2565,7 @@ window.CancerExplorerLiterature['lung'] = {
    "species": "human",
    "species_from": "keywords",
    "genes": [
-    "ALK",
-    "KRAS",
-    "ERBB2",
-    "ROS1",
-    "RET",
-    "MET"
+    "ALK"
    ],
    "nodes": [
     "drv-alk",
@@ -2677,10 +2593,7 @@ window.CancerExplorerLiterature['lung'] = {
    "species": "mouse",
    "species_from": "mesh",
    "genes": [
-    "EGFR",
-    "MET",
-    "TACSTD2",
-    "ERBB2"
+    "EGFR"
    ],
    "nodes": [
     "drv-egfr",
@@ -2748,10 +2661,7 @@ window.CancerExplorerLiterature['lung'] = {
    "species": "human",
    "species_from": "keywords",
    "genes": [
-    "EGFR",
-    "MET",
-    "TACSTD2",
-    "ERBB2"
+    "EGFR"
    ],
    "nodes": [
     "drv-egfr",
@@ -2780,10 +2690,7 @@ window.CancerExplorerLiterature['lung'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "EGFR",
-    "MET",
-    "TACSTD2",
-    "ERBB2"
+    "EGFR"
    ],
    "nodes": [
     "drv-egfr",
@@ -2812,12 +2719,7 @@ window.CancerExplorerLiterature['lung'] = {
    "species": "unclear",
    "species_from": "none",
    "genes": [
-    "DLL3",
-    "EGFR",
-    "MET",
-    "NRG1",
-    "TP53",
-    "RB1"
+    "DLL3"
    ],
    "nodes": [
     "hist-sclc"
@@ -2887,10 +2789,7 @@ window.CancerExplorerLiterature['lung'] = {
    "species": "mouse",
    "species_from": "mesh",
    "genes": [
-    "EGFR",
-    "MET",
-    "TACSTD2",
-    "ERBB2"
+    "EGFR"
    ],
    "nodes": [
     "drv-egfr",
@@ -3100,10 +2999,7 @@ window.CancerExplorerLiterature['lung'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "EGFR",
-    "MET",
-    "TACSTD2",
-    "ERBB2"
+    "EGFR"
    ],
    "nodes": [
     "drv-egfr",
@@ -3132,12 +3028,7 @@ window.CancerExplorerLiterature['lung'] = {
    "species": "human",
    "species_from": "keywords",
    "genes": [
-    "ALK",
-    "KRAS",
-    "ERBB2",
-    "ROS1",
-    "RET",
-    "MET"
+    "ALK"
    ],
    "nodes": [
     "drv-alk",
@@ -3166,8 +3057,7 @@ window.CancerExplorerLiterature['lung'] = {
    "species_from": "keywords",
    "genes": [
     "TACSTD2",
-    "ERBB2",
-    "MET"
+    "ERBB2"
    ],
    "nodes": [
     "res-treated",
@@ -3195,10 +3085,7 @@ window.CancerExplorerLiterature['lung'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "EGFR",
-    "MET",
-    "TACSTD2",
-    "ERBB2"
+    "EGFR"
    ],
    "nodes": [
     "drv-egfr",
@@ -3254,10 +3141,7 @@ window.CancerExplorerLiterature['lung'] = {
    "species": "unclear",
    "species_from": "none",
    "genes": [
-    "EGFR",
-    "MET",
-    "TACSTD2",
-    "ERBB2"
+    "EGFR"
    ],
    "nodes": [
     "drv-egfr",
@@ -3351,11 +3235,7 @@ window.CancerExplorerLiterature['lung'] = {
    "species_from": "mesh",
    "genes": [
     "EGFR",
-    "MET",
-    "ERBB2",
-    "ROS1",
-    "RET",
-    "BRAF"
+    "MET"
    ],
    "nodes": [
     "drv-egfr",
@@ -3452,8 +3332,7 @@ window.CancerExplorerLiterature['lung'] = {
    "species_from": "keywords",
    "genes": [
     "TACSTD2",
-    "ERBB2",
-    "MET"
+    "ERBB2"
    ],
    "nodes": [
     "res-treated",
@@ -3481,10 +3360,7 @@ window.CancerExplorerLiterature['lung'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "EGFR",
-    "MET",
-    "TACSTD2",
-    "ERBB2"
+    "EGFR"
    ],
    "nodes": [
     "drv-egfr",
@@ -3513,10 +3389,7 @@ window.CancerExplorerLiterature['lung'] = {
    "species": "human",
    "species_from": "keywords",
    "genes": [
-    "EGFR",
-    "MET",
-    "TACSTD2",
-    "ERBB2"
+    "EGFR"
    ],
    "nodes": [
     "drv-egfr",
@@ -3545,10 +3418,7 @@ window.CancerExplorerLiterature['lung'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "EGFR",
-    "MET",
-    "TACSTD2",
-    "ERBB2"
+    "EGFR"
    ],
    "nodes": [
     "drv-egfr",
@@ -3690,10 +3560,7 @@ window.CancerExplorerLiterature['lung'] = {
    "species": "mouse",
    "species_from": "mesh",
    "genes": [
-    "EGFR",
-    "MET",
-    "TACSTD2",
-    "ERBB2"
+    "EGFR"
    ],
    "nodes": [
     "drv-egfr",
@@ -3722,10 +3589,7 @@ window.CancerExplorerLiterature['lung'] = {
    "species": "mouse",
    "species_from": "mesh",
    "genes": [
-    "EGFR",
-    "MET",
-    "TACSTD2",
-    "ERBB2"
+    "EGFR"
    ],
    "nodes": [
     "drv-egfr",
@@ -3755,9 +3619,7 @@ window.CancerExplorerLiterature['lung'] = {
    "species_from": "none",
    "genes": [
     "EGFR",
-    "MET",
-    "TACSTD2",
-    "ERBB2"
+    "MET"
    ],
    "nodes": [
     "drv-egfr",
@@ -3798,8 +3660,7 @@ window.CancerExplorerLiterature['lung'] = {
    "species_from": "keywords",
    "genes": [
     "TACSTD2",
-    "ERBB2",
-    "MET"
+    "ERBB2"
    ],
    "nodes": [
     "res-treated",
@@ -3827,12 +3688,7 @@ window.CancerExplorerLiterature['lung'] = {
    "species": "mouse",
    "species_from": "mesh",
    "genes": [
-    "DLL3",
-    "EGFR",
-    "MET",
-    "NRG1",
-    "TP53",
-    "RB1"
+    "DLL3"
    ],
    "nodes": [
     "hist-sclc"
@@ -3865,10 +3721,7 @@ window.CancerExplorerLiterature['lung'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "EGFR",
-    "MET",
-    "TACSTD2",
-    "ERBB2"
+    "EGFR"
    ],
    "nodes": [
     "drv-egfr",
@@ -3964,10 +3817,7 @@ window.CancerExplorerLiterature['lung'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "EGFR",
-    "MET",
-    "TACSTD2",
-    "ERBB2"
+    "EGFR"
    ],
    "nodes": [
     "drv-egfr",
@@ -3997,10 +3847,7 @@ window.CancerExplorerLiterature['lung'] = {
    "species": "human",
    "species_from": "keywords",
    "genes": [
-    "EGFR",
-    "MET",
-    "TACSTD2",
-    "ERBB2"
+    "EGFR"
    ],
    "nodes": [
     "drv-egfr",
@@ -4029,10 +3876,7 @@ window.CancerExplorerLiterature['lung'] = {
    "species": "human",
    "species_from": "keywords",
    "genes": [
-    "EGFR",
-    "MET",
-    "TACSTD2",
-    "ERBB2"
+    "EGFR"
    ],
    "nodes": [
     "drv-egfr",
@@ -4061,10 +3905,7 @@ window.CancerExplorerLiterature['lung'] = {
    "species": "unclear",
    "species_from": "none",
    "genes": [
-    "EGFR",
-    "MET",
-    "TACSTD2",
-    "ERBB2"
+    "EGFR"
    ],
    "nodes": [
     "drv-egfr",
@@ -4298,12 +4139,7 @@ window.CancerExplorerLiterature['lung'] = {
    "species": "human",
    "species_from": "keywords",
    "genes": [
-    "ALK",
-    "KRAS",
-    "ERBB2",
-    "ROS1",
-    "RET",
-    "MET"
+    "ALK"
    ],
    "nodes": [
     "drv-alk",
@@ -4360,11 +4196,7 @@ window.CancerExplorerLiterature['lung'] = {
    "species_from": "mesh",
    "genes": [
     "EGFR",
-    "MET",
-    "ERBB2",
-    "ROS1",
-    "RET",
-    "BRAF"
+    "MET"
    ],
    "nodes": [
     "drv-egfr",
@@ -4394,12 +4226,7 @@ window.CancerExplorerLiterature['lung'] = {
    "species": "human",
    "species_from": "keywords",
    "genes": [
-    "DLL3",
-    "EGFR",
-    "MET",
-    "NRG1",
-    "TP53",
-    "RB1"
+    "DLL3"
    ],
    "nodes": [
     "hist-sclc"
@@ -4452,9 +4279,7 @@ window.CancerExplorerLiterature['lung'] = {
    "species_from": "none",
    "genes": [
     "EGFR",
-    "MET",
-    "TACSTD2",
-    "ERBB2"
+    "MET"
    ],
    "nodes": [
     "drv-egfr",
@@ -4491,8 +4316,7 @@ window.CancerExplorerLiterature['lung'] = {
    "species_from": "mesh",
    "genes": [
     "TACSTD2",
-    "ERBB2",
-    "MET"
+    "ERBB2"
    ],
    "nodes": [
     "res-treated",
@@ -4522,11 +4346,7 @@ window.CancerExplorerLiterature['lung'] = {
    "species_from": "keywords",
    "genes": [
     "EGFR",
-    "MET",
-    "ERBB2",
-    "ROS1",
-    "RET",
-    "BRAF"
+    "MET"
    ],
    "nodes": [
     "drv-egfr",
@@ -4582,10 +4402,7 @@ window.CancerExplorerLiterature['lung'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "EGFR",
-    "MET",
-    "TACSTD2",
-    "ERBB2"
+    "EGFR"
    ],
    "nodes": [
     "drv-egfr",
@@ -4651,12 +4468,7 @@ window.CancerExplorerLiterature['lung'] = {
    "species": "human",
    "species_from": "keywords",
    "genes": [
-    "DLL3",
-    "EGFR",
-    "MET",
-    "NRG1",
-    "TP53",
-    "RB1"
+    "DLL3"
    ],
    "nodes": [
     "hist-sclc"
@@ -4826,11 +4638,7 @@ window.CancerExplorerLiterature['lung'] = {
    "species_from": "keywords",
    "genes": [
     "EGFR",
-    "MET",
-    "ERBB2",
-    "ROS1",
-    "RET",
-    "BRAF"
+    "MET"
    ],
    "nodes": [
     "drv-egfr",
@@ -4922,10 +4730,7 @@ window.CancerExplorerLiterature['lung'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "EGFR",
-    "MET",
-    "TACSTD2",
-    "ERBB2"
+    "EGFR"
    ],
    "nodes": [
     "drv-egfr",
@@ -4955,10 +4760,7 @@ window.CancerExplorerLiterature['lung'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "EGFR",
-    "MET",
-    "TACSTD2",
-    "ERBB2"
+    "EGFR"
    ],
    "nodes": [
     "drv-egfr",
@@ -4987,10 +4789,7 @@ window.CancerExplorerLiterature['lung'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "EGFR",
-    "MET",
-    "TACSTD2",
-    "ERBB2"
+    "EGFR"
    ],
    "nodes": [
     "drv-egfr",
@@ -5081,12 +4880,7 @@ window.CancerExplorerLiterature['lung'] = {
    "species": "unclear",
    "species_from": "none",
    "genes": [
-    "DLL3",
-    "EGFR",
-    "MET",
-    "NRG1",
-    "TP53",
-    "RB1"
+    "DLL3"
    ],
    "nodes": [
     "hist-sclc"
@@ -5120,12 +4914,7 @@ window.CancerExplorerLiterature['lung'] = {
    "species": "unclear",
    "species_from": "none",
    "genes": [
-    "DLL3",
-    "EGFR",
-    "MET",
-    "NRG1",
-    "TP53",
-    "RB1"
+    "DLL3"
    ],
    "nodes": [
     "hist-sclc"
@@ -5297,12 +5086,7 @@ window.CancerExplorerLiterature['lung'] = {
    "species": "mouse",
    "species_from": "mesh",
    "genes": [
-    "ALK",
-    "KRAS",
-    "ERBB2",
-    "ROS1",
-    "RET",
-    "MET"
+    "ALK"
    ],
    "nodes": [
     "drv-alk",
@@ -5330,12 +5114,7 @@ window.CancerExplorerLiterature['lung'] = {
    "species": "human",
    "species_from": "keywords",
    "genes": [
-    "DLL3",
-    "EGFR",
-    "MET",
-    "NRG1",
-    "TP53",
-    "RB1"
+    "DLL3"
    ],
    "nodes": [
     "hist-sclc"
@@ -5390,7 +5169,6 @@ window.CancerExplorerLiterature['lung'] = {
    "species_from": "mesh",
    "genes": [
     "EGFR",
-    "MET",
     "TACSTD2",
     "ERBB2"
    ],
@@ -5516,10 +5294,7 @@ window.CancerExplorerLiterature['lung'] = {
    "species": "human",
    "species_from": "keywords",
    "genes": [
-    "EGFR",
-    "MET",
-    "TACSTD2",
-    "ERBB2"
+    "EGFR"
    ],
    "nodes": [
     "drv-egfr",
@@ -5577,8 +5352,7 @@ window.CancerExplorerLiterature['lung'] = {
    "species_from": "keywords",
    "genes": [
     "TACSTD2",
-    "ERBB2",
-    "MET"
+    "ERBB2"
    ],
    "nodes": [
     "res-treated",
@@ -5606,10 +5380,7 @@ window.CancerExplorerLiterature['lung'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "EGFR",
-    "MET",
-    "TACSTD2",
-    "ERBB2"
+    "EGFR"
    ],
    "nodes": [
     "drv-egfr",
@@ -5703,10 +5474,7 @@ window.CancerExplorerLiterature['lung'] = {
    "species": "mouse",
    "species_from": "mesh",
    "genes": [
-    "EGFR",
-    "MET",
-    "TACSTD2",
-    "ERBB2"
+    "EGFR"
    ],
    "nodes": [
     "drv-egfr",
@@ -5763,8 +5531,7 @@ window.CancerExplorerLiterature['lung'] = {
    "species_from": "mesh",
    "genes": [
     "TACSTD2",
-    "ERBB2",
-    "MET"
+    "ERBB2"
    ],
    "nodes": [
     "res-treated",
@@ -5818,10 +5585,7 @@ window.CancerExplorerLiterature['lung'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "EGFR",
-    "MET",
-    "TACSTD2",
-    "ERBB2"
+    "EGFR"
    ],
    "nodes": [
     "drv-egfr",
@@ -5851,10 +5615,7 @@ window.CancerExplorerLiterature['lung'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "EGFR",
-    "MET",
-    "TACSTD2",
-    "ERBB2"
+    "EGFR"
    ],
    "nodes": [
     "drv-egfr",
@@ -5884,8 +5645,7 @@ window.CancerExplorerLiterature['lung'] = {
    "species_from": "keywords",
    "genes": [
     "TACSTD2",
-    "ERBB2",
-    "MET"
+    "ERBB2"
    ],
    "nodes": [
     "res-treated",
@@ -6002,10 +5762,7 @@ window.CancerExplorerLiterature['lung'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "EGFR",
-    "MET",
-    "TACSTD2",
-    "ERBB2"
+    "EGFR"
    ],
    "nodes": [
     "drv-egfr",
@@ -6034,10 +5791,7 @@ window.CancerExplorerLiterature['lung'] = {
    "species": "mouse",
    "species_from": "mesh",
    "genes": [
-    "EGFR",
-    "MET",
-    "TACSTD2",
-    "ERBB2"
+    "EGFR"
    ],
    "nodes": [
     "drv-egfr",
@@ -6068,11 +5822,7 @@ window.CancerExplorerLiterature['lung'] = {
    "species_from": "mesh",
    "genes": [
     "EGFR",
-    "MET",
-    "ERBB2",
-    "ROS1",
-    "RET",
-    "BRAF"
+    "MET"
    ],
    "nodes": [
     "drv-egfr",
@@ -6104,11 +5854,7 @@ window.CancerExplorerLiterature['lung'] = {
    "species_from": "keywords",
    "genes": [
     "DLL3",
-    "EGFR",
-    "MET",
-    "NRG1",
-    "TP53",
-    "RB1"
+    "NRG1"
    ],
    "nodes": [
     "hist-sclc"
@@ -6141,12 +5887,7 @@ window.CancerExplorerLiterature['lung'] = {
    "species": "human",
    "species_from": "keywords",
    "genes": [
-    "DLL3",
-    "EGFR",
-    "MET",
-    "NRG1",
-    "TP53",
-    "RB1"
+    "DLL3"
    ],
    "nodes": [
     "hist-sclc"
@@ -6349,10 +6090,7 @@ window.CancerExplorerLiterature['lung'] = {
    "species": "mouse",
    "species_from": "mesh",
    "genes": [
-    "EGFR",
-    "MET",
-    "TACSTD2",
-    "ERBB2"
+    "EGFR"
    ],
    "nodes": [
     "drv-egfr",
@@ -6382,11 +6120,7 @@ window.CancerExplorerLiterature['lung'] = {
    "species_from": "keywords",
    "genes": [
     "EGFR",
-    "MET",
-    "ERBB2",
-    "ROS1",
-    "RET",
-    "BRAF"
+    "MET"
    ],
    "nodes": [
     "drv-egfr",
@@ -6417,11 +6151,7 @@ window.CancerExplorerLiterature['lung'] = {
    "species_from": "keywords",
    "genes": [
     "EGFR",
-    "MET",
-    "ERBB2",
-    "ROS1",
-    "RET",
-    "BRAF"
+    "MET"
    ],
    "nodes": [
     "drv-egfr",
@@ -6533,12 +6263,7 @@ window.CancerExplorerLiterature['lung'] = {
    "species": "human",
    "species_from": "keywords",
    "genes": [
-    "DLL3",
-    "EGFR",
-    "MET",
-    "NRG1",
-    "TP53",
-    "RB1"
+    "DLL3"
    ],
    "nodes": [
     "hist-sclc"
@@ -6642,11 +6367,7 @@ window.CancerExplorerLiterature['lung'] = {
    "species_from": "keywords",
    "genes": [
     "EGFR",
-    "MET",
-    "ERBB2",
-    "ROS1",
-    "RET",
-    "BRAF"
+    "MET"
    ],
    "nodes": [
     "drv-egfr",
@@ -6676,12 +6397,7 @@ window.CancerExplorerLiterature['lung'] = {
    "species": "unclear",
    "species_from": "none",
    "genes": [
-    "DLL3",
-    "EGFR",
-    "MET",
-    "NRG1",
-    "TP53",
-    "RB1"
+    "DLL3"
    ],
    "nodes": [
     "hist-sclc"
@@ -6734,12 +6450,7 @@ window.CancerExplorerLiterature['lung'] = {
    "species": "human",
    "species_from": "keywords",
    "genes": [
-    "ALK",
-    "KRAS",
-    "ERBB2",
-    "ROS1",
-    "RET",
-    "MET"
+    "ALK"
    ],
    "nodes": [
     "drv-alk",
@@ -6768,12 +6479,7 @@ window.CancerExplorerLiterature['lung'] = {
    "species": "unclear",
    "species_from": "none",
    "genes": [
-    "DLL3",
-    "EGFR",
-    "MET",
-    "NRG1",
-    "TP53",
-    "RB1"
+    "DLL3"
    ],
    "nodes": [
     "hist-sclc"
@@ -6829,12 +6535,7 @@ window.CancerExplorerLiterature['lung'] = {
    "species": "human",
    "species_from": "keywords",
    "genes": [
-    "ALK",
-    "KRAS",
-    "ERBB2",
-    "ROS1",
-    "RET",
-    "MET"
+    "ALK"
    ],
    "nodes": [
     "drv-alk",
@@ -6863,10 +6564,7 @@ window.CancerExplorerLiterature['lung'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "EGFR",
-    "MET",
-    "TACSTD2",
-    "ERBB2"
+    "EGFR"
    ],
    "nodes": [
     "drv-egfr",
@@ -6895,12 +6593,7 @@ window.CancerExplorerLiterature['lung'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "DLL3",
-    "EGFR",
-    "MET",
-    "NRG1",
-    "TP53",
-    "RB1"
+    "DLL3"
    ],
    "nodes": [
     "hist-sclc"
@@ -6956,12 +6649,7 @@ window.CancerExplorerLiterature['lung'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "DLL3",
-    "EGFR",
-    "MET",
-    "NRG1",
-    "TP53",
-    "RB1"
+    "DLL3"
    ],
    "nodes": [
     "hist-sclc"
@@ -7121,10 +6809,7 @@ window.CancerExplorerLiterature['lung'] = {
    "species": "unclear",
    "species_from": "none",
    "genes": [
-    "EGFR",
-    "MET",
-    "TACSTD2",
-    "ERBB2"
+    "EGFR"
    ],
    "nodes": [
     "drv-egfr",
@@ -7154,8 +6839,7 @@ window.CancerExplorerLiterature['lung'] = {
    "species_from": "mesh",
    "genes": [
     "TACSTD2",
-    "ERBB2",
-    "MET"
+    "ERBB2"
    ],
    "nodes": [
     "res-treated",
@@ -7223,12 +6907,7 @@ window.CancerExplorerLiterature['lung'] = {
    "species": "human",
    "species_from": "keywords",
    "genes": [
-    "DLL3",
-    "EGFR",
-    "MET",
-    "NRG1",
-    "TP53",
-    "RB1"
+    "DLL3"
    ],
    "nodes": [
     "hist-sclc"
@@ -7256,8 +6935,7 @@ window.CancerExplorerLiterature['lung'] = {
    "species_from": "mesh",
    "genes": [
     "TACSTD2",
-    "ERBB2",
-    "MET"
+    "ERBB2"
    ],
    "nodes": [
     "res-treated",
@@ -7287,12 +6965,7 @@ window.CancerExplorerLiterature['lung'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "DLL3",
-    "EGFR",
-    "MET",
-    "NRG1",
-    "TP53",
-    "RB1"
+    "DLL3"
    ],
    "nodes": [
     "hist-sclc"
@@ -7325,12 +6998,7 @@ window.CancerExplorerLiterature['lung'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "DLL3",
-    "EGFR",
-    "MET",
-    "NRG1",
-    "TP53",
-    "RB1"
+    "DLL3"
    ],
    "nodes": [
     "hist-sclc"
@@ -7422,12 +7090,7 @@ window.CancerExplorerLiterature['lung'] = {
    "species": "unclear",
    "species_from": "none",
    "genes": [
-    "DLL3",
-    "EGFR",
-    "MET",
-    "NRG1",
-    "TP53",
-    "RB1"
+    "DLL3"
    ],
    "nodes": [
     "hist-sclc"
@@ -7496,11 +7159,7 @@ window.CancerExplorerLiterature['lung'] = {
    "species_from": "mesh",
    "genes": [
     "EGFR",
-    "MET",
-    "ERBB2",
-    "ROS1",
-    "RET",
-    "BRAF"
+    "MET"
    ],
    "nodes": [
     "drv-egfr",
@@ -7565,12 +7224,7 @@ window.CancerExplorerLiterature['lung'] = {
    "species": "human",
    "species_from": "keywords",
    "genes": [
-    "ALK",
-    "KRAS",
-    "ERBB2",
-    "ROS1",
-    "RET",
-    "MET"
+    "ALK"
    ],
    "nodes": [
     "drv-alk",
@@ -7625,12 +7279,7 @@ window.CancerExplorerLiterature['lung'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "ALK",
-    "KRAS",
-    "ERBB2",
-    "ROS1",
-    "RET",
-    "MET"
+    "ALK"
    ],
    "nodes": [
     "drv-alk",
@@ -7688,10 +7337,8 @@ window.CancerExplorerLiterature['lung'] = {
    "genes": [
     "EGFR",
     "MET",
-    "ERBB2",
-    "ROS1",
-    "RET",
-    "BRAF"
+    "BRAF",
+    "ERBB2"
    ],
    "nodes": [
     "drv-egfr",
@@ -7738,11 +7385,7 @@ window.CancerExplorerLiterature['lung'] = {
    "species_from": "keywords",
    "genes": [
     "EGFR",
-    "MET",
-    "ERBB2",
-    "ROS1",
-    "RET",
-    "BRAF"
+    "MET"
    ],
    "nodes": [
     "drv-egfr",
@@ -7812,8 +7455,7 @@ window.CancerExplorerLiterature['lung'] = {
    "species_from": "keywords",
    "genes": [
     "TACSTD2",
-    "ERBB2",
-    "MET"
+    "ERBB2"
    ],
    "nodes": [
     "res-treated",
@@ -7917,12 +7559,7 @@ window.CancerExplorerLiterature['lung'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "ALK",
-    "KRAS",
-    "ERBB2",
-    "ROS1",
-    "RET",
-    "MET"
+    "ALK"
    ],
    "nodes": [
     "drv-alk",
@@ -7950,12 +7587,7 @@ window.CancerExplorerLiterature['lung'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "ALK",
-    "KRAS",
-    "ERBB2",
-    "ROS1",
-    "RET",
-    "MET"
+    "ALK"
    ],
    "nodes": [
     "drv-alk",
@@ -7983,12 +7615,7 @@ window.CancerExplorerLiterature['lung'] = {
    "species": "mouse",
    "species_from": "mesh",
    "genes": [
-    "DLL3",
-    "EGFR",
-    "MET",
-    "NRG1",
-    "TP53",
-    "RB1"
+    "DLL3"
    ],
    "nodes": [
     "hist-sclc"
@@ -8072,11 +7699,7 @@ window.CancerExplorerLiterature['lung'] = {
    "species_from": "mesh",
    "genes": [
     "EGFR",
-    "MET",
-    "ERBB2",
-    "ROS1",
-    "RET",
-    "BRAF"
+    "MET"
    ],
    "nodes": [
     "drv-egfr",
@@ -8112,12 +7735,7 @@ window.CancerExplorerLiterature['lung'] = {
    "species": "unclear",
    "species_from": "none",
    "genes": [
-    "DLL3",
-    "EGFR",
-    "MET",
-    "NRG1",
-    "TP53",
-    "RB1"
+    "DLL3"
    ],
    "nodes": [
     "hist-sclc"
@@ -8177,12 +7795,7 @@ window.CancerExplorerLiterature['lung'] = {
    "species": "mouse",
    "species_from": "mesh",
    "genes": [
-    "DLL3",
-    "EGFR",
-    "MET",
-    "NRG1",
-    "TP53",
-    "RB1"
+    "DLL3"
    ],
    "nodes": [
     "hist-sclc"
@@ -8248,12 +7861,7 @@ window.CancerExplorerLiterature['lung'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "DLL3",
-    "EGFR",
-    "MET",
-    "NRG1",
-    "TP53",
-    "RB1"
+    "DLL3"
    ],
    "nodes": [
     "hist-sclc"
@@ -8381,12 +7989,7 @@ window.CancerExplorerLiterature['lung'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "ALK",
-    "KRAS",
-    "ERBB2",
-    "ROS1",
-    "RET",
-    "MET"
+    "ALK"
    ],
    "nodes": [
     "drv-alk",
@@ -8451,12 +8054,7 @@ window.CancerExplorerLiterature['lung'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "DLL3",
-    "EGFR",
-    "MET",
-    "NRG1",
-    "TP53",
-    "RB1"
+    "DLL3"
    ],
    "nodes": [
     "hist-sclc"
@@ -8556,12 +8154,7 @@ window.CancerExplorerLiterature['lung'] = {
    "species": "human",
    "species_from": "keywords",
    "genes": [
-    "ALK",
-    "KRAS",
-    "ERBB2",
-    "ROS1",
-    "RET",
-    "MET"
+    "ALK"
    ],
    "nodes": [
     "drv-alk",
@@ -8654,12 +8247,7 @@ window.CancerExplorerLiterature['lung'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "DLL3",
-    "EGFR",
-    "MET",
-    "NRG1",
-    "TP53",
-    "RB1"
+    "DLL3"
    ],
    "nodes": [
     "hist-sclc"
@@ -8742,11 +8330,7 @@ window.CancerExplorerLiterature['lung'] = {
    "species_from": "mesh",
    "genes": [
     "DLL3",
-    "EGFR",
-    "MET",
-    "NRG1",
-    "TP53",
-    "RB1"
+    "MET"
    ],
    "nodes": [
     "hist-sclc",
@@ -8783,10 +8367,7 @@ window.CancerExplorerLiterature['lung'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "EGFR",
-    "MET",
-    "TACSTD2",
-    "ERBB2"
+    "EGFR"
    ],
    "nodes": [
     "drv-egfr",
@@ -8815,12 +8396,7 @@ window.CancerExplorerLiterature['lung'] = {
    "species": "unclear",
    "species_from": "none",
    "genes": [
-    "ALK",
-    "KRAS",
-    "ERBB2",
-    "ROS1",
-    "RET",
-    "MET"
+    "ALK"
    ],
    "nodes": [
     "drv-alk",
@@ -8879,11 +8455,7 @@ window.CancerExplorerLiterature['lung'] = {
    "species_from": "keywords",
    "genes": [
     "EGFR",
-    "MET",
-    "ERBB2",
-    "ROS1",
-    "RET",
-    "BRAF"
+    "MET"
    ],
    "nodes": [
     "drv-egfr",
@@ -8988,10 +8560,7 @@ window.CancerExplorerLiterature['lung'] = {
    "species": "unclear",
    "species_from": "none",
    "genes": [
-    "EGFR",
-    "MET",
-    "TACSTD2",
-    "ERBB2"
+    "EGFR"
    ],
    "nodes": [
     "drv-egfr",
@@ -9020,10 +8589,7 @@ window.CancerExplorerLiterature['lung'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "EGFR",
-    "MET",
-    "TACSTD2",
-    "ERBB2"
+    "EGFR"
    ],
    "nodes": [
     "drv-egfr",
@@ -9082,8 +8648,7 @@ window.CancerExplorerLiterature['lung'] = {
    "species_from": "mesh",
    "genes": [
     "TACSTD2",
-    "ERBB2",
-    "MET"
+    "ERBB2"
    ],
    "nodes": [
     "res-treated",
@@ -9212,11 +8777,7 @@ window.CancerExplorerLiterature['lung'] = {
    "species_from": "keywords",
    "genes": [
     "EGFR",
-    "MET",
-    "ERBB2",
-    "ROS1",
-    "RET",
-    "BRAF"
+    "MET"
    ],
    "nodes": [
     "drv-egfr",
@@ -9247,8 +8808,7 @@ window.CancerExplorerLiterature['lung'] = {
    "species_from": "mesh",
    "genes": [
     "TACSTD2",
-    "ERBB2",
-    "MET"
+    "ERBB2"
    ],
    "nodes": [
     "res-treated",
@@ -9278,10 +8838,7 @@ window.CancerExplorerLiterature['lung'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "EGFR",
-    "MET",
-    "TACSTD2",
-    "ERBB2"
+    "EGFR"
    ],
    "nodes": [
     "drv-egfr",
@@ -9487,12 +9044,7 @@ window.CancerExplorerLiterature['lung'] = {
    "species": "human",
    "species_from": "keywords",
    "genes": [
-    "DLL3",
-    "EGFR",
-    "MET",
-    "NRG1",
-    "TP53",
-    "RB1"
+    "DLL3"
    ],
    "nodes": [
     "hist-sclc"
@@ -9520,11 +9072,7 @@ window.CancerExplorerLiterature['lung'] = {
    "species_from": "keywords",
    "genes": [
     "EGFR",
-    "MET",
-    "ERBB2",
-    "ROS1",
-    "RET",
-    "BRAF"
+    "MET"
    ],
    "nodes": [
     "drv-egfr",
@@ -9555,11 +9103,7 @@ window.CancerExplorerLiterature['lung'] = {
    "species_from": "mesh",
    "genes": [
     "EGFR",
-    "MET",
-    "ERBB2",
-    "ROS1",
-    "RET",
-    "BRAF"
+    "MET"
    ],
    "nodes": [
     "drv-egfr",
@@ -9589,12 +9133,7 @@ window.CancerExplorerLiterature['lung'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "ALK",
-    "KRAS",
-    "ERBB2",
-    "ROS1",
-    "RET",
-    "MET"
+    "ALK"
    ],
    "nodes": [
     "drv-alk",
@@ -9623,11 +9162,7 @@ window.CancerExplorerLiterature['lung'] = {
    "species_from": "mesh",
    "genes": [
     "EGFR",
-    "MET",
-    "ERBB2",
-    "ROS1",
-    "RET",
-    "BRAF"
+    "MET"
    ],
    "nodes": [
     "drv-egfr",
@@ -9728,8 +9263,7 @@ window.CancerExplorerLiterature['lung'] = {
    "species_from": "mesh",
    "genes": [
     "TACSTD2",
-    "ERBB2",
-    "MET"
+    "ERBB2"
    ],
    "nodes": [
     "res-treated",
@@ -9757,12 +9291,7 @@ window.CancerExplorerLiterature['lung'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "ALK",
-    "KRAS",
-    "ERBB2",
-    "ROS1",
-    "RET",
-    "MET"
+    "ALK"
    ],
    "nodes": [
     "drv-alk",
@@ -9791,12 +9320,7 @@ window.CancerExplorerLiterature['lung'] = {
    "species": "human",
    "species_from": "keywords",
    "genes": [
-    "ALK",
-    "KRAS",
-    "ERBB2",
-    "ROS1",
-    "RET",
-    "MET"
+    "ALK"
    ],
    "nodes": [
     "drv-alk",
@@ -10079,8 +9603,7 @@ window.CancerExplorerLiterature['lung'] = {
    "species_from": "mesh",
    "genes": [
     "TACSTD2",
-    "ERBB2",
-    "MET"
+    "ERBB2"
    ],
    "nodes": [
     "res-treated",
@@ -10109,8 +9632,7 @@ window.CancerExplorerLiterature['lung'] = {
    "species_from": "mesh",
    "genes": [
     "TACSTD2",
-    "ERBB2",
-    "MET"
+    "ERBB2"
    ],
    "nodes": [
     "res-treated",
@@ -10138,12 +9660,7 @@ window.CancerExplorerLiterature['lung'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "ALK",
-    "KRAS",
-    "ERBB2",
-    "ROS1",
-    "RET",
-    "MET"
+    "ALK"
    ],
    "nodes": [
     "drv-alk",
@@ -10208,12 +9725,7 @@ window.CancerExplorerLiterature['lung'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "ALK",
-    "KRAS",
-    "ERBB2",
-    "ROS1",
-    "RET",
-    "MET"
+    "ALK"
    ],
    "nodes": [
     "drv-alk",
@@ -10241,12 +9753,7 @@ window.CancerExplorerLiterature['lung'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "ALK",
-    "KRAS",
-    "ERBB2",
-    "ROS1",
-    "RET",
-    "MET"
+    "ALK"
    ],
    "nodes": [
     "drv-alk",
@@ -10275,8 +9782,7 @@ window.CancerExplorerLiterature['lung'] = {
    "species_from": "mesh",
    "genes": [
     "TACSTD2",
-    "ERBB2",
-    "MET"
+    "ERBB2"
    ],
    "nodes": [
     "res-treated",
@@ -10495,8 +10001,7 @@ window.CancerExplorerLiterature['lung'] = {
    "species_from": "mesh",
    "genes": [
     "TACSTD2",
-    "ERBB2",
-    "MET"
+    "ERBB2"
    ],
    "nodes": [
     "res-treated",
@@ -10554,8 +10059,7 @@ window.CancerExplorerLiterature['lung'] = {
    "species_from": "keywords",
    "genes": [
     "TACSTD2",
-    "ERBB2",
-    "MET"
+    "ERBB2"
    ],
    "nodes": [
     "res-treated",
@@ -10584,8 +10088,7 @@ window.CancerExplorerLiterature['lung'] = {
    "species_from": "mesh",
    "genes": [
     "TACSTD2",
-    "ERBB2",
-    "MET"
+    "ERBB2"
    ],
    "nodes": [
     "res-treated",
@@ -10645,12 +10148,7 @@ window.CancerExplorerLiterature['lung'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "ALK",
-    "KRAS",
-    "ERBB2",
-    "ROS1",
-    "RET",
-    "MET"
+    "ALK"
    ],
    "nodes": [
     "drv-alk",
@@ -10774,11 +10272,7 @@ window.CancerExplorerLiterature['lung'] = {
    "species_from": "none",
    "genes": [
     "EGFR",
-    "MET",
-    "ERBB2",
-    "ROS1",
-    "RET",
-    "BRAF"
+    "MET"
    ],
    "nodes": [
     "drv-egfr",
@@ -10808,12 +10302,7 @@ window.CancerExplorerLiterature['lung'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "ALK",
-    "KRAS",
-    "ERBB2",
-    "ROS1",
-    "RET",
-    "MET"
+    "ALK"
    ],
    "nodes": [
     "drv-alk",
@@ -10908,11 +10397,7 @@ window.CancerExplorerLiterature['lung'] = {
    "species_from": "mesh",
    "genes": [
     "EGFR",
-    "MET",
-    "ERBB2",
-    "ROS1",
-    "RET",
-    "BRAF"
+    "MET"
    ],
    "nodes": [
     "drv-egfr",
@@ -10944,8 +10429,7 @@ window.CancerExplorerLiterature['lung'] = {
    "species_from": "mesh",
    "genes": [
     "TACSTD2",
-    "ERBB2",
-    "MET"
+    "ERBB2"
    ],
    "nodes": [
     "res-treated",
@@ -11161,8 +10645,7 @@ window.CancerExplorerLiterature['lung'] = {
    "species_from": "mesh",
    "genes": [
     "TACSTD2",
-    "ERBB2",
-    "MET"
+    "ERBB2"
    ],
    "nodes": [
     "res-treated",
@@ -11192,11 +10675,7 @@ window.CancerExplorerLiterature['lung'] = {
    "species_from": "mesh",
    "genes": [
     "EGFR",
-    "MET",
-    "ERBB2",
-    "ROS1",
-    "RET",
-    "BRAF"
+    "MET"
    ],
    "nodes": [
     "drv-egfr",
@@ -11255,12 +10734,7 @@ window.CancerExplorerLiterature['lung'] = {
    "species": "unclear",
    "species_from": "none",
    "genes": [
-    "ALK",
-    "KRAS",
-    "ERBB2",
-    "ROS1",
-    "RET",
-    "MET"
+    "ALK"
    ],
    "nodes": [
     "drv-alk",
@@ -11352,8 +10826,7 @@ window.CancerExplorerLiterature['lung'] = {
    "species_from": "mesh",
    "genes": [
     "TACSTD2",
-    "ERBB2",
-    "MET"
+    "ERBB2"
    ],
    "nodes": [
     "res-treated",
@@ -11435,8 +10908,7 @@ window.CancerExplorerLiterature['lung'] = {
    "species_from": "mesh",
    "genes": [
     "TACSTD2",
-    "ERBB2",
-    "MET"
+    "ERBB2"
    ],
    "nodes": [
     "res-treated",
@@ -11534,12 +11006,7 @@ window.CancerExplorerLiterature['lung'] = {
    "species": "unclear",
    "species_from": "none",
    "genes": [
-    "DLL3",
-    "EGFR",
-    "MET",
-    "NRG1",
-    "TP53",
-    "RB1"
+    "DLL3"
    ],
    "nodes": [
     "hist-sclc"
@@ -11660,11 +11127,7 @@ window.CancerExplorerLiterature['lung'] = {
    "species_from": "keywords",
    "genes": [
     "EGFR",
-    "MET",
-    "ERBB2",
-    "ROS1",
-    "RET",
-    "BRAF"
+    "MET"
    ],
    "nodes": [
     "drv-egfr",
@@ -11695,12 +11158,7 @@ window.CancerExplorerLiterature['lung'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "ALK",
-    "KRAS",
-    "ERBB2",
-    "ROS1",
-    "RET",
-    "MET"
+    "ALK"
    ],
    "nodes": [
     "drv-alk",
@@ -11799,8 +11257,7 @@ window.CancerExplorerLiterature['lung'] = {
    "species_from": "mesh",
    "genes": [
     "TACSTD2",
-    "ERBB2",
-    "MET"
+    "ERBB2"
    ],
    "nodes": [
     "res-treated",
@@ -11829,9 +11286,6 @@ window.CancerExplorerLiterature['lung'] = {
    "species_from": "keywords",
    "genes": [
     "DLL3",
-    "EGFR",
-    "MET",
-    "NRG1",
     "TP53",
     "RB1"
    ],
@@ -11944,12 +11398,7 @@ window.CancerExplorerLiterature['lung'] = {
    "species": "mouse",
    "species_from": "mesh",
    "genes": [
-    "ALK",
-    "KRAS",
-    "ERBB2",
-    "ROS1",
-    "RET",
-    "MET"
+    "ALK"
    ],
    "nodes": [
     "drv-alk",
@@ -12003,11 +11452,7 @@ window.CancerExplorerLiterature['lung'] = {
    "species_from": "mesh",
    "genes": [
     "EGFR",
-    "MET",
-    "ERBB2",
-    "ROS1",
-    "RET",
-    "BRAF"
+    "MET"
    ],
    "nodes": [
     "drv-egfr",
@@ -12038,11 +11483,7 @@ window.CancerExplorerLiterature['lung'] = {
    "species_from": "mesh",
    "genes": [
     "EGFR",
-    "MET",
-    "ERBB2",
-    "ROS1",
-    "RET",
-    "BRAF"
+    "MET"
    ],
    "nodes": [
     "drv-egfr",
@@ -12074,11 +11515,7 @@ window.CancerExplorerLiterature['lung'] = {
    "species_from": "mesh",
    "genes": [
     "EGFR",
-    "MET",
-    "ERBB2",
-    "ROS1",
-    "RET",
-    "BRAF"
+    "MET"
    ],
    "nodes": [
     "drv-egfr",
@@ -12135,12 +11572,7 @@ window.CancerExplorerLiterature['lung'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "ALK",
-    "KRAS",
-    "ERBB2",
-    "ROS1",
-    "RET",
-    "MET"
+    "ALK"
    ],
    "nodes": [
     "drv-alk",
@@ -12168,12 +11600,7 @@ window.CancerExplorerLiterature['lung'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "ALK",
-    "KRAS",
-    "ERBB2",
-    "ROS1",
-    "RET",
-    "MET"
+    "ALK"
    ],
    "nodes": [
     "drv-alk",
@@ -12285,12 +11712,7 @@ window.CancerExplorerLiterature['lung'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "ALK",
-    "KRAS",
-    "ERBB2",
-    "ROS1",
-    "RET",
-    "MET"
+    "ALK"
    ],
    "nodes": [
     "drv-alk",
@@ -12353,12 +11775,7 @@ window.CancerExplorerLiterature['lung'] = {
    "species": "human",
    "species_from": "keywords",
    "genes": [
-    "ALK",
-    "KRAS",
-    "ERBB2",
-    "ROS1",
-    "RET",
-    "MET"
+    "ALK"
    ],
    "nodes": [
     "drv-alk",
@@ -12416,11 +11833,7 @@ window.CancerExplorerLiterature['lung'] = {
    "species_from": "mesh",
    "genes": [
     "EGFR",
-    "MET",
-    "ERBB2",
-    "ROS1",
-    "RET",
-    "BRAF"
+    "MET"
    ],
    "nodes": [
     "drv-egfr",
@@ -12450,12 +11863,7 @@ window.CancerExplorerLiterature['lung'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "ALK",
-    "KRAS",
-    "ERBB2",
-    "ROS1",
-    "RET",
-    "MET"
+    "ALK"
    ],
    "nodes": [
     "drv-alk",
@@ -12537,11 +11945,7 @@ window.CancerExplorerLiterature['lung'] = {
    "species_from": "mesh",
    "genes": [
     "EGFR",
-    "MET",
-    "ERBB2",
-    "ROS1",
-    "RET",
-    "BRAF"
+    "MET"
    ],
    "nodes": [
     "drv-egfr",
@@ -12574,11 +11978,7 @@ window.CancerExplorerLiterature['lung'] = {
    "species_from": "mesh",
    "genes": [
     "EGFR",
-    "MET",
-    "ERBB2",
-    "ROS1",
-    "RET",
-    "BRAF"
+    "MET"
    ],
    "nodes": [
     "drv-egfr",
@@ -12759,12 +12159,7 @@ window.CancerExplorerLiterature['lung'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "ALK",
-    "KRAS",
-    "ERBB2",
-    "ROS1",
-    "RET",
-    "MET"
+    "ALK"
    ],
    "nodes": [
     "drv-alk",
@@ -12818,11 +12213,7 @@ window.CancerExplorerLiterature['lung'] = {
    "species_from": "keywords",
    "genes": [
     "EGFR",
-    "MET",
-    "ERBB2",
-    "ROS1",
-    "RET",
-    "BRAF"
+    "MET"
    ],
    "nodes": [
     "drv-egfr",
@@ -12941,12 +12332,7 @@ window.CancerExplorerLiterature['lung'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "ALK",
-    "KRAS",
-    "ERBB2",
-    "ROS1",
-    "RET",
-    "MET"
+    "ALK"
    ],
    "nodes": [
     "drv-alk",
@@ -12975,12 +12361,7 @@ window.CancerExplorerLiterature['lung'] = {
    "species": "mouse",
    "species_from": "mesh",
    "genes": [
-    "ALK",
-    "KRAS",
-    "ERBB2",
-    "ROS1",
-    "RET",
-    "MET"
+    "ALK"
    ],
    "nodes": [
     "drv-alk",
@@ -13015,8 +12396,7 @@ window.CancerExplorerLiterature['lung'] = {
    "species_from": "mesh",
    "genes": [
     "TACSTD2",
-    "ERBB2",
-    "MET"
+    "ERBB2"
    ],
    "nodes": [
     "res-treated",
@@ -13045,12 +12425,7 @@ window.CancerExplorerLiterature['lung'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "ALK",
-    "KRAS",
-    "ERBB2",
-    "ROS1",
-    "RET",
-    "MET"
+    "ALK"
    ],
    "nodes": [
     "drv-alk",
@@ -13105,12 +12480,7 @@ window.CancerExplorerLiterature['lung'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "DLL3",
-    "EGFR",
-    "MET",
-    "NRG1",
-    "TP53",
-    "RB1"
+    "DLL3"
    ],
    "nodes": [
     "hist-sclc"
@@ -13324,11 +12694,7 @@ window.CancerExplorerLiterature['lung'] = {
    "species_from": "mesh",
    "genes": [
     "EGFR",
-    "MET",
-    "ERBB2",
-    "ROS1",
-    "RET",
-    "BRAF"
+    "MET"
    ],
    "nodes": [
     "drv-egfr",
@@ -13358,12 +12724,7 @@ window.CancerExplorerLiterature['lung'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "ALK",
-    "KRAS",
-    "ERBB2",
-    "ROS1",
-    "RET",
-    "MET"
+    "ALK"
    ],
    "nodes": [
     "drv-alk",
@@ -13490,12 +12851,7 @@ window.CancerExplorerLiterature['lung'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "ALK",
-    "KRAS",
-    "ERBB2",
-    "ROS1",
-    "RET",
-    "MET"
+    "ALK"
    ],
    "nodes": [
     "drv-alk",
@@ -13548,12 +12904,7 @@ window.CancerExplorerLiterature['lung'] = {
    "species": "mouse",
    "species_from": "mesh",
    "genes": [
-    "ALK",
-    "KRAS",
-    "ERBB2",
-    "ROS1",
-    "RET",
-    "MET"
+    "ALK"
    ],
    "nodes": [
     "drv-alk",
@@ -13674,12 +13025,7 @@ window.CancerExplorerLiterature['lung'] = {
    "species": "mouse",
    "species_from": "mesh",
    "genes": [
-    "ALK",
-    "KRAS",
-    "ERBB2",
-    "ROS1",
-    "RET",
-    "MET"
+    "ALK"
    ],
    "nodes": [
     "drv-alk",
@@ -13707,12 +13053,7 @@ window.CancerExplorerLiterature['lung'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "ALK",
-    "KRAS",
-    "ERBB2",
-    "ROS1",
-    "RET",
-    "MET"
+    "ALK"
    ],
    "nodes": [
     "drv-alk",
@@ -13938,12 +13279,7 @@ window.CancerExplorerLiterature['lung'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "ALK",
-    "KRAS",
-    "ERBB2",
-    "ROS1",
-    "RET",
-    "MET"
+    "ALK"
    ],
    "nodes": [
     "drv-alk",
@@ -14059,12 +13395,7 @@ window.CancerExplorerLiterature['lung'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "DLL3",
-    "EGFR",
-    "MET",
-    "NRG1",
-    "TP53",
-    "RB1"
+    "DLL3"
    ],
    "nodes": [
     "hist-sclc"
@@ -14116,12 +13447,7 @@ window.CancerExplorerLiterature['lung'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "ALK",
-    "KRAS",
-    "ERBB2",
-    "ROS1",
-    "RET",
-    "MET"
+    "ALK"
    ],
    "nodes": [
     "drv-alk",
@@ -14211,12 +13537,7 @@ window.CancerExplorerLiterature['lung'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "ALK",
-    "KRAS",
-    "ERBB2",
-    "ROS1",
-    "RET",
-    "MET"
+    "ALK"
    ],
    "nodes": [
     "drv-alk",
@@ -14335,12 +13656,7 @@ window.CancerExplorerLiterature['lung'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "ALK",
-    "KRAS",
-    "ERBB2",
-    "ROS1",
-    "RET",
-    "MET"
+    "ALK"
    ],
    "nodes": [
     "drv-alk",
@@ -14524,12 +13840,7 @@ window.CancerExplorerLiterature['lung'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "ALK",
-    "KRAS",
-    "ERBB2",
-    "ROS1",
-    "RET",
-    "MET"
+    "ALK"
    ],
    "nodes": [
     "drv-alk",
@@ -14585,12 +13896,7 @@ window.CancerExplorerLiterature['lung'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "ALK",
-    "KRAS",
-    "ERBB2",
-    "ROS1",
-    "RET",
-    "MET"
+    "ALK"
    ],
    "nodes": [
     "drv-alk",
@@ -14759,12 +14065,7 @@ window.CancerExplorerLiterature['lung'] = {
    "species": "mouse",
    "species_from": "mesh",
    "genes": [
-    "ALK",
-    "KRAS",
-    "ERBB2",
-    "ROS1",
-    "RET",
-    "MET"
+    "ALK"
    ],
    "nodes": [
     "drv-alk",
@@ -15022,11 +14323,7 @@ window.CancerExplorerLiterature['lung'] = {
    "species_from": "mesh",
    "genes": [
     "EGFR",
-    "MET",
-    "ERBB2",
-    "ROS1",
-    "RET",
-    "BRAF"
+    "MET"
    ],
    "nodes": [
     "drv-egfr",
@@ -15083,12 +14380,7 @@ window.CancerExplorerLiterature['lung'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "DLL3",
-    "EGFR",
-    "MET",
-    "NRG1",
-    "TP53",
-    "RB1"
+    "DLL3"
    ],
    "nodes": [
     "hist-sclc"
@@ -15182,12 +14474,7 @@ window.CancerExplorerLiterature['lung'] = {
    "species": "human",
    "species_from": "keywords",
    "genes": [
-    "ALK",
-    "KRAS",
-    "ERBB2",
-    "ROS1",
-    "RET",
-    "MET"
+    "ALK"
    ],
    "nodes": [
     "drv-alk",
@@ -15320,8 +14607,7 @@ window.CancerExplorerLiterature['lung'] = {
    "species_from": "keywords",
    "genes": [
     "TACSTD2",
-    "ERBB2",
-    "MET"
+    "ERBB2"
    ],
    "nodes": [
     "res-treated",

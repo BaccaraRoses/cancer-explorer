@@ -595,7 +595,10 @@ class Literature:
                 q = self._dated(f"({drugs}) AND ({probs})")
                 for item in self._search(q):
                     rec = _record(item, kind, agent, terms)
-                    rec["genes"] = spec.get("genes") or []
+                    # A copy per paper: the merge below appends to it, and the
+                    # agent's own list once carried every merged gene into all
+                    # of its papers (tests/test_literature_genes.py).
+                    rec["genes"] = list(spec.get("genes") or [])
                     out.append(rec)
         return out
 

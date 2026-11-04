@@ -84,8 +84,7 @@
       "species_from": "keywords",
       "genes": [
         "PDCD1",
-        "MSH2",
-        "AR"
+        "MSH2"
       ],
       "nodes": [
         "state-crpc-adeno"
@@ -176,8 +175,7 @@
       "species_from": "keywords",
       "genes": [
         "PDCD1",
-        "MSH2",
-        "AR"
+        "MSH2"
       ],
       "nodes": [
         "state-crpc-adeno"
@@ -228,8 +226,7 @@
       "species_from": "none",
       "genes": [
         "PDCD1",
-        "MSH2",
-        "AR"
+        "MSH2"
       ],
       "nodes": [
         "state-crpc-adeno"
@@ -303,8 +300,7 @@
       "species_from": "mesh",
       "genes": [
         "PDCD1",
-        "MSH2",
-        "AR"
+        "MSH2"
       ],
       "nodes": [
         "state-crpc-adeno"
@@ -357,15 +353,7 @@
       "species": "mouse",
       "species_from": "mesh",
       "genes": [
-        "AR",
-        "PARP1",
-        "BRCA2",
-        "BRCA1",
-        "ATM",
-        "CDK12",
-        "TUBB",
-        "PTEN",
-        "MYC"
+        "AR"
       ],
       "nodes": [
         "state-crpc",
@@ -419,9 +407,7 @@
       "species": "human",
       "species_from": "keywords",
       "genes": [
-        "FOLH1",
-        "TUBB",
-        "AR"
+        "FOLH1"
       ],
       "nodes": [
         "state-crpc-adeno",
@@ -514,14 +500,7 @@
       "species_from": "keywords",
       "genes": [
         "AR",
-        "PARP1",
-        "BRCA2",
-        "BRCA1",
-        "ATM",
-        "CDK12",
-        "TUBB",
-        "PTEN",
-        "MYC"
+        "TUBB"
       ],
       "nodes": [
         "state-crpc",
@@ -558,15 +537,7 @@
       "species": "human",
       "species_from": "keywords",
       "genes": [
-        "AR",
-        "PARP1",
-        "BRCA2",
-        "BRCA1",
-        "ATM",
-        "CDK12",
-        "TUBB",
-        "PTEN",
-        "MYC"
+        "AR"
       ],
       "nodes": [
         "state-crpc",
@@ -628,10 +599,7 @@
       "species": "unclear",
       "species_from": "none",
       "genes": [
-        "TUBB",
-        "PDCD1",
-        "MSH2",
-        "AR"
+        "TUBB"
       ],
       "nodes": [
         "state-crpc",
@@ -683,8 +651,7 @@
       "species_from": "keywords",
       "genes": [
         "PDCD1",
-        "MSH2",
-        "AR"
+        "MSH2"
       ],
       "nodes": [
         "state-crpc-adeno"
@@ -783,10 +750,7 @@
       "species": "human",
       "species_from": "keywords",
       "genes": [
-        "TUBB",
-        "PDCD1",
-        "MSH2",
-        "AR"
+        "TUBB"
       ],
       "nodes": [
         "state-crpc",
@@ -848,15 +812,7 @@
       "species": "cell line",
       "species_from": "keywords",
       "genes": [
-        "AR",
-        "PARP1",
-        "BRCA2",
-        "BRCA1",
-        "ATM",
-        "CDK12",
-        "TUBB",
-        "PTEN",
-        "MYC"
+        "AR"
       ],
       "nodes": [
         "state-crpc",
@@ -887,15 +843,7 @@
       "species": "human",
       "species_from": "mesh",
       "genes": [
-        "AR",
-        "PARP1",
-        "BRCA2",
-        "BRCA1",
-        "ATM",
-        "CDK12",
-        "TUBB",
-        "PTEN",
-        "MYC"
+        "AR"
       ],
       "nodes": [
         "state-crpc",
@@ -926,9 +874,7 @@
       "species": "human",
       "species_from": "keywords",
       "genes": [
-        "FOLH1",
-        "TUBB",
-        "AR"
+        "FOLH1"
       ],
       "nodes": [
         "state-crpc-adeno",
@@ -957,10 +903,7 @@
       "species": "human",
       "species_from": "keywords",
       "genes": [
-        "TUBB",
-        "PDCD1",
-        "MSH2",
-        "AR"
+        "TUBB"
       ],
       "nodes": [
         "state-crpc",
@@ -1057,15 +1000,7 @@
       "species": "human",
       "species_from": "mesh",
       "genes": [
-        "AR",
-        "PARP1",
-        "BRCA2",
-        "BRCA1",
-        "ATM",
-        "CDK12",
-        "TUBB",
-        "PTEN",
-        "MYC"
+        "AR"
       ],
       "nodes": [
         "state-crpc",
@@ -1097,10 +1032,7 @@
       "species": "human",
       "species_from": "keywords",
       "genes": [
-        "TUBB",
-        "PDCD1",
-        "MSH2",
-        "AR"
+        "TUBB"
       ],
       "nodes": [
         "state-crpc",
@@ -1165,10 +1097,7 @@
       "species": "cell line",
       "species_from": "keywords",
       "genes": [
-        "TUBB",
-        "PDCD1",
-        "MSH2",
-        "AR"
+        "TUBB"
       ],
       "nodes": [
         "state-crpc",
@@ -1227,15 +1156,7 @@
       "species": "human",
       "species_from": "mesh",
       "genes": [
-        "AR",
-        "PARP1",
-        "BRCA2",
-        "BRCA1",
-        "ATM",
-        "CDK12",
-        "TUBB",
-        "PTEN",
-        "MYC"
+        "AR"
       ],
       "nodes": [
         "state-crpc",
@@ -1266,15 +1187,7 @@
       "species": "human",
       "species_from": "mesh",
       "genes": [
-        "AR",
-        "PARP1",
-        "BRCA2",
-        "BRCA1",
-        "ATM",
-        "CDK12",
-        "TUBB",
-        "PTEN",
-        "MYC"
+        "AR"
       ],
       "nodes": [
         "state-crpc",
@@ -1311,15 +1224,7 @@
       "species": "mouse",
       "species_from": "mesh",
       "genes": [
-        "AR",
-        "PARP1",
-        "BRCA2",
-        "BRCA1",
-        "ATM",
-        "CDK12",
-        "TUBB",
-        "PTEN",
-        "MYC"
+        "AR"
       ],
       "nodes": [
         "state-crpc",
@@ -1430,10 +1335,7 @@
       "species": "human",
       "species_from": "mesh",
       "genes": [
-        "TUBB",
-        "PDCD1",
-        "MSH2",
-        "AR"
+        "TUBB"
       ],
       "nodes": [
         "state-crpc",
@@ -1508,9 +1410,7 @@
       "species": "human",
       "species_from": "keywords",
       "genes": [
-        "FOLH1",
-        "TUBB",
-        "AR"
+        "FOLH1"
       ],
       "nodes": [
         "state-crpc-adeno",
@@ -1562,9 +1462,7 @@
       "species": "human",
       "species_from": "keywords",
       "genes": [
-        "FOLH1",
-        "TUBB",
-        "AR"
+        "FOLH1"
       ],
       "nodes": [
         "state-crpc-adeno",
@@ -1677,14 +1575,7 @@
       "species_from": "keywords",
       "genes": [
         "AR",
-        "PARP1",
-        "BRCA2",
-        "BRCA1",
-        "ATM",
-        "CDK12",
-        "TUBB",
-        "PTEN",
-        "MYC"
+        "PTEN"
       ],
       "nodes": [
         "state-crpc",
@@ -1866,15 +1757,7 @@
       "species": "human",
       "species_from": "keywords",
       "genes": [
-        "AR",
-        "PARP1",
-        "BRCA2",
-        "BRCA1",
-        "ATM",
-        "CDK12",
-        "TUBB",
-        "PTEN",
-        "MYC"
+        "AR"
       ],
       "nodes": [
         "state-crpc",
@@ -1905,15 +1788,7 @@
       "species": "human",
       "species_from": "keywords",
       "genes": [
-        "AR",
-        "PARP1",
-        "BRCA2",
-        "BRCA1",
-        "ATM",
-        "CDK12",
-        "TUBB",
-        "PTEN",
-        "MYC"
+        "AR"
       ],
       "nodes": [
         "state-crpc",
@@ -1953,15 +1828,7 @@
       "species": "human",
       "species_from": "mesh",
       "genes": [
-        "AR",
-        "PARP1",
-        "BRCA2",
-        "BRCA1",
-        "ATM",
-        "CDK12",
-        "TUBB",
-        "PTEN",
-        "MYC"
+        "AR"
       ],
       "nodes": [
         "state-crpc",
@@ -1993,9 +1860,7 @@
       "species": "human",
       "species_from": "keywords",
       "genes": [
-        "FOLH1",
-        "TUBB",
-        "AR"
+        "FOLH1"
       ],
       "nodes": [
         "state-crpc-adeno",
@@ -2023,10 +1888,7 @@
       "species": "mouse",
       "species_from": "mesh",
       "genes": [
-        "TUBB",
-        "PDCD1",
-        "MSH2",
-        "AR"
+        "TUBB"
       ],
       "nodes": [
         "state-crpc",
@@ -2055,10 +1917,7 @@
       "species": "human",
       "species_from": "keywords",
       "genes": [
-        "TUBB",
-        "PDCD1",
-        "MSH2",
-        "AR"
+        "TUBB"
       ],
       "nodes": [
         "state-crpc",
@@ -2109,15 +1968,7 @@
       "species": "mouse",
       "species_from": "mesh",
       "genes": [
-        "AR",
-        "PARP1",
-        "BRCA2",
-        "BRCA1",
-        "ATM",
-        "CDK12",
-        "TUBB",
-        "PTEN",
-        "MYC"
+        "AR"
       ],
       "nodes": [
         "state-crpc",
@@ -2282,15 +2133,7 @@
       "species": "human",
       "species_from": "keywords",
       "genes": [
-        "AR",
-        "PARP1",
-        "BRCA2",
-        "BRCA1",
-        "ATM",
-        "CDK12",
-        "TUBB",
-        "PTEN",
-        "MYC"
+        "AR"
       ],
       "nodes": [
         "state-crpc",
@@ -2321,15 +2164,7 @@
       "species": "cell line",
       "species_from": "keywords",
       "genes": [
-        "AR",
-        "PARP1",
-        "BRCA2",
-        "BRCA1",
-        "ATM",
-        "CDK12",
-        "TUBB",
-        "PTEN",
-        "MYC"
+        "AR"
       ],
       "nodes": [
         "state-crpc",
@@ -2502,15 +2337,7 @@
       "species": "human",
       "species_from": "mesh",
       "genes": [
-        "AR",
-        "PARP1",
-        "BRCA2",
-        "BRCA1",
-        "ATM",
-        "CDK12",
-        "TUBB",
-        "PTEN",
-        "MYC"
+        "AR"
       ],
       "nodes": [
         "state-crpc",
@@ -2585,9 +2412,7 @@
       "species": "human",
       "species_from": "mesh",
       "genes": [
-        "FOLH1",
-        "TUBB",
-        "AR"
+        "FOLH1"
       ],
       "nodes": [
         "state-crpc-adeno",
@@ -2615,15 +2440,7 @@
       "species": "cell line",
       "species_from": "keywords",
       "genes": [
-        "AR",
-        "PARP1",
-        "BRCA2",
-        "BRCA1",
-        "ATM",
-        "CDK12",
-        "TUBB",
-        "PTEN",
-        "MYC"
+        "AR"
       ],
       "nodes": [
         "state-crpc",
@@ -2655,10 +2472,7 @@
       "species": "human",
       "species_from": "mesh",
       "genes": [
-        "TUBB",
-        "PDCD1",
-        "MSH2",
-        "AR"
+        "TUBB"
       ],
       "nodes": [
         "state-crpc",
@@ -2759,9 +2573,7 @@
       "species": "human",
       "species_from": "keywords",
       "genes": [
-        "FOLH1",
-        "TUBB",
-        "AR"
+        "FOLH1"
       ],
       "nodes": [
         "state-crpc-adeno",
@@ -2902,15 +2714,7 @@
       "species": "mouse",
       "species_from": "mesh",
       "genes": [
-        "AR",
-        "PARP1",
-        "BRCA2",
-        "BRCA1",
-        "ATM",
-        "CDK12",
-        "TUBB",
-        "PTEN",
-        "MYC"
+        "AR"
       ],
       "nodes": [
         "state-crpc",
@@ -2941,15 +2745,7 @@
       "species": "unclear",
       "species_from": "none",
       "genes": [
-        "AR",
-        "PARP1",
-        "BRCA2",
-        "BRCA1",
-        "ATM",
-        "CDK12",
-        "TUBB",
-        "PTEN",
-        "MYC"
+        "AR"
       ],
       "nodes": [
         "state-crpc",
@@ -2981,15 +2777,7 @@
       "species": "mouse",
       "species_from": "mesh",
       "genes": [
-        "AR",
-        "PARP1",
-        "BRCA2",
-        "BRCA1",
-        "ATM",
-        "CDK12",
-        "TUBB",
-        "PTEN",
-        "MYC"
+        "AR"
       ],
       "nodes": [
         "state-crpc",
@@ -3021,8 +2809,6 @@
       "species_from": "mesh",
       "genes": [
         "TUBB",
-        "PDCD1",
-        "MSH2",
         "AR"
       ],
       "nodes": [
@@ -3150,15 +2936,7 @@
       "species": "human",
       "species_from": "keywords",
       "genes": [
-        "AR",
-        "PARP1",
-        "BRCA2",
-        "BRCA1",
-        "ATM",
-        "CDK12",
-        "TUBB",
-        "PTEN",
-        "MYC"
+        "AR"
       ],
       "nodes": [
         "state-crpc",
@@ -3189,15 +2967,7 @@
       "species": "human",
       "species_from": "keywords",
       "genes": [
-        "AR",
-        "PARP1",
-        "BRCA2",
-        "BRCA1",
-        "ATM",
-        "CDK12",
-        "TUBB",
-        "PTEN",
-        "MYC"
+        "AR"
       ],
       "nodes": [
         "state-crpc",
@@ -3308,9 +3078,7 @@
       "species": "human",
       "species_from": "mesh",
       "genes": [
-        "FOLH1",
-        "TUBB",
-        "AR"
+        "FOLH1"
       ],
       "nodes": [
         "state-crpc-adeno",
@@ -3394,15 +3162,7 @@
       "species": "human",
       "species_from": "mesh",
       "genes": [
-        "AR",
-        "PARP1",
-        "BRCA2",
-        "BRCA1",
-        "ATM",
-        "CDK12",
-        "TUBB",
-        "PTEN",
-        "MYC"
+        "AR"
       ],
       "nodes": [
         "state-crpc",
@@ -3459,15 +3219,7 @@
       "species": "mouse",
       "species_from": "mesh",
       "genes": [
-        "AR",
-        "PARP1",
-        "BRCA2",
-        "BRCA1",
-        "ATM",
-        "CDK12",
-        "TUBB",
-        "PTEN",
-        "MYC"
+        "AR"
       ],
       "nodes": [
         "state-crpc",
@@ -3529,15 +3281,7 @@
       "species": "human",
       "species_from": "mesh",
       "genes": [
-        "AR",
-        "PARP1",
-        "BRCA2",
-        "BRCA1",
-        "ATM",
-        "CDK12",
-        "TUBB",
-        "PTEN",
-        "MYC"
+        "AR"
       ],
       "nodes": [
         "state-crpc",
@@ -3568,9 +3312,7 @@
       "species": "human",
       "species_from": "mesh",
       "genes": [
-        "FOLH1",
-        "TUBB",
-        "AR"
+        "FOLH1"
       ],
       "nodes": [
         "state-crpc-adeno",
@@ -3603,10 +3345,7 @@
         "BRCA2",
         "BRCA1",
         "ATM",
-        "CDK12",
-        "TUBB",
-        "PTEN",
-        "MYC"
+        "CDK12"
       ],
       "nodes": [
         "state-crpc",
@@ -3666,15 +3405,7 @@
       "species": "human",
       "species_from": "mesh",
       "genes": [
-        "AR",
-        "PARP1",
-        "BRCA2",
-        "BRCA1",
-        "ATM",
-        "CDK12",
-        "TUBB",
-        "PTEN",
-        "MYC"
+        "AR"
       ],
       "nodes": [
         "state-crpc",
@@ -3706,7 +3437,6 @@
       "species_from": "keywords",
       "genes": [
         "FOLH1",
-        "TUBB",
         "AR"
       ],
       "nodes": [
@@ -3769,15 +3499,7 @@
       "species": "human",
       "species_from": "mesh",
       "genes": [
-        "AR",
-        "PARP1",
-        "BRCA2",
-        "BRCA1",
-        "ATM",
-        "CDK12",
-        "TUBB",
-        "PTEN",
-        "MYC"
+        "AR"
       ],
       "nodes": [
         "state-crpc",
@@ -3813,10 +3535,7 @@
         "BRCA2",
         "BRCA1",
         "ATM",
-        "CDK12",
-        "TUBB",
-        "PTEN",
-        "MYC"
+        "CDK12"
       ],
       "nodes": [
         "state-crpc",
@@ -3851,9 +3570,7 @@
       "species": "human",
       "species_from": "mesh",
       "genes": [
-        "FOLH1",
-        "TUBB",
-        "AR"
+        "FOLH1"
       ],
       "nodes": [
         "state-crpc-adeno",
@@ -3920,10 +3637,7 @@
         "BRCA2",
         "BRCA1",
         "ATM",
-        "CDK12",
-        "TUBB",
-        "PTEN",
-        "MYC"
+        "CDK12"
       ],
       "nodes": [
         "state-crpc",
@@ -3960,15 +3674,7 @@
       "species": "human",
       "species_from": "mesh",
       "genes": [
-        "AR",
-        "PARP1",
-        "BRCA2",
-        "BRCA1",
-        "ATM",
-        "CDK12",
-        "TUBB",
-        "PTEN",
-        "MYC"
+        "AR"
       ],
       "nodes": [
         "state-crpc",
@@ -4051,10 +3757,7 @@
         "BRCA2",
         "BRCA1",
         "ATM",
-        "CDK12",
-        "TUBB",
-        "PTEN",
-        "MYC"
+        "CDK12"
       ],
       "nodes": [
         "state-crpc",
@@ -4091,9 +3794,7 @@
       "species": "unclear",
       "species_from": "none",
       "genes": [
-        "FOLH1",
-        "TUBB",
-        "AR"
+        "FOLH1"
       ],
       "nodes": [
         "state-crpc-adeno",
@@ -4144,9 +3845,7 @@
       "species": "human",
       "species_from": "keywords",
       "genes": [
-        "FOLH1",
-        "TUBB",
-        "AR"
+        "FOLH1"
       ],
       "nodes": [
         "state-crpc-adeno",
@@ -4198,15 +3897,7 @@
       "species": "cell line",
       "species_from": "keywords",
       "genes": [
-        "AR",
-        "PARP1",
-        "BRCA2",
-        "BRCA1",
-        "ATM",
-        "CDK12",
-        "TUBB",
-        "PTEN",
-        "MYC"
+        "AR"
       ],
       "nodes": [
         "state-crpc",
@@ -4239,10 +3930,7 @@
       "species": "human",
       "species_from": "mesh",
       "genes": [
-        "TUBB",
-        "PDCD1",
-        "MSH2",
-        "AR"
+        "TUBB"
       ],
       "nodes": [
         "state-crpc",
@@ -4270,9 +3958,7 @@
       "species": "cell line",
       "species_from": "keywords",
       "genes": [
-        "FOLH1",
-        "TUBB",
-        "AR"
+        "FOLH1"
       ],
       "nodes": [
         "state-crpc-adeno",
@@ -4300,15 +3986,7 @@
       "species": "human",
       "species_from": "mesh",
       "genes": [
-        "AR",
-        "PARP1",
-        "BRCA2",
-        "BRCA1",
-        "ATM",
-        "CDK12",
-        "TUBB",
-        "PTEN",
-        "MYC"
+        "AR"
       ],
       "nodes": [
         "state-crpc",
@@ -4340,13 +4018,6 @@
       "species_from": "mesh",
       "genes": [
         "AR",
-        "PARP1",
-        "BRCA2",
-        "BRCA1",
-        "ATM",
-        "CDK12",
-        "TUBB",
-        "PTEN",
         "MYC"
       ],
       "nodes": [
@@ -4384,10 +4055,7 @@
       "species": "human",
       "species_from": "mesh",
       "genes": [
-        "TUBB",
-        "PDCD1",
-        "MSH2",
-        "AR"
+        "TUBB"
       ],
       "nodes": [
         "state-crpc",
@@ -4471,8 +4139,7 @@
       "species_from": "mesh",
       "genes": [
         "PDCD1",
-        "MSH2",
-        "AR"
+        "MSH2"
       ],
       "nodes": [
         "state-crpc-adeno"
@@ -4501,8 +4168,7 @@
       "species_from": "keywords",
       "genes": [
         "PDCD1",
-        "MSH2",
-        "AR"
+        "MSH2"
       ],
       "nodes": [
         "state-crpc-adeno"
@@ -4624,9 +4290,7 @@
       "species": "mouse",
       "species_from": "mesh",
       "genes": [
-        "FOLH1",
-        "TUBB",
-        "AR"
+        "FOLH1"
       ],
       "nodes": [
         "state-crpc-adeno",
@@ -4654,15 +4318,7 @@
       "species": "unclear",
       "species_from": "none",
       "genes": [
-        "AR",
-        "PARP1",
-        "BRCA2",
-        "BRCA1",
-        "ATM",
-        "CDK12",
-        "TUBB",
-        "PTEN",
-        "MYC"
+        "AR"
       ],
       "nodes": [
         "state-crpc",
@@ -4693,9 +4349,7 @@
       "species": "human",
       "species_from": "mesh",
       "genes": [
-        "FOLH1",
-        "TUBB",
-        "AR"
+        "FOLH1"
       ],
       "nodes": [
         "state-crpc-adeno",
@@ -4724,10 +4378,7 @@
       "species": "human",
       "species_from": "mesh",
       "genes": [
-        "TUBB",
-        "PDCD1",
-        "MSH2",
-        "AR"
+        "TUBB"
       ],
       "nodes": [
         "state-crpc",
@@ -4756,10 +4407,7 @@
       "species": "human",
       "species_from": "mesh",
       "genes": [
-        "TUBB",
-        "PDCD1",
-        "MSH2",
-        "AR"
+        "TUBB"
       ],
       "nodes": [
         "state-crpc",
@@ -4810,9 +4458,7 @@
       "species": "cell line",
       "species_from": "keywords",
       "genes": [
-        "FOLH1",
-        "TUBB",
-        "AR"
+        "FOLH1"
       ],
       "nodes": [
         "state-crpc-adeno",
@@ -4840,15 +4486,7 @@
       "species": "mouse",
       "species_from": "mesh",
       "genes": [
-        "AR",
-        "PARP1",
-        "BRCA2",
-        "BRCA1",
-        "ATM",
-        "CDK12",
-        "TUBB",
-        "PTEN",
-        "MYC"
+        "AR"
       ],
       "nodes": [
         "state-crpc",
@@ -4904,15 +4542,7 @@
       "species": "mouse",
       "species_from": "mesh",
       "genes": [
-        "AR",
-        "PARP1",
-        "BRCA2",
-        "BRCA1",
-        "ATM",
-        "CDK12",
-        "TUBB",
-        "PTEN",
-        "MYC"
+        "AR"
       ],
       "nodes": [
         "state-crpc",
@@ -4943,9 +4573,7 @@
       "species": "human",
       "species_from": "keywords",
       "genes": [
-        "FOLH1",
-        "TUBB",
-        "AR"
+        "FOLH1"
       ],
       "nodes": [
         "state-crpc-adeno",
@@ -5024,10 +4652,7 @@
       "species": "human",
       "species_from": "keywords",
       "genes": [
-        "TUBB",
-        "PDCD1",
-        "MSH2",
-        "AR"
+        "TUBB"
       ],
       "nodes": [
         "state-crpc",
@@ -5055,10 +4680,7 @@
       "species": "mouse",
       "species_from": "mesh",
       "genes": [
-        "TUBB",
-        "PDCD1",
-        "MSH2",
-        "AR"
+        "TUBB"
       ],
       "nodes": [
         "state-crpc",
@@ -5225,15 +4847,7 @@
       "species": "human",
       "species_from": "keywords",
       "genes": [
-        "AR",
-        "PARP1",
-        "BRCA2",
-        "BRCA1",
-        "ATM",
-        "CDK12",
-        "TUBB",
-        "PTEN",
-        "MYC"
+        "AR"
       ],
       "nodes": [
         "state-crpc",
@@ -5298,9 +4912,7 @@
       "species": "human",
       "species_from": "mesh",
       "genes": [
-        "FOLH1",
-        "TUBB",
-        "AR"
+        "FOLH1"
       ],
       "nodes": [
         "state-crpc-adeno",
@@ -5354,8 +4966,7 @@
       "species_from": "mesh",
       "genes": [
         "PDCD1",
-        "MSH2",
-        "AR"
+        "MSH2"
       ],
       "nodes": [
         "state-crpc-adeno"
@@ -5407,10 +5018,7 @@
       "species": "mouse",
       "species_from": "keywords",
       "genes": [
-        "TUBB",
-        "PDCD1",
-        "MSH2",
-        "AR"
+        "TUBB"
       ],
       "nodes": [
         "state-crpc",
@@ -5532,15 +5140,7 @@
       "species": "cell line",
       "species_from": "keywords",
       "genes": [
-        "AR",
-        "PARP1",
-        "BRCA2",
-        "BRCA1",
-        "ATM",
-        "CDK12",
-        "TUBB",
-        "PTEN",
-        "MYC"
+        "AR"
       ],
       "nodes": [
         "state-crpc",
@@ -5608,15 +5208,7 @@
       "species": "mouse",
       "species_from": "mesh",
       "genes": [
-        "AR",
-        "PARP1",
-        "BRCA2",
-        "BRCA1",
-        "ATM",
-        "CDK12",
-        "TUBB",
-        "PTEN",
-        "MYC"
+        "AR"
       ],
       "nodes": [
         "state-crpc",
@@ -5647,9 +5239,7 @@
       "species": "human",
       "species_from": "mesh",
       "genes": [
-        "FOLH1",
-        "TUBB",
-        "AR"
+        "FOLH1"
       ],
       "nodes": [
         "state-crpc-adeno",
@@ -5703,9 +5293,7 @@
       "species": "human",
       "species_from": "mesh",
       "genes": [
-        "FOLH1",
-        "TUBB",
-        "AR"
+        "FOLH1"
       ],
       "nodes": [
         "state-crpc-adeno",
@@ -5733,15 +5321,7 @@
       "species": "mouse",
       "species_from": "keywords",
       "genes": [
-        "AR",
-        "PARP1",
-        "BRCA2",
-        "BRCA1",
-        "ATM",
-        "CDK12",
-        "TUBB",
-        "PTEN",
-        "MYC"
+        "AR"
       ],
       "nodes": [
         "state-crpc",
@@ -5834,9 +5414,7 @@
       "species": "human",
       "species_from": "keywords",
       "genes": [
-        "FOLH1",
-        "TUBB",
-        "AR"
+        "FOLH1"
       ],
       "nodes": [
         "state-crpc-adeno",
@@ -5888,15 +5466,7 @@
       "species": "mouse",
       "species_from": "mesh",
       "genes": [
-        "AR",
-        "PARP1",
-        "BRCA2",
-        "BRCA1",
-        "ATM",
-        "CDK12",
-        "TUBB",
-        "PTEN",
-        "MYC"
+        "AR"
       ],
       "nodes": [
         "state-crpc",
@@ -5973,9 +5543,7 @@
       "species": "human",
       "species_from": "mesh",
       "genes": [
-        "FOLH1",
-        "TUBB",
-        "AR"
+        "FOLH1"
       ],
       "nodes": [
         "state-crpc-adeno",
@@ -6005,10 +5573,7 @@
       "species": "human",
       "species_from": "keywords",
       "genes": [
-        "TUBB",
-        "PDCD1",
-        "MSH2",
-        "AR"
+        "TUBB"
       ],
       "nodes": [
         "state-crpc",
@@ -6115,15 +5680,7 @@
       "species": "mouse",
       "species_from": "mesh",
       "genes": [
-        "AR",
-        "PARP1",
-        "BRCA2",
-        "BRCA1",
-        "ATM",
-        "CDK12",
-        "TUBB",
-        "PTEN",
-        "MYC"
+        "AR"
       ],
       "nodes": [
         "state-crpc",
@@ -6155,10 +5712,7 @@
       "species": "human",
       "species_from": "keywords",
       "genes": [
-        "TUBB",
-        "PDCD1",
-        "MSH2",
-        "AR"
+        "TUBB"
       ],
       "nodes": [
         "state-crpc",
@@ -6187,15 +5741,7 @@
       "species": "human",
       "species_from": "mesh",
       "genes": [
-        "AR",
-        "PARP1",
-        "BRCA2",
-        "BRCA1",
-        "ATM",
-        "CDK12",
-        "TUBB",
-        "PTEN",
-        "MYC"
+        "AR"
       ],
       "nodes": [
         "state-crpc",
@@ -6305,10 +5851,7 @@
       "species": "human",
       "species_from": "keywords",
       "genes": [
-        "TUBB",
-        "PDCD1",
-        "MSH2",
-        "AR"
+        "TUBB"
       ],
       "nodes": [
         "state-crpc",
@@ -6336,10 +5879,7 @@
       "species": "mouse",
       "species_from": "mesh",
       "genes": [
-        "TUBB",
-        "PDCD1",
-        "MSH2",
-        "AR"
+        "TUBB"
       ],
       "nodes": [
         "state-crpc",
@@ -6396,15 +5936,7 @@
       "species": "mouse",
       "species_from": "mesh",
       "genes": [
-        "AR",
-        "PARP1",
-        "BRCA2",
-        "BRCA1",
-        "ATM",
-        "CDK12",
-        "TUBB",
-        "PTEN",
-        "MYC"
+        "AR"
       ],
       "nodes": [
         "state-crpc",
@@ -6435,15 +5967,7 @@
       "species": "mouse",
       "species_from": "mesh",
       "genes": [
-        "AR",
-        "PARP1",
-        "BRCA2",
-        "BRCA1",
-        "ATM",
-        "CDK12",
-        "TUBB",
-        "PTEN",
-        "MYC"
+        "AR"
       ],
       "nodes": [
         "state-crpc",
@@ -6501,10 +6025,7 @@
       "species": "human",
       "species_from": "mesh",
       "genes": [
-        "TUBB",
-        "PDCD1",
-        "MSH2",
-        "AR"
+        "TUBB"
       ],
       "nodes": [
         "state-crpc",
@@ -6561,10 +6082,7 @@
       "species": "human",
       "species_from": "mesh",
       "genes": [
-        "TUBB",
-        "PDCD1",
-        "MSH2",
-        "AR"
+        "TUBB"
       ],
       "nodes": [
         "state-crpc",
@@ -6615,10 +6133,7 @@
       "species": "human",
       "species_from": "keywords",
       "genes": [
-        "TUBB",
-        "PDCD1",
-        "MSH2",
-        "AR"
+        "TUBB"
       ],
       "nodes": [
         "state-crpc",
@@ -6646,10 +6161,7 @@
       "species": "unclear",
       "species_from": "none",
       "genes": [
-        "TUBB",
-        "PDCD1",
-        "MSH2",
-        "AR"
+        "TUBB"
       ],
       "nodes": [
         "state-crpc",
@@ -6701,9 +6213,7 @@
       "species": "human",
       "species_from": "mesh",
       "genes": [
-        "FOLH1",
-        "TUBB",
-        "AR"
+        "FOLH1"
       ],
       "nodes": [
         "state-crpc-adeno",
@@ -6757,8 +6267,7 @@
       "species_from": "keywords",
       "genes": [
         "PDCD1",
-        "MSH2",
-        "AR"
+        "MSH2"
       ],
       "nodes": [
         "state-crpc-adeno"
@@ -6841,10 +6350,7 @@
       "species": "mouse",
       "species_from": "mesh",
       "genes": [
-        "TUBB",
-        "PDCD1",
-        "MSH2",
-        "AR"
+        "TUBB"
       ],
       "nodes": [
         "state-crpc",
@@ -6874,8 +6380,7 @@
       "genes": [
         "TUBB",
         "PDCD1",
-        "MSH2",
-        "AR"
+        "MSH2"
       ],
       "nodes": [
         "state-crpc",
@@ -6984,9 +6489,7 @@
       "species": "human",
       "species_from": "mesh",
       "genes": [
-        "FOLH1",
-        "TUBB",
-        "AR"
+        "FOLH1"
       ],
       "nodes": [
         "state-crpc-adeno",
@@ -7095,8 +6598,7 @@
       "species_from": "mesh",
       "genes": [
         "PDCD1",
-        "MSH2",
-        "AR"
+        "MSH2"
       ],
       "nodes": [
         "state-crpc-adeno"
@@ -7123,10 +6625,7 @@
       "species": "mouse",
       "species_from": "mesh",
       "genes": [
-        "TUBB",
-        "PDCD1",
-        "MSH2",
-        "AR"
+        "TUBB"
       ],
       "nodes": [
         "state-crpc",
@@ -7154,15 +6653,7 @@
       "species": "human",
       "species_from": "mesh",
       "genes": [
-        "AR",
-        "PARP1",
-        "BRCA2",
-        "BRCA1",
-        "ATM",
-        "CDK12",
-        "TUBB",
-        "PTEN",
-        "MYC"
+        "AR"
       ],
       "nodes": [
         "state-crpc",
@@ -7376,10 +6867,7 @@
       "species": "human",
       "species_from": "mesh",
       "genes": [
-        "TUBB",
-        "PDCD1",
-        "MSH2",
-        "AR"
+        "TUBB"
       ],
       "nodes": [
         "state-crpc",
@@ -7456,9 +6944,7 @@
       "species": "human",
       "species_from": "mesh",
       "genes": [
-        "FOLH1",
-        "TUBB",
-        "AR"
+        "FOLH1"
       ],
       "nodes": [
         "state-crpc-adeno",
@@ -7510,8 +6996,7 @@
       "species_from": "mesh",
       "genes": [
         "PDCD1",
-        "MSH2",
-        "AR"
+        "MSH2"
       ],
       "nodes": [
         "state-crpc-adeno"
@@ -7613,9 +7098,7 @@
       "species": "human",
       "species_from": "mesh",
       "genes": [
-        "FOLH1",
-        "TUBB",
-        "AR"
+        "FOLH1"
       ],
       "nodes": [
         "state-crpc-adeno",
@@ -7702,15 +7185,7 @@
       "species": "human",
       "species_from": "mesh",
       "genes": [
-        "AR",
-        "PARP1",
-        "BRCA2",
-        "BRCA1",
-        "ATM",
-        "CDK12",
-        "TUBB",
-        "PTEN",
-        "MYC"
+        "AR"
       ],
       "nodes": [
         "state-crpc",
@@ -7778,10 +7253,7 @@
       "species": "cell line",
       "species_from": "keywords",
       "genes": [
-        "TUBB",
-        "PDCD1",
-        "MSH2",
-        "AR"
+        "TUBB"
       ],
       "nodes": [
         "state-crpc",
@@ -7809,10 +7281,7 @@
       "species": "human",
       "species_from": "mesh",
       "genes": [
-        "TUBB",
-        "PDCD1",
-        "MSH2",
-        "AR"
+        "TUBB"
       ],
       "nodes": [
         "state-crpc",
@@ -7864,9 +7333,7 @@
       "species": "human",
       "species_from": "mesh",
       "genes": [
-        "FOLH1",
-        "TUBB",
-        "AR"
+        "FOLH1"
       ],
       "nodes": [
         "state-crpc-adeno",
@@ -7894,10 +7361,7 @@
       "species": "human",
       "species_from": "mesh",
       "genes": [
-        "TUBB",
-        "PDCD1",
-        "MSH2",
-        "AR"
+        "TUBB"
       ],
       "nodes": [
         "state-crpc",
@@ -7925,10 +7389,7 @@
       "species": "human",
       "species_from": "mesh",
       "genes": [
-        "TUBB",
-        "PDCD1",
-        "MSH2",
-        "AR"
+        "TUBB"
       ],
       "nodes": [
         "state-crpc",
@@ -7956,10 +7417,7 @@
       "species": "human",
       "species_from": "keywords",
       "genes": [
-        "TUBB",
-        "PDCD1",
-        "MSH2",
-        "AR"
+        "TUBB"
       ],
       "nodes": [
         "state-crpc",
@@ -8108,10 +7566,7 @@
       "species": "human",
       "species_from": "mesh",
       "genes": [
-        "TUBB",
-        "PDCD1",
-        "MSH2",
-        "AR"
+        "TUBB"
       ],
       "nodes": [
         "state-crpc",
@@ -8287,9 +7742,7 @@
       "species": "human",
       "species_from": "mesh",
       "genes": [
-        "FOLH1",
-        "TUBB",
-        "AR"
+        "FOLH1"
       ],
       "nodes": [
         "state-crpc-adeno",
@@ -8344,10 +7797,7 @@
       "species": "human",
       "species_from": "mesh",
       "genes": [
-        "TUBB",
-        "PDCD1",
-        "MSH2",
-        "AR"
+        "TUBB"
       ],
       "nodes": [
         "state-crpc",
@@ -8401,8 +7851,7 @@
       "species_from": "mesh",
       "genes": [
         "FOLH1",
-        "TUBB",
-        "AR"
+        "TUBB"
       ],
       "nodes": [
         "state-crpc-adeno",
@@ -8684,9 +8133,7 @@
       "species": "human",
       "species_from": "mesh",
       "genes": [
-        "FOLH1",
-        "TUBB",
-        "AR"
+        "FOLH1"
       ],
       "nodes": [
         "state-crpc-adeno",
@@ -8715,8 +8162,7 @@
       "species_from": "mesh",
       "genes": [
         "PDCD1",
-        "MSH2",
-        "AR"
+        "MSH2"
       ],
       "nodes": [
         "state-crpc-adeno"
@@ -8744,9 +8190,7 @@
       "species": "mouse",
       "species_from": "mesh",
       "genes": [
-        "FOLH1",
-        "TUBB",
-        "AR"
+        "FOLH1"
       ],
       "nodes": [
         "state-crpc-adeno",
@@ -8932,9 +8376,7 @@
       "species": "human",
       "species_from": "mesh",
       "genes": [
-        "FOLH1",
-        "TUBB",
-        "AR"
+        "FOLH1"
       ],
       "nodes": [
         "state-crpc-adeno",
@@ -9027,8 +8469,7 @@
       "species_from": "mesh",
       "genes": [
         "PDCD1",
-        "MSH2",
-        "AR"
+        "MSH2"
       ],
       "nodes": [
         "state-crpc-adeno"
@@ -9055,10 +8496,7 @@
       "species": "human",
       "species_from": "mesh",
       "genes": [
-        "TUBB",
-        "PDCD1",
-        "MSH2",
-        "AR"
+        "TUBB"
       ],
       "nodes": [
         "state-crpc",
@@ -9171,8 +8609,7 @@
       "species_from": "mesh",
       "genes": [
         "PDCD1",
-        "MSH2",
-        "AR"
+        "MSH2"
       ],
       "nodes": [
         "state-crpc-adeno"
@@ -9224,9 +8661,7 @@
       "species": "mouse",
       "species_from": "mesh",
       "genes": [
-        "FOLH1",
-        "TUBB",
-        "AR"
+        "FOLH1"
       ],
       "nodes": [
         "state-crpc-adeno",
@@ -9338,9 +8773,7 @@
       "species": "human",
       "species_from": "mesh",
       "genes": [
-        "FOLH1",
-        "TUBB",
-        "AR"
+        "FOLH1"
       ],
       "nodes": [
         "state-crpc-adeno",
@@ -9444,9 +8877,7 @@
       "species": "human",
       "species_from": "mesh",
       "genes": [
-        "FOLH1",
-        "TUBB",
-        "AR"
+        "FOLH1"
       ],
       "nodes": [
         "state-crpc-adeno",
@@ -9474,9 +8905,7 @@
       "species": "human",
       "species_from": "mesh",
       "genes": [
-        "FOLH1",
-        "TUBB",
-        "AR"
+        "FOLH1"
       ],
       "nodes": [
         "state-crpc-adeno",
@@ -9619,10 +9048,7 @@
       "species": "human",
       "species_from": "keywords",
       "genes": [
-        "TUBB",
-        "PDCD1",
-        "MSH2",
-        "AR"
+        "TUBB"
       ],
       "nodes": [
         "state-crpc",
@@ -9773,10 +9199,7 @@
       "species": "human",
       "species_from": "mesh",
       "genes": [
-        "TUBB",
-        "PDCD1",
-        "MSH2",
-        "AR"
+        "TUBB"
       ],
       "nodes": [
         "state-crpc",
@@ -9836,9 +9259,7 @@
       "species": "human",
       "species_from": "mesh",
       "genes": [
-        "FOLH1",
-        "TUBB",
-        "AR"
+        "FOLH1"
       ],
       "nodes": [
         "state-crpc-adeno",
@@ -10013,10 +9434,7 @@
       "species": "unclear",
       "species_from": "none",
       "genes": [
-        "TUBB",
-        "PDCD1",
-        "MSH2",
-        "AR"
+        "TUBB"
       ],
       "nodes": [
         "state-crpc",
@@ -10074,8 +9492,7 @@
       "species_from": "keywords",
       "genes": [
         "PDCD1",
-        "MSH2",
-        "AR"
+        "MSH2"
       ],
       "nodes": [
         "state-crpc-adeno"
@@ -10153,9 +9570,7 @@
       "species": "human",
       "species_from": "keywords",
       "genes": [
-        "FOLH1",
-        "TUBB",
-        "AR"
+        "FOLH1"
       ],
       "nodes": [
         "state-crpc-adeno",
@@ -10184,8 +9599,7 @@
       "species_from": "mesh",
       "genes": [
         "PDCD1",
-        "MSH2",
-        "AR"
+        "MSH2"
       ],
       "nodes": [
         "state-crpc-adeno"
@@ -10272,9 +9686,7 @@
       "species": "human",
       "species_from": "mesh",
       "genes": [
-        "FOLH1",
-        "TUBB",
-        "AR"
+        "FOLH1"
       ],
       "nodes": [
         "state-crpc-adeno",
@@ -10389,8 +9801,7 @@
       "species_from": "keywords",
       "genes": [
         "PDCD1",
-        "MSH2",
-        "AR"
+        "MSH2"
       ],
       "nodes": [
         "state-crpc-adeno"
@@ -10472,9 +9883,7 @@
       "species": "mouse",
       "species_from": "mesh",
       "genes": [
-        "FOLH1",
-        "TUBB",
-        "AR"
+        "FOLH1"
       ],
       "nodes": [
         "state-crpc-adeno",
@@ -10502,9 +9911,7 @@
       "species": "human",
       "species_from": "mesh",
       "genes": [
-        "FOLH1",
-        "TUBB",
-        "AR"
+        "FOLH1"
       ],
       "nodes": [
         "state-crpc-adeno",
@@ -10673,10 +10080,7 @@
       "species": "mouse",
       "species_from": "mesh",
       "genes": [
-        "TUBB",
-        "PDCD1",
-        "MSH2",
-        "AR"
+        "TUBB"
       ],
       "nodes": [
         "state-crpc",
@@ -10996,9 +10400,7 @@
       "species": "human",
       "species_from": "mesh",
       "genes": [
-        "FOLH1",
-        "TUBB",
-        "AR"
+        "FOLH1"
       ],
       "nodes": [
         "state-crpc-adeno",
@@ -11026,10 +10428,7 @@
       "species": "human",
       "species_from": "mesh",
       "genes": [
-        "TUBB",
-        "PDCD1",
-        "MSH2",
-        "AR"
+        "TUBB"
       ],
       "nodes": [
         "state-crpc",
@@ -11057,10 +10456,7 @@
       "species": "human",
       "species_from": "mesh",
       "genes": [
-        "TUBB",
-        "PDCD1",
-        "MSH2",
-        "AR"
+        "TUBB"
       ],
       "nodes": [
         "state-crpc",
@@ -11301,8 +10697,7 @@
       "species_from": "mesh",
       "genes": [
         "PDCD1",
-        "MSH2",
-        "AR"
+        "MSH2"
       ],
       "nodes": [
         "state-crpc-adeno"
@@ -11394,9 +10789,7 @@
       "species": "human",
       "species_from": "keywords",
       "genes": [
-        "FOLH1",
-        "TUBB",
-        "AR"
+        "FOLH1"
       ],
       "nodes": [
         "state-crpc-adeno",
@@ -11459,10 +10852,7 @@
       "species": "mouse",
       "species_from": "mesh",
       "genes": [
-        "TUBB",
-        "PDCD1",
-        "MSH2",
-        "AR"
+        "TUBB"
       ],
       "nodes": [
         "state-crpc",
@@ -11622,10 +11012,7 @@
       "species": "human",
       "species_from": "keywords",
       "genes": [
-        "TUBB",
-        "PDCD1",
-        "MSH2",
-        "AR"
+        "TUBB"
       ],
       "nodes": [
         "state-crpc",
@@ -11720,10 +11107,7 @@
       "species": "human",
       "species_from": "mesh",
       "genes": [
-        "TUBB",
-        "PDCD1",
-        "MSH2",
-        "AR"
+        "TUBB"
       ],
       "nodes": [
         "state-crpc",
@@ -11752,10 +11136,7 @@
       "species": "human",
       "species_from": "mesh",
       "genes": [
-        "TUBB",
-        "PDCD1",
-        "MSH2",
-        "AR"
+        "TUBB"
       ],
       "nodes": [
         "state-crpc",
@@ -11807,8 +11188,7 @@
       "species_from": "mesh",
       "genes": [
         "PDCD1",
-        "MSH2",
-        "AR"
+        "MSH2"
       ],
       "nodes": [
         "state-crpc-adeno"
@@ -11835,10 +11215,7 @@
       "species": "cell line",
       "species_from": "keywords",
       "genes": [
-        "TUBB",
-        "PDCD1",
-        "MSH2",
-        "AR"
+        "TUBB"
       ],
       "nodes": [
         "state-crpc",
@@ -11929,9 +11306,7 @@
       "species": "human",
       "species_from": "mesh",
       "genes": [
-        "FOLH1",
-        "TUBB",
-        "AR"
+        "FOLH1"
       ],
       "nodes": [
         "state-crpc-adeno",
@@ -12036,8 +11411,7 @@
       "species_from": "keywords",
       "genes": [
         "PDCD1",
-        "MSH2",
-        "AR"
+        "MSH2"
       ],
       "nodes": [
         "state-crpc-adeno"

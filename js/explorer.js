@@ -41,6 +41,11 @@
     selectedGene: null,   // drawer subject (targets lens, targets view)
     selectedDrugId: null, // drawer subject (targets lens, drugs view)
     litTier: 'all',       // evidence-tier filter in the literature lens
+    /* What a "See all N papers" link opened the literature lens on: a target
+       card's gene or a subtype drawer's node. It used to open every paper in
+       the cancer, so "See all 15 papers for TP53" landed on 603. Cleared
+       whenever the reader leaves the lens. */
+    litFocus: null,       // { kind: 'gene' | 'node', id, label, ds }
     /* Where the last cross-lens jump came from. Crossing lenses used to be
        one-way and silent: click PIK3CA in a subtype drawer and the subtype is
        simply gone, with no way back and no record that you were ever there. */
@@ -633,6 +638,13 @@
     if (!dom.drawer.hidden && drawerBelow()) dom.drawer.scrollIntoView({ block: 'start' });
   }
 
+  // for a lens or view with nothing that fills the drawer
+  function hideDrawer() {
+    clearNode(dom.drawer);
+    dom.drawer.hidden = true;
+    if (dom.main) dom.main.classList.add('no-drawer');
+  }
+
   // css/explorer.css stacks the drawer under the lens at this width
   function drawerBelow() {
     return !!(global.matchMedia && global.matchMedia('(max-width: 1000px)').matches);
@@ -742,6 +754,29 @@
     literatureForNode: literatureForNode,
     get litTier() { return state.litTier; },
     setLitTier: function (t) { state.litTier = t; render(); },
+    get litFocus() {
+      var f = state.litFocus;
+      return f && f.ds === state.dsId ? f : null;
+    },
+    /* The same two functions that count the papers on the card and in the
+       drawer, so the lens shows exactly the number the link promised. */
+    litFocusPapers: function () {
+      var f = ctx.litFocus;
+      if (!f) return null;
+      return f.kind === 'gene' ? literatureFor(f.id) : literatureForNode(f.id);
+    },
+    openLiterature: function (focus) {
+      if (!lensAvailable('literature')) return;
+      if (state.lens !== 'literature') state.cameFrom = snapshot();
+      state.lens = 'literature';
+      normaliseView();
+      state.litTier = 'all';
+      state.litFocus = focus
+        ? { kind: focus.kind, id: focus.id, label: focus.label, ds: state.dsId } : null;
+      render();
+      global.scrollTo(0, 0);
+    },
+    clearLitFocus: function () { state.litFocus = null; render(); },
     targetData: targetData,
     targetByGene: targetByGene,
     drugsForGene: drugsForGene,
@@ -798,6 +833,21 @@
     },
     returnFromTarget: function () {
       if (state.targetReturn) global.scrollTo(0, state.targetReturn.y);
+    },
+    /* From the empty drawer, which on a phone sits under the whole lens
+       (breast Targets: 5,325px down), back up to what fills it: the row of
+       target buttons where there is one, else the table, else the chart. */
+    backToPicks: function () {
+      var dest = ['.tg-open', '#tableview table', '#viz', '#tableview'].map(function (s) {
+        return document.querySelector(s);
+      }).find(function (el) { return el && el.getBoundingClientRect().height > 0; });
+      if (!dest) return;
+      dest.scrollIntoView({ block: 'start' });
+      /* The first thing to pick takes focus, so a keyboard lands there too.
+         Only a picker: the agents table's first button is a definition chip
+         (its rows take a click only), so there focus stays put. */
+      var first = dest.querySelector('.tg-open-row button, [role=button], tr[tabindex]');
+      if (first && first.focus) first.focus({ preventScroll: true });
     },
     get cameFrom() { return state.cameFrom; },
     goBack: goBack,
@@ -856,6 +906,7 @@
 
     if (!LENS_VIEWS[state.lens] || !lensAvailable(state.lens)) state.lens = 'subtypes';
     normaliseView();
+    if (state.lens !== 'literature') state.litFocus = null;
     syncLensUI();
 
     // Start has no per-item detail, so it hides the drawer; every other lens
@@ -964,7 +1015,12 @@
     dom.tableview.className = 'tableview detectionview';
     Render.evidence(dom.tableview, ctx);
 
-    Render.drawer(dom.drawer, nodeById(state.selectedId), ctx);
+    /* Nothing in this lens fills the drawer (a gap row's click goes to
+       Subtypes), so unless a subtype is carried over from there, an empty
+       drawer would ask for a pick nobody can make here. */
+    var carried = nodeById(state.selectedId);
+    if (carried) Render.drawer(dom.drawer, carried, ctx);
+    else hideDrawer();
     syncHash();
   }
 
@@ -999,7 +1055,10 @@
     if (isDetection) clearNode(dom.legend);
     else Render.riskLegend(dom.legend, ctx);
 
-    Render.factorDrawer(dom.drawer, factorById(state.selectedFactorId), ctx);
+    // the detection view lists tests, not factors: nothing there fills the drawer
+    var factor = factorById(state.selectedFactorId);
+    if (isDetection && !factor) hideDrawer();
+    else Render.factorDrawer(dom.drawer, factor, ctx);
     syncHash();
   }
 
@@ -1411,8 +1470,22 @@
     // a fixed tip stays put while the page moves under it
     global.addEventListener('scroll', function () { Render.tooltip(null); }, { passive: true });
 
+    /* The phone's sticky strip (.mtop) holds one row of cancer tabs at 393px
+       and two at 320 (51 and 83px). A fixed 60px scroll margin left what a
+       tap scrolls to partly under it at 320: a target card's "Back to"
+       button by 10px. css reads the real height as --strip-h. */
+    var mtop = document.getElementById('mtop');
+    function stripHeight() {
+      var hgt = mtop && global.getComputedStyle(mtop).position === 'sticky'
+        ? Math.ceil(mtop.getBoundingClientRect().height) : 0;
+      document.documentElement.style.setProperty('--strip-h', hgt + 'px');
+    }
+    stripHeight();
+    if (global.ResizeObserver && mtop) new global.ResizeObserver(stripHeight).observe(mtop);
+
     var resizeTimer = null;
     global.addEventListener('resize', function () {
+      stripHeight();
       clearTimeout(resizeTimer);
       resizeTimer = setTimeout(render, 160);
     });
@@ -1444,6 +1517,7 @@
     state.selectedFactorId = null;
     state.selectedDrugId = null;
     state.cameFrom = null;
+    state.litFocus = null;
     dom.selDataset.value = id;
     if (dom.lensToggle) {
       dom.lensToggle.hidden = LENS_ORDER.filter(lensAvailable).length < 2;

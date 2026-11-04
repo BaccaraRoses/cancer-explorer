@@ -61,6 +61,13 @@
     return luminance(hex) > 0.42 ? '#0b0b0b' : '#ffffff';
   }
 
+  /* The ink with the higher contrast ratio, compared rather than cut at a
+     luminance. Used where the fill under the text is a mix, not the base. */
+  function bestInk(hex) {
+    var L = luminance(hex);
+    return (L + 0.05) / (luminance('#0b0b0b') + 0.05) >= 1.05 / (L + 0.05) ? '#0b0b0b' : '#ffffff';
+  }
+
   function mix(hex, pct, towardHex) {
     var a = hexToRgb(hex), b = hexToRgb(towardHex), f = pct / 100;
     var r = Math.round(a[0] * f + b[0] * (1 - f));
@@ -125,6 +132,27 @@
   }
 
   function clear(node) { while (node.firstChild) node.removeChild(node.firstChild); }
+
+  /* The drawer before anything is picked. Below 1000px the drawer sits under
+     the lens (css: .drawer is static there), often thousands of pixels below
+     the chart top, so it says the things to pick are above it and takes a
+     line and a button instead of a card (the user, 2026-11-03). "above" and
+     the button are hidden where the drawer is the column beside the chart.
+     No arrow in the sentence: in the Risk lens an up arrow in grey text is
+     a factor's direction ("raises risk"); on a filled "Back to" button it
+     is the page's, as on a target card's way back (.tg-return). */
+  function drawerEmpty(container, ctx, what, plural, rest) {
+    var d = h('div', 'drawer-empty', 'Select ' + what);
+    d.appendChild(h('span', 'de-below', ' above'));
+    d.appendChild(document.createTextNode(' to see ' + rest));
+    if (ctx && ctx.backToPicks) {
+      var b = h('button', 'de-back', '↑ Back to ' + plural);
+      b.type = 'button';
+      b.addEventListener('click', ctx.backToPicks);
+      d.appendChild(b);
+    }
+    container.appendChild(d);
+  }
 
   /* ---------------- inline definitions ----------------
 
@@ -1496,6 +1524,61 @@
 
   /* ---------------- ranked factor plot — layer 2 ---------------- */
 
+  /* Text widths measured in the chart's own font. A per-character estimate
+     cut the first letters off names on a phone ("3RCA1", "mbined menopau…")
+     and ran the footnotes off the card. A text measured while the chart is
+     hidden reads 0, so that case falls back to the old estimate. */
+  function svgMeasure(svg) {
+    var probe = el('text', { x: -9999, y: -9999, 'aria-hidden': 'true' }, svg);
+    var cache = {};
+    function width(s, cls, bold) {
+      var k = cls + (bold ? '!' : '|') + s;
+      if (Object.prototype.hasOwnProperty.call(cache, k)) return cache[k];
+      probe.setAttribute('class', cls);
+      probe.style.fontWeight = bold ? '700' : '';
+      probe.textContent = s;
+      var w = 0;
+      try { w = probe.getComputedTextLength(); } catch (e) { w = 0; }
+      if (!w && s) w = s.length * (cls === 'rk-val' ? 6.1 : 6.6);
+      cache[k] = w;
+      return w;
+    }
+    /* The longest start of s that fits, with an ellipsis when cut. */
+    function fit(s, cls, max, bold) {
+      s = s || '';
+      if (width(s, cls, bold) <= max) return s;
+      var lo = 0, hi = s.length;
+      while (lo < hi) {
+        var mid = Math.ceil((lo + hi) / 2);
+        if (width(s.slice(0, mid).replace(/\s+$/, '') + '…', cls, bold) <= max) lo = mid; else hi = mid - 1;
+      }
+      return s.slice(0, lo).replace(/\s+$/, '') + '…';
+    }
+    /* Greedy word wrap; a single word wider than the line is cut to fit. */
+    function wrap(s, cls, max) {
+      var out = [], line = '';
+      String(s || '').split(/\s+/).filter(Boolean).forEach(function (word) {
+        var next = line ? line + ' ' + word : word;
+        if (!line || width(next, cls) <= max) { line = next; return; }
+        out.push(line);
+        line = word;
+      });
+      if (line) out.push(line);
+      return out.map(function (l) { return fit(l, cls, max); });
+    }
+    function done() { if (probe.parentNode) probe.parentNode.removeChild(probe); }
+    return { width: width, fit: fit, wrap: wrap, done: done };
+  }
+
+  /* One <text> per block, one <tspan> per line. */
+  function svgLines(parent, lines, x, y, lineH, cls) {
+    var t = el('text', { x: x, y: y, class: cls }, parent);
+    lines.forEach(function (s, i) {
+      el('tspan', { x: x, dy: i ? lineH : 0 }, t).textContent = s;
+    });
+    return t;
+  }
+
   function ranked(svg, ctx) {
     clear(svg);
     var rows = riskRows(ctx);
@@ -1508,14 +1591,24 @@
       return;
     }
 
-    var gutter = Math.min(260, Math.max(132, W * 0.30));
+    var M = svgMeasure(svg);
+    /* A phone gets a layout of its own (INV-25): at 393px the name gutter was
+       132px, so most names were cut to a dozen letters. There the name takes a
+       line of its own above its row and the plot gets the full width. */
+    var narrow = W < 600;
+    var gutter = narrow ? 8 : Math.min(260, Math.max(132, W * 0.30));
     /* Wide enough that the longest value label still fits to the RIGHT of the
        furthest dot. Flipping a label back across its own stem is the fallback,
        not the plan — a label struck through by its own line is unreadable. */
-    var rightPad = Math.min(240, Math.max(110, W * 0.16));
+    var rightPad = narrow ? Math.max(110, W * 0.30) : Math.min(240, Math.max(110, W * 0.16));
     var axisBand = 34;
-    var plotX = gutter;
-    var plotW = Math.max(60, W - gutter - rightPad);
+    var plotX = narrow ? 18 : gutter;
+    var plotW = Math.max(60, W - plotX - rightPad);
+    /* Where a value label may reach on the left: the gutter's edge on a
+       desktop (lung's smoking rows once ran over the names), the card's on a
+       phone, where the names sit on their own line. */
+    var labelMinX = narrow ? 8 : plotX;
+    var NAME_LINE = 16;   // the name's own line above a phone row
 
     /* A factor with no numeric effect size cannot be given a position — but
        dropping it would silently delete "increasing age", the strongest factor
@@ -1528,11 +1621,104 @@
       return { value: r.value, group: r.group, row: r };
     }), {
       x: plotX, y: axisBand + 8, w: plotW, h: 0
-    }, { rowH: 22, rowGap: 9, groupGap: 30, groupHeadH: 22, origin: 1 });
+    }, { rowH: narrow ? 22 + NAME_LINE : 22, rowGap: narrow ? 8 : 9, groupGap: 30, groupHeadH: 22, origin: 1 });
 
-    var unplotTop = axisBand + 8 + lay.height + 34;
-    var unplotH = unplotted.length ? (24 + unplotted.length * 22) : 0;
-    var H = unplotTop + unplotH + 46;
+    /* Where each value label goes, decided before anything is drawn.
+       One line when it fits beside the dot. Then the stratum on a second
+       line: two whole lines on the right beat one line flipped back across
+       the stem, whose knockout hides the very stem it is drawn over. On a
+       phone, a label that still does not fit takes lines of its own under
+       the stem (three at most) and the rows below move down to make room; on
+       a desktop it flips to the left, cut to the room there is. The label
+       never crosses into the gutter: lung's smoking rows ran over it, and
+       their knockout erased the row's name. A label to the right of a dot
+       left of the origin starts past the origin, clear of its own stem:
+       started at the dot, the stem ran into its first letter and
+       "RR ~0.8–0.9" read as "–RR ~0.8–0.9". */
+    var VAL_LH = 14;
+    var valW = function (s) { return M.width(s, 'rk-val'); };
+    var labs = lay.rows.map(function (r) {
+      var f = r.item.row.factor;
+      var parts = [f.magnitude || ''];
+      if (f.stratum) parts.push(f.stratum);
+      var txt = parts.join('  ·  ');
+      var rightX = r.cx < lay.originX ? Math.max(r.cx + 14, lay.originX + 8) : r.cx + 14;
+      var roomR = W - 6 - rightX, roomL = (r.cx - 14) - labelMinX;
+      var longest = Math.max.apply(null, parts.map(valW));
+      var lab = { txt: txt, lines: [txt], x: rightX, toRight: true, below: false, extra: 0 };
+      if (valW(txt) <= roomR) return lab;
+      if (parts.length > 1 && longest <= roomR) {
+        lab.lines = parts;
+        lab.extra = narrow ? (parts.length - 1) * VAL_LH : 0;
+        return lab;
+      }
+      if (narrow) {
+        var room = W - 8 - 20, all = [];
+        parts.forEach(function (p) { all = all.concat(M.wrap(p, 'rk-val', room)); });
+        if (all.length > 3) all = all.slice(0, 2).concat([M.fit(all.slice(2).join(' '), 'rk-val', room)]);
+        lab.lines = all; lab.x = 20; lab.below = true;
+        lab.extra = all.length * VAL_LH + 4;
+        return lab;
+      }
+      if (valW(txt) <= roomL) {
+        lab.toRight = false; lab.x = r.cx - 14;
+        return lab;
+      }
+      lab.toRight = longest <= roomR || (longest > roomL && roomR >= roomL);
+      var rm = lab.toRight ? roomR : roomL;
+      lab.lines = parts.map(function (s) { return M.fit(s, 'rk-val', rm); });
+      lab.x = lab.toRight ? rightX : r.cx - 14;
+      return lab;
+    });
+    // each row (and the heading over its group) moves down by the room taken above it
+    var shift = [], extraH = 0;
+    labs.forEach(function (lab) { shift.push(extraH); extraH += lab.extra; });
+    var gi = -1;
+    lay.rows.forEach(function (r, i) {
+      if (i === 0 || r.group !== lay.rows[i - 1].group) {
+        gi++;
+        if (lay.groups[gi]) lay.groups[gi].headY += shift[i];
+      }
+    });
+    var plotBottom = axisBand + 8 + lay.height + extraH;
+
+    /* The heading and the footnotes wrap to the width there is; as single
+       lines they ran off a phone's card mid-word. */
+    var UNPLOT_HEAD = 'No comparable effect size — shown, not ranked';
+    var headLines = M.wrap(UNPLOT_HEAD, 'rk-group', W - 16);
+    var FOOT_1 = 'Horizontal position is the effect size on a ratio scale. Absolute risks (germline variants) ' +
+                 'are placed by that risk divided by the baseline, roughly; the label shows the real figure.';
+    /* Without this line the male-BRCA2 row reads as the largest risk on the
+       chart, when it is a large multiple of a very small baseline. */
+    var FOOT_2 = 'Rows marked for a specific population (men, for instance) are placed against that ' +
+                 'population\'s own baseline, so their position is not comparable with the rest.';
+    var foot1 = M.wrap(FOOT_1, 'rk-foot', W - 16), foot2 = M.wrap(FOOT_2, 'rk-foot', W - 16);
+    var FOOT_LH = 14;
+    var footH = (foot1.length + foot2.length) * FOOT_LH + 6 + 18;
+
+    var unplotTop = plotBottom + 34;
+    /* An unplotted row's text: one line cut to the width on a desktop, up to
+       two lines under the name on a phone. Cut text is whole on hover, and a
+       tap opens the factor. */
+    var unplotX = narrow ? 20 : plotX;
+    var ups = unplotted.map(function (rec) {
+      var f = rec.factor;
+      var full = (f.direction === 'decreases' ? '↓ ' : f.direction === 'mixed' ? '↕ ' : '↑ ') +
+                 (f.magnitude || 'no published figure') +
+                 (f.modifiable ? '' : '  ·  not modifiable');
+      var room = W - 8 - unplotX, lines;
+      if (narrow) {
+        lines = M.wrap(full, 'rk-val', room);
+        if (lines.length > 2) lines = [lines[0], M.fit(lines.slice(1).join(' '), 'rk-val', room)];
+      } else {
+        lines = [M.fit(full, 'rk-val', room)];
+      }
+      return { full: full, lines: lines, h: narrow ? 23 + 15 * lines.length : 22 };
+    });
+    var unplotFirst = unplotTop + 22 + (headLines.length - 1) * 15 + (narrow ? 4 : 0);
+    var unplotH = unplotted.length ? (unplotFirst - unplotTop +
+      ups.reduce(function (s, u) { return s + u.h; }, 0)) : 0;
+    var H = unplotTop + unplotH + footH;
     svg.setAttribute('viewBox', '0 0 ' + W + ' ' + H);
     svg.style.height = H + 'px';
 
@@ -1547,7 +1733,7 @@
     var MIN_TICK_GAP = 34;
     lay.ticks.forEach(function (t) {
       el('line', {
-        x1: t.x, x2: t.x, y1: axisBand, y2: axisBand + 8 + lay.height,
+        x1: t.x, x2: t.x, y1: axisBand, y2: plotBottom,
         class: 'rk-grid'
       }, axis);
       // the origin carries the "no change" label instead — two labels collide
@@ -1562,7 +1748,7 @@
 
     // the origin — the only line that means something, so it is drawn heavier
     el('line', {
-      x1: lay.originX, x2: lay.originX, y1: axisBand, y2: axisBand + 8 + lay.height,
+      x1: lay.originX, x2: lay.originX, y1: axisBand, y2: plotBottom,
       class: 'rk-origin'
     }, axis);
     var ol = el('text', { x: lay.originX, y: 16, 'text-anchor': 'middle', class: 'rk-originlab' }, axis);
@@ -1575,12 +1761,15 @@
     });
 
     // --- rows ---
-    lay.rows.forEach(function (r) {
+    lay.rows.forEach(function (r, ri) {
       var rec = r.item.row;
       var f = rec.factor;
       var dir = f.direction || 'increases';
       var fill = riskColor(dir);
-      var mid = r.y + r.h / 2;
+      var lab = labs[ri];
+      var y0 = r.y + shift[ri];
+      var mid = narrow ? y0 + NAME_LINE + 11 : y0 + r.h / 2;
+      var selected = ctx.selectedFactorId === f.id;
 
       var g = el('g', {
         class: 'rk-row' + (rec.dimmed ? ' is-dim' : '') +
@@ -1594,34 +1783,25 @@
 
       // generous hit target — covers the row band, not just the dot
       el('rect', {
-        x: 0, y: r.y - 4, width: W, height: r.h + 8,
+        x: 0, y: y0 - 4, width: W, height: r.h + 8 + lab.extra,
         fill: 'transparent', class: 'rk-hit'
       }, g);
 
-      // name in the gutter
-      var nm = el('text', { x: gutter - 12, y: mid + 4, 'text-anchor': 'end', class: 'rk-name' }, g);
-      nm.textContent = truncate(f.label, Math.floor((gutter - 20) / 6.4));
+      /* The name: in the gutter on a desktop, on its own line on a phone. Cut
+         to the measured room, never past the card's edge; whole on hover. */
+      var nameRoom = narrow ? W - 16 : gutter - 20;
+      var nameTxt = M.fit(f.label, 'rk-name', nameRoom, selected);
+      var nm = narrow
+        ? el('text', { x: 8, y: y0 + 12, class: 'rk-name rk-name-top' }, g)
+        : el('text', { x: gutter - 12, y: mid + 4, 'text-anchor': 'end', class: 'rk-name' }, g);
+      nm.textContent = nameTxt;
+      if (nameTxt !== f.label) el('title', {}, nm).textContent = f.label;
 
-      /* One line when it fits on either side of the dot. Otherwise the stratum
-         drops to a second line, and a line that still does not fit is cut to
-         the room there is. The label never crosses into the gutter: lung's
-         smoking rows ran over it, and their knockout erased the row's name. */
-      var parts = [f.magnitude || ''];
-      if (f.stratum) parts.push(f.stratum);
-      var txt = parts.join('  ·  ');
-      var wid = function (s) { return s.length * 6.1; };
-      var roomR = W - 6 - (r.cx + 14), roomL = (r.cx - 14) - plotX;
-      var lines, toRight;
-      if (wid(txt) <= roomR) { lines = [txt]; toRight = true; }
-      else if (wid(txt) <= roomL) { lines = [txt]; toRight = false; }
-      else {
-        var longest = Math.max.apply(null, parts.map(wid));
-        toRight = longest <= roomR || (longest > roomL && roomR >= roomL);
-        var room = toRight ? roomR : roomL;
-        lines = parts.map(function (s) { return wid(s) <= room ? s : truncate(s, Math.floor(room / 6.1)); });
-      }
-      var estW = Math.max.apply(null, lines.map(wid));
-      var lift = (lines.length - 1) * 7;
+      var lines = lab.lines, toRight = lab.toRight, labelX = lab.x, txt = lab.txt;
+      var estW = Math.max.apply(null, lines.map(valW));
+      // a desktop centres a two-line label on the row; a phone hangs it below
+      var lift = narrow ? 0 : (lines.length - 1) * 7;
+      var labelY = lab.below ? mid + 22 : mid + 4 - lift;
 
       // connector from the origin to the value — 2px, rounded ends
       el('line', {
@@ -1635,7 +1815,9 @@
          for legibility. */
       if (!toRight) {
         el('rect', {
-          x: r.cx - 16 - estW, y: mid - 8 - lift, width: estW + 6, height: 16 + 2 * lift,
+          /* to the dot's ring, not 2px short of it: the stem showing in that
+             gap read as a "·" after the label */
+          x: r.cx - 16 - estW, y: mid - 8 - lift, width: estW + 8, height: 16 + 2 * lift,
           fill: surface, class: 'rk-knockout'
         }, g);
       }
@@ -1650,13 +1832,13 @@
       ar.textContent = dir === 'decreases' ? '↓' : dir === 'mixed' ? '↕' : '↑';
 
       var vl = el('text', {
-        x: toRight ? r.cx + 14 : r.cx - 14,
-        y: mid + 4 - lift,
+        x: labelX,
+        y: labelY,
         'text-anchor': toRight ? 'start' : 'end',
         class: 'rk-val'
       }, g);
       lines.forEach(function (s, i) {
-        var ts = el('tspan', { x: toRight ? r.cx + 14 : r.cx - 14, dy: i ? 14 : 0 }, vl);
+        var ts = el('tspan', { x: labelX, dy: i ? 14 : 0 }, vl);
         ts.textContent = s;
       });
       // the whole label on hover, in case a line was cut
@@ -1672,12 +1854,13 @@
     // --- factors that cannot be positioned, listed rather than dropped ---
     if (unplotted.length) {
       el('line', { x1: 8, x2: W - 8, y1: unplotTop - 14, y2: unplotTop - 14, class: 'rk-grid' }, svg);
-      var uh = el('text', { x: 8, y: unplotTop + 2, class: 'rk-group' }, svg);
-      uh.textContent = 'No comparable effect size — shown, not ranked';
+      svgLines(svg, headLines, 8, unplotTop + 2, 15, 'rk-group');
 
+      var uy = unplotFirst;
       unplotted.forEach(function (rec, i) {
-        var f = rec.factor;
-        var uy = unplotTop + 22 + i * 22;
+        var f = rec.factor, up = ups[i];
+        if (i) uy += ups[i - 1].h;
+        var selected = ctx.selectedFactorId === f.id;
         var g = el('g', {
           class: 'rk-row rk-unplotted' + (rec.dimmed ? ' is-dim' : '') +
                  (ctx.selectedFactorId === f.id ? ' is-selected' : ''),
@@ -1686,20 +1869,20 @@
                         ', not plotted because it has no comparable numeric effect size'
         }, svg);
 
-        el('rect', { x: 0, y: uy - 14, width: W, height: 22, fill: 'transparent', class: 'rk-hit' }, g);
+        el('rect', { x: 0, y: uy - 14, width: W, height: up.h, fill: 'transparent', class: 'rk-hit' }, g);
 
-        var nm = el('text', { x: gutter - 12, y: uy, 'text-anchor': 'end', class: 'rk-name' }, g);
-        nm.textContent = truncate(f.label, Math.floor((gutter - 20) / 6.4));
+        var nameRoom = narrow ? W - 16 : gutter - 20;
+        var nameTxt = M.fit(f.label, 'rk-name', nameRoom, selected);
+        var nm = narrow
+          ? el('text', { x: 8, y: uy, class: 'rk-name' }, g)
+          : el('text', { x: gutter - 12, y: uy, 'text-anchor': 'end', class: 'rk-name' }, g);
+        nm.textContent = nameTxt;
+        if (nameTxt !== f.label) el('title', {}, nm).textContent = f.label;
 
-        var mg = el('text', { x: plotX, y: uy, class: 'rk-val' }, g);
-        var full = (f.direction === 'decreases' ? '↓ ' : f.direction === 'mixed' ? '↕ ' : '↑ ') +
-                   (f.magnitude || 'no published figure') +
-                   (f.modifiable ? '' : '  ·  not modifiable');
-        /* Cut to the width there is, not past the card's edge (colorectal's
-           race-ethnicity row ran off it); the whole line is on hover. */
-        var fit = Math.floor((W - 8 - plotX) / 6.1);
-        mg.textContent = truncate(full, fit);
-        if (full.length > fit) el('title', {}, mg).textContent = full;
+        /* Never past the card's edge: colorectal's race-ethnicity row ran
+           off it. */
+        var mg = svgLines(g, up.lines, unplotX, narrow ? uy + 16 : uy, 15, 'rk-val');
+        if (up.lines.join(' ') !== up.full.replace(/\s+/g, ' ')) el('title', {}, mg).textContent = up.full;
 
         hoverTip(g, function () { return factorTip(rec, ctx); });
         g.addEventListener('click', function () { ctx.selectFactor(f.id); });
@@ -1710,14 +1893,10 @@
     }
 
     // --- footnote: what the axis actually is ---
-    var fn1 = el('text', { x: 8, y: H - 30, class: 'rk-foot' }, svg);
-    fn1.textContent = 'Horizontal position is the effect size on a ratio scale. Absolute risks (germline variants) ' +
-                      'are placed by that risk divided by the baseline, roughly; the label shows the real figure.';
-    /* Without this line the male-BRCA2 row reads as the largest risk on the
-       chart, when it is a large multiple of a very small baseline. */
-    var fn2 = el('text', { x: 8, y: H - 14, class: 'rk-foot' }, svg);
-    fn2.textContent = 'Rows marked for a specific population (men, for instance) are placed against that ' +
-                      'population\'s own baseline, so their position is not comparable with the rest.';
+    var fy = unplotTop + unplotH + 16;
+    svgLines(svg, foot1, 8, fy, FOOT_LH, 'rk-foot');
+    svgLines(svg, foot2, 8, fy + foot1.length * FOOT_LH + 6, FOOT_LH, 'rk-foot');
+    M.done();
   }
 
   /* Two series, so a legend is mandatory — but direction is also carried by the
@@ -1803,7 +1982,12 @@
       } else if (f.scope && f.scope !== 'overall') {
         var sn = ctx.nodeById(f.scope);
         absCell.textContent = 'not convertible — scoped to ' + (sn ? sn.label : f.scope);
-      } else absCell.textContent = '—';
+      /* The drawer's last two reasons. A bare dash here read as "none". */
+      } else if (/(^|[\s(~<>=+,])\d/.test(f.magnitude || '')) {
+        absCell.textContent = 'not converted — not a single multiplier on the whole population';
+      } else {
+        absCell.textContent = 'not converted — no numeric effect size that converts cleanly';
+      }
       tr.appendChild(absCell);
 
       tr.appendChild(h('td', 'nw', f.evidence || '—'));
@@ -2057,8 +2241,7 @@
   function factorDrawer(container, factor, ctx) {
     clear(container);
     if (!factor) {
-      container.appendChild(h('div', 'drawer-empty',
-        'Select a factor to see its effect size, what it applies to, and how it converts.'));
+      drawerEmpty(container, ctx, 'a factor', 'the factors', 'its effect size, what it applies to, and how it converts.');
       return;
     }
 
@@ -2375,6 +2558,15 @@
 
   function tierClass(t) { return 'tier-' + String(t || '').replace(/[^a-z]/gi, '-'); }
 
+  /* pipeline/cxp/literature.py stores at most this many characters of the
+     author list and cuts mid-name ("Song FF, Krast"), which reads as a typo.
+     A list at the limit ends at its last whole name instead, and says so. */
+  var AUTHORS_CUT = 80;
+  function authorLine(s) {
+    if (s.length < AUTHORS_CUT || s.indexOf(',') === -1) return s;
+    return s.slice(0, s.lastIndexOf(',')) + ', et al.';
+  }
+
   function paperCard(p, ctx) {
     var card = h('div', 'lit-paper');
 
@@ -2399,7 +2591,7 @@
 
     var meta = [p.journal, p.date].filter(Boolean).join(' · ');
     if (meta) card.appendChild(h('div', 'meta', meta));
-    if (p.authors) card.appendChild(h('div', 'auth', p.authors));
+    if (p.authors) card.appendChild(h('div', 'auth', authorLine(p.authors)));
 
     // why this paper is on this page — so a bad match reads as a bad match
     var why = h('div', 'why');
@@ -2450,23 +2642,42 @@
       (lit.source || 'Europe PMC') + '. Literature moves daily; re-run the pipeline to refresh.'));
     container.appendChild(snap);
 
+    /* Opened from a target card or a subtype drawer: the papers that link
+       counted, said plainly, with the way out to the whole list. */
+    var focus = ctx.litFocus;
+    var base = (focus && ctx.litFocusPapers()) || lit.papers || [];
+    if (focus) {
+      var fb = h('div', 'lit-focus');
+      fb.appendChild(h('p', null,
+        'Showing the ' + base.length + ' paper' + (base.length === 1 ? '' : 's') + ' filed under ' +
+        focus.label + (focus.kind === 'gene'
+          ? ': found by a search on ' + focus.label + ' itself or on an agent aimed at it.'
+          : ': found by a search aimed at a target of the drugs used there or at one of its ' +
+            'driver genes, including its narrower subtypes.') +
+        ' The whole list for ' + cancerName(ctx) + ' has ' + lit.n_papers + '.'));
+      var all = h('button', 'lit-btn', 'Show all ' + lit.n_papers + ' papers');
+      all.type = 'button';
+      all.addEventListener('click', function () { ctx.clearLitFocus(); });
+      fb.appendChild(all);
+      container.appendChild(fb);
+    }
+
     // tier filter — the one control that matters here
+    var byTier = {};
+    base.forEach(function (p) { byTier[p.tier] = (byTier[p.tier] || 0) + 1; });
     var bar = h('div', 'lit-filter');
     bar.appendChild(h('span', 'lbl', 'Show'));
-    var tiers = ['all'].concat(TIER_ORDER.filter(function (t) {
-      return (lit.by_tier || {})[t];
-    }));
+    var tiers = ['all'].concat(TIER_ORDER.filter(function (t) { return byTier[t]; }));
     tiers.forEach(function (t) {
       var b = h('button', 'chipbtn' + (ctx.litTier === t ? ' on' : ''));
       b.type = 'button';
-      b.textContent = t === 'all' ? 'everything (' + lit.n_papers + ')'
-        : t + ' (' + lit.by_tier[t] + ')';
+      b.textContent = t === 'all' ? 'everything (' + base.length + ')' : t + ' (' + byTier[t] + ')';
       b.addEventListener('click', function () { ctx.setLitTier(t); });
       bar.appendChild(b);
     });
     container.appendChild(bar);
 
-    var papers = (lit.papers || []).filter(function (p) {
+    var papers = base.filter(function (p) {
       return ctx.litTier === 'all' || p.tier === ctx.litTier;
     });
 
@@ -2492,9 +2703,26 @@
         gh.appendChild(h('span', 'n', list.length + ' paper' + (list.length === 1 ? '' : 's')));
         grp.appendChild(gh);
         list.slice(0, 8).forEach(function (p) { grp.appendChild(paperCard(p, ctx)); });
+        /* The rest open in place. "Narrow by tier above" was the only way to
+           them, and it was not enough: 459 of 1,977 papers across the five
+           cancers sat past the eighth in their group at every tier. */
         if (list.length > 8) {
-          grp.appendChild(h('p', 'more', 'and ' + (list.length - 8) +
-            ' more, newest shown first — narrow by tier above'));
+          var rest = list.slice(8);
+          var mb = h('button', 'lit-btn lit-more',
+            'Show the other ' + rest.length + ' (older)');
+          mb.type = 'button';
+          mb.addEventListener('click', function () {
+            var first = null;
+            rest.forEach(function (p) {
+              var c = paperCard(p, ctx);
+              if (!first) first = c;
+              grp.insertBefore(c, mb);
+            });
+            grp.removeChild(mb);
+            var link = first && first.querySelector('a, button');
+            if (link) link.focus({ preventScroll: true });
+          });
+          grp.appendChild(mb);
         }
         container.appendChild(grp);
       });
@@ -2646,9 +2874,11 @@
              opacity on the cell: fading the element fades its label too, and a
              count you cannot read is not a data point. */
           if (v) {
-            td.style.background = 'color-mix(in srgb, ' + base + ' ' +
-              Math.round(10 + share * 82) + '%, transparent)';
-            td.style.color = share > 0.55 ? inkOn(base) : 'var(--text-primary)';
+            var pct = Math.round(10 + share * 82);
+            td.style.background = 'color-mix(in srgb, ' + base + ' ' + pct + '%, transparent)';
+            /* Judged against the mix the text actually sits on. Judged against
+               the base blue it chose white, 2.8:1 on a 75% cell. */
+            td.style.color = bestInk(mix(base, pct, SURFACE[mode()]));
           }
           td.textContent = v ? (v + '  ' + Math.round(share * 100) + '%') : '·';
           td.title = rk + ' × ' + ck + ': ' + v + ' of ' + total;
@@ -3158,8 +3388,7 @@
     clear(container);
     citeReset();
     if (!target) {
-      container.appendChild(h('div', 'drawer-empty',
-        'Select a target to see where it is altered, what binds it, and how far along that is.'));
+      drawerEmpty(container, ctx, 'a target', 'the targets', 'where it is altered, what binds it, and how far along that is.');
       return;
     }
 
@@ -3522,8 +3751,11 @@
         var b = h('button', 'rel-item');
         b.type = 'button';
         b.appendChild(h('span', 'name', 'See all ' + lit.length + ' papers for ' + target.gene));
+        b.appendChild(document.createTextNode(' '));
         b.appendChild(h('span', 'kind', 'literature lens'));
-        b.addEventListener('click', function () { ctx.setLens('literature'); });
+        b.addEventListener('click', function () {
+          ctx.openLiterature({ kind: 'gene', id: target.gene, label: target.gene });
+        });
         container.appendChild(b);
       }
     }
@@ -4086,8 +4318,7 @@
   function drugDrawer(container, d, ctx) {
     clear(container);
     if (!d) {
-      container.appendChild(h('div', 'drawer-empty',
-        'Select an agent to see what it targets, how far along it is, and what its label warns about.'));
+      drawerEmpty(container, ctx, 'an agent', 'the agents', 'what it targets, how far along it is, and what its label warns about.');
       return;
     }
     container.appendChild(h('h2', null, d.name));
@@ -4122,6 +4353,7 @@
         var b = h('button', 'rel-item');
         b.type = 'button';
         b.appendChild(h('span', 'name', g));
+        b.appendChild(document.createTextNode(' '));
         b.appendChild(h('span', 'kind', 'protein, structure, hotspots'));
         b.addEventListener('click', function () { ctx.selectTarget(g); });
         container.appendChild(b);
@@ -4196,7 +4428,13 @@
     list.forEach(function (d) {
       var tr = h('tr', 'clickable' + (ctx.selectedDrugId === d.id ? ' is-selected' : ''));
       tr.addEventListener('click', function () { ctx.selectDrug(d.id); });
-      tr.appendChild(h('td', 'f-name', d.name));
+      /* One row per trial and setting, so an agent can appear four times. The
+         trial and its line are what tell those rows apart; without them they
+         read as duplicates (Enhertu four times over in breast). */
+      var nc = h('td', 'f-name', d.name);
+      var which = [d.trial_name, d.line].filter(Boolean).join(' · ');
+      if (which) nc.appendChild(h('span', 'sub', which));
+      tr.appendChild(nc);
       tr.appendChild(h('td', 'nw', d.target || '—'));
       var mc = h('td', 'nw');
       mc.appendChild(d.modality ? term(d.modality, null) : document.createTextNode('—'));
@@ -4288,8 +4526,7 @@
       var hasTriggers = ((ctx.dataset() || {}).nodes || []).some(function (n) {
         return (n.triggers || []).length > 0;
       });
-      container.appendChild(h('div', 'drawer-empty',
-        'Select a subtype to see ' + (hasTriggers ? 'its trigger causes and ' : 'its ') + 'molecular profile.'));
+      drawerEmpty(container, ctx, 'a subtype', 'the subtypes', (hasTriggers ? 'its trigger causes and ' : 'its ') + 'molecular profile.');
       return;
     }
 
@@ -4700,17 +4937,25 @@
       container.appendChild(h('h3', null, 'Recent literature for this subtype'));
       var kinds = {};
       lit.forEach(function (p) { kinds[p.kind] = (kinds[p.kind] || 0) + 1; });
+      /* Said as the join works: a paper reaches a subtype through the gene its
+         search aimed at, which a drug used here targets or which drives it.
+         The year is the snapshot's own, not a constant. */
+      var since = String(((ctx.literatureData && ctx.literatureData()) || {}).since || '').slice(0, 4);
       container.appendChild(h('p', 'tg-note',
-        lit.length + ' paper' + (lit.length === 1 ? '' : 's') + ' since 2024 on the agents used ' +
-        'here — ' + Object.keys(kinds).map(function (k) { return kinds[k] + ' on ' + k; }).join(', ') +
+        lit.length + ' paper' + (lit.length === 1 ? '' : 's') + (since ? ' since ' + since : '') +
+        ' aimed at the targets of the drugs used here or at its driver genes — ' +
+        Object.keys(kinds).map(function (k) { return kinds[k] + ' on ' + k; }).join(', ') +
         '. Newest first.'));
       lit.slice(0, 4).forEach(function (p) { container.appendChild(paperCard(p, ctx)); });
       if (lit.length > 4) {
         var more = h('button', 'rel-item');
         more.type = 'button';
         more.appendChild(h('span', 'name', 'See all ' + lit.length + ' papers'));
+        more.appendChild(document.createTextNode(' '));
         more.appendChild(h('span', 'kind', 'literature lens'));
-        more.addEventListener('click', function () { ctx.setLens('literature'); });
+        more.addEventListener('click', function () {
+          ctx.openLiterature({ kind: 'node', id: node.id, label: node.shortLabel || node.label });
+        });
         container.appendChild(more);
       }
     }

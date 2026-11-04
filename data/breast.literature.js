@@ -1,6 +1,6 @@
 /* GENERATED FILE - DO NOT EDIT BY HAND.
  *
- * Produced by pipeline/run.py literature on 2026-10-18 00:46 UTC
+ * Produced by pipeline/run.py literature on 2026-11-04 05:19 UTC
  * 603 papers since 2024-01-01  (from 735 raw hits, deduplicated)
  * By tier: meta-analysis 10, preprint 17, primary 386, review 111, systematic review 13, trial 66
  * By kind: new-approach 151, resistance 203, toxicity 249
@@ -135,8 +135,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species_from": "keywords",
    "genes": [
     "PDCD1",
-    "CD274",
-    "AR"
+    "CD274"
    ],
    "nodes": [
     "tnbc"
@@ -164,8 +163,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species_from": "none",
    "genes": [
     "PDCD1",
-    "CD274",
-    "AR"
+    "CD274"
    ],
    "nodes": [
     "tnbc"
@@ -194,11 +192,7 @@ window.CancerExplorerLiterature['breast'] = {
    "genes": [
     "CDK4",
     "CDK6",
-    "CCND1",
-    "PIK3CA",
-    "PIK3R1",
-    "ESR1",
-    "RB1"
+    "CCND1"
    ],
    "nodes": [
     "hr-pos-her2-neg",
@@ -226,9 +220,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species": "unclear",
    "species_from": "none",
    "genes": [
-    "TACSTD2",
-    "PIK3CA",
-    "PTEN"
+    "TACSTD2"
    ],
    "nodes": [
     "hr-pos-her2-neg",
@@ -294,11 +286,7 @@ window.CancerExplorerLiterature['breast'] = {
    "genes": [
     "CDK4",
     "CDK6",
-    "CCND1",
-    "PIK3CA",
-    "PIK3R1",
-    "ESR1",
-    "RB1"
+    "CCND1"
    ],
    "nodes": [
     "hr-pos-her2-neg",
@@ -357,10 +345,7 @@ window.CancerExplorerLiterature['breast'] = {
     "CDK4",
     "CDK6",
     "CCND1",
-    "PIK3CA",
-    "PIK3R1",
-    "ESR1",
-    "RB1"
+    "ESR1"
    ],
    "nodes": [
     "hr-pos-her2-neg",
@@ -396,11 +381,7 @@ window.CancerExplorerLiterature['breast'] = {
    "genes": [
     "CDK4",
     "CDK6",
-    "CCND1",
-    "PIK3CA",
-    "PIK3R1",
-    "ESR1",
-    "RB1"
+    "CCND1"
    ],
    "nodes": [
     "hr-pos-her2-neg",
@@ -429,8 +410,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species_from": "none",
    "genes": [
     "PDCD1",
-    "CD274",
-    "AR"
+    "CD274"
    ],
    "nodes": [
     "tnbc"
@@ -458,11 +438,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "ERBB2",
-    "PIK3CA",
-    "PIK3R1",
-    "ESR1",
-    "PTEN"
+    "ERBB2"
    ],
    "nodes": [
     "her2-low",
@@ -492,11 +468,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species": "cell line",
    "species_from": "keywords",
    "genes": [
-    "ERBB2",
-    "PIK3CA",
-    "PIK3R1",
-    "ESR1",
-    "PTEN"
+    "ERBB2"
    ],
    "nodes": [
     "her2-low",
@@ -528,11 +500,7 @@ window.CancerExplorerLiterature['breast'] = {
    "genes": [
     "CDK4",
     "CDK6",
-    "CCND1",
-    "PIK3CA",
-    "PIK3R1",
-    "ESR1",
-    "RB1"
+    "CCND1"
    ],
    "nodes": [
     "hr-pos-her2-neg",
@@ -594,8 +562,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species_from": "mesh",
    "genes": [
     "PDCD1",
-    "CD274",
-    "AR"
+    "CD274"
    ],
    "nodes": [
     "tnbc"
@@ -623,8 +590,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species_from": "mesh",
    "genes": [
     "PDCD1",
-    "CD274",
-    "AR"
+    "CD274"
    ],
    "nodes": [
     "tnbc"
@@ -765,9 +731,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species": "human",
    "species_from": "keywords",
    "genes": [
-    "ERBB2",
-    "TACSTD2",
-    "MTOR"
+    "ERBB2"
    ],
    "nodes": [
     "her2-low",
@@ -797,9 +761,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species": "human",
    "species_from": "keywords",
    "genes": [
-    "ERBB2",
-    "TACSTD2",
-    "MTOR"
+    "ERBB2"
    ],
    "nodes": [
     "her2-low",
@@ -831,11 +793,7 @@ window.CancerExplorerLiterature['breast'] = {
    "genes": [
     "CDK4",
     "CDK6",
-    "CCND1",
-    "PIK3CA",
-    "PIK3R1",
-    "ESR1",
-    "RB1"
+    "CCND1"
    ],
    "nodes": [
     "hr-pos-her2-neg",
@@ -863,8 +821,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species": "human",
    "species_from": "keywords",
    "genes": [
-    "ERBB2",
-    "MTOR"
+    "ERBB2"
    ],
    "nodes": [
     "her2-low",
@@ -894,8 +851,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species": "human",
    "species_from": "keywords",
    "genes": [
-    "ERBB2",
-    "MTOR"
+    "ERBB2"
    ],
    "nodes": [
     "her2-low",
@@ -926,9 +882,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "TACSTD2",
-    "PIK3CA",
-    "PTEN"
+    "TACSTD2"
    ],
    "nodes": [
     "hr-pos-her2-neg",
@@ -956,9 +910,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "TACSTD2",
-    "PIK3CA",
-    "PTEN"
+    "TACSTD2"
    ],
    "nodes": [
     "hr-pos-her2-neg",
@@ -1014,7 +966,6 @@ window.CancerExplorerLiterature['breast'] = {
    "species_from": "keywords",
    "genes": [
     "ESR1",
-    "MTOR",
     "CDK4"
    ],
    "nodes": [
@@ -1056,11 +1007,7 @@ window.CancerExplorerLiterature['breast'] = {
    "genes": [
     "CDK4",
     "CDK6",
-    "CCND1",
-    "PIK3CA",
-    "PIK3R1",
-    "ESR1",
-    "RB1"
+    "CCND1"
    ],
    "nodes": [
     "hr-pos-her2-neg",
@@ -1089,8 +1036,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species_from": "mesh",
    "genes": [
     "PDCD1",
-    "CD274",
-    "AR"
+    "CD274"
    ],
    "nodes": [
     "tnbc"
@@ -1118,9 +1064,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species": "human",
    "species_from": "keywords",
    "genes": [
-    "ESR1",
-    "MTOR",
-    "CDK4"
+    "ESR1"
    ],
    "nodes": [
     "hr-pos-her2-neg",
@@ -1149,9 +1093,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species": "human",
    "species_from": "keywords",
    "genes": [
-    "TACSTD2",
-    "PIK3CA",
-    "PTEN"
+    "TACSTD2"
    ],
    "nodes": [
     "hr-pos-her2-neg",
@@ -1186,8 +1128,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species_from": "keywords",
    "genes": [
     "PDCD1",
-    "CD274",
-    "AR"
+    "CD274"
    ],
    "nodes": [
     "tnbc"
@@ -1215,8 +1156,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species_from": "mesh",
    "genes": [
     "PDCD1",
-    "CD274",
-    "AR"
+    "CD274"
    ],
    "nodes": [
     "tnbc"
@@ -1320,9 +1260,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species": "human",
    "species_from": "keywords",
    "genes": [
-    "TACSTD2",
-    "PIK3CA",
-    "PTEN"
+    "TACSTD2"
    ],
    "nodes": [
     "hr-pos-her2-neg",
@@ -1352,9 +1290,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species": "human",
    "species_from": "keywords",
    "genes": [
-    "TACSTD2",
-    "PIK3CA",
-    "PTEN"
+    "TACSTD2"
    ],
    "nodes": [
     "hr-pos-her2-neg",
@@ -1389,9 +1325,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species": "human",
    "species_from": "keywords",
    "genes": [
-    "TACSTD2",
-    "PIK3CA",
-    "PTEN"
+    "TACSTD2"
    ],
    "nodes": [
     "hr-pos-her2-neg",
@@ -1421,11 +1355,7 @@ window.CancerExplorerLiterature['breast'] = {
    "genes": [
     "CDK4",
     "CDK6",
-    "CCND1",
-    "PIK3CA",
-    "PIK3R1",
-    "ESR1",
-    "RB1"
+    "CCND1"
    ],
    "nodes": [
     "hr-pos-her2-neg",
@@ -1454,8 +1384,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species_from": "keywords",
    "genes": [
     "PDCD1",
-    "CD274",
-    "AR"
+    "CD274"
    ],
    "nodes": [
     "tnbc"
@@ -1484,11 +1413,7 @@ window.CancerExplorerLiterature['breast'] = {
    "genes": [
     "CDK4",
     "CDK6",
-    "CCND1",
-    "PIK3CA",
-    "PIK3R1",
-    "ESR1",
-    "RB1"
+    "CCND1"
    ],
    "nodes": [
     "hr-pos-her2-neg",
@@ -1518,9 +1443,7 @@ window.CancerExplorerLiterature['breast'] = {
    "genes": [
     "PIK3CA",
     "PIK3R1",
-    "AKT1",
-    "MTOR",
-    "ESR1"
+    "AKT1"
    ],
    "nodes": [
     "hr-pos-her2-neg"
@@ -1553,9 +1476,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species": "mouse",
    "species_from": "mesh",
    "genes": [
-    "ESR1",
-    "MTOR",
-    "CDK4"
+    "ESR1"
    ],
    "nodes": [
     "hr-pos-her2-neg",
@@ -1619,8 +1540,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species_from": "mesh",
    "genes": [
     "PDCD1",
-    "CD274",
-    "AR"
+    "CD274"
    ],
    "nodes": [
     "tnbc"
@@ -1675,11 +1595,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species": "human",
    "species_from": "keywords",
    "genes": [
-    "ERBB2",
-    "PIK3CA",
-    "PIK3R1",
-    "ESR1",
-    "PTEN"
+    "ERBB2"
    ],
    "nodes": [
     "her2-low",
@@ -1709,8 +1625,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species": "human",
    "species_from": "keywords",
    "genes": [
-    "ERBB2",
-    "MTOR"
+    "ERBB2"
    ],
    "nodes": [
     "her2-low",
@@ -1770,11 +1685,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species": "mouse",
    "species_from": "mesh",
    "genes": [
-    "ERBB2",
-    "PIK3CA",
-    "PIK3R1",
-    "ESR1",
-    "PTEN"
+    "ERBB2"
    ],
    "nodes": [
     "her2-low",
@@ -1805,8 +1716,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species_from": "keywords",
    "genes": [
     "PDCD1",
-    "CD274",
-    "AR"
+    "CD274"
    ],
    "nodes": [
     "tnbc"
@@ -1834,8 +1744,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species_from": "none",
    "genes": [
     "PDCD1",
-    "CD274",
-    "AR"
+    "CD274"
    ],
    "nodes": [
     "tnbc"
@@ -1863,9 +1772,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species": "human",
    "species_from": "keywords",
    "genes": [
-    "TACSTD2",
-    "PIK3CA",
-    "PTEN"
+    "TACSTD2"
    ],
    "nodes": [
     "hr-pos-her2-neg",
@@ -1894,9 +1801,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species": "human",
    "species_from": "keywords",
    "genes": [
-    "TACSTD2",
-    "PIK3CA",
-    "PTEN"
+    "TACSTD2"
    ],
    "nodes": [
     "hr-pos-her2-neg",
@@ -1925,9 +1830,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "ESR1",
-    "MTOR",
-    "CDK4"
+    "ESR1"
    ],
    "nodes": [
     "hr-pos-her2-neg",
@@ -1982,11 +1885,7 @@ window.CancerExplorerLiterature['breast'] = {
    "genes": [
     "CDK4",
     "CDK6",
-    "CCND1",
-    "PIK3CA",
-    "PIK3R1",
-    "ESR1",
-    "RB1"
+    "CCND1"
    ],
    "nodes": [
     "hr-pos-her2-neg",
@@ -2014,9 +1913,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species": "human",
    "species_from": "keywords",
    "genes": [
-    "ERBB2",
-    "TACSTD2",
-    "MTOR"
+    "ERBB2"
    ],
    "nodes": [
     "her2-low",
@@ -2046,11 +1943,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species": "human",
    "species_from": "keywords",
    "genes": [
-    "ERBB2",
-    "PIK3CA",
-    "PIK3R1",
-    "ESR1",
-    "PTEN"
+    "ERBB2"
    ],
    "nodes": [
     "her2-low",
@@ -2110,11 +2003,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species": "human",
    "species_from": "keywords",
    "genes": [
-    "ERBB2",
-    "PIK3CA",
-    "PIK3R1",
-    "ESR1",
-    "PTEN"
+    "ERBB2"
    ],
    "nodes": [
     "her2-low",
@@ -2145,8 +2034,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species_from": "keywords",
    "genes": [
     "PDCD1",
-    "CD274",
-    "AR"
+    "CD274"
    ],
    "nodes": [
     "tnbc"
@@ -2202,8 +2090,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species": "mouse",
    "species_from": "mesh",
    "genes": [
-    "ERBB2",
-    "MTOR"
+    "ERBB2"
    ],
    "nodes": [
     "her2-low",
@@ -2233,9 +2120,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species": "human",
    "species_from": "keywords",
    "genes": [
-    "ERBB2",
-    "TACSTD2",
-    "MTOR"
+    "ERBB2"
    ],
    "nodes": [
     "her2-low",
@@ -2266,9 +2151,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "ERBB2",
-    "TACSTD2",
-    "MTOR"
+    "ERBB2"
    ],
    "nodes": [
     "her2-low",
@@ -2300,11 +2183,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "ERBB2",
-    "PIK3CA",
-    "PIK3R1",
-    "ESR1",
-    "PTEN"
+    "ERBB2"
    ],
    "nodes": [
     "her2-low",
@@ -2334,8 +2213,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "ERBB2",
-    "MTOR"
+    "ERBB2"
    ],
    "nodes": [
     "her2-low",
@@ -2371,9 +2249,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species": "mouse",
    "species_from": "mesh",
    "genes": [
-    "ESR1",
-    "MTOR",
-    "CDK4"
+    "ESR1"
    ],
    "nodes": [
     "hr-pos-her2-neg",
@@ -2402,8 +2278,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species_from": "mesh",
    "genes": [
     "PDCD1",
-    "CD274",
-    "AR"
+    "CD274"
    ],
    "nodes": [
     "tnbc"
@@ -2431,8 +2306,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species_from": "keywords",
    "genes": [
     "PDCD1",
-    "CD274",
-    "AR"
+    "CD274"
    ],
    "nodes": [
     "tnbc"
@@ -2460,8 +2334,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species_from": "mesh",
    "genes": [
     "PDCD1",
-    "CD274",
-    "AR"
+    "CD274"
    ],
    "nodes": [
     "tnbc"
@@ -2489,9 +2362,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "ERBB2",
-    "TACSTD2",
-    "MTOR"
+    "ERBB2"
    ],
    "nodes": [
     "her2-low",
@@ -2555,9 +2426,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species": "mouse",
    "species_from": "mesh",
    "genes": [
-    "TACSTD2",
-    "PIK3CA",
-    "PTEN"
+    "TACSTD2"
    ],
    "nodes": [
     "hr-pos-her2-neg",
@@ -2586,8 +2455,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species_from": "mesh",
    "genes": [
     "PDCD1",
-    "CD274",
-    "AR"
+    "CD274"
    ],
    "nodes": [
     "tnbc"
@@ -2616,11 +2484,7 @@ window.CancerExplorerLiterature['breast'] = {
    "genes": [
     "CDK4",
     "CDK6",
-    "CCND1",
-    "PIK3CA",
-    "PIK3R1",
-    "ESR1",
-    "RB1"
+    "CCND1"
    ],
    "nodes": [
     "hr-pos-her2-neg",
@@ -2677,11 +2541,7 @@ window.CancerExplorerLiterature['breast'] = {
    "genes": [
     "CDK4",
     "CDK6",
-    "CCND1",
-    "PIK3CA",
-    "PIK3R1",
-    "ESR1",
-    "RB1"
+    "CCND1"
    ],
    "nodes": [
     "hr-pos-her2-neg",
@@ -2711,8 +2571,6 @@ window.CancerExplorerLiterature['breast'] = {
    "genes": [
     "PIK3CA",
     "PIK3R1",
-    "AKT1",
-    "MTOR",
     "ESR1"
    ],
    "nodes": [
@@ -2779,8 +2637,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species_from": "keywords",
    "genes": [
     "PDCD1",
-    "CD274",
-    "AR"
+    "CD274"
    ],
    "nodes": [
     "tnbc"
@@ -2839,11 +2696,7 @@ window.CancerExplorerLiterature['breast'] = {
    "genes": [
     "CDK4",
     "CDK6",
-    "CCND1",
-    "PIK3CA",
-    "PIK3R1",
-    "ESR1",
-    "RB1"
+    "CCND1"
    ],
    "nodes": [
     "hr-pos-her2-neg",
@@ -2871,9 +2724,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "ERBB2",
-    "TACSTD2",
-    "MTOR"
+    "ERBB2"
    ],
    "nodes": [
     "her2-low",
@@ -2903,9 +2754,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species": "human",
    "species_from": "keywords",
    "genes": [
-    "ESR1",
-    "MTOR",
-    "CDK4"
+    "ESR1"
    ],
    "nodes": [
     "hr-pos-her2-neg",
@@ -2963,9 +2812,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species": "human",
    "species_from": "keywords",
    "genes": [
-    "TACSTD2",
-    "PIK3CA",
-    "PTEN"
+    "TACSTD2"
    ],
    "nodes": [
     "hr-pos-her2-neg",
@@ -2993,11 +2840,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species": "mouse",
    "species_from": "mesh",
    "genes": [
-    "ERBB2",
-    "PIK3CA",
-    "PIK3R1",
-    "ESR1",
-    "PTEN"
+    "ERBB2"
    ],
    "nodes": [
     "her2-low",
@@ -3027,8 +2870,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species": "human",
    "species_from": "keywords",
    "genes": [
-    "ERBB2",
-    "MTOR"
+    "ERBB2"
    ],
    "nodes": [
     "her2-low",
@@ -3058,9 +2900,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species": "mouse",
    "species_from": "mesh",
    "genes": [
-    "TACSTD2",
-    "PIK3CA",
-    "PTEN"
+    "TACSTD2"
    ],
    "nodes": [
     "hr-pos-her2-neg",
@@ -3089,8 +2929,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species_from": "mesh",
    "genes": [
     "PDCD1",
-    "CD274",
-    "AR"
+    "CD274"
    ],
    "nodes": [
     "tnbc"
@@ -3210,8 +3049,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species_from": "none",
    "genes": [
     "PDCD1",
-    "CD274",
-    "AR"
+    "CD274"
    ],
    "nodes": [
     "tnbc"
@@ -3312,8 +3150,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species_from": "none",
    "genes": [
     "PDCD1",
-    "CD274",
-    "AR"
+    "CD274"
    ],
    "nodes": [
     "tnbc"
@@ -3341,8 +3178,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species_from": "none",
    "genes": [
     "PDCD1",
-    "CD274",
-    "AR"
+    "CD274"
    ],
    "nodes": [
     "tnbc"
@@ -3369,11 +3205,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "ERBB2",
-    "PIK3CA",
-    "PIK3R1",
-    "ESR1",
-    "PTEN"
+    "ERBB2"
    ],
    "nodes": [
     "her2-low",
@@ -3404,8 +3236,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species_from": "mesh",
    "genes": [
     "PDCD1",
-    "CD274",
-    "AR"
+    "CD274"
    ],
    "nodes": [
     "tnbc"
@@ -3432,9 +3263,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species": "mouse",
    "species_from": "mesh",
    "genes": [
-    "ERBB2",
-    "TACSTD2",
-    "MTOR"
+    "ERBB2"
    ],
    "nodes": [
     "her2-low",
@@ -3464,11 +3293,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "ERBB2",
-    "PIK3CA",
-    "PIK3R1",
-    "ESR1",
-    "PTEN"
+    "ERBB2"
    ],
    "nodes": [
     "her2-low",
@@ -3498,11 +3323,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "ERBB2",
-    "PIK3CA",
-    "PIK3R1",
-    "ESR1",
-    "PTEN"
+    "ERBB2"
    ],
    "nodes": [
     "her2-low",
@@ -3532,8 +3353,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "ERBB2",
-    "MTOR"
+    "ERBB2"
    ],
    "nodes": [
     "her2-low",
@@ -3569,8 +3389,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species": "mouse",
    "species_from": "mesh",
    "genes": [
-    "ERBB2",
-    "MTOR"
+    "ERBB2"
    ],
    "nodes": [
     "her2-low",
@@ -3600,9 +3419,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "TACSTD2",
-    "PIK3CA",
-    "PTEN"
+    "TACSTD2"
    ],
    "nodes": [
     "hr-pos-her2-neg",
@@ -3632,11 +3449,7 @@ window.CancerExplorerLiterature['breast'] = {
    "genes": [
     "CDK4",
     "CDK6",
-    "CCND1",
-    "PIK3CA",
-    "PIK3R1",
-    "ESR1",
-    "RB1"
+    "CCND1"
    ],
    "nodes": [
     "hr-pos-her2-neg",
@@ -3667,11 +3480,7 @@ window.CancerExplorerLiterature['breast'] = {
    "genes": [
     "CDK4",
     "CDK6",
-    "CCND1",
-    "PIK3CA",
-    "PIK3R1",
-    "ESR1",
-    "RB1"
+    "CCND1"
    ],
    "nodes": [
     "hr-pos-her2-neg",
@@ -3701,11 +3510,7 @@ window.CancerExplorerLiterature['breast'] = {
    "genes": [
     "CDK4",
     "CDK6",
-    "CCND1",
-    "PIK3CA",
-    "PIK3R1",
-    "ESR1",
-    "RB1"
+    "CCND1"
    ],
    "nodes": [
     "hr-pos-her2-neg",
@@ -3733,9 +3538,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species": "mouse",
    "species_from": "mesh",
    "genes": [
-    "ESR1",
-    "MTOR",
-    "CDK4"
+    "ESR1"
    ],
    "nodes": [
     "hr-pos-her2-neg",
@@ -3770,8 +3573,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species_from": "mesh",
    "genes": [
     "PDCD1",
-    "CD274",
-    "AR"
+    "CD274"
    ],
    "nodes": [
     "tnbc"
@@ -3799,8 +3601,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species_from": "mesh",
    "genes": [
     "PDCD1",
-    "CD274",
-    "AR"
+    "CD274"
    ],
    "nodes": [
     "tnbc"
@@ -3829,8 +3630,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species_from": "mesh",
    "genes": [
     "PDCD1",
-    "CD274",
-    "AR"
+    "CD274"
    ],
    "nodes": [
     "tnbc"
@@ -3979,11 +3779,7 @@ window.CancerExplorerLiterature['breast'] = {
    "genes": [
     "CDK4",
     "CDK6",
-    "CCND1",
-    "PIK3CA",
-    "PIK3R1",
-    "ESR1",
-    "RB1"
+    "CCND1"
    ],
    "nodes": [
     "hr-pos-her2-neg",
@@ -4013,11 +3809,7 @@ window.CancerExplorerLiterature['breast'] = {
    "genes": [
     "CDK4",
     "CDK6",
-    "CCND1",
-    "PIK3CA",
-    "PIK3R1",
-    "ESR1",
-    "RB1"
+    "CCND1"
    ],
    "nodes": [
     "hr-pos-her2-neg",
@@ -4046,8 +3838,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species_from": "keywords",
    "genes": [
     "PDCD1",
-    "CD274",
-    "AR"
+    "CD274"
    ],
    "nodes": [
     "tnbc"
@@ -4100,8 +3891,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species": "human",
    "species_from": "keywords",
    "genes": [
-    "ERBB2",
-    "MTOR"
+    "ERBB2"
    ],
    "nodes": [
     "her2-low",
@@ -4133,11 +3923,7 @@ window.CancerExplorerLiterature['breast'] = {
    "genes": [
     "CDK4",
     "CDK6",
-    "CCND1",
-    "PIK3CA",
-    "PIK3R1",
-    "ESR1",
-    "RB1"
+    "CCND1"
    ],
    "nodes": [
     "hr-pos-her2-neg",
@@ -4167,11 +3953,7 @@ window.CancerExplorerLiterature['breast'] = {
    "genes": [
     "CDK4",
     "CDK6",
-    "CCND1",
-    "PIK3CA",
-    "PIK3R1",
-    "ESR1",
-    "RB1"
+    "CCND1"
    ],
    "nodes": [
     "hr-pos-her2-neg",
@@ -4201,10 +3983,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species_from": "mesh",
    "genes": [
     "PIK3CA",
-    "PIK3R1",
-    "AKT1",
-    "MTOR",
-    "ESR1"
+    "PIK3R1"
    ],
    "nodes": [
     "hr-pos-her2-neg"
@@ -4230,10 +4009,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species_from": "mesh",
    "genes": [
     "PIK3CA",
-    "PIK3R1",
-    "AKT1",
-    "MTOR",
-    "ESR1"
+    "PIK3R1"
    ],
    "nodes": [
     "hr-pos-her2-neg"
@@ -4288,11 +4064,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species": "mouse",
    "species_from": "keywords",
    "genes": [
-    "ERBB2",
-    "PIK3CA",
-    "PIK3R1",
-    "ESR1",
-    "PTEN"
+    "ERBB2"
    ],
    "nodes": [
     "her2-low",
@@ -4323,8 +4095,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species_from": "none",
    "genes": [
     "PDCD1",
-    "CD274",
-    "AR"
+    "CD274"
    ],
    "nodes": [
     "tnbc"
@@ -4351,9 +4122,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "TACSTD2",
-    "PIK3CA",
-    "PTEN"
+    "TACSTD2"
    ],
    "nodes": [
     "hr-pos-her2-neg",
@@ -4381,9 +4150,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "ERBB2",
-    "TACSTD2",
-    "MTOR"
+    "ERBB2"
    ],
    "nodes": [
     "her2-low",
@@ -4413,11 +4180,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species": "human",
    "species_from": "keywords",
    "genes": [
-    "ERBB2",
-    "PIK3CA",
-    "PIK3R1",
-    "ESR1",
-    "PTEN"
+    "ERBB2"
    ],
    "nodes": [
     "her2-low",
@@ -4447,11 +4210,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "ERBB2",
-    "PIK3CA",
-    "PIK3R1",
-    "ESR1",
-    "PTEN"
+    "ERBB2"
    ],
    "nodes": [
     "her2-low",
@@ -4482,8 +4241,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species_from": "mesh",
    "genes": [
     "PDCD1",
-    "CD274",
-    "AR"
+    "CD274"
    ],
    "nodes": [
     "tnbc"
@@ -4517,11 +4275,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "ERBB2",
-    "PIK3CA",
-    "PIK3R1",
-    "ESR1",
-    "PTEN"
+    "ERBB2"
    ],
    "nodes": [
     "her2-low",
@@ -4552,11 +4306,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species": "human",
    "species_from": "keywords",
    "genes": [
-    "ERBB2",
-    "PIK3CA",
-    "PIK3R1",
-    "ESR1",
-    "PTEN"
+    "ERBB2"
    ],
    "nodes": [
     "her2-low",
@@ -4586,11 +4336,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "ERBB2",
-    "PIK3CA",
-    "PIK3R1",
-    "ESR1",
-    "PTEN"
+    "ERBB2"
    ],
    "nodes": [
     "her2-low",
@@ -4620,8 +4366,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "ERBB2",
-    "MTOR"
+    "ERBB2"
    ],
    "nodes": [
     "her2-low",
@@ -4659,11 +4404,7 @@ window.CancerExplorerLiterature['breast'] = {
    "genes": [
     "CDK4",
     "CDK6",
-    "CCND1",
-    "PIK3CA",
-    "PIK3R1",
-    "ESR1",
-    "RB1"
+    "CCND1"
    ],
    "nodes": [
     "hr-pos-her2-neg",
@@ -4692,8 +4433,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species_from": "mesh",
    "genes": [
     "PDCD1",
-    "CD274",
-    "AR"
+    "CD274"
    ],
    "nodes": [
     "tnbc"
@@ -4720,11 +4460,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species": "mouse",
    "species_from": "keywords",
    "genes": [
-    "ERBB2",
-    "PIK3CA",
-    "PIK3R1",
-    "ESR1",
-    "PTEN"
+    "ERBB2"
    ],
    "nodes": [
     "her2-low",
@@ -4755,8 +4491,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species_from": "mesh",
    "genes": [
     "PDCD1",
-    "CD274",
-    "AR"
+    "CD274"
    ],
    "nodes": [
     "tnbc"
@@ -4808,9 +4543,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species": "mouse",
    "species_from": "mesh",
    "genes": [
-    "ERBB2",
-    "TACSTD2",
-    "MTOR"
+    "ERBB2"
    ],
    "nodes": [
     "her2-low",
@@ -4895,9 +4628,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species": "unclear",
    "species_from": "none",
    "genes": [
-    "ESR1",
-    "MTOR",
-    "CDK4"
+    "ESR1"
    ],
    "nodes": [
     "hr-pos-her2-neg",
@@ -4925,8 +4656,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "ERBB2",
-    "MTOR"
+    "ERBB2"
    ],
    "nodes": [
     "her2-low",
@@ -4957,10 +4687,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species_from": "mesh",
    "genes": [
     "PIK3CA",
-    "PIK3R1",
-    "AKT1",
-    "MTOR",
-    "ESR1"
+    "PIK3R1"
    ],
    "nodes": [
     "hr-pos-her2-neg"
@@ -5012,9 +4739,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species": "human",
    "species_from": "keywords",
    "genes": [
-    "ERBB2",
-    "TACSTD2",
-    "MTOR"
+    "ERBB2"
    ],
    "nodes": [
     "her2-low",
@@ -5047,10 +4772,7 @@ window.CancerExplorerLiterature['breast'] = {
     "CDK4",
     "CDK6",
     "CCND1",
-    "PIK3CA",
-    "PIK3R1",
-    "ESR1",
-    "RB1"
+    "ESR1"
    ],
    "nodes": [
     "hr-pos-her2-neg",
@@ -5084,9 +4806,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species": "unclear",
    "species_from": "none",
    "genes": [
-    "ESR1",
-    "MTOR",
-    "CDK4"
+    "ESR1"
    ],
    "nodes": [
     "hr-pos-her2-neg",
@@ -5114,8 +4834,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "ERBB2",
-    "MTOR"
+    "ERBB2"
    ],
    "nodes": [
     "her2-low",
@@ -5154,11 +4873,7 @@ window.CancerExplorerLiterature['breast'] = {
    "genes": [
     "CDK4",
     "CDK6",
-    "CCND1",
-    "PIK3CA",
-    "PIK3R1",
-    "ESR1",
-    "RB1"
+    "CCND1"
    ],
    "nodes": [
     "hr-pos-her2-neg",
@@ -5187,10 +4902,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species_from": "mesh",
    "genes": [
     "PIK3CA",
-    "PIK3R1",
-    "AKT1",
-    "MTOR",
-    "ESR1"
+    "PIK3R1"
    ],
    "nodes": [
     "hr-pos-her2-neg"
@@ -5217,11 +4929,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "ERBB2",
-    "PIK3CA",
-    "PIK3R1",
-    "ESR1",
-    "PTEN"
+    "ERBB2"
    ],
    "nodes": [
     "her2-low",
@@ -5252,8 +4960,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species_from": "mesh",
    "genes": [
     "PDCD1",
-    "CD274",
-    "AR"
+    "CD274"
    ],
    "nodes": [
     "tnbc"
@@ -5281,9 +4988,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "TACSTD2",
-    "PIK3CA",
-    "PTEN"
+    "TACSTD2"
    ],
    "nodes": [
     "hr-pos-her2-neg",
@@ -5311,10 +5016,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species": "mouse",
    "species_from": "mesh",
    "genes": [
-    "ESR1",
-    "MTOR",
-    "CDK4",
-    "AR"
+    "ESR1"
    ],
    "nodes": [
     "hr-pos-her2-neg",
@@ -5424,11 +5126,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species": "human",
    "species_from": "keywords",
    "genes": [
-    "ERBB2",
-    "PIK3CA",
-    "PIK3R1",
-    "ESR1",
-    "PTEN"
+    "ERBB2"
    ],
    "nodes": [
     "her2-low",
@@ -5514,10 +5212,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species_from": "none",
    "genes": [
     "PIK3CA",
-    "PIK3R1",
-    "AKT1",
-    "MTOR",
-    "ESR1"
+    "PIK3R1"
    ],
    "nodes": [
     "hr-pos-her2-neg"
@@ -5544,11 +5239,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "ERBB2",
-    "PIK3CA",
-    "PIK3R1",
-    "ESR1",
-    "PTEN"
+    "ERBB2"
    ],
    "nodes": [
     "her2-low",
@@ -5580,8 +5271,6 @@ window.CancerExplorerLiterature['breast'] = {
    "genes": [
     "ERBB2",
     "PIK3CA",
-    "PIK3R1",
-    "ESR1",
     "PTEN"
    ],
    "nodes": [
@@ -5623,9 +5312,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "TACSTD2",
-    "PIK3CA",
-    "PTEN"
+    "TACSTD2"
    ],
    "nodes": [
     "hr-pos-her2-neg",
@@ -5655,11 +5342,7 @@ window.CancerExplorerLiterature['breast'] = {
    "genes": [
     "CDK4",
     "CDK6",
-    "CCND1",
-    "PIK3CA",
-    "PIK3R1",
-    "ESR1",
-    "RB1"
+    "CCND1"
    ],
    "nodes": [
     "hr-pos-her2-neg",
@@ -5687,10 +5370,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species": "human",
    "species_from": "keywords",
    "genes": [
-    "AKT1",
-    "PIK3CA",
-    "PTEN",
-    "MTOR"
+    "AKT1"
    ],
    "nodes": [
     "hr-pos-her2-neg"
@@ -5772,10 +5452,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "ESR1",
-    "MTOR",
-    "CDK4",
-    "AR"
+    "ESR1"
    ],
    "nodes": [
     "hr-pos-her2-neg",
@@ -5861,8 +5538,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species": "unclear",
    "species_from": "none",
    "genes": [
-    "ERBB2",
-    "MTOR"
+    "ERBB2"
    ],
    "nodes": [
     "her2-low",
@@ -5892,9 +5568,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species": "mouse",
    "species_from": "keywords",
    "genes": [
-    "ESR1",
-    "MTOR",
-    "CDK4"
+    "ESR1"
    ],
    "nodes": [
     "hr-pos-her2-neg",
@@ -5922,8 +5596,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "ERBB2",
-    "MTOR"
+    "ERBB2"
    ],
    "nodes": [
     "her2-low",
@@ -5956,9 +5629,6 @@ window.CancerExplorerLiterature['breast'] = {
     "CDK4",
     "CDK6",
     "CCND1",
-    "PIK3CA",
-    "PIK3R1",
-    "ESR1",
     "RB1"
    ],
    "nodes": [
@@ -6027,10 +5697,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "AKT1",
-    "PIK3CA",
-    "PTEN",
-    "MTOR"
+    "AKT1"
    ],
    "nodes": [
     "hr-pos-her2-neg"
@@ -6059,11 +5726,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "ERBB2",
-    "PIK3CA",
-    "PIK3R1",
-    "ESR1",
-    "PTEN"
+    "ERBB2"
    ],
    "nodes": [
     "her2-low",
@@ -6093,11 +5756,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species": "human",
    "species_from": "keywords",
    "genes": [
-    "ERBB2",
-    "PIK3CA",
-    "PIK3R1",
-    "ESR1",
-    "PTEN"
+    "ERBB2"
    ],
    "nodes": [
     "her2-low",
@@ -6129,11 +5788,7 @@ window.CancerExplorerLiterature['breast'] = {
    "genes": [
     "CDK4",
     "CDK6",
-    "CCND1",
-    "PIK3CA",
-    "PIK3R1",
-    "ESR1",
-    "RB1"
+    "CCND1"
    ],
    "nodes": [
     "hr-pos-her2-neg",
@@ -6161,9 +5816,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species": "human",
    "species_from": "keywords",
    "genes": [
-    "ESR1",
-    "MTOR",
-    "CDK4"
+    "ESR1"
    ],
    "nodes": [
     "hr-pos-her2-neg",
@@ -6193,11 +5846,7 @@ window.CancerExplorerLiterature['breast'] = {
    "genes": [
     "CDK4",
     "CDK6",
-    "CCND1",
-    "PIK3CA",
-    "PIK3R1",
-    "ESR1",
-    "RB1"
+    "CCND1"
    ],
    "nodes": [
     "hr-pos-her2-neg",
@@ -6227,8 +5876,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species_from": "mesh",
    "genes": [
     "TACSTD2",
-    "PIK3CA",
-    "PTEN"
+    "PIK3CA"
    ],
    "nodes": [
     "hr-pos-her2-neg",
@@ -6267,8 +5915,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species_from": "mesh",
    "genes": [
     "PDCD1",
-    "CD274",
-    "AR"
+    "CD274"
    ],
    "nodes": [
     "tnbc"
@@ -6296,9 +5943,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species": "human",
    "species_from": "keywords",
    "genes": [
-    "TACSTD2",
-    "PIK3CA",
-    "PTEN"
+    "TACSTD2"
    ],
    "nodes": [
     "hr-pos-her2-neg",
@@ -6327,11 +5972,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "ERBB2",
-    "PIK3CA",
-    "PIK3R1",
-    "ESR1",
-    "PTEN"
+    "ERBB2"
    ],
    "nodes": [
     "her2-low",
@@ -6416,9 +6057,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "ESR1",
-    "MTOR",
-    "CDK4"
+    "ESR1"
    ],
    "nodes": [
     "hr-pos-her2-neg",
@@ -6447,8 +6086,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species_from": "mesh",
    "genes": [
     "PDCD1",
-    "CD274",
-    "AR"
+    "CD274"
    ],
    "nodes": [
     "tnbc"
@@ -6476,8 +6114,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species_from": "keywords",
    "genes": [
     "PDCD1",
-    "CD274",
-    "AR"
+    "CD274"
    ],
    "nodes": [
     "tnbc"
@@ -6506,11 +6143,7 @@ window.CancerExplorerLiterature['breast'] = {
    "genes": [
     "CDK4",
     "CDK6",
-    "CCND1",
-    "PIK3CA",
-    "PIK3R1",
-    "ESR1",
-    "RB1"
+    "CCND1"
    ],
    "nodes": [
     "hr-pos-her2-neg",
@@ -6542,9 +6175,7 @@ window.CancerExplorerLiterature['breast'] = {
     "CDK6",
     "CCND1",
     "PIK3CA",
-    "PIK3R1",
-    "ESR1",
-    "RB1"
+    "PIK3R1"
    ],
    "nodes": [
     "hr-pos-her2-neg",
@@ -6580,11 +6211,7 @@ window.CancerExplorerLiterature['breast'] = {
    "genes": [
     "CDK4",
     "CDK6",
-    "CCND1",
-    "PIK3CA",
-    "PIK3R1",
-    "ESR1",
-    "RB1"
+    "CCND1"
    ],
    "nodes": [
     "hr-pos-her2-neg",
@@ -6612,8 +6239,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "ERBB2",
-    "MTOR"
+    "ERBB2"
    ],
    "nodes": [
     "her2-low",
@@ -6644,9 +6270,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "ESR1",
-    "MTOR",
-    "CDK4"
+    "ESR1"
    ],
    "nodes": [
     "hr-pos-her2-neg",
@@ -6685,8 +6309,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species_from": "none",
    "genes": [
     "PDCD1",
-    "CD274",
-    "AR"
+    "CD274"
    ],
    "nodes": [
     "tnbc"
@@ -6714,9 +6337,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "ERBB2",
-    "TACSTD2",
-    "MTOR"
+    "ERBB2"
    ],
    "nodes": [
     "her2-low",
@@ -6748,8 +6369,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species_from": "keywords",
    "genes": [
     "ESR1",
-    "MTOR",
-    "CDK4"
+    "MTOR"
    ],
    "nodes": [
     "hr-pos-her2-neg",
@@ -6785,8 +6405,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species_from": "none",
    "genes": [
     "PDCD1",
-    "CD274",
-    "AR"
+    "CD274"
    ],
    "nodes": [
     "tnbc"
@@ -6814,11 +6433,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species": "human",
    "species_from": "keywords",
    "genes": [
-    "ERBB2",
-    "PIK3CA",
-    "PIK3R1",
-    "ESR1",
-    "PTEN"
+    "ERBB2"
    ],
    "nodes": [
     "her2-low",
@@ -6848,11 +6463,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species": "mouse",
    "species_from": "mesh",
    "genes": [
-    "ERBB2",
-    "PIK3CA",
-    "PIK3R1",
-    "ESR1",
-    "PTEN"
+    "ERBB2"
    ],
    "nodes": [
     "her2-low",
@@ -6882,8 +6493,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species": "human",
    "species_from": "keywords",
    "genes": [
-    "ERBB2",
-    "MTOR"
+    "ERBB2"
    ],
    "nodes": [
     "her2-low",
@@ -6920,11 +6530,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species": "human",
    "species_from": "keywords",
    "genes": [
-    "ERBB2",
-    "PIK3CA",
-    "PIK3R1",
-    "ESR1",
-    "PTEN"
+    "ERBB2"
    ],
    "nodes": [
     "her2-low",
@@ -6956,11 +6562,7 @@ window.CancerExplorerLiterature['breast'] = {
    "genes": [
     "CDK4",
     "CDK6",
-    "CCND1",
-    "PIK3CA",
-    "PIK3R1",
-    "ESR1",
-    "RB1"
+    "CCND1"
    ],
    "nodes": [
     "hr-pos-her2-neg",
@@ -6988,11 +6590,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "ERBB2",
-    "PIK3CA",
-    "PIK3R1",
-    "ESR1",
-    "PTEN"
+    "ERBB2"
    ],
    "nodes": [
     "her2-low",
@@ -7022,11 +6620,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species": "human",
    "species_from": "keywords",
    "genes": [
-    "ERBB2",
-    "PIK3CA",
-    "PIK3R1",
-    "ESR1",
-    "PTEN"
+    "ERBB2"
    ],
    "nodes": [
     "her2-low",
@@ -7056,8 +6650,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species": "human",
    "species_from": "keywords",
    "genes": [
-    "ERBB2",
-    "MTOR"
+    "ERBB2"
    ],
    "nodes": [
     "her2-low",
@@ -7090,10 +6683,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species_from": "mesh",
    "genes": [
     "PIK3CA",
-    "PIK3R1",
-    "AKT1",
-    "MTOR",
-    "ESR1"
+    "PIK3R1"
    ],
    "nodes": [
     "hr-pos-her2-neg"
@@ -7121,9 +6711,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species": "mouse",
    "species_from": "mesh",
    "genes": [
-    "ESR1",
-    "MTOR",
-    "CDK4"
+    "ESR1"
    ],
    "nodes": [
     "hr-pos-her2-neg",
@@ -7151,9 +6739,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species": "mouse",
    "species_from": "mesh",
    "genes": [
-    "TACSTD2",
-    "PIK3CA",
-    "PTEN"
+    "TACSTD2"
    ],
    "nodes": [
     "hr-pos-her2-neg",
@@ -7211,9 +6797,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species": "mouse",
    "species_from": "keywords",
    "genes": [
-    "ERBB2",
-    "TACSTD2",
-    "MTOR"
+    "ERBB2"
    ],
    "nodes": [
     "her2-low",
@@ -7243,9 +6827,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "ESR1",
-    "MTOR",
-    "CDK4"
+    "ESR1"
    ],
    "nodes": [
     "hr-pos-her2-neg",
@@ -7273,8 +6855,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "ERBB2",
-    "MTOR"
+    "ERBB2"
    ],
    "nodes": [
     "her2-low",
@@ -7305,10 +6886,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species_from": "keywords",
    "genes": [
     "PIK3CA",
-    "PIK3R1",
-    "AKT1",
-    "MTOR",
-    "ESR1"
+    "PIK3R1"
    ],
    "nodes": [
     "hr-pos-her2-neg"
@@ -7336,8 +6914,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species_from": "mesh",
    "genes": [
     "PDCD1",
-    "CD274",
-    "AR"
+    "CD274"
    ],
    "nodes": [
     "tnbc"
@@ -7364,10 +6941,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "AKT1",
-    "PIK3CA",
-    "PTEN",
-    "MTOR"
+    "AKT1"
    ],
    "nodes": [
     "hr-pos-her2-neg"
@@ -7394,9 +6968,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species": "mouse",
    "species_from": "mesh",
    "genes": [
-    "ESR1",
-    "MTOR",
-    "CDK4"
+    "ESR1"
    ],
    "nodes": [
     "hr-pos-her2-neg",
@@ -7425,8 +6997,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species_from": "keywords",
    "genes": [
     "PDCD1",
-    "CD274",
-    "AR"
+    "CD274"
    ],
    "nodes": [
     "tnbc"
@@ -7453,11 +7024,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species": "unclear",
    "species_from": "none",
    "genes": [
-    "ERBB2",
-    "PIK3CA",
-    "PIK3R1",
-    "ESR1",
-    "PTEN"
+    "ERBB2"
    ],
    "nodes": [
     "her2-low",
@@ -7487,11 +7054,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species": "mouse",
    "species_from": "mesh",
    "genes": [
-    "ERBB2",
-    "PIK3CA",
-    "PIK3R1",
-    "ESR1",
-    "PTEN"
+    "ERBB2"
    ],
    "nodes": [
     "her2-low",
@@ -7521,9 +7084,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species": "human",
    "species_from": "keywords",
    "genes": [
-    "ESR1",
-    "MTOR",
-    "CDK4"
+    "ESR1"
    ],
    "nodes": [
     "hr-pos-her2-neg",
@@ -7615,9 +7176,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species": "human",
    "species_from": "keywords",
    "genes": [
-    "ERBB2",
-    "TACSTD2",
-    "MTOR"
+    "ERBB2"
    ],
    "nodes": [
     "her2-low",
@@ -7648,11 +7207,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "ERBB2",
-    "PIK3CA",
-    "PIK3R1",
-    "ESR1",
-    "PTEN"
+    "ERBB2"
    ],
    "nodes": [
     "her2-low",
@@ -7682,11 +7237,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species": "human",
    "species_from": "keywords",
    "genes": [
-    "ERBB2",
-    "PIK3CA",
-    "PIK3R1",
-    "ESR1",
-    "PTEN"
+    "ERBB2"
    ],
    "nodes": [
     "her2-low",
@@ -7718,9 +7269,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "ERBB2",
-    "TACSTD2",
-    "MTOR"
+    "ERBB2"
    ],
    "nodes": [
     "her2-low",
@@ -7750,11 +7299,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "ERBB2",
-    "PIK3CA",
-    "PIK3R1",
-    "ESR1",
-    "PTEN"
+    "ERBB2"
    ],
    "nodes": [
     "her2-low",
@@ -7784,11 +7329,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species": "mouse",
    "species_from": "mesh",
    "genes": [
-    "ERBB2",
-    "PIK3CA",
-    "PIK3R1",
-    "ESR1",
-    "PTEN"
+    "ERBB2"
    ],
    "nodes": [
     "her2-low",
@@ -7819,8 +7360,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species_from": "none",
    "genes": [
     "PDCD1",
-    "CD274",
-    "AR"
+    "CD274"
    ],
    "nodes": [
     "tnbc"
@@ -7848,10 +7388,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species_from": "mesh",
    "genes": [
     "PIK3CA",
-    "PIK3R1",
-    "AKT1",
-    "MTOR",
-    "ESR1"
+    "PIK3R1"
    ],
    "nodes": [
     "hr-pos-her2-neg"
@@ -7879,8 +7416,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species_from": "keywords",
    "genes": [
     "PDCD1",
-    "CD274",
-    "AR"
+    "CD274"
    ],
    "nodes": [
     "tnbc"
@@ -7908,8 +7444,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species_from": "mesh",
    "genes": [
     "PDCD1",
-    "CD274",
-    "AR"
+    "CD274"
    ],
    "nodes": [
     "tnbc"
@@ -8009,11 +7544,7 @@ window.CancerExplorerLiterature['breast'] = {
    "genes": [
     "CDK4",
     "CDK6",
-    "CCND1",
-    "PIK3CA",
-    "PIK3R1",
-    "ESR1",
-    "RB1"
+    "CCND1"
    ],
    "nodes": [
     "hr-pos-her2-neg",
@@ -8072,8 +7603,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species_from": "keywords",
    "genes": [
     "PDCD1",
-    "CD274",
-    "AR"
+    "CD274"
    ],
    "nodes": [
     "tnbc"
@@ -8101,11 +7631,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species": "human",
    "species_from": "keywords",
    "genes": [
-    "ERBB2",
-    "PIK3CA",
-    "PIK3R1",
-    "ESR1",
-    "PTEN"
+    "ERBB2"
    ],
    "nodes": [
     "her2-low",
@@ -8137,11 +7663,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "ERBB2",
-    "PIK3CA",
-    "PIK3R1",
-    "ESR1",
-    "PTEN"
+    "ERBB2"
    ],
    "nodes": [
     "her2-low",
@@ -8173,11 +7695,7 @@ window.CancerExplorerLiterature['breast'] = {
    "genes": [
     "CDK4",
     "CDK6",
-    "CCND1",
-    "PIK3CA",
-    "PIK3R1",
-    "ESR1",
-    "RB1"
+    "CCND1"
    ],
    "nodes": [
     "hr-pos-her2-neg",
@@ -8206,9 +7724,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "ESR1",
-    "MTOR",
-    "CDK4"
+    "ESR1"
    ],
    "nodes": [
     "hr-pos-her2-neg",
@@ -8243,8 +7759,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species_from": "mesh",
    "genes": [
     "PDCD1",
-    "CD274",
-    "AR"
+    "CD274"
    ],
    "nodes": [
     "tnbc"
@@ -8273,11 +7788,7 @@ window.CancerExplorerLiterature['breast'] = {
    "genes": [
     "CDK4",
     "CDK6",
-    "CCND1",
-    "PIK3CA",
-    "PIK3R1",
-    "ESR1",
-    "RB1"
+    "CCND1"
    ],
    "nodes": [
     "hr-pos-her2-neg",
@@ -8307,11 +7818,7 @@ window.CancerExplorerLiterature['breast'] = {
    "genes": [
     "CDK4",
     "CDK6",
-    "CCND1",
-    "PIK3CA",
-    "PIK3R1",
-    "ESR1",
-    "RB1"
+    "CCND1"
    ],
    "nodes": [
     "hr-pos-her2-neg",
@@ -8341,11 +7848,7 @@ window.CancerExplorerLiterature['breast'] = {
    "genes": [
     "CDK4",
     "CDK6",
-    "CCND1",
-    "PIK3CA",
-    "PIK3R1",
-    "ESR1",
-    "RB1"
+    "CCND1"
    ],
    "nodes": [
     "hr-pos-her2-neg",
@@ -8374,9 +7877,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species": "cell line",
    "species_from": "keywords",
    "genes": [
-    "ESR1",
-    "MTOR",
-    "CDK4"
+    "ESR1"
    ],
    "nodes": [
     "hr-pos-her2-neg",
@@ -8404,9 +7905,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species": "human",
    "species_from": "keywords",
    "genes": [
-    "TACSTD2",
-    "PIK3CA",
-    "PTEN"
+    "TACSTD2"
    ],
    "nodes": [
     "hr-pos-her2-neg",
@@ -8440,9 +7939,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "ESR1",
-    "MTOR",
-    "CDK4"
+    "ESR1"
    ],
    "nodes": [
     "hr-pos-her2-neg",
@@ -8499,11 +7996,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species": "human",
    "species_from": "keywords",
    "genes": [
-    "ERBB2",
-    "PIK3CA",
-    "PIK3R1",
-    "ESR1",
-    "PTEN"
+    "ERBB2"
    ],
    "nodes": [
     "her2-low",
@@ -8533,9 +8026,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species": "mouse",
    "species_from": "mesh",
    "genes": [
-    "ESR1",
-    "MTOR",
-    "CDK4"
+    "ESR1"
    ],
    "nodes": [
     "hr-pos-her2-neg",
@@ -8595,8 +8086,7 @@ window.CancerExplorerLiterature['breast'] = {
     "ERBB2",
     "PIK3CA",
     "PIK3R1",
-    "ESR1",
-    "PTEN"
+    "ESR1"
    ],
    "nodes": [
     "her2-low",
@@ -8637,9 +8127,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "TACSTD2",
-    "PIK3CA",
-    "PTEN"
+    "TACSTD2"
    ],
    "nodes": [
     "hr-pos-her2-neg",
@@ -8669,8 +8157,6 @@ window.CancerExplorerLiterature['breast'] = {
    "genes": [
     "PIK3CA",
     "PIK3R1",
-    "AKT1",
-    "MTOR",
     "ESR1"
    ],
    "nodes": [
@@ -8706,9 +8192,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species": "human",
    "species_from": "keywords",
    "genes": [
-    "ERBB2",
-    "TACSTD2",
-    "MTOR"
+    "ERBB2"
    ],
    "nodes": [
     "her2-low",
@@ -8740,8 +8224,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species_from": "keywords",
    "genes": [
     "ERBB2",
-    "TACSTD2",
-    "MTOR"
+    "TACSTD2"
    ],
    "nodes": [
     "her2-low",
@@ -8787,11 +8270,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species": "human",
    "species_from": "keywords",
    "genes": [
-    "ERBB2",
-    "PIK3CA",
-    "PIK3R1",
-    "ESR1",
-    "PTEN"
+    "ERBB2"
    ],
    "nodes": [
     "her2-low",
@@ -8822,8 +8301,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species_from": "mesh",
    "genes": [
     "PDCD1",
-    "CD274",
-    "AR"
+    "CD274"
    ],
    "nodes": [
     "tnbc"
@@ -8852,11 +8330,7 @@ window.CancerExplorerLiterature['breast'] = {
    "genes": [
     "CDK4",
     "CDK6",
-    "CCND1",
-    "PIK3CA",
-    "PIK3R1",
-    "ESR1",
-    "RB1"
+    "CCND1"
    ],
    "nodes": [
     "hr-pos-her2-neg",
@@ -8885,10 +8359,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species_from": "keywords",
    "genes": [
     "PIK3CA",
-    "PIK3R1",
-    "AKT1",
-    "MTOR",
-    "ESR1"
+    "PIK3R1"
    ],
    "nodes": [
     "hr-pos-her2-neg"
@@ -8915,11 +8386,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species": "mouse",
    "species_from": "mesh",
    "genes": [
-    "ERBB2",
-    "PIK3CA",
-    "PIK3R1",
-    "ESR1",
-    "PTEN"
+    "ERBB2"
    ],
    "nodes": [
     "her2-low",
@@ -9041,11 +8508,7 @@ window.CancerExplorerLiterature['breast'] = {
    "genes": [
     "CDK4",
     "CDK6",
-    "CCND1",
-    "PIK3CA",
-    "PIK3R1",
-    "ESR1",
-    "RB1"
+    "CCND1"
    ],
    "nodes": [
     "hr-pos-her2-neg",
@@ -9073,9 +8536,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "TACSTD2",
-    "PIK3CA",
-    "PTEN"
+    "TACSTD2"
    ],
    "nodes": [
     "hr-pos-her2-neg",
@@ -9133,11 +8594,7 @@ window.CancerExplorerLiterature['breast'] = {
    "genes": [
     "CDK4",
     "CDK6",
-    "CCND1",
-    "PIK3CA",
-    "PIK3R1",
-    "ESR1",
-    "RB1"
+    "CCND1"
    ],
    "nodes": [
     "hr-pos-her2-neg",
@@ -9165,9 +8622,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species": "mouse",
    "species_from": "keywords",
    "genes": [
-    "ESR1",
-    "MTOR",
-    "CDK4"
+    "ESR1"
    ],
    "nodes": [
     "hr-pos-her2-neg",
@@ -9195,9 +8650,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "TACSTD2",
-    "PIK3CA",
-    "PTEN"
+    "TACSTD2"
    ],
    "nodes": [
     "hr-pos-her2-neg",
@@ -9226,10 +8679,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species_from": "keywords",
    "genes": [
     "PIK3CA",
-    "PIK3R1",
-    "AKT1",
-    "MTOR",
-    "ESR1"
+    "PIK3R1"
    ],
    "nodes": [
     "hr-pos-her2-neg"
@@ -9283,8 +8733,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species": "human",
    "species_from": "keywords",
    "genes": [
-    "ERBB2",
-    "MTOR"
+    "ERBB2"
    ],
    "nodes": [
     "her2-low",
@@ -9316,10 +8765,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species_from": "mesh",
    "genes": [
     "PIK3CA",
-    "PIK3R1",
-    "AKT1",
-    "MTOR",
-    "ESR1"
+    "PIK3R1"
    ],
    "nodes": [
     "hr-pos-her2-neg"
@@ -9346,9 +8792,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "TACSTD2",
-    "PIK3CA",
-    "PTEN"
+    "TACSTD2"
    ],
    "nodes": [
     "hr-pos-her2-neg",
@@ -9376,9 +8820,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species": "mouse",
    "species_from": "mesh",
    "genes": [
-    "TACSTD2",
-    "PIK3CA",
-    "PTEN"
+    "TACSTD2"
    ],
    "nodes": [
     "hr-pos-her2-neg",
@@ -9406,10 +8848,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "AKT1",
-    "PIK3CA",
-    "PTEN",
-    "MTOR"
+    "AKT1"
    ],
    "nodes": [
     "hr-pos-her2-neg"
@@ -9613,10 +9052,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species": "unclear",
    "species_from": "none",
    "genes": [
-    "AKT1",
-    "PIK3CA",
-    "PTEN",
-    "MTOR"
+    "AKT1"
    ],
    "nodes": [
     "hr-pos-her2-neg"
@@ -9643,11 +9079,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species": "human",
    "species_from": "keywords",
    "genes": [
-    "ERBB2",
-    "PIK3CA",
-    "PIK3R1",
-    "ESR1",
-    "PTEN"
+    "ERBB2"
    ],
    "nodes": [
     "her2-low",
@@ -9677,8 +9109,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species": "mouse",
    "species_from": "keywords",
    "genes": [
-    "ERBB2",
-    "MTOR"
+    "ERBB2"
    ],
    "nodes": [
     "her2-low",
@@ -9709,9 +9140,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "TACSTD2",
-    "PIK3CA",
-    "PTEN"
+    "TACSTD2"
    ],
    "nodes": [
     "hr-pos-her2-neg",
@@ -9741,8 +9170,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species_from": "mesh",
    "genes": [
     "PDCD1",
-    "CD274",
-    "AR"
+    "CD274"
    ],
    "nodes": [
     "tnbc"
@@ -9808,9 +9236,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species": "human",
    "species_from": "keywords",
    "genes": [
-    "ERBB2",
-    "TACSTD2",
-    "MTOR"
+    "ERBB2"
    ],
    "nodes": [
     "her2-low",
@@ -9949,11 +9375,7 @@ window.CancerExplorerLiterature['breast'] = {
    "genes": [
     "CDK4",
     "CDK6",
-    "CCND1",
-    "PIK3CA",
-    "PIK3R1",
-    "ESR1",
-    "RB1"
+    "CCND1"
    ],
    "nodes": [
     "hr-pos-her2-neg",
@@ -10016,9 +9438,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species": "human",
    "species_from": "keywords",
    "genes": [
-    "ERBB2",
-    "TACSTD2",
-    "MTOR"
+    "ERBB2"
    ],
    "nodes": [
     "her2-low",
@@ -10050,11 +9470,7 @@ window.CancerExplorerLiterature['breast'] = {
    "genes": [
     "CDK4",
     "CDK6",
-    "CCND1",
-    "PIK3CA",
-    "PIK3R1",
-    "ESR1",
-    "RB1"
+    "CCND1"
    ],
    "nodes": [
     "hr-pos-her2-neg",
@@ -10082,9 +9498,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "ERBB2",
-    "TACSTD2",
-    "MTOR"
+    "ERBB2"
    ],
    "nodes": [
     "her2-low",
@@ -10115,9 +9529,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "ERBB2",
-    "TACSTD2",
-    "MTOR"
+    "ERBB2"
    ],
    "nodes": [
     "her2-low",
@@ -10147,8 +9559,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "ERBB2",
-    "MTOR"
+    "ERBB2"
    ],
    "nodes": [
     "her2-low",
@@ -10233,9 +9644,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "ERBB2",
-    "TACSTD2",
-    "MTOR"
+    "ERBB2"
    ],
    "nodes": [
     "her2-low",
@@ -10265,11 +9674,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species": "cell line",
    "species_from": "keywords",
    "genes": [
-    "ERBB2",
-    "PIK3CA",
-    "PIK3R1",
-    "ESR1",
-    "PTEN"
+    "ERBB2"
    ],
    "nodes": [
     "her2-low",
@@ -10301,11 +9706,7 @@ window.CancerExplorerLiterature['breast'] = {
    "genes": [
     "CDK4",
     "CDK6",
-    "CCND1",
-    "PIK3CA",
-    "PIK3R1",
-    "ESR1",
-    "RB1"
+    "CCND1"
    ],
    "nodes": [
     "hr-pos-her2-neg",
@@ -10454,11 +9855,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species": "human",
    "species_from": "keywords",
    "genes": [
-    "ERBB2",
-    "PIK3CA",
-    "PIK3R1",
-    "ESR1",
-    "PTEN"
+    "ERBB2"
    ],
    "nodes": [
     "her2-low",
@@ -10488,9 +9885,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species": "human",
    "species_from": "keywords",
    "genes": [
-    "ESR1",
-    "MTOR",
-    "CDK4"
+    "ESR1"
    ],
    "nodes": [
     "hr-pos-her2-neg",
@@ -10554,9 +9949,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "ESR1",
-    "MTOR",
-    "CDK4"
+    "ESR1"
    ],
    "nodes": [
     "hr-pos-her2-neg",
@@ -10584,11 +9977,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species": "mouse",
    "species_from": "mesh",
    "genes": [
-    "ERBB2",
-    "PIK3CA",
-    "PIK3R1",
-    "ESR1",
-    "PTEN"
+    "ERBB2"
    ],
    "nodes": [
     "her2-low",
@@ -10618,10 +10007,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "AKT1",
-    "PIK3CA",
-    "PTEN",
-    "MTOR"
+    "AKT1"
    ],
    "nodes": [
     "hr-pos-her2-neg"
@@ -10676,9 +10062,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "ERBB2",
-    "TACSTD2",
-    "MTOR"
+    "ERBB2"
    ],
    "nodes": [
     "her2-low",
@@ -10708,8 +10092,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species": "human",
    "species_from": "keywords",
    "genes": [
-    "ERBB2",
-    "MTOR"
+    "ERBB2"
    ],
    "nodes": [
     "her2-low",
@@ -10739,9 +10122,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species": "mouse",
    "species_from": "mesh",
    "genes": [
-    "ERBB2",
-    "TACSTD2",
-    "MTOR"
+    "ERBB2"
    ],
    "nodes": [
     "her2-low",
@@ -10771,11 +10152,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "ERBB2",
-    "PIK3CA",
-    "PIK3R1",
-    "ESR1",
-    "PTEN"
+    "ERBB2"
    ],
    "nodes": [
     "her2-low",
@@ -10806,9 +10183,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "TACSTD2",
-    "PIK3CA",
-    "PTEN"
+    "TACSTD2"
    ],
    "nodes": [
     "hr-pos-her2-neg",
@@ -10868,9 +10243,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "ERBB2",
-    "TACSTD2",
-    "MTOR"
+    "ERBB2"
    ],
    "nodes": [
     "her2-low",
@@ -10901,9 +10274,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "ERBB2",
-    "TACSTD2",
-    "MTOR"
+    "ERBB2"
    ],
    "nodes": [
     "her2-low",
@@ -10933,8 +10304,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "ERBB2",
-    "MTOR"
+    "ERBB2"
    ],
    "nodes": [
     "her2-low",
@@ -10968,9 +10338,7 @@ window.CancerExplorerLiterature['breast'] = {
    "genes": [
     "PIK3CA",
     "PIK3R1",
-    "AKT1",
-    "MTOR",
-    "ESR1"
+    "MTOR"
    ],
    "nodes": [
     "hr-pos-her2-neg"
@@ -11028,9 +10396,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "ERBB2",
-    "TACSTD2",
-    "MTOR"
+    "ERBB2"
    ],
    "nodes": [
     "her2-low",
@@ -11065,8 +10431,7 @@ window.CancerExplorerLiterature['breast'] = {
     "PIK3CA",
     "PIK3R1",
     "AKT1",
-    "MTOR",
-    "ESR1"
+    "MTOR"
    ],
    "nodes": [
     "hr-pos-her2-neg"
@@ -11104,10 +10469,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species_from": "keywords",
    "genes": [
     "PIK3CA",
-    "PIK3R1",
-    "AKT1",
-    "MTOR",
-    "ESR1"
+    "PIK3R1"
    ],
    "nodes": [
     "hr-pos-her2-neg"
@@ -11136,11 +10498,7 @@ window.CancerExplorerLiterature['breast'] = {
    "genes": [
     "CDK4",
     "CDK6",
-    "CCND1",
-    "PIK3CA",
-    "PIK3R1",
-    "ESR1",
-    "RB1"
+    "CCND1"
    ],
    "nodes": [
     "hr-pos-her2-neg",
@@ -11170,8 +10528,7 @@ window.CancerExplorerLiterature['breast'] = {
    "genes": [
     "AKT1",
     "PIK3CA",
-    "PTEN",
-    "MTOR"
+    "PTEN"
    ],
    "nodes": [
     "hr-pos-her2-neg"
@@ -11237,8 +10594,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "ERBB2",
-    "MTOR"
+    "ERBB2"
    ],
    "nodes": [
     "her2-low",
@@ -11276,11 +10632,7 @@ window.CancerExplorerLiterature['breast'] = {
    "genes": [
     "CDK4",
     "CDK6",
-    "CCND1",
-    "PIK3CA",
-    "PIK3R1",
-    "ESR1",
-    "RB1"
+    "CCND1"
    ],
    "nodes": [
     "hr-pos-her2-neg",
@@ -11370,10 +10722,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species_from": "none",
    "genes": [
     "PIK3CA",
-    "PIK3R1",
-    "AKT1",
-    "MTOR",
-    "ESR1"
+    "PIK3R1"
    ],
    "nodes": [
     "hr-pos-her2-neg"
@@ -11461,9 +10810,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "TACSTD2",
-    "PIK3CA",
-    "PTEN"
+    "TACSTD2"
    ],
    "nodes": [
     "hr-pos-her2-neg",
@@ -11491,9 +10838,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species": "mouse",
    "species_from": "mesh",
    "genes": [
-    "TACSTD2",
-    "PIK3CA",
-    "PTEN"
+    "TACSTD2"
    ],
    "nodes": [
     "hr-pos-her2-neg",
@@ -11522,10 +10867,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species_from": "mesh",
    "genes": [
     "PIK3CA",
-    "PIK3R1",
-    "AKT1",
-    "MTOR",
-    "ESR1"
+    "PIK3R1"
    ],
    "nodes": [
     "hr-pos-her2-neg"
@@ -11559,9 +10901,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "ESR1",
-    "MTOR",
-    "CDK4"
+    "ESR1"
    ],
    "nodes": [
     "hr-pos-her2-neg",
@@ -11589,9 +10929,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "ESR1",
-    "MTOR",
-    "CDK4"
+    "ESR1"
    ],
    "nodes": [
     "hr-pos-her2-neg",
@@ -11808,11 +11146,7 @@ window.CancerExplorerLiterature['breast'] = {
    "genes": [
     "CDK4",
     "CDK6",
-    "CCND1",
-    "PIK3CA",
-    "PIK3R1",
-    "ESR1",
-    "RB1"
+    "CCND1"
    ],
    "nodes": [
     "hr-pos-her2-neg",
@@ -11928,10 +11262,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "AKT1",
-    "PIK3CA",
-    "PTEN",
-    "MTOR"
+    "AKT1"
    ],
    "nodes": [
     "hr-pos-her2-neg"
@@ -11958,9 +11289,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "ESR1",
-    "MTOR",
-    "CDK4"
+    "ESR1"
    ],
    "nodes": [
     "hr-pos-her2-neg",
@@ -11989,8 +11318,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species_from": "mesh",
    "genes": [
     "PDCD1",
-    "CD274",
-    "AR"
+    "CD274"
    ],
    "nodes": [
     "tnbc"
@@ -12017,10 +11345,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "AKT1",
-    "PIK3CA",
-    "PTEN",
-    "MTOR"
+    "AKT1"
    ],
    "nodes": [
     "hr-pos-her2-neg"
@@ -12079,10 +11404,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species": "human",
    "species_from": "keywords",
    "genes": [
-    "AKT1",
-    "PIK3CA",
-    "PTEN",
-    "MTOR"
+    "AKT1"
    ],
    "nodes": [
     "hr-pos-her2-neg"
@@ -12109,8 +11431,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "ERBB2",
-    "MTOR"
+    "ERBB2"
    ],
    "nodes": [
     "her2-low",
@@ -12184,8 +11505,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "ERBB2",
-    "MTOR"
+    "ERBB2"
    ],
    "nodes": [
     "her2-low",
@@ -12217,10 +11537,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species": "human",
    "species_from": "keywords",
    "genes": [
-    "AKT1",
-    "PIK3CA",
-    "PTEN",
-    "MTOR"
+    "AKT1"
    ],
    "nodes": [
     "hr-pos-her2-neg"
@@ -12249,11 +11566,7 @@ window.CancerExplorerLiterature['breast'] = {
    "genes": [
     "CDK4",
     "CDK6",
-    "CCND1",
-    "PIK3CA",
-    "PIK3R1",
-    "ESR1",
-    "RB1"
+    "CCND1"
    ],
    "nodes": [
     "hr-pos-her2-neg",
@@ -12349,9 +11662,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species": "mouse",
    "species_from": "mesh",
    "genes": [
-    "ESR1",
-    "MTOR",
-    "CDK4"
+    "ESR1"
    ],
    "nodes": [
     "hr-pos-her2-neg",
@@ -12407,9 +11718,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "TACSTD2",
-    "PIK3CA",
-    "PTEN"
+    "TACSTD2"
    ],
    "nodes": [
     "hr-pos-her2-neg",
@@ -12437,9 +11746,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species": "mouse",
    "species_from": "mesh",
    "genes": [
-    "TACSTD2",
-    "PIK3CA",
-    "PTEN"
+    "TACSTD2"
    ],
    "nodes": [
     "hr-pos-her2-neg",
@@ -12469,11 +11776,7 @@ window.CancerExplorerLiterature['breast'] = {
    "genes": [
     "CDK4",
     "CDK6",
-    "CCND1",
-    "PIK3CA",
-    "PIK3R1",
-    "ESR1",
-    "RB1"
+    "CCND1"
    ],
    "nodes": [
     "hr-pos-her2-neg",
@@ -12531,11 +11834,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species": "mouse",
    "species_from": "mesh",
    "genes": [
-    "ERBB2",
-    "PIK3CA",
-    "PIK3R1",
-    "ESR1",
-    "PTEN"
+    "ERBB2"
    ],
    "nodes": [
     "her2-low",
@@ -12625,11 +11924,7 @@ window.CancerExplorerLiterature['breast'] = {
    "genes": [
     "CDK4",
     "CDK6",
-    "CCND1",
-    "PIK3CA",
-    "PIK3R1",
-    "ESR1",
-    "RB1"
+    "CCND1"
    ],
    "nodes": [
     "hr-pos-her2-neg",
@@ -12657,9 +11952,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "TACSTD2",
-    "PIK3CA",
-    "PTEN"
+    "TACSTD2"
    ],
    "nodes": [
     "hr-pos-her2-neg",
@@ -12713,9 +12006,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "ERBB2",
-    "TACSTD2",
-    "MTOR"
+    "ERBB2"
    ],
    "nodes": [
     "her2-low",
@@ -12745,8 +12036,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "ERBB2",
-    "MTOR"
+    "ERBB2"
    ],
    "nodes": [
     "her2-low",
@@ -12777,10 +12067,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species_from": "mesh",
    "genes": [
     "PIK3CA",
-    "PIK3R1",
-    "AKT1",
-    "MTOR",
-    "ESR1"
+    "PIK3R1"
    ],
    "nodes": [
     "hr-pos-her2-neg"
@@ -12832,8 +12119,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "ERBB2",
-    "MTOR"
+    "ERBB2"
    ],
    "nodes": [
     "her2-low",
@@ -12948,9 +12234,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species": "mouse",
    "species_from": "mesh",
    "genes": [
-    "TACSTD2",
-    "PIK3CA",
-    "PTEN"
+    "TACSTD2"
    ],
    "nodes": [
     "hr-pos-her2-neg",
@@ -12978,9 +12262,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "TACSTD2",
-    "PIK3CA",
-    "PTEN"
+    "TACSTD2"
    ],
    "nodes": [
     "hr-pos-her2-neg",
@@ -13008,8 +12290,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species": "human",
    "species_from": "keywords",
    "genes": [
-    "ERBB2",
-    "MTOR"
+    "ERBB2"
    ],
    "nodes": [
     "her2-low",
@@ -13039,9 +12320,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "TACSTD2",
-    "PIK3CA",
-    "PTEN"
+    "TACSTD2"
    ],
    "nodes": [
     "hr-pos-her2-neg",
@@ -13126,9 +12405,7 @@ window.CancerExplorerLiterature['breast'] = {
    "genes": [
     "PIK3CA",
     "PIK3R1",
-    "AKT1",
-    "MTOR",
-    "ESR1"
+    "MTOR"
    ],
    "nodes": [
     "hr-pos-her2-neg"
@@ -13161,8 +12438,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species": "mouse",
    "species_from": "mesh",
    "genes": [
-    "ERBB2",
-    "MTOR"
+    "ERBB2"
    ],
    "nodes": [
     "her2-low",
@@ -13192,10 +12468,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species": "human",
    "species_from": "keywords",
    "genes": [
-    "AKT1",
-    "PIK3CA",
-    "PTEN",
-    "MTOR"
+    "AKT1"
    ],
    "nodes": [
     "hr-pos-her2-neg"
@@ -13223,8 +12496,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species_from": "mesh",
    "genes": [
     "ERBB2",
-    "TACSTD2",
-    "MTOR"
+    "TACSTD2"
    ],
    "nodes": [
     "her2-low",
@@ -13262,8 +12534,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species": "mouse",
    "species_from": "mesh",
    "genes": [
-    "ERBB2",
-    "MTOR"
+    "ERBB2"
    ],
    "nodes": [
     "her2-low",
@@ -13293,8 +12564,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species": "human",
    "species_from": "keywords",
    "genes": [
-    "ERBB2",
-    "MTOR"
+    "ERBB2"
    ],
    "nodes": [
     "her2-low",
@@ -13327,9 +12597,6 @@ window.CancerExplorerLiterature['breast'] = {
     "CDK4",
     "CDK6",
     "CCND1",
-    "PIK3CA",
-    "PIK3R1",
-    "ESR1",
     "RB1"
    ],
    "nodes": [
@@ -13366,10 +12633,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "AKT1",
-    "PIK3CA",
-    "PTEN",
-    "MTOR"
+    "AKT1"
    ],
    "nodes": [
     "hr-pos-her2-neg"
@@ -13611,10 +12875,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species_from": "keywords",
    "genes": [
     "PIK3CA",
-    "PIK3R1",
-    "AKT1",
-    "MTOR",
-    "ESR1"
+    "PIK3R1"
    ],
    "nodes": [
     "hr-pos-her2-neg"
@@ -13642,10 +12903,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species_from": "keywords",
    "genes": [
     "PIK3CA",
-    "PIK3R1",
-    "AKT1",
-    "MTOR",
-    "ESR1"
+    "PIK3R1"
    ],
    "nodes": [
     "hr-pos-her2-neg"
@@ -13728,9 +12986,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "TACSTD2",
-    "PIK3CA",
-    "PTEN"
+    "TACSTD2"
    ],
    "nodes": [
     "hr-pos-her2-neg",
@@ -13758,9 +13014,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "TACSTD2",
-    "PIK3CA",
-    "PTEN"
+    "TACSTD2"
    ],
    "nodes": [
     "hr-pos-her2-neg",
@@ -13788,9 +13042,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species": "unclear",
    "species_from": "none",
    "genes": [
-    "ERBB2",
-    "TACSTD2",
-    "MTOR"
+    "ERBB2"
    ],
    "nodes": [
     "her2-low",
@@ -13880,10 +13132,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species_from": "keywords",
    "genes": [
     "PIK3CA",
-    "PIK3R1",
-    "AKT1",
-    "MTOR",
-    "ESR1"
+    "PIK3R1"
    ],
    "nodes": [
     "hr-pos-her2-neg"
@@ -13911,10 +13160,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species_from": "keywords",
    "genes": [
     "PIK3CA",
-    "PIK3R1",
-    "AKT1",
-    "MTOR",
-    "ESR1"
+    "PIK3R1"
    ],
    "nodes": [
     "hr-pos-her2-neg"
@@ -13968,9 +13214,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "TACSTD2",
-    "PIK3CA",
-    "PTEN"
+    "TACSTD2"
    ],
    "nodes": [
     "hr-pos-her2-neg",
@@ -14028,9 +13272,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species": "human",
    "species_from": "keywords",
    "genes": [
-    "TACSTD2",
-    "PIK3CA",
-    "PTEN"
+    "TACSTD2"
    ],
    "nodes": [
     "hr-pos-her2-neg",
@@ -14058,9 +13300,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "TACSTD2",
-    "PIK3CA",
-    "PTEN"
+    "TACSTD2"
    ],
    "nodes": [
     "hr-pos-her2-neg",
@@ -14089,10 +13329,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species_from": "mesh",
    "genes": [
     "PIK3CA",
-    "PIK3R1",
-    "AKT1",
-    "MTOR",
-    "ESR1"
+    "PIK3R1"
    ],
    "nodes": [
     "hr-pos-her2-neg"
@@ -14146,10 +13383,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species": "human",
    "species_from": "keywords",
    "genes": [
-    "AKT1",
-    "PIK3CA",
-    "PTEN",
-    "MTOR"
+    "AKT1"
    ],
    "nodes": [
     "hr-pos-her2-neg"
@@ -14270,10 +13504,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species_from": "mesh",
    "genes": [
     "PIK3CA",
-    "PIK3R1",
-    "AKT1",
-    "MTOR",
-    "ESR1"
+    "PIK3R1"
    ],
    "nodes": [
     "hr-pos-her2-neg"
@@ -14365,9 +13596,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species": "mouse",
    "species_from": "mesh",
    "genes": [
-    "TACSTD2",
-    "PIK3CA",
-    "PTEN"
+    "TACSTD2"
    ],
    "nodes": [
     "hr-pos-her2-neg",
@@ -14420,10 +13649,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species": "human",
    "species_from": "keywords",
    "genes": [
-    "AKT1",
-    "PIK3CA",
-    "PTEN",
-    "MTOR"
+    "AKT1"
    ],
    "nodes": [
     "hr-pos-her2-neg"
@@ -14646,10 +13872,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species_from": "mesh",
    "genes": [
     "PIK3CA",
-    "PIK3R1",
-    "AKT1",
-    "MTOR",
-    "ESR1"
+    "PIK3R1"
    ],
    "nodes": [
     "hr-pos-her2-neg"
@@ -14701,9 +13924,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "ESR1",
-    "MTOR",
-    "CDK4"
+    "ESR1"
    ],
    "nodes": [
     "hr-pos-her2-neg",
@@ -14731,8 +13952,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "ERBB2",
-    "MTOR"
+    "ERBB2"
    ],
    "nodes": [
     "her2-low",
@@ -14762,11 +13982,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "ERBB2",
-    "PIK3CA",
-    "PIK3R1",
-    "ESR1",
-    "PTEN"
+    "ERBB2"
    ],
    "nodes": [
     "her2-low",
@@ -14796,9 +14012,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "ERBB2",
-    "TACSTD2",
-    "MTOR"
+    "ERBB2"
    ],
    "nodes": [
     "her2-low",
@@ -14828,8 +14042,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "ERBB2",
-    "MTOR"
+    "ERBB2"
    ],
    "nodes": [
     "her2-low",
@@ -14861,10 +14074,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "AKT1",
-    "PIK3CA",
-    "PTEN",
-    "MTOR"
+    "AKT1"
    ],
    "nodes": [
     "hr-pos-her2-neg"
@@ -14941,9 +14151,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species": "human",
    "species_from": "keywords",
    "genes": [
-    "ESR1",
-    "MTOR",
-    "CDK4"
+    "ESR1"
    ],
    "nodes": [
     "hr-pos-her2-neg",
@@ -14974,9 +14182,7 @@ window.CancerExplorerLiterature['breast'] = {
    "genes": [
     "PIK3CA",
     "PIK3R1",
-    "AKT1",
-    "MTOR",
-    "ESR1"
+    "AKT1"
    ],
    "nodes": [
     "hr-pos-her2-neg"
@@ -15012,10 +14218,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species_from": "mesh",
    "genes": [
     "PIK3CA",
-    "PIK3R1",
-    "AKT1",
-    "MTOR",
-    "ESR1"
+    "PIK3R1"
    ],
    "nodes": [
     "hr-pos-her2-neg"
@@ -15067,8 +14270,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "ERBB2",
-    "MTOR"
+    "ERBB2"
    ],
    "nodes": [
     "her2-low",
@@ -15153,9 +14355,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "ERBB2",
-    "TACSTD2",
-    "MTOR"
+    "ERBB2"
    ],
    "nodes": [
     "her2-low",
@@ -15187,10 +14387,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species_from": "mesh",
    "genes": [
     "PIK3CA",
-    "PIK3R1",
-    "AKT1",
-    "MTOR",
-    "ESR1"
+    "PIK3R1"
    ],
    "nodes": [
     "hr-pos-her2-neg"
@@ -15218,7 +14415,6 @@ window.CancerExplorerLiterature['breast'] = {
    "species_from": "mesh",
    "genes": [
     "TACSTD2",
-    "PIK3CA",
     "PTEN"
    ],
    "nodes": [
@@ -15313,10 +14509,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species": "mouse",
    "species_from": "mesh",
    "genes": [
-    "ESR1",
-    "MTOR",
-    "CDK4",
-    "AR"
+    "ESR1"
    ],
    "nodes": [
     "hr-pos-her2-neg",
@@ -15374,9 +14567,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species": "human",
    "species_from": "keywords",
    "genes": [
-    "ERBB2",
-    "TACSTD2",
-    "MTOR"
+    "ERBB2"
    ],
    "nodes": [
     "her2-low",
@@ -15406,8 +14597,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species": "human",
    "species_from": "keywords",
    "genes": [
-    "ERBB2",
-    "MTOR"
+    "ERBB2"
    ],
    "nodes": [
     "her2-low",
@@ -15437,8 +14627,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "ERBB2",
-    "MTOR"
+    "ERBB2"
    ],
    "nodes": [
     "her2-low",
@@ -15495,9 +14684,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "TACSTD2",
-    "PIK3CA",
-    "PTEN"
+    "TACSTD2"
    ],
    "nodes": [
     "hr-pos-her2-neg",
@@ -15528,10 +14715,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species_from": "mesh",
    "genes": [
     "PIK3CA",
-    "PIK3R1",
-    "AKT1",
-    "MTOR",
-    "ESR1"
+    "PIK3R1"
    ],
    "nodes": [
     "hr-pos-her2-neg"
@@ -15559,10 +14743,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "AKT1",
-    "PIK3CA",
-    "PTEN",
-    "MTOR"
+    "AKT1"
    ],
    "nodes": [
     "hr-pos-her2-neg"
@@ -15619,9 +14800,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "ESR1",
-    "MTOR",
-    "CDK4"
+    "ESR1"
    ],
    "nodes": [
     "hr-pos-her2-neg",
@@ -15679,9 +14858,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "ESR1",
-    "MTOR",
-    "CDK4"
+    "ESR1"
    ],
    "nodes": [
     "hr-pos-her2-neg",
@@ -15793,10 +14970,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species_from": "mesh",
    "genes": [
     "PIK3CA",
-    "PIK3R1",
-    "AKT1",
-    "MTOR",
-    "ESR1"
+    "PIK3R1"
    ],
    "nodes": [
     "hr-pos-her2-neg"
@@ -15822,8 +14996,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species_from": "mesh",
    "genes": [
     "PDCD1",
-    "CD274",
-    "AR"
+    "CD274"
    ],
    "nodes": [
     "tnbc"
@@ -15850,8 +15023,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "ERBB2",
-    "MTOR"
+    "ERBB2"
    ],
    "nodes": [
     "her2-low",
@@ -15881,9 +15053,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "ERBB2",
-    "TACSTD2",
-    "MTOR"
+    "ERBB2"
    ],
    "nodes": [
     "her2-low",
@@ -15914,7 +15084,6 @@ window.CancerExplorerLiterature['breast'] = {
    "species_from": "mesh",
    "genes": [
     "ERBB2",
-    "TACSTD2",
     "MTOR"
    ],
    "nodes": [
@@ -15957,10 +15126,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species_from": "mesh",
    "genes": [
     "PIK3CA",
-    "PIK3R1",
-    "AKT1",
-    "MTOR",
-    "ESR1"
+    "PIK3R1"
    ],
    "nodes": [
     "hr-pos-her2-neg"
@@ -15989,10 +15155,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species_from": "mesh",
    "genes": [
     "PIK3CA",
-    "PIK3R1",
-    "AKT1",
-    "MTOR",
-    "ESR1"
+    "PIK3R1"
    ],
    "nodes": [
     "hr-pos-her2-neg"
@@ -16076,10 +15239,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species_from": "mesh",
    "genes": [
     "PIK3CA",
-    "PIK3R1",
-    "AKT1",
-    "MTOR",
-    "ESR1"
+    "PIK3R1"
    ],
    "nodes": [
     "hr-pos-her2-neg"
@@ -16107,10 +15267,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species_from": "mesh",
    "genes": [
     "PIK3CA",
-    "PIK3R1",
-    "AKT1",
-    "MTOR",
-    "ESR1"
+    "PIK3R1"
    ],
    "nodes": [
     "hr-pos-her2-neg"
@@ -16137,9 +15294,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "ESR1",
-    "MTOR",
-    "CDK4"
+    "ESR1"
    ],
    "nodes": [
     "hr-pos-her2-neg",
@@ -16167,8 +15322,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species": "human",
    "species_from": "keywords",
    "genes": [
-    "ERBB2",
-    "MTOR"
+    "ERBB2"
    ],
    "nodes": [
     "her2-low",
@@ -16259,10 +15413,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species_from": "mesh",
    "genes": [
     "PIK3CA",
-    "PIK3R1",
-    "AKT1",
-    "MTOR",
-    "ESR1"
+    "PIK3R1"
    ],
    "nodes": [
     "hr-pos-her2-neg"
@@ -16289,9 +15440,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "ESR1",
-    "MTOR",
-    "CDK4"
+    "ESR1"
    ],
    "nodes": [
     "hr-pos-her2-neg",
@@ -16319,8 +15468,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "ERBB2",
-    "MTOR"
+    "ERBB2"
    ],
    "nodes": [
     "her2-low",
@@ -16382,11 +15530,7 @@ window.CancerExplorerLiterature['breast'] = {
    "genes": [
     "CDK4",
     "CDK6",
-    "CCND1",
-    "PIK3CA",
-    "PIK3R1",
-    "ESR1",
-    "RB1"
+    "CCND1"
    ],
    "nodes": [
     "hr-pos-her2-neg",
@@ -16474,10 +15618,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species_from": "keywords",
    "genes": [
     "PIK3CA",
-    "PIK3R1",
-    "AKT1",
-    "MTOR",
-    "ESR1"
+    "PIK3R1"
    ],
    "nodes": [
     "hr-pos-her2-neg"
@@ -16504,8 +15645,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "ERBB2",
-    "MTOR"
+    "ERBB2"
    ],
    "nodes": [
     "her2-low",
@@ -16537,9 +15677,7 @@ window.CancerExplorerLiterature['breast'] = {
    "genes": [
     "PIK3CA",
     "PIK3R1",
-    "AKT1",
-    "MTOR",
-    "ESR1"
+    "MTOR"
    ],
    "nodes": [
     "hr-pos-her2-neg"
@@ -16598,9 +15736,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "ESR1",
-    "MTOR",
-    "CDK4"
+    "ESR1"
    ],
    "nodes": [
     "hr-pos-her2-neg",
@@ -16629,10 +15765,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species_from": "none",
    "genes": [
     "PIK3CA",
-    "PIK3R1",
-    "AKT1",
-    "MTOR",
-    "ESR1"
+    "PIK3R1"
    ],
    "nodes": [
     "hr-pos-her2-neg"
@@ -16691,9 +15824,7 @@ window.CancerExplorerLiterature['breast'] = {
    "genes": [
     "PIK3CA",
     "PIK3R1",
-    "AKT1",
-    "MTOR",
-    "ESR1"
+    "MTOR"
    ],
    "nodes": [
     "hr-pos-her2-neg"
@@ -16977,10 +16108,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species_from": "keywords",
    "genes": [
     "PIK3CA",
-    "PIK3R1",
-    "AKT1",
-    "MTOR",
-    "ESR1"
+    "PIK3R1"
    ],
    "nodes": [
     "hr-pos-her2-neg"
@@ -17007,9 +16135,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "ESR1",
-    "MTOR",
-    "CDK4"
+    "ESR1"
    ],
    "nodes": [
     "hr-pos-her2-neg",
@@ -17037,8 +16163,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "ERBB2",
-    "MTOR"
+    "ERBB2"
    ],
    "nodes": [
     "her2-low",
@@ -17098,10 +16223,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "AKT1",
-    "PIK3CA",
-    "PTEN",
-    "MTOR"
+    "AKT1"
    ],
    "nodes": [
     "hr-pos-her2-neg"
@@ -17294,10 +16416,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species_from": "none",
    "genes": [
     "PIK3CA",
-    "PIK3R1",
-    "AKT1",
-    "MTOR",
-    "ESR1"
+    "PIK3R1"
    ],
    "nodes": [
     "hr-pos-her2-neg"
@@ -17394,9 +16513,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "ERBB2",
-    "TACSTD2",
-    "MTOR"
+    "ERBB2"
    ],
    "nodes": [
     "her2-low",
@@ -17511,9 +16628,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species": "unclear",
    "species_from": "none",
    "genes": [
-    "ERBB2",
-    "TACSTD2",
-    "MTOR"
+    "ERBB2"
    ],
    "nodes": [
     "her2-low",
@@ -17543,9 +16658,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "ESR1",
-    "MTOR",
-    "CDK4"
+    "ESR1"
    ],
    "nodes": [
     "hr-pos-her2-neg",
@@ -17599,9 +16712,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "ERBB2",
-    "TACSTD2",
-    "MTOR"
+    "ERBB2"
    ],
    "nodes": [
     "her2-low",
@@ -17664,10 +16775,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species_from": "mesh",
    "genes": [
     "PIK3CA",
-    "PIK3R1",
-    "AKT1",
-    "MTOR",
-    "ESR1"
+    "PIK3R1"
    ],
    "nodes": [
     "hr-pos-her2-neg"
@@ -17696,10 +16804,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "AKT1",
-    "PIK3CA",
-    "PTEN",
-    "MTOR"
+    "AKT1"
    ],
    "nodes": [
     "hr-pos-her2-neg"
@@ -17727,10 +16832,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "AKT1",
-    "PIK3CA",
-    "PTEN",
-    "MTOR"
+    "AKT1"
    ],
    "nodes": [
     "hr-pos-her2-neg"
@@ -17862,9 +16964,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species": "mouse",
    "species_from": "mesh",
    "genes": [
-    "ERBB2",
-    "TACSTD2",
-    "MTOR"
+    "ERBB2"
    ],
    "nodes": [
     "her2-low",
@@ -17901,10 +17001,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "AKT1",
-    "PIK3CA",
-    "PTEN",
-    "MTOR"
+    "AKT1"
    ],
    "nodes": [
     "hr-pos-her2-neg"
@@ -17931,9 +17028,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species": "human",
    "species_from": "keywords",
    "genes": [
-    "ESR1",
-    "MTOR",
-    "CDK4"
+    "ESR1"
    ],
    "nodes": [
     "hr-pos-her2-neg",
@@ -17961,9 +17056,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "ERBB2",
-    "TACSTD2",
-    "MTOR"
+    "ERBB2"
    ],
    "nodes": [
     "her2-low",
@@ -18026,8 +17119,6 @@ window.CancerExplorerLiterature['breast'] = {
    "genes": [
     "PIK3CA",
     "PIK3R1",
-    "AKT1",
-    "MTOR",
     "ESR1"
    ],
    "nodes": [
@@ -18185,10 +17276,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species": "unclear",
    "species_from": "none",
    "genes": [
-    "AKT1",
-    "PIK3CA",
-    "PTEN",
-    "MTOR"
+    "AKT1"
    ],
    "nodes": [
     "hr-pos-her2-neg"
@@ -18301,10 +17389,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species_from": "mesh",
    "genes": [
     "PIK3CA",
-    "PIK3R1",
-    "AKT1",
-    "MTOR",
-    "ESR1"
+    "PIK3R1"
    ],
    "nodes": [
     "hr-pos-her2-neg"
@@ -18361,10 +17446,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species": "mouse",
    "species_from": "mesh",
    "genes": [
-    "ESR1",
-    "MTOR",
-    "CDK4",
-    "AR"
+    "ESR1"
    ],
    "nodes": [
     "hr-pos-her2-neg",
@@ -18417,9 +17499,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "ESR1",
-    "MTOR",
-    "CDK4"
+    "ESR1"
    ],
    "nodes": [
     "hr-pos-her2-neg",
@@ -18596,9 +17676,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "ESR1",
-    "MTOR",
-    "CDK4"
+    "ESR1"
    ],
    "nodes": [
     "hr-pos-her2-neg",
@@ -18732,9 +17810,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "ESR1",
-    "MTOR",
-    "CDK4"
+    "ESR1"
    ],
    "nodes": [
     "hr-pos-her2-neg",
@@ -18762,9 +17838,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "ESR1",
-    "MTOR",
-    "CDK4"
+    "ESR1"
    ],
    "nodes": [
     "hr-pos-her2-neg",
@@ -18844,9 +17918,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "ESR1",
-    "MTOR",
-    "CDK4"
+    "ESR1"
    ],
    "nodes": [
     "hr-pos-her2-neg",
@@ -18971,10 +18043,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species_from": "mesh",
    "genes": [
     "PIK3CA",
-    "PIK3R1",
-    "AKT1",
-    "MTOR",
-    "ESR1"
+    "PIK3R1"
    ],
    "nodes": [
     "hr-pos-her2-neg"
@@ -19028,9 +18097,7 @@ window.CancerExplorerLiterature['breast'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "ESR1",
-    "MTOR",
-    "CDK4"
+    "ESR1"
    ],
    "nodes": [
     "hr-pos-her2-neg",

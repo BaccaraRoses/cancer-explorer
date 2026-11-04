@@ -293,7 +293,7 @@
       d: 'One complete way of sorting every tumour into groups, where the groups do not ' +
          'overlap and together account for all of them. A cancer can have several in routine ' +
          'use at once, answering different questions.',
-      w: 'The "Classify by" picker chooses which one the Subtypes lens draws. Risk factors and ' +
+      w: 'The "Sorted by" switch at the head of the Subtypes lens chooses which one it draws. Risk factors and ' +
          'drugs are deliberately NOT axes — a tumour can have many of either, so they sort ' +
          'nothing.' },
 

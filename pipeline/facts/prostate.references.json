@@ -415,98 +415,98 @@
   "quotes": [
     {
       "ref": "zeegers-family",
-      "line": 331,
+      "line": 332,
       "quote": "Thirty-three epidemiologic studies were included in the current review. S(lambda) was 2.53 (95% confidence interval, 2.24-2.85) for first-degree family members.",
       "verdict": "OK",
       "found_in": "abstract"
     },
     {
       "ref": "nyberg-brca",
-      "line": 341,
+      "line": 342,
       "quote": "BRCA2 carriers had an SIR of 4.45 (95% confidence interval [CI] 2.99-6.61) and absolute PCa risk of 27% (95% CI 17-41%) and 60% (95% CI 43-78%) by ages 75 and 85 yr, respectively.",
       "verdict": "OK",
       "found_in": "abstract"
     },
     {
       "ref": "nyberg-brca",
-      "line": 352,
+      "line": 353,
       "quote": "The estimated absolute risk of PCa was 21% (95% CI 13-34%) by age 75 yr and 29% (95% CI 17-45%) by age 85 yr for BRCA1 carriers.",
       "verdict": "OK",
       "found_in": "full text"
     },
     {
       "ref": "nyberg-brca",
-      "line": 355,
+      "line": 356,
       "quote": "For BRCA1 carriers, the overall SIR was 2.35 (95% CI 1.43-3.88); the corresponding SIR at age <65 yr was 3.57 (95% CI 1.68-7.58).",
       "verdict": "OK",
       "found_in": "abstract"
     },
     {
       "ref": "smoking-mortality",
-      "line": 417,
+      "line": 418,
       "quote": "Current cigarette smoking was inversely associated with incident PCa (RR: 0.90; 95% CI, 0.85-0.96), with high heterogeneity in the results.",
       "verdict": "OK",
       "found_in": "abstract"
     },
     {
       "ref": "smoking-mortality",
-      "line": 427,
+      "line": 428,
       "quote": "Current cigarette smoking was associated with an increased risk of PCa death (RR: 1.24; 95% CI, 1.18-1.31), with little evidence for heterogeneity and publication bias. The number of cigarettes smoked per day had a dose-response association with PCa mortality (p=0.02; RR for 20 cigarettes per day: 1.20).",
       "verdict": "OK",
       "found_in": "abstract"
     },
     {
       "ref": "pcpt-bias",
-      "line": 447,
+      "line": 448,
       "quote": "Finasteride taken for 7 years in the Prostate Cancer Prevention Trial (PCPT) reduced the risk of prostate cancer by 25%, but with an apparent increased risk of high-grade disease.",
       "verdict": "OK",
       "found_in": "abstract"
     },
     {
       "ref": "propsma",
-      "line": 595,
+      "line": 596,
       "quote": "PSMA PET-CT had a 27% (95% CI 23-31) greater accuracy than that of conventional imaging (92% [88-95] vs 65% [60-69]; p<0.0001). … had more equivocal findings (23% [17-31] vs 7% [4-13]) than PSMA PET-CT did.",
       "verdict": "OK",
       "found_in": "abstract"
     },
     {
       "ref": "propsma",
-      "line": 599,
+      "line": 600,
       "quote": "First-line conventional imaging conferred management change less frequently (23 [15%] men [10-22] vs 41 [28%] men [21-36]; p=0.008) … Radiation exposure was 10.9 mSv (95% CI 9.8-12.0) higher for conventional imaging than for PSMA PET-CT (19.2 mSv vs 8.4 mSv; p<0.001).",
       "verdict": "OK",
       "found_in": "abstract"
     },
     {
       "ref": "propsma",
-      "line": 604,
+      "line": 605,
       "quote": "We found a lower sensitivity (38% [24-52] vs 85% [74-96]) and specificity (91% [85-97] vs 98% [95-100]) for conventional imaging compared with PSMA PET-CT.",
       "verdict": "OK",
       "found_in": "abstract"
     },
     {
       "ref": "tcga-prad",
-      "line": 996,
+      "line": 997,
       "quote": "DNA repair genes were inactivated in 19%.",
       "verdict": "OK",
       "found_in": "abstract"
     },
     {
       "ref": "tcga-prad",
-      "line": 1229,
+      "line": 1230,
       "quote": "25% of the prostate cancers had a presumed actionable lesion in the PI3K or MAPK signaling pathways",
       "verdict": "OK",
       "found_in": "abstract"
     },
     {
       "ref": "tcga-prad",
-      "line": 1234,
+      "line": 1235,
       "quote": "DNA repair genes were inactivated in 19%.",
       "verdict": "OK",
       "found_in": "abstract"
     },
     {
       "ref": "mcrpc-epi",
-      "line": 1672,
+      "line": 1673,
       "quote": "Median overall survival increased from 1.23 years (95% CI, 1.19-1.27) in 2005 to 2011, to 1.75 years (95% CI, 1.70-1.80) in 2012 to 2017, to 2.17 years (95% CI, 2.11-2.22) in 2018 to 2024",
       "verdict": "OK",
       "found_in": "abstract"

@@ -162,8 +162,9 @@ CancerExplorer.register({
       'There is no single correct way to sort prostate cancer, and this site does not pretend ' +
       'otherwise. Four are in routine use at the same time. They are not four levels of detail ' +
       '— each one sorts every tumour into groups on its own, so any tumour has four answers at ' +
-      'once, and all four are true. Each is a {{classification axis}} here, and the ' +
-      '"Classify by" picker in the bar above switches between them. One of the four is unusual ' +
+      'once, and all four are true. Each is a {{classification axis}} here: "Sort by this" on a ' +
+      'card below opens the Subtypes lens on it, and the "Sorted by" switch at the head of that ' +
+      'lens moves between them. One of the four is unusual ' +
       'and worth noticing: disease state sorts by WHERE IN THE COURSE a man is rather than by ' +
       'anything about the tumour under a microscope, and it is the one that decides treatment.',
 
@@ -987,8 +988,8 @@ CancerExplorer.register({
       pathways: [
         { name: 'Androgen receptor signalling', status: 'the driver in almost every case',
           note: 'The prostate is built to grow in response to testosterone, and so is nearly ' +
-                'every prostate cancer. It is the direct counterpart of {{endocrine therapy|ER ' +
-                'signalling in breast cancer}}.' },
+                'every prostate cancer. It is the direct counterpart of ER signalling in ' +
+                'breast cancer.' },
         { name: 'PI3K / AKT / PTEN', status: 'PTEN deleted in ~15% of primary tumours',
           note: 'The commonest tumour-suppressor loss here, and since 2026 a drug indication.', source: 'tcga-prad' },
         { name: 'DNA damage repair', status: 'defective in ~19% of primary tumours',

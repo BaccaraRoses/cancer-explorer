@@ -1,6 +1,6 @@
 /* GENERATED FILE - DO NOT EDIT BY HAND.
  *
- * Produced by pipeline/run.py literature on 2026-10-18 00:46 UTC
+ * Produced by pipeline/run.py literature on 2026-11-04 05:19 UTC
  * 392 papers since 2024-01-01  (from 488 raw hits, deduplicated)
  * By tier: meta-analysis 7, preprint 25, primary 223, review 77, systematic review 12, trial 48
  * By kind: new-approach 109, resistance 127, toxicity 156
@@ -101,8 +101,7 @@ window.CancerExplorerLiterature['prostate'] = {
    "species_from": "keywords",
    "genes": [
     "PDCD1",
-    "MSH2",
-    "AR"
+    "MSH2"
    ],
    "nodes": [
     "state-crpc-adeno"
@@ -193,8 +192,7 @@ window.CancerExplorerLiterature['prostate'] = {
    "species_from": "keywords",
    "genes": [
     "PDCD1",
-    "MSH2",
-    "AR"
+    "MSH2"
    ],
    "nodes": [
     "state-crpc-adeno"
@@ -245,8 +243,7 @@ window.CancerExplorerLiterature['prostate'] = {
    "species_from": "none",
    "genes": [
     "PDCD1",
-    "MSH2",
-    "AR"
+    "MSH2"
    ],
    "nodes": [
     "state-crpc-adeno"
@@ -320,8 +317,7 @@ window.CancerExplorerLiterature['prostate'] = {
    "species_from": "mesh",
    "genes": [
     "PDCD1",
-    "MSH2",
-    "AR"
+    "MSH2"
    ],
    "nodes": [
     "state-crpc-adeno"
@@ -374,15 +370,7 @@ window.CancerExplorerLiterature['prostate'] = {
    "species": "mouse",
    "species_from": "mesh",
    "genes": [
-    "AR",
-    "PARP1",
-    "BRCA2",
-    "BRCA1",
-    "ATM",
-    "CDK12",
-    "TUBB",
-    "PTEN",
-    "MYC"
+    "AR"
    ],
    "nodes": [
     "state-crpc",
@@ -436,9 +424,7 @@ window.CancerExplorerLiterature['prostate'] = {
    "species": "human",
    "species_from": "keywords",
    "genes": [
-    "FOLH1",
-    "TUBB",
-    "AR"
+    "FOLH1"
    ],
    "nodes": [
     "state-crpc-adeno",
@@ -531,14 +517,7 @@ window.CancerExplorerLiterature['prostate'] = {
    "species_from": "keywords",
    "genes": [
     "AR",
-    "PARP1",
-    "BRCA2",
-    "BRCA1",
-    "ATM",
-    "CDK12",
-    "TUBB",
-    "PTEN",
-    "MYC"
+    "TUBB"
    ],
    "nodes": [
     "state-crpc",
@@ -575,15 +554,7 @@ window.CancerExplorerLiterature['prostate'] = {
    "species": "human",
    "species_from": "keywords",
    "genes": [
-    "AR",
-    "PARP1",
-    "BRCA2",
-    "BRCA1",
-    "ATM",
-    "CDK12",
-    "TUBB",
-    "PTEN",
-    "MYC"
+    "AR"
    ],
    "nodes": [
     "state-crpc",
@@ -645,10 +616,7 @@ window.CancerExplorerLiterature['prostate'] = {
    "species": "unclear",
    "species_from": "none",
    "genes": [
-    "TUBB",
-    "PDCD1",
-    "MSH2",
-    "AR"
+    "TUBB"
    ],
    "nodes": [
     "state-crpc",
@@ -700,8 +668,7 @@ window.CancerExplorerLiterature['prostate'] = {
    "species_from": "keywords",
    "genes": [
     "PDCD1",
-    "MSH2",
-    "AR"
+    "MSH2"
    ],
    "nodes": [
     "state-crpc-adeno"
@@ -800,10 +767,7 @@ window.CancerExplorerLiterature['prostate'] = {
    "species": "human",
    "species_from": "keywords",
    "genes": [
-    "TUBB",
-    "PDCD1",
-    "MSH2",
-    "AR"
+    "TUBB"
    ],
    "nodes": [
     "state-crpc",
@@ -865,15 +829,7 @@ window.CancerExplorerLiterature['prostate'] = {
    "species": "cell line",
    "species_from": "keywords",
    "genes": [
-    "AR",
-    "PARP1",
-    "BRCA2",
-    "BRCA1",
-    "ATM",
-    "CDK12",
-    "TUBB",
-    "PTEN",
-    "MYC"
+    "AR"
    ],
    "nodes": [
     "state-crpc",
@@ -904,15 +860,7 @@ window.CancerExplorerLiterature['prostate'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "AR",
-    "PARP1",
-    "BRCA2",
-    "BRCA1",
-    "ATM",
-    "CDK12",
-    "TUBB",
-    "PTEN",
-    "MYC"
+    "AR"
    ],
    "nodes": [
     "state-crpc",
@@ -943,9 +891,7 @@ window.CancerExplorerLiterature['prostate'] = {
    "species": "human",
    "species_from": "keywords",
    "genes": [
-    "FOLH1",
-    "TUBB",
-    "AR"
+    "FOLH1"
    ],
    "nodes": [
     "state-crpc-adeno",
@@ -974,10 +920,7 @@ window.CancerExplorerLiterature['prostate'] = {
    "species": "human",
    "species_from": "keywords",
    "genes": [
-    "TUBB",
-    "PDCD1",
-    "MSH2",
-    "AR"
+    "TUBB"
    ],
    "nodes": [
     "state-crpc",
@@ -1074,15 +1017,7 @@ window.CancerExplorerLiterature['prostate'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "AR",
-    "PARP1",
-    "BRCA2",
-    "BRCA1",
-    "ATM",
-    "CDK12",
-    "TUBB",
-    "PTEN",
-    "MYC"
+    "AR"
    ],
    "nodes": [
     "state-crpc",
@@ -1114,10 +1049,7 @@ window.CancerExplorerLiterature['prostate'] = {
    "species": "human",
    "species_from": "keywords",
    "genes": [
-    "TUBB",
-    "PDCD1",
-    "MSH2",
-    "AR"
+    "TUBB"
    ],
    "nodes": [
     "state-crpc",
@@ -1182,10 +1114,7 @@ window.CancerExplorerLiterature['prostate'] = {
    "species": "cell line",
    "species_from": "keywords",
    "genes": [
-    "TUBB",
-    "PDCD1",
-    "MSH2",
-    "AR"
+    "TUBB"
    ],
    "nodes": [
     "state-crpc",
@@ -1244,15 +1173,7 @@ window.CancerExplorerLiterature['prostate'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "AR",
-    "PARP1",
-    "BRCA2",
-    "BRCA1",
-    "ATM",
-    "CDK12",
-    "TUBB",
-    "PTEN",
-    "MYC"
+    "AR"
    ],
    "nodes": [
     "state-crpc",
@@ -1283,15 +1204,7 @@ window.CancerExplorerLiterature['prostate'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "AR",
-    "PARP1",
-    "BRCA2",
-    "BRCA1",
-    "ATM",
-    "CDK12",
-    "TUBB",
-    "PTEN",
-    "MYC"
+    "AR"
    ],
    "nodes": [
     "state-crpc",
@@ -1328,15 +1241,7 @@ window.CancerExplorerLiterature['prostate'] = {
    "species": "mouse",
    "species_from": "mesh",
    "genes": [
-    "AR",
-    "PARP1",
-    "BRCA2",
-    "BRCA1",
-    "ATM",
-    "CDK12",
-    "TUBB",
-    "PTEN",
-    "MYC"
+    "AR"
    ],
    "nodes": [
     "state-crpc",
@@ -1447,10 +1352,7 @@ window.CancerExplorerLiterature['prostate'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "TUBB",
-    "PDCD1",
-    "MSH2",
-    "AR"
+    "TUBB"
    ],
    "nodes": [
     "state-crpc",
@@ -1525,9 +1427,7 @@ window.CancerExplorerLiterature['prostate'] = {
    "species": "human",
    "species_from": "keywords",
    "genes": [
-    "FOLH1",
-    "TUBB",
-    "AR"
+    "FOLH1"
    ],
    "nodes": [
     "state-crpc-adeno",
@@ -1579,9 +1479,7 @@ window.CancerExplorerLiterature['prostate'] = {
    "species": "human",
    "species_from": "keywords",
    "genes": [
-    "FOLH1",
-    "TUBB",
-    "AR"
+    "FOLH1"
    ],
    "nodes": [
     "state-crpc-adeno",
@@ -1694,14 +1592,7 @@ window.CancerExplorerLiterature['prostate'] = {
    "species_from": "keywords",
    "genes": [
     "AR",
-    "PARP1",
-    "BRCA2",
-    "BRCA1",
-    "ATM",
-    "CDK12",
-    "TUBB",
-    "PTEN",
-    "MYC"
+    "PTEN"
    ],
    "nodes": [
     "state-crpc",
@@ -1883,15 +1774,7 @@ window.CancerExplorerLiterature['prostate'] = {
    "species": "human",
    "species_from": "keywords",
    "genes": [
-    "AR",
-    "PARP1",
-    "BRCA2",
-    "BRCA1",
-    "ATM",
-    "CDK12",
-    "TUBB",
-    "PTEN",
-    "MYC"
+    "AR"
    ],
    "nodes": [
     "state-crpc",
@@ -1922,15 +1805,7 @@ window.CancerExplorerLiterature['prostate'] = {
    "species": "human",
    "species_from": "keywords",
    "genes": [
-    "AR",
-    "PARP1",
-    "BRCA2",
-    "BRCA1",
-    "ATM",
-    "CDK12",
-    "TUBB",
-    "PTEN",
-    "MYC"
+    "AR"
    ],
    "nodes": [
     "state-crpc",
@@ -1970,15 +1845,7 @@ window.CancerExplorerLiterature['prostate'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "AR",
-    "PARP1",
-    "BRCA2",
-    "BRCA1",
-    "ATM",
-    "CDK12",
-    "TUBB",
-    "PTEN",
-    "MYC"
+    "AR"
    ],
    "nodes": [
     "state-crpc",
@@ -2010,9 +1877,7 @@ window.CancerExplorerLiterature['prostate'] = {
    "species": "human",
    "species_from": "keywords",
    "genes": [
-    "FOLH1",
-    "TUBB",
-    "AR"
+    "FOLH1"
    ],
    "nodes": [
     "state-crpc-adeno",
@@ -2040,10 +1905,7 @@ window.CancerExplorerLiterature['prostate'] = {
    "species": "mouse",
    "species_from": "mesh",
    "genes": [
-    "TUBB",
-    "PDCD1",
-    "MSH2",
-    "AR"
+    "TUBB"
    ],
    "nodes": [
     "state-crpc",
@@ -2072,10 +1934,7 @@ window.CancerExplorerLiterature['prostate'] = {
    "species": "human",
    "species_from": "keywords",
    "genes": [
-    "TUBB",
-    "PDCD1",
-    "MSH2",
-    "AR"
+    "TUBB"
    ],
    "nodes": [
     "state-crpc",
@@ -2126,15 +1985,7 @@ window.CancerExplorerLiterature['prostate'] = {
    "species": "mouse",
    "species_from": "mesh",
    "genes": [
-    "AR",
-    "PARP1",
-    "BRCA2",
-    "BRCA1",
-    "ATM",
-    "CDK12",
-    "TUBB",
-    "PTEN",
-    "MYC"
+    "AR"
    ],
    "nodes": [
     "state-crpc",
@@ -2299,15 +2150,7 @@ window.CancerExplorerLiterature['prostate'] = {
    "species": "human",
    "species_from": "keywords",
    "genes": [
-    "AR",
-    "PARP1",
-    "BRCA2",
-    "BRCA1",
-    "ATM",
-    "CDK12",
-    "TUBB",
-    "PTEN",
-    "MYC"
+    "AR"
    ],
    "nodes": [
     "state-crpc",
@@ -2338,15 +2181,7 @@ window.CancerExplorerLiterature['prostate'] = {
    "species": "cell line",
    "species_from": "keywords",
    "genes": [
-    "AR",
-    "PARP1",
-    "BRCA2",
-    "BRCA1",
-    "ATM",
-    "CDK12",
-    "TUBB",
-    "PTEN",
-    "MYC"
+    "AR"
    ],
    "nodes": [
     "state-crpc",
@@ -2519,15 +2354,7 @@ window.CancerExplorerLiterature['prostate'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "AR",
-    "PARP1",
-    "BRCA2",
-    "BRCA1",
-    "ATM",
-    "CDK12",
-    "TUBB",
-    "PTEN",
-    "MYC"
+    "AR"
    ],
    "nodes": [
     "state-crpc",
@@ -2602,9 +2429,7 @@ window.CancerExplorerLiterature['prostate'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "FOLH1",
-    "TUBB",
-    "AR"
+    "FOLH1"
    ],
    "nodes": [
     "state-crpc-adeno",
@@ -2632,15 +2457,7 @@ window.CancerExplorerLiterature['prostate'] = {
    "species": "cell line",
    "species_from": "keywords",
    "genes": [
-    "AR",
-    "PARP1",
-    "BRCA2",
-    "BRCA1",
-    "ATM",
-    "CDK12",
-    "TUBB",
-    "PTEN",
-    "MYC"
+    "AR"
    ],
    "nodes": [
     "state-crpc",
@@ -2672,10 +2489,7 @@ window.CancerExplorerLiterature['prostate'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "TUBB",
-    "PDCD1",
-    "MSH2",
-    "AR"
+    "TUBB"
    ],
    "nodes": [
     "state-crpc",
@@ -2776,9 +2590,7 @@ window.CancerExplorerLiterature['prostate'] = {
    "species": "human",
    "species_from": "keywords",
    "genes": [
-    "FOLH1",
-    "TUBB",
-    "AR"
+    "FOLH1"
    ],
    "nodes": [
     "state-crpc-adeno",
@@ -2919,15 +2731,7 @@ window.CancerExplorerLiterature['prostate'] = {
    "species": "mouse",
    "species_from": "mesh",
    "genes": [
-    "AR",
-    "PARP1",
-    "BRCA2",
-    "BRCA1",
-    "ATM",
-    "CDK12",
-    "TUBB",
-    "PTEN",
-    "MYC"
+    "AR"
    ],
    "nodes": [
     "state-crpc",
@@ -2958,15 +2762,7 @@ window.CancerExplorerLiterature['prostate'] = {
    "species": "unclear",
    "species_from": "none",
    "genes": [
-    "AR",
-    "PARP1",
-    "BRCA2",
-    "BRCA1",
-    "ATM",
-    "CDK12",
-    "TUBB",
-    "PTEN",
-    "MYC"
+    "AR"
    ],
    "nodes": [
     "state-crpc",
@@ -2998,15 +2794,7 @@ window.CancerExplorerLiterature['prostate'] = {
    "species": "mouse",
    "species_from": "mesh",
    "genes": [
-    "AR",
-    "PARP1",
-    "BRCA2",
-    "BRCA1",
-    "ATM",
-    "CDK12",
-    "TUBB",
-    "PTEN",
-    "MYC"
+    "AR"
    ],
    "nodes": [
     "state-crpc",
@@ -3038,8 +2826,6 @@ window.CancerExplorerLiterature['prostate'] = {
    "species_from": "mesh",
    "genes": [
     "TUBB",
-    "PDCD1",
-    "MSH2",
     "AR"
    ],
    "nodes": [
@@ -3167,15 +2953,7 @@ window.CancerExplorerLiterature['prostate'] = {
    "species": "human",
    "species_from": "keywords",
    "genes": [
-    "AR",
-    "PARP1",
-    "BRCA2",
-    "BRCA1",
-    "ATM",
-    "CDK12",
-    "TUBB",
-    "PTEN",
-    "MYC"
+    "AR"
    ],
    "nodes": [
     "state-crpc",
@@ -3206,15 +2984,7 @@ window.CancerExplorerLiterature['prostate'] = {
    "species": "human",
    "species_from": "keywords",
    "genes": [
-    "AR",
-    "PARP1",
-    "BRCA2",
-    "BRCA1",
-    "ATM",
-    "CDK12",
-    "TUBB",
-    "PTEN",
-    "MYC"
+    "AR"
    ],
    "nodes": [
     "state-crpc",
@@ -3325,9 +3095,7 @@ window.CancerExplorerLiterature['prostate'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "FOLH1",
-    "TUBB",
-    "AR"
+    "FOLH1"
    ],
    "nodes": [
     "state-crpc-adeno",
@@ -3411,15 +3179,7 @@ window.CancerExplorerLiterature['prostate'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "AR",
-    "PARP1",
-    "BRCA2",
-    "BRCA1",
-    "ATM",
-    "CDK12",
-    "TUBB",
-    "PTEN",
-    "MYC"
+    "AR"
    ],
    "nodes": [
     "state-crpc",
@@ -3476,15 +3236,7 @@ window.CancerExplorerLiterature['prostate'] = {
    "species": "mouse",
    "species_from": "mesh",
    "genes": [
-    "AR",
-    "PARP1",
-    "BRCA2",
-    "BRCA1",
-    "ATM",
-    "CDK12",
-    "TUBB",
-    "PTEN",
-    "MYC"
+    "AR"
    ],
    "nodes": [
     "state-crpc",
@@ -3546,15 +3298,7 @@ window.CancerExplorerLiterature['prostate'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "AR",
-    "PARP1",
-    "BRCA2",
-    "BRCA1",
-    "ATM",
-    "CDK12",
-    "TUBB",
-    "PTEN",
-    "MYC"
+    "AR"
    ],
    "nodes": [
     "state-crpc",
@@ -3585,9 +3329,7 @@ window.CancerExplorerLiterature['prostate'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "FOLH1",
-    "TUBB",
-    "AR"
+    "FOLH1"
    ],
    "nodes": [
     "state-crpc-adeno",
@@ -3620,10 +3362,7 @@ window.CancerExplorerLiterature['prostate'] = {
     "BRCA2",
     "BRCA1",
     "ATM",
-    "CDK12",
-    "TUBB",
-    "PTEN",
-    "MYC"
+    "CDK12"
    ],
    "nodes": [
     "state-crpc",
@@ -3683,15 +3422,7 @@ window.CancerExplorerLiterature['prostate'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "AR",
-    "PARP1",
-    "BRCA2",
-    "BRCA1",
-    "ATM",
-    "CDK12",
-    "TUBB",
-    "PTEN",
-    "MYC"
+    "AR"
    ],
    "nodes": [
     "state-crpc",
@@ -3723,7 +3454,6 @@ window.CancerExplorerLiterature['prostate'] = {
    "species_from": "keywords",
    "genes": [
     "FOLH1",
-    "TUBB",
     "AR"
    ],
    "nodes": [
@@ -3786,15 +3516,7 @@ window.CancerExplorerLiterature['prostate'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "AR",
-    "PARP1",
-    "BRCA2",
-    "BRCA1",
-    "ATM",
-    "CDK12",
-    "TUBB",
-    "PTEN",
-    "MYC"
+    "AR"
    ],
    "nodes": [
     "state-crpc",
@@ -3830,10 +3552,7 @@ window.CancerExplorerLiterature['prostate'] = {
     "BRCA2",
     "BRCA1",
     "ATM",
-    "CDK12",
-    "TUBB",
-    "PTEN",
-    "MYC"
+    "CDK12"
    ],
    "nodes": [
     "state-crpc",
@@ -3868,9 +3587,7 @@ window.CancerExplorerLiterature['prostate'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "FOLH1",
-    "TUBB",
-    "AR"
+    "FOLH1"
    ],
    "nodes": [
     "state-crpc-adeno",
@@ -3937,10 +3654,7 @@ window.CancerExplorerLiterature['prostate'] = {
     "BRCA2",
     "BRCA1",
     "ATM",
-    "CDK12",
-    "TUBB",
-    "PTEN",
-    "MYC"
+    "CDK12"
    ],
    "nodes": [
     "state-crpc",
@@ -3977,15 +3691,7 @@ window.CancerExplorerLiterature['prostate'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "AR",
-    "PARP1",
-    "BRCA2",
-    "BRCA1",
-    "ATM",
-    "CDK12",
-    "TUBB",
-    "PTEN",
-    "MYC"
+    "AR"
    ],
    "nodes": [
     "state-crpc",
@@ -4068,10 +3774,7 @@ window.CancerExplorerLiterature['prostate'] = {
     "BRCA2",
     "BRCA1",
     "ATM",
-    "CDK12",
-    "TUBB",
-    "PTEN",
-    "MYC"
+    "CDK12"
    ],
    "nodes": [
     "state-crpc",
@@ -4108,9 +3811,7 @@ window.CancerExplorerLiterature['prostate'] = {
    "species": "unclear",
    "species_from": "none",
    "genes": [
-    "FOLH1",
-    "TUBB",
-    "AR"
+    "FOLH1"
    ],
    "nodes": [
     "state-crpc-adeno",
@@ -4161,9 +3862,7 @@ window.CancerExplorerLiterature['prostate'] = {
    "species": "human",
    "species_from": "keywords",
    "genes": [
-    "FOLH1",
-    "TUBB",
-    "AR"
+    "FOLH1"
    ],
    "nodes": [
     "state-crpc-adeno",
@@ -4215,15 +3914,7 @@ window.CancerExplorerLiterature['prostate'] = {
    "species": "cell line",
    "species_from": "keywords",
    "genes": [
-    "AR",
-    "PARP1",
-    "BRCA2",
-    "BRCA1",
-    "ATM",
-    "CDK12",
-    "TUBB",
-    "PTEN",
-    "MYC"
+    "AR"
    ],
    "nodes": [
     "state-crpc",
@@ -4256,10 +3947,7 @@ window.CancerExplorerLiterature['prostate'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "TUBB",
-    "PDCD1",
-    "MSH2",
-    "AR"
+    "TUBB"
    ],
    "nodes": [
     "state-crpc",
@@ -4287,9 +3975,7 @@ window.CancerExplorerLiterature['prostate'] = {
    "species": "cell line",
    "species_from": "keywords",
    "genes": [
-    "FOLH1",
-    "TUBB",
-    "AR"
+    "FOLH1"
    ],
    "nodes": [
     "state-crpc-adeno",
@@ -4317,15 +4003,7 @@ window.CancerExplorerLiterature['prostate'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "AR",
-    "PARP1",
-    "BRCA2",
-    "BRCA1",
-    "ATM",
-    "CDK12",
-    "TUBB",
-    "PTEN",
-    "MYC"
+    "AR"
    ],
    "nodes": [
     "state-crpc",
@@ -4357,13 +4035,6 @@ window.CancerExplorerLiterature['prostate'] = {
    "species_from": "mesh",
    "genes": [
     "AR",
-    "PARP1",
-    "BRCA2",
-    "BRCA1",
-    "ATM",
-    "CDK12",
-    "TUBB",
-    "PTEN",
     "MYC"
    ],
    "nodes": [
@@ -4401,10 +4072,7 @@ window.CancerExplorerLiterature['prostate'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "TUBB",
-    "PDCD1",
-    "MSH2",
-    "AR"
+    "TUBB"
    ],
    "nodes": [
     "state-crpc",
@@ -4488,8 +4156,7 @@ window.CancerExplorerLiterature['prostate'] = {
    "species_from": "mesh",
    "genes": [
     "PDCD1",
-    "MSH2",
-    "AR"
+    "MSH2"
    ],
    "nodes": [
     "state-crpc-adeno"
@@ -4518,8 +4185,7 @@ window.CancerExplorerLiterature['prostate'] = {
    "species_from": "keywords",
    "genes": [
     "PDCD1",
-    "MSH2",
-    "AR"
+    "MSH2"
    ],
    "nodes": [
     "state-crpc-adeno"
@@ -4641,9 +4307,7 @@ window.CancerExplorerLiterature['prostate'] = {
    "species": "mouse",
    "species_from": "mesh",
    "genes": [
-    "FOLH1",
-    "TUBB",
-    "AR"
+    "FOLH1"
    ],
    "nodes": [
     "state-crpc-adeno",
@@ -4671,15 +4335,7 @@ window.CancerExplorerLiterature['prostate'] = {
    "species": "unclear",
    "species_from": "none",
    "genes": [
-    "AR",
-    "PARP1",
-    "BRCA2",
-    "BRCA1",
-    "ATM",
-    "CDK12",
-    "TUBB",
-    "PTEN",
-    "MYC"
+    "AR"
    ],
    "nodes": [
     "state-crpc",
@@ -4710,9 +4366,7 @@ window.CancerExplorerLiterature['prostate'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "FOLH1",
-    "TUBB",
-    "AR"
+    "FOLH1"
    ],
    "nodes": [
     "state-crpc-adeno",
@@ -4741,10 +4395,7 @@ window.CancerExplorerLiterature['prostate'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "TUBB",
-    "PDCD1",
-    "MSH2",
-    "AR"
+    "TUBB"
    ],
    "nodes": [
     "state-crpc",
@@ -4773,10 +4424,7 @@ window.CancerExplorerLiterature['prostate'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "TUBB",
-    "PDCD1",
-    "MSH2",
-    "AR"
+    "TUBB"
    ],
    "nodes": [
     "state-crpc",
@@ -4827,9 +4475,7 @@ window.CancerExplorerLiterature['prostate'] = {
    "species": "cell line",
    "species_from": "keywords",
    "genes": [
-    "FOLH1",
-    "TUBB",
-    "AR"
+    "FOLH1"
    ],
    "nodes": [
     "state-crpc-adeno",
@@ -4857,15 +4503,7 @@ window.CancerExplorerLiterature['prostate'] = {
    "species": "mouse",
    "species_from": "mesh",
    "genes": [
-    "AR",
-    "PARP1",
-    "BRCA2",
-    "BRCA1",
-    "ATM",
-    "CDK12",
-    "TUBB",
-    "PTEN",
-    "MYC"
+    "AR"
    ],
    "nodes": [
     "state-crpc",
@@ -4921,15 +4559,7 @@ window.CancerExplorerLiterature['prostate'] = {
    "species": "mouse",
    "species_from": "mesh",
    "genes": [
-    "AR",
-    "PARP1",
-    "BRCA2",
-    "BRCA1",
-    "ATM",
-    "CDK12",
-    "TUBB",
-    "PTEN",
-    "MYC"
+    "AR"
    ],
    "nodes": [
     "state-crpc",
@@ -4960,9 +4590,7 @@ window.CancerExplorerLiterature['prostate'] = {
    "species": "human",
    "species_from": "keywords",
    "genes": [
-    "FOLH1",
-    "TUBB",
-    "AR"
+    "FOLH1"
    ],
    "nodes": [
     "state-crpc-adeno",
@@ -5041,10 +4669,7 @@ window.CancerExplorerLiterature['prostate'] = {
    "species": "human",
    "species_from": "keywords",
    "genes": [
-    "TUBB",
-    "PDCD1",
-    "MSH2",
-    "AR"
+    "TUBB"
    ],
    "nodes": [
     "state-crpc",
@@ -5072,10 +4697,7 @@ window.CancerExplorerLiterature['prostate'] = {
    "species": "mouse",
    "species_from": "mesh",
    "genes": [
-    "TUBB",
-    "PDCD1",
-    "MSH2",
-    "AR"
+    "TUBB"
    ],
    "nodes": [
     "state-crpc",
@@ -5242,15 +4864,7 @@ window.CancerExplorerLiterature['prostate'] = {
    "species": "human",
    "species_from": "keywords",
    "genes": [
-    "AR",
-    "PARP1",
-    "BRCA2",
-    "BRCA1",
-    "ATM",
-    "CDK12",
-    "TUBB",
-    "PTEN",
-    "MYC"
+    "AR"
    ],
    "nodes": [
     "state-crpc",
@@ -5315,9 +4929,7 @@ window.CancerExplorerLiterature['prostate'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "FOLH1",
-    "TUBB",
-    "AR"
+    "FOLH1"
    ],
    "nodes": [
     "state-crpc-adeno",
@@ -5371,8 +4983,7 @@ window.CancerExplorerLiterature['prostate'] = {
    "species_from": "mesh",
    "genes": [
     "PDCD1",
-    "MSH2",
-    "AR"
+    "MSH2"
    ],
    "nodes": [
     "state-crpc-adeno"
@@ -5424,10 +5035,7 @@ window.CancerExplorerLiterature['prostate'] = {
    "species": "mouse",
    "species_from": "keywords",
    "genes": [
-    "TUBB",
-    "PDCD1",
-    "MSH2",
-    "AR"
+    "TUBB"
    ],
    "nodes": [
     "state-crpc",
@@ -5549,15 +5157,7 @@ window.CancerExplorerLiterature['prostate'] = {
    "species": "cell line",
    "species_from": "keywords",
    "genes": [
-    "AR",
-    "PARP1",
-    "BRCA2",
-    "BRCA1",
-    "ATM",
-    "CDK12",
-    "TUBB",
-    "PTEN",
-    "MYC"
+    "AR"
    ],
    "nodes": [
     "state-crpc",
@@ -5625,15 +5225,7 @@ window.CancerExplorerLiterature['prostate'] = {
    "species": "mouse",
    "species_from": "mesh",
    "genes": [
-    "AR",
-    "PARP1",
-    "BRCA2",
-    "BRCA1",
-    "ATM",
-    "CDK12",
-    "TUBB",
-    "PTEN",
-    "MYC"
+    "AR"
    ],
    "nodes": [
     "state-crpc",
@@ -5664,9 +5256,7 @@ window.CancerExplorerLiterature['prostate'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "FOLH1",
-    "TUBB",
-    "AR"
+    "FOLH1"
    ],
    "nodes": [
     "state-crpc-adeno",
@@ -5720,9 +5310,7 @@ window.CancerExplorerLiterature['prostate'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "FOLH1",
-    "TUBB",
-    "AR"
+    "FOLH1"
    ],
    "nodes": [
     "state-crpc-adeno",
@@ -5750,15 +5338,7 @@ window.CancerExplorerLiterature['prostate'] = {
    "species": "mouse",
    "species_from": "keywords",
    "genes": [
-    "AR",
-    "PARP1",
-    "BRCA2",
-    "BRCA1",
-    "ATM",
-    "CDK12",
-    "TUBB",
-    "PTEN",
-    "MYC"
+    "AR"
    ],
    "nodes": [
     "state-crpc",
@@ -5851,9 +5431,7 @@ window.CancerExplorerLiterature['prostate'] = {
    "species": "human",
    "species_from": "keywords",
    "genes": [
-    "FOLH1",
-    "TUBB",
-    "AR"
+    "FOLH1"
    ],
    "nodes": [
     "state-crpc-adeno",
@@ -5905,15 +5483,7 @@ window.CancerExplorerLiterature['prostate'] = {
    "species": "mouse",
    "species_from": "mesh",
    "genes": [
-    "AR",
-    "PARP1",
-    "BRCA2",
-    "BRCA1",
-    "ATM",
-    "CDK12",
-    "TUBB",
-    "PTEN",
-    "MYC"
+    "AR"
    ],
    "nodes": [
     "state-crpc",
@@ -5990,9 +5560,7 @@ window.CancerExplorerLiterature['prostate'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "FOLH1",
-    "TUBB",
-    "AR"
+    "FOLH1"
    ],
    "nodes": [
     "state-crpc-adeno",
@@ -6022,10 +5590,7 @@ window.CancerExplorerLiterature['prostate'] = {
    "species": "human",
    "species_from": "keywords",
    "genes": [
-    "TUBB",
-    "PDCD1",
-    "MSH2",
-    "AR"
+    "TUBB"
    ],
    "nodes": [
     "state-crpc",
@@ -6132,15 +5697,7 @@ window.CancerExplorerLiterature['prostate'] = {
    "species": "mouse",
    "species_from": "mesh",
    "genes": [
-    "AR",
-    "PARP1",
-    "BRCA2",
-    "BRCA1",
-    "ATM",
-    "CDK12",
-    "TUBB",
-    "PTEN",
-    "MYC"
+    "AR"
    ],
    "nodes": [
     "state-crpc",
@@ -6172,10 +5729,7 @@ window.CancerExplorerLiterature['prostate'] = {
    "species": "human",
    "species_from": "keywords",
    "genes": [
-    "TUBB",
-    "PDCD1",
-    "MSH2",
-    "AR"
+    "TUBB"
    ],
    "nodes": [
     "state-crpc",
@@ -6204,15 +5758,7 @@ window.CancerExplorerLiterature['prostate'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "AR",
-    "PARP1",
-    "BRCA2",
-    "BRCA1",
-    "ATM",
-    "CDK12",
-    "TUBB",
-    "PTEN",
-    "MYC"
+    "AR"
    ],
    "nodes": [
     "state-crpc",
@@ -6322,10 +5868,7 @@ window.CancerExplorerLiterature['prostate'] = {
    "species": "human",
    "species_from": "keywords",
    "genes": [
-    "TUBB",
-    "PDCD1",
-    "MSH2",
-    "AR"
+    "TUBB"
    ],
    "nodes": [
     "state-crpc",
@@ -6353,10 +5896,7 @@ window.CancerExplorerLiterature['prostate'] = {
    "species": "mouse",
    "species_from": "mesh",
    "genes": [
-    "TUBB",
-    "PDCD1",
-    "MSH2",
-    "AR"
+    "TUBB"
    ],
    "nodes": [
     "state-crpc",
@@ -6413,15 +5953,7 @@ window.CancerExplorerLiterature['prostate'] = {
    "species": "mouse",
    "species_from": "mesh",
    "genes": [
-    "AR",
-    "PARP1",
-    "BRCA2",
-    "BRCA1",
-    "ATM",
-    "CDK12",
-    "TUBB",
-    "PTEN",
-    "MYC"
+    "AR"
    ],
    "nodes": [
     "state-crpc",
@@ -6452,15 +5984,7 @@ window.CancerExplorerLiterature['prostate'] = {
    "species": "mouse",
    "species_from": "mesh",
    "genes": [
-    "AR",
-    "PARP1",
-    "BRCA2",
-    "BRCA1",
-    "ATM",
-    "CDK12",
-    "TUBB",
-    "PTEN",
-    "MYC"
+    "AR"
    ],
    "nodes": [
     "state-crpc",
@@ -6518,10 +6042,7 @@ window.CancerExplorerLiterature['prostate'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "TUBB",
-    "PDCD1",
-    "MSH2",
-    "AR"
+    "TUBB"
    ],
    "nodes": [
     "state-crpc",
@@ -6578,10 +6099,7 @@ window.CancerExplorerLiterature['prostate'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "TUBB",
-    "PDCD1",
-    "MSH2",
-    "AR"
+    "TUBB"
    ],
    "nodes": [
     "state-crpc",
@@ -6632,10 +6150,7 @@ window.CancerExplorerLiterature['prostate'] = {
    "species": "human",
    "species_from": "keywords",
    "genes": [
-    "TUBB",
-    "PDCD1",
-    "MSH2",
-    "AR"
+    "TUBB"
    ],
    "nodes": [
     "state-crpc",
@@ -6663,10 +6178,7 @@ window.CancerExplorerLiterature['prostate'] = {
    "species": "unclear",
    "species_from": "none",
    "genes": [
-    "TUBB",
-    "PDCD1",
-    "MSH2",
-    "AR"
+    "TUBB"
    ],
    "nodes": [
     "state-crpc",
@@ -6718,9 +6230,7 @@ window.CancerExplorerLiterature['prostate'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "FOLH1",
-    "TUBB",
-    "AR"
+    "FOLH1"
    ],
    "nodes": [
     "state-crpc-adeno",
@@ -6774,8 +6284,7 @@ window.CancerExplorerLiterature['prostate'] = {
    "species_from": "keywords",
    "genes": [
     "PDCD1",
-    "MSH2",
-    "AR"
+    "MSH2"
    ],
    "nodes": [
     "state-crpc-adeno"
@@ -6858,10 +6367,7 @@ window.CancerExplorerLiterature['prostate'] = {
    "species": "mouse",
    "species_from": "mesh",
    "genes": [
-    "TUBB",
-    "PDCD1",
-    "MSH2",
-    "AR"
+    "TUBB"
    ],
    "nodes": [
     "state-crpc",
@@ -6891,8 +6397,7 @@ window.CancerExplorerLiterature['prostate'] = {
    "genes": [
     "TUBB",
     "PDCD1",
-    "MSH2",
-    "AR"
+    "MSH2"
    ],
    "nodes": [
     "state-crpc",
@@ -7001,9 +6506,7 @@ window.CancerExplorerLiterature['prostate'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "FOLH1",
-    "TUBB",
-    "AR"
+    "FOLH1"
    ],
    "nodes": [
     "state-crpc-adeno",
@@ -7112,8 +6615,7 @@ window.CancerExplorerLiterature['prostate'] = {
    "species_from": "mesh",
    "genes": [
     "PDCD1",
-    "MSH2",
-    "AR"
+    "MSH2"
    ],
    "nodes": [
     "state-crpc-adeno"
@@ -7140,10 +6642,7 @@ window.CancerExplorerLiterature['prostate'] = {
    "species": "mouse",
    "species_from": "mesh",
    "genes": [
-    "TUBB",
-    "PDCD1",
-    "MSH2",
-    "AR"
+    "TUBB"
    ],
    "nodes": [
     "state-crpc",
@@ -7171,15 +6670,7 @@ window.CancerExplorerLiterature['prostate'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "AR",
-    "PARP1",
-    "BRCA2",
-    "BRCA1",
-    "ATM",
-    "CDK12",
-    "TUBB",
-    "PTEN",
-    "MYC"
+    "AR"
    ],
    "nodes": [
     "state-crpc",
@@ -7393,10 +6884,7 @@ window.CancerExplorerLiterature['prostate'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "TUBB",
-    "PDCD1",
-    "MSH2",
-    "AR"
+    "TUBB"
    ],
    "nodes": [
     "state-crpc",
@@ -7473,9 +6961,7 @@ window.CancerExplorerLiterature['prostate'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "FOLH1",
-    "TUBB",
-    "AR"
+    "FOLH1"
    ],
    "nodes": [
     "state-crpc-adeno",
@@ -7527,8 +7013,7 @@ window.CancerExplorerLiterature['prostate'] = {
    "species_from": "mesh",
    "genes": [
     "PDCD1",
-    "MSH2",
-    "AR"
+    "MSH2"
    ],
    "nodes": [
     "state-crpc-adeno"
@@ -7630,9 +7115,7 @@ window.CancerExplorerLiterature['prostate'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "FOLH1",
-    "TUBB",
-    "AR"
+    "FOLH1"
    ],
    "nodes": [
     "state-crpc-adeno",
@@ -7719,15 +7202,7 @@ window.CancerExplorerLiterature['prostate'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "AR",
-    "PARP1",
-    "BRCA2",
-    "BRCA1",
-    "ATM",
-    "CDK12",
-    "TUBB",
-    "PTEN",
-    "MYC"
+    "AR"
    ],
    "nodes": [
     "state-crpc",
@@ -7795,10 +7270,7 @@ window.CancerExplorerLiterature['prostate'] = {
    "species": "cell line",
    "species_from": "keywords",
    "genes": [
-    "TUBB",
-    "PDCD1",
-    "MSH2",
-    "AR"
+    "TUBB"
    ],
    "nodes": [
     "state-crpc",
@@ -7826,10 +7298,7 @@ window.CancerExplorerLiterature['prostate'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "TUBB",
-    "PDCD1",
-    "MSH2",
-    "AR"
+    "TUBB"
    ],
    "nodes": [
     "state-crpc",
@@ -7881,9 +7350,7 @@ window.CancerExplorerLiterature['prostate'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "FOLH1",
-    "TUBB",
-    "AR"
+    "FOLH1"
    ],
    "nodes": [
     "state-crpc-adeno",
@@ -7911,10 +7378,7 @@ window.CancerExplorerLiterature['prostate'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "TUBB",
-    "PDCD1",
-    "MSH2",
-    "AR"
+    "TUBB"
    ],
    "nodes": [
     "state-crpc",
@@ -7942,10 +7406,7 @@ window.CancerExplorerLiterature['prostate'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "TUBB",
-    "PDCD1",
-    "MSH2",
-    "AR"
+    "TUBB"
    ],
    "nodes": [
     "state-crpc",
@@ -7973,10 +7434,7 @@ window.CancerExplorerLiterature['prostate'] = {
    "species": "human",
    "species_from": "keywords",
    "genes": [
-    "TUBB",
-    "PDCD1",
-    "MSH2",
-    "AR"
+    "TUBB"
    ],
    "nodes": [
     "state-crpc",
@@ -8125,10 +7583,7 @@ window.CancerExplorerLiterature['prostate'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "TUBB",
-    "PDCD1",
-    "MSH2",
-    "AR"
+    "TUBB"
    ],
    "nodes": [
     "state-crpc",
@@ -8304,9 +7759,7 @@ window.CancerExplorerLiterature['prostate'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "FOLH1",
-    "TUBB",
-    "AR"
+    "FOLH1"
    ],
    "nodes": [
     "state-crpc-adeno",
@@ -8361,10 +7814,7 @@ window.CancerExplorerLiterature['prostate'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "TUBB",
-    "PDCD1",
-    "MSH2",
-    "AR"
+    "TUBB"
    ],
    "nodes": [
     "state-crpc",
@@ -8418,8 +7868,7 @@ window.CancerExplorerLiterature['prostate'] = {
    "species_from": "mesh",
    "genes": [
     "FOLH1",
-    "TUBB",
-    "AR"
+    "TUBB"
    ],
    "nodes": [
     "state-crpc-adeno",
@@ -8701,9 +8150,7 @@ window.CancerExplorerLiterature['prostate'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "FOLH1",
-    "TUBB",
-    "AR"
+    "FOLH1"
    ],
    "nodes": [
     "state-crpc-adeno",
@@ -8732,8 +8179,7 @@ window.CancerExplorerLiterature['prostate'] = {
    "species_from": "mesh",
    "genes": [
     "PDCD1",
-    "MSH2",
-    "AR"
+    "MSH2"
    ],
    "nodes": [
     "state-crpc-adeno"
@@ -8761,9 +8207,7 @@ window.CancerExplorerLiterature['prostate'] = {
    "species": "mouse",
    "species_from": "mesh",
    "genes": [
-    "FOLH1",
-    "TUBB",
-    "AR"
+    "FOLH1"
    ],
    "nodes": [
     "state-crpc-adeno",
@@ -8949,9 +8393,7 @@ window.CancerExplorerLiterature['prostate'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "FOLH1",
-    "TUBB",
-    "AR"
+    "FOLH1"
    ],
    "nodes": [
     "state-crpc-adeno",
@@ -9044,8 +8486,7 @@ window.CancerExplorerLiterature['prostate'] = {
    "species_from": "mesh",
    "genes": [
     "PDCD1",
-    "MSH2",
-    "AR"
+    "MSH2"
    ],
    "nodes": [
     "state-crpc-adeno"
@@ -9072,10 +8513,7 @@ window.CancerExplorerLiterature['prostate'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "TUBB",
-    "PDCD1",
-    "MSH2",
-    "AR"
+    "TUBB"
    ],
    "nodes": [
     "state-crpc",
@@ -9188,8 +8626,7 @@ window.CancerExplorerLiterature['prostate'] = {
    "species_from": "mesh",
    "genes": [
     "PDCD1",
-    "MSH2",
-    "AR"
+    "MSH2"
    ],
    "nodes": [
     "state-crpc-adeno"
@@ -9241,9 +8678,7 @@ window.CancerExplorerLiterature['prostate'] = {
    "species": "mouse",
    "species_from": "mesh",
    "genes": [
-    "FOLH1",
-    "TUBB",
-    "AR"
+    "FOLH1"
    ],
    "nodes": [
     "state-crpc-adeno",
@@ -9355,9 +8790,7 @@ window.CancerExplorerLiterature['prostate'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "FOLH1",
-    "TUBB",
-    "AR"
+    "FOLH1"
    ],
    "nodes": [
     "state-crpc-adeno",
@@ -9461,9 +8894,7 @@ window.CancerExplorerLiterature['prostate'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "FOLH1",
-    "TUBB",
-    "AR"
+    "FOLH1"
    ],
    "nodes": [
     "state-crpc-adeno",
@@ -9491,9 +8922,7 @@ window.CancerExplorerLiterature['prostate'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "FOLH1",
-    "TUBB",
-    "AR"
+    "FOLH1"
    ],
    "nodes": [
     "state-crpc-adeno",
@@ -9636,10 +9065,7 @@ window.CancerExplorerLiterature['prostate'] = {
    "species": "human",
    "species_from": "keywords",
    "genes": [
-    "TUBB",
-    "PDCD1",
-    "MSH2",
-    "AR"
+    "TUBB"
    ],
    "nodes": [
     "state-crpc",
@@ -9790,10 +9216,7 @@ window.CancerExplorerLiterature['prostate'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "TUBB",
-    "PDCD1",
-    "MSH2",
-    "AR"
+    "TUBB"
    ],
    "nodes": [
     "state-crpc",
@@ -9853,9 +9276,7 @@ window.CancerExplorerLiterature['prostate'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "FOLH1",
-    "TUBB",
-    "AR"
+    "FOLH1"
    ],
    "nodes": [
     "state-crpc-adeno",
@@ -10030,10 +9451,7 @@ window.CancerExplorerLiterature['prostate'] = {
    "species": "unclear",
    "species_from": "none",
    "genes": [
-    "TUBB",
-    "PDCD1",
-    "MSH2",
-    "AR"
+    "TUBB"
    ],
    "nodes": [
     "state-crpc",
@@ -10091,8 +9509,7 @@ window.CancerExplorerLiterature['prostate'] = {
    "species_from": "keywords",
    "genes": [
     "PDCD1",
-    "MSH2",
-    "AR"
+    "MSH2"
    ],
    "nodes": [
     "state-crpc-adeno"
@@ -10170,9 +9587,7 @@ window.CancerExplorerLiterature['prostate'] = {
    "species": "human",
    "species_from": "keywords",
    "genes": [
-    "FOLH1",
-    "TUBB",
-    "AR"
+    "FOLH1"
    ],
    "nodes": [
     "state-crpc-adeno",
@@ -10201,8 +9616,7 @@ window.CancerExplorerLiterature['prostate'] = {
    "species_from": "mesh",
    "genes": [
     "PDCD1",
-    "MSH2",
-    "AR"
+    "MSH2"
    ],
    "nodes": [
     "state-crpc-adeno"
@@ -10289,9 +9703,7 @@ window.CancerExplorerLiterature['prostate'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "FOLH1",
-    "TUBB",
-    "AR"
+    "FOLH1"
    ],
    "nodes": [
     "state-crpc-adeno",
@@ -10406,8 +9818,7 @@ window.CancerExplorerLiterature['prostate'] = {
    "species_from": "keywords",
    "genes": [
     "PDCD1",
-    "MSH2",
-    "AR"
+    "MSH2"
    ],
    "nodes": [
     "state-crpc-adeno"
@@ -10489,9 +9900,7 @@ window.CancerExplorerLiterature['prostate'] = {
    "species": "mouse",
    "species_from": "mesh",
    "genes": [
-    "FOLH1",
-    "TUBB",
-    "AR"
+    "FOLH1"
    ],
    "nodes": [
     "state-crpc-adeno",
@@ -10519,9 +9928,7 @@ window.CancerExplorerLiterature['prostate'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "FOLH1",
-    "TUBB",
-    "AR"
+    "FOLH1"
    ],
    "nodes": [
     "state-crpc-adeno",
@@ -10690,10 +10097,7 @@ window.CancerExplorerLiterature['prostate'] = {
    "species": "mouse",
    "species_from": "mesh",
    "genes": [
-    "TUBB",
-    "PDCD1",
-    "MSH2",
-    "AR"
+    "TUBB"
    ],
    "nodes": [
     "state-crpc",
@@ -11013,9 +10417,7 @@ window.CancerExplorerLiterature['prostate'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "FOLH1",
-    "TUBB",
-    "AR"
+    "FOLH1"
    ],
    "nodes": [
     "state-crpc-adeno",
@@ -11043,10 +10445,7 @@ window.CancerExplorerLiterature['prostate'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "TUBB",
-    "PDCD1",
-    "MSH2",
-    "AR"
+    "TUBB"
    ],
    "nodes": [
     "state-crpc",
@@ -11074,10 +10473,7 @@ window.CancerExplorerLiterature['prostate'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "TUBB",
-    "PDCD1",
-    "MSH2",
-    "AR"
+    "TUBB"
    ],
    "nodes": [
     "state-crpc",
@@ -11318,8 +10714,7 @@ window.CancerExplorerLiterature['prostate'] = {
    "species_from": "mesh",
    "genes": [
     "PDCD1",
-    "MSH2",
-    "AR"
+    "MSH2"
    ],
    "nodes": [
     "state-crpc-adeno"
@@ -11411,9 +10806,7 @@ window.CancerExplorerLiterature['prostate'] = {
    "species": "human",
    "species_from": "keywords",
    "genes": [
-    "FOLH1",
-    "TUBB",
-    "AR"
+    "FOLH1"
    ],
    "nodes": [
     "state-crpc-adeno",
@@ -11476,10 +10869,7 @@ window.CancerExplorerLiterature['prostate'] = {
    "species": "mouse",
    "species_from": "mesh",
    "genes": [
-    "TUBB",
-    "PDCD1",
-    "MSH2",
-    "AR"
+    "TUBB"
    ],
    "nodes": [
     "state-crpc",
@@ -11639,10 +11029,7 @@ window.CancerExplorerLiterature['prostate'] = {
    "species": "human",
    "species_from": "keywords",
    "genes": [
-    "TUBB",
-    "PDCD1",
-    "MSH2",
-    "AR"
+    "TUBB"
    ],
    "nodes": [
     "state-crpc",
@@ -11737,10 +11124,7 @@ window.CancerExplorerLiterature['prostate'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "TUBB",
-    "PDCD1",
-    "MSH2",
-    "AR"
+    "TUBB"
    ],
    "nodes": [
     "state-crpc",
@@ -11769,10 +11153,7 @@ window.CancerExplorerLiterature['prostate'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "TUBB",
-    "PDCD1",
-    "MSH2",
-    "AR"
+    "TUBB"
    ],
    "nodes": [
     "state-crpc",
@@ -11824,8 +11205,7 @@ window.CancerExplorerLiterature['prostate'] = {
    "species_from": "mesh",
    "genes": [
     "PDCD1",
-    "MSH2",
-    "AR"
+    "MSH2"
    ],
    "nodes": [
     "state-crpc-adeno"
@@ -11852,10 +11232,7 @@ window.CancerExplorerLiterature['prostate'] = {
    "species": "cell line",
    "species_from": "keywords",
    "genes": [
-    "TUBB",
-    "PDCD1",
-    "MSH2",
-    "AR"
+    "TUBB"
    ],
    "nodes": [
     "state-crpc",
@@ -11946,9 +11323,7 @@ window.CancerExplorerLiterature['prostate'] = {
    "species": "human",
    "species_from": "mesh",
    "genes": [
-    "FOLH1",
-    "TUBB",
-    "AR"
+    "FOLH1"
    ],
    "nodes": [
     "state-crpc-adeno",
@@ -12053,8 +11428,7 @@ window.CancerExplorerLiterature['prostate'] = {
    "species_from": "keywords",
    "genes": [
     "PDCD1",
-    "MSH2",
-    "AR"
+    "MSH2"
    ],
    "nodes": [
     "state-crpc-adeno"
